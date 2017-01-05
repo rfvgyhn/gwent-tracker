@@ -7,7 +7,44 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" AutoGenerateColumns="True"/>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="200" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox MinWidth="200"/>
+                <Button HorizontalAlignment="Right" Width="Auto">Filter</Button>
+            </StackPanel>
+            <ListView>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel>
+                            <TextBlock Text="{Binding}"/>
+                            <Button>X</Button>
+                        </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Width="{Binding (FrameworkElement.ActualWidth), 
+                            RelativeSource={RelativeSource AncestorType=ScrollContentPresenter}}"
+                                ItemWidth="{Binding (ListView.View).ItemWidth, 
+                            RelativeSource={RelativeSource AncestorType=ListView}}"
+                                MinWidth="{Binding ItemWidth, RelativeSource={RelativeSource Self}}"
+                                ItemHeight="{Binding (ListView.View).ItemHeight, 
+                            RelativeSource={RelativeSource AncestorType=ListView}}" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListViewItem>Filter 1</ListViewItem>
+                <ListViewItem>Filter 2</ListViewItem>
+            </ListView>
+            <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
+        </StackPanel>
+        
+        <ListView Grid.Column="1" x:Name="listView">
+            <ListViewItem>Notification 1</ListViewItem>
+            <ListViewItem>Notification 2</ListViewItem>
+        </ListView>
     </Grid>
 </Window>
