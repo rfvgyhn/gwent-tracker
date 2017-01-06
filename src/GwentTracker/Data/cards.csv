@@ -1,195 +1,181 @@
 Index,Deck,Territory,Name,ATK,Combat Type,Card Abilities,Type,Location,Location Character
-476,Monsters,Velen,Crone Weavess,6,Melee,Muster,Basic,Gwent Quest,"Seer (Old Sage), Benek"
-,Monsters,Velen,Eredin Bringer of Death,0,Leader,Dicard 2 draw 1,Leaders,Gwent Quest,Reward for completing this quest
+400,Monsters,Skellige,Draug,10,Melee,Immune to special,Hero,Gwent Quest,"Crach an Craite, Kaer Trolde, Ard Skellig"
+401,Monsters,Random,Kayran,8,Range,"Morale, Immune to special  ",Hero,Win from NPC,Randomly earned
+402,Monsters,Random,Imlerith,10,Melee,Immune to special,Hero,Win from NPC,Randomly earned
+403,Monsters,Skellige,Leshen,10,Range,Immune to special,Hero,Gwent Quest,"Ermion, Gedyneith, Ard Skellig"
+405,Monsters,Random,Forktail,5,Melee,None,Basic,Win from NPC,Randomly earned
+407,Monsters,Skellige,Earth Elemental,6,Siege,None,Basic,Buy from Trader,"Innkeeper, New Port Inn, Kaer Trolde Harbor"
+410,Monsters,Skellige,Fiend,6,Melee,None,Basic,Buy from Trader,"Innkeeper, Arinbjorn"
+413,Monsters,Random,Plague Maiden,5,Melee,None,Basic,Win from NPC,Randomly earned
+415,Monsters,Random,Griffin,5,Melee,None,Basic,Win from NPC,Randomly earned
+417,Monsters,Skellige,Werewolf,5,Melee,None,Basic,Buy from Trader,"Innkeeper, Urialla Village, An Skellig"
+420,Monsters,Skellige,Botchling,4,Melee,None,Basic,Buy from Trader,"Innkeeper, New Port Inn, Kaer Trolde Harbor"
+423,Monsters,Random,Frightener,5,Melee,None,Basic,Win from NPC,Randomly earned
+425,Monsters,Skellige,Ice Giant,5,Siege,None,Basic,Buy from Trader,"Innkeeper, Svorlag, Spikeroog"
+427,Monsters,Random,Endrega,2,Range,None,Basic,Win from NPC,Randomly earned
+430,Monsters,Skellige,Harpy,2,Melee / Range,Agile,Basic,Buy from Trader,"Innkeeper, Harviken tavern, Faroe"
+433,Monsters,Random,Cockatrice,2,Range,None,Basic,Win from NPC,Randomly earned
+435,Monsters,Random,Gargoyle,2,Range,None,Basic,Win from NPC,Randomly earned
+437,Monsters,Random,Celaeno Harpy,2,Range,None,Basic,Win from NPC,Randomly earned
+440,Monsters,Random,Grave Hag,5,Range,None,Basic,Win from NPC,Randomly earned
+443,Monsters,Random,Fire Elemental,6,Siege,None,Basic,Win from NPC,Randomly earned
+447,Monsters,Random,Wyvern,2,Range,None,Basic,Win from NPC,Randomly earned
+450,Monsters,Random,Arachas Behemoth,6,Siege,Muster,Basic,Win from NPC,Randomly earned
 451,Monsters,Skellige,Arachas (1 of 3),4,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Arinbjorn"
 452,Monsters,Skellige,Arachas (2 of 3),4,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Urialla Village, An Skellig"
 453,Monsters,Skellige,Arachas (3 of 3),4,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Svorlag, Spikeroog"
-420,Monsters,Skellige,Botchling,4,Melee,None,Basic,Buy from Trader,"Innkeeper, New Port Inn, Kaer Trolde Harbor"
-477,Monsters,Skellige,Crone Whispess,6,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Arinbjorn"
-407,Monsters,Skellige,Earth Elemental,6,Siege,None,Basic,Buy from Trader,"Innkeeper, New Port Inn, Kaer Trolde Harbor"
-410,Monsters,Skellige,Fiend,6,Melee,None,Basic,Buy from Trader,"Innkeeper, Arinbjorn"
-,Monsters,Skellige,Foglet,2,Melee,None,Basic,Buy from Trader,"Innkeeper, Svorlag, Spikeroog"
-472,Monsters,Skellige,Ghoul (3 of 3),1,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Harviken tavern, Faroe"
-430,Monsters,Skellige,Harpy,2,Melee / Range,Agile,Basic,Buy from Trader,"Innkeeper, Harviken tavern, Faroe"
-425,Monsters,Skellige,Ice Giant,5,Siege,None,Basic,Buy from Trader,"Innkeeper, Svorlag, Spikeroog"
+455,Monsters,Skellige,Nekker (1 of 3),2,Melee,Muster,Basic,Secondary Quest,Looting Hammonds corpse on Trottheim (Skelllige)
 456,Monsters,Skellige,Nekker (2 of 3),2,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Harviken tavern, Faroe"
+457,Monsters,Random,Nekker (3 of 3),2,Melee,Muster,Basic,Win from NPC,Randomly earned
 460,Monsters,Skellige,Vampire Ekimmara,4,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Svorlag, Spikeroog"
 461,Monsters,Skellige,Vampire Fleder,4,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Harviken tavern, Faroe"
-,Monsters,Skellige,Werewolf,5,Melee,None,Basic,Buy from Trader,"Innkeeper, Urialla Village, An Skellig"
-,Monsters,Skellige,Eredin King of the Wild Hunt,0,Leader,Horn Close Combat,Leaders,Buy from Trader,"Innkeeper, New Port Inn, Kaer Trolde Harbor"
-,Monsters,Skellige,Vampire Katakan,5,Melee,Muster,Basic,Gwent Quest,"Jarl Madman Lugos, Kaer Muire, Ard Skellig"
-,Monsters,Skellige,Draug,10,Melee,Immune to special,Hero,Gwent Quest,"Crach an Craite, Kaer Trolde, Ard Skellig"
-,Monsters,Skellige,Leshen,10,Range,Immune to special,Hero,Gwent Quest,"Ermion, Gedyneith, Ard Skellig"
-455,Monsters,Skellige,Nekker (1 of 3),2,Melee,Muster,Basic,Secondary Quest,Looting Hammonds corpse on Trottheim (Skelllige)
-,Monsters,Random,Arachas Behemoth,6,Siege,Muster,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Celaeno Harpy,2,Range,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Cockatrice,2,Range,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Crone Brewess,6,Melee,Muster,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Endrega,2,Range,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Fire Elemental,6,Siege,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Forktail,5,Melee,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Frightener,5,Melee,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Gargoyle,2,Range,None,Basic,Win from NPC,Randomly earned
+462,Monsters,Random,Vampire Garkain,4,Melee,Muster,Basic,Win from NPC,Randomly earned
+463,Monsters,Novigrad (Gustfields),Vampire Bruxa,4,Melee,Muster,Basic,Secondary Quest,Win a match at the masquerade ball at Vegelbud Estate (A ..
+464,Monsters,Skellige,Vampire Katakan,5,Melee,Muster,Basic,Gwent Quest,"Jarl Madman Lugos, Kaer Muire, Ard Skellig"
 470,Monsters,Random,Ghoul (1 of 3),1,Melee,Muster,Basic,Win from NPC,Randomly earned
 471,Monsters,Random,Ghoul (2 of 3),1,Melee,Muster,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Grave Hag,5,Range,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Griffin,5,Melee,None,Basic,Win from NPC,Randomly earned
-457,Monsters,Random,Nekker (3 of 3),2,Melee,Muster,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Plague Maiden,5,Melee,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Vampire Garkain,4,Melee,Muster,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Wyvern,2,Range,None,Basic,Win from NPC,Randomly earned
-,Monsters,Random,Imlerith,10,Melee,Immune to special,Hero,Win from NPC,Randomly earned
-,Monsters,Random,Kayran,8,Range,"Morale, Immune to special  ",Hero,Win from NPC,Randomly earned
-,Monsters,Novigrad (Gustfields),Vampire Bruxa,4,Melee,Muster,Basic,Secondary Quest,Win a match at the masquerade ball at Vegelbud Estate (A ..
-,Monsters,Novigrad,Eredin Destroyer of Worlds,0,Leader,Medic,Leaders,Secondary Quest,"Quest, Passiflora"
+472,Monsters,Skellige,Ghoul (3 of 3),1,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Harviken tavern, Faroe"
+475,Monsters,Random,Crone Brewess,6,Melee,Muster,Basic,Win from NPC,Randomly earned
+476,Monsters,Velen,Crone Weavess,6,Melee,Muster,Basic,Gwent Quest,"Seer (Old Sage), Benek"
+477,Monsters,Skellige,Crone Whispess,6,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Arinbjorn"
 4001,Monsters,Geralt of Rivia,Eredin Commander of the Red Riders,0,Leader,Pick any weather,Leaders,Base Deck,Included at start of game
-,Neutral,White Orchard,Decoy (1 of 3),0,Special,Swap with a non-Hero card,Special,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
-,Neutral,White Orchard,Zoltan Chivay,5,Melee,None,Basic,Win From Gwent Teacher,First Gwent game
-,Neutral,Velen,Commander's Horn (1 of 3),0,Special,Double the strength of Row,Special,Buy from Trader,"Innkeeper, Crossroads Inn"
-,Neutral,Velen,Decoy (2 of 3),0,Special,Swap with a non-Hero card,Special,Buy from Trader,"Quartermaster's Baron's Store, Crow's Perch"
-,Neutral,Skellige,Scorch (2 of 3),0,Special,Destroys the strongest Non-Hero Card,Special,Buy from Trader,"Innkeeper, New Port Inn, Kaer Trolde Harbor"
-,Neutral,Skellige,Scorch (3 of 3),0,Special,Destroys the strongest Non-Hero Card,Special,Buy from Trader,"Innkeeper, Urialla Village, An Skellig"
-,Neutral,Skellige,Avallac'h (A.K.A Mysterious Elf),0,Melee,"Spy, Immune to special  ",Hero,Gwent Quest,"Gremita, Gedyneith, Ard Skellig"
-,Neutral,Random,Emiel Regis Rohellec Terzieff,5,Melee,None,Basic,Win from NPC,Randomly earned
-,Neutral,Random,Villentretenmerth,7,Melee,Destroy oppon Strongest Melee if Melee+10,Basic,Win from NPC,Randomly earned
-,Neutral,Random,Biting Frost (3 of 3),0,Weather,Sets all Non-Hero melee to 1,Special,Win from NPC,Randomly earned
-,Neutral,Random,Clear Weather (2 of 2),0,Weather,Removes all weather,Special,Win from NPC,Randomly earned
-,Neutral,Random,Impenetrable Fog (3 of 3),0,Weather,Sets all Non-Hero rangeto 1,Special,Win from NPC,Randomly earned
-,Neutral,Random,Torrential Rain (2 of 2),0,Weather,Sets all Non-Hero siege to 1,Special,Win from NPC,Randomly earned
-,Neutral,Novigrad (Oxenfurt),Commander's Horn (3 of 3),0,Special,Double the strength of Row,Special,Buy from Trader,"Stjepan, The Alchemy Inn, Oxenfurt"
-,Neutral,Novigrad (Oxenfurt),Yennefer of Vengerberg,7,Range,"Medic, Immune to special",Hero,Gwent Quest,"Stjepan, The Alchemy Inn, Oxenfurt"
-,Neutral,Novigrad (Gustfields),Decoy (3 of 3),0,Special,Swap with a non-Hero card,Special,Buy from Trader,"Innkeeper, Seven Cats Inn"
-,Neutral,Novigrad (Gustfields),Dandelion,2,Melee,Commander's Horn,Basic,Secondary Quest,Win a match at the masquerade ball at Vegelbud Estate (A matter of life and death quest)
-,Neutral,Novigrad (Grassy Knoll),Scorch (1 of 3),0,Special,Destroys the strongest Non-Hero Card,Special,Buy from Trader," Innkeeper, Cunny of the Goose"
-,Neutral,Novigrad (Grassy Knoll),Cirilla Fiona Elen Rianno,15,Melee,Immune to special,Hero,Gwent Quest,"Scoia’Tael Trader and Camp, Novigrad Forest"
-,Neutral,Novigrad,Commander's Horn (2 of 3),0,Special,Double the strength of Row,Special,Buy from Trader,Marquise Serenity in Passiflora
-,Neutral,Novigrad,Geralt of Rivia,15,Melee,Immune to special,Hero,Gwent Quest,Thaler at the Seven Cats Inn
-,Neutral,Novigrad,Triss Merigold,7,Melee,Immune to special,Hero,Gwent Quest," Lambert, The Nowhere Inn or at Kaer Morhen after Following the Thread Quest"
-,Neutral,Novigrad,Vesemir,6,Melee,None,Basic,Gwent Quest,"Vivaldi, Bank of Vivaldi, Hierarch Square"
-,Neutral,Geralt of Rivia,Biting Frost (1 of 3),0,Weather,Sets all Non-Hero melee to 1,Special,Base Deck,Included at start of game
-,Neutral,Geralt of Rivia,Biting Frost (2 of 3),0,Weather,Sets all Non-Hero melee to 1,Special,Base Deck,Included at start of game
-,Neutral,Geralt of Rivia,Clear Weather (1 of 2),0,Weather,Removes all weather,Special,Base Deck,Included at start of game
-,Neutral,Geralt of Rivia,Impenetrable Fog (1 of 3),0,Weather,Sets all Non-Hero rangeto 1,Special,Base Deck,Included at start of game
-,Neutral,Geralt of Rivia,Impenetrable Fog (2 of 3),0,Weather,Sets all Non-Hero rangeto 1,Special,Base Deck,Included at start of game
-,Neutral,Geralt of Rivia,Torrential Rain (1 of 2),0,Weather,Sets all Non-Hero siege to 1,Special,Base Deck,Included at start of game
-,Nilfgaard,Velen,Albrich,2,Range,None,Basic,Buy from Trader,"Trader, Crow's Perch"
-,Nilfgaard,Velen,Black Infantry Archer (1 of 2),10,Range,None,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
-,Nilfgaard,Velen,Black Infantry Archer (2 of 2),10,Range,None,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
-,Nilfgaard,Velen,Cynthia,4,Range,None,Basic,Buy from Trader,"Quartermaster's Baron's Store, Crow's Perch"
-,Nilfgaard,Velen,Etolian Auxiliary Archers (1 of 2),1,Range,Medic,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
-,Nilfgaard,Velen,Etolian Auxiliary Archers (2 of 2),1,Range,Medic,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
-,Nilfgaard,Velen,Heavy Zerrikanian Fire Scorpion,10,Siege,None,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
-,Nilfgaard,Velen,Impera Brigade Guard (1 of 4),3,Melee,Bond,Basic,Buy from Trader,"Trader, Crow's Perch"
-,Nilfgaard,Velen,Impera Brigade Guard (2 of 4),3,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Crossroads Inn"
-,Nilfgaard,Velen,Morteisen,3,Melee,None,Basic,Buy from Trader,"Shopkeeper, Midcopse"
-,Nilfgaard,Velen,Nausicaa Cavalry Rider (1 of 3),2,Melee,Bond,Basic,Buy from Trader,"Quartermaster's Baron's Store, Crow's Perch"
-,Nilfgaard,Velen,Nausicaa Cavalry Rider (2 of 3),2,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Crossroads Inn"
-,Nilfgaard,Velen,Nausicaa Cavalry Rider (3 of 3),2,Melee,Bond,Basic,Buy from Trader,"Trader, Crow's Perch"
-,Nilfgaard,Velen,Puttkammer,3,Range,None,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
-,Nilfgaard,Velen,Rainfarn,4,Melee,None,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
-,Nilfgaard,Velen,Siege Engineer,6,Siege,None,Basic,Buy from Trader,"Innkeeper, Crossroads Inn"
-,Nilfgaard,Velen,Sweers,2,Range,None,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
-,Nilfgaard,Velen,Zerrikanian Fire Scorpion,5,Siege,None,Basic,Buy from Trader,"Trader, Crow's Perch"
-,Nilfgaard,Velen,Emhyr var Emreis Emperor of Nilfgaard,0,Leader,Look at 3 Opp Cards,Leaders,Buy from Trader,"Innkeeper, Crossroads Inn"
-,Nilfgaard,Velen,Letho of Gulet,10,Melee,Immune to special,Hero,Gwent Quest,The Boatbuilder in Oreton
-,Nilfgaard,Velen,Menno Coehoorn,10,Melee,Immune to special,Hero,Gwent Quest,"Innkeeper, Crossroads Inn"
-,Nilfgaard,Velen,Assire var Anahid,6,Range,None,Basic,Win from crafter or Merchant,Randomly earned
-,Nilfgaard,Skellige,Emhry var Emrels the White Flame,0,Leader,Cancel Opp Leader,Leaders,Gwent Quest,Reward for completing Quest
-,Nilfgaard,Random,Cahir Mawr Dyffryn aep Ceallach,6,Melee,None,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Random,Renuald aep Matsen,5,Range,None,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Random,Rotten Mangonel,3,Siege,None,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Random,Shilard Fitz-Oesterlen,7,Melee,Spy,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Random,Stefan Skellen,9,Melee,Spy,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Random,Vanhemar,4,Range,None,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Random,Vattier de Rideaux,4,Melee,Spy,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Random,Vreemde,2,Melee,None,Basic,Win from NPC,Randomly Earned
-,Nilfgaard,Novigrad (Gust Fields),Impera Brigade Guard (3 of 4),3,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
-,Nilfgaard,Novigrad (Gust Fields),Young Emissary (2 of 2),5,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
-,Nilfgaard,Novigrad (Grassy Knol),Impera Brigade Guard (4 of 4),3,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Cunny of the Goose"
-,Nilfgaard,Novigrad (Grassy Knol),Young Emissary (1 of 2),5,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Cunny of the Goose"
-,Nilfgaard,Novigrad,Siege Technician,0,Siege,Medic,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
-,Nilfgaard,Novigrad,Morvran Voorhis,10,Siege,Immune to special,Hero,Gwent Quest,Marquise Serenity in Passiflora
-,Nilfgaard,Novigrad,Tibor Eggebracht,10,Range,Immune to special,Hero,Gwent Quest,"Olivier, Kingfisher Inn"
-,Nilfgaard,Novigrad,Fringilla Vigo,6,Range,None,Basic,Secondary Quest,At Caesar Bilzen's home while on a quest
-,Nilfgaard,Novigrad,Emhyr var Emreis the Relentless,0,Leader,Draw card from opp Discard,Leaders,Secondary Quest,"Quest, Passiflora"
+4002,Monsters,Skellige,Eredin King of the Wild Hunt,0,Leader,Horn Close Combat,Leaders,Buy from Trader,"Innkeeper, New Port Inn, Kaer Trolde Harbor"
+4003,Monsters,Velen,Eredin Bringer of Death,0,Leader,Dicard 2 draw 1,Leaders,Gwent Quest,Reward for completing this quest
+4004,Monsters,Novigrad,Eredin Destroyer of Worlds,0,Leader,Medic,Leaders,Secondary Quest,"Quest, Passiflora"
+445,Monsters,Skellige,Foglet,2,Melee,None,Basic,Buy from Trader,"Innkeeper, Svorlag, Spikeroog"
+7,Neutral,Novigrad,Geralt of Rivia,15,Melee,Immune to special,Hero,Gwent Quest,Thaler at the Seven Cats Inn
+8,Neutral,Novigrad,Vesemir,6,Melee,None,Basic,Gwent Quest,"Vivaldi, Bank of Vivaldi, Hierarch Square"
+9,Neutral,Novigrad (Oxenfurt),Yennefer of Vengerberg,7,Range,"Medic, Immune to special",Hero,Gwent Quest,"Stjepan, The Alchemy Inn, Oxenfurt"
+10,Neutral,Novigrad (Grassy Knoll),Cirilla Fiona Elen Rianno,15,Melee,Immune to special,Hero,Gwent Quest,"Scoia’Tael Trader and Camp, Novigrad Forest"
+11,Neutral,Novigrad,Triss Merigold,7,Melee,Immune to special,Hero,Gwent Quest,"Lambert, The Nowhere Inn or at Kaer Morhen after Following the Thread Quest"
+12,Neutral,Novigrad (Gustfields),Dandelion,2,Melee,Commander's Horn,Basic,Secondary Quest,Win a match at the masquerade ball at Vegelbud Estate (A matter of life and death quest)
+13,Neutral,White Orchard,Zoltan Chivay,5,Melee,None,Basic,Win From Gwent Teacher,First Gwent game
+14,Neutral,Random,Emiel Regis Rohellec Terzieff,5,Melee,None,Basic,Win from NPC,Randomly earned
+15,Neutral,Random,Villentretenmerth,7,Melee,Destroy oppon Strongest Melee if Melee+10,Basic,Win from NPC,Randomly earned
+16,Neutral,Skellige,Avallac'h (A.K.A Mysterious Elf),0,Melee,"Spy, Immune to special  ",Hero,Gwent Quest,"Gremita, Gedyneith, Ard Skellig"
+0,Neutral,"White Orchard, Velen, Novigrad (Gustfields)",Decoy (1 of 3),0,Special,Swap with a non-Hero card,Special,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside); Quartermaster's Baron's Store, Crow's Perch; Innkeeper, Seven Cats Inn"
+1,Neutral,"Velen, Novigrad, Novigrad (Oxenfurt)",Commander's Horn (1 of 3),0,Special,Double the strength of Row,Special,Buy from Trader,"Innkeeper, Crossroads Inn; Marquise Serenity, Passiflora; Stjepan, The Alchemy Inn"
+2,Neutral,"Novigrad (Grassy Knoll), Skellige, Skellige",Scorch (1 of 3),0,Special,Destroys the strongest Non-Hero Card,Special,Buy from Trader,"Innkeeper, Cunny of the Goose; Innkeeper, New Port Inn, Kaer Trolde Harbor; Innkeeper, Urialla Village, An Skellig"
+6,Neutral,"Geralt of Rivia, Random",Clear Weather (1 of 2),0,Weather,Removes all weather,Special,Base Deck,Included at start of game; Randomly earned
+5,Neutral,"Geralt of Rivia, Random",Torrential Rain (1 of 2),0,Weather,Sets all Non-Hero siege to 1,Special,Base Deck,Included at start of game; Randomly earned
+3,Neutral,"Geralt of Rivia, Geralt of Rivia, Random",Biting Frost (1 of 3),0,Weather,Sets all Non-Hero melee to 1,Special,Base Deck,Included at start of game; Included at start of game; Randomly earned
+4,Neutral,"Geralt of Rivia, Geralt of Rivia, Random",Impenetrable Fog (1 of 3),0,Weather,Sets all Non-Hero rangeto 1,Special,Base Deck,Included at start of game; Included at start of game; Randomly earned
+200,Nilfgaard,Velen,Letho of Gulet,10,Melee,Immune to special,Hero,Gwent Quest,The Boatbuilder in Oreton
+201,Nilfgaard,Velen,Menno Coehoorn,10,Melee,Immune to special,Hero,Gwent Quest,"Innkeeper, Crossroads Inn"
+202,Nilfgaard,Novigrad,Morvran Voorhis,10,Siege,Immune to special,Hero,Gwent Quest,Marquise Serenity in Passiflora
+203,Nilfgaard,Novigrad,Tibor Eggebracht,10,Range,Immune to special,Hero,Gwent Quest,"Olivier, Kingfisher Inn"
+205,Nilfgaard,Velen,Albrich,2,Range,None,Basic,Buy from Trader,"Trader, Crow's Perch"
+206,Nilfgaard,Velen,Assire var Anahid,6,Range,None,Basic,Win from crafter or Merchant,Randomly earned
+207,Nilfgaard,Velen,Cynthia,4,Range,None,Basic,Buy from Trader,"Quartermaster's Baron's Store, Crow's Perch"
+208,Nilfgaard,Novigrad,Fringilla Vigo,6,Range,None,Basic,Secondary Quest,At Caesar Bilzen's home while on a quest
+209,Nilfgaard,Velen,Morteisen,3,Melee,None,Basic,Buy from Trader,"Shopkeeper, Midcopse"
+210,Nilfgaard,Velen,Rainfarn,4,Melee,None,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
+211,Nilfgaard,Random,Renuald aep Matsen,5,Range,None,Basic,Win from NPC,Randomly Earned
+212,Nilfgaard,Random,Rotten Mangonel,3,Siege,None,Basic,Win from NPC,Randomly Earned
+213,Nilfgaard,Random,Shilard Fitz-Oesterlen,7,Melee,Spy,Basic,Win from NPC,Randomly Earned
+214,Nilfgaard,Random,Stefan Skellen,9,Melee,Spy,Basic,Win from NPC,Randomly Earned
+215,Nilfgaard,Velen,Sweers,2,Range,None,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
+217,Nilfgaard,Random,Vanhemar,4,Range,None,Basic,Win from NPC,Randomly Earned
+218,Nilfgaard,Random,Vattier de Rideaux,4,Melee,Spy,Basic,Win from NPC,Randomly Earned
+219,Nilfgaard,Random,Vreemde,2,Melee,None,Basic,Win from NPC,Randomly Earned
+220,Nilfgaard,Random,Cahir Mawr Dyffryn aep Ceallach,6,Melee,None,Basic,Win from NPC,Randomly Earned
+221,Nilfgaard,Velen,Puttkammer,3,Range,None,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
+230,Nilfgaard,Velen,Etolian Auxiliary Archers (1 of 2),1,Range,Medic,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
+231,Nilfgaard,Velen,Etolian Auxiliary Archers (2 of 2),1,Range,Medic,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
+235,Nilfgaard,Velen,Black Infantry Archer (1 of 2),10,Range,None,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
+236,Nilfgaard,Velen,Black Infantry Archer (2 of 2),10,Range,None,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
+240,Nilfgaard,Velen,Heavy Zerrikanian Fire Scorpion,10,Siege,None,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
+241,Nilfgaard,Velen,Zerrikanian Fire Scorpion,5,Siege,None,Basic,Buy from Trader,"Trader, Crow's Perch"
+245,Nilfgaard,Velen,Impera Brigade Guard (1 of 4),3,Melee,Bond,Basic,Buy from Trader,"Trader, Crow's Perch"
+246,Nilfgaard,Velen,Impera Brigade Guard (2 of 4),3,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Crossroads Inn"
+247,Nilfgaard,Novigrad (Gust Fields),Impera Brigade Guard (3 of 4),3,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
+248,Nilfgaard,Novigrad (Grassy Knol),Impera Brigade Guard (4 of 4),3,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Cunny of the Goose"
+250,Nilfgaard,Velen,Nausicaa Cavalry Rider (1 of 3),2,Melee,Bond,Basic,Buy from Trader,"Quartermaster's Baron's Store, Crow's Perch"
+251,Nilfgaard,Velen,Nausicaa Cavalry Rider (2 of 3),2,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Crossroads Inn"
+252,Nilfgaard,Velen,Nausicaa Cavalry Rider (3 of 3),2,Melee,Bond,Basic,Buy from Trader,"Trader, Crow's Perch"
+255,Nilfgaard,Velen,Siege Engineer,6,Siege,None,Basic,Buy from Trader,"Innkeeper, Crossroads Inn"
+260,Nilfgaard,Novigrad (Grassy Knol),Young Emissary (1 of 2),5,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Cunny of the Goose"
+261,Nilfgaard,Novigrad (Gust Fields),Young Emissary (2 of 2),5,Melee,Bond,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
+265,Nilfgaard,Novigrad,Siege Technician,0,Siege,Medic,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
 2001,Nilfgaard,Geralt of Rivia,Emhry var Emrels His Imperial Majesty,0,Leader,Rain,Leaders,Base Deck,Included at start of game
-,Norther Realms,White Orchard,Blue Stripes Commando (1 of 3),4,Melee,Bond,Basic,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
-,Norther Realms,White Orchard,Catapult (1 of 2),8,Siege,Bond,Basic,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
-,Norther Realms,White Orchard,Crinfrid Reavers Dragon Hunter (1 of 3),5,Range,Bond,Basic,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
-,Norther Realms,White Orchard,Foltest Lord Commander of the North,0,Leader,Clear Weather,Leaders,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
-,Norther Realms,Velen,Crinfrid Reavers Dragon Hunter (2 of 3),5,Range,Bond,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
-,Norther Realms,Velen,Crinfrid Reavers Dragon Hunter (3 of 3),5,Range,Bond,Basic,Buy from Trader,"Shopkeeper,  Midcopse"
-,Norther Realms,Velen,Poor Fucking Infantry (3 of 3),1,Melee,Bond,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
-,Norther Realms,Velen,Sigismund Dijkstra,4,Melee,Spy,Basic,Gwent Quest,"Bloody Baron, Phillip Strenger, Crow’s Perch"
-,Norther Realms,Velen,Vernon Roche,10,Melee,Immune to special,Hero,Gwent Quest,"Hadko the Card Prodigy, Midcopse"
-,Norther Realms,Skellige,Thaler,1,Siege,Spy,Basic,Buy from Trader,"Innkeeper, Arinbjorn"
-,Norther Realms,Random,Siege Tower,6,Siege,None,Basic,Win from NPC,Randomly Earned
-,Norther Realms,Random,Philippa Eilhart,10,Range,Immune to special,Hero,Win from NPC,Randomly Earned
-,Norther Realms,Palace of Vizima,Foltest the Siegemaster,0,Leader,Horn on Siege,Leaders,Vizima Palace Couryard,Beat Nilfgaardian Nobleman
-,Norther Realms,Novigrad,Catapult (2 of 2),8,Siege,Bond,Basic,Buy from Trader,Marquise Serenity in Passiflora
-,Norther Realms,Novigrad,Esterad Thyssen,10,Melee,Immune to special,Hero,Gwent Quest,"Dijkstra, Bathhouse"
-,Norther Realms,Novigrad,John Natalis,10,Melee,Immune to special,Hero,Secondary Quest,"Ravvy, Golden Sturgeon Tavern"
-,Norther Realms,Novigrad,Foltest the Steel-Forged,0,Leader,Scorch Siege if +10,Leaders,Secondary Quest,"Quest, Passiflora"
-,Norther Realms,Geralt of Rivia,Blue Stripes Commando (2 of 3),4,Melee,Bond,Basic,Base Deck,Included at start of game
-,Norther Realms,Geralt of Rivia,Blue Stripes Commando (3 of 3),4,Melee,Bond,Basic,Base Deck,Included at start of game
+2002,Nilfgaard,Velen,Emhyr var Emreis Emperor of Nilfgaard,0,Leader,Look at 3 Opp Cards,Leaders,Buy from Trader,"Innkeeper, Crossroads Inn"
+2003,Nilfgaard,Skellige,Emhry var Emrels the White Flame,0,Leader,Cancel Opp Leader,Leaders,Gwent Quest,Reward for completing Quest
+2004,Nilfgaard,Novigrad,Emhyr var Emreis the Relentless,0,Leader,Draw card from opp Discard,Leaders,Secondary Quest,"Quest, Passiflora"
+100,Norther Realms,Velen,Vernon Roche,10,Melee,Immune to special,Hero,Gwent Quest,"Hadko the Card Prodigy, Midcopse"
+101,Norther Realms,Novigrad,John Natalis,10,Melee,Immune to special,Hero,Secondary Quest,"Ravvy, Golden Sturgeon Tavern"
+102,Norther Realms,Novigrad,Esterad Thyssen,10,Melee,Immune to special,Hero,Gwent Quest,"Dijkstra, Bathhouse"
+103,Norther Realms,Random,Philippa Eilhart,10,Range,Immune to special,Hero,Win from NPC,Randomly Earned
+105,Norther Realms,Skellige,Thaler,1,Siege,Spy,Basic,Buy from Trader,"Innkeeper, Arinbjorn"
+106,Norther Realms,Geralt of Rivia,Ves,5,Melee,None,Basic,Base Deck,Included at start of game
+107,Norther Realms,Geralt of Rivia,Siegfried of Denesle,5,Melee,None,Basic,Base Deck,Included at start of game
+108,Norther Realms,Geralt of Rivia,Yarpen Zigrin,2,Melee,None,Basic,Base Deck,Included at start of game
+109,Norther Realms,Velen,Sigismund Dijkstra,4,Melee,Spy,Basic,Gwent Quest,"Bloody Baron, Phillip Strenger, Crow’s Perch"
+111,Norther Realms,Geralt of Rivia,Keira Metz,5,Range,None,Basic,Base Deck,Included at start of game
+112,Norther Realms,Geralt of Rivia,Sıĺ e de Tansarville,5,Range,None,Basic,Base Deck,Included at start of game
+113,Norther Realms,Geralt of Rivia,Sabrina Glevissig,4,Range,None,Basic,Base Deck,Included at start of game
+114,Norther Realms,Geralt of Rivia,Sheldon Skaggs,4,Range,None,Basic,Base Deck,Included at start of game
 115,Norther Realms,Geralt of Rivia,Dethmold,6,Range,None,Basic,Base Deck,Included at start of game
-175,Norther Realms,Geralt of Rivia,Dun Banner Medic,5,Siege,Medic,Basic,Base Deck,Included at start of game
+116,Norther Realms,Geralt of Rivia,Prince Stennis,5,Melee,Spy,Basic,Base Deck,Included at start of game
+120,Norther Realms,Geralt of Rivia,Trebuchet (1 of 2),6,Siege,None,Basic,Base Deck,Included at start of game
+121,Norther Realms,Geralt of Rivia,Trebuchet (2 of 2),6,Siege,None,Basic,Base Deck,Included at start of game
+125,Norther Realms,Geralt of Rivia,Poor Fucking Infantry (1 of 3),1,Melee,Bond,Basic,Base Deck,Included at start of game
+126,Norther Realms,Geralt of Rivia,Poor Fucking Infantry (2 of 3),1,Melee,Bond,Basic,Base Deck,Included at start of game
+127,Norther Realms,Velen,Poor Fucking Infantry (3 of 3),1,Melee,Bond,Basic,Buy from Trader,"Merchant, Lindenvale (See Notes)"
+130,Norther Realms,White Orchard,Crinfrid Reavers Dragon Hunter (1 of 3),5,Range,Bond,Basic,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
+131,Norther Realms,Velen,Crinfrid Reavers Dragon Hunter (2 of 3),5,Range,Bond,Basic,Buy from Trader,"Trader, Claywich Village (Rescue Trader first, See Notes)"
+132,Norther Realms,Velen,Crinfrid Reavers Dragon Hunter (3 of 3),5,Range,Bond,Basic,Buy from Trader,"Shopkeeper,  Midcopse"
+135,Norther Realms,Geralt of Rivia,Redanian Foot Soldier (1 of 2),1,Melee,None,Basic,Base Deck,Included at start of game
+136,Norther Realms,Geralt of Rivia,Redanian Foot Soldier (2 of 2),1,Melee,None,Basic,Base Deck,Included at start of game
+140,Norther Realms,White Orchard,Catapult (1 of 2),8,Siege,Bond,Basic,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
+141,Norther Realms,Novigrad,Catapult (2 of 2),8,Siege,Bond,Basic,Buy from Trader,Marquise Serenity in Passiflora
 150,Norther Realms,Geralt of Rivia,Kaedweni Siege Expert (1 of 3),1,Siege,Morale,Basic,Base Deck,Included at start of game
 151,Norther Realms,Geralt of Rivia,Kaedweni Siege Expert (2 of 3),1,Siege,Morale,Basic,Base Deck,Included at start of game
 152,Norther Realms,Geralt of Rivia,Kaedweni Siege Expert (3 of 3),1,Siege,Morale,Basic,Base Deck,Included at start of game
-111,Norther Realms,Geralt of Rivia,Keira Metz,5,Range,None,Basic,Base Deck,Included at start of game
-125,Norther Realms,Geralt of Rivia,Poor Fucking Infantry (1 of 3),1,Melee,Bond,Basic,Base Deck,Included at start of game
-126,Norther Realms,Geralt of Rivia,Poor Fucking Infantry (2 of 3),1,Melee,Bond,Basic,Base Deck,Included at start of game
-116,Norther Realms,Geralt of Rivia,Prince Stennis,5,Melee,Spy,Basic,Base Deck,Included at start of game
-135,Norther Realms,Geralt of Rivia,Redanian Foot Soldier (1 of 2),1,Melee,None,Basic,Base Deck,Included at start of game
-136,Norther Realms,Geralt of Rivia,Redanian Foot Soldier (2 of 2),1,Melee,None,Basic,Base Deck,Included at start of game
-113,Norther Realms,Geralt of Rivia,Sabrina Glevissig,4,Range,None,Basic,Base Deck,Included at start of game
-114,Norther Realms,Geralt of Rivia,Sheldon Skaggs,4,Range,None,Basic,Base Deck,Included at start of game
-107,Norther Realms,Geralt of Rivia,Siegfried of Denesle,5,Melee,None,Basic,Base Deck,Included at start of game
-112,Norther Realms,Geralt of Rivia,Sıĺ e de Tansarville,5,Range,None,Basic,Base Deck,Included at start of game
-120,Norther Realms,Geralt of Rivia,Trebuchet (1 of 2),6,Siege,None,Basic,Base Deck,Included at start of game
-121,Norther Realms,Geralt of Rivia,Trebuchet (2 of 2),6,Siege,None,Basic,Base Deck,Included at start of game
-106,Norther Realms,Geralt of Rivia,Ves,5,Melee,None,Basic,Base Deck,Included at start of game
-108,Norther Realms,Geralt of Rivia,Yarpen Zigrin,2,Melee,None,Basic,Base Deck,Included at start of game
+170,Norther Realms,Random,Siege Tower,6,Siege,None,Basic,Win from NPC,Randomly Earned
+175,Norther Realms,Geralt of Rivia,Dun Banner Medic,5,Siege,Medic,Basic,Base Deck,Included at start of game
 1001,Norther Realms,Geralt of Rivia,Foltest King of Temeria,0,Leader,Fog,Leaders,Base Deck,Included at start of game
-,Scoia'tael,Skellige,Elven Skirmisher (3 of 3),2,Range,Muster,Basic,Buy from Trader,"Innkeeper, Urialla Village, An Skellig"
-,Scoia'tael,Skellige,Yaevinn,6,Melee / Range,Agile,Basic,Gwent Quest,"Sjusta the Tailor, Kaer Trolde Harbor, Ard Skellig"
-,Scoia'tael,Skellige,Iorveth,10,Range,Immune to special,Hero,Secondary Quest,"Druid after the quest, in Gedyneith, Ard Skellig"
-,Scoia'tael,Random,Ciaran aep Easnillien,3,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Dennis Cranmer,6,Melee / Range,None,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Dol Blathanna Scout (1 of 3),6,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Dol Blathanna Scout (2 of 3),6,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Dwarven Skirmisher (1 of 3),3,Melee,Muster,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Dwarven Skirmisher (2 of 3),3,Melee,Muster,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Elven Skirmisher (1 of 3),2,Range,Muster,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Elven Skirmisher (2 of 3),2,Range,Muster,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Filavandrel aen Fidhail,6,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Havekar Healer (1 of 3),0,Range,Medic,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Havekar Smuggler (2 of 3),5,Melee,Muster,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Ida Emean aep Sivney,6,Range,None,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Riordain,1,Range,None,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Toruviel,2,Range,None,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Random,Vrihedd Brigade Recruit,4,Range,None,Basic,Win from NPC,Randomly earned
-,Scoia'tael,Novigrad (Oxenfurt),Dwarven Skirmisher (3 of 3),3,Melee,Muster,Basic,Buy from Trader,"Stjepan, The Alchemy Inn, Oxenfurt"
-,Scoia'tael,Novigrad (Oxenfurt),Mahakaman Defender (4 of 5),5,Melee,None,Basic,Buy from Trader,"Stjepan, The Alchemy Inn, Oxenfurt"
-,Scoia'tael,Novigrad (Oxenfurt),Vrihedd Brigade Veteran (1 of 2),5,Melee / Range,Agile,Basic,Buy from Trader,"Stjepan, The Alchemy Inn, Oxenfurt"
-,Scoia'tael,Novigrad (Gustfields),Havekar Smuggler (1 of 3),5,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
-,Scoia'tael,Novigrad (Gustfields),Mahakaman Defender (3 of 5),5,Melee,None,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
-,Scoia'tael,Novigrad (Gustfields),Saesenthessis,10,Range,Immune to special,Hero,Gwent Quest,"Vernon Roche, Temerian Resistance Camp"
-,Scoia'tael,Novigrad (Gustfields),Milva,10,Range,Morale,Basic,Secondary Quest,Win a match at the masquerade ball at Vegelbud Estate (A ..
-,Scoia'tael,Novigrad (Grassy Knoll),Francesca Findabair Daisy of The Valley,0,Leader,Draw extra card,Leaders,Buy from Trader,"Innkeeper, Cunny of the Goose"
-,Scoia'tael,Novigrad (Grassy Knoll),Havekar Healer (2 of 3),0,Range,Medic,Basic,Buy from Trader,"Innkeeper, Cunny of the Goose"
+1002,Norther Realms,White Orchard,Foltest Lord Commander of the North,0,Leader,Clear Weather,Leaders,Buy from Trader,"Innkeeperess, White Orchard Tavern (or Trader outside)"
+1003,Norther Realms,Palace of Vizima,Foltest the Siegemaster,0,Leader,Horn on Siege,Leaders,Vizima Palace Couryard,Beat Nilfgaardian Nobleman
+1004,Norther Realms,Novigrad,Foltest the Steel-Forged,0,Leader,Scorch Siege if +10,Leaders,Secondary Quest,"Quest, Passiflora"
+160,Norther Realms,"Geralt of Rivia, Geralt of Rivia, White Orchard",Blue Stripes Commando,4,Melee,Bond,Basic,"Buy from Trader, Base Deck","Included at start of game; Included at start of game; Innkeeperess, White Orchard Tavern (or Trader outside)"
+300,Scoia'tael,Novigrad,Eithné,10,Range,Immune to special,Hero,Gwent Quest,"Zoltan, Rosemary and Thyme (Starts Gwent: Old Pals quest)"
+302,Scoia'tael,Novigrad,Isengrim Faolitarna,10,Melee,"Morale, Immune to Special",Hero,Secondary Quest,Inside Zed's home during a quest
+303,Scoia'tael,Skellige,Iorveth,10,Range,Immune to special,Hero,Secondary Quest,"Druid after the quest, in Gedyneith, Ard Skellig"
+305,Scoia'tael,Random,Dennis Cranmer,6,Melee / Range,None,Basic,Win from NPC,Randomly earned
+306,Scoia'tael,Novigrad (Gustfields),Milva,10,Range,Morale,Basic,Secondary Quest,Win a match at the masquerade ball at Vegelbud Estate (A ..
+307,Scoia'tael,Random,Ida Emean aep Sivney,6,Range,None,Basic,Win from NPC,Randomly earned
+308,Scoia'tael,Random,Filavandrel aen Fidhail,6,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
+309,Scoia'tael,Skellige,Yaevinn,6,Melee / Range,Agile,Basic,Gwent Quest,"Sjusta the Tailor, Kaer Trolde Harbor, Ard Skellig"
+310,Scoia'tael,Random,Toruviel,2,Range,None,Basic,Win from NPC,Randomly earned
+311,Scoia'tael,Random,Riordain,1,Range,None,Basic,Win from NPC,Randomly earned
+312,Scoia'tael,Random,Ciaran aep Easnillien,3,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
+313,Scoia'tael,Novigrad,Barclay Els,6,Melee / Range,Agile,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
+320,Scoia'tael,Novigrad (Gustfields),Havekar Smuggler (1 of 3),5,Melee,Muster,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
+321,Scoia'tael,Random,Havekar Smuggler (2 of 3),5,Melee,Muster,Basic,Win from NPC,Randomly earned
+322,Scoia'tael,Novigrad,Havekar Smuggler (3 of 3),5,Melee,Muster,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
+325,Scoia'tael,Novigrad (Oxenfurt),Vrihedd Brigade Veteran (1 of 2),5,Melee / Range,Agile,Basic,Buy from Trader,"Stjepan, The Alchemy Inn, Oxenfurt"
+326,Scoia'tael,Novigrad,Vrihedd Brigade Veteran (2 of 2),5,Melee / Range,Agile,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
+330,Scoia'tael,Random,Dol Blathanna Scout (1 of 3),6,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
+331,Scoia'tael,Random,Dol Blathanna Scout (2 of 3),6,Melee / Range,Agile,Basic,Win from NPC,Randomly earned
+332,Scoia'tael,Novigrad,Dol Blathanna Scout (3 of 3),6,Melee / Range,Agile,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
+335,Scoia'tael,Random,Dwarven Skirmisher (1 of 3),3,Melee,Muster,Basic,Win from NPC,Randomly earned
+336,Scoia'tael,Random,Dwarven Skirmisher (2 of 3),3,Melee,Muster,Basic,Win from NPC,Randomly earned
+337,Scoia'tael,Novigrad (Oxenfurt),Dwarven Skirmisher (3 of 3),3,Melee,Muster,Basic,Buy from Trader,"Stjepan, The Alchemy Inn, Oxenfurt"
+340,Scoia'tael,Novigrad,Mahakaman Defender (1 of 5),5,Melee,None,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
+341,Scoia'tael,Novigrad,Mahakaman Defender (2 of 5),5,Melee,None,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
+342,Scoia'tael,Novigrad (Gustfields),Mahakaman Defender (3 of 5),5,Melee,None,Basic,Buy from Trader,"Innkeeper, Seven Cats Inn"
+343,Scoia'tael,Novigrad (Oxenfurt),Mahakaman Defender (4 of 5),5,Melee,None,Basic,Buy from Trader,"Stjepan, The Alchemy Inn, Oxenfurt"
+344,Scoia'tael,Novigrad,Mahakaman Defender (5 of 5),5,Melee,None,Basic,Buy from Trader,Marquise Serenity in Passiflora
+350,Scoia'tael,Random,Elven Skirmisher (1 of 3),2,Range,Muster,Basic,Win from NPC,Randomly earned
+351,Scoia'tael,Random,Elven Skirmisher (2 of 3),2,Range,Muster,Basic,Win from NPC,Randomly earned
+352,Scoia'tael,Skellige,Elven Skirmisher (3 of 3),2,Range,Muster,Basic,Buy from Trader,"Innkeeper, Urialla Village, An Skellig"
+355,Scoia'tael,Random,Vrihedd Brigade Recruit,4,Range,None,Basic,Win from NPC,Randomly earned
+360,Scoia'tael,Novigrad,Dol Blathanna Archer,4,Range,None,Basic,Buy from Trader,Marquise Serenity in Passiflora
+365,Scoia'tael,Random,Havekar Healer (1 of 3),0,Range,Medic,Basic,Win from NPC,Randomly earned
+366,Scoia'tael,Novigrad (Grassy Knoll),Havekar Healer (2 of 3),0,Range,Medic,Basic,Buy from Trader,"Innkeeper, Cunny of the Goose"
+367,Scoia'tael,Novigrad,Havekar Healer (3 of 3),0,Range,Medic,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
 3001,Scoia'tael,Geralt of Rivia,Francesca Findabair Pureblood Elf,0,Leader,Frost,Leaders,Base Deck,Included at start of game
-,Scoia'tael,Novigrad,Barclay Els,6,Melee / Range,Agile,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
-,Scoia'tael,Novigrad,Dol Blathanna Archer,4,Range,None,Basic,Buy from Trader,Marquise Serenity in Passiflora
-,Scoia'tael,Novigrad,Dol Blathanna Scout (3 of 3),6,Melee / Range,Agile,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
-,Scoia'tael,Novigrad,Havekar Healer (3 of 3),0,Range,Medic,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
-,Scoia'tael,Novigrad,Havekar Smuggler (3 of 3),5,Melee,Muster,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
-,Scoia'tael,Novigrad,Mahakaman Defender (1 of 5),5,Melee,None,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
-,Scoia'tael,Novigrad,Mahakaman Defender (2 of 5),5,Melee,None,Basic,Buy from Trader,"Innkeeper, Golden Sturgeon"
-,Scoia'tael,Novigrad,Mahakaman Defender (5 of 5),5,Melee,None,Basic,Buy from Trader,Marquise Serenity in Passiflora
-,Scoia'tael,Novigrad,Vrihedd Brigade Veteran (2 of 2),5,Melee / Range,Agile,Basic,Buy from Trader,"Olivier, Kingfisher Inn"
-,Scoia'tael,Novigrad,Eithné,10,Range,Immune to special,Hero,Gwent Quest,"Zoltan, Rosemary and Thyme (Starts Gwent: Old Pals quest)"
-,Scoia'tael,Novigrad,Francesca Findabair the Beautiful,0,Leader,Horn on Ranged,Leaders,Gwent Quest,Reward for completing this quest
-,Scoia'tael,Novigrad,Isengrim Faolitarna,10,Melee,"Morale, Immune to Special",Hero,Secondary Quest,Inside Zed's home during a quest
-,Scoia'tael,Novigrad,Francesca Findabair Queen of Dol Blath..,0,Leader,Scorch Close Combat if + 10,Leaders,Secondary Quest,"Quest, Passiflora"
+3002,Scoia'tael,Novigrad (Grassy Knoll),Francesca Findabair Daisy of The Valley,0,Leader,Draw extra card,Leaders,Buy from Trader,"Innkeeper, Cunny of the Goose"
+3003,Scoia'tael,Novigrad,Francesca Findabair the Beautiful,0,Leader,Horn on Ranged,Leaders,Gwent Quest,Reward for completing this quest
+3004,Scoia'tael,Novigrad,Francesca Findabair Queen of Dol Blath..,0,Leader,Scorch Close Combat if + 10,Leaders,Secondary Quest,"Quest, Passiflora"
+301,Scoia'tael,Novigrad (Gustfields),Saesenthessis,10,Range,Immune to special,Hero,Gwent Quest,"Vernon Roche, Temerian Resistance Camp"
