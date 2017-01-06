@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GwentTracker"
         mc:Ignorable="d"
+        x:Name="Window"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -13,15 +14,15 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0" Orientation="Vertical">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <TextBox MinWidth="200"/>
-                <Button HorizontalAlignment="Right" Width="Auto">Filter</Button>
+                <TextBox x:Name="FilterString" MinWidth="200"/>
+                <Button HorizontalAlignment="Right" Width="Auto" x:Name="AddFilter">Filter</Button>
             </StackPanel>
-            <ListView>
+            <ListView x:Name="Filters">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <WrapPanel>
                             <TextBlock Text="{Binding}"/>
-                            <Button>X</Button>
+                            <Button x:Name="RemoveFilter">X</Button>
                         </WrapPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -36,13 +37,12 @@
                             RelativeSource={RelativeSource AncestorType=ListView}}" />
                     </ItemsPanelTemplate>
                 </ListView.ItemsPanel>
-                <ListViewItem>Filter 1</ListViewItem>
-                <ListViewItem>Filter 2</ListViewItem>
             </ListView>
-            <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
+            <ProgressBar x:Name="LoadGameProgress" IsIndeterminate="True" />
+            <DataGrid x:Name="Cards" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
         </StackPanel>
-        
-        <ListView Grid.Column="1" x:Name="listView">
+
+        <ListView Grid.Column="1" x:Name="Notifications">
             <ListViewItem>Notification 1</ListViewItem>
             <ListViewItem>Notification 2</ListViewItem>
         </ListView>
