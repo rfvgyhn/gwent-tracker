@@ -22,7 +22,7 @@ namespace GwentTracker
                 d(this.OneWayBind(this.ViewModel, vm => vm.Filters, v => v.Filters.ItemsSource));
                 d(this.OneWayBind(this.ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.Visibility));
                 d(this.BindCommand(this.ViewModel, vm => vm.AddFilter, v => v.AddFilter));
-                //d(this.BindCommand(this.ViewModel, vm => vm.RemoveFilter, v => v.Remove));
+                // Remove Filter binding is done inside xaml since button is part of data template
             });
 
             InitializeComponent();

@@ -29,6 +29,7 @@ namespace GwentTracker.ViewModels
         public List<CardViewModel> Cards => _cards.Value;
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
         public ReactiveCommand AddFilter { get; set; }
+        public ReactiveCommand RemoveFilter { get; set; }
         public ReactiveList<string> Filters { get; set; }
 
         ObservableAsPropertyHelper<Visibility> _loaderVisibility;
@@ -82,6 +83,7 @@ namespace GwentTracker.ViewModels
                     vm => vm.FilterString,
                     (model, filter) => model?.Cards?.Any() == true && !string.IsNullOrWhiteSpace(filter));
                 AddFilter = ReactiveCommand.Create(OnAddFilter, canAddFilter);
+                RemoveFilter = ReactiveCommand.Create<string>(OnRemoveFilter);
             });
         }
 
@@ -124,6 +126,11 @@ namespace GwentTracker.ViewModels
         {
             Filters.Add(FilterString);
             FilterString = null;
+        }
+
+        private void OnRemoveFilter(string filter)
+        {
+            Filters.Remove(filter);
         }
 
         public ViewModelActivator Activator { get; }

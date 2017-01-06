@@ -22,7 +22,9 @@
                     <DataTemplate>
                         <WrapPanel>
                             <TextBlock Text="{Binding}"/>
-                            <Button x:Name="RemoveFilter">X</Button>
+                            <Button
+                                Command="{Binding Path=DataContext.RemoveFilter, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                CommandParameter="{Binding}">X</Button>
                         </WrapPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
