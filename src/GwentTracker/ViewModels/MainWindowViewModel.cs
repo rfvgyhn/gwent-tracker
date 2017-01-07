@@ -25,6 +25,7 @@ namespace GwentTracker.ViewModels
     public class MainWindowViewModel : ReactiveObject, ISupportsActivation
     {
         public ReactiveList<CardViewModel> Cards { get; set; }
+        public ReactiveList<Notification> Notifications { get; set; }
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
         public ReactiveCommand AddFilter { get; set; }
         public ReactiveCommand RemoveFilter { get; set; }
@@ -60,6 +61,7 @@ namespace GwentTracker.ViewModels
             Activator = new ViewModelActivator();
             Filters = new ReactiveList<string>();
             Cards = new ReactiveList<CardViewModel>();
+            Notifications = new ReactiveList<Notification>();
 
             this.WhenActivated(d =>
             {
@@ -69,6 +71,8 @@ namespace GwentTracker.ViewModels
                 Load.Subscribe(info =>
                 {
                     Model = info;
+                    Notifications.Add(new Notification { Name = "Notification 1", Description = "Notification 1 Description" });
+                    Notifications.Add(new Notification { Name = "Notification 2", Description = "Notification 2 Description" });
                     ApplyCards(info.Cards);
                 });
                 Load.ThrownExceptions.Subscribe(e => MessageBox.Show(e.ToString()));

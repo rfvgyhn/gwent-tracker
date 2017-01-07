@@ -18,6 +18,7 @@ namespace GwentTracker
             this.WhenActivated(d =>
             {
                 d(this.OneWayBind(this.ViewModel, vm => vm.Cards, v => v.Cards.ItemsSource));
+                d(this.OneWayBind(this.ViewModel, vm => vm.Notifications, v => v.Notifications.ItemsSource));
                 d(this.Bind(this.ViewModel, vm => vm.FilterString, v => v.FilterString.Text));
                 d(this.OneWayBind(this.ViewModel, vm => vm.Filters, v => v.Filters.ItemsSource));
                 d(this.OneWayBind(this.ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.Visibility));

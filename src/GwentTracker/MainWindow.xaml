@@ -60,7 +60,9 @@
         <ItemsControl Grid.Column="1" x:Name="Notifications">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <materialDesign:Card>
+                    <materialDesign:Card Margin="4 4 0 0" Background="{DynamicResource PrimaryHueLightBrush}"
+                  Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                  Padding="8">
                         <StackPanel>
                             <TextBlock FontWeight="Bold" Text="{Binding Name}" />
                             <TextBlock Text="{Binding Description}" />
