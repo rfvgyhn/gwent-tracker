@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reactive.Disposables;
@@ -23,10 +24,7 @@ namespace GwentTracker.ViewModels
 {
     public class MainWindowViewModel : ReactiveObject, ISupportsActivation
     {
-        private ObservableAsPropertyHelper<SaveGameInfo> _model;
-        private SaveGameInfo Model => _model.Value;
-        private ObservableAsPropertyHelper<List<CardViewModel>> _cards;
-        public List<CardViewModel> Cards => _cards.Value;
+        public ReactiveList<CardViewModel> Cards { get; set; }
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
         public ReactiveCommand AddFilter { get; set; }
         public ReactiveCommand RemoveFilter { get; set; }
@@ -34,6 +32,14 @@ namespace GwentTracker.ViewModels
 
         ObservableAsPropertyHelper<Visibility> _loaderVisibility;
         public Visibility LoaderVisibility => _loaderVisibility.Value;
+
+        private SaveGameInfo _model;
+
+        private SaveGameInfo Model
+        {
+            get { return _model; }
+            set { this.RaiseAndSetIfChanged(ref _model, value); }
+        }
 
         private string _filterString;
         public string FilterString
@@ -53,29 +59,40 @@ namespace GwentTracker.ViewModels
         {
             Activator = new ViewModelActivator();
             Filters = new ReactiveList<string>();
+            Cards = new ReactiveList<CardViewModel>();
 
             this.WhenActivated(d =>
             {
                 SaveGamePath = saveGamePath;
 
                 Load = ReactiveCommand.CreateFromTask<string, SaveGameInfo>(LoadSaveGame);
+                Load.Subscribe(info =>
+                {
+                    Model = info;
+                    ApplyCards(info.Cards);
+                });
                 Load.ThrownExceptions.Subscribe(e => MessageBox.Show(e.ToString()));
-                _model = Load.ToProperty(this, vm => vm.Model);
                 _loaderVisibility = Load.IsExecuting
                     .Select(x => x ? Visibility.Visible : Visibility.Collapsed)
                     .ToProperty(this, x => x.LoaderVisibility, Visibility.Collapsed);
-
-                _cards = this.WhenAnyValue(x => x.Model)
-                    .Select(i => i?.Cards?.Select(c => new CardViewModel { Index = c.Index, Copies = c.Copies, Name = c.Name, Obtained = c.Obtained }).ToList())
-                    .ObserveOn(RxApp.MainThreadScheduler)
-                    .ToProperty(this, vm => vm.Cards)
-                    .DisposeWith(d);
 
                 this.WhenAnyValue(x => x.SaveGamePath)
                     .Select(s => s?.Trim())
                     .DistinctUntilChanged()
                     .Where(s => !string.IsNullOrEmpty(s))
                     .InvokeCommand(Load)
+                    .DisposeWith(d);
+
+                this.Filters.Changed
+                    .Subscribe(i =>
+                    {
+                        var culture = CultureInfo.CurrentUICulture;
+                        var filtered = Filters.Any() ?
+                            this.Model.Cards.Where(c => Filters.Any(f => culture.CompareInfo.IndexOf(c.Name, f, CompareOptions.IgnoreCase) >= 0)) :
+                            this.Model.Cards;
+
+                        ApplyCards(filtered);
+                    })
                     .DisposeWith(d);
 
                 var canAddFilter = this.WhenAnyValue(
@@ -131,6 +148,21 @@ namespace GwentTracker.ViewModels
         private void OnRemoveFilter(string filter)
         {
             Filters.Remove(filter);
+        }
+
+        private void ApplyCards(IEnumerable<Card> cards)
+        {
+            var mapped = cards.Select(c => new CardViewModel
+                                           {
+                                               Index = c.Index,
+                                               Copies = c.Copies,
+                                               Name = c.Name,
+                                               Obtained = c.Obtained
+                                           });
+            Cards.Clear();
+            foreach (var card in mapped)
+                Cards.Add(card);
+            //Cards.AddRange(filtered);
         }
 
         public ViewModelActivator Activator { get; }
