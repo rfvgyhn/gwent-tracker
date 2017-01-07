@@ -56,20 +56,50 @@
             <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
             <DataGrid Grid.Row="3" x:Name="Cards" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
         </Grid>
-
-        <ItemsControl Grid.Column="1" x:Name="Notifications">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <materialDesign:Card Margin="4 4 0 0" Background="{DynamicResource PrimaryHueLightBrush}"
-                  Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
-                  Padding="8">
-                        <StackPanel>
-                            <TextBlock FontWeight="Bold" Text="{Binding Name}" />
-                            <TextBlock Text="{Binding Description}" />
-                        </StackPanel>
-                    </materialDesign:Card>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+        <StackPanel Grid.Column="1">
+            <ItemsControl x:Name="Notifications">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <materialDesign:Card Margin="4 4 0 0" Background="{DynamicResource PrimaryHueLightBrush}"
+                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                      Padding="8">
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold" Text="{Binding Name}" />
+                                <TextBlock Text="{Binding Description}" />
+                            </StackPanel>
+                        </materialDesign:Card>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <materialDesign:Card Margin="4 4 0 0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="140" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Image Source="Resources/draug.jpg" Height="140" Width="196" Stretch="UniformToFill" />
+                    <WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
+                            <TextBlock>10</TextBlock>
+                        </Button>
+                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
+                            <materialDesign:PackIcon Kind="Sword" />
+                        </Button>
+                    </WrapPanel>
+                    
+                    <StackPanel Grid.Row="1" Margin="8 24 8 0" >
+                        <TextBlock FontWeight="Bold">Draug</TextBlock>
+                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center">Some men cannot admit defeat. Some keep fighting from beyond the grave.</TextBlock>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Right" Grid.Row="2" Orientation="Horizontal" Margin="8">
+                        <Button Style="{StaticResource MaterialDesignToolButton}" Width="30" Padding="2 0 2 0"
+                                materialDesign:RippleAssist.IsCentered="True">
+                            <materialDesign:PackIcon Kind="MapMarker" />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Card>
+        </StackPanel>
     </Grid>
 </Window>
