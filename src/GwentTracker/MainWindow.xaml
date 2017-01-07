@@ -5,48 +5,69 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GwentTracker"
         mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
         x:Name="Window"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="200" />
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0" Orientation="Vertical">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <TextBox x:Name="FilterString" MinWidth="200"/>
-                <Button HorizontalAlignment="Right" Width="Auto" x:Name="AddFilter">Filter</Button>
-            </StackPanel>
-            <ListView x:Name="Filters">
-                <ListView.ItemTemplate>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <materialDesign:PackIcon Grid.Column="0" Grid.Row="0" Kind="Magnify" Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}" Height="16" VerticalAlignment="Center" />
+                <TextBox Grid.Column="1" Margin="4 0 4 0" Grid.Row="0" x:Name="FilterString" materialDesign:HintAssist.Hint="Filter" MinWidth="200"/>
+                <Button Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" Width="Auto" x:Name="AddFilter">Add</Button>
+            </Grid>
+            <ItemsControl Grid.Row="1" x:Name="Filters" Margin="0 4 0 4">
+                <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <WrapPanel>
-                            <TextBlock Text="{Binding}"/>
-                            <Button
-                                Command="{Binding Path=DataContext.RemoveFilter, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
-                                CommandParameter="{Binding}">X</Button>
-                        </WrapPanel>
+                        <materialDesign:Chip Content="{Binding}"
+                                             Margin="4 0 0 0"
+                                 IsDeletable="True"
+                                 DeleteCommand="{Binding Path=DataContext.RemoveFilter, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                 DeleteCommandParameter="{Binding}"/>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-                <ListView.ItemsPanel>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <WrapPanel Width="{Binding (FrameworkElement.ActualWidth), 
-                            RelativeSource={RelativeSource AncestorType=ScrollContentPresenter}}"
-                                ItemWidth="{Binding (ListView.View).ItemWidth, 
-                            RelativeSource={RelativeSource AncestorType=ListView}}"
-                                MinWidth="{Binding ItemWidth, RelativeSource={RelativeSource Self}}"
-                                ItemHeight="{Binding (ListView.View).ItemHeight, 
-                            RelativeSource={RelativeSource AncestorType=ListView}}" />
+                        <StackPanel Orientation="Horizontal" />
                     </ItemsPanelTemplate>
-                </ListView.ItemsPanel>
-            </ListView>
-            <ProgressBar x:Name="LoadGameProgress" IsIndeterminate="True" />
-            <DataGrid x:Name="Cards" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
-        </StackPanel>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
+            <DataGrid Grid.Row="3" x:Name="Cards" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
+        </Grid>
 
-        <ListView Grid.Column="1" x:Name="Notifications">
-            <ListViewItem>Notification 1</ListViewItem>
-            <ListViewItem>Notification 2</ListViewItem>
-        </ListView>
+        <ItemsControl Grid.Column="1" x:Name="Notifications">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <materialDesign:Card>
+                        <StackPanel>
+                            <TextBlock FontWeight="Bold" Text="{Binding Name}" />
+                            <TextBlock Text="{Binding Description}" />
+                        </StackPanel>
+                    </materialDesign:Card>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
     </Grid>
 </Window>
