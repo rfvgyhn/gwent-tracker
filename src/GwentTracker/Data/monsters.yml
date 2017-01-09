@@ -1,0 +1,763 @@
+﻿---
+-   index: 400
+    deck: Monsters
+    name: Draug
+    flavor: Some men cannot admit defeat. Some keep fighting from beyond the grave.
+    combat:
+        strength: 10
+        type:
+            - Melee
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Gwent Quest
+            npc: Crach an Craite
+            area: Kaer Trolde
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 401
+    deck: Monsters
+    name: Kayran
+    flavor: 
+    combat:
+        strength: 8
+        type:
+            - Range
+        abilities:
+            - Morale
+            - Immune to Special
+    type: Hero
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 402
+    deck: Monsters
+    name: Imlerith
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Melee
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 403
+    deck: Monsters
+    name: Leshen
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Range
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Gwent Quest
+            npc: Ermion
+            area: Gedyneith
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 405
+    deck: Monsters
+    name: Forktail
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Win form NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 407
+    deck: Monsters
+    name: Earth Elemental
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Siege
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Inkeeper
+            area: New Port Inn, Kaer Trolde Harbor
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 410
+    deck: Monsters
+    name: Fiend
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Inkeeper
+            area: Arinbjorn
+            territory: 
+            region: 
+            coords: []
+-   index: 413
+    deck: Monsters
+    name: Plague Maiden
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random 
+            territory: Random
+            region: Random
+            coords: []
+-   index: 415
+    deck: Monsters
+    name: Griffin
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Random
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 417
+    deck: Monsters
+    name: Werewolf
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Urialla Village
+            territory: An Skellig
+            region: Skellige
+            coords: []
+-   index: 420
+    deck: Monsters
+    name: Botchling
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: New Port Inn, Kaer Trolde Harbor
+            territory: Ard Skellige
+            region: Skellige
+            coords: []
+-   index: 423
+    deck: Monsters
+    name: Frightener
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random 
+            territory: Random
+            region: Random
+            coords: []
+-   index: 425
+    deck: Monsters
+    name: Ice Giant
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Siege
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Sborlag
+            territory: Spikeroog
+            region: Skellige
+            coords: []
+-   index: 427
+    deck: Monsters
+    name: Endrega
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 430
+    deck: Monsters
+    name: Harpy
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Harviken Tavern
+            territory: Faroe
+            region: Skellige
+            coords: []
+-   index: 433
+    deck: Monsters
+    name: Cockatrice
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 435
+    deck: Monsters
+    name: Gargoyle
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 437
+    deck: Monsters
+    name: Celaeno Harpy
+    flavor: 
+    combat:
+        strength: 2
+        type: 
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 440
+    deck: Monsters
+    name: Grave Hag
+    flavor: 
+    combat:
+        strength: 5
+        type: 
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 443
+    deck: Monsters
+    name: Fire Elemental
+    flavor: 
+    combat:
+        strength: 6
+        type: 
+            - Siege
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 445
+    deck: Monsters
+    name: Foglet
+    flavor: 
+    combat:
+        strength: 2
+        type: 
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Svorlag
+            territory: Spikeroog
+            region: Skellige
+            coords: []
+-   index: 447
+    deck: Monsters
+    name: Wyvern
+    flavor: 
+    combat:
+        strength: 2
+        type: 
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 450
+    deck: Monsters
+    name: Arachas Behemoth
+    flavor: 
+    combat:
+        strength: 6
+        type: 
+            - Siege
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 451
+    deck: Monsters
+    name: Arachas
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Arinbjorn
+            territory: 
+            region: Skellige
+            coords: []
+-   index: 452
+    deck: Monsters
+    name: Arachas
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Urialla Village
+            territory: An Skellig
+            region: Skellige
+            coords: []
+-   index: 453
+    deck: Monsters
+    name: Arachas
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Svorlag
+            territory: Spikeroog
+            region: Skellige
+            coords: []
+-   index: 455
+    deck: Monsters
+    name: Nekker
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Melle
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Secondary Quest
+            quest: id# (Following the Thead)
+            npc: Hammond's corpse
+            area: Trottheim
+            territory: Faroe
+            region: Skellige
+            coords: []
+-   index: 456
+    deck: Monsters
+    name: Nekker
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Harviken Tavern
+            territory: Faroe
+            region: Skellige
+            coords: []
+-   index: 457
+    deck: Monsters
+    name: Nekker
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 460
+    deck: Monsters
+    name: Vampire Ekimmara
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Svorlag
+            territory: Spikeroog
+            region: Skellige
+            coords: []
+-   index: 461
+    deck: Monsters
+    name: Vampire Fleder
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Harviken Tavern
+            territory: Faroe
+            region: Skellige
+            coords: []
+-   index: 462
+    deck: Monsters
+    name: Vampire Garkain
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 463
+    deck: Monsters
+    name: Vampire Bruxa
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Secondary Quest
+            quest: id# (a Matter of Life and Death)
+            npc: 
+            area: 
+            territory: 
+            region: Novigrad
+            notes: Win a match at the masquerade ball at Vegelbud Estate 
+            coords: []
+-   index: 464
+    deck: Monsters
+    name: Vampire Katakan
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Gwent Quest
+            npc: Jarl Madman Lugos
+            area: Kaer Muire
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 470
+    deck: Monsters
+    name: Ghoul
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 471
+    deck: Monsters
+    name: Ghoul
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 472
+    deck: Monsters
+    name: Ghoul
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Harviken Tavern
+            territory: Faroe
+            region: Skellige
+            coords: []
+-   index: 475
+    deck: Monsters
+    name: Crone Brewess
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 476
+    deck: Monsters
+    name: Crone Weavess
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Gwent Quest
+            quest: id# (Gwent- Velen Players)
+            npc: Seer (Old Sage)
+            area: Benek
+            territory: 
+            region: Velen
+            coords: []
+-   index: 477
+    deck: Monsters
+    name: Crone Whispess
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Arinbjorn
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 4001
+    deck: Monsters
+    name: Eredin Commander of the Red Riders
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Pick any weather card
+    type: Leader
+    location:
+        -   type: Base Deck
+-   index: 4002
+    deck: Monsters
+    name: Eredin King of the Wild Hunt
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Horn Close Combat
+    type: Leader
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: New Port Inn
+            territory: Kaer Trolde Harbor
+            region: Skellige
+            coords: []
+-   index: 4003
+    deck: Monsters
+    name: Eredin Bringer of Death
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Discard 2 Draw 1
+    type: Leader
+    location:
+        -   type: Gwent Quest
+            quest: id# (Gwent- Velen Players)
+            npc: 
+            area: 
+            territory: 
+            region: Velen
+            coords: []
+-   index: 4004
+    deck: Monsters
+    name: Eredin Destroyer of Worlds
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Medic
+    type: Leader
+    location:
+        -   type: Secondary Quest
+            quest: id# (High Stakes)
+            npc: 
+            area: 
+            territory: Passiflora
+            region: Novigrad
+            coords: []
+

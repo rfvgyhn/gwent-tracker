@@ -1,0 +1,731 @@
+﻿-   index: 300
+    deck: Scoia'tael
+    name: Eithné
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Range
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Gwent Quest
+            quest: id# (Old Friends)
+            npc: Zoltan
+            area: Rosemary and Thyme
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 301
+    deck: Scoia'tael
+    name: Saesenthessis
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Range
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Gwent Quest
+            quest: id# (Old Friends)
+            npc: Vernon Roche
+            area: Temerian Resistance Camp
+            territory: Gustfields
+            region: Novigrad
+            coords: []
+-   index: 302
+    deck: Scoia'tael
+    name: Isengrim Faolitarna
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Melee
+        abilities:
+            - Morale
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Secondary Quest
+            quest: id# (A Dangerous Game)
+            npc: 
+            area: Zed's Home
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 303
+    deck: Scoia'tael
+    name: Iorveth
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Range
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Secondary Quest
+            quest: id# (Shock Therapy)
+            npc: Druid
+            area: Gedyneith
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 305
+    deck: Scoia'tael
+    name: Dennis Cranmer
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 306
+    deck: Scoia'tael
+    name: Milva
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Range
+        abilities:
+            - Morale
+    type: Basic
+    location:
+        -   type: Secondary Quest
+            quest: id# (A Matter of Life and Death)
+            npc: 
+            area: Vegelbud Estate
+            territory: Gustfields
+            region: Novigrad
+            notes: Win a match at the masquerade ball
+            coords: []
+-   index: 307
+    deck: Scoia'tael
+    name: Ida Emean aep Sivney
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 308
+    deck: Scoia'tael
+    name: Filavandrel aen Fidhail
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 309
+    deck: Scoia'tael
+    name: Yaevinn
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Gwent Quest
+            quest: id# (Skellige Style)
+            npc: Sjusta the Tailor
+            area: Kaer Trolde Harbor
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 310
+    deck: Scoia'tael
+    name: Toruviel
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 311
+    deck: Scoia'tael
+    name: Riordain
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 312
+    deck: Scoia'tael
+    name: Ciaran aep Easnillien
+    flavor: 
+    combat:
+        strength: 3
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 313
+    deck: Scoia'tael
+    name: Barclay Els
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Golden Sturgeon
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 320
+    deck: Scoia'tael
+    name: Havekar Smuggler
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Seven Cats Inn
+            territory: Gustfields
+            region: Novigrad
+            coords: []
+-   index: 321
+    deck: Scoia'tael
+    name: Havekar Smuggler
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 322
+    deck: Scoia'tael
+    name: Havekar Smuggler
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Olivier
+            area: Kingfisher Inn
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 325
+    deck: Scoia'tael
+    name: Vrihedd Brigade Veteran
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Stjepan
+            area: The Alchemy Inn
+            territory: Oxenfurt
+            region: Novigrad
+            coords: []
+-   index: 326
+    deck: Scoia'tael
+    name: Vrihedd Brigade Veteran
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Olivier
+            area: Kingfisher Inn
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 330
+    deck: Scoia'tael
+    name: Dol Blathanna Scout
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 331
+    deck: Scoia'tael
+    name: Dol Blathanna Scout
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 332
+    deck: Scoia'tael
+    name: Dol Blathanna Scout
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Melee
+            - Range
+        abilities:
+            - Agile
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Golden Sturgeon
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 335
+    deck: Scoia'tael
+    name: Dwarven Skirmisher
+    flavor: 
+    combat:
+        strength: 3
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 336
+    deck: Scoia'tael
+    name: Dwarven Skirmisher
+    flavor: 
+    combat:
+        strength: 3
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 337
+    deck: Scoia'tael
+    name: Dwarven Skirmisher
+    flavor: 
+    combat:
+        strength: 3
+        type:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Stjepan
+            area: The Alchemy Inn
+            territory: Oxenfurt
+            region: Novigrad
+            coords: []
+-   index: 340
+    deck: Scoia'tael
+    name: Mahakaman Defender
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Olivier
+            area: Kingfisher Inn
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 341
+    deck: Scoia'tael
+    name: Mahakaman Defender
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Golden Sturgeon
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 342
+    deck: Scoia'tael
+    name: Mahakaman Defender
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Seven Cats Inn
+            territory: Gustfields
+            region: Novigrad
+            coords: []
+-   index: 343
+    deck: Scoia'tael
+    name: Mahakaman Defender
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Stjepan
+            area: The Alchemy Inn
+            territory: Oxenfurt
+            region: Novigrad
+            coords: []
+-   index: 344
+    deck: Scoia'tael
+    name: Mahakaman Defender
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Marquise Serenity
+            area: 
+            territory: Passiflora
+            region: Novigrad
+            coords: []
+-   index: 350
+    deck: Scoia'tael
+    name: Elven Skirmisher
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Range
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 351
+    deck: Scoia'tael
+    name: Elven Skirmisher
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Range
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 352
+    deck: Scoia'tael
+    name: Elven Skirmisher
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Range
+        abilities:
+            - Muster
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Urialla Village
+            territory: An Skellig
+            region: Skellige
+            coords: []
+-   index: 355
+    deck: Scoia'tael
+    name: Vrihedd Brigade Recruit
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 360
+    deck: Scoia'tael
+    name: Dol Blathanna Archer
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Marquise Serenity
+            area: 
+            territory: Passiflora
+            region: Novigrad
+            coords: []
+-   index: 365
+    deck: Scoia'tael
+    name: Havekar Healer
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Range
+        abilities:
+            - Medic
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 366
+    deck: Scoia'tael
+    name: Havekar Healer
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Range
+        abilities:
+            - Medic
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Cunny of the Goose
+            territory: Grassy Knoll
+            region: Novigrad
+            coords: []
+-   index: 367
+    deck: Scoia'tael
+    name: Havekar Healer
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Range
+        abilities:
+            - Medic
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Olivier
+            area: Kingfisher Inn
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 3001
+    deck: Scoia'tael
+    name: Francesca Findabair Pureblood Elf
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Frost
+    type: Leader
+    location:
+        -   type: Base Deck
+-   index: 3002
+    deck: Scoia'tael
+    name: Francesca Findabair Daisy of The Valley
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Draw extra card
+    type: Leader
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Cunny of the Goose
+            territory: Grassy Knoll
+            region: Novigrad
+            coords: []
+-   index: 3003
+    deck: Scoia'tael
+    name: Francesca Findabair the Beautiful
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Horn on ranged
+    type: Leader
+    location:
+        -   type: Gwent Quest
+            quest: id# (Big City Players)
+            npc: 
+            area: 
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 3004
+    deck: Scoia'tael
+    name: Francesca Findabair Queen of Dol Blathanna
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more
+    type: Leader
+    location:
+        -   type: Secondary Quest
+            quest: id# (High Stakes)
+            npc: 
+            area: 
+            territory: Passiflora
+            region: Novigrad
+            coords: []

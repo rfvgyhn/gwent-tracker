@@ -1,0 +1,548 @@
+﻿-   index: 100
+    deck: Northern Realms
+    name: Vernon Roche
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Melee
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Gwent Quest
+            quest: id# (Velen Players)
+            npc: Hadko the Card Prodigy
+            area: Midcopse
+            territory: 
+            region: Velen
+            coords: []
+-   index: 101
+    deck: Northern Realms
+    name: John Natalis
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Melee
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Secondary Quest
+            quest: id# (A Dangerous Game)
+            npc: Ravvy
+            area: Golden Sturgeon Tavern
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 102
+    deck: Northern Realms
+    name: Esterad Thyssen
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Melee
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Gwent Quest
+            quest: id# (Big City Players)
+            npc: Dijkstra
+            area: Bathhouse
+            territory: 
+            region: Novigrad
+            coords: []
+-   index: 103
+    deck: Northern Realms
+    name: Philippa Eilhart
+    flavor: 
+    combat:
+        strength: 10
+        type:
+            - Range
+        abilities:
+            - Immune to special
+    type: Hero
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 105
+    deck: Northern Realms
+    name: Thaler
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Siege
+        abilities:
+            - Spy
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Arinbjorn
+            territory: Ard Skellig
+            region: Skellige
+            coords: []
+-   index: 106
+    deck: Northern Realms
+    name: Ves
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 107
+    deck: Northern Realms
+    name: Siegfried of Denesle
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 108
+    deck: Northern Realms
+    name: Yarpen Zigrin
+    flavor: 
+    combat:
+        strength: 2
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 109
+    deck: Northern Realms
+    name: Sigismund Dijkstra
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Spy
+    type: Basic
+    location:
+        -   type: Gwent Quest
+            quest: id# (Velen Players)
+            npc: Bloody Baron
+            area: Crow's Perch
+            territory: 
+            region: Velen
+            coords: []
+-   index: 111
+    deck: Northern Realms
+    name: Keira Metz
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 112
+    deck: Northern Realms
+    name: Sıĺ e de Tansarville
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 113
+    deck: Northern Realms
+    name: Sabrina Glevissig
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 114
+    deck: Northern Realms
+    name: Sheldon Skaggs
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 115
+    deck: Northern Realms
+    name: Dethmold
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Range
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 116
+    deck: Northern Realms
+    name: Prince Stennis
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Melee
+        abilities:
+            - Spy
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 120
+    deck: Northern Realms
+    name: Trebuchet
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Siege
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 121
+    deck: Northern Realms
+    name: Trebuchet
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Siege
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 125
+    deck: Northern Realms
+    name: Poor Fucking Infantry
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 126
+    deck: Northern Realms
+    name: Poor Fucking Infantry
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 127
+    deck: Northern Realms
+    name: Poor Fucking Infantry
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Merchant
+            area: Lindenvale
+            territory: 
+            region: Velen
+            coords: []
+-   index: 130
+    deck: Northern Realms
+    name: Crinfrid Reavers Dragon Hunter
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Range
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: White Orchard Tavern
+            territory: 
+            region: White Orchard
+            coords: []
+-   index: 131
+    deck: Northern Realms
+    name: Crinfrid Reavers Dragon Hunter
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Range
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Trader
+            area: Claywich Village
+            territory: 
+            region: Velen
+            notes: Must first rescue trader
+            coords: []
+-   index: 132
+    deck: Northern Realms
+    name: Crinfrid Reavers Dragon Hunter
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Range
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Shopkeeper
+            area: Midcopse
+            territory: 
+            region: Velen
+            coords: []
+-   index: 135
+    deck: Northern Realms
+    name: Redanian Foot Soldier
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 136
+    deck: Northern Realms
+    name: Redanian Foot Soldier
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Melee
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 140
+    deck: Northern Realms
+    name: Catapult
+    flavor: 
+    combat:
+        strength: 8
+        type:
+            - Siege
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: White Orchard Tavern
+            territory: 
+            region: White Orchard
+            coords: []
+-   index: 141
+    deck: Northern Realms
+    name: Catapult
+    flavor: 
+    combat:
+        strength: 8
+        type:
+            - Siege
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Buy from Trader
+            npc: Marquise Serenity
+            area: 
+            territory: Passiflora
+            region: Novigrad
+            coords: []
+-   index: 150
+    deck: Northern Realms
+    name: Kaedweni Siege Expert
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Siege
+        abilities:
+            - Morale
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 151
+    deck: Northern Realms
+    name: Kaedweni Siege Expert
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Siege
+        abilities:
+            - Morale
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 152
+    deck: Northern Realms
+    name: Kaedweni Siege Expert
+    flavor: 
+    combat:
+        strength: 1
+        type:
+            - Siege
+        abilities:
+            - Morale
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 160
+    deck: Northern Realms
+    name: Blue Stripes Commando
+    flavor: 
+    combat:
+        strength: 4
+        type:
+            - Melee
+        abilities:
+            - Bond
+    type: Basic
+    location:
+        -   type: Base Deck
+        -   type: Base Deck
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: White Orchard Tavern
+            territory: 
+            region: White Orchard
+            coords: []
+-   index: 170
+    deck: Northern Realms
+    name: Siege Tower
+    flavor: 
+    combat:
+        strength: 6
+        type:
+            - Siege
+    type: Basic
+    location:
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
+            coords: []
+-   index: 175
+    deck: Northern Realms
+    name: Dun Banner Medic
+    flavor: 
+    combat:
+        strength: 5
+        type:
+            - Siege
+        abilities:
+            - Medic
+    type: Basic
+    location:
+        -   type: Base Deck
+-   index: 1001
+    deck: Northern Realms
+    name: Foltest King of Temeria
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Fog
+    type: Leader
+    location:
+        -   type: Base Deck
+-   index: 1002
+    deck: Northern Realms
+    name: Foltest Lord Commander of the North
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Clear Weather
+    type: Leader
+    location:
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: White Orchard Tavern
+            territory: 
+            region: White Orchard
+            coords: []
+-   index: 1003
+    deck: Northern Realms
+    name: Foltest the Siegemaster
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Horn on Siege
+    type: Leader
+    location:
+        -   type: Win from NPC
+            npc: Nilfgaardian Nobleman
+            area: Vizima Palace Courtyard
+            territory: 
+            region: Palace of Vizima
+            coords: []
+-   index: 1004
+    deck: Northern Realms
+    name: Foltest the Steel-Forged
+    flavor: 
+    combat:
+        strength: 0
+        type:
+            - Leader
+        abilities:
+            - Destroy your enemy's strongest Siege unit(s) if the combined strength of all his or her Siege units is 10 or more
+    type: Leader
+    location:
+        -   type: Secondary Quest
+            quest: id# (High Stakes)
+            npc: 
+            area: 
+            territory: Passiflora
+            region: Novigrad
+            coords: []

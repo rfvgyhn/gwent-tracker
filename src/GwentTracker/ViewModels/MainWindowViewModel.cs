@@ -14,10 +14,11 @@ using System.Reactive.Subjects;
 using System.Windows;
 using System.Windows.Data;
 using ReactiveUI.Legacy;
-using ServiceStack;
 using W3SavegameEditor.Core.Common;
 using W3SavegameEditor.Core.Savegame;
 using W3SavegameEditor.Core.Savegame.Variables;
+using YamlDotNet.Serialization;
+using YamlDotNet.Serialization.NamingConventions;
 using ReactiveCommand = ReactiveUI.ReactiveCommand;
 
 namespace GwentTracker.ViewModels
@@ -110,13 +111,30 @@ namespace GwentTracker.ViewModels
 
         private async Task<SaveGameInfo> LoadSaveGame(string path)
         {
-            List<Card> cards;
+            var files = new[] {"monsters", "neutral", "nilfgaard", "northernrealms", "scoiatael"};
+            var cards = new List<Card>();
+            var deserializer = new DeserializerBuilder()
+                                    .IgnoreUnmatchedProperties()
+                                    .WithNamingConvention(new CamelCaseNamingConvention())
+                                    .Build();
 
-            using (var reader = File.OpenText(@"data\cards.csv"))
+            foreach (var file in files)
             {
-                var csv = await reader.ReadToEndAsync();
-                cards = csv.FromCsv<List<Card>>();
+                try
+                {
+                    using (var reader = File.OpenText(Path.Combine("data", $"{file}.yml")))
+                    {
+                        var contents = await reader.ReadToEndAsync();
+                        cards.AddRange(deserializer.Deserialize<List<Card>>(contents));
+                    }
+                }
+                catch (Exception e)
+                {
+                    // TODO: log
+                    throw e;
+                }
             }
+            
 
             var saveGame = await SavegameFile.ReadAsync(path);
             var cardCollection = ((BsVariable)saveGame.Variables[11]).Variables
