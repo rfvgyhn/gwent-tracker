@@ -12,5 +12,9 @@ namespace GwentTracker.ViewModels
         public string Name { get; set; }
         public int Copies { get; set; }
         public bool Obtained { get; set; }
+        public string Deck { get; set; }
+        public string Type { get; set; }
+        public string Location { get; set; }
+        public string Region { get; set; }
     }
 }

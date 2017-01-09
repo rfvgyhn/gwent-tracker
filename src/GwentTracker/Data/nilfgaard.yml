@@ -4,12 +4,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Velen Players)
             npc: The Boatbuilder
@@ -23,12 +23,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Playing Innkeeps)
             npc: Innkeeper
@@ -42,12 +42,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Siege
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Big City Players)
             npc: Marquise Serenity
@@ -61,12 +61,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Playing Innkeeps)
             npc: Olivier
@@ -80,10 +80,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Crow's Perch
@@ -96,10 +96,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -112,10 +112,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Quartermaster
             area: Baron's Store
@@ -128,10 +128,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (A Dangerous Game)
             npc: 
@@ -145,10 +145,10 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Shopkeeper
             area: Midcopse
@@ -161,10 +161,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Merchant
             area: Lindenvale
@@ -177,10 +177,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -193,10 +193,10 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -209,12 +209,12 @@
     flavor: 
     combat:
         strength: 7
-        type:
+        types:
             - Melee
         abilities:
             - Spy
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -227,12 +227,12 @@
     flavor: 
     combat:
         strength: 9
-        type:
+        types:
             - Melee
         abilities:
             - Spy
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -245,10 +245,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Claywich Village
@@ -262,10 +262,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -278,12 +278,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Spy
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -296,10 +296,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -312,10 +312,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -328,10 +328,10 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Claywich Village
@@ -345,12 +345,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Range
         abilities:
             - Medic
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Merchant
             area: Lindenvale
@@ -363,12 +363,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Range
         abilities:
             - Medic
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Claywich Village
@@ -382,10 +382,10 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Claywich Village
@@ -399,10 +399,10 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Merchant
             area: Lindenvale
@@ -415,10 +415,10 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Merchant
             area: Lindenvale
@@ -431,10 +431,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Crow's Perch
@@ -447,12 +447,12 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Crow's Perch
@@ -465,12 +465,12 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Crossroads Inn
@@ -483,12 +483,12 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Seven Cats Inn
@@ -501,12 +501,12 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Cunny of teh Goose
@@ -519,12 +519,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Quartermaster
             area: Baron's Store
@@ -537,12 +537,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Crossroads Inn
@@ -555,12 +555,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Crow's Perch
@@ -573,10 +573,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Crossroads Inn
@@ -589,12 +589,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: 
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Cunny of the Goose
@@ -607,12 +607,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: 
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Seven Cats Inn
@@ -625,12 +625,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Siege
         abilities:
             - Medic
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Golden Sturgeon
@@ -643,12 +643,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Rain
     type: Leader
-    location:
+    locations:
         -   type: Base Deck
 -   index: 2002
     deck: Nilfgaard
@@ -656,12 +656,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Look at three opponent cards
     type: Leader
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Crossroads Inn
@@ -674,12 +674,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Cancel oppenonet's leader
     type: Leader
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Skellige Style)
             npc: 
@@ -694,12 +694,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Draw card from oppenent's discard pile
     type: Leader
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (High Stakes)
             npc: 

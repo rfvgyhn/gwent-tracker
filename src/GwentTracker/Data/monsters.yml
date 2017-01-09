@@ -5,12 +5,12 @@
     flavor: Some men cannot admit defeat. Some keep fighting from beyond the grave.
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             npc: Crach an Craite
             area: Kaer Trolde
@@ -23,13 +23,13 @@
     flavor: 
     combat:
         strength: 8
-        type:
+        types:
             - Range
         abilities:
             - Morale
             - Immune to Special
     type: Hero
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -42,12 +42,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -60,12 +60,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             npc: Ermion
             area: Gedyneith
@@ -78,10 +78,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Win form NPC
             npc: Random
             area: Random
@@ -94,10 +94,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Inkeeper
             area: New Port Inn, Kaer Trolde Harbor
@@ -110,10 +110,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Inkeeper
             area: Arinbjorn
@@ -126,10 +126,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random 
@@ -142,10 +142,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Random
             npc: Random
             area: Random
@@ -158,10 +158,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Urialla Village
@@ -174,10 +174,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: New Port Inn, Kaer Trolde Harbor
@@ -190,10 +190,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random 
@@ -206,10 +206,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Sborlag
@@ -222,10 +222,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -238,13 +238,13 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Harviken Tavern
@@ -257,10 +257,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -273,10 +273,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -292,7 +292,7 @@
         type: 
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -308,7 +308,7 @@
         type: 
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -324,7 +324,7 @@
         type: 
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -340,7 +340,7 @@
         type: 
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Svorlag
@@ -356,7 +356,7 @@
         type: 
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -374,7 +374,7 @@
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -387,12 +387,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Arinbjorn
@@ -405,12 +405,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Urialla Village
@@ -423,12 +423,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Svorlag
@@ -441,12 +441,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melle
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (Following the Thead)
             npc: Hammond's corpse
@@ -460,12 +460,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Harviken Tavern
@@ -478,12 +478,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -496,12 +496,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Svorlag
@@ -514,12 +514,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Harviken Tavern
@@ -532,12 +532,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -550,12 +550,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (a Matter of Life and Death)
             npc: 
@@ -570,12 +570,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Gwent Quest
             npc: Jarl Madman Lugos
             area: Kaer Muire
@@ -588,12 +588,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -606,12 +606,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -624,12 +624,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Harviken Tavern
@@ -642,12 +642,12 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -660,12 +660,12 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Velen Players)
             npc: Seer (Old Sage)
@@ -679,12 +679,12 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Arinbjorn
@@ -697,12 +697,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Pick any weather card
     type: Leader
-    location:
+    locations:
         -   type: Base Deck
 -   index: 4002
     deck: Monsters
@@ -710,12 +710,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Horn Close Combat
     type: Leader
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: New Port Inn
@@ -728,12 +728,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Discard 2 Draw 1
     type: Leader
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Velen Players)
             npc: 
@@ -747,12 +747,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Medic
     type: Leader
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (High Stakes)
             npc: 

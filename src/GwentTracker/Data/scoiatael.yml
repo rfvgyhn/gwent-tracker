@@ -4,12 +4,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Old Friends)
             npc: Zoltan
@@ -23,12 +23,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Old Friends)
             npc: Vernon Roche
@@ -42,13 +42,13 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Morale
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (A Dangerous Game)
             npc: 
@@ -62,12 +62,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (Shock Therapy)
             npc: Druid
@@ -81,11 +81,11 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -98,12 +98,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
         abilities:
             - Morale
     type: Basic
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (A Matter of Life and Death)
             npc: 
@@ -118,10 +118,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -134,13 +134,13 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -153,13 +153,13 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Skellige Style)
             npc: Sjusta the Tailor
@@ -173,10 +173,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -189,10 +189,10 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -205,13 +205,13 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -224,13 +224,13 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Golden Sturgeon
@@ -243,12 +243,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Seven Cats Inn
@@ -261,12 +261,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -279,12 +279,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Olivier
             area: Kingfisher Inn
@@ -297,13 +297,13 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Stjepan
             area: The Alchemy Inn
@@ -316,13 +316,13 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Olivier
             area: Kingfisher Inn
@@ -335,13 +335,13 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -354,13 +354,13 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -373,13 +373,13 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
             - Range
         abilities:
             - Agile
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Golden Sturgeon
@@ -392,12 +392,12 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -410,12 +410,12 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -428,12 +428,12 @@
     flavor: 
     combat:
         strength: 3
-        type:
+        types:
             - Melee
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Stjepan
             area: The Alchemy Inn
@@ -446,10 +446,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Olivier
             area: Kingfisher Inn
@@ -462,10 +462,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Golden Sturgeon
@@ -478,10 +478,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Seven Cats Inn
@@ -494,10 +494,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Stjepan
             area: The Alchemy Inn
@@ -510,10 +510,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Marquise Serenity
             area: 
@@ -526,12 +526,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -544,12 +544,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -562,12 +562,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Range
         abilities:
             - Muster
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Urialla Village
@@ -580,10 +580,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -596,10 +596,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Marquise Serenity
             area: 
@@ -612,12 +612,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Range
         abilities:
             - Medic
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -630,12 +630,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Range
         abilities:
             - Medic
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Cunny of the Goose
@@ -648,12 +648,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Range
         abilities:
             - Medic
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Olivier
             area: Kingfisher Inn
@@ -666,12 +666,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Frost
     type: Leader
-    location:
+    locations:
         -   type: Base Deck
 -   index: 3002
     deck: Scoia'tael
@@ -679,12 +679,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Draw extra card
     type: Leader
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Cunny of the Goose
@@ -697,12 +697,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Horn on ranged
     type: Leader
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Big City Players)
             npc: 
@@ -716,12 +716,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more
     type: Leader
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (High Stakes)
             npc: 

@@ -179,7 +179,11 @@ namespace GwentTracker.ViewModels
                                                Index = c.Index,
                                                Copies = c.Copies,
                                                Name = c.Name,
-                                               Obtained = c.Obtained
+                                               Obtained = c.Obtained,
+                                               Deck = c.Deck,
+                                               Type = c.Type,
+                                               Location = string.Join(", ", c.Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Type)),
+                                               Region = string.Join(", ", c.Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Region))
                                            });
             Cards.Clear();
             foreach (var card in mapped)

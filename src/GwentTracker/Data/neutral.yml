@@ -4,12 +4,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Special
         abilities:
             - Swap with a non-hero card
     type: Special
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: White Orchard Tavern
@@ -34,12 +34,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Special
         abilities:
             - Double the strength of the row
     type: Special
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Crossroads Inn
@@ -64,12 +64,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Special
         abilities:
             - Destroys the strongest non-hero card
     type: Special
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Cunny of the Goose
@@ -94,12 +94,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Weather
         abilities:
             - Sets all non-hero melee strength to 1
     type: Special
-    location:
+    locations:
         -   type: Base Deck
         -   type: Base Deck
         -   type: Win from NPC
@@ -114,12 +114,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Weather
         abilities:
             - Sets all non-hero ranged stength to 1
     type: Special
-    location:
+    locations:
         -   type: Base Deck
         -   type: Base Deck
         -   type: Win from NPC
@@ -134,12 +134,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Weather
         abilities:
             - Sets all non-hero siege stength to 1
     type: Special
-    location:
+    locations:
         -   type: Base Deck
         -   type: Win from NPC 
             npc: Random
@@ -153,12 +153,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Weather
         abilities:
             - Removes all weather
     type: Special
-    location:
+    locations:
         -   type: Base Deck
         -   type: Win from NPC
             npc: Random
@@ -172,12 +172,12 @@
     flavor: 
     combat:
         strength: 15
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Playing Thaler)
             npc: Thaler
@@ -191,10 +191,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Big City Players)
             npc: Vivaldi
@@ -208,13 +208,13 @@
     flavor: 
     combat:
         strength: 7
-        type:
+        types:
             - Range
         abilities:
             - Medic
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Playing Innkeeps)
             npc: Stjepan
@@ -228,12 +228,12 @@
     flavor: 
     combat:
         strength: 15
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Big City Players)
             npc: Scoia’Tael Trader
@@ -247,12 +247,12 @@
     flavor: 
     combat:
         strength: 7
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Old Friends)
             npc: Lambert
@@ -275,12 +275,12 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
         abilities:
             - Commander's Horn
     type: Basic
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (A Matter of Life and Death)
             npc: 
@@ -295,10 +295,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Scholar
             area: 
@@ -311,10 +311,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -327,12 +327,12 @@
     flavor: 
     combat:
         strength: 7
-        type:
+        types:
             - Melee
         abilities:
             - Destroy opponent's strongest melee if combined melee strength is 10 or more
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -345,13 +345,13 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Melee
         abilities:
             - Spy
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Skellige Style)
             npc: Gremita

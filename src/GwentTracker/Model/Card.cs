@@ -7,16 +7,15 @@ using System.Threading.Tasks;
 
 namespace GwentTracker.Model
 {
-    [DataContract]
     public class Card
     {
-        [DataMember]
         public int Index { get; set; }
-        [DataMember]
         public string Name { get; set; }
-        [IgnoreDataMember]
         public int Copies { get; set; }
-        [IgnoreDataMember]
         public bool Obtained { get; set; }
+        public string Deck { get; set; }
+        public CombatDetails Combat { get; set; }
+        public string Type { get; set; }
+        public Location[] Locations { get; set; }
     }
 }

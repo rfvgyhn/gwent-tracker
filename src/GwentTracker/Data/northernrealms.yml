@@ -4,12 +4,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Velen Players)
             npc: Hadko the Card Prodigy
@@ -23,12 +23,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (A Dangerous Game)
             npc: Ravvy
@@ -42,12 +42,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Melee
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Big City Players)
             npc: Dijkstra
@@ -61,12 +61,12 @@
     flavor: 
     combat:
         strength: 10
-        type:
+        types:
             - Range
         abilities:
             - Immune to special
     type: Hero
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -79,12 +79,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Siege
         abilities:
             - Spy
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Arinbjorn
@@ -97,10 +97,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 107
     deck: Northern Realms
@@ -108,10 +108,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 108
     deck: Northern Realms
@@ -119,10 +119,10 @@
     flavor: 
     combat:
         strength: 2
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 109
     deck: Northern Realms
@@ -130,12 +130,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Spy
     type: Basic
-    location:
+    locations:
         -   type: Gwent Quest
             quest: id# (Velen Players)
             npc: Bloody Baron
@@ -149,10 +149,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 112
     deck: Northern Realms
@@ -160,10 +160,10 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 113
     deck: Northern Realms
@@ -171,10 +171,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 114
     deck: Northern Realms
@@ -182,10 +182,10 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 115
     deck: Northern Realms
@@ -193,10 +193,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Range
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 116
     deck: Northern Realms
@@ -204,12 +204,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Melee
         abilities:
             - Spy
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 120
     deck: Northern Realms
@@ -217,10 +217,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 121
     deck: Northern Realms
@@ -228,10 +228,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 125
     deck: Northern Realms
@@ -239,12 +239,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 126
     deck: Northern Realms
@@ -252,12 +252,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 127
     deck: Northern Realms
@@ -265,12 +265,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Merchant
             area: Lindenvale
@@ -283,12 +283,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Range
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: White Orchard Tavern
@@ -301,12 +301,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Range
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Claywich Village
@@ -320,12 +320,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Range
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Shopkeeper
             area: Midcopse
@@ -338,10 +338,10 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 136
     deck: Northern Realms
@@ -349,10 +349,10 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Melee
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 140
     deck: Northern Realms
@@ -360,12 +360,12 @@
     flavor: 
     combat:
         strength: 8
-        type:
+        types:
             - Siege
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: White Orchard Tavern
@@ -378,12 +378,12 @@
     flavor: 
     combat:
         strength: 8
-        type:
+        types:
             - Siege
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Marquise Serenity
             area: 
@@ -396,12 +396,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Siege
         abilities:
             - Morale
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 151
     deck: Northern Realms
@@ -409,12 +409,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Siege
         abilities:
             - Morale
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 152
     deck: Northern Realms
@@ -422,12 +422,12 @@
     flavor: 
     combat:
         strength: 1
-        type:
+        types:
             - Siege
         abilities:
             - Morale
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 160
     deck: Northern Realms
@@ -435,12 +435,12 @@
     flavor: 
     combat:
         strength: 4
-        type:
+        types:
             - Melee
         abilities:
             - Bond
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
         -   type: Base Deck
         -   type: Buy from Trader
@@ -455,10 +455,10 @@
     flavor: 
     combat:
         strength: 6
-        type:
+        types:
             - Siege
     type: Basic
-    location:
+    locations:
         -   type: Win from NPC
             npc: Random
             area: Random
@@ -471,12 +471,12 @@
     flavor: 
     combat:
         strength: 5
-        type:
+        types:
             - Siege
         abilities:
             - Medic
     type: Basic
-    location:
+    locations:
         -   type: Base Deck
 -   index: 1001
     deck: Northern Realms
@@ -484,12 +484,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Fog
     type: Leader
-    location:
+    locations:
         -   type: Base Deck
 -   index: 1002
     deck: Northern Realms
@@ -497,12 +497,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Clear Weather
     type: Leader
-    location:
+    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: White Orchard Tavern
@@ -515,12 +515,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Horn on Siege
     type: Leader
-    location:
+    locations:
         -   type: Win from NPC
             npc: Nilfgaardian Nobleman
             area: Vizima Palace Courtyard
@@ -533,12 +533,12 @@
     flavor: 
     combat:
         strength: 0
-        type:
+        types:
             - Leader
         abilities:
             - Destroy your enemy's strongest Siege unit(s) if the combined strength of all his or her Siege units is 10 or more
     type: Leader
-    location:
+    locations:
         -   type: Secondary Quest
             quest: id# (High Stakes)
             npc: 
