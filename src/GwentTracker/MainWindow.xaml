@@ -54,7 +54,7 @@
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
             <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
-            <DataGrid Grid.Row="3" x:Name="Cards" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
+            <DataGrid Grid.Row="3" IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch"/>
         </Grid>
         <StackPanel Grid.Column="1">
             <ItemsControl x:Name="Notifications">
