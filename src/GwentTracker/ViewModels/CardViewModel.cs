@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GwentTracker.Model;
 
 namespace GwentTracker.ViewModels
 {
@@ -14,7 +15,9 @@ namespace GwentTracker.ViewModels
         public bool Obtained { get; set; }
         public string Deck { get; set; }
         public string Type { get; set; }
-        public string Location { get; set; }
-        public string Region { get; set; }
+        public string Location => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Type));
+        public string Region => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Region));
+        public CombatDetails Combat { get; set; }
+        public Location[] Locations { get; set; }
     }
 }

@@ -35,6 +35,13 @@ namespace GwentTracker.ViewModels
         ObservableAsPropertyHelper<Visibility> _loaderVisibility;
         public Visibility LoaderVisibility => _loaderVisibility.Value;
 
+        private CardViewModel _selectedCard;
+        public CardViewModel SelectedCard
+        {
+            get { return _selectedCard; }
+            set { this.RaiseAndSetIfChanged(ref _selectedCard, value); }
+        }
+
         private SaveGameInfo _model;
 
         private SaveGameInfo Model
@@ -182,8 +189,7 @@ namespace GwentTracker.ViewModels
                                                Obtained = c.Obtained,
                                                Deck = c.Deck,
                                                Type = c.Type,
-                                               Location = string.Join(", ", c.Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Type)),
-                                               Region = string.Join(", ", c.Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Region))
+                                               Locations = c.Locations
                                            });
             Cards.Clear();
             foreach (var card in mapped)

@@ -1,4 +1,5 @@
-﻿using GwentTracker.ViewModels;
+﻿using System.Linq;
+using GwentTracker.ViewModels;
 using ReactiveUI;
 using System.Reactive.Linq;
 using System.Windows;
@@ -23,6 +24,7 @@ namespace GwentTracker
                 d(this.OneWayBind(this.ViewModel, vm => vm.Filters, v => v.Filters.ItemsSource));
                 d(this.OneWayBind(this.ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.Visibility));
                 d(this.BindCommand(this.ViewModel, vm => vm.AddFilter, v => v.AddFilter));
+                d(this.WhenAnyValue(v => v.Cards.SelectedItem).BindTo(this, w => w.ViewModel.SelectedCard));
                 // Remove Filter binding is done inside xaml since button is part of data template
             });
 
@@ -40,7 +42,5 @@ namespace GwentTracker
         
         public static readonly DependencyProperty ViewModelProperty =
             DependencyProperty.Register("ViewModel", typeof(MainWindowViewModel), typeof(MainWindow));
-
-
     }
 }

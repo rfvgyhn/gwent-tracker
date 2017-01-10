@@ -54,7 +54,17 @@
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
             <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
-            <DataGrid Grid.Row="3" IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="True" HorizontalContentAlignment="Stretch" />
+            <DataGrid Grid.Row="3" IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="False" HorizontalContentAlignment="Stretch">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Binding="{Binding Obtained}" />
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Copies" Binding="{Binding Copies}"/>
+                    <DataGridTextColumn Header="Deck" Binding="{Binding Deck}"/>
+                    <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
+                    <DataGridTextColumn Header="Location" Binding="{Binding Location}"/>
+                    <DataGridTextColumn Header="Region" Binding="{Binding Region}"/>
+                </DataGrid.Columns>
+            </DataGrid>
         </Grid>
         <StackPanel Grid.Column="1">
             <ItemsControl x:Name="Notifications">
@@ -81,7 +91,7 @@
                     <Image Source="Resources/draug.jpg" Height="140" Width="196" Stretch="UniformToFill" />
                     <WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
                         <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
-                            <TextBlock>10</TextBlock>
+                            <TextBlock Text="{Binding SelectedCard.Stength}"/>
                         </Button>
                         <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
                             <materialDesign:PackIcon Kind="Sword" />
@@ -89,8 +99,8 @@
                     </WrapPanel>
                     
                     <StackPanel Grid.Row="1" Margin="8 24 8 0" >
-                        <TextBlock FontWeight="Bold">Draug</TextBlock>
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center">Some men cannot admit defeat. Some keep fighting from beyond the grave.</TextBlock>
+                        <TextBlock FontWeight="Bold" Text="{Binding SelectedCard.Name}" />
+                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding SelectedCard.Flavor}" />
                     </StackPanel>
                     <StackPanel HorizontalAlignment="Right" Grid.Row="2" Orientation="Horizontal" Margin="8">
                         <Button Style="{StaticResource MaterialDesignToolButton}" Width="30" Padding="2 0 2 0"
