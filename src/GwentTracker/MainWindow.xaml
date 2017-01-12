@@ -18,7 +18,7 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="204" />
         </Grid.ColumnDefinitions>
         <Grid>
             <Grid.RowDefinitions>
@@ -84,12 +84,13 @@
             <materialDesign:Card Margin="4 4 0 0">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="140" />
+                        <RowDefinition Height="277" />
                         <RowDefinition Height="*" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-                    <Image Source="Resources/draug.jpg" Height="140" Width="196" Stretch="UniformToFill" />
+                    <Image Source="{Binding SelectedCard.Texture, IsAsync=True}" Stretch="UniformToFill" />
                     <WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        
                         <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
                             <TextBlock Text="{Binding SelectedCard.Stength}"/>
                         </Button>
@@ -99,7 +100,7 @@
                     </WrapPanel>
                     
                     <StackPanel Grid.Row="1" Margin="8 24 8 0" >
-                        <TextBlock FontWeight="Bold" Text="{Binding SelectedCard.Name}" />
+                        <TextBlock FontWeight="Bold" Text="{Binding Path=SelectedCard.Name}" />
                         <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding SelectedCard.Flavor}" />
                     </StackPanel>
                     <StackPanel HorizontalAlignment="Right" Grid.Row="2" Orientation="Horizontal" Margin="8">

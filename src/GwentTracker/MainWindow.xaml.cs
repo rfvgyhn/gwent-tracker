@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Configuration;
+using System.Linq;
 using GwentTracker.ViewModels;
 using ReactiveUI;
 using System.Reactive.Linq;
@@ -13,7 +14,7 @@ namespace GwentTracker
     {
         public MainWindow()
         {
-            ViewModel = new MainWindowViewModel(@"data\test.sav");
+            ViewModel = new MainWindowViewModel(@"data\test.sav", ConfigurationManager.AppSettings["texturePath"]);
             DataContext = ViewModel;
             
             this.WhenActivated(d =>

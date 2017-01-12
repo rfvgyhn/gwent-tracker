@@ -25,6 +25,7 @@ namespace GwentTracker.ViewModels
 {
     public class MainWindowViewModel : ReactiveObject, ISupportsActivation
     {
+        private readonly string _textureStringFormat;
         public ReactiveList<CardViewModel> Cards { get; set; }
         public ReactiveList<Notification> Notifications { get; set; }
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
@@ -64,8 +65,9 @@ namespace GwentTracker.ViewModels
             set { this.RaiseAndSetIfChanged(ref _saveGamePath, value); }
         }
 
-        public MainWindowViewModel(string saveGamePath)
+        public MainWindowViewModel(string saveGamePath, string textureStringFormat)
         {
+            _textureStringFormat = textureStringFormat;
             Activator = new ViewModelActivator();
             Filters = new ReactiveList<string>();
             Cards = new ReactiveList<CardViewModel>();
@@ -181,7 +183,7 @@ namespace GwentTracker.ViewModels
 
         private void ApplyCards(IEnumerable<Card> cards)
         {
-            var mapped = cards.Select(c => new CardViewModel
+            var mapped = cards.Select(c => new CardViewModel(_textureStringFormat)
                                            {
                                                Index = c.Index,
                                                Copies = c.Copies,

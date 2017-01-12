@@ -9,12 +9,20 @@ namespace GwentTracker.ViewModels
 {
     public class CardViewModel
     {
+        private readonly string _textureStringFormat;
+
+        public CardViewModel(string textureStringFormat)
+        {
+            _textureStringFormat = textureStringFormat;
+        }
+
         public int Index { get; set; }
         public string Name { get; set; }
         public int Copies { get; set; }
         public bool Obtained { get; set; }
         public string Deck { get; set; }
         public string Type { get; set; }
+        public string Texture => string.Format(_textureStringFormat, Index);
         public string Location => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Type));
         public string Region => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Region));
         public CombatDetails Combat { get; set; }
