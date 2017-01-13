@@ -26,6 +26,7 @@ namespace GwentTracker.ViewModels
     public class MainWindowViewModel : ReactiveObject, ISupportsActivation
     {
         private readonly string _textureStringFormat;
+
         public ReactiveList<CardViewModel> Cards { get; set; }
         public ReactiveList<Notification> Notifications { get; set; }
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
@@ -35,6 +36,9 @@ namespace GwentTracker.ViewModels
 
         ObservableAsPropertyHelper<Visibility> _loaderVisibility;
         public Visibility LoaderVisibility => _loaderVisibility.Value;
+
+        private ObservableAsPropertyHelper<Visibility> _cardVisiblity;
+        public Visibility CardVisibility => _cardVisiblity.Value;
 
         private CardViewModel _selectedCard;
         public CardViewModel SelectedCard
@@ -96,6 +100,10 @@ namespace GwentTracker.ViewModels
                     .Where(s => !string.IsNullOrEmpty(s))
                     .InvokeCommand(Load)
                     .DisposeWith(d);
+
+                _cardVisiblity = this.WhenAnyValue(x => x.SelectedCard)
+                    .Select(c => c == null ? Visibility.Collapsed : Visibility.Visible)
+                    .ToProperty(this, x => x.CardVisibility, Visibility.Collapsed);
 
                 this.Filters.Changed
                     .Subscribe(i =>

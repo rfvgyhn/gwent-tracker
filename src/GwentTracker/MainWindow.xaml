@@ -21,14 +21,14 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
-            <materialDesign:Card Margin="4 4 0 0">
+            <materialDesign:Card Margin="4 4 0 0" x:Name="SelectedCard">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="277" />
                         <RowDefinition Height="*" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-                    <Image Source="{Binding SelectedCard.Texture, IsAsync=True}" Stretch="UniformToFill" />
+                    <Image Stretch="UniformToFill" Source="{Binding SelectedCard.Texture, IsAsync=True}"/>
                     <WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
 
                         <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
