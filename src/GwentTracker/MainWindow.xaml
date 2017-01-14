@@ -17,10 +17,56 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="204" />
+            <ColumnDefinition Width="204"/>
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        <Grid>
+        <StackPanel Grid.Column="0">
+            <materialDesign:Card Margin="4 4 0 0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="277" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Image Source="{Binding SelectedCard.Texture, IsAsync=True}" Stretch="UniformToFill" />
+                    <WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+
+                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
+                            <TextBlock Text="{Binding SelectedCard.Stength}"/>
+                        </Button>
+                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
+                            <materialDesign:PackIcon Kind="Sword" />
+                        </Button>
+                    </WrapPanel>
+
+                    <StackPanel Grid.Row="1" Margin="8 24 8 0" >
+                        <TextBlock FontWeight="Bold" Text="{Binding Path=SelectedCard.Name}" />
+                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding SelectedCard.Flavor}" />
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Right" Grid.Row="2" Orientation="Horizontal" Margin="8">
+                        <Button Style="{StaticResource MaterialDesignToolButton}" Width="30" Padding="2 0 2 0"
+                                materialDesign:RippleAssist.IsCentered="True">
+                            <materialDesign:PackIcon Kind="MapMarker" />
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Card>
+            <ItemsControl x:Name="Notifications">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <materialDesign:Card Margin="4 4 0 0" Background="{DynamicResource PrimaryHueLightBrush}"
+                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
+                      Padding="8">
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold" Text="{Binding Name}" />
+                                <TextBlock Text="{Binding Description}" />
+                            </StackPanel>
+                        </materialDesign:Card>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+        <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -66,51 +112,6 @@
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>
-        <StackPanel Grid.Column="1">
-            <ItemsControl x:Name="Notifications">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <materialDesign:Card Margin="4 4 0 0" Background="{DynamicResource PrimaryHueLightBrush}"
-                      Foreground="{DynamicResource PrimaryHueLightForegroundBrush}"
-                      Padding="8">
-                            <StackPanel>
-                                <TextBlock FontWeight="Bold" Text="{Binding Name}" />
-                                <TextBlock Text="{Binding Description}" />
-                            </StackPanel>
-                        </materialDesign:Card>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-            <materialDesign:Card Margin="4 4 0 0">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="277" />
-                        <RowDefinition Height="*" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-                    <Image Source="{Binding SelectedCard.Texture, IsAsync=True}" Stretch="UniformToFill" />
-                    <WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                        
-                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
-                            <TextBlock Text="{Binding SelectedCard.Stength}"/>
-                        </Button>
-                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
-                            <materialDesign:PackIcon Kind="Sword" />
-                        </Button>
-                    </WrapPanel>
-                    
-                    <StackPanel Grid.Row="1" Margin="8 24 8 0" >
-                        <TextBlock FontWeight="Bold" Text="{Binding Path=SelectedCard.Name}" />
-                        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding SelectedCard.Flavor}" />
-                    </StackPanel>
-                    <StackPanel HorizontalAlignment="Right" Grid.Row="2" Orientation="Horizontal" Margin="8">
-                        <Button Style="{StaticResource MaterialDesignToolButton}" Width="30" Padding="2 0 2 0"
-                                materialDesign:RippleAssist.IsCentered="True">
-                            <materialDesign:PackIcon Kind="MapMarker" />
-                        </Button>
-                    </StackPanel>
-                </Grid>
-            </materialDesign:Card>
-        </StackPanel>
+        
     </Grid>
 </Window>
