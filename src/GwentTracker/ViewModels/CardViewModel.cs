@@ -23,8 +23,8 @@ namespace GwentTracker.ViewModels
         public string Deck { get; set; }
         public string Type { get; set; }
         public string Texture => string.Format(_textureStringFormat, Index);
-        public string Location => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Type));
-        public string Region => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? "N/A" : l.Region));
+        public string Location => string.Join(", ", Locations.Where(l => l.Type != "Base Deck").Select(l => l.Type).Distinct());
+        public string Region => string.Join(", ", Locations.Where(l => l.Type != "Base Deck").Select(l => l.Region).Distinct());
         public CombatDetails Combat { get; set; }
         public Location[] Locations { get; set; }
     }
