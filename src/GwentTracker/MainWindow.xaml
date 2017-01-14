@@ -14,11 +14,11 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         x:Name="Window"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" SizeToContent="Width">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="204"/>
-            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
             <materialDesign:Card Margin="4 4 0 0">
@@ -100,9 +100,9 @@
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
             <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
-            <DataGrid Grid.Row="3" IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="False" HorizontalContentAlignment="Stretch">
+            <DataGrid Grid.Row="3" IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
                 <DataGrid.Columns>
-                    <DataGridCheckBoxColumn Binding="{Binding Obtained}" />
+                    <DataGridCheckBoxColumn Binding="{Binding Obtained}"/>
                     <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
                     <DataGridTextColumn Header="Copies" Binding="{Binding Copies}"/>
                     <DataGridTextColumn Header="Deck" Binding="{Binding Deck}"/>
