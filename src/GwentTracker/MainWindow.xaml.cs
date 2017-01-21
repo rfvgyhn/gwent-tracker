@@ -40,10 +40,12 @@ namespace GwentTracker
                 d(this.BindCommand(this.ViewModel, vm => vm.AddFilter, v => v.AddFilter));
                 d(this.ViewModel.Notifications.Subscribe(Notify));
                 d(this.WhenAnyValue(v => v.Cards.SelectedItem).BindTo(this, w => w.ViewModel.SelectedCard));
-                d(Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Changed))
-                            .Select(e => e.EventArgs)
-                            .Distinct(e => e.FullPath)
-                            .Subscribe(OnSaveDirectoryChange));
+                d(Observable.Merge(
+                        Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
+                        Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))
+                    .Select(e => e.EventArgs.FullPath)
+                    .Distinct()
+                    .Subscribe(OnSaveDirectoryChange));
                 // Remove Filter binding is done inside xaml since button is part of data template
             });
 
@@ -66,9 +68,9 @@ namespace GwentTracker
             this.Notifications.MessageQueue.Enqueue(message);
         }
 
-        private void OnSaveDirectoryChange(FileSystemEventArgs e)
+        private void OnSaveDirectoryChange(string path)
         {
-            ViewModel.SaveGamePath = e.FullPath;
+            ViewModel.SaveGamePath = path;
         }
 
         object IViewFor.ViewModel
