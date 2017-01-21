@@ -51,7 +51,7 @@
                     </StackPanel>
                 </Grid>
             </materialDesign:Card>
-            <ItemsControl x:Name="Notifications">
+            <ItemsControl x:Name="Messages">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <materialDesign:Card Margin="0 4 0 0" Background="{DynamicResource PrimaryHueLightBrush}"
@@ -100,17 +100,20 @@
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
             <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
-            <DataGrid Grid.Row="3" IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
-                <DataGrid.Columns>
-                    <DataGridCheckBoxColumn Binding="{Binding Obtained}"/>
-                    <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
-                    <DataGridTextColumn Header="Copies" Binding="{Binding Copies}"/>
-                    <DataGridTextColumn Header="Deck" Binding="{Binding Deck}"/>
-                    <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
-                    <DataGridTextColumn Header="Location" Binding="{Binding Location}"/>
-                    <DataGridTextColumn Header="Region" Binding="{Binding Region}"/>
-                </DataGrid.Columns>
-            </DataGrid>
+            <Grid Grid.Row="3">
+                <DataGrid IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
+                    <DataGrid.Columns>
+                        <DataGridCheckBoxColumn Binding="{Binding Obtained}"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                        <DataGridTextColumn Header="Copies" Binding="{Binding Copies}"/>
+                        <DataGridTextColumn Header="Deck" Binding="{Binding Deck}"/>
+                        <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
+                        <DataGridTextColumn Header="Location" Binding="{Binding Location}"/>
+                        <DataGridTextColumn Header="Region" Binding="{Binding Region}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <materialDesign:Snackbar x:Name="Notifications" MessageQueue="{materialDesign:MessageQueue}" />
+            </Grid>
         </Grid>
         
     </Grid>

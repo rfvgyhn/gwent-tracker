@@ -7,6 +7,7 @@ using ReactiveUI;
 using System.Reactive.Linq;
 using System.Windows;
 using System;
+using System.Reactive;
 
 namespace GwentTracker
 {
@@ -30,12 +31,13 @@ namespace GwentTracker
             this.WhenActivated(d =>
             {
                 d(this.OneWayBind(this.ViewModel, vm => vm.Cards, v => v.Cards.ItemsSource));
-                d(this.OneWayBind(this.ViewModel, vm => vm.Notifications, v => v.Notifications.ItemsSource));
+                d(this.OneWayBind(this.ViewModel, vm => vm.Messages, v => v.Messages.ItemsSource));
                 d(this.Bind(this.ViewModel, vm => vm.FilterString, v => v.FilterString.Text));
                 d(this.OneWayBind(this.ViewModel, vm => vm.Filters, v => v.Filters.ItemsSource));
                 d(this.OneWayBind(this.ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.Visibility));
                 d(this.OneWayBind(this.ViewModel, vm => vm.CardVisibility, v => v.SelectedCard.Visibility));
                 d(this.BindCommand(this.ViewModel, vm => vm.AddFilter, v => v.AddFilter));
+                d(this.ViewModel.Notifications.Subscribe(Notify));
                 d(this.WhenAnyValue(v => v.Cards.SelectedItem).BindTo(this, w => w.ViewModel.SelectedCard));
                 d(Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Changed))
                             .Select(e => e.EventArgs)
@@ -56,6 +58,11 @@ namespace GwentTracker
                                           .OrderByDescending(f => f.LastWriteTime)
                                           .Select(f => f.FullName)
                                           .FirstOrDefault();
+        }
+
+        private void Notify(string message)
+        {
+            this.Notifications.MessageQueue.Enqueue(message);
         }
 
         private void OnSaveDirectoryChange(FileSystemEventArgs e)

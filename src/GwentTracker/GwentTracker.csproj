@@ -99,7 +99,7 @@
     </ApplicationDefinition>
     <Compile Include="Model\CombatDetails.cs" />
     <Compile Include="Model\Location.cs" />
-    <Compile Include="Model\Notification.cs" />
+    <Compile Include="Model\Message.cs" />
     <Compile Include="Model\SaveGameInfo.cs" />
     <Compile Include="ViewModels\CardViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
