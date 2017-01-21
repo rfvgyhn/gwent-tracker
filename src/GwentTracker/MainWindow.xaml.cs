@@ -8,13 +8,14 @@ using System.Reactive.Linq;
 using System.Windows;
 using System;
 using System.Reactive;
+using MahApps.Metro.Controls;
 
 namespace GwentTracker
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, IViewFor<MainWindowViewModel>
+    public partial class MainWindow : IViewFor<MainWindowViewModel>
     {
         public MainWindow()
         {
