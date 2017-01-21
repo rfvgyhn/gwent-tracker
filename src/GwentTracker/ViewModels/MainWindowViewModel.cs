@@ -128,8 +128,14 @@ namespace GwentTracker.ViewModels
 
         private async Task<SaveGameInfo> LoadSaveGame(string path)
         {
-            var files = new[] {"monsters", "neutral", "nilfgaard", "northernrealms", "scoiatael"};
             var cards = new List<Card>();
+            var saveGameInfo = new SaveGameInfo { Cards = cards };
+
+            if (!File.Exists(path))
+                return saveGameInfo;
+
+            var files = new[] {"monsters", "neutral", "nilfgaard", "northernrealms", "scoiatael"};
+            
             var deserializer = new DeserializerBuilder()
                                     .IgnoreUnmatchedProperties()
                                     .WithNamingConvention(new CamelCaseNamingConvention())
@@ -172,10 +178,7 @@ namespace GwentTracker.ViewModels
                 }
             }
 
-            return new SaveGameInfo
-            {
-                Cards = cards
-            };
+            return saveGameInfo;
         }
 
         private void OnAddFilter()
