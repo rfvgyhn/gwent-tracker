@@ -1,15 +1,12 @@
-﻿using System.Configuration;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
+﻿using GwentTracker.Properties;
 using GwentTracker.ViewModels;
 using ReactiveUI;
+using System;
+using System.Configuration;
+using System.IO;
+using System.Linq;
 using System.Reactive.Linq;
 using System.Windows;
-using System;
-using System.Reactive;
-using MahApps.Metro.Controls;
-using GwentTracker.Properties;
 
 namespace GwentTracker
 {
@@ -41,6 +38,7 @@ namespace GwentTracker
                 d(this.BindCommand(this.ViewModel, vm => vm.AddFilter, v => v.AddFilter));
                 d(this.ViewModel.Notifications.Subscribe(Notify));
                 d(this.WhenAnyValue(v => v.Cards.SelectedItem).BindTo(this, w => w.ViewModel.SelectedCard));
+                d(this.WhenAnyValue(v => v.ViewModel.LoadCards).SelectMany(x => x.Execute()).Subscribe());
                 d(Observable.Merge(
                         Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
                         Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))

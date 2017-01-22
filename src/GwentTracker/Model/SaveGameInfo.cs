@@ -8,6 +8,6 @@ namespace GwentTracker.Model
 {
     public class SaveGameInfo
     {
-        public IEnumerable<Card> Cards { get; set; }
+        public IEnumerable<KeyValuePair<int, int>> CardCopies { get; set; }
     }
 }
