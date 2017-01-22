@@ -19,10 +19,10 @@
     <mahApps:MetroWindow.RightWindowCommands>
         <mahApps:WindowCommands>
             <materialDesign:PopupBox StaysOpen="True">
-                <Grid Margin="8,8,8,8">
-                    <TextBlock Grid.Row="0" Style="{StaticResource MaterialDesignTitleTextBlock}" Margin="8,8,8,16">OPTIONS</TextBlock>
-                    <CheckBox Grid.Row="1" VerticalAlignment="Bottom">asdf</CheckBox>
-                </Grid>
+                <StackPanel Margin="8,8,8,8">
+                    <TextBlock Style="{StaticResource MaterialDesignTitleTextBlock}" Margin="8,8,8,16">OPTIONS</TextBlock>
+                    <CheckBox x:Name="AutoLoad">Auto Load</CheckBox>
+                </StackPanel>
             </materialDesign:PopupBox>
         </mahApps:WindowCommands>
     </mahApps:MetroWindow.RightWindowCommands>

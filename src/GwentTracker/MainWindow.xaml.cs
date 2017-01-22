@@ -9,6 +9,7 @@ using System.Windows;
 using System;
 using System.Reactive;
 using MahApps.Metro.Controls;
+using GwentTracker.Properties;
 
 namespace GwentTracker
 {
@@ -23,7 +24,7 @@ namespace GwentTracker
             var latestSave = GetLatestSave(defaultSavePath);
             var watcher = new FileSystemWatcher(defaultSavePath, "*.sav")
             {
-                EnableRaisingEvents = true
+                EnableRaisingEvents = Settings.Default.AutoLoad,
             };
             
             ViewModel = new MainWindowViewModel(latestSave, ConfigurationManager.AppSettings["texturePath"]);
