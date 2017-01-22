@@ -113,8 +113,26 @@
             <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
             <Grid Grid.Row="3">
                 <DataGrid IsReadOnly="True" x:Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
+                    <DataGrid.Triggers>
+                        
+                    </DataGrid.Triggers>
+                    <DataGrid.RowStyle>
+                        <Style TargetType="{x:Type DataGridRow}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Path=Obtained}" Value="True">
+                                    <DataTrigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ColorAnimation Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)" From="#C8E6C9" FillBehavior="Stop" Duration="0:0:3"/>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </DataTrigger.EnterActions>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGrid.RowStyle>
                     <DataGrid.Columns>
-                        <DataGridCheckBoxColumn Binding="{Binding Obtained}"/>
+                        <DataGridCheckBoxColumn Binding="{Binding Obtained, NotifyOnTargetUpdated=True}"/>
                         <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
                         <DataGridTextColumn Header="Copies" Binding="{Binding Copies}"/>
                         <DataGridTextColumn Header="Deck" Binding="{Binding Deck}"/>
