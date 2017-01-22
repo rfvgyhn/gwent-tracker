@@ -210,10 +210,14 @@ namespace GwentTracker.ViewModels
 
         private bool ShouldFilterCard(CardViewModel card)
         {
-            var culture = CultureInfo.CurrentUICulture;
+            var compareInfo = CultureInfo.CurrentUICulture.CompareInfo;
 
             return Filters.Any() &&
-                   (!Filters.All(f => culture.CompareInfo.IndexOf(card.Name, f, CompareOptions.IgnoreCase) >= 0));
+                   !Filters.All(f => compareInfo.IndexOf(card.Name, f, CompareOptions.IgnoreCase) >= 0 ||
+                                     compareInfo.IndexOf(card.Deck, f, CompareOptions.IgnoreCase) >= 0 ||
+                                     compareInfo.IndexOf(card.Type ?? "", f, CompareOptions.IgnoreCase) >= 0 ||
+                                     compareInfo.IndexOf(card.Location, f, CompareOptions.IgnoreCase) >= 0 ||
+                                     compareInfo.IndexOf(card.Region, f, CompareOptions.IgnoreCase) >= 0);
         }
 
         private void OnAddFilter()
