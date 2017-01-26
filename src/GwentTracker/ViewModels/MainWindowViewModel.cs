@@ -187,6 +187,8 @@ namespace GwentTracker.ViewModels
                 cards.Add(new KeyValuePair<int, int>(index, copies));
             }
 
+            // TODO: figure out how quest info is stored and pull out the quests that cause missable cards
+
             return new SaveGameInfo
             {
                 CardCopies = cards
@@ -208,6 +210,16 @@ namespace GwentTracker.ViewModels
                     card.Obtained = true;
                     card.Copies = copy.Value;
                 }
+            }
+
+            // TODO: remove this missable quest placeholder
+            if (!_initialLoadComplete)
+            {
+                Messages.Add(new Message
+                {
+                    Description = "The description",
+                    Name = "Missable Card"
+                });
             }
 
             _initialLoadComplete = true;

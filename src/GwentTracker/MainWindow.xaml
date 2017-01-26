@@ -15,7 +15,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         x:Name="Window"
-        Title="MainWindow" Height="350" SizeToContent="Width">
+        Title="MainWindow" Height="550" SizeToContent="Width">
     <mahApps:MetroWindow.RightWindowCommands>
         <mahApps:WindowCommands>
             <materialDesign:PopupBox StaysOpen="True">
