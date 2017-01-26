@@ -24,6 +24,7 @@ namespace GwentTracker.ViewModels
     {
         private readonly string _textureStringFormat;
         private readonly ReactiveList<CardViewModel> _cards;
+        private bool _initialLoadComplete = false;
 
         public IReactiveDerivedList<CardViewModel> Cards { get; set; }
         public ReactiveList<Message> Messages { get; set; }
@@ -201,11 +202,15 @@ namespace GwentTracker.ViewModels
 
                 if (card != null)
                 {
+                    if (_initialLoadComplete && (card.Obtained == false || card.Copies < copy.Value))
+                        Notifications.OnNext($"Obtained {card.Name}");
+
                     card.Obtained = true;
                     card.Copies = copy.Value;
                 }
             }
-            Notifications.OnNext("Save Game Loaded");
+
+            _initialLoadComplete = true;
         }
 
         private bool ShouldFilterCard(CardViewModel card)
