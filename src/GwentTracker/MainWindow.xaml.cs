@@ -17,7 +17,7 @@ namespace GwentTracker
     {
         public MainWindow()
         {
-            var defaultSavePath = ConfigurationManager.AppSettings["defaultSavePath"];
+            var defaultSavePath = Environment.ExpandEnvironmentVariables((ConfigurationManager.AppSettings["defaultSavePath"]));
             var latestSave = GetLatestSave(defaultSavePath);
             var watcher = new FileSystemWatcher(defaultSavePath, "*.sav")
             {
