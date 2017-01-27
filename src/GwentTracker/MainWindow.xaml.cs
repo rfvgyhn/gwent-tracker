@@ -1,12 +1,15 @@
 ﻿using GwentTracker.Properties;
 using GwentTracker.ViewModels;
 using ReactiveUI;
+using ReactiveUI.Events;
 using System;
 using System.Configuration;
 using System.IO;
 using System.Linq;
+using System.Reactive;
 using System.Reactive.Linq;
 using System.Windows;
+using System.Windows.Input;
 
 namespace GwentTracker
 {
@@ -29,16 +32,20 @@ namespace GwentTracker
             
             this.WhenActivated(d =>
             {
-                d(this.OneWayBind(this.ViewModel, vm => vm.Cards, v => v.Cards.ItemsSource));
-                d(this.OneWayBind(this.ViewModel, vm => vm.Messages, v => v.Messages.ItemsSource));
-                d(this.Bind(this.ViewModel, vm => vm.FilterString, v => v.FilterString.Text));
-                d(this.OneWayBind(this.ViewModel, vm => vm.Filters, v => v.Filters.ItemsSource));
-                d(this.OneWayBind(this.ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.Visibility));
-                d(this.OneWayBind(this.ViewModel, vm => vm.CardVisibility, v => v.SelectedCard.Visibility));
-                d(this.BindCommand(this.ViewModel, vm => vm.AddFilter, v => v.AddFilter));
-                d(this.ViewModel.Notifications.Subscribe(Notify));
+                d(this.OneWayBind(ViewModel, vm => vm.Cards, v => v.Cards.ItemsSource));
+                d(this.OneWayBind(ViewModel, vm => vm.Messages, v => v.Messages.ItemsSource));
+                d(this.Bind(ViewModel, vm => vm.FilterString, v => v.FilterString.Text));
+                d(this.OneWayBind(ViewModel, vm => vm.Filters, v => v.Filters.ItemsSource));
+                d(this.OneWayBind(ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.Visibility));
+                d(this.OneWayBind(ViewModel, vm => vm.CardVisibility, v => v.SelectedCard.Visibility));
+                d(ViewModel.Notifications.Subscribe(Notify));
                 d(this.WhenAnyValue(v => v.Cards.SelectedItem).BindTo(this, w => w.ViewModel.SelectedCard));
                 d(this.WhenAnyValue(v => v.ViewModel.LoadCards).SelectMany(x => x.Execute()).Subscribe());
+                d(this.BindCommand(ViewModel, vm => vm.AddFilter, v => v.AddFilter));
+                d(this.Events().KeyDown
+                      .Where(e => e.Key == Key.Enter && e.Source == FilterString)
+                      .Select(e => Unit.Default)
+                      .InvokeCommand(this, v => v.ViewModel.AddFilter));
                 d(Observable.Merge(
                         Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
                         Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))

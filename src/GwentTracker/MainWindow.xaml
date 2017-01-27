@@ -85,7 +85,7 @@
             <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <materialDesign:PackIcon Grid.Column="0" Grid.Row="0" Kind="Magnify" Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}" Height="16" VerticalAlignment="Center" />
