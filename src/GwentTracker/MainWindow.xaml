@@ -35,20 +35,20 @@
             <materialDesign:Card Margin="0 4 0 0" x:Name="SelectedCard">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="277" />
-                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
-                    <Image Stretch="UniformToFill" Source="{Binding SelectedCard.Texture, IsAsync=True}"/>
-                    <WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                        <!--<Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="8 0 8 0">
+                    <Image Grid.Row="0" Stretch="UniformToFill" Source="{Binding SelectedCard.Texture, IsAsync=True}"/>
+                    <!--<WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="8 0 8 0">
                             <TextBlock Text="{Binding SelectedCard.Stength}"/>
                         </Button>
                         <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="0 0 8 0">
                             <materialDesign:PackIcon Kind="Sword" />
-                        </Button>-->
-                    </WrapPanel>
-                    <StackPanel Grid.Row="1" Margin="8 24 8 0" >
+                        </Button>
+                    </WrapPanel>-->
+                    <StackPanel Grid.Row="1" Margin="8 8 8 0" >
                         <TextBlock FontWeight="Bold" Text="{Binding Path=SelectedCard.Name}" />
                         <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding SelectedCard.Flavor}" />
                     </StackPanel>

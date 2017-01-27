@@ -84,7 +84,11 @@ namespace GwentTracker.ViewModels
             this.WhenActivated(d =>
             {
                 LoadCards = ReactiveCommand.CreateFromTask(LoadCardsFromFiles);
-                LoadCards.ThrownExceptions.Subscribe(e => Notifications.OnNext("Unable to load card info"));
+                LoadCards.ThrownExceptions.Subscribe(e =>
+                {
+                    // TODO: log
+                    Notifications.OnNext("Unable to load card info");
+                });
                 LoadCards.Subscribe(cards =>
                 {
                     var mapped = cards.Select(c => new CardViewModel(_textureStringFormat)
@@ -108,7 +112,11 @@ namespace GwentTracker.ViewModels
 
                 Load = ReactiveCommand.CreateFromTask<string, SaveGameInfo>(LoadSaveGame);
                 Load.Subscribe(OnSaveGameLoaded);
-                Load.ThrownExceptions.Subscribe(e => Notifications.OnNext("Unable to load save game"));
+                Load.ThrownExceptions.Subscribe(e =>
+                {
+                    // TODO: log
+                    Notifications.OnNext("Unable to load save game");
+                });
                 _loaderVisibility = Load.IsExecuting
                     .Select(x => x ? Visibility.Visible : Visibility.Collapsed)
                     .ToProperty(this, x => x.LoaderVisibility, Visibility.Collapsed);
