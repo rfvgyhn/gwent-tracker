@@ -19,6 +19,7 @@ namespace GwentTracker.ViewModels
 
         public int Index { get; set; }
         public string Name { get; set; }
+        public string Flavor { get; set; }
         private int _copies;
         public int Copies
         {

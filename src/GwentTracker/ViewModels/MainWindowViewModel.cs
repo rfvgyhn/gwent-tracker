@@ -92,6 +92,7 @@ namespace GwentTracker.ViewModels
                         Index = c.Index,
                         Copies = c.Copies,
                         Name = c.Name,
+                        Flavor = c.Flavor,
                         Obtained = c.Obtained,
                         Deck = c.Deck,
                         Type = c.Type,
