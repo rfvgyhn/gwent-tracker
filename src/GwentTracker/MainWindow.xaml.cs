@@ -21,11 +21,11 @@ namespace GwentTracker
     {
         public MainWindow()
         {
-            var defaultSavePath = Environment.ExpandEnvironmentVariables((ConfigurationManager.AppSettings["defaultSavePath"]));
-            var latestSave = GetLatestSave(defaultSavePath);
+            var savePath = Environment.ExpandEnvironmentVariables((ConfigurationManager.AppSettings["defaultSavePath"]));
+            var latestSave = GetLatestSave(savePath, out savePath);
 
             if (latestSave == null)
-                Log.Warning("No save files (*.sav) found in default save path {path}", defaultSavePath);
+                Log.Warning("No save files (*.sav) found in default save path {path}", savePath);
             
             ViewModel = new MainWindowViewModel(latestSave, ConfigurationManager.AppSettings["texturePath"]);
             DataContext = ViewModel;
@@ -35,14 +35,14 @@ namespace GwentTracker
                 FileSystemWatcher watcher = null;
                 try
                 {
-                    watcher = new FileSystemWatcher(defaultSavePath, "*.sav")
+                    watcher = new FileSystemWatcher(savePath, "*.sav")
                     {
                         EnableRaisingEvents = Settings.Default.AutoLoad,
                     };
                 }
                 catch (Exception e)
                 {
-                    Log.Error(e, "Unable to watch save game directory {directory} for changes", defaultSavePath);
+                    Log.Error(e, "Unable to watch save game directory {directory} for changes", savePath);
                     Notify("Unable to watch save game directory for changes");
                 }
                 d(this.OneWayBind(ViewModel, vm => vm.Cards, v => v.Cards.ItemsSource));
@@ -75,12 +75,21 @@ namespace GwentTracker
             InitializeComponent();
         }
 
-        private string GetLatestSave(string path)
+        private string GetLatestSave(string path, out string finalPath)
         {
+            finalPath = path;
             if (!Directory.Exists(path))
             {
                 Log.Warning("Directory {directory} doesn't exist", path);
-                return null;
+                var fallback = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "The Witcher 3", "gamesaves");
+
+                if (!Directory.Exists(fallback))
+                {
+                    Log.Warning("Fallback directory {directory} doesn't exists", fallback);
+                    return null;
+                }
+
+                path = finalPath = fallback;
             }
 
             return new DirectoryInfo(path).GetFiles("*.sav")
