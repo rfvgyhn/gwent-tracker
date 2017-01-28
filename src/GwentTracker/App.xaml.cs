@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Serilog;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,17 @@ namespace GwentTracker
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .WriteTo.RollingFile("logs\\{Date}.txt")
+                .CreateLogger();
+        }
+
+        private void Application_Exit(object sender, ExitEventArgs e)
+        {
+            Log.CloseAndFlush();
+        }
     }
 }

@@ -2,6 +2,7 @@
 using GwentTracker.ViewModels;
 using ReactiveUI;
 using ReactiveUI.Events;
+using Serilog;
 using System;
 using System.Configuration;
 using System.IO;
@@ -22,16 +23,28 @@ namespace GwentTracker
         {
             var defaultSavePath = Environment.ExpandEnvironmentVariables((ConfigurationManager.AppSettings["defaultSavePath"]));
             var latestSave = GetLatestSave(defaultSavePath);
-            var watcher = new FileSystemWatcher(defaultSavePath, "*.sav")
-            {
-                EnableRaisingEvents = Settings.Default.AutoLoad,
-            };
+
+            if (latestSave == null)
+                Log.Warning("No save files (*.sav) found in default save path {path}", defaultSavePath);
             
             ViewModel = new MainWindowViewModel(latestSave, ConfigurationManager.AppSettings["texturePath"]);
             DataContext = ViewModel;
             
             this.WhenActivated(d =>
             {
+                FileSystemWatcher watcher = null;
+                try
+                {
+                    watcher = new FileSystemWatcher(defaultSavePath, "*.sav")
+                    {
+                        EnableRaisingEvents = Settings.Default.AutoLoad,
+                    };
+                }
+                catch (Exception e)
+                {
+                    Log.Error(e, "Unable to watch save game directory {directory} for changes", defaultSavePath);
+                    Notify("Unable to watch save game directory for changes");
+                }
                 d(this.OneWayBind(ViewModel, vm => vm.Cards, v => v.Cards.ItemsSource));
                 d(this.OneWayBind(ViewModel, vm => vm.Messages, v => v.Messages.ItemsSource));
                 d(this.Bind(ViewModel, vm => vm.FilterString, v => v.FilterString.Text));
@@ -46,12 +59,16 @@ namespace GwentTracker
                       .Where(e => e.Key == Key.Enter && e.Source == FilterString)
                       .Select(e => Unit.Default)
                       .InvokeCommand(this, v => v.ViewModel.AddFilter));
-                d(Observable.Merge(
-                        Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
-                        Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))
-                    .Select(e => e.EventArgs.FullPath)
-                    .Distinct()
-                    .Subscribe(OnSaveDirectoryChange));
+
+                if (watcher != null)
+                {
+                    d(Observable.Merge(
+                            Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
+                            Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))
+                        .Select(e => e.EventArgs.FullPath)
+                        .Distinct()
+                        .Subscribe(OnSaveDirectoryChange));
+                }
                 // Remove Filter binding is done inside xaml since button is part of data template
             });
 
@@ -61,7 +78,10 @@ namespace GwentTracker
         private string GetLatestSave(string path)
         {
             if (!Directory.Exists(path))
+            {
+                Log.Warning("Directory {directory} doesn't exist", path);
                 return null;
+            }
 
             return new DirectoryInfo(path).GetFiles("*.sav")
                                           .OrderByDescending(f => f.LastWriteTime)

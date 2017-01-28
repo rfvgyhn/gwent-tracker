@@ -1,6 +1,7 @@
 ﻿using GwentTracker.Model;
 using ReactiveUI;
 using ReactiveUI.Legacy;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -86,7 +87,7 @@ namespace GwentTracker.ViewModels
                 LoadCards = ReactiveCommand.CreateFromTask(LoadCardsFromFiles);
                 LoadCards.ThrownExceptions.Subscribe(e =>
                 {
-                    // TODO: log
+                    Log.Error(e, "Unable to load card data");
                     Notifications.OnNext("Unable to load card info");
                 });
                 LoadCards.Subscribe(cards =>
@@ -114,7 +115,7 @@ namespace GwentTracker.ViewModels
                 Load.Subscribe(OnSaveGameLoaded);
                 Load.ThrownExceptions.Subscribe(e =>
                 {
-                    // TODO: log
+                    Log.Error(e, "Unable to load save game at {path}", SaveGamePath);
                     Notifications.OnNext("Unable to load save game");
                 });
                 _loaderVisibility = Load.IsExecuting
@@ -162,9 +163,10 @@ namespace GwentTracker.ViewModels
 
             foreach (var file in files)
             {
+                var filePath = Path.Combine("data", $"{file}.yml");
                 try
                 {
-                    using (var reader = File.OpenText(Path.Combine("data", $"{file}.yml")))
+                    using (var reader = File.OpenText(filePath))
                     {
                         var contents = await reader.ReadToEndAsync();
                         cards.AddRange(deserializer.Deserialize<List<Card>>(contents));
@@ -172,7 +174,7 @@ namespace GwentTracker.ViewModels
                 }
                 catch (Exception e)
                 {
-                    // TODO: log
+                    Log.Error(e, "Couldn't load card data from {file}", filePath);
                     throw;
                 }
             }
