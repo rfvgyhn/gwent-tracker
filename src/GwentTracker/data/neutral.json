@@ -1,0 +1,527 @@
+{
+   "deck": {
+      "name": "Neutral",
+      "cards": [
+         {
+            "index": 0,
+            "deck": "Neutral",
+            "name": "Decoy",
+            "flavor": " ",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Special"
+               ],
+               "abilities": [
+                  "Swap with a non-hero card"
+               ]
+            },
+            "type": "Special",
+            "locations": [
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Innkeeper",
+                  "area": "White Orchard Tavern",
+                  "territory": "",
+                  "region": "White Orchard",
+                  "coords": [0, 0, 0]
+               },
+               {
+                  "type": "Buy from Trader",
+                  "npc": "",
+                  "area": "Quartermaster's Baron's Store",
+                  "territory": "Crow's Perch",
+                  "region": "Velen",
+                  "coords": [0, 0, 0]
+               },
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Innkeeper",
+                  "area": "Seven Cats Inn",
+                  "territory": "Gustfields",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 1,
+            "deck": "Neutral",
+            "name": "Command's Horn",
+            "flavor": "",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Special"
+               ],
+               "abilities": [
+                  "Double the strength of the row"
+               ]
+            },
+            "type": "Special",
+            "locations": [
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Innkeeper",
+                  "area": "Crossroads Inn",
+                  "territory": "",
+                  "region": "Velen",
+                  "coords": [0, 0, 0]
+               },
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Marquise Serenity",
+                  "area": "",
+                  "territory": "Passiflora",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               },
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Innkeeper",
+                  "area": "The Alchemy Inn",
+                  "territory": "Oxenfurt",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 2,
+            "deck": "Neutral",
+            "name": "Scorch",
+            "flavor": "",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Special"
+               ],
+               "abilities": [
+                  "Destroys the strongest non-hero card"
+               ]
+            },
+            "type": "Special",
+            "locations": [
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Innkeeper",
+                  "area": "Cunny of the Goose",
+                  "territory": "Grassy Knoll",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               },
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Innkeeper",
+                  "area": "New Port Inn",
+                  "territory": "Kaer Trolde Harbor",
+                  "region": "Skellige",
+                  "coords": [0, 0, 0]
+               },
+               {
+                  "type": "Buy from Trader",
+                  "npc": "Innkeeper",
+                  "area": "Urialla Village",
+                  "territory": "An Skellig",
+                  "region": "Skellige",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 3,
+            "deck": "Neutral",
+            "name": "Biting Frost",
+            "flavor": "",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Weather"
+               ],
+               "abilities": [
+                  "Sets all non-hero melee strength to 1"
+               ]
+            },
+            "type": "Special",
+            "locations": [
+               {
+                  "type": "Base Deck"
+               },
+               {
+                  "type": "Base Deck"
+               },
+               {
+                  "type": "Win from NPC",
+                  "npc": "Random",
+                  "area": "Random",
+                  "territory": "Random",
+                  "region": "Random",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 4,
+            "deck": "Neutral",
+            "name": "Impenetrable Fog",
+            "flavor": "",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Weather"
+               ],
+               "abilities": [
+                  "Sets all non-hero ranged stength to 1"
+               ]
+            },
+            "type": "Special",
+            "locations": [
+               {
+                  "type": "Base Deck"
+               },
+               {
+                  "type": "Base Deck"
+               },
+               {
+                  "type": "Win from NPC",
+                  "npc": "Random",
+                  "area": "Random",
+                  "territory": "Random",
+                  "region": "Random",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 5,
+            "deck": "Neutral",
+            "name": "Torrential Rain",
+            "flavor": "",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Weather"
+               ],
+               "abilities": [
+                  "Sets all non-hero siege stength to 1"
+               ]
+            },
+            "type": "Special",
+            "locations": [
+               {
+                  "type": "Base Deck"
+               },
+               {
+                  "type": "Win from NPC",
+                  "npc": "Random",
+                  "area": "Random",
+                  "territory": "Random",
+                  "region": "Random",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 6,
+            "deck": "Neutral",
+            "name": "Clear Weather",
+            "flavor": "",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Weather"
+               ],
+               "abilities": [
+                  "Removes all weather"
+               ]
+            },
+            "type": "Special",
+            "locations": [
+               {
+                  "type": "Base Deck"
+               },
+               {
+                  "type": "Win from NPC",
+                  "npc": "Random",
+                  "area": "Random",
+                  "territory": "Random",
+                  "region": "Random",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 7,
+            "deck": "Neutral",
+            "name": "Geralt of Rivia",
+            "flavor": "",
+            "combat": {
+               "strength": 15,
+               "types": [
+                  "Melee"
+               ],
+               "abilities": [
+                  "Immune to special"
+               ]
+            },
+            "type": "Hero",
+            "locations": [
+               {
+                  "type": "Gwent Quest",
+                  "quest": "id# (Gwent- Playing Thaler)",
+                  "npc": "Thaler",
+                  "area": "Seven Cats Inn",
+                  "territory": "",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 8,
+            "deck": "Neutral",
+            "name": "Vesemir",
+            "flavor": "",
+            "combat": {
+               "strength": 6,
+               "types": [
+                  "Melee"
+               ]
+            },
+            "type": "Basic",
+            "locations": [
+               {
+                  "type": "Gwent Quest",
+                  "quest": "id# (Gwent- Big City Players)",
+                  "npc": "Vivaldi",
+                  "area": "Bank of Vivaldi",
+                  "territory": "Hierarch Square",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 9,
+            "deck": "Neutral",
+            "name": "Yennefer of Vengerberg",
+            "flavor": "",
+            "combat": {
+               "strength": 7,
+               "types": [
+                  "Range"
+               ],
+               "abilities": [
+                  "Medic",
+                  "Immune to special"
+               ]
+            },
+            "type": "Hero",
+            "locations": [
+               {
+                  "type": "Gwent Quest",
+                  "quest": "id# (Gwent- Playing Innkeeps)",
+                  "npc": "Stjepan",
+                  "area": "The Alchemy Inn",
+                  "territory": "Oxenfurt",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 10,
+            "deck": "Neutral",
+            "name": "Cirilla Fiona Elen Rianno",
+            "flavor": "",
+            "combat": {
+               "strength": 15,
+               "types": [
+                  "Melee"
+               ],
+               "abilities": [
+                  "Immune to special"
+               ]
+            },
+            "type": "Hero",
+            "locations": [
+               {
+                  "type": "Gwent Quest",
+                  "quest": "id# (Gwent- Big City Players)",
+                  "npc": "Scoia’Tael Trader",
+                  "area": "Novigrad Forest",
+                  "territory": "Grassy Knoll",
+                  "region": "Novigrad",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 11,
+            "deck": "Neutral",
+            "name": "Triss Merigold",
+            "flavor": "",
+            "combat": {
+               "strength": 7,
+               "types": [
+                  "Melee"
+               ],
+               "abilities": [
+                  "Immune to special"
+               ]
+            },
+            "type": "Hero",
+            "locations": [
+               {
+                  "type": "Gwent Quest",
+                  "quest": "id# (Gwent- Old Friends)",
+                  "npc": "Lambert",
+                  "area": "The Nowhere Inn",
+                  "territory": "",
+                  "region": "Novigrad",
+                  "notes": "Before the Following the Thead auest",
+                  "coords": [0, 0, 0]
+               },
+               {
+                  "type": "Gwent Quest",
+                  "quest": "id# (Gwent- Old Friends)",
+                  "npc": "Lambert",
+                  "area": "",
+                  "territory": "",
+                  "region": "Kaer Morhen",
+                  "notes": "After the Following the Thead auest",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 12,
+            "deck": "Neutral",
+            "name": "Dandelion",
+            "flavor": "",
+            "combat": {
+               "strength": 2,
+               "types": [
+                  "Melee"
+               ],
+               "abilities": [
+                  "Commander's Horn"
+               ]
+            },
+            "type": "Basic",
+            "locations": [
+               {
+                  "type": "Secondary Quest",
+                  "quest": "id# (A Matter of Life and Death)",
+                  "npc": "",
+                  "area": "Vegelbud Estate",
+                  "territory": "Gustfields",
+                  "region": "Novigrad",
+                  "notes": "Win a match at the masquerade ball",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 13,
+            "deck": "Neutral",
+            "name": "Zoltan Chivay",
+            "flavor": "",
+            "combat": {
+               "strength": 5,
+               "types": [
+                  "Melee"
+               ]
+            },
+            "type": "Basic",
+            "locations": [
+               {
+                  "type": "Win from NPC",
+                  "npc": "Scholar",
+                  "area": "",
+                  "territory": "",
+                  "region": "White Orchard",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 14,
+            "deck": "Neutral",
+            "name": "Emiel Regis Rohellec Terzieff",
+            "flavor": "",
+            "combat": {
+               "strength": 5,
+               "types": [
+                  "Melee"
+               ]
+            },
+            "type": "Basic",
+            "locations": [
+               {
+                  "type": "Win from NPC",
+                  "npc": "Random",
+                  "area": "Random",
+                  "territory": "Random",
+                  "region": "Random",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 15,
+            "deck": "Neutral",
+            "name": "Villentretenmerth",
+            "flavor": "",
+            "combat": {
+               "strength": 7,
+               "types": [
+                  "Melee"
+               ],
+               "abilities": [
+                  "Destroy opponent's strongest melee if combined melee strength is 10 or more"
+               ]
+            },
+            "type": "Basic",
+            "locations": [
+               {
+                  "type": "Win from NPC",
+                  "npc": "Random",
+                  "area": "Random",
+                  "territory": "Random",
+                  "region": "Random",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         },
+         {
+            "index": 16,
+            "deck": "Neutral",
+            "name": "Avallac'h (a.k.a Mysterious Elf)",
+            "flavor": "",
+            "combat": {
+               "strength": 0,
+               "types": [
+                  "Melee"
+               ],
+               "abilities": [
+                  "Spy",
+                  "Immune to special"
+               ]
+            },
+            "type": "Hero",
+            "locations": [
+               {
+                  "type": "Gwent Quest",
+                  "quest": "id# (Skellige Style)",
+                  "npc": "Gremita",
+                  "area": "Gedyneith",
+                  "territory": "Ard Skellig",
+                  "region": "Skellige",
+                  "coords": [0, 0, 0]
+               }
+            ]
+         }
+      ]
+   }
+}

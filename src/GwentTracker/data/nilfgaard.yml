@@ -1,0 +1,712 @@
+﻿deck:
+    name: Nilfgaard
+    cards:
+    -   index: 200
+        deck: Nilfgaard
+        name: Letho of Gulet
+        flavor: 
+        combat:
+            strength: 10
+            types:
+                - Melee
+            abilities:
+                - Immune to special
+        type: Hero
+        locations:
+            -   type: Gwent Quest
+                quest: id# (Velen Players)
+                npc: The Boatbuilder
+                area: Oreton
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 201
+        deck: Nilfgaard
+        name: Menno Coehoorn
+        flavor: 
+        combat:
+            strength: 10
+            types:
+                - Melee
+            abilities:
+                - Immune to special
+        type: Hero
+        locations:
+            -   type: Gwent Quest
+                quest: id# (Playing Innkeeps)
+                npc: Innkeeper
+                area: Crossroads Inn
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 202
+        deck: Nilfgaard
+        name: Morvran Voorhis
+        flavor: 
+        combat:
+            strength: 10
+            types:
+                - Siege
+            abilities:
+                - Immune to special
+        type: Hero
+        locations:
+            -   type: Gwent Quest
+                quest: id# (Big City Players)
+                npc: Marquise Serenity
+                area: 
+                territory: Passiflora
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 203
+        deck: Nilfgaard
+        name: Tibor Eggebracht
+        flavor: 
+        combat:
+            strength: 10
+            types:
+                - Range
+            abilities:
+                - Immune to special
+        type: Hero
+        locations:
+            -   type: Gwent Quest
+                quest: id# (Playing Innkeeps)
+                npc: Olivier
+                area: Kingfisher Inn
+                territory: 
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 205
+        deck: Nilfgaard
+        name: Albrich
+        flavor: 
+        combat:
+            strength: 2
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Crow's Perch
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 206
+        deck: Nilfgaard
+        name: Assire var Anahid
+        flavor: 
+        combat:
+            strength: 6
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 207
+        deck: Nilfgaard
+        name: Cynthia
+        flavor: 
+        combat:
+            strength: 4
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Quartermaster
+                area: Baron's Store
+                territory: Crow's Perch
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 208
+        deck: Nilfgaard
+        name: Fringilla Vigo
+        flavor: 
+        combat:
+            strength: 6
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Secondary Quest
+                quest: id# (A Dangerous Game)
+                npc: 
+                area: Caesar Bilzen's home
+                territory: 
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 209
+        deck: Nilfgaard
+        name: Morteisen
+        flavor: 
+        combat:
+            strength: 3
+            types:
+                - Melee
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Shopkeeper
+                area: Midcopse
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 210
+        deck: Nilfgaard
+        name: Rainfarn
+        flavor: 
+        combat:
+            strength: 4
+            types:
+                - Melee
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Merchant
+                area: Lindenvale
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 211
+        deck: Nilfgaard
+        name: Renuald aep Matsen
+        flavor: 
+        combat:
+            strength: 5
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 212
+        deck: Nilfgaard
+        name: Rotten Mangonel
+        flavor: 
+        combat:
+            strength: 3
+            types:
+                - Siege
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 213
+        deck: Nilfgaard
+        name: Shilard Fitz-Oesterlen
+        flavor: 
+        combat:
+            strength: 7
+            types:
+                - Melee
+            abilities:
+                - Spy
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 214
+        deck: Nilfgaard
+        name: Stefan Skellen
+        flavor: 
+        combat:
+            strength: 9
+            types:
+                - Melee
+            abilities:
+                - Spy
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 215
+        deck: Nilfgaard
+        name: Sweers
+        flavor: 
+        combat:
+            strength: 2
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Claywich Village
+                territory: 
+                region: Velen
+                notes: Must first be rescued
+                coords: (0, 0, 0)
+    -   index: 217
+        deck: Nilfgaard
+        name: Vanhemar
+        flavor: 
+        combat:
+            strength: 4
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 218
+        deck: Nilfgaard
+        name: Vattier de Rideaux
+        flavor: 
+        combat:
+            strength: 4
+            types:
+                - Melee
+            abilities:
+                - Spy
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 219
+        deck: Nilfgaard
+        name: Vreemde
+        flavor: 
+        combat:
+            strength: 2
+            types:
+                - Melee
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 220
+        deck: Nilfgaard
+        name: Cahir Mawr Dyffryn aep Ceallach
+        flavor: 
+        combat:
+            strength: 6
+            types:
+                - Melee
+        type: Basic
+        locations:
+            -   type: Win from NPC
+                npc: Random
+                area: Random
+                territory: Random
+                region: Random
+                coords: (0, 0, 0)
+    -   index: 221
+        deck: Nilfgaard
+        name: Puttkammer
+        flavor: 
+        combat:
+            strength: 3
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Claywich Village
+                territory: 
+                region: Velen
+                notes: Must first rescue trader
+                coords: (0, 0, 0)
+    -   index: 230
+        deck: Nilfgaard
+        name: Etolian Auxiliary Archers
+        flavor: 
+        combat:
+            strength: 1
+            types:
+                - Range
+            abilities:
+                - Medic
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Merchant
+                area: Lindenvale
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 231
+        deck: Nilfgaard
+        name: Etolian Auxiliary Archers
+        flavor: 
+        combat:
+            strength: 1
+            types:
+                - Range
+            abilities:
+                - Medic
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Claywich Village
+                territory: 
+                region: Velen
+                notes: Must first rescue trader
+                coords: (0, 0, 0)
+    -   index: 235
+        deck: Nilfgaard
+        name: Black Infantry Archer
+        flavor: 
+        combat:
+            strength: 10
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Claywich Village
+                territory: 
+                region: Velen
+                notes: Must first rescue trader
+                coords: (0, 0, 0)
+    -   index: 236
+        deck: Nilfgaard
+        name: Black Infantry Archer
+        flavor: 
+        combat:
+            strength: 10
+            types:
+                - Range
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Merchant
+                area: Lindenvale
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 240
+        deck: Nilfgaard
+        name: Heavy Zerrikanian Fire Scorpion
+        flavor: 
+        combat:
+            strength: 10
+            types:
+                - Siege
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Merchant
+                area: Lindenvale
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 241
+        deck: Nilfgaard
+        name: Zerrikanian Fire Scorpion
+        flavor: 
+        combat:
+            strength: 5
+            types:
+                - Siege
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Crow's Perch
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 245
+        deck: Nilfgaard
+        name: Impera Brigade Guard
+        flavor: 
+        combat:
+            strength: 3
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Crow's Perch
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 246
+        deck: Nilfgaard
+        name: Impera Brigade Guard
+        flavor: 
+        combat:
+            strength: 3
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Crossroads Inn
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 247
+        deck: Nilfgaard
+        name: Impera Brigade Guard
+        flavor: 
+        combat:
+            strength: 3
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Seven Cats Inn
+                territory: Gustfields
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 248
+        deck: Nilfgaard
+        name: Impera Brigade Guard
+        flavor: 
+        combat:
+            strength: 3
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Cunny of teh Goose
+                territory: Grassy Knoll
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 250
+        deck: Nilfgaard
+        name: Nausicaa Cavalry Rider
+        flavor: 
+        combat:
+            strength: 2
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Quartermaster
+                area: Baron's Store
+                territory: Crow's Perch
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 251
+        deck: Nilfgaard
+        name: Nausicaa Cavalry Rider
+        flavor: 
+        combat:
+            strength: 2
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Crossroads Inn
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 252
+        deck: Nilfgaard
+        name: Nausicaa Cavalry Rider
+        flavor: 
+        combat:
+            strength: 2
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Trader
+                area: Crow's Perch
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 255
+        deck: Nilfgaard
+        name: Siege Engineer
+        flavor: 
+        combat:
+            strength: 6
+            types:
+                - Siege
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Crossroads Inn
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 260
+        deck: Nilfgaard
+        name: Young Emissary
+        flavor: 
+        combat:
+            strength: 5
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: 
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Cunny of the Goose
+                territory: Grassy Knoll
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 261
+        deck: Nilfgaard
+        name: Young Emissary
+        flavor: 
+        combat:
+            strength: 5
+            types:
+                - Melee
+            abilities:
+                - Bond
+        type: 
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Seven Cats Inn
+                territory: Grassy Knoll
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 265
+        deck: Nilfgaard
+        name: Siege Technician
+        flavor: 
+        combat:
+            strength: 0
+            types:
+                - Siege
+            abilities:
+                - Medic
+        type: Basic
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Golden Sturgeon
+                territory: 
+                region: Novigrad
+                coords: (0, 0, 0)
+    -   index: 2001
+        deck: Nilfgaard
+        name: Emhry var Emrels His Imperial Majesty
+        flavor: 
+        combat:
+            strength: 0
+            types:
+                - Leader
+            abilities:
+                - Rain
+        type: Leader
+        locations:
+            -   type: Base Deck
+    -   index: 2002
+        deck: Nilfgaard
+        name: Emhyr var Emreis Emperor of Nilfgaard
+        flavor: 
+        combat:
+            strength: 0
+            types:
+                - Leader
+            abilities:
+                - Look at three opponent cards
+        type: Leader
+        locations:
+            -   type: Buy from Trader
+                npc: Innkeeper
+                area: Crossroads Inn
+                territory: 
+                region: Velen
+                coords: (0, 0, 0)
+    -   index: 2003
+        deck: Nilfgaard
+        name: Emhry var Emrels the White Flame
+        flavor: 
+        combat:
+            strength: 0
+            types:
+                - Leader
+            abilities:
+                - Cancel oppenonet's leader
+        type: Leader
+        locations:
+            -   type: Gwent Quest
+                quest: id# (Skellige Style)
+                npc: 
+                area: 
+                territory: 
+                region: Skellige
+                notes: Reward for completing quest
+                coords: (0, 0, 0)
+    -   index: 2004
+        deck: Nilfgaard
+        name: Emhyr var Emreis the Relentless
+        flavor: 
+        combat:
+            strength: 0
+            types:
+                - Leader
+            abilities:
+                - Draw card from oppenent's discard pile
+        type: Leader
+        locations:
+            -   type: Secondary Quest
+                quest: id# (High Stakes)
+                npc: 
+                area: 
+                territory: Passiflora
+                region: Novigrad
+                coords: (0, 0, 0)
