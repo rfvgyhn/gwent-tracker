@@ -144,10 +144,7 @@ namespace GwentTracker.ViewModels
                     })
                     .DisposeWith(d);
 
-                var canAddFilter = this.WhenAnyValue(
-                    vm => vm.Model.CardCopies,
-                    vm => vm.FilterString,
-                    (cards, filter) => cards?.Any() == true && !string.IsNullOrWhiteSpace(filter));
+                var canAddFilter = this.WhenAnyValue(vm => vm.FilterString, filter => !string.IsNullOrWhiteSpace(filter));
                 AddFilter = ReactiveCommand.Create(OnAddFilter, canAddFilter);
                 RemoveFilter = ReactiveCommand.Create<string>(OnRemoveFilter);
             });
