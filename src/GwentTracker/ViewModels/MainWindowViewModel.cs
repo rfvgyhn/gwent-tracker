@@ -21,6 +21,7 @@ using ReactiveCommand = ReactiveUI.ReactiveCommand;
 
 namespace GwentTracker.ViewModels
 {
+    // TODO:  Replace ReactiveList<T> with DynamicData https://reactiveui.net/docs/handbook/collections/#converting-reactivelist-to-dynamicdata
     public class MainWindowViewModel : ReactiveObject, ISupportsActivation
     {
         private readonly string _textureStringFormat;
@@ -36,11 +37,11 @@ namespace GwentTracker.ViewModels
         public ReactiveCommand RemoveFilter { get; set; }
         public ReactiveList<string> Filters { get; set; }
 
-        ObservableAsPropertyHelper<Visibility> _loaderVisibility;
-        public Visibility LoaderVisibility => _loaderVisibility.Value;
+        ObservableAsPropertyHelper<bool> _loaderVisibility;
+        public bool LoaderVisibility => _loaderVisibility.Value;
 
-        private ObservableAsPropertyHelper<Visibility> _cardVisiblity;
-        public Visibility CardVisibility => _cardVisiblity.Value;
+        private ObservableAsPropertyHelper<bool> _cardVisiblity;
+        public bool CardVisibility => _cardVisiblity.Value;
 
         private CardViewModel _selectedCard;
         public CardViewModel SelectedCard
@@ -119,8 +120,8 @@ namespace GwentTracker.ViewModels
                     Notifications.OnNext("Unable to load save game");
                 });
                 _loaderVisibility = Load.IsExecuting
-                    .Select(x => x ? Visibility.Visible : Visibility.Collapsed)
-                    .ToProperty(this, x => x.LoaderVisibility, Visibility.Collapsed);
+                    .Select(x => x)
+                    .ToProperty(this, x => x.LoaderVisibility);
 
                 this.WhenAnyValue(x => x.SaveGamePath)
                     .Select(s => s?.Trim())
@@ -130,8 +131,8 @@ namespace GwentTracker.ViewModels
                     .DisposeWith(d);
 
                 _cardVisiblity = this.WhenAnyValue(x => x.SelectedCard)
-                    .Select(c => c == null ? Visibility.Collapsed : Visibility.Visible)
-                    .ToProperty(this, x => x.CardVisibility, Visibility.Collapsed);
+                    .Select(c => c != null)
+                    .ToProperty(this, x => x.CardVisibility);
 
                 this.Filters.Changed
                     .Subscribe(i =>

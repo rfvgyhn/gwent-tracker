@@ -1,30 +1,13 @@
-﻿using Serilog;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+using Avalonia;
+using Avalonia.Markup.Xaml;
 
 namespace GwentTracker
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
-    public partial class App : Application
+    public class App : Application
     {
-        public App()
+        public override void Initialize()
         {
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.RollingFile("logs\\{Date}.txt")
-                .CreateLogger();
+            AvaloniaXamlLoader.Load(this);
         }
-
-        private void Application_Exit(object sender, ExitEventArgs e)
-        {
-            Log.CloseAndFlush();
-        }
-    }
+   }
 }
