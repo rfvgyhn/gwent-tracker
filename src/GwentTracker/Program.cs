@@ -5,6 +5,7 @@ using Avalonia;
 using Avalonia.Logging.Serilog;
 using GwentTracker.ViewModels;
 using GwentTracker.Views;
+using Microsoft.Extensions.Configuration;
 using Serilog;
 
 namespace GwentTracker
@@ -24,18 +25,20 @@ namespace GwentTracker
         // container, etc.
         private static void Startup(Application app, string[] args)
         {
-            var defaultSavePath = ""; // TODO: Get save path from config file
-            //var defaultSavePath = Environment.ExpandEnvironmentVariables((ConfigurationManager.AppSettings["defaultSavePath"]));
+            var config = new ConfigurationBuilder()
+                .AddIniFile("settings.ini", false)
+                .Build();
+            var defaultSavePath = Environment.ExpandEnvironmentVariables(config["defaultSavePath"]);
             var (latestSave, savePath) = GetLatestSave(defaultSavePath);
 
             if (latestSave == null)
                 Log.Warning("No save files (*.sav) found in default save path {path}", savePath);
 
-            var texturePath = ""; // TODO: Get texture path from config file
+            var texturePath = config["texturePath"];
             FileSystemWatcher watcher = null;
             try
             {
-                watcher = new FileSystemWatcher(savePath, "*.sav") { EnableRaisingEvents = true }; // TODO: Get autoload from config file
+                watcher = new FileSystemWatcher(savePath, "*.sav") { EnableRaisingEvents = config.GetValue("autoload", true) };
             }
             catch (Exception e)
             {
