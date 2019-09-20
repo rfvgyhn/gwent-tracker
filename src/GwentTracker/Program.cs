@@ -17,6 +17,7 @@ namespace GwentTracker
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
                 .LogToDebug()
+                .UseDataGrid()
                 .UseReactiveUI();
 
         // Your application's entry point. Here you can initialize your MVVM framework, DI
