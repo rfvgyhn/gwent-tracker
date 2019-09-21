@@ -13,7 +13,23 @@
     <!-- <Design.DataContext> -->
     <!--     <vm:MainWindowViewModel/> -->
     <!-- </Design.DataContext> -->
-    
+    <Window.Styles>
+    <Style Selector="Button.round">
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Border CornerRadius="10" Background="#cccccc" BorderThickness="0">
+                    <ContentPresenter x:Name="contentPresenter" 
+                                      ContentTemplate="{TemplateBinding ContentTemplate}" 
+                                      Content="{TemplateBinding Content}" 
+                                      HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                      Margin="{TemplateBinding Margin}"
+                                      Padding="{TemplateBinding Padding}" 
+                                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                </Border>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+    </Window.Styles>
     <Grid ColumnDefinitions="204, *">
         <StackPanel Grid.Column="0" Width="204" VerticalAlignment="Top">
             <Grid Margin="4 4 4 0" x:Name="SelectedCard" ColumnDefinitions="*" RowDefinitions="Auto, Auto, Auto">
@@ -55,34 +71,34 @@
             <!--     </ItemsControl.ItemTemplate> -->
             <!-- </ItemsControl> -->
         </StackPanel>
-        <Grid Grid.Column="1" RowDefinitions="Auto, Auto, Auto, 15, *">
-            <Grid Grid.Row="0" ColumnDefinitions="Auto, Auto, Auto">
+        <Grid Grid.Column="1" RowDefinitions="Auto, 15, *">
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
                 <!-- <materialDesign:PackIcon Grid.Column="0" Grid.Row="0" Kind="Magnify" Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}" Height="16" VerticalAlignment="Center" /> -->
-                <TextBox Grid.Column="1" Margin="4 0 4 0" Grid.Row="0" x:Name="FilterString" Watermark="Filter" MinWidth="200"/>
-                <Button Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" x:Name="AddFilter" Content="Add" />
-            </Grid>
-            <ItemsControl Grid.Row="1" x:Name="Filters" Margin="0 4 0 4">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Button Content="X"></Button>
-                        <!-- <materialDesign:Chip Content="{Binding}" -->
-                        <!--                      Margin="4 0 0 0" -->
-                        <!--          IsDeletable="True" -->
-                        <!--          DeleteCommand="{Binding Path=DataContext.RemoveFilter, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" -->
-                        <!--          DeleteCommandParameter="{Binding}"/> -->
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <StackPanel Orientation="Horizontal" />
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-            </ItemsControl>
-            <DockPanel Grid.Row="3">
+                <TextBox Margin="4 0 4 0" x:Name="FilterString" Watermark="Filter" MinWidth="200"/>
+                <Button HorizontalAlignment="Right" x:Name="AddFilter" Content="Add" />
+                <ItemsControl x:Name="Filters">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="5" BorderBrush="Black" BorderThickness="1" Padding="5 2 5 2" Margin="4 0 0 0">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                    <Button Content="X" Classes="round" Margin="2 0 0 0" Command="{Binding $parent[Window].DataContext.RemoveFilter}" CommandParameter="{Binding}" />
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <DockPanel Grid.Row="1">
                 <ProgressBar DockPanel.Dock="Right" Width="50" Name="LoadGameProgress" IsIndeterminate="True" />
                 <TextBlock DockPanel.Dock="Left" Name="Status" />
             </DockPanel>
-            <Grid Grid.Row="4">
+            <Grid Grid.Row="2">
                 <DataGrid IsReadOnly="True" Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
                     <!--<DataGrid.RowStyle>
                         <Style TargetType="{x:Type DataGridRow}">
