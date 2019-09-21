@@ -71,7 +71,7 @@ namespace GwentTracker.ViewModels
             set { this.RaiseAndSetIfChanged(ref _saveGamePath, value); }
         }
 
-        public MainWindowViewModel(string saveGamePath, string textureStringFormat)
+        public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges)
         {
             _textureStringFormat = textureStringFormat;
             Activator = new ViewModelActivator();
@@ -151,9 +151,17 @@ namespace GwentTracker.ViewModels
                 var canAddFilter = this.WhenAnyValue(vm => vm.FilterString, filter => !string.IsNullOrWhiteSpace(filter));
                 AddFilter = ReactiveCommand.Create(OnAddFilter, canAddFilter);
                 RemoveFilter = ReactiveCommand.Create<string>(OnRemoveFilter);
+                
+                saveDirChanges?.Subscribe(OnSaveDirectoryChange).DisposeWith(d);
             });
         }
 
+        private void OnSaveDirectoryChange(string path)
+        {
+            Log.Debug("Save directory change '{path}'", path);
+            SaveGamePath = path;
+        }
+        
         private async Task<IEnumerable<Card>> LoadCardsFromFiles()
         {
             var cards = new List<Card>();

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Reactive.Linq;
 using Avalonia;
 using Avalonia.Logging.Serilog;
 using GwentTracker.ViewModels;
@@ -25,6 +26,10 @@ namespace GwentTracker
         // container, etc.
         private static void Startup(Application app, string[] args)
         {
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .WriteTo.Debug()
+                .CreateLogger();
             var config = new ConfigurationBuilder()
                 .AddIniFile("settings.ini", false)
                 .Build();
@@ -35,18 +40,26 @@ namespace GwentTracker
                 Log.Warning("No save files (*.sav) found in default save path {path}", savePath);
 
             var texturePath = config["texturePath"];
-            FileSystemWatcher watcher = null;
+            var saveDirChanges = Observable.Empty<string>();
             try
             {
-                watcher = new FileSystemWatcher(savePath, "*.sav") { EnableRaisingEvents = config.GetValue("autoload", true) };
+                var watcher = new FileSystemWatcher(savePath, "*.sav")
+                {
+                    EnableRaisingEvents = config.GetValue("autoload", true)
+                };
+                saveDirChanges = Observable.Merge(
+                        Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
+                        Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))
+                    .Select(e => e.EventArgs.FullPath)
+                    .Sample(TimeSpan.FromMilliseconds(100));
             }
             catch (Exception e)
             {
                 Log.Error(e, "Unable to watch save game directory {directory} for changes", savePath);
             }
-            var window = new MainWindow(watcher)
+            var window = new MainWindow()
             {
-                DataContext = new MainWindowViewModel(latestSave, texturePath)
+                DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges)
             };
 
             app.Run(window);

@@ -1,17 +1,13 @@
 using System;
-using System.IO;
-using System.Linq;
 using System.Reactive;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Data;
 using Avalonia.Input;
 using Avalonia.Markup.Xaml;
 using GwentTracker.ViewModels;
 using ReactiveUI;
-using Serilog;
 
 namespace GwentTracker.Views
 {
@@ -25,10 +21,8 @@ namespace GwentTracker.Views
         private Grid SelectedCard => this.FindControl<Grid>("SelectedCard");
         private Button AddFilter => this.FindControl<Button>("AddFilter");
         
-        public MainWindow(FileSystemWatcher fileSystemWatcher)
+        public MainWindow()
         {
-            var watcher = fileSystemWatcher;
-            
             this.WhenActivated(d =>
             {
                 this.OneWayBind(ViewModel, vm => vm.Cards, v => v.Cards.Items).DisposeWith(d);
@@ -44,31 +38,16 @@ namespace GwentTracker.Views
                 Observable
                     .FromEventPattern<EventHandler<KeyEventArgs>, KeyEventArgs>(
                         handler => FilterString.KeyDown += handler,
-                        handler => Filters.KeyDown -= handler)
+                        handler => FilterString.KeyDown -= handler)
                     .Where(e => e.EventArgs.Key == Key.Enter)
                     .Select(e => Unit.Default)
                     .InvokeCommand(this, v => v.ViewModel.AddFilter)
                     .DisposeWith(d);
-
-                if (watcher != null)
-                {
-                    Observable.Merge(
-                            Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
-                            Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))
-                        .Select(e => e.EventArgs.FullPath)
-                        .Distinct()
-                        .Subscribe(OnSaveDirectoryChange)
-                        .DisposeWith(d);
-                }
-                else
-                    Notify("Unable to watch save game directory for changes");
-                
                 // Remove Filter binding is done inside xaml since button is part of data template
             });
-
             InitializeComponent();
         }
-
+        
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
@@ -77,11 +56,6 @@ namespace GwentTracker.Views
         private void Notify(string message)
         {
             //this.Notifications.MessageQueue.Enqueue(message);
-        }
-
-        private void OnSaveDirectoryChange(string path)
-        {
-            ViewModel.SaveGamePath = path;
         }
 
 //        object IViewFor.ViewModel
