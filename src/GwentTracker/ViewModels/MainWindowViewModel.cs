@@ -12,7 +12,6 @@ using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Threading.Tasks;
-using System.Windows;
 using W3SavegameEditor.Core.Savegame;
 using W3SavegameEditor.Core.Savegame.Variables;
 using YamlDotNet.Serialization;
@@ -130,6 +129,11 @@ namespace GwentTracker.ViewModels
                     .InvokeCommand(Load)
                     .DisposeWith(d);
 
+                this.WhenAnyValue(v => v.SelectedCard.LoadTexture)
+                    .SelectMany(x => x.Execute())
+                    .Subscribe()
+                    .DisposeWith(d);
+                
                 _cardVisiblity = this.WhenAnyValue(x => x.SelectedCard)
                     .Select(c => c != null)
                     .ToProperty(this, x => x.CardVisibility);
