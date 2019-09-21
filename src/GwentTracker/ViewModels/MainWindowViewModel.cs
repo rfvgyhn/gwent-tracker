@@ -30,6 +30,7 @@ namespace GwentTracker.ViewModels
         public IReactiveDerivedList<CardViewModel> Cards { get; set; }
         public ReactiveList<Message> Messages { get; set; }
         public Subject<string> Notifications { get; set; }
+        public TimeSpan NotificationDuration => TimeSpan.FromSeconds(5);
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
         public ReactiveCommand<Unit, IEnumerable<Card>> LoadCards { get; set; }
         public ReactiveCommand AddFilter { get; set; }

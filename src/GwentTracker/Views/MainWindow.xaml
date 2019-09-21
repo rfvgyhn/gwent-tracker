@@ -55,7 +55,7 @@
             <!--     </ItemsControl.ItemTemplate> -->
             <!-- </ItemsControl> -->
         </StackPanel>
-        <Grid Grid.Column="1" RowDefinitions="Auto, Auto, Auto, *">
+        <Grid Grid.Column="1" RowDefinitions="Auto, Auto, Auto, 15, *">
             <Grid Grid.Row="0" ColumnDefinitions="Auto, Auto, Auto">
                 <!-- <materialDesign:PackIcon Grid.Column="0" Grid.Row="0" Kind="Magnify" Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}" Height="16" VerticalAlignment="Center" /> -->
                 <TextBox Grid.Column="1" Margin="4 0 4 0" Grid.Row="0" x:Name="FilterString" Watermark="Filter" MinWidth="200"/>
@@ -78,8 +78,11 @@
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
-            <ProgressBar Grid.Row="2" x:Name="LoadGameProgress" IsIndeterminate="True" />
-            <Grid Grid.Row="3">
+            <DockPanel Grid.Row="3">
+                <ProgressBar DockPanel.Dock="Right" Width="50" Name="LoadGameProgress" IsIndeterminate="True" />
+                <TextBlock DockPanel.Dock="Left" Name="Status" />
+            </DockPanel>
+            <Grid Grid.Row="4">
                 <DataGrid IsReadOnly="True" Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
                     <!--<DataGrid.RowStyle>
                         <Style TargetType="{x:Type DataGridRow}">
@@ -106,7 +109,6 @@
                         <DataGridTextColumn Header="Region" Binding="{Binding Region}"/>
                     </DataGrid.Columns>
                 </DataGrid>
-                <!-- <materialDesign:Snackbar x:Name="Notifications" MessageQueue="{materialDesign:MessageQueue}" /> -->
             </Grid>
         </Grid>
         

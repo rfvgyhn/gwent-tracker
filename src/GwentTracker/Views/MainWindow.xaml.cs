@@ -6,6 +6,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Markup.Xaml;
+using Avalonia.Threading;
 using GwentTracker.ViewModels;
 using ReactiveUI;
 
@@ -20,6 +21,7 @@ namespace GwentTracker.Views
         private ProgressBar LoadGameProgress => this.FindControl<ProgressBar>("LoadGameProgress");
         private Grid SelectedCard => this.FindControl<Grid>("SelectedCard");
         private Button AddFilter => this.FindControl<Button>("AddFilter");
+        private TextBlock Status => this.FindControl<TextBlock>("Status");
         
         public MainWindow()
         {
@@ -31,10 +33,10 @@ namespace GwentTracker.Views
                 this.OneWayBind(ViewModel, vm => vm.Filters, v => v.Filters.Items).DisposeWith(d);
                 this.OneWayBind(ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.IsVisible).DisposeWith(d);
                 this.OneWayBind(ViewModel, vm => vm.CardVisibility, v => v.SelectedCard.IsVisible).DisposeWith(d);
-                ViewModel.Notifications.Subscribe(Notify).DisposeWith(d);
                 this.WhenAnyValue(v => v.Cards.SelectedItem).BindTo(this, w => w.ViewModel.SelectedCard).DisposeWith(d);
                 this.WhenAnyValue(v => v.ViewModel.LoadCards).SelectMany(x => x.Execute()).Subscribe().DisposeWith(d);
                 this.BindCommand(ViewModel, vm => vm.AddFilter, v => v.AddFilter).DisposeWith(d);
+                ViewModel.Notifications.Subscribe(Notify).DisposeWith(d);
                 Observable
                     .FromEventPattern<EventHandler<KeyEventArgs>, KeyEventArgs>(
                         handler => FilterString.KeyDown += handler,
@@ -53,9 +55,13 @@ namespace GwentTracker.Views
             AvaloniaXamlLoader.Load(this);
         }
 
+        private IDisposable _timer;
         private void Notify(string message)
         {
-            //this.Notifications.MessageQueue.Enqueue(message);
+            _timer?.Dispose();
+            Status.Text = message;
+            _timer = Observable.Timer(ViewModel.NotificationDuration, AvaloniaScheduler.Instance)
+                        .Subscribe(x => Status.Text = "");
         }
 
 //        object IViewFor.ViewModel
