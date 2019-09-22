@@ -63,11 +63,5 @@ namespace GwentTracker.Views
             _timer = Observable.Timer(ViewModel.NotificationDuration, AvaloniaScheduler.Instance)
                         .Subscribe(x => Status.Text = "");
         }
-
-//        object IViewFor.ViewModel
-//        {
-//            get { return ViewModel; }
-//            set { ViewModel = (MainWindowViewModel)value; }
-//        }
     }
 }

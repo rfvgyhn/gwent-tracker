@@ -40,14 +40,24 @@ namespace GwentTracker
                 Log.Warning("No save files (*.sav) found in default save path {path}", savePath);
 
             var texturePath = config["texturePath"];
-            var saveDirChanges = Observable.Empty<string>();
+            var saveDirChanges = ObserveSaveDirChanges(savePath, config.GetValue("autoload", true));
+            var window = new MainWindow()
+            {
+                DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges)
+            };
+
+            app.Run(window);
+        }
+
+        private static IObservable<string> ObserveSaveDirChanges(string savePath, bool autoload)
+        {
             try
             {
                 var watcher = new FileSystemWatcher(savePath, "*.sav")
                 {
-                    EnableRaisingEvents = config.GetValue("autoload", true)
+                    EnableRaisingEvents = autoload
                 };
-                saveDirChanges = Observable.Merge(
+                return Observable.Merge(
                         Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Renamed)),
                         Observable.FromEventPattern<FileSystemEventArgs>(watcher, nameof(FileSystemWatcher.Created)))
                     .Select(e => e.EventArgs.FullPath)
@@ -57,14 +67,10 @@ namespace GwentTracker
             {
                 Log.Error(e, "Unable to watch save game directory {directory} for changes", savePath);
             }
-            var window = new MainWindow()
-            {
-                DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges)
-            };
 
-            app.Run(window);
+            return Observable.Empty<string>();
         }
-        
+
         private static (string, string) GetLatestSave(string path)
         {
             var finalPath = path;

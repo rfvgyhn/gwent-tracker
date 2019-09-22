@@ -37,39 +37,39 @@ namespace GwentTracker.ViewModels
         public ReactiveCommand RemoveFilter { get; set; }
         public ReactiveList<string> Filters { get; set; }
 
-        ObservableAsPropertyHelper<bool> _loaderVisibility;
+        private ObservableAsPropertyHelper<bool> _loaderVisibility;
         public bool LoaderVisibility => _loaderVisibility.Value;
 
-        private ObservableAsPropertyHelper<bool> _cardVisiblity;
-        public bool CardVisibility => _cardVisiblity.Value;
+        private ObservableAsPropertyHelper<bool> _cardVisibility;
+        public bool CardVisibility => _cardVisibility.Value;
 
         private CardViewModel _selectedCard;
         public CardViewModel SelectedCard
         {
-            get { return _selectedCard; }
-            set { this.RaiseAndSetIfChanged(ref _selectedCard, value); }
+            get => _selectedCard;
+            set => this.RaiseAndSetIfChanged(ref _selectedCard, value);
         }
 
         private SaveGameInfo _model;
 
         private SaveGameInfo Model
         {
-            get { return _model; }
-            set { this.RaiseAndSetIfChanged(ref _model, value); }
+            get => _model;
+            set => this.RaiseAndSetIfChanged(ref _model, value);
         }
 
         private string _filterString;
         public string FilterString
         {
-            get { return _filterString; }
-            set { this.RaiseAndSetIfChanged(ref _filterString, value); }
+            get => _filterString;
+            set => this.RaiseAndSetIfChanged(ref _filterString, value);
         }
 
         private string _saveGamePath;
         public string SaveGamePath
         {
-            get { return _saveGamePath; }
-            set { this.RaiseAndSetIfChanged(ref _saveGamePath, value); }
+            get => _saveGamePath;
+            set => this.RaiseAndSetIfChanged(ref _saveGamePath, value);
         }
 
         public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges)
@@ -77,8 +77,7 @@ namespace GwentTracker.ViewModels
             _textureStringFormat = textureStringFormat;
             Activator = new ViewModelActivator();
             Filters = new ReactiveList<string>();
-            _cards = new ReactiveList<CardViewModel>();
-            _cards.ChangeTrackingEnabled = true;
+            _cards = new ReactiveList<CardViewModel> { ChangeTrackingEnabled = true };
             Cards = _cards.CreateDerivedCollection(c => c, c => !c.IsHidden);
             Messages = new ReactiveList<Message>();
             Notifications = new Subject<string>();
@@ -135,7 +134,7 @@ namespace GwentTracker.ViewModels
                     .Subscribe()
                     .DisposeWith(d);
                 
-                _cardVisiblity = this.WhenAnyValue(x => x.SelectedCard)
+                _cardVisibility = this.WhenAnyValue(x => x.SelectedCard)
                     .Select(c => c != null)
                     .ToProperty(this, x => x.CardVisibility);
 
@@ -220,17 +219,17 @@ namespace GwentTracker.ViewModels
         private void OnSaveGameLoaded(SaveGameInfo info)
         {
             Model = info;
-            foreach (var copy in info.CardCopies)
+            foreach (var (key, value) in info.CardCopies)
             {
-                var card = _cards.Where(c => c.Index == copy.Key).SingleOrDefault();
+                var card = _cards.Where(c => c.Index == key).SingleOrDefault();
 
                 if (card != null)
                 {
-                    if (_initialLoadComplete && (card.Obtained == false || card.Copies < copy.Value))
+                    if (_initialLoadComplete && (card.Obtained == false || card.Copies < value))
                         Notifications.OnNext($"Obtained {card.Name}");
 
                     card.Obtained = true;
-                    card.Copies = copy.Value;
+                    card.Copies = value;
                 }
             }
 
