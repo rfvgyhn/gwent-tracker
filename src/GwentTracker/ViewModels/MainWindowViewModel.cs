@@ -28,11 +28,11 @@ namespace GwentTracker.ViewModels
         private bool _initialLoadComplete = false;
 
         public IReactiveDerivedList<CardViewModel> Cards { get; set; }
-        public ReactiveList<Message> Messages { get; set; }
+        public ReactiveList<MissableInfo> Messages { get; set; }
         public Subject<string> Notifications { get; set; }
         public TimeSpan NotificationDuration => TimeSpan.FromSeconds(5);
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
-        public ReactiveCommand<Unit, IEnumerable<Card>> LoadCards { get; set; }
+        public ReactiveCommand<Unit, (IEnumerable<Card>, IEnumerable<MissableInfo>)> LoadCards { get; set; }
         public ReactiveCommand AddFilter { get; set; }
         public ReactiveCommand RemoveFilter { get; set; }
         public ReactiveList<string> Filters { get; set; }
@@ -79,7 +79,7 @@ namespace GwentTracker.ViewModels
             Filters = new ReactiveList<string>();
             _cards = new ReactiveList<CardViewModel> { ChangeTrackingEnabled = true };
             Cards = _cards.CreateDerivedCollection(c => c, c => !c.IsHidden);
-            Messages = new ReactiveList<Message>();
+            Messages = new ReactiveList<MissableInfo>();
             Notifications = new Subject<string>();
 
             this.WhenActivated(d =>
@@ -90,8 +90,9 @@ namespace GwentTracker.ViewModels
                     Log.Error(e, "Unable to load card data");
                     Notifications.OnNext("Unable to load card info");
                 });
-                LoadCards.Subscribe(cards =>
+                LoadCards.Subscribe(items =>
                 {
+                    var (cards, missables) = items;
                     var mapped = cards.Select(c => new CardViewModel(_textureStringFormat)
                     {
                         Index = c.Index,
@@ -107,7 +108,9 @@ namespace GwentTracker.ViewModels
                     _cards.Clear();
                     foreach (var card in mapped)
                         _cards.Add(card);
-                    //Cards.AddRange(cards);
+                    
+                    Messages.Clear();
+                    Messages.AddRange(missables);
                     SaveGamePath = saveGamePath;
                 });
 
@@ -162,18 +165,19 @@ namespace GwentTracker.ViewModels
             SaveGamePath = path;
         }
         
-        private async Task<IEnumerable<Card>> LoadCardsFromFiles()
+        private async Task<(IEnumerable<Card>, IEnumerable<MissableInfo>)> LoadCardsFromFiles()
         {
             var cards = new List<Card>();
+            var missables = new List<MissableInfo>();
             var files = new[] { "monsters", "neutral", "nilfgaard", "northernrealms", "scoiatael" };
             var deserializer = new DeserializerBuilder()
                                     .IgnoreUnmatchedProperties()
                                     .WithNamingConvention(new CamelCaseNamingConvention())
                                     .Build();
-
+            string filePath;
             foreach (var file in files)
             {
-                var filePath = Path.Combine("data", $"{file}.yml");
+                filePath = Path.Combine("data", $"{file}.yml");
                 try
                 {
                     using (var reader = File.OpenText(filePath))
@@ -189,7 +193,23 @@ namespace GwentTracker.ViewModels
                 }
             }
 
-            return cards;
+            filePath = Path.Combine("data", "missable.yml");
+            try
+            {
+                using (var reader = File.OpenText(filePath))
+                {
+                    var contents = await reader.ReadToEndAsync();
+                    missables.AddRange(deserializer.Deserialize<List<MissableInfo>>(contents));
+                }
+            }
+            catch (Exception e)
+            {
+                Log.Error(e, "Couldn't load missable card data from {file}", filePath);
+                throw;
+            }
+            
+
+            return (cards, missables);
         }
 
         private async Task<SaveGameInfo> LoadSaveGame(string path)
@@ -231,16 +251,6 @@ namespace GwentTracker.ViewModels
                     card.Obtained = true;
                     card.Copies = value;
                 }
-            }
-
-            // TODO: remove this missable quest placeholder
-            if (!_initialLoadComplete)
-            {
-                Messages.Add(new Message
-                {
-                    Description = "The description",
-                    Name = "Missable Card"
-                });
             }
 
             _initialLoadComplete = true;

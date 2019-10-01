@@ -15,7 +15,7 @@ namespace GwentTracker.Views
     public class MainWindow : ReactiveWindow<MainWindowViewModel>
     {
         private DataGrid Cards => this.FindControl<DataGrid>("Cards");
-        //private ItemsControl Messages => this.FindControl<ItemsControl>("Messages");
+        private ItemsControl Messages => this.FindControl<ItemsControl>("Messages");
         private TextBox FilterString => this.FindControl<TextBox>("FilterString");
         private ItemsControl Filters => this.FindControl<ItemsControl>("Filters");
         private ProgressBar LoadGameProgress => this.FindControl<ProgressBar>("LoadGameProgress");
@@ -28,7 +28,7 @@ namespace GwentTracker.Views
             this.WhenActivated(d =>
             {
                 this.OneWayBind(ViewModel, vm => vm.Cards, v => v.Cards.Items).DisposeWith(d);
-                //this.OneWayBind(ViewModel, vm => vm.Messages, v => v.Messages.Items).DisposeWith(d);
+                this.OneWayBind(ViewModel, vm => vm.Messages, v => v.Messages.Items).DisposeWith(d);
                 this.Bind(ViewModel, vm => vm.FilterString, v => v.FilterString.Text).DisposeWith(d);
                 this.OneWayBind(ViewModel, vm => vm.Filters, v => v.Filters.Items).DisposeWith(d);
                 this.OneWayBind(ViewModel, vm => vm.LoaderVisibility, v => v.LoadGameProgress.IsVisible).DisposeWith(d);
