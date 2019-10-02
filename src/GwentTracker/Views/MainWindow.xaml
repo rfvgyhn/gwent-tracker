@@ -28,7 +28,7 @@
     </Window.Styles>
     <Grid ColumnDefinitions="204, *" Margin="4 4 0 0">
         <StackPanel Grid.Column="0" Width="204" VerticalAlignment="Top">
-            <Grid Margin="4 4 4 0" x:Name="SelectedCard" ColumnDefinitions="*" RowDefinitions="Auto, Auto, Auto">
+            <Grid Margin="4 4 4 12" x:Name="SelectedCard" ColumnDefinitions="*" RowDefinitions="Auto, Auto, Auto">
                 <Image Grid.Row="0" Height="275" Source="{Binding Path=SelectedCard.Texture}" HorizontalAlignment="Center"/>
                 <!--<WrapPanel Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Bottom">
                     <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Margin="8 0 8 0">
