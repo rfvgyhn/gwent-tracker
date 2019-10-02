@@ -6,8 +6,8 @@
         x:Class="GwentTracker.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="GwentTracker"
-        Width="800"
-        Height="400">
+        Width="1100"
+        Height="650">
 
     <Window.Styles>
     <Style Selector="Button.round">
