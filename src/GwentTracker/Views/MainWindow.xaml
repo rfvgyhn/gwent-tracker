@@ -26,7 +26,7 @@
         </Setter>
     </Style>
     </Window.Styles>
-    <Grid ColumnDefinitions="204, *">
+    <Grid ColumnDefinitions="204, *" Margin="4 4 0 0">
         <StackPanel Grid.Column="0" Width="204" VerticalAlignment="Top">
             <Grid Margin="4 4 4 0" x:Name="SelectedCard" ColumnDefinitions="*" RowDefinitions="Auto, Auto, Auto">
                 <Image Grid.Row="0" Height="275" Source="{Binding Path=SelectedCard.Texture}" HorizontalAlignment="Center"/>
@@ -52,13 +52,27 @@
                     </Button>
                 </StackPanel>
             </Grid>
+            <TextBlock Text="Missable Cards by Quest" HorizontalAlignment="Center" FontWeight="Bold" />
             <ItemsControl x:Name="Messages">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel>
-                            <TextBlock FontWeight="Bold" Text="{Binding QuestName}" />
-                            <TextBlock Text="{Binding Cutoff}" />
-                        </StackPanel>
+                        <Border CornerRadius="3" Background="{DynamicResource ThemeAccentBrush4}" Padding="4" Margin="0 4 4 0">
+                            <ToolTip.Tip>
+                                <StackPanel MaxWidth="300">
+                                    <ItemsControl Items="{Binding Notes}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding ., StringFormat='* {0}'}" />
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </StackPanel>
+                            </ToolTip.Tip>
+                            <StackPanel>
+                                <TextBlock TextWrapping="Wrap" FontWeight="Bold" Text="{Binding QuestName}"/>
+                                <TextBlock Margin="4 0 0 0" Text="{Binding Cutoff, StringFormat='Cutoff: {0}'}" />
+                            </StackPanel>
+                        </Border>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>

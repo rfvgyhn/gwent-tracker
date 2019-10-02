@@ -239,6 +239,7 @@ namespace GwentTracker.ViewModels
         private void OnSaveGameLoaded(SaveGameInfo info)
         {
             Model = info;
+            var newCards = new List<string>();
             foreach (var (key, value) in info.CardCopies)
             {
                 var card = _cards.Where(c => c.Index == key).SingleOrDefault();
@@ -246,11 +247,17 @@ namespace GwentTracker.ViewModels
                 if (card != null)
                 {
                     if (_initialLoadComplete && (card.Obtained == false || card.Copies < value))
-                        Notifications.OnNext($"Obtained {card.Name}");
+                        newCards.Add(card.Name);
 
                     card.Obtained = true;
                     card.Copies = value;
                 }
+            }
+
+            if (newCards.Any())
+            {
+                var cardNames = string.Join(", ", newCards);
+                Notifications.OnNext($"Obtained {cardNames}");
             }
 
             _initialLoadComplete = true;
