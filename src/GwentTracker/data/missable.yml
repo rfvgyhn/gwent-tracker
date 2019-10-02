@@ -1,11 +1,20 @@
 ﻿---
+-   cardIds: [215, 221]
+    region: Velen
+    questName: Boatmakers' Hut Person in Distress
+    cutoff: The Isle of Mists
+    details: "https://witcher.fandom.com/wiki/A_Dangerous_Game#Notes"
+    notes:
+        - Purchase his cards in Claywich after freeing him from the Bandits' Camp.
 -   cardIds: [12]
+    region: Novigrad
     questName: A Matter of Life and Death
     cutoff: self
     details: "https://witcher.fandom.com/wiki/A_Matter_of_Life_and_Death_(The_Witcher_3)#Notes"
     notes:
         - There'll be a small gwent tournament going on in the main courtyard where you'll need to win all the rounds to get all the cards.
 -   cardIds: [1004, 2004, 3004, 4003]
+    region: Novigrad
     questName: "Gwent: High Stakes"
     cutoff: self
     details: 
@@ -15,28 +24,25 @@
         - You must win the tournament to get every card. Recommend saving before each game.
         - Save between wins. This quest is the only way to obtain all leader cards.
         - Sasha is the toughest opponent with her Nilfgaardian deck. She plays a very strong spy-themed deck which is also filled with high-strength unit cards and an entire roster of Nilfgaard and neutral heroes. Counter her with a lot of decoys and spy cards; keep the unit cards in the deck as close to 22 as possible and with the highest possible unit strength. The White Flame leader card is useful for countering her unique leader card which draws a unit card from the player's discard pile for her own use. It is HIGHLY RECOMMENDED players make a save if they wish to win the tournament outright, otherwise Sasha beats Tybalt in the final round. She can be romanced if Geralt agrees to her proposition.
--   cardIds: [303]
-    questName: Shock Therapy
-    cutoff: The Isle of Mists
-    details: "https://witcher.fandom.com/wiki/Shock_Therapy"
-    notes:
-        - Complete this quest that can be started by talking to some druids in Ard Skellig.
 -   cardIds: [7]
+    region: Novigrad
     questName: "Gwent: Playing Thaler"
     cutoff: Reason of State
     details: "https://witcher.fandom.com/wiki/Gwent:_Playing_Thaler"
     notes:
         - Find Thaler by completing A Deadly Plot.
 -   cardIds: [101, 208, 302]
+    region: Novigrad
     questName: A Dangerous Game
     cutoff: The Isle of Mists
     details: "https://witcher.fandom.com/wiki/A_Dangerous_Game#Notes"
     notes:
         - Choose to keep the cards.
         - Later on, you can still get the cards though. During The Great Escape, all 3 can be found on the prison commander's body after he's slain.
--   cardIds: [215, 221]
-    questName: Boatmakers' Hut Person in Distress
+-   cardIds: [303]
+    region: Skellige
+    questName: Shock Therapy
     cutoff: The Isle of Mists
-    details: "https://witcher.fandom.com/wiki/A_Dangerous_Game#Notes"
+    details: "https://witcher.fandom.com/wiki/Shock_Therapy"
     notes:
-        - Purchase his cards in Claywich after freeing him from the Bandits' Camp.
+        - Complete this quest that can be started by talking to some druids in Ard Skellig.

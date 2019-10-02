@@ -7,7 +7,7 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="GwentTracker"
         Width="1100"
-        Height="650">
+        Height="700">
 
     <Window.Styles>
     <Style Selector="Button.round">
@@ -70,6 +70,7 @@
                             </ToolTip.Tip>
                             <StackPanel>
                                 <TextBlock TextWrapping="Wrap" FontWeight="Bold" Text="{Binding QuestName}"/>
+                                <TextBlock Margin="4 0 0 0" Text="{Binding Region, StringFormat='Region: {0}'}" />
                                 <TextBlock Margin="4 0 0 0" Text="{Binding Cutoff, StringFormat='Cutoff: {0}'}" />
                             </StackPanel>
                         </Border>
