@@ -42,7 +42,7 @@ namespace GwentTracker.ViewModels
 
         private ObservableAsPropertyHelper<bool> _cardVisibility;
         public bool CardVisibility => _cardVisibility.Value;
-
+        
         private CardViewModel _selectedCard;
         public CardViewModel SelectedCard
         {
@@ -251,6 +251,17 @@ namespace GwentTracker.ViewModels
 
                     card.Obtained = true;
                     card.Copies = value;
+                }
+            }
+            
+            foreach (var missable in Messages.Where(m => m.State == MissableState.Active))
+            {
+                var obtained = _cards.Where(c => missable.CardIds.Contains(c.Index)).All(c => c.Obtained);
+                if (obtained)
+                    missable.State = MissableState.Obtained;
+                else
+                {
+                    // TODO: Check if quest status is completed/failed and set missable.state = Missed 
                 }
             }
 

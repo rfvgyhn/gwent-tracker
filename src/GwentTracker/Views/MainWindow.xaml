@@ -2,6 +2,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gwentTracker="clr-namespace:GwentTracker"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="GwentTracker.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
@@ -26,6 +27,9 @@
         </Setter>
     </Style>
     </Window.Styles>
+    <Window.Resources>
+        <gwentTracker:MissableStateToPathConverter x:Key="MissableToPathConverter" />
+    </Window.Resources>
     <Grid ColumnDefinitions="204, *" Margin="4 4 0 0">
         <StackPanel Grid.Column="0" Width="204" VerticalAlignment="Top">
             <Grid Margin="4 4 4 12" x:Name="SelectedCard" ColumnDefinitions="*" RowDefinitions="Auto, Auto, Auto">
@@ -76,9 +80,12 @@
                                 </StackPanel>
                             </ToolTip.Tip>
                             <StackPanel>
-                                <TextBlock TextWrapping="Wrap" FontWeight="Bold" Text="{Binding QuestName}"/>
-                                <TextBlock Margin="4 0 0 0" Text="{Binding Region, StringFormat='Region: {0}'}" />
-                                <TextBlock Margin="4 0 0 0" Text="{Binding Cutoff, StringFormat='Cutoff: {0}'}" />
+                                <StackPanel Orientation="Horizontal">
+                                    <Path Fill="{Binding Color}" Margin="0 0 4 0" Data="{Binding State, Converter={StaticResource MissableToPathConverter}}" />
+                                    <TextBlock TextWrapping="{Binding TextWrap}" Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" />
+                                </StackPanel>
+                                <TextBlock Margin="4 0 0 0" Text="{Binding Region, StringFormat='Region: {0}'}" IsVisible="{Binding DetailsVisible}" />
+                                <TextBlock Margin="4 0 0 0" Text="{Binding Cutoff, StringFormat='Cutoff: {0}'}" IsVisible="{Binding DetailsVisible}" />
                             </StackPanel>
                         </Border>
                     </DataTemplate>
