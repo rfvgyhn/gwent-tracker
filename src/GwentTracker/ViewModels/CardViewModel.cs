@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Reactive;
@@ -6,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Avalonia.Media.Imaging;
 using GwentTracker.Model;
+using Portable.Xaml.Schema;
 using ReactiveUI;
 using Serilog;
 
@@ -86,6 +88,7 @@ namespace GwentTracker.ViewModels
         public string Type { get; set; }
         public string Location => string.Join(", ", Locations.Select(l => l.Type).Distinct());
         public string Region => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? l.Type : l.Region).Distinct());
+        public IEnumerable<string> DetailedLocations => Locations.Select(l => l.Type == "Base Deck" || l.Region == "Random" ? "" : $"{l.Npc}, {l.Area}, {l.Territory ?? l.Region}").Where(l => l != "");
         public CombatDetails Combat { get; set; }
         public Location[] Locations { get; set; }
     }

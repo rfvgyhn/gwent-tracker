@@ -41,6 +41,13 @@
                 <StackPanel Grid.Row="1" Margin="8 8 8 0" >
                     <TextBlock TextWrapping="Wrap" FontWeight="Bold" Text="{Binding Path=SelectedCard.Name}" />
                     <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding Path=SelectedCard.Flavor}" />
+                    <ItemsControl Items="{Binding SelectedCard.DetailedLocations}" Margin="0 4 0 0">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding .}" FontSize="10"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
                 </StackPanel>
                 <!-- <StackPanel HorizontalAlignment="Right" Grid.Row="2" Orientation="Horizontal" Margin="8"> -->
                 <!--     <Button Width="30" Padding="2 0 2 0" IsEnabled="false"> -->
