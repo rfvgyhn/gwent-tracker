@@ -332,7 +332,7 @@
 -   index: 330
     deck: Scoia'tael
     name: Dol Blathanna Scout
-    flavor: 
+    flavor:
     combat:
         strength: 6
         types:
@@ -342,11 +342,11 @@
             - Agile
     type: Basic
     locations:
-        -   type: Win from NPC
-            npc: Random
-            area: Random
-            territory: Random
-            region: Random
+        -   type: Buy from Trader
+            npc: Innkeeper
+            area: Golden Sturgeon
+            territory:
+            region: Novigrad
             coords: []
 -   index: 331
     deck: Scoia'tael
@@ -380,11 +380,11 @@
             - Agile
     type: Basic
     locations:
-        -   type: Buy from Trader
-            npc: Innkeeper
-            area: Golden Sturgeon
-            territory: 
-            region: Novigrad
+        -   type: Win from NPC
+            npc: Random
+            area: Random
+            territory: Random
+            region: Random
             coords: []
 -   index: 335
     deck: Scoia'tael
@@ -407,6 +407,24 @@
 -   index: 336
     deck: Scoia'tael
     name: Dwarven Skirmisher
+    flavor:
+    combat:
+        strength: 3
+        types:
+            - Melee
+        abilities:
+            - Muster
+    type: Basic
+    locations:
+        -   type: Buy from Trader
+            npc: Stjepan
+            area: The Alchemy Inn
+            territory: Oxenfurt
+            region: Novigrad
+            coords: []
+-   index: 337
+    deck: Scoia'tael
+    name: Dwarven Skirmisher
     flavor: 
     combat:
         strength: 3
@@ -421,24 +439,6 @@
             area: Random
             territory: Random
             region: Random
-            coords: []
--   index: 337
-    deck: Scoia'tael
-    name: Dwarven Skirmisher
-    flavor: 
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Muster
-    type: Basic
-    locations:
-        -   type: Buy from Trader
-            npc: Stjepan
-            area: The Alchemy Inn
-            territory: Oxenfurt
-            region: Novigrad
             coords: []
 -   index: 340
     deck: Scoia'tael

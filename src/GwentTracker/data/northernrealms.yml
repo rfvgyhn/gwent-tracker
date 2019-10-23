@@ -295,41 +295,17 @@
             territory: 
             region: White Orchard
             coords: []
--   index: 131
-    deck: Northern Realms
-    name: Crinfrid Reavers Dragon Hunter
-    flavor: 
-    combat:
-        strength: 5
-        types:
-            - Range
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Claywich Village
-            territory: 
+            territory:
             region: Velen
             notes: Must first rescue trader
             coords: []
--   index: 132
-    deck: Northern Realms
-    name: Crinfrid Reavers Dragon Hunter
-    flavor: 
-    combat:
-        strength: 5
-        types:
-            - Range
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Shopkeeper
             area: Midcopse
-            territory: 
+            territory:
             region: Velen
             coords: []
 -   index: 135
@@ -372,51 +348,13 @@
             territory: 
             region: White Orchard
             coords: []
--   index: 141
-    deck: Northern Realms
-    name: Catapult
-    flavor: 
-    combat:
-        strength: 8
-        types:
-            - Siege
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Marquise Serenity
-            area: 
+            area:
             territory: Passiflora
             region: Novigrad
             coords: []
 -   index: 150
-    deck: Northern Realms
-    name: Kaedweni Siege Expert
-    flavor: 
-    combat:
-        strength: 1
-        types:
-            - Siege
-        abilities:
-            - Morale
-    type: Basic
-    locations:
-        -   type: Base Deck
--   index: 151
-    deck: Northern Realms
-    name: Kaedweni Siege Expert
-    flavor: 
-    combat:
-        strength: 1
-        types:
-            - Siege
-        abilities:
-            - Morale
-    type: Basic
-    locations:
-        -   type: Base Deck
--   index: 152
     deck: Northern Realms
     name: Kaedweni Siege Expert
     flavor: 

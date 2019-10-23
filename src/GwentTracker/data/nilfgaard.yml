@@ -459,57 +459,21 @@
             territory: 
             region: Velen
             coords: []
--   index: 246
-    deck: Nilfgaard
-    name: Impera Brigade Guard
-    flavor: 
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Crossroads Inn
-            territory: 
+            territory:
             region: Velen
             coords: []
--   index: 247
-    deck: Nilfgaard
-    name: Impera Brigade Guard
-    flavor: 
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Seven Cats Inn
             territory: Gustfields
             region: Novigrad
             coords: []
--   index: 248
-    deck: Nilfgaard
-    name: Impera Brigade Guard
-    flavor: 
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Cunny of teh Goose
+            area: Cunny of the Goose
             territory: Grassy Knoll
             region: Novigrad
             coords: []
@@ -531,40 +495,16 @@
             territory: Crow's Perch
             region: Velen
             coords: []
--   index: 251
-    deck: Nilfgaard
-    name: Nausicaa Cavalry Rider
-    flavor: 
-    combat:
-        strength: 2
-        types:
-            - Melee
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Innkeeper
             area: Crossroads Inn
-            territory: 
+            territory:
             region: Velen
             coords: []
--   index: 252
-    deck: Nilfgaard
-    name: Nausicaa Cavalry Rider
-    flavor: 
-    combat:
-        strength: 2
-        types:
-            - Melee
-        abilities:
-            - Bond
-    type: Basic
-    locations:
         -   type: Buy from Trader
             npc: Trader
             area: Crow's Perch
-            territory: 
+            territory:
             region: Velen
             coords: []
 -   index: 255

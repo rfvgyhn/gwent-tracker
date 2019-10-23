@@ -118,7 +118,7 @@
             npc: Inkeeper
             area: Arinbjorn
             territory: 
-            region: 
+            region: Skellige 
             coords: []
 -   index: 413
     deck: Monsters
