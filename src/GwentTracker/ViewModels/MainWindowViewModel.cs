@@ -1,17 +1,20 @@
 ﻿using GwentTracker.Model;
 using ReactiveUI;
-using ReactiveUI.Legacy;
 using Serilog;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reactive;
-using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Threading.Tasks;
+using Avalonia.Threading;
+using DynamicData;
+using DynamicData.Binding;
 using W3SavegameEditor.Core.Savegame;
 using W3SavegameEditor.Core.Savegame.Variables;
 using YamlDotNet.Serialization;
@@ -20,22 +23,21 @@ using ReactiveCommand = ReactiveUI.ReactiveCommand;
 
 namespace GwentTracker.ViewModels
 {
-    // TODO:  Replace ReactiveList<T> with DynamicData https://reactiveui.net/docs/handbook/collections/#converting-reactivelist-to-dynamicdata
-    public class MainWindowViewModel : ReactiveObject, ISupportsActivation
+    public class MainWindowViewModel : ReactiveObject
     {
-        private readonly string _textureStringFormat;
-        private readonly ReactiveList<CardViewModel> _cards;
+        private readonly SourceList<CardViewModel> _cards;
+        private readonly ReadOnlyObservableCollection<CardViewModel> _filteredCards;
         private bool _initialLoadComplete = false;
 
-        public IReactiveDerivedList<CardViewModel> Cards { get; set; }
-        public ReactiveList<MissableInfo> Messages { get; set; }
+        public ReadOnlyObservableCollection<CardViewModel> Cards => _filteredCards;
+        public ObservableCollection<MissableInfo> Messages { get; set; }
         public Subject<string> Notifications { get; set; }
         public TimeSpan NotificationDuration => TimeSpan.FromSeconds(5);
         public ReactiveCommand<string, SaveGameInfo> Load { get; set; }
         public ReactiveCommand<Unit, (IEnumerable<Card>, IEnumerable<MissableInfo>)> LoadCards { get; set; }
-        public ReactiveCommand AddFilter { get; set; }
-        public ReactiveCommand RemoveFilter { get; set; }
-        public ReactiveList<string> Filters { get; set; }
+        public ReactiveCommand<Unit, Unit> AddFilter { get; set; }
+        public ReactiveCommand<string, Unit> RemoveFilter { get; set; }
+        public ObservableCollection<string> Filters { get; set; }
 
         private ObservableAsPropertyHelper<bool> _loaderVisibility;
         public bool LoaderVisibility => _loaderVisibility.Value;
@@ -74,89 +76,85 @@ namespace GwentTracker.ViewModels
 
         public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges)
         {
-            _textureStringFormat = textureStringFormat;
             Activator = new ViewModelActivator();
-            Filters = new ReactiveList<string>();
-            _cards = new ReactiveList<CardViewModel> { ChangeTrackingEnabled = true };
-            Cards = _cards.CreateDerivedCollection(c => c, c => !c.IsHidden);
-            Messages = new ReactiveList<MissableInfo>();
+            Filters = new ObservableCollection<string>();
+            _cards = new SourceList<CardViewModel>();
+            Messages = new ObservableCollection<MissableInfo>();
             Notifications = new Subject<string>();
 
-            this.WhenActivated(d =>
+            var filterChanged = Filters.ObserveCollectionChanges();
+            filterChanged.Subscribe(_ =>
             {
-                LoadCards = ReactiveCommand.CreateFromTask(LoadCardsFromFiles);
-                LoadCards.ThrownExceptions.Subscribe(e =>
-                {
-                    Log.Error(e, "Unable to load card data");
-                    Notifications.OnNext("Unable to load card info");
-                });
-                LoadCards.Subscribe(items =>
-                {
-                    var (cards, missables) = items;
-                    var mapped = cards.Select(c => new CardViewModel(_textureStringFormat)
-                    {
-                        Index = c.Index,
-                        Copies = c.Copies,
-                        Name = c.Name,
-                        Flavor = c.Flavor,
-                        Obtained = c.Obtained,
-                        Deck = c.Deck,
-                        Type = c.Type,
-                        Locations = c.Locations
-                    });
-
-                    _cards.Clear();
-                    foreach (var card in mapped)
-                        _cards.Add(card);
-                    
-                    Messages.Clear();
-                    Messages.AddRange(missables);
-                    SaveGamePath = saveGamePath;
-                });
-
-                Load = ReactiveCommand.CreateFromTask<string, SaveGameInfo>(LoadSaveGame);
-                Load.Subscribe(OnSaveGameLoaded);
-                Load.ThrownExceptions.Subscribe(e =>
-                {
-                    Log.Error(e, "Unable to load save game at {path}", SaveGamePath);
-                    Notifications.OnNext("Unable to load save game");
-                });
-                _loaderVisibility = Load.IsExecuting
-                    .Select(x => x)
-                    .ToProperty(this, x => x.LoaderVisibility);
-
-                this.WhenAnyValue(x => x.SaveGamePath)
-                    .Select(s => s?.Trim())
-                    .DistinctUntilChanged()
-                    .Where(s => !string.IsNullOrEmpty(s))
-                    .InvokeCommand(Load)
-                    .DisposeWith(d);
-
-                this.WhenAnyValue(v => v.SelectedCard.LoadTexture)
-                    .SelectMany(x => x.Execute())
-                    .Subscribe()
-                    .DisposeWith(d);
-                
-                _cardVisibility = this.WhenAnyValue(x => x.SelectedCard)
-                    .Select(c => c != null)
-                    .ToProperty(this, x => x.CardVisibility);
-
-                this.Filters.Changed
-                    .Subscribe(i =>
-                    {
-                        var culture = CultureInfo.CurrentUICulture;
-
-                        foreach (var card in _cards)
-                            card.IsHidden = ShouldFilterCard(card);
-                    })
-                    .DisposeWith(d);
-
-                var canAddFilter = this.WhenAnyValue(vm => vm.FilterString, filter => !string.IsNullOrWhiteSpace(filter));
-                AddFilter = ReactiveCommand.Create(OnAddFilter, canAddFilter);
-                RemoveFilter = ReactiveCommand.Create<string>(OnRemoveFilter);
-                
-                saveDirChanges?.Subscribe(OnSaveDirectoryChange).DisposeWith(d);
+                foreach (var card in _cards.Items)
+                    card.IsHidden = ShouldFilterCard(card);
             });
+            _cards.Connect()
+                .AutoRefreshOnObservable(_ => filterChanged)
+                .Filter(x => !x.IsHidden)
+                .ObserveOn(AvaloniaScheduler.Instance)
+                .Bind(out _filteredCards)
+                .Subscribe();
+
+            LoadCards = ReactiveCommand.CreateFromTask(LoadCardsFromFiles);
+            LoadCards.ThrownExceptions.Subscribe(e =>
+            {
+                Log.Error(e, "Unable to load card data");
+                Notifications.OnNext("Unable to load card info");
+            });
+            LoadCards.Subscribe(items =>
+            {
+                var (cards, missables) = items;
+                var mapped = cards.Select(c => new CardViewModel(textureStringFormat)
+                {
+                    Index = c.Index,
+                    Copies = c.Copies,
+                    Name = c.Name,
+                    Flavor = c.Flavor,
+                    Obtained = c.Obtained,
+                    Deck = c.Deck,
+                    Type = c.Type,
+                    Locations = c.Locations
+                });
+
+                _cards.Clear();
+                foreach (var card in mapped)
+                    _cards.Add(card);
+
+                Messages.Clear();
+                Messages.AddRange(missables);
+                SaveGamePath = saveGamePath;
+            });
+
+            Load = ReactiveCommand.CreateFromTask<string, SaveGameInfo>(LoadSaveGame);
+            Load.Subscribe(OnSaveGameLoaded);
+            Load.ThrownExceptions.Subscribe(e =>
+            {
+                Log.Error(e, "Unable to load save game at {path}", SaveGamePath);
+                Notifications.OnNext("Unable to load save game");
+            });
+            _loaderVisibility = Load.IsExecuting
+                .Select(x => x)
+                .ToProperty(this, x => x.LoaderVisibility);
+
+            this.WhenAnyValue(x => x.SaveGamePath)
+                .Select(s => s?.Trim())
+                .DistinctUntilChanged()
+                .Where(s => !string.IsNullOrEmpty(s))
+                .InvokeCommand(Load);
+
+            this.WhenAnyValue(v => v.SelectedCard.LoadTexture)
+                .SelectMany(x => x.Execute())
+                .Subscribe();
+
+            _cardVisibility = this.WhenAnyValue(x => x.SelectedCard)
+                .Select(c => c != null)
+                .ToProperty(this, x => x.CardVisibility);
+
+            var canAddFilter = this.WhenAnyValue(vm => vm.FilterString, filter => !string.IsNullOrWhiteSpace(filter));
+            AddFilter = ReactiveCommand.Create(OnAddFilter, canAddFilter);
+            RemoveFilter = ReactiveCommand.Create<string>(OnRemoveFilter);
+
+            saveDirChanges?.Subscribe(OnSaveDirectoryChange);
         }
 
         private void OnSaveDirectoryChange(string path)
@@ -242,7 +240,7 @@ namespace GwentTracker.ViewModels
             var newCards = new List<string>();
             foreach (var (key, value) in info.CardCopies)
             {
-                var card = _cards.Where(c => c.Index == key).SingleOrDefault();
+                var card = _cards.Items.Where(c => c.Index == key).SingleOrDefault();
 
                 if (card != null)
                 {
@@ -256,7 +254,7 @@ namespace GwentTracker.ViewModels
             
             foreach (var missable in Messages.Where(m => m.State == MissableState.Active))
             {
-                var obtained = _cards.Where(c => missable.CardIds.Contains(c.Index)).All(c => c.Obtained);
+                var obtained = _cards.Items.Where(c => missable.CardIds.Contains(c.Index)).All(c => c.Obtained);
                 if (obtained)
                     missable.State = MissableState.Obtained;
                 else

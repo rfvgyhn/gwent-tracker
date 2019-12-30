@@ -7,7 +7,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using Avalonia.Media.Imaging;
 using GwentTracker.Model;
-using Portable.Xaml.Schema;
 using ReactiveUI;
 using Serilog;
 
