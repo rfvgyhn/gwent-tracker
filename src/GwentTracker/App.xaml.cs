@@ -26,16 +26,20 @@ namespace GwentTracker
             var basePath = GetBasePath();
             Directory.SetCurrentDirectory(GetBasePath());
 #endif
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.Debug()
-                .CreateLogger();
             var config = new ConfigurationBuilder()
                 .AddIniFile("settings.ini", false)
 #if SINGLE_FILE
                 .SetBasePath(basePath) // Workaround for https://github.com/dotnet/core-setup/issues/7491
 #endif
                 .Build();
+            var logConfig = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .WriteTo.Debug();
+            
+            if (config.GetValue("logToFile", false))
+                logConfig.WriteTo.File("log.txt");
+                
+            Log.Logger = logConfig.CreateLogger();
             var defaultSavePath = Environment.ExpandEnvironmentVariables(config["defaultSavePath"]);
             var (latestSave, savePath) = GetLatestSave(defaultSavePath);
 
