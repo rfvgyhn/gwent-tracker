@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reactive.Linq;
@@ -21,12 +22,19 @@ namespace GwentTracker
 
         public override void OnFrameworkInitializationCompleted()
         {
+#if SINGLE_FILE            
+            var basePath = GetBasePath();
+            Directory.SetCurrentDirectory(GetBasePath());
+#endif
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
                 .WriteTo.Debug()
                 .CreateLogger();
             var config = new ConfigurationBuilder()
                 .AddIniFile("settings.ini", false)
+#if SINGLE_FILE
+                .SetBasePath(basePath) // Workaround for https://github.com/dotnet/core-setup/issues/7491
+#endif
                 .Build();
             var defaultSavePath = Environment.ExpandEnvironmentVariables(config["defaultSavePath"]);
             var (latestSave, savePath) = GetLatestSave(defaultSavePath);
@@ -46,6 +54,12 @@ namespace GwentTracker
             }
 
             base.OnFrameworkInitializationCompleted();
+        }
+        
+        private static string GetBasePath()
+        {
+            using (var processModule = Process.GetCurrentProcess().MainModule)
+                return Path.GetDirectoryName(processModule?.FileName);
         }
 
         private static IObservable<string> ObserveSaveDirChanges(string savePath, bool autoload)

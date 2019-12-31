@@ -1,3 +1,4 @@
+dist/
 *.sav
 /src/GwentTracker/Data/test.png
 
