@@ -11,16 +11,17 @@ publish() {
     configuration=$(get_xml "Configuration" ${profilePath})
     targetFramework=$(get_xml "TargetFramework" ${profilePath})
     runtime=$(get_xml "RuntimeIdentifier" ${profilePath})
+    publishDir=$(get_xml "PublishDir" ${profilePath} | awk -F'\\.\\./' '{print $NF}')
+    folderName=$(get_xml "PublishDir" ${profilePath} | xargs basename)
     version=$(get_xml "Version" ${projPath})
-    dest="dist/${profile}"
+    selfContained=$(get_xml "SelfContained" ${profilePath})
+    compressedName="${folderName}_${version}_${runtime}"
     
     dotnet publish -c ${configuration} -f ${targetFramework} ${projPath} "/p:PublishProfile=${profile}"
-    
-    mkdir -p "${dest}" 
-    tar -cvzf "${dest}/gwent-tracker_${version}_${runtime}.tar.gz" "${dest}/gwent-tracker"
+    tar -C "${publishDir}" -cvzf "${publishDir}/../${compressedName}.tar.gz" --transform="s/^\./${compressedName}/g" .
 }
 
 
 
 publish linux
-publish linux-standalone
+publish linux-selfcontained
