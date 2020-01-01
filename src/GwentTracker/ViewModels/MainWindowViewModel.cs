@@ -169,7 +169,7 @@ namespace GwentTracker.ViewModels
             var files = new[] { "monsters", "neutral", "nilfgaard", "northernrealms", "scoiatael" };
             var deserializer = new DeserializerBuilder()
                                     .IgnoreUnmatchedProperties()
-                                    .WithNamingConvention(new CamelCaseNamingConvention())
+                                    .WithNamingConvention(CamelCaseNamingConvention.Instance)
                                     .Build();
             string filePath;
             foreach (var file in files)
