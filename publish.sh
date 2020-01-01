@@ -18,6 +18,7 @@ publish() {
     compressedName="${folderName}_${version}_${runtime}"
     
     dotnet publish -c ${configuration} -f ${targetFramework} ${projPath} "/p:PublishProfile=${profile}"
+    sed -i "2s#.*#defaultSavePath=~/.local/share/Steam/steamapps/compatdata/292030/pfx/drive_c/users/steamuser/My Documents/The Witcher 3/gamesaves/#" "${publishDir}/settings.ini"
     tar -C "${publishDir}" -cvzf "${publishDir}/../${compressedName}.tar.gz" --transform="s/^\./${compressedName}/g" .
 }
 
