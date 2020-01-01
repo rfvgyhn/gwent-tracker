@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reactive.Linq;
+using System.Text.RegularExpressions;
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
@@ -40,7 +41,7 @@ namespace GwentTracker
                 logConfig.WriteTo.File("log.txt");
                 
             Log.Logger = logConfig.CreateLogger();
-            var defaultSavePath = Environment.ExpandEnvironmentVariables(config["defaultSavePath"]);
+            var defaultSavePath = ParseDefaultSavePath(config["defaultSavePath"]);
             var (latestSave, savePath) = GetLatestSave(defaultSavePath);
 
             if (latestSave == null)
@@ -59,7 +60,22 @@ namespace GwentTracker
 
             base.OnFrameworkInitializationCompleted();
         }
-        
+
+        private static string ParseDefaultSavePath(string configPath)
+        {
+            // Platform checks needed until corefx supports platform specific vars
+            // https://github.com/dotnet/corefx/issues/28890
+            if (Environment.OSVersion.Platform == PlatformID.Unix ||
+                Environment.OSVersion.Platform == PlatformID.MacOSX)
+            {
+                var path = Regex.Replace(configPath, @"\$(\w+)", "%$1%")
+                                .Replace("~", "%HOME%");
+                return Environment.ExpandEnvironmentVariables(path);
+            }
+            
+            return Environment.ExpandEnvironmentVariables(configPath);
+        }
+
         private static string GetBasePath()
         {
             using (var processModule = Process.GetCurrentProcess().MainModule)
