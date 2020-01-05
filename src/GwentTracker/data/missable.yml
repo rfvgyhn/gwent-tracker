@@ -1,9 +1,9 @@
-﻿---
+---
 -   cardIds: [215, 221]
     region: Velen
     questName: Boatmakers' Hut Person in Distress
-    cutoff: The Isle of Mists
-    details: "https://witcher.fandom.com/wiki/A_Dangerous_Game#Notes"
+    cutoff: None
+    details: "https://witcher.fandom.com/wiki/Merchant_(Claywich)"
     notes:
         - Purchase his cards in Claywich after freeing him from the Bandits' Camp.
 -   cardIds: [12]
