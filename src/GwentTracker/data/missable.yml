@@ -1,4 +1,4 @@
----
+﻿---
 -   cardIds: [215, 221]
     region: Velen
     questName: Boatmakers' Hut Person in Distress
@@ -42,7 +42,7 @@
 -   cardIds: [303]
     region: Skellige
     questName: Shock Therapy
-    cutoff: The Isle of Mists
+    cutoff: None
     details: "https://witcher.fandom.com/wiki/Shock_Therapy"
     notes:
         - Complete this quest that can be started by talking to some druids in Ard Skellig.
