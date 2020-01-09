@@ -4,6 +4,7 @@
     <TargetFrameworks>netcoreapp3.1;net472</TargetFrameworks>
     <OutputType>WinExe</OutputType>
     <Version>1.0.1</Version>
+    <LangVersion>Latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Model\" />
@@ -22,6 +23,7 @@
     <PackageReference Include="Avalonia.ReactiveUI" Version="0.9.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Ini" Version="3.1.0" />
+    <PackageReference Include="NGettext" Version="0.6.5" />
     <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
     <PackageReference Include="W3SavegameEditor.Core" Version="0.1.1" />
     <PackageReference Include="YamlDotNet" Version="8.0.0" />
@@ -39,8 +41,11 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </None>
     <None Update="settings.ini">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </None>
+    <None Update="locale\*.po*">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>

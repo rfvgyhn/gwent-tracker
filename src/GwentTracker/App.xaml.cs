@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reactive.Linq;
@@ -7,10 +8,13 @@ using System.Text.RegularExpressions;
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using GwentTracker.Localization;
 using GwentTracker.ViewModels;
 using GwentTracker.Views;
 using Microsoft.Extensions.Configuration;
+using NGettext;
 using Serilog;
+using Splat;
 
 namespace GwentTracker
 {
@@ -41,6 +45,9 @@ namespace GwentTracker
                 logConfig.WriteTo.File("log.txt");
                 
             Log.Logger = logConfig.CreateLogger();
+            
+            ConfigureLocalization(config["culture"]);
+            
             var defaultSavePath = ParseDefaultSavePath(config["defaultSavePath"]);
             var (latestSave, savePath) = GetLatestSave(defaultSavePath);
 
@@ -127,6 +134,26 @@ namespace GwentTracker
                                                     .FirstOrDefault();
 
             return (latestSave, finalPath);
+        }
+
+        private static void ConfigureLocalization(string cultureName)
+        {
+            var culture = CultureInfo.CurrentCulture;
+
+            if (!string.IsNullOrEmpty(cultureName))
+            {
+                try
+                {
+                    culture = CultureInfo.GetCultureInfo(cultureName);
+                }
+                catch (CultureNotFoundException e)
+                {
+                    Log.Warning($"Invalid culture '{cultureName}' specified in settings. Falling back to system default.");
+                }
+            }
+
+            var catalog = new Catalog(new MoLoader("gwent-tracker", "locale"), culture);
+            Locator.CurrentMutable.RegisterConstant(catalog, typeof(ICatalog));
         }
     }
 }
