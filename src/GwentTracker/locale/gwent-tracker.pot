@@ -63,3 +63,27 @@ msgstr ""
 msgid "Region"
 msgstr ""
 
+#: src/GwentTracker/data/*.yml -> Cards belonging to starting deck
+msgid "Base Deck"
+msgstr ""
+
+#: src/GwentTracker/data/*.yml
+msgid "Win from NPC"
+msgstr ""
+
+#: src/GwentTracker/data/*.yml
+msgid "Buy from Trader"
+msgstr ""
+
+#: src/GwentTracker/data/*.yml -> Location of cards randomly won from NPCs
+msgid "Random"
+msgstr ""
+
+#: src/GwentTracker/data/*.yml -> Location of cards won from a gwent specific quest
+msgid "Gwent Quest"
+msgstr ""
+
+#: src/GwentTracker/data/*.yml -> Location of cards won from a side quest
+msgid "Secondary Quest"
+msgstr ""
+
