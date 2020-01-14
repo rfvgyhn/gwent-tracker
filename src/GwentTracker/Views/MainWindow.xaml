@@ -3,6 +3,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:gwentTracker="clr-namespace:GwentTracker"
+        xmlns:i18n="clr-namespace:GwentTracker.Localization" 
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="GwentTracker.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
@@ -63,7 +64,7 @@
                 <!--     </Button> -->
                 <!-- </StackPanel> -->
             </Grid>
-            <TextBlock Text="Missable Cards by Quest" HorizontalAlignment="Center" FontWeight="Bold" />
+            <TextBlock Text="{i18n:Translate Missable Cards by Quest}" HorizontalAlignment="Center" FontWeight="Bold" />
             <ItemsControl x:Name="Messages">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
@@ -84,8 +85,8 @@
                                     <Path Fill="{Binding Color}" Margin="0 0 4 0" Data="{Binding State, Converter={StaticResource MissableToPathConverter}}" />
                                     <TextBlock TextWrapping="{Binding TextWrap}" Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" />
                                 </StackPanel>
-                                <TextBlock Margin="4 0 0 0" Text="{Binding Region, StringFormat='Region: {0}'}" IsVisible="{Binding DetailsVisible}" />
-                                <TextBlock Margin="4 0 0 0" Text="{Binding Cutoff, StringFormat='Cutoff: {0}'}" IsVisible="{Binding DetailsVisible}" />
+                                <TextBlock Margin="4 0 0 0" Text="{Binding Region, StringFormat={i18n:Translate Region: {0}}}" IsVisible="{Binding DetailsVisible}" />
+                                <TextBlock Margin="4 0 0 0" Text="{Binding Cutoff, StringFormat={i18n:Translate Cutoff: {0}}}" IsVisible="{Binding DetailsVisible}" />
                             </StackPanel>
                         </Border>
                     </DataTemplate>
@@ -96,7 +97,7 @@
             <StackPanel Grid.Row="0" Orientation="Horizontal">
                 <!-- <materialDesign:PackIcon Grid.Column="0" Grid.Row="0" Kind="Magnify" Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}" Height="16" VerticalAlignment="Center" /> -->
                 <TextBox Margin="4 0 4 0" x:Name="FilterString" Watermark="Filter" MinWidth="200"/>
-                <Button HorizontalAlignment="Right" x:Name="AddFilter" Content="Add" />
+                <Button HorizontalAlignment="Right" x:Name="AddFilter" Content="{i18n:Translate Add}" />
                 <ItemsControl x:Name="Filters">
                     <ItemsControl.ItemsPanel>
                         <ItemsPanelTemplate>
@@ -118,6 +119,7 @@
             <DockPanel Grid.Row="1">
                 <ProgressBar DockPanel.Dock="Right" Width="50" Name="LoadGameProgress" IsIndeterminate="True" />
                 <TextBlock DockPanel.Dock="Left" Name="Status" />
+                
             </DockPanel>
             <Grid Grid.Row="2">
                 <DataGrid IsReadOnly="True" Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
@@ -136,14 +138,15 @@
                             </Style.Triggers>
                         </Style>
                     </DataGrid.RowStyle>-->
+                    
                     <DataGrid.Columns>
                         <DataGridCheckBoxColumn Binding="{Binding Obtained}"/>
-                        <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
-                        <DataGridTextColumn Header="Copies" Binding="{Binding Copies}"/>
-                        <DataGridTextColumn Header="Deck" Binding="{Binding Deck}"/>
-                        <DataGridTextColumn Header="Type" Binding="{Binding Type}"/>
-                        <DataGridTextColumn Header="Location" Binding="{Binding Location}"/>
-                        <DataGridTextColumn Header="Region" Binding="{Binding Region}"/>
+                        <DataGridTextColumn Header="{i18n:Translate Name}" Binding="{Binding Name}"/>
+                        <DataGridTextColumn Header="{i18n:Translate Copies}" Binding="{Binding Copies}"/>
+                        <DataGridTextColumn Header="{i18n:Translate Deck}" Binding="{Binding Deck}"/>
+                        <DataGridTextColumn Header="{i18n:Translate Type}" Binding="{Binding Type}"/>
+                        <DataGridTextColumn Header="{i18n:Translate Location}" Binding="{Binding Location}"/>
+                        <DataGridTextColumn Header="{i18n:Translate Region}" Binding="{Binding Region}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>
