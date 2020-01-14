@@ -2,12 +2,6 @@
     deck: Nilfgaard
     name: "Letho of Gulet"
     flavor: "Witchers never die in their beds."
-    combat:
-        strength: 10
-        types:
-            - Melee
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -21,12 +15,6 @@
     deck: Nilfgaard
     name: "Menno Coehoorn"
     flavor: "I'll take an attentive reconnaissance unit over a fine cavalry brigade any day."
-    combat:
-        strength: 10
-        types:
-            - Melee
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -40,12 +28,6 @@
     deck: Nilfgaard
     name: "Morvran Voorhis"
     flavor: "Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me."
-    combat:
-        strength: 10
-        types:
-            - Siege
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -59,12 +41,6 @@
     deck: Nilfgaard
     name: "Tibor Eggebracht"
     flavor: "Albaaaa! Forward!! Alba! Long live the Emperor!"
-    combat:
-        strength: 10
-        types:
-            - Range
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -78,10 +54,6 @@
     deck: Nilfgaard
     name: "Albrich"
     flavor: "A fireball? Of course. Whatever Your Imperial Majesty wishes."
-    combat:
-        strength: 2
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -94,10 +66,6 @@
     deck: Nilfgaard
     name: "Assire var Anahid"
     flavor: "Nilfgaardian mages do have a choice: servile submission, or the gallows."
-    combat:
-        strength: 6
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -110,10 +78,6 @@
     deck: Nilfgaard
     name: "Cynthia"
     flavor: "Cynthia's talents can be deadly. She needs a tight leash."
-    combat:
-        strength: 4
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -126,10 +90,6 @@
     deck: Nilfgaard
     name: "Fringilla Vigo"
     flavor: "Magic is the highest good. It transcends all borders and divisions."
-    combat:
-        strength: 6
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Secondary Quest
@@ -143,10 +103,6 @@
     deck: Nilfgaard
     name: "Morteisen"
     flavor: "No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry."
-    combat:
-        strength: 3
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -159,10 +115,6 @@
     deck: Nilfgaard
     name: "Rainfarn"
     flavor: "You'll die as painfully as that pathetic traitor Windhalm did."
-    combat:
-        strength: 4
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -175,10 +127,6 @@
     deck: Nilfgaard
     name: "Renuald aep Matsen"
     flavor: "They say the Impera fear nothing. Untrue. Renuald scares them shitless."
-    combat:
-        strength: 5
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -191,10 +139,6 @@
     deck: Nilfgaard
     name: "Rotten Mangonel"
     flavor: "The rotten smell brings back childhood memories"
-    combat:
-        strength: 3
-        types:
-            - Siege
     type: Basic
     locations:
         -   type: Win from NPC
@@ -207,12 +151,6 @@
     deck: Nilfgaard
     name: "Shilard Fitz-Oesterlen"
     flavor: "Warfare is mere sound and fury - diplomacy is what truly shapes history."
-    combat:
-        strength: 7
-        types:
-            - Melee
-        abilities:
-            - Spy
     type: Basic
     locations:
         -   type: Win from NPC
@@ -225,12 +163,6 @@
     deck: Nilfgaard
     name: "Stefan Skellen"
     flavor: "My mark scars the face of our future empress. That is my proudest achievement."
-    combat:
-        strength: 9
-        types:
-            - Melee
-        abilities:
-            - Spy
     type: Basic
     locations:
         -   type: Win from NPC
@@ -243,10 +175,6 @@
     deck: Nilfgaard
     name: "Sweers"
     flavor: "And hands off the girl! Whatever we may be, we're not savages."
-    combat:
-        strength: 2
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -260,10 +188,6 @@
     deck: Nilfgaard
     name: "Vanhemar"
     flavor: "For a fire mage, he's not very… flamboyant."
-    combat:
-        strength: 4
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -276,12 +200,6 @@
     deck: Nilfgaard
     name: "Vattier de Rideaux"
     flavor: "There's never been a problem a well-planned assassination couldn't solve."
-    combat:
-        strength: 4
-        types:
-            - Melee
-        abilities:
-            - Spy
     type: Basic
     locations:
         -   type: Win from NPC
@@ -294,10 +212,6 @@
     deck: Nilfgaard
     name: "Vreemde"
     flavor: "Discipline is the Empire's deadliest weapon."
-    combat:
-        strength: 2
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Win from NPC
@@ -310,10 +224,6 @@
     deck: Nilfgaard
     name: "Cahir Mawr Dyffryn aep Ceallach"
     flavor: "His eyes flashed under his winged helmet. Fire gleamed from his sword's blade."
-    combat:
-        strength: 6
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Win from NPC
@@ -326,10 +236,6 @@
     deck: Nilfgaard
     name: "Puttkammer"
     flavor: "Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance."
-    combat:
-        strength: 3
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -343,12 +249,6 @@
     deck: Nilfgaard
     name: "Etolian Auxiliary Archers"
     flavor: "Double or nothing, aim for his cock."
-    combat:
-        strength: 1
-        types:
-            - Range
-        abilities:
-            - Medic
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -361,12 +261,6 @@
     deck: Nilfgaard
     name: "Etolian Auxiliary Archers"
     flavor: "Double or nothing, aim for his cock."
-    combat:
-        strength: 1
-        types:
-            - Range
-        abilities:
-            - Medic
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -380,10 +274,6 @@
     deck: Nilfgaard
     name: "Black Infantry Archer"
     flavor: "I aim for the knee. Always."
-    combat:
-        strength: 10
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -397,10 +287,6 @@
     deck: Nilfgaard
     name: "Black Infantry Archer"
     flavor: "I aim for the knee. Always."
-    combat:
-        strength: 10
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -413,10 +299,6 @@
     deck: Nilfgaard
     name: "Heavy Zerrikanian Fire Scorpion"
     flavor: "Not the best for taking cities, but great for razing them to the ground."
-    combat:
-        strength: 10
-        types:
-            - Siege
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -429,10 +311,6 @@
     deck: Nilfgaard
     name: "Zerrikanian Fire Scorpion"
     flavor: "The Zerrikanian Desert used to be a lush garden. Then these came along."
-    combat:
-        strength: 5
-        types:
-            - Siege
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -445,12 +323,6 @@
     deck: Nilfgaard
     name: "Impera Brigade Guard"
     flavor: "The Impera Brigade never surrenders. Ever."
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Bond
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -481,12 +353,6 @@
     deck: Nilfgaard
     name: "Nausicaa Cavalry Rider"
     flavor: "The Emperor will teach the North discipline."
-    combat:
-        strength: 2
-        types:
-            - Melee
-        abilities:
-            - Bond
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -511,10 +377,6 @@
     deck: Nilfgaard
     name: "Siege Engineer"
     flavor: "Wielded correctly, a protractor can be a deadly weapon."
-    combat:
-        strength: 6
-        types:
-            - Siege
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -527,12 +389,6 @@
     deck: Nilfgaard
     name: "Young Emissary"
     flavor: "If I acquit myself well, perhaps next they'll post me somewhere civilized."
-    combat:
-        strength: 5
-        types:
-            - Melee
-        abilities:
-            - Bond
     type: 
     locations:
         -   type: Buy from Trader
@@ -545,12 +401,6 @@
     deck: Nilfgaard
     name: "Young Emissary"
     flavor: "If I acquit myself well, perhaps next they'll post me somewhere civilized."
-    combat:
-        strength: 5
-        types:
-            - Melee
-        abilities:
-            - Bond
     type: 
     locations:
         -   type: Buy from Trader
@@ -563,12 +413,6 @@
     deck: Nilfgaard
     name: "Siege Technician"
     flavor: "I never miss twice."
-    combat:
-        strength: 0
-        types:
-            - Siege
-        abilities:
-            - Medic
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -581,12 +425,6 @@
     deck: Nilfgaard
     name: "Emhyr var Emreis His Imperial Majesty"
     flavor: "The skies wept when my Pavetta died. They will not weep for me."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Rain
     type: Leader
     locations:
         -   type: Base Deck
@@ -594,12 +432,6 @@
     deck: Nilfgaard
     name: "Emhyr var Emreis Emperor of Nilfgaard"
     flavor: "Your motives do not interest me. Only results."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Look at three opponent cards
     type: Leader
     locations:
         -   type: Buy from Trader
@@ -612,12 +444,6 @@
     deck: Nilfgaard
     name: "Emhyr var Emreis the White Flame"
     flavor: "A sword is but one of many tools at a ruler's disposal."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Cancel oppenonet's leader
     type: Leader
     locations:
         -   type: Gwent Quest
@@ -632,12 +458,6 @@
     deck: Nilfgaard
     name: "Emhyr var Emreis the Relentless"
     flavor: "They do not call me the Patient. Take care they do not call you the Headless."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Draw card from oppenent's discard pile
     type: Leader
     locations:
         -   type: Secondary Quest

@@ -2,12 +2,6 @@
     deck: Scoia'tael
     name: "Eithné"
     flavor: "The dryad queen has eyes of molten silver, and a heart of cold-forged steel."
-    combat:
-        strength: 10
-        types:
-            - Range
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -21,12 +15,6 @@
     deck: Scoia'tael
     name: "Saesenthessis"
     flavor: "Beautiful, pure, fierce - the perfect icon for a rebellion."
-    combat:
-        strength: 10
-        types:
-            - Range
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -40,13 +28,6 @@
     deck: Scoia'tael
     name: "Isengrim Faolitarna"
     flavor: "It dawns on them once they notice my scar: a realization of imminent death."
-    combat:
-        strength: 10
-        types:
-            - Melee
-        abilities:
-            - Morale
-            - Immune to special
     type: Hero
     locations:
         -   type: Secondary Quest
@@ -60,12 +41,6 @@
     deck: Scoia'tael
     name: "Iorveth"
     flavor: "King or beggar, what's the difference? One dh'oine less."
-    combat:
-        strength: 10
-        types:
-            - Range
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Secondary Quest
@@ -79,11 +54,6 @@
     deck: Scoia'tael
     name: "Dennis Cranmer"
     flavor: "I know how to carry out orders, so you can shove you advice up your coal chute."
-    combat:
-        strength: 6
-        types:
-            - Melee
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -96,12 +66,6 @@
     deck: Scoia'tael
     name: "Milva"
     flavor: "With each arrow I loose, I think of my da. He'd be proud. I think."
-    combat:
-        strength: 10
-        types:
-            - Range
-        abilities:
-            - Morale
     type: Basic
     locations:
         -   type: Secondary Quest
@@ -116,10 +80,6 @@
     deck: Scoia'tael
     name: "Ida Emean aep Sivney"
     flavor: "I am a Sage. My power lies in possessing knowledge. Not sharing it."
-    combat:
-        strength: 6
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -132,13 +92,6 @@
     deck: Scoia'tael
     name: "Filavandrel aén Fidháil"
     flavor: "Though we are now few and scattered, our hearts burn brighter than ever."
-    combat:
-        strength: 6
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Win from NPC
@@ -151,13 +104,6 @@
     deck: Scoia'tael
     name: "Yaevinn"
     flavor: "We are the drops of rain that together make a ferocious storm."
-    combat:
-        strength: 6
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Gwent Quest
@@ -171,10 +117,6 @@
     deck: Scoia'tael
     name: "Toruviel"
     flavor: "I'd gladly kill you from up close, stare in your eyes… But you reek, human."
-    combat:
-        strength: 2
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -187,10 +129,6 @@
     deck: Scoia'tael
     name: "Riordain"
     flavor: "Stare into their eyes, feast on their terror. Then go in for the kill."
-    combat:
-        strength: 1
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -203,13 +141,6 @@
     deck: Scoia'tael
     name: "Ciaran aep Easnillien"
     flavor: "The path to freedom is paved in blood, not ink."
-    combat:
-        strength: 3
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Win from NPC
@@ -222,13 +153,6 @@
     deck: Scoia'tael
     name: "Barclay Els"
     flavor: "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!"
-    combat:
-        strength: 6
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -241,12 +165,6 @@
     deck: Scoia'tael
     name: "Havekar Smuggler"
     flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
-    combat:
-        strength: 5
-        types:
-            - Melee
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -259,12 +177,6 @@
     deck: Scoia'tael
     name: "Havekar Smuggler"
     flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
-    combat:
-        strength: 5
-        types:
-            - Melee
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Win from NPC
@@ -277,12 +189,6 @@
     deck: Scoia'tael
     name: "Havekar Smuggler"
     flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
-    combat:
-        strength: 5
-        types:
-            - Melee
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -295,13 +201,6 @@
     deck: Scoia'tael
     name: "Vrihedd Brigade Veteran"
     flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
-    combat:
-        strength: 5
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -314,13 +213,6 @@
     deck: Scoia'tael
     name: "Vrihedd Brigade Veteran"
     flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
-    combat:
-        strength: 5
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -333,13 +225,6 @@
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
     flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
-    combat:
-        strength: 6
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -352,13 +237,6 @@
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
     flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
-    combat:
-        strength: 6
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Win from NPC
@@ -371,13 +249,6 @@
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
     flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
-    combat:
-        strength: 6
-        types:
-            - Melee
-            - Range
-        abilities:
-            - Agile
     type: Basic
     locations:
         -   type: Win from NPC
@@ -390,12 +261,6 @@
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
     flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Win from NPC
@@ -408,12 +273,6 @@
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
     flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -426,12 +285,6 @@
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
     flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
-    combat:
-        strength: 3
-        types:
-            - Melee
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Win from NPC
@@ -444,10 +297,6 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    combat:
-        strength: 5
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -460,10 +309,6 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    combat:
-        strength: 5
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -476,10 +321,6 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    combat:
-        strength: 5
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -492,10 +333,6 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    combat:
-        strength: 5
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -508,10 +345,6 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    combat:
-        strength: 5
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -524,12 +357,6 @@
     deck: Scoia'tael
     name: "Elven Skirmisher"
     flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
-    combat:
-        strength: 2
-        types:
-            - Range
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Win from NPC
@@ -542,12 +369,6 @@
     deck: Scoia'tael
     name: "Elven Skirmisher"
     flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
-    combat:
-        strength: 2
-        types:
-            - Range
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Win from NPC
@@ -560,12 +381,6 @@
     deck: Scoia'tael
     name: "Elven Skirmisher"
     flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
-    combat:
-        strength: 2
-        types:
-            - Range
-        abilities:
-            - Muster
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -578,10 +393,6 @@
     deck: Scoia'tael
     name: "Vrihedd Brigade Recruit"
     flavor: "Hatred burns brighter than any fire, and cuts deeper than any blade."
-    combat:
-        strength: 4
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Win from NPC
@@ -594,10 +405,6 @@
     deck: Scoia'tael
     name: "Dol Blathanna Archer"
     flavor: "Take another step, dh'oine. You'd look better with an arrow between your eyes."
-    combat:
-        strength: 4
-        types:
-            - Range
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -610,12 +417,6 @@
     deck: Scoia'tael
     name: "Havekar Healer"
     flavor: "Sure, I'll patch you up. Gonna cost you, though."
-    combat:
-        strength: 0
-        types:
-            - Range
-        abilities:
-            - Medic
     type: Basic
     locations:
         -   type: Win from NPC
@@ -628,12 +429,6 @@
     deck: Scoia'tael
     name: "Havekar Healer"
     flavor: "Sure, I'll patch you up. Gonna cost you, though."
-    combat:
-        strength: 0
-        types:
-            - Range
-        abilities:
-            - Medic
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -646,12 +441,6 @@
     deck: Scoia'tael
     name: "Havekar Healer"
     flavor: "Sure, I'll patch you up. Gonna cost you, though."
-    combat:
-        strength: 0
-        types:
-            - Range
-        abilities:
-            - Medic
     type: Basic
     locations:
         -   type: Buy from Trader
@@ -664,12 +453,6 @@
     deck: Scoia'tael
     name: "Francesca Findabair Pureblood Elf"
     flavor: "Ash shall fertilize the soil. By spring, the valley shall bloom once more."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Frost
     type: Leader
     locations:
         -   type: Base Deck
@@ -677,12 +460,6 @@
     deck: Scoia'tael
     name: "Francesca Findabair Daisy of the Valley"
     flavor: "The Elder Races have forgotten more than humans can ever hope to know."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Draw extra card
     type: Leader
     locations:
         -   type: Buy from Trader
@@ -695,12 +472,6 @@
     deck: Scoia'tael
     name: "Francesca Findabair the Beautiful"
     flavor: "Do not let my beauty distract your aim."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Horn on ranged
     type: Leader
     locations:
         -   type: Gwent Quest
@@ -714,12 +485,6 @@
     deck: Scoia'tael
     name: "Francesca Findabair Queen of Dol Blathanna"
     flavor: "To live in peace, we first must kill. This is human oppression's cruel finale."
-    combat:
-        strength: 0
-        types:
-            - Leader
-        abilities:
-            - Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more
     type: Leader
     locations:
         -   type: Secondary Quest

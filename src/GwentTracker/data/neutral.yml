@@ -2,12 +2,6 @@
     deck: Neutral
     name: "Decoy"
     flavor: "When you run out of peasants, decoys also make decent arrow fodder."
-    combat:
-        strength: 0
-        types:
-            - Special
-        abilities:
-            - Swap with a non-hero card
     type: Special
     locations:
         -   type: Buy from Trader
@@ -32,12 +26,6 @@
     deck: Neutral
     name: "Commander's Horn"
     flavor: "Plus one to morale, minus three to hearing."
-    combat:
-        strength: 0
-        types:
-            - Special
-        abilities:
-            - Double the strength of the row
     type: Special
     locations:
         -   type: Buy from Trader
@@ -62,12 +50,6 @@
     deck: Neutral
     name: "Scorch"
     flavor: "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe."
-    combat:
-        strength: 0
-        types:
-            - Special
-        abilities:
-            - Destroys the strongest non-hero card
     type: Special
     locations:
         -   type: Buy from Trader
@@ -92,12 +74,6 @@
     deck: Neutral
     name: "Biting Frost"
     flavor: "Best part about frost - bodies of the fallen don't rot so quickly."
-    combat:
-        strength: 0
-        types:
-            - Weather
-        abilities:
-            - Sets all non-hero melee strength to 1
     type: Special
     locations:
         -   type: Base Deck
@@ -112,12 +88,6 @@
     deck: Neutral
     name: "Impenetrable Fog"
     flavor: "A good commander's dream... a bad one's horror."
-    combat:
-        strength: 0
-        types:
-            - Weather
-        abilities:
-            - Sets all non-hero ranged stength to 1
     type: Special
     locations:
         -   type: Base Deck
@@ -132,12 +102,6 @@
     deck: Neutral
     name: "Torrential Rain"
     flavor: "Even the rain in this land smells like piss."
-    combat:
-        strength: 0
-        types:
-            - Weather
-        abilities:
-            - Sets all non-hero siege stength to 1
     type: Special
     locations:
         -   type: Base Deck
@@ -151,12 +115,6 @@
     deck: Neutral
     name: "Clear Weather"
     flavor: "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…"
-    combat:
-        strength: 0
-        types:
-            - Weather
-        abilities:
-            - Removes all weather
     type: Special
     locations:
         -   type: Base Deck
@@ -170,12 +128,6 @@
     deck: Neutral
     name: "Geralt of Rivia"
     flavor: "If that's what it takes to save the world, it's better to let that world die."
-    combat:
-        strength: 15
-        types:
-            - Melee
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -189,10 +141,6 @@
     deck: Neutral
     name: "Vesemir"
     flavor: "If you're to be hanged, ask for water. Anything can happen before they fetch it."
-    combat:
-        strength: 6
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Gwent Quest
@@ -206,13 +154,6 @@
     deck: Neutral
     name: "Yennefer of Vengerberg"
     flavor: "Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression."
-    combat:
-        strength: 7
-        types:
-            - Range
-        abilities:
-            - Medic
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -226,12 +167,6 @@
     deck: Neutral
     name: "Cirilla Fiona Elen Riannon"
     flavor: "Know when fairy tales cease to be tales? When people start believing in them."
-    combat:
-        strength: 15
-        types:
-            - Melee
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -245,12 +180,6 @@
     deck: Neutral
     name: "Triss Merigold"
     flavor: "I can take care of myself. Trust me."
-    combat:
-        strength: 7
-        types:
-            - Melee
-        abilities:
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -273,12 +202,6 @@
     deck: Neutral
     name: "Dandelion"
     flavor: "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend."
-    combat:
-        strength: 2
-        types:
-            - Melee
-        abilities:
-            - Commander's Horn
     type: Basic
     locations:
         -   type: Secondary Quest
@@ -293,10 +216,6 @@
     deck: Neutral
     name: "Zoltan Chivay"
     flavor: "Life without old mates and booze is like a woman without a rump."
-    combat:
-        strength: 5
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Win from NPC
@@ -309,10 +228,6 @@
     deck: Neutral
     name: "Emiel Regis Rohellec Terzieff"
     flavor: "Men, the polite ones, at least, would call me a monster. A blood-drinking freak."
-    combat:
-        strength: 5
-        types:
-            - Melee
     type: Basic
     locations:
         -   type: Win from NPC
@@ -325,12 +240,6 @@
     deck: Neutral
     name: "Villentretenmerth"
     flavor: "Also calls himself Borkh Three Jackdaws… he's not the best at names."
-    combat:
-        strength: 7
-        types:
-            - Melee
-        abilities:
-            - Destroy opponent's strongest melee if combined melee strength is 10 or more
     type: Basic
     locations:
         -   type: Win from NPC
@@ -343,13 +252,6 @@
     deck: Neutral
     name: "Avallac'h"
     flavor: "You humans have… unusual tastes."
-    combat:
-        strength: 0
-        types:
-            - Melee
-        abilities:
-            - Spy
-            - Immune to special
     type: Hero
     locations:
         -   type: Gwent Quest
