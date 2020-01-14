@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using Avalonia.Threading;
 using DynamicData;
 using DynamicData.Binding;
+using GwentTracker.Localization;
 using W3SavegameEditor.Core.Savegame;
 using W3SavegameEditor.Core.Savegame.Variables;
 using YamlDotNet.Serialization;
@@ -24,6 +25,7 @@ namespace GwentTracker.ViewModels
 {
     public class MainWindowViewModel : ReactiveObject
     {
+        private readonly CultureInfo _cultureInfo;
         private readonly SourceList<CardViewModel> _cards;
         private readonly ReadOnlyObservableCollection<CardViewModel> _filteredCards;
         private bool _initialLoadComplete = false;
@@ -73,8 +75,9 @@ namespace GwentTracker.ViewModels
             set => this.RaiseAndSetIfChanged(ref _saveGamePath, value);
         }
 
-        public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges)
+        public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges, CultureInfo cultureInfo)
         {
+            _cultureInfo = cultureInfo;
             Activator = new ViewModelActivator();
             Filters = new ObservableCollection<string>();
             _cards = new SourceList<CardViewModel>();
@@ -170,6 +173,7 @@ namespace GwentTracker.ViewModels
             var deserializer = new DeserializerBuilder()
                                     .IgnoreUnmatchedProperties()
                                     .WithNamingConvention(CamelCaseNamingConvention.Instance)
+                                    .WithTypeConverter(new TranslateStringConverter())
                                     .Build();
             string filePath;
             foreach (var file in files)
@@ -273,7 +277,7 @@ namespace GwentTracker.ViewModels
 
         private bool ShouldFilterCard(CardViewModel card)
         {
-            var compareInfo = CultureInfo.CurrentUICulture.CompareInfo;
+            var compareInfo = _cultureInfo.CompareInfo;
 
             return Filters.Any() &&
                    !Filters.All(f => compareInfo.IndexOf(card.Name, f, CompareOptions.IgnoreCase) >= 0 ||

@@ -46,8 +46,7 @@ namespace GwentTracker
                 
             Log.Logger = logConfig.CreateLogger();
             
-            ConfigureLocalization(config["culture"]);
-            
+            var culture = ConfigureLocalization(config["culture"]);
             var defaultSavePath = ParseDefaultSavePath(config["defaultSavePath"]);
             var (latestSave, savePath) = GetLatestSave(defaultSavePath);
 
@@ -61,7 +60,7 @@ namespace GwentTracker
             {
                 desktopLifetime.MainWindow = new MainWindow()
                 {
-                    DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges)
+                    DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges, culture)
                 };
             }
 
@@ -136,7 +135,7 @@ namespace GwentTracker
             return (latestSave, finalPath);
         }
 
-        private static void ConfigureLocalization(string cultureName)
+        private static CultureInfo ConfigureLocalization(string cultureName)
         {
             var culture = CultureInfo.CurrentCulture;
 
@@ -152,8 +151,13 @@ namespace GwentTracker
                 }
             }
 
-            var catalog = new Catalog(new MoLoader("gwent-tracker", "locale"), culture);
-            Locator.CurrentMutable.RegisterConstant(catalog, typeof(ICatalog));
+            var uiCatalog = new Catalog(new MoLoader("gwent-tracker", "locale"), culture);
+            var cardsCatalog = new Catalog(new MoLoader("cards", "locale"), culture);
+            
+            Locator.CurrentMutable.RegisterConstant(uiCatalog, typeof(ICatalog));
+            Locator.CurrentMutable.RegisterConstant(cardsCatalog, typeof(ICatalog));
+
+            return culture;
         }
     }
 }

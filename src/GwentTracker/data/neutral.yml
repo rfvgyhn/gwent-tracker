@@ -141,7 +141,7 @@
     deck: Neutral
     name: "Vesemir"
     flavor: "If you're to be hanged, ask for water. Anything can happen before they fetch it."
-    type: Basic
+    type: Unit
     locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Big City Players)
@@ -202,7 +202,7 @@
     deck: Neutral
     name: "Dandelion"
     flavor: "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend."
-    type: Basic
+    type: Unit
     locations:
         -   type: Secondary Quest
             quest: id# (A Matter of Life and Death)
@@ -216,7 +216,7 @@
     deck: Neutral
     name: "Zoltan Chivay"
     flavor: "Life without old mates and booze is like a woman without a rump."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Scholar
@@ -228,7 +228,7 @@
     deck: Neutral
     name: "Emiel Regis Rohellec Terzieff"
     flavor: "Men, the polite ones, at least, would call me a monster. A blood-drinking freak."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -240,7 +240,7 @@
     deck: Neutral
     name: "Villentretenmerth"
     flavor: "Also calls himself Borkh Three Jackdaws… he's not the best at names."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random

@@ -54,7 +54,7 @@
     deck: Scoia'tael
     name: "Dennis Cranmer"
     flavor: "I know how to carry out orders, so you can shove you advice up your coal chute."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -66,7 +66,7 @@
     deck: Scoia'tael
     name: "Milva"
     flavor: "With each arrow I loose, I think of my da. He'd be proud. I think."
-    type: Basic
+    type: Unit
     locations:
         -   type: Secondary Quest
             quest: id# (A Matter of Life and Death)
@@ -80,7 +80,7 @@
     deck: Scoia'tael
     name: "Ida Emean aep Sivney"
     flavor: "I am a Sage. My power lies in possessing knowledge. Not sharing it."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -92,7 +92,7 @@
     deck: Scoia'tael
     name: "Filavandrel aén Fidháil"
     flavor: "Though we are now few and scattered, our hearts burn brighter than ever."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -104,7 +104,7 @@
     deck: Scoia'tael
     name: "Yaevinn"
     flavor: "We are the drops of rain that together make a ferocious storm."
-    type: Basic
+    type: Unit
     locations:
         -   type: Gwent Quest
             quest: id# (Skellige Style)
@@ -117,7 +117,7 @@
     deck: Scoia'tael
     name: "Toruviel"
     flavor: "I'd gladly kill you from up close, stare in your eyes… But you reek, human."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -129,7 +129,7 @@
     deck: Scoia'tael
     name: "Riordain"
     flavor: "Stare into their eyes, feast on their terror. Then go in for the kill."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -141,7 +141,7 @@
     deck: Scoia'tael
     name: "Ciaran aep Easnillien"
     flavor: "The path to freedom is paved in blood, not ink."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -153,7 +153,7 @@
     deck: Scoia'tael
     name: "Barclay Els"
     flavor: "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -165,7 +165,7 @@
     deck: Scoia'tael
     name: "Havekar Smuggler"
     flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -177,7 +177,7 @@
     deck: Scoia'tael
     name: "Havekar Smuggler"
     flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -189,7 +189,7 @@
     deck: Scoia'tael
     name: "Havekar Smuggler"
     flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Olivier
@@ -201,7 +201,7 @@
     deck: Scoia'tael
     name: "Vrihedd Brigade Veteran"
     flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Stjepan
@@ -213,7 +213,7 @@
     deck: Scoia'tael
     name: "Vrihedd Brigade Veteran"
     flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Olivier
@@ -225,7 +225,7 @@
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
     flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -237,7 +237,7 @@
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
     flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -249,7 +249,7 @@
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
     flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -261,7 +261,7 @@
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
     flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -273,7 +273,7 @@
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
     flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Stjepan
@@ -285,7 +285,7 @@
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
     flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -297,7 +297,7 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Olivier
@@ -309,7 +309,7 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -321,7 +321,7 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -333,7 +333,7 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Stjepan
@@ -345,7 +345,7 @@
     deck: Scoia'tael
     name: "Mahakaman Defender"
     flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Marquise Serenity
@@ -357,7 +357,7 @@
     deck: Scoia'tael
     name: "Elven Skirmisher"
     flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -369,7 +369,7 @@
     deck: Scoia'tael
     name: "Elven Skirmisher"
     flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -381,7 +381,7 @@
     deck: Scoia'tael
     name: "Elven Skirmisher"
     flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -393,7 +393,7 @@
     deck: Scoia'tael
     name: "Vrihedd Brigade Recruit"
     flavor: "Hatred burns brighter than any fire, and cuts deeper than any blade."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -405,7 +405,7 @@
     deck: Scoia'tael
     name: "Dol Blathanna Archer"
     flavor: "Take another step, dh'oine. You'd look better with an arrow between your eyes."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Marquise Serenity
@@ -417,7 +417,7 @@
     deck: Scoia'tael
     name: "Havekar Healer"
     flavor: "Sure, I'll patch you up. Gonna cost you, though."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -429,7 +429,7 @@
     deck: Scoia'tael
     name: "Havekar Healer"
     flavor: "Sure, I'll patch you up. Gonna cost you, though."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -441,7 +441,7 @@
     deck: Scoia'tael
     name: "Havekar Healer"
     flavor: "Sure, I'll patch you up. Gonna cost you, though."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Olivier

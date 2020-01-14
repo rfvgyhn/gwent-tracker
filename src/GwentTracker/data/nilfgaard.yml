@@ -54,7 +54,7 @@
     deck: Nilfgaard
     name: "Albrich"
     flavor: "A fireball? Of course. Whatever Your Imperial Majesty wishes."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -66,7 +66,7 @@
     deck: Nilfgaard
     name: "Assire var Anahid"
     flavor: "Nilfgaardian mages do have a choice: servile submission, or the gallows."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -78,7 +78,7 @@
     deck: Nilfgaard
     name: "Cynthia"
     flavor: "Cynthia's talents can be deadly. She needs a tight leash."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Quartermaster
@@ -90,7 +90,7 @@
     deck: Nilfgaard
     name: "Fringilla Vigo"
     flavor: "Magic is the highest good. It transcends all borders and divisions."
-    type: Basic
+    type: Unit
     locations:
         -   type: Secondary Quest
             quest: id# (A Dangerous Game)
@@ -103,7 +103,7 @@
     deck: Nilfgaard
     name: "Morteisen"
     flavor: "No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Shopkeeper
@@ -115,7 +115,7 @@
     deck: Nilfgaard
     name: "Rainfarn"
     flavor: "You'll die as painfully as that pathetic traitor Windhalm did."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Merchant
@@ -127,7 +127,7 @@
     deck: Nilfgaard
     name: "Renuald aep Matsen"
     flavor: "They say the Impera fear nothing. Untrue. Renuald scares them shitless."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -139,7 +139,7 @@
     deck: Nilfgaard
     name: "Rotten Mangonel"
     flavor: "The rotten smell brings back childhood memories"
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -151,7 +151,7 @@
     deck: Nilfgaard
     name: "Shilard Fitz-Oesterlen"
     flavor: "Warfare is mere sound and fury - diplomacy is what truly shapes history."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -163,7 +163,7 @@
     deck: Nilfgaard
     name: "Stefan Skellen"
     flavor: "My mark scars the face of our future empress. That is my proudest achievement."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -175,7 +175,7 @@
     deck: Nilfgaard
     name: "Sweers"
     flavor: "And hands off the girl! Whatever we may be, we're not savages."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -188,7 +188,7 @@
     deck: Nilfgaard
     name: "Vanhemar"
     flavor: "For a fire mage, he's not very… flamboyant."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -200,7 +200,7 @@
     deck: Nilfgaard
     name: "Vattier de Rideaux"
     flavor: "There's never been a problem a well-planned assassination couldn't solve."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -212,7 +212,7 @@
     deck: Nilfgaard
     name: "Vreemde"
     flavor: "Discipline is the Empire's deadliest weapon."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -224,7 +224,7 @@
     deck: Nilfgaard
     name: "Cahir Mawr Dyffryn aep Ceallach"
     flavor: "His eyes flashed under his winged helmet. Fire gleamed from his sword's blade."
-    type: Basic
+    type: Unit
     locations:
         -   type: Win from NPC
             npc: Random
@@ -236,7 +236,7 @@
     deck: Nilfgaard
     name: "Puttkammer"
     flavor: "Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -249,7 +249,7 @@
     deck: Nilfgaard
     name: "Etolian Auxiliary Archers"
     flavor: "Double or nothing, aim for his cock."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Merchant
@@ -261,7 +261,7 @@
     deck: Nilfgaard
     name: "Etolian Auxiliary Archers"
     flavor: "Double or nothing, aim for his cock."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -274,7 +274,7 @@
     deck: Nilfgaard
     name: "Black Infantry Archer"
     flavor: "I aim for the knee. Always."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -287,7 +287,7 @@
     deck: Nilfgaard
     name: "Black Infantry Archer"
     flavor: "I aim for the knee. Always."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Merchant
@@ -299,7 +299,7 @@
     deck: Nilfgaard
     name: "Heavy Zerrikanian Fire Scorpion"
     flavor: "Not the best for taking cities, but great for razing them to the ground."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Merchant
@@ -311,7 +311,7 @@
     deck: Nilfgaard
     name: "Zerrikanian Fire Scorpion"
     flavor: "The Zerrikanian Desert used to be a lush garden. Then these came along."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -323,7 +323,7 @@
     deck: Nilfgaard
     name: "Impera Brigade Guard"
     flavor: "The Impera Brigade never surrenders. Ever."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -353,7 +353,7 @@
     deck: Nilfgaard
     name: "Nausicaa Cavalry Rider"
     flavor: "The Emperor will teach the North discipline."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Quartermaster
@@ -377,7 +377,7 @@
     deck: Nilfgaard
     name: "Siege Engineer"
     flavor: "Wielded correctly, a protractor can be a deadly weapon."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -413,7 +413,7 @@
     deck: Nilfgaard
     name: "Siege Technician"
     flavor: "I never miss twice."
-    type: Basic
+    type: Unit
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
