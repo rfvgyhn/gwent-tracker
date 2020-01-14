@@ -1,7 +1,7 @@
 ﻿-   index: 100
     deck: Northern Realms
-    name: Vernon Roche
-    flavor: 
+    name: "Vernon Roche"
+    flavor: "A patriot... and a real son of a bitch."
     combat:
         strength: 10
         types:
@@ -19,8 +19,8 @@
             coords: []
 -   index: 101
     deck: Northern Realms
-    name: John Natalis
-    flavor: 
+    name: "John Natalis"
+    flavor: "That square should bear the names of my soldiers, of the dead. Not mine."
     combat:
         strength: 10
         types:
@@ -38,8 +38,8 @@
             coords: []
 -   index: 102
     deck: Northern Realms
-    name: Esterad Thyssen
-    flavor: 
+    name: "Esterad Thyssen"
+    flavor: "Like all Thyssen men, he was tall, powerfully built and criminally handsome."
     combat:
         strength: 10
         types:
@@ -57,8 +57,8 @@
             coords: []
 -   index: 103
     deck: Northern Realms
-    name: Philippa Eilhart
-    flavor: 
+    name: "Philippa Eilhart"
+    flavor: "Soon the power of kings will wither, and the Lodge shall seize its rightful place."
     combat:
         strength: 10
         types:
@@ -75,8 +75,8 @@
             coords: []
 -   index: 105
     deck: Northern Realms
-    name: Thaler
-    flavor: 
+    name: "Thaler"
+    flavor: "Fuck off! We aren't all ploughin' philanderers. Some of us have depth..."
     combat:
         strength: 1
         types:
@@ -93,8 +93,8 @@
             coords: []
 -   index: 106
     deck: Northern Realms
-    name: Ves
-    flavor: 
+    name: "Ves"
+    flavor: "Better to live one day as a king than a whole life as a beggar."
     combat:
         strength: 5
         types:
@@ -104,8 +104,8 @@
         -   type: Base Deck
 -   index: 107
     deck: Northern Realms
-    name: Siegfried of Denesle
-    flavor: 
+    name: "Siegfried of Denesle"
+    flavor: "We're on the same side, witcher. You'll realize this one day."
     combat:
         strength: 5
         types:
@@ -115,8 +115,8 @@
         -   type: Base Deck
 -   index: 108
     deck: Northern Realms
-    name: Yarpen Zigrin
-    flavor: 
+    name: "Yarpen Zigrin"
+    flavor: "The world belongs to whoever's best at crackin' skulls and impregnatin' lasses."
     combat:
         strength: 2
         types:
@@ -126,8 +126,8 @@
         -   type: Base Deck
 -   index: 109
     deck: Northern Realms
-    name: Sigismund Dijkstra
-    flavor: 
+    name: "Sigismund Dijkstra"
+    flavor: "Gwent's like politics, just more honest."
     combat:
         strength: 4
         types:
@@ -145,8 +145,8 @@
             coords: []
 -   index: 111
     deck: Northern Realms
-    name: Keira Metz
-    flavor: 
+    name: "Keira Metz"
+    flavor: "If I'm to die today, I wish to look smashing for the occasion."
     combat:
         strength: 5
         types:
@@ -156,8 +156,8 @@
         -   type: Base Deck
 -   index: 112
     deck: Northern Realms
-    name: Sıĺ e de Tansarville
-    flavor: 
+    name: "Síle de Tansarville"
+    flavor: "The Lodge lacks humility. Our lust for power may yet be our undoing."
     combat:
         strength: 5
         types:
@@ -167,8 +167,8 @@
         -   type: Base Deck
 -   index: 113
     deck: Northern Realms
-    name: Sabrina Glevissig
-    flavor: 
+    name: "Sabrina Glevissig"
+    flavor: "The Daughter of the Kaedweni Wilderness."
     combat:
         strength: 4
         types:
@@ -178,8 +178,8 @@
         -   type: Base Deck
 -   index: 114
     deck: Northern Realms
-    name: Sheldon Skaggs
-    flavor: 
+    name: "Sheldon Skaggs"
+    flavor: "I was there, on the front lines! Right where the fightin' was the thickest!"
     combat:
         strength: 4
         types:
@@ -189,8 +189,8 @@
         -   type: Base Deck
 -   index: 115
     deck: Northern Realms
-    name: Dethmold
-    flavor: 
+    name: "Dethmold"
+    flavor: "I once made a prisoner vomit his own entrails… Ah, good times…"
     combat:
         strength: 6
         types:
@@ -200,8 +200,8 @@
         -   type: Base Deck
 -   index: 116
     deck: Northern Realms
-    name: Prince Stennis
-    flavor: 
+    name: "Prince Stennis"
+    flavor: "He ploughin' wears golden armor. Golden. ‘Course he's an arsehole."
     combat:
         strength: 5
         types:
@@ -213,8 +213,8 @@
         -   type: Base Deck
 -   index: 120
     deck: Northern Realms
-    name: Trebuchet
-    flavor: 
+    name: "Trebuchet"
+    flavor: "Castle won't batter itself down, now will it? Get them trebuchets rollin'!"
     combat:
         strength: 6
         types:
@@ -224,8 +224,8 @@
         -   type: Base Deck
 -   index: 121
     deck: Northern Realms
-    name: Trebuchet
-    flavor: 
+    name: "Trebuchet"
+    flavor: "Castle won't batter itself down, now will it? Get them trebuchets rollin'!"
     combat:
         strength: 6
         types:
@@ -235,8 +235,8 @@
         -   type: Base Deck
 -   index: 125
     deck: Northern Realms
-    name: Poor Fucking Infantry
-    flavor: 
+    name: "Poor Fucking Infantry"
+    flavor: "I's a war veteran! ... spare me a crown?"
     combat:
         strength: 1
         types:
@@ -248,8 +248,8 @@
         -   type: Base Deck
 -   index: 126
     deck: Northern Realms
-    name: Poor Fucking Infantry
-    flavor: 
+    name: "Poor Fucking Infantry"
+    flavor: "I's a war veteran! ... spare me a crown?"
     combat:
         strength: 1
         types:
@@ -261,8 +261,8 @@
         -   type: Base Deck
 -   index: 127
     deck: Northern Realms
-    name: Poor Fucking Infantry
-    flavor: 
+    name: "Poor Fucking Infantry"
+    flavor: "I's a war veteran! ... spare me a crown?"
     combat:
         strength: 1
         types:
@@ -279,8 +279,8 @@
             coords: []
 -   index: 130
     deck: Northern Realms
-    name: Crinfrid Reavers Dragon Hunter
-    flavor: 
+    name: "Crinfrid Reavers Dragon Hunter"
+    flavor: "Haven't had much luck with monsters of late, so we enlisted."
     combat:
         strength: 5
         types:
@@ -310,8 +310,8 @@
             coords: []
 -   index: 135
     deck: Northern Realms
-    name: Redanian Foot Soldier
-    flavor: 
+    name: "Redanian Foot Soldier"
+    flavor: "I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!"
     combat:
         strength: 1
         types:
@@ -321,8 +321,8 @@
         -   type: Base Deck
 -   index: 136
     deck: Northern Realms
-    name: Redanian Foot Soldier
-    flavor: 
+    name: "Redanian Foot Soldier"
+    flavor: "I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!"
     combat:
         strength: 1
         types:
@@ -332,8 +332,8 @@
         -   type: Base Deck
 -   index: 140
     deck: Northern Realms
-    name: Catapult
-    flavor: 
+    name: "Catapult"
+    flavor: "The gods help those who have better catapults."
     combat:
         strength: 8
         types:
@@ -356,8 +356,8 @@
             coords: []
 -   index: 150
     deck: Northern Realms
-    name: Kaedweni Siege Expert
-    flavor: 
+    name: "Kaedweni Siege Expert"
+    flavor: "You gotta recalibrate the arm by five degrees. Do what by the what now?"
     combat:
         strength: 1
         types:
@@ -369,8 +369,8 @@
         -   type: Base Deck
 -   index: 160
     deck: Northern Realms
-    name: Blue Stripes Commando
-    flavor: 
+    name: "Blue Stripes Commando"
+    flavor: "I'd do anything for Temeria. Mostly, though, I kill for her."
     combat:
         strength: 4
         types:
@@ -389,8 +389,8 @@
             coords: []
 -   index: 170
     deck: Northern Realms
-    name: Siege Tower
-    flavor: 
+    name: "Siege Tower"
+    flavor: "I love the clamor of siege towers in the morning. Sounds like victory."
     combat:
         strength: 6
         types:
@@ -405,8 +405,8 @@
             coords: []
 -   index: 175
     deck: Northern Realms
-    name: Dun Banner Medic
-    flavor: 
+    name: "Dun Banner Medic"
+    flavor: "Stitch red to red, white to white, and everything will be all right."
     combat:
         strength: 5
         types:
@@ -418,8 +418,8 @@
         -   type: Base Deck
 -   index: 1001
     deck: Northern Realms
-    name: Foltest King of Temeria
-    flavor: 
+    name: "Foltest King of Temeria"
+    flavor: "It is natural and beautiful that a man should love his sister."
     combat:
         strength: 0
         types:
@@ -431,8 +431,8 @@
         -   type: Base Deck
 -   index: 1002
     deck: Northern Realms
-    name: Foltest Lord Commander of the North
-    flavor: 
+    name: "Foltest Lord Commander of the North"
+    flavor: "Sod advisors and their schemes. I place my trust in my soldiers' blades."
     combat:
         strength: 0
         types:
@@ -449,8 +449,8 @@
             coords: []
 -   index: 1003
     deck: Northern Realms
-    name: Foltest the Siegemaster
-    flavor: 
+    name: "Foltest the Siegemaster"
+    flavor: "A well-aimed ballista razes not just the enemy's walls, but his morale as well."
     combat:
         strength: 0
         types:
@@ -467,8 +467,8 @@
             coords: []
 -   index: 1004
     deck: Northern Realms
-    name: Foltest the Steel-Forged
-    flavor: 
+    name: "Foltest the Steel-Forged"
+    flavor: "A beautiful day for battle."
     combat:
         strength: 0
         types:

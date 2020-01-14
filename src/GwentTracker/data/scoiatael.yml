@@ -1,7 +1,7 @@
 ﻿-   index: 300
     deck: Scoia'tael
-    name: Eithné
-    flavor: 
+    name: "Eithné"
+    flavor: "The dryad queen has eyes of molten silver, and a heart of cold-forged steel."
     combat:
         strength: 10
         types:
@@ -19,8 +19,8 @@
             coords: []
 -   index: 301
     deck: Scoia'tael
-    name: Saesenthessis
-    flavor: 
+    name: "Saesenthessis"
+    flavor: "Beautiful, pure, fierce - the perfect icon for a rebellion."
     combat:
         strength: 10
         types:
@@ -38,8 +38,8 @@
             coords: []
 -   index: 302
     deck: Scoia'tael
-    name: Isengrim Faolitarna
-    flavor: 
+    name: "Isengrim Faolitarna"
+    flavor: "It dawns on them once they notice my scar: a realization of imminent death."
     combat:
         strength: 10
         types:
@@ -58,8 +58,8 @@
             coords: []
 -   index: 303
     deck: Scoia'tael
-    name: Iorveth
-    flavor: 
+    name: "Iorveth"
+    flavor: "King or beggar, what's the difference? One dh'oine less."
     combat:
         strength: 10
         types:
@@ -77,8 +77,8 @@
             coords: []
 -   index: 305
     deck: Scoia'tael
-    name: Dennis Cranmer
-    flavor: 
+    name: "Dennis Cranmer"
+    flavor: "I know how to carry out orders, so you can shove you advice up your coal chute."
     combat:
         strength: 6
         types:
@@ -94,8 +94,8 @@
             coords: []
 -   index: 306
     deck: Scoia'tael
-    name: Milva
-    flavor: 
+    name: "Milva"
+    flavor: "With each arrow I loose, I think of my da. He'd be proud. I think."
     combat:
         strength: 10
         types:
@@ -114,8 +114,8 @@
             coords: []
 -   index: 307
     deck: Scoia'tael
-    name: Ida Emean aep Sivney
-    flavor: 
+    name: "Ida Emean aep Sivney"
+    flavor: "I am a Sage. My power lies in possessing knowledge. Not sharing it."
     combat:
         strength: 6
         types:
@@ -130,8 +130,8 @@
             coords: []
 -   index: 308
     deck: Scoia'tael
-    name: Filavandrel aen Fidhail
-    flavor: 
+    name: "Filavandrel aén Fidháil"
+    flavor: "Though we are now few and scattered, our hearts burn brighter than ever."
     combat:
         strength: 6
         types:
@@ -149,8 +149,8 @@
             coords: []
 -   index: 309
     deck: Scoia'tael
-    name: Yaevinn
-    flavor: 
+    name: "Yaevinn"
+    flavor: "We are the drops of rain that together make a ferocious storm."
     combat:
         strength: 6
         types:
@@ -169,8 +169,8 @@
             coords: []
 -   index: 310
     deck: Scoia'tael
-    name: Toruviel
-    flavor: 
+    name: "Toruviel"
+    flavor: "I'd gladly kill you from up close, stare in your eyes… But you reek, human."
     combat:
         strength: 2
         types:
@@ -185,8 +185,8 @@
             coords: []
 -   index: 311
     deck: Scoia'tael
-    name: Riordain
-    flavor: 
+    name: "Riordain"
+    flavor: "Stare into their eyes, feast on their terror. Then go in for the kill."
     combat:
         strength: 1
         types:
@@ -201,8 +201,8 @@
             coords: []
 -   index: 312
     deck: Scoia'tael
-    name: Ciaran aep Easnillien
-    flavor: 
+    name: "Ciaran aep Easnillien"
+    flavor: "The path to freedom is paved in blood, not ink."
     combat:
         strength: 3
         types:
@@ -220,8 +220,8 @@
             coords: []
 -   index: 313
     deck: Scoia'tael
-    name: Barclay Els
-    flavor: 
+    name: "Barclay Els"
+    flavor: "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!"
     combat:
         strength: 6
         types:
@@ -239,8 +239,8 @@
             coords: []
 -   index: 320
     deck: Scoia'tael
-    name: Havekar Smuggler
-    flavor: 
+    name: "Havekar Smuggler"
+    flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
     combat:
         strength: 5
         types:
@@ -257,8 +257,8 @@
             coords: []
 -   index: 321
     deck: Scoia'tael
-    name: Havekar Smuggler
-    flavor: 
+    name: "Havekar Smuggler"
+    flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
     combat:
         strength: 5
         types:
@@ -275,8 +275,8 @@
             coords: []
 -   index: 322
     deck: Scoia'tael
-    name: Havekar Smuggler
-    flavor: 
+    name: "Havekar Smuggler"
+    flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
     combat:
         strength: 5
         types:
@@ -293,8 +293,8 @@
             coords: []
 -   index: 325
     deck: Scoia'tael
-    name: Vrihedd Brigade Veteran
-    flavor: 
+    name: "Vrihedd Brigade Veteran"
+    flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
     combat:
         strength: 5
         types:
@@ -312,8 +312,8 @@
             coords: []
 -   index: 326
     deck: Scoia'tael
-    name: Vrihedd Brigade Veteran
-    flavor: 
+    name: "Vrihedd Brigade Veteran"
+    flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
     combat:
         strength: 5
         types:
@@ -331,8 +331,8 @@
             coords: []
 -   index: 330
     deck: Scoia'tael
-    name: Dol Blathanna Scout
-    flavor:
+    name: "Dol Blathanna Scout"
+    flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
     combat:
         strength: 6
         types:
@@ -350,8 +350,8 @@
             coords: []
 -   index: 331
     deck: Scoia'tael
-    name: Dol Blathanna Scout
-    flavor: 
+    name: "Dol Blathanna Scout"
+    flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
     combat:
         strength: 6
         types:
@@ -369,8 +369,8 @@
             coords: []
 -   index: 332
     deck: Scoia'tael
-    name: Dol Blathanna Scout
-    flavor: 
+    name: "Dol Blathanna Scout"
+    flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
     combat:
         strength: 6
         types:
@@ -388,8 +388,8 @@
             coords: []
 -   index: 335
     deck: Scoia'tael
-    name: Dwarven Skirmisher
-    flavor: 
+    name: "Dwarven Skirmisher"
+    flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
     combat:
         strength: 3
         types:
@@ -406,8 +406,8 @@
             coords: []
 -   index: 336
     deck: Scoia'tael
-    name: Dwarven Skirmisher
-    flavor:
+    name: "Dwarven Skirmisher"
+    flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
     combat:
         strength: 3
         types:
@@ -424,8 +424,8 @@
             coords: []
 -   index: 337
     deck: Scoia'tael
-    name: Dwarven Skirmisher
-    flavor: 
+    name: "Dwarven Skirmisher"
+    flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
     combat:
         strength: 3
         types:
@@ -442,8 +442,8 @@
             coords: []
 -   index: 340
     deck: Scoia'tael
-    name: Mahakaman Defender
-    flavor: 
+    name: "Mahakaman Defender"
+    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
     combat:
         strength: 5
         types:
@@ -458,8 +458,8 @@
             coords: []
 -   index: 341
     deck: Scoia'tael
-    name: Mahakaman Defender
-    flavor: 
+    name: "Mahakaman Defender"
+    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
     combat:
         strength: 5
         types:
@@ -474,8 +474,8 @@
             coords: []
 -   index: 342
     deck: Scoia'tael
-    name: Mahakaman Defender
-    flavor: 
+    name: "Mahakaman Defender"
+    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
     combat:
         strength: 5
         types:
@@ -490,8 +490,8 @@
             coords: []
 -   index: 343
     deck: Scoia'tael
-    name: Mahakaman Defender
-    flavor: 
+    name: "Mahakaman Defender"
+    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
     combat:
         strength: 5
         types:
@@ -506,8 +506,8 @@
             coords: []
 -   index: 344
     deck: Scoia'tael
-    name: Mahakaman Defender
-    flavor: 
+    name: "Mahakaman Defender"
+    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
     combat:
         strength: 5
         types:
@@ -522,8 +522,8 @@
             coords: []
 -   index: 350
     deck: Scoia'tael
-    name: Elven Skirmisher
-    flavor: 
+    name: "Elven Skirmisher"
+    flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
     combat:
         strength: 2
         types:
@@ -540,8 +540,8 @@
             coords: []
 -   index: 351
     deck: Scoia'tael
-    name: Elven Skirmisher
-    flavor: 
+    name: "Elven Skirmisher"
+    flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
     combat:
         strength: 2
         types:
@@ -558,8 +558,8 @@
             coords: []
 -   index: 352
     deck: Scoia'tael
-    name: Elven Skirmisher
-    flavor: 
+    name: "Elven Skirmisher"
+    flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
     combat:
         strength: 2
         types:
@@ -576,8 +576,8 @@
             coords: []
 -   index: 355
     deck: Scoia'tael
-    name: Vrihedd Brigade Recruit
-    flavor: 
+    name: "Vrihedd Brigade Recruit"
+    flavor: "Hatred burns brighter than any fire, and cuts deeper than any blade."
     combat:
         strength: 4
         types:
@@ -592,8 +592,8 @@
             coords: []
 -   index: 360
     deck: Scoia'tael
-    name: Dol Blathanna Archer
-    flavor: 
+    name: "Dol Blathanna Archer"
+    flavor: "Take another step, dh'oine. You'd look better with an arrow between your eyes."
     combat:
         strength: 4
         types:
@@ -608,8 +608,8 @@
             coords: []
 -   index: 365
     deck: Scoia'tael
-    name: Havekar Healer
-    flavor: 
+    name: "Havekar Healer"
+    flavor: "Sure, I'll patch you up. Gonna cost you, though."
     combat:
         strength: 0
         types:
@@ -626,8 +626,8 @@
             coords: []
 -   index: 366
     deck: Scoia'tael
-    name: Havekar Healer
-    flavor: 
+    name: "Havekar Healer"
+    flavor: "Sure, I'll patch you up. Gonna cost you, though."
     combat:
         strength: 0
         types:
@@ -644,8 +644,8 @@
             coords: []
 -   index: 367
     deck: Scoia'tael
-    name: Havekar Healer
-    flavor: 
+    name: "Havekar Healer"
+    flavor: "Sure, I'll patch you up. Gonna cost you, though."
     combat:
         strength: 0
         types:
@@ -662,8 +662,8 @@
             coords: []
 -   index: 3001
     deck: Scoia'tael
-    name: Francesca Findabair Pureblood Elf
-    flavor: 
+    name: "Francesca Findabair Pureblood Elf"
+    flavor: "Ash shall fertilize the soil. By spring, the valley shall bloom once more."
     combat:
         strength: 0
         types:
@@ -675,8 +675,8 @@
         -   type: Base Deck
 -   index: 3002
     deck: Scoia'tael
-    name: Francesca Findabair Daisy of The Valley
-    flavor: 
+    name: "Francesca Findabair Daisy of the Valley"
+    flavor: "The Elder Races have forgotten more than humans can ever hope to know."
     combat:
         strength: 0
         types:
@@ -693,8 +693,8 @@
             coords: []
 -   index: 3003
     deck: Scoia'tael
-    name: Francesca Findabair the Beautiful
-    flavor: 
+    name: "Francesca Findabair the Beautiful"
+    flavor: "Do not let my beauty distract your aim."
     combat:
         strength: 0
         types:
@@ -712,8 +712,8 @@
             coords: []
 -   index: 3004
     deck: Scoia'tael
-    name: Francesca Findabair Queen of Dol Blathanna
-    flavor: 
+    name: "Francesca Findabair Queen of Dol Blathanna"
+    flavor: "To live in peace, we first must kill. This is human oppression's cruel finale."
     combat:
         strength: 0
         types:

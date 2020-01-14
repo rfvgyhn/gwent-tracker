@@ -1,7 +1,7 @@
 ﻿-   index: 0
     deck: Neutral
-    name: Decoy
-    flavor: 
+    name: "Decoy"
+    flavor: "When you run out of peasants, decoys also make decent arrow fodder."
     combat:
         strength: 0
         types:
@@ -30,8 +30,8 @@
             coords: []
 -   index: 1
     deck: Neutral
-    name: Command's Horn
-    flavor: 
+    name: "Commander's Horn"
+    flavor: "Plus one to morale, minus three to hearing."
     combat:
         strength: 0
         types:
@@ -60,8 +60,8 @@
             coords: []
 -   index: 2
     deck: Neutral
-    name: Scorch
-    flavor: 
+    name: "Scorch"
+    flavor: "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe."
     combat:
         strength: 0
         types:
@@ -90,8 +90,8 @@
             coords: []
 -   index: 3
     deck: Neutral
-    name: Biting Frost
-    flavor: 
+    name: "Biting Frost"
+    flavor: "Best part about frost - bodies of the fallen don't rot so quickly."
     combat:
         strength: 0
         types:
@@ -110,8 +110,8 @@
             coords: []
 -   index: 4
     deck: Neutral
-    name: Impenetrable Fog
-    flavor: 
+    name: "Impenetrable Fog"
+    flavor: "A good commander's dream... a bad one's horror."
     combat:
         strength: 0
         types:
@@ -130,8 +130,8 @@
             coords: []
 -   index: 5
     deck: Neutral
-    name: Torrential Rain
-    flavor: 
+    name: "Torrential Rain"
+    flavor: "Even the rain in this land smells like piss."
     combat:
         strength: 0
         types:
@@ -149,8 +149,8 @@
             coords: []
 -   index: 6
     deck: Neutral
-    name: Clear Weather
-    flavor: 
+    name: "Clear Weather"
+    flavor: "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…"
     combat:
         strength: 0
         types:
@@ -168,8 +168,8 @@
             coords: []
 -   index: 7
     deck: Neutral
-    name: Geralt of Rivia
-    flavor: 
+    name: "Geralt of Rivia"
+    flavor: "If that's what it takes to save the world, it's better to let that world die."
     combat:
         strength: 15
         types:
@@ -187,8 +187,8 @@
             coords: []
 -   index: 8
     deck: Neutral
-    name: Vesemir
-    flavor: 
+    name: "Vesemir"
+    flavor: "If you're to be hanged, ask for water. Anything can happen before they fetch it."
     combat:
         strength: 6
         types:
@@ -204,8 +204,8 @@
             coords: []
 -   index: 9
     deck: Neutral
-    name: Yennefer of Vengerberg
-    flavor: 
+    name: "Yennefer of Vengerberg"
+    flavor: "Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression."
     combat:
         strength: 7
         types:
@@ -224,8 +224,8 @@
             coords: []
 -   index: 10
     deck: Neutral
-    name: Cirilla Fiona Elen Rianno
-    flavor: 
+    name: "Cirilla Fiona Elen Riannon"
+    flavor: "Know when fairy tales cease to be tales? When people start believing in them."
     combat:
         strength: 15
         types:
@@ -243,8 +243,8 @@
             coords: []
 -   index: 11
     deck: Neutral
-    name: Triss Merigold
-    flavor: 
+    name: "Triss Merigold"
+    flavor: "I can take care of myself. Trust me."
     combat:
         strength: 7
         types:
@@ -271,8 +271,8 @@
             coords: []
 -   index: 12
     deck: Neutral
-    name: Dandelion
-    flavor: 
+    name: "Dandelion"
+    flavor: "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend."
     combat:
         strength: 2
         types:
@@ -291,8 +291,8 @@
             coords: []
 -   index: 13
     deck: Neutral
-    name: Zoltan Chivay
-    flavor: 
+    name: "Zoltan Chivay"
+    flavor: "Life without old mates and booze is like a woman without a rump."
     combat:
         strength: 5
         types:
@@ -307,8 +307,8 @@
             coords: []
 -   index: 14
     deck: Neutral
-    name: Emiel Regis Rohellec Terzieff
-    flavor: 
+    name: "Emiel Regis Rohellec Terzieff"
+    flavor: "Men, the polite ones, at least, would call me a monster. A blood-drinking freak."
     combat:
         strength: 5
         types:
@@ -323,8 +323,8 @@
             coords: []
 -   index: 15
     deck: Neutral
-    name: Villentretenmerth
-    flavor: 
+    name: "Villentretenmerth"
+    flavor: "Also calls himself Borkh Three Jackdaws… he's not the best at names."
     combat:
         strength: 7
         types:
@@ -341,8 +341,8 @@
             coords: []
 -   index: 16
     deck: Neutral
-    name: Avallac'h (a.k.a Mysterious Elf)
-    flavor: 
+    name: "Avallac'h"
+    flavor: "You humans have… unusual tastes."
     combat:
         strength: 0
         types:
