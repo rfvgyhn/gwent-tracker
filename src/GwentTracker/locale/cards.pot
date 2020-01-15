@@ -25,12 +25,12 @@ msgstr ""
 msgid "self"
 msgstr ""
     
-#: src/GwentTracker/data/missable.yml:18 -> Card.Gwent
+#: src/GwentTracker/data/missable.yml:18 -> Card.questName
 msgid "High Stakes"
 msgstr ""
     
-#: src/GwentTracker/data/missable.yml:29 -> Card.Gwent
-msgid "Playing Thaler"
+#: src/GwentTracker/data/missable.yml:29 -> Card.questName
+msgid "Gwent: Playing Thaler"
 msgstr ""
     
 #: src/GwentTracker/data/missable.yml:30 -> Card.cutoff
@@ -281,28 +281,28 @@ msgstr ""
 msgid "Trottheim"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:353 -> Card.Vampire
-msgid "Ekimmara"
+#: src/GwentTracker/data/monsters.yml:353 -> Card.name
+msgid "Vampire: Ekimmara"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:365 -> Card.Vampire
-msgid "Fleder"
+#: src/GwentTracker/data/monsters.yml:365 -> Card.name
+msgid "Vampire: Fleder"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:377 -> Card.Vampire
-msgid "Garkain"
+#: src/GwentTracker/data/monsters.yml:377 -> Card.name
+msgid "Vampire: Garkain"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:389 -> Card.Vampire
-msgid "Bruxa"
+#: src/GwentTracker/data/monsters.yml:389 -> Card.name
+msgid "Vampire: Bruxa"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:399 -> Card.notes
 msgid "Win a match at the masquerade ball at Vegelbud Estate"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:403 -> Card.Vampire
-msgid "Katakan"
+#: src/GwentTracker/data/monsters.yml:403 -> Card.name
+msgid "Vampire: Katakan"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:408 -> Card.npc
@@ -317,20 +317,20 @@ msgstr ""
 msgid "Ghoul"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:451 -> Card.Crone
-msgid "Brewess"
+#: src/GwentTracker/data/monsters.yml:451 -> Card.name
+msgid "Crone: Brewess"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:463 -> Card.Crone
-msgid "Weavess"
+#: src/GwentTracker/data/monsters.yml:463 -> Card.name
+msgid "Crone: Weavess"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:470 -> Card.area
 msgid "Benek"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:476 -> Card.Crone
-msgid "Whispess"
+#: src/GwentTracker/data/monsters.yml:476 -> Card.name
+msgid "Crone: Whispess"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
