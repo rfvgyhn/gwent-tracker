@@ -1,7 +1,5 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-13 23:11-0700\n"
-"PO-Revision-Date: 2020-01-13 23:11-0700\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
     
@@ -93,18 +91,6 @@ msgstr ""
 msgid "Random"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:22 -> Card.area
-msgid "Random"
-msgstr ""
-    
-#: src/GwentTracker/data/monsters.yml:23 -> Card.territory
-msgid "Random"
-msgstr ""
-    
-#: src/GwentTracker/data/monsters.yml:24 -> Card.region
-msgid "Random"
-msgstr ""
-    
 #: src/GwentTracker/data/monsters.yml:28 -> Card.name
 msgid "Imlerith"
 msgstr ""
@@ -129,10 +115,6 @@ msgstr ""
 msgid "Unit"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:56 -> Card.type
-msgid "Win form NPC"
-msgstr ""
-    
 #: src/GwentTracker/data/monsters.yml:64 -> Card.name
 msgid "Earth Elemental"
 msgstr ""
@@ -142,7 +124,7 @@ msgid "Buy from Trader"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
-msgid "Inkeeper"
+msgid "Innkeeper"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:76 -> Card.name
@@ -153,36 +135,20 @@ msgstr ""
 msgid "Arinbjorn"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:84 -> Card.region
-msgid "Skellige"
-msgstr ""
-    
 #: src/GwentTracker/data/monsters.yml:88 -> Card.name
 msgid "Plague Maiden"
-msgstr ""
-    
-#: src/GwentTracker/data/monsters.yml:94 -> Card.area
-msgid "Random"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:100 -> Card.name
 msgid "Griffin"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:104 -> Card.type
-msgid "Random"
-msgstr ""
-    
 #: src/GwentTracker/data/monsters.yml:112 -> Card.name
 msgid "Werewolf"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:117 -> Card.npc
-msgid "Innkeeper"
-msgstr ""
-    
 #: src/GwentTracker/data/monsters.yml:118 -> Card.area
-msgid "Urialla Village"
+msgid "Urialla Harbor"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:119 -> Card.territory
@@ -206,7 +172,7 @@ msgid "Ice Giant"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:154 -> Card.area
-msgid "Sborlag"
+msgid "Svorlag"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:155 -> Card.territory
@@ -222,7 +188,7 @@ msgid "Harpy"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:178 -> Card.area
-msgid "Harviken Tavern"
+msgid "Harviken"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:179 -> Card.territory
@@ -251,10 +217,6 @@ msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:244 -> Card.name
 msgid "Foglet"
-msgstr ""
-    
-#: src/GwentTracker/data/monsters.yml:250 -> Card.area
-msgid "Svorlag"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:256 -> Card.name
@@ -306,7 +268,7 @@ msgid "Vampire: Katakan"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:408 -> Card.npc
-msgid "Jarl Madman Lugos"
+msgid "Madman Lugos"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:409 -> Card.area
@@ -350,7 +312,7 @@ msgid "Eredin Commander of the Red Riders"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:501 -> Card.area
-msgid "New Port Inn"
+msgid "The New Port"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:502 -> Card.territory
@@ -382,7 +344,7 @@ msgid "Special"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:9 -> Card.area
-msgid "White Orchard Tavern"
+msgid "Tavern"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:11 -> Card.region
@@ -398,7 +360,7 @@ msgid "Gustfields"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:33 -> Card.area
-msgid "Crossroads Inn"
+msgid "Inn at the Crossroads"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:38 -> Card.npc
@@ -406,7 +368,7 @@ msgid "Marquise Serenity"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:45 -> Card.area
-msgid "The Alchemy Inn"
+msgid "The Alchemy"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:46 -> Card.territory
@@ -425,6 +387,10 @@ msgstr ""
 msgid "Grassy Knoll"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:63 -> Card.area
+msgid "New Port Inn"
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:75 -> Card.name
 msgid "Biting Frost"
 msgstr ""
@@ -435,10 +401,6 @@ msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:103 -> Card.name
 msgid "Torrential Rain"
-msgstr ""
-    
-#: src/GwentTracker/data/neutral.yml:108 -> Card.type
-msgid "Win from NPC"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:116 -> Card.name
@@ -462,7 +424,7 @@ msgid "Vivaldi"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:149 -> Card.area
-msgid "Bank of Vivaldi"
+msgid "Vivaldi Bank"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:150 -> Card.territory
@@ -494,11 +456,11 @@ msgid "Lambert"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:188 -> Card.area
-msgid "The Nowhere Inn"
+msgid "The Nowhere"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:191 -> Card.notes
-msgid "Before the Following the Thead auest"
+msgid "Before the Following the Thead quest"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:198 -> Card.region
@@ -506,7 +468,7 @@ msgid "Kaer Morhen"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:199 -> Card.notes
-msgid "After the Following the Thead auest"
+msgid "After the Following the Thead quest"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:203 -> Card.name
@@ -514,7 +476,7 @@ msgid "Dandelion"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:210 -> Card.area
-msgid "Vegelbud Estate"
+msgid "Vegelbud Residence"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:213 -> Card.notes
@@ -538,7 +500,7 @@ msgid "Villentretenmerth"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:259 -> Card.npc
-msgid "Gremita"
+msgid "Gremist"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:2 -> Card.deck
@@ -550,7 +512,7 @@ msgid "Letho of Gulet"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:9 -> Card.npc
-msgid "The Boatbuilder"
+msgid "Boatwright"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:10 -> Card.area
@@ -574,7 +536,7 @@ msgid "Olivier"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:49 -> Card.area
-msgid "Kingfisher Inn"
+msgid "Kingfisher"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:55 -> Card.name
@@ -646,7 +608,7 @@ msgid "Sweers"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:182 -> Card.area
-msgid "Claywich Village"
+msgid "Claywich"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:185 -> Card.notes
@@ -746,7 +708,7 @@ msgid "Vernon Roche"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:9 -> Card.npc
-msgid "Hadko the Card Prodigy"
+msgid "Haddy"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:16 -> Card.name
@@ -755,10 +717,6 @@ msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:22 -> Card.npc
 msgid "Ravvy"
-msgstr ""
-    
-#: src/GwentTracker/data/northernrealms.yml:23 -> Card.area
-msgid "Golden Sturgeon Tavern"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:29 -> Card.name
@@ -775,10 +733,6 @@ msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:42 -> Card.name
 msgid "Philippa Eilhart"
-msgstr ""
-    
-#: src/GwentTracker/data/northernrealms.yml:54 -> Card.name
-msgid "Thaler"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:66 -> Card.name
@@ -877,20 +831,12 @@ msgstr ""
 msgid "Nilfgaardian Nobleman"
 msgstr ""
     
-#: src/GwentTracker/data/northernrealms.yml:304 -> Card.area
-msgid "Vizima Palace Courtyard"
-msgstr ""
-    
 #: src/GwentTracker/data/northernrealms.yml:306 -> Card.region
-msgid "Palace of Vizima"
+msgid "Royal Palace in Vizima"
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:3 -> Card.name
 msgid "Eithné"
-msgstr ""
-    
-#: src/GwentTracker/data/scoiatael.yml:9 -> Card.npc
-msgid "Zoltan"
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:10 -> Card.area
@@ -901,12 +847,8 @@ msgstr ""
 msgid "Saesenthessis"
 msgstr ""
     
-#: src/GwentTracker/data/scoiatael.yml:22 -> Card.npc
-msgid "Vernon Roche"
-msgstr ""
-    
 #: src/GwentTracker/data/scoiatael.yml:23 -> Card.area
-msgid "Temerian Resistance Camp"
+msgid "Temerian Partisan Hideout"
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:29 -> Card.name
@@ -942,11 +884,7 @@ msgid "Yaevinn"
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:111 -> Card.npc
-msgid "Sjusta the Tailor"
-msgstr ""
-    
-#: src/GwentTracker/data/scoiatael.yml:112 -> Card.area
-msgid "Kaer Trolde Harbor"
+msgid "Sjusta"
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:118 -> Card.name

@@ -6,7 +6,7 @@
     locations:
         -   type: Gwent Quest
             quest: id# (Velen Players)
-            npc: The Boatbuilder
+            npc: Boatwright
             area: Oreton
             territory: 
             region: Velen
@@ -20,7 +20,7 @@
         -   type: Gwent Quest
             quest: id# (Playing Innkeeps)
             npc: Innkeeper
-            area: Crossroads Inn
+            area: Inn at the Crossroads
             territory: 
             region: Velen
             coords: []
@@ -46,7 +46,7 @@
         -   type: Gwent Quest
             quest: id# (Playing Innkeeps)
             npc: Olivier
-            area: Kingfisher Inn
+            area: Kingfisher
             territory: 
             region: Novigrad
             coords: []
@@ -179,7 +179,7 @@
     locations:
         -   type: Buy from Trader
             npc: Trader
-            area: Claywich Village
+            area: Claywich
             territory: 
             region: Velen
             notes: Must first be rescued
@@ -240,7 +240,7 @@
     locations:
         -   type: Buy from Trader
             npc: Trader
-            area: Claywich Village
+            area: Claywich
             territory: 
             region: Velen
             notes: Must first rescue trader
@@ -265,7 +265,7 @@
     locations:
         -   type: Buy from Trader
             npc: Trader
-            area: Claywich Village
+            area: Claywich
             territory: 
             region: Velen
             notes: Must first rescue trader
@@ -278,7 +278,7 @@
     locations:
         -   type: Buy from Trader
             npc: Trader
-            area: Claywich Village
+            area: Claywich
             territory: 
             region: Velen
             notes: Must first rescue trader
@@ -333,7 +333,7 @@
             coords: []
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Crossroads Inn
+            area: Inn at the Crossroads
             territory:
             region: Velen
             coords: []
@@ -363,7 +363,7 @@
             coords: []
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Crossroads Inn
+            area: Inn at the Crossroads
             territory:
             region: Velen
             coords: []
@@ -381,7 +381,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Crossroads Inn
+            area: Inn at the Crossroads
             territory: 
             region: Velen
             coords: []
@@ -436,7 +436,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Crossroads Inn
+            area: Inn at the Crossroads
             territory: 
             region: Velen
             coords: []

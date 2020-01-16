@@ -6,7 +6,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: White Orchard Tavern
+            area: Tavern
             territory: 
             region: White Orchard
             coords: []
@@ -30,7 +30,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Crossroads Inn
+            area: Inn at the Crossroads
             territory: 
             region: Velen
             coords: []
@@ -42,7 +42,7 @@
             coords: []
         -   type: Buy from Trader
             npc: Innkeeper
-            area: The Alchemy Inn
+            area: The Alchemy
             territory: Oxenfurt
             region: Novigrad
             coords: []
@@ -66,7 +66,7 @@
             coords: []
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Urialla Village
+            area: Urialla Harbor
             territory: An Skellig
             region: Skellige
             coords: []
@@ -146,7 +146,7 @@
         -   type: Gwent Quest
             quest: id# (Gwent- Big City Players)
             npc: Vivaldi
-            area: Bank of Vivaldi
+            area: Vivaldi Bank
             territory: Hierarch Square
             region: Novigrad
             coords: []
@@ -159,7 +159,7 @@
         -   type: Gwent Quest
             quest: id# (Gwent- Playing Innkeeps)
             npc: Stjepan
-            area: The Alchemy Inn
+            area: The Alchemy
             territory: Oxenfurt
             region: Novigrad
             coords: []
@@ -185,10 +185,10 @@
         -   type: Gwent Quest
             quest: id# (Gwent- Old Friends)
             npc: Lambert
-            area: The Nowhere Inn
+            area: The Nowhere
             territory: 
             region: Novigrad
-            notes: Before the Following the Thead auest
+            notes: Before the Following the Thead quest
             coords: []
         -   type: Gwent Quest
             quest: id# (Gwent- Old Friends)
@@ -196,7 +196,7 @@
             area: 
             territory: 
             region: Kaer Morhen
-            notes: After the Following the Thead auest
+            notes: After the Following the Thead quest
             coords: []
 -   index: 12
     deck: Neutral
@@ -207,7 +207,7 @@
         -   type: Secondary Quest
             quest: id# (A Matter of Life and Death)
             npc: 
-            area: Vegelbud Estate
+            area: Vegelbud Residence
             territory: Gustfields
             region: Novigrad
             notes: Win a match at the masquerade ball
@@ -256,7 +256,7 @@
     locations:
         -   type: Gwent Quest
             quest: id# (Skellige Style)
-            npc: Gremita
+            npc: Gremist
             area: Gedyneith
             territory: Ard Skellig
             region: Skellige

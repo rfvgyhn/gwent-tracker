@@ -6,7 +6,7 @@
     locations:
         -   type: Gwent Quest
             quest: id# (Old Friends)
-            npc: Zoltan
+            npc: Zoltan Chivay
             area: Rosemary and Thyme
             territory: 
             region: Novigrad
@@ -20,7 +20,7 @@
         -   type: Gwent Quest
             quest: id# (Old Friends)
             npc: Vernon Roche
-            area: Temerian Resistance Camp
+            area: Temerian Partisan Hideout
             territory: Gustfields
             region: Novigrad
             coords: []
@@ -71,7 +71,7 @@
         -   type: Secondary Quest
             quest: id# (A Matter of Life and Death)
             npc: 
-            area: Vegelbud Estate
+            area: Vegelbud Residence
             territory: Gustfields
             region: Novigrad
             notes: Win a match at the masquerade ball
@@ -108,7 +108,7 @@
     locations:
         -   type: Gwent Quest
             quest: id# (Skellige Style)
-            npc: Sjusta the Tailor
+            npc: Sjusta
             area: Kaer Trolde Harbor
             territory: Ard Skellig
             region: Skellige
@@ -193,7 +193,7 @@
     locations:
         -   type: Buy from Trader
             npc: Olivier
-            area: Kingfisher Inn
+            area: Kingfisher
             territory: 
             region: Novigrad
             coords: []
@@ -205,7 +205,7 @@
     locations:
         -   type: Buy from Trader
             npc: Stjepan
-            area: The Alchemy Inn
+            area: The Alchemy
             territory: Oxenfurt
             region: Novigrad
             coords: []
@@ -217,7 +217,7 @@
     locations:
         -   type: Buy from Trader
             npc: Olivier
-            area: Kingfisher Inn
+            area: Kingfisher
             territory: 
             region: Novigrad
             coords: []
@@ -277,7 +277,7 @@
     locations:
         -   type: Buy from Trader
             npc: Stjepan
-            area: The Alchemy Inn
+            area: The Alchemy
             territory: Oxenfurt
             region: Novigrad
             coords: []
@@ -301,7 +301,7 @@
     locations:
         -   type: Buy from Trader
             npc: Olivier
-            area: Kingfisher Inn
+            area: Kingfisher
             territory: 
             region: Novigrad
             coords: []
@@ -337,7 +337,7 @@
     locations:
         -   type: Buy from Trader
             npc: Stjepan
-            area: The Alchemy Inn
+            area: The Alchemy
             territory: Oxenfurt
             region: Novigrad
             coords: []
@@ -385,7 +385,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Urialla Village
+            area: Urialla Harbor
             territory: An Skellig
             region: Skellige
             coords: []
@@ -445,7 +445,7 @@
     locations:
         -   type: Buy from Trader
             npc: Olivier
-            area: Kingfisher Inn
+            area: Kingfisher
             territory: 
             region: Novigrad
             coords: []

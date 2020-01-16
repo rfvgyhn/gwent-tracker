@@ -6,7 +6,7 @@
     locations:
         -   type: Gwent Quest
             quest: id# (Velen Players)
-            npc: Hadko the Card Prodigy
+            npc: Haddy
             area: Midcopse
             territory: 
             region: Velen
@@ -20,7 +20,7 @@
         -   type: Secondary Quest
             quest: id# (A Dangerous Game)
             npc: Ravvy
-            area: Golden Sturgeon Tavern
+            area: Golden Sturgeon
             territory: 
             region: Novigrad
             coords: []
@@ -185,13 +185,13 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: White Orchard Tavern
+            area: White Orchard
             territory: 
             region: White Orchard
             coords: []
         -   type: Buy from Trader
             npc: Trader
-            area: Claywich Village
+            area: Claywich
             territory:
             region: Velen
             notes: Must first rescue trader
@@ -224,7 +224,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: White Orchard Tavern
+            area: White Orchard
             territory: 
             region: White Orchard
             coords: []
@@ -251,7 +251,7 @@
         -   type: Base Deck
         -   type: Buy from Trader
             npc: Innkeeper
-            area: White Orchard Tavern
+            area: White Orchard
             territory: 
             region: White Orchard
             coords: []
@@ -289,7 +289,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: White Orchard Tavern
+            area: White Orchard
             territory: 
             region: White Orchard
             coords: []
@@ -301,9 +301,9 @@
     locations:
         -   type: Win from NPC
             npc: Nilfgaardian Nobleman
-            area: Vizima Palace Courtyard
+            area:
             territory: 
-            region: Palace of Vizima
+            region: Royal Palace in Vizima
             coords: []
 -   index: 1004
     deck: Northern Realms

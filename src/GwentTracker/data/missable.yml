@@ -15,7 +15,7 @@
         - There'll be a small gwent tournament going on in the main courtyard where you'll need to win all the rounds to get all the cards.
 -   cardIds: [1004, 2004, 3004, 4003]
     region: Novigrad
-    questName: "Gwent: High Stakes"
+    questName: "High Stakes"
     cutoff: self
     details: 
     notes:

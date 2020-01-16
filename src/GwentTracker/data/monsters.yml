@@ -53,7 +53,7 @@
     flavor: "Fork tails… Bah! Fuckers' tails're more like cleavers."
     type: Unit
     locations:
-        -   type: Win form NPC
+        -   type: Win from NPC
             npc: Random
             area: Random
             territory: Random
@@ -66,7 +66,7 @@
     type: Unit
     locations:
         -   type: Buy from Trader
-            npc: Inkeeper
+            npc: Innkeeper
             area: New Port Inn, Kaer Trolde Harbor
             territory: Ard Skellig
             region: Skellige
@@ -78,7 +78,7 @@
     type: Unit
     locations:
         -   type: Buy from Trader
-            npc: Inkeeper
+            npc: Innkeeper
             area: Arinbjorn
             territory: 
             region: Skellige 
@@ -115,7 +115,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Urialla Village
+            area: Urialla Harbor
             territory: An Skellig
             region: Skellige
             coords: []
@@ -151,7 +151,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Sborlag
+            area: Svorlag
             territory: Spikeroog
             region: Skellige
             coords: []
@@ -175,7 +175,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Harviken Tavern
+            area: Harviken
             territory: Faroe
             region: Skellige
             coords: []
@@ -295,7 +295,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Urialla Village
+            area: Urialla Harbor
             territory: An Skellig
             region: Skellige
             coords: []
@@ -332,7 +332,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Harviken Tavern
+            area: Harviken
             territory: Faroe
             region: Skellige
             coords: []
@@ -368,7 +368,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Harviken Tavern
+            area: Harviken
             territory: Faroe
             region: Skellige
             coords: []
@@ -405,7 +405,7 @@
     type: Unit
     locations:
         -   type: Gwent Quest
-            npc: Jarl Madman Lugos
+            npc: Madman Lugos
             area: Kaer Muire
             territory: Ard Skellig
             region: Skellige
@@ -442,7 +442,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: Harviken Tavern
+            area: Harviken
             territory: Faroe
             region: Skellige
             coords: []
@@ -498,7 +498,7 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: New Port Inn
+            area: The New Port
             territory: Kaer Trolde Harbor
             region: Skellige
             coords: []
