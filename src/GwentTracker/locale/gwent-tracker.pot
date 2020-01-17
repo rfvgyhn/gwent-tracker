@@ -1,8 +1,7 @@
 
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-01-10 13:33--0700\n"
-"PO-Revision-Date: 2020-01-10 13:33--0700\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
 
@@ -11,79 +10,55 @@ msgstr ""
 msgid "GwentTracker"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:67 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:50 -> TextBlock.Text
 msgid "Missable Cards by Quest"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:77 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:60 -> TextBlock.Text
 msgid "* {0}"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:88 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:71 -> TextBlock.Text
 msgid "Region: {0}"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:89 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:72 -> TextBlock.Text
 msgid "Cutoff: {0}"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:99 -> FilterString.Watermark
+#: src/GwentTracker/Views/MainWindow.xaml:81 -> FilterString.Watermark
 msgid "Filter"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:100 -> AddFilter.Content
+#: src/GwentTracker/Views/MainWindow.xaml:82 -> AddFilter.Content
 msgid "Add"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:112 -> Button.Content
+#: src/GwentTracker/Views/MainWindow.xaml:94 -> Button.Content
 msgid "X"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:144 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:110 -> DataGridTextColumn.Header
 msgid "Name"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:145 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:111 -> DataGridTextColumn.Header
 msgid "Copies"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:146 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:112 -> DataGridTextColumn.Header
 msgid "Deck"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:147 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:113 -> DataGridTextColumn.Header
 msgid "Type"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:148 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:114 -> DataGridTextColumn.Header
 msgid "Location"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:149 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:115 -> DataGridTextColumn.Header
 msgid "Region"
-msgstr ""
-
-#: src/GwentTracker/data/*.yml -> Cards belonging to starting deck
-msgid "Base Deck"
-msgstr ""
-
-#: src/GwentTracker/data/*.yml
-msgid "Win from NPC"
-msgstr ""
-
-#: src/GwentTracker/data/*.yml
-msgid "Buy from Trader"
-msgstr ""
-
-#: src/GwentTracker/data/*.yml -> Location of cards randomly won from NPCs
-msgid "Random"
-msgstr ""
-
-#: src/GwentTracker/data/*.yml -> Location of cards won from a gwent specific quest
-msgid "Gwent Quest"
-msgstr ""
-
-#: src/GwentTracker/data/*.yml -> Location of cards won from a side quest
-msgid "Secondary Quest"
 msgstr ""
 
