@@ -39,6 +39,7 @@ namespace GwentTracker.ViewModels
         public ReactiveCommand<Unit, Unit> AddFilter { get; set; }
         public ReactiveCommand<string, Unit> RemoveFilter { get; set; }
         public ObservableCollection<string> Filters { get; set; }
+        public string FontFamily { get; }
 
         private ObservableAsPropertyHelper<bool> _loaderVisibility;
         public bool LoaderVisibility => _loaderVisibility.Value;
@@ -75,9 +76,10 @@ namespace GwentTracker.ViewModels
             set => this.RaiseAndSetIfChanged(ref _saveGamePath, value);
         }
 
-        public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges, CultureInfo cultureInfo)
+        public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges, CultureInfo cultureInfo, string fontFamily)
         {
             _cultureInfo = cultureInfo;
+            FontFamily = fontFamily;
             Activator = new ViewModelActivator();
             Filters = new ObservableCollection<string>();
             _cards = new SourceList<CardViewModel>();

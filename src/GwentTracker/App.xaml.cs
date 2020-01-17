@@ -53,6 +53,7 @@ namespace GwentTracker
             if (latestSave == null)
                 Log.Warning("No save files (*.sav) found in default save path {path}", savePath);
 
+            var fontFamily = config["fontFamily"] ?? "";
             var texturePath = config["texturePath"];
             var saveDirChanges = ObserveSaveDirChanges(savePath, config.GetValue("autoload", true));
             
@@ -60,7 +61,7 @@ namespace GwentTracker
             {
                 desktopLifetime.MainWindow = new MainWindow()
                 {
-                    DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges, culture)
+                    DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges, culture, fontFamily)
                 };
             }
 
