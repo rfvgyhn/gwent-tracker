@@ -137,13 +137,14 @@ namespace GwentTracker
 
         private static CultureInfo ConfigureLocalization(string cultureName)
         {
-            var culture = CultureInfo.CurrentCulture;
+            var culture = CultureInfo.CurrentUICulture;
 
             if (!string.IsNullOrEmpty(cultureName))
             {
                 try
                 {
                     culture = CultureInfo.GetCultureInfo(cultureName);
+                    CultureInfo.CurrentUICulture = culture;
                 }
                 catch (CultureNotFoundException e)
                 {
