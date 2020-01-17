@@ -60,7 +60,7 @@ private static void AddMessage(string messageId, Dictionary<string, List<string>
     var match = Regex.Match(messageId, pattern);
     if (match.Success)
         messageId = match.Groups[1].Value;
-    var comment = $"#: {fileName}:{lineNumber} -> {nodeName}{suffix}";
+    var comment = $"#: {fileName.TrimStart(new[] { '.', '/' })}:{lineNumber} -> {nodeName}{suffix}";
     
     if (msgIds.ContainsKey(messageId))
     {
@@ -80,15 +80,10 @@ private static void AddMessage(string messageId, Dictionary<string, List<string>
 
 private static string WritePot(Dictionary<string, List<string>> messages)
 {
-    var now = DateTime.Now;
-    var utcOffset = TimeZoneInfo.Local.GetUtcOffset(now);
-    var symbol = utcOffset.ToString().StartsWith("-") ? "-" : "+";
-    var date = $"{now:yyyy-MM-dd HH:mm}{symbol}{utcOffset.Hours:00}{utcOffset.Minutes:00}";
     var header = @$"
 msgid """"
 msgstr """"
-""POT-Creation-Date: {date}\n""
-""PO-Revision-Date: {date}\n""
+""Content-Type: text/plain; charset=UTF-8\n""
 ""Plural-Forms: nplurals=2; plural=n != 1;\n""
 ""X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n""
 ";
