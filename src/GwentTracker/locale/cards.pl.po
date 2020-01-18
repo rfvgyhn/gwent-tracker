@@ -35,10 +35,6 @@ msgstr "Novigrad"
 msgid "A Matter of Life and Death"
 msgstr "Kwestia życia i śmierci"
 
-#: src/GwentTracker/data/missable.yml:12 -> Card.cutoff
-msgid "self"
-msgstr ""
-
 #: src/GwentTracker/data/missable.yml:15 -> Card.notes
 msgid "There'll be a small gwent tournament going on in the main courtyard where you'll need to win all the rounds to get all the cards."
 msgstr ""

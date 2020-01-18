@@ -12,6 +12,7 @@ msgstr ""
 EOF
 
 egrep -no '\s+\w+:\ [^0-9\[#/]+$|\s+-\s.+$' ${source}/*.yml | \
+ grep -v "self$" |\
  sed -r 's/:\s+-\s/|notes|/' | \
  sed 's/:/|/1;s//|/1;s//|/1' | \
  sed -r 's/"|(\|)\s+|\s+$/\1/g' | \
