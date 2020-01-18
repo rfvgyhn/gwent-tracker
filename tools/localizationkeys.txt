@@ -1,0 +1,84 @@
+# Quests
+
+1076788|Gwent: Playing Thaler
+1028939|Shock Therapy
+503027|A Dangerous Game
+573611|High Stakes
+433339|A Matter of Life and Death
+1084414|Boatmakers' Hut
+1087893|Person(s) in Distress
+
+# Other
+
+1090467|Unit
+1085124|Hero
+1048308|Velen
+1048311|Novigrad
+1071758|Reason of State
+439463|The Isle of Mists
+397238|Skellige
+1086196|Monsters
+317985|Kaer Trolde
+1055924|Ard Skellig
+1082900|Gedyneith
+1056645|Arinbjorn
+1083005|Urialla Harbor
+1055982|An Skellig
+1055924|Ard Skellige
+1083090|Svorlag
+1055984|Spikeroog
+1056000|Harviken
+1055998|Faroe
+1083114|Trottheim
+166474|Madman Lugos
+1082845|Kaer Muire
+1080245|Benek
+1090466|Leader
+1055925|Kaer Trolde Harbor
+1076354|Passiflora
+1053373|White Orchard
+1056055|Seven Cats Inn
+1082588|Inn at the Crossroads
+175243|Marquise Serenity
+1079409|The Alchemy
+1053453|Oxenfurt
+1056056|Cunny of the Goose
+1076358|Vivaldi Bank
+1053313|Hierarch Square
+351325|Stjepan
+166557|Lambert
+1078464|The Nowhere
+343480|Kaer Morhen
+1053452|Vegelbud Residence
+1085020|Scholar
+472735|Gremist
+545346|Boatwright
+1082481|Oreton
+175253|Olivier
+1076353|Kingfisher
+451163|Trader
+499062|Quartermaster
+1076252|Shopkeeper
+1055961|Midcopse
+1055571|Merchant
+1055965|Lindenvale
+1055991|Claywich
+1076351|Golden Sturgeon
+1084331|Northern Realms
+587384|Haddy
+1048437|Ravvy
+171240|Dijkstra
+481487|Ves
+337285|Bloody Baron
+1055163|Nilfgaardian Nobleman
+1079785|Royal Palace in Vizima
+171290|Zoltan Chivay
+1076356|Rosemary and Thyme
+1082144|Temerian Partisan Hideout
+166803|Druid
+166486|Sjusta
+1055925|Kaer Trolde Harbor
+452889|Old Sage
+1055966|Crow's Perch
+1048434|Caesar Bilzen
+1065034|'What have I done?' the mage cried out, frightened of his own creation.
