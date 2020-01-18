@@ -23,6 +23,10 @@ msgstr ""
 msgid "None"
 msgstr ""
 
+#: src/GwentTracker/data/missable.yml:8 -> Card.notes
+msgid "Purchase his cards in Claywich after freeing him from the Bandits' Camp."
+msgstr ""
+
 #: src/GwentTracker/data/missable.yml:10 -> Card.region
 msgid "Novigrad"
 msgstr "Novigrad"
@@ -35,9 +39,33 @@ msgstr "Une question de vie ou de mort"
 msgid "self"
 msgstr ""
 
+#: src/GwentTracker/data/missable.yml:15 -> Card.notes
+msgid "There'll be a small gwent tournament going on in the main courtyard where you'll need to win all the rounds to get all the cards."
+msgstr ""
+
 #: src/GwentTracker/data/missable.yml:18 -> Card.questName
 msgid "High Stakes"
 msgstr "Dans la cour des grands"
+
+#: src/GwentTracker/data/missable.yml:22 -> Card.notes
+msgid "If you leave the vicinity of Passiflora the quest will fail. Do not start the quest if you are unsure of winning the gwent matches. You will not be able to go and get more cards If you already signed up for the tournament."
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:23 -> Card.notes
+msgid "Consider finishing the Old Pals and Big City Players quests to build a stronger deck before doing this quest."
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:24 -> Card.notes
+msgid "You must win the tournament to get every card. Recommend saving before each game."
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:25 -> Card.notes
+msgid "Save between wins. This quest is the only way to obtain all leader cards."
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:26 -> Card.notes
+msgid "Sasha is the toughest opponent with her Nilfgaardian deck. She plays a very strong spy-themed deck which is also filled with high-strength unit cards and an entire roster of Nilfgaard and neutral heroes. Counter her with a lot of decoys and spy cards; keep the unit cards in the deck as close to 22 as possible and with the highest possible unit strength. The White Flame leader card is useful for countering her unique leader card which draws a unit card from the player's discard pile for her own use. It is HIGHLY RECOMMENDED players make a save if they wish to win the tournament outright, otherwise Sasha beats Tybalt in the final round. She can be romanced if Geralt agrees to her proposition."
+msgstr ""
 
 #: src/GwentTracker/data/missable.yml:29 -> Card.questName
 msgid "Gwent: Playing Thaler"
@@ -47,6 +75,10 @@ msgstr "Gwynt : partie contre Talar"
 msgid "Reason of State"
 msgstr "Raison d'État"
 
+#: src/GwentTracker/data/missable.yml:33 -> Card.notes
+msgid "Find Thaler by completing A Deadly Plot."
+msgstr ""
+
 #: src/GwentTracker/data/missable.yml:36 -> Card.questName
 msgid "A Dangerous Game"
 msgstr "Un jeu dangereux"
@@ -55,6 +87,14 @@ msgstr "Un jeu dangereux"
 msgid "The Isle of Mists"
 msgstr "L'Île des Brumes"
 
+#: src/GwentTracker/data/missable.yml:40 -> Card.notes
+msgid "Choose to keep the cards."
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:41 -> Card.notes
+msgid "You can still get the cards later if you choose the gold. During The Great Escape, all 3 can be found on the prison commander's body after he's slain."
+msgstr ""
+
 #: src/GwentTracker/data/missable.yml:43 -> Card.region
 msgid "Skellige"
 msgstr "Skellige"
@@ -62,6 +102,10 @@ msgstr "Skellige"
 #: src/GwentTracker/data/missable.yml:44 -> Card.questName
 msgid "Shock Therapy"
 msgstr "Thérapie de choc"
+
+#: src/GwentTracker/data/missable.yml:48 -> Card.notes
+msgid "Complete this quest that can be started by talking to some druids in Ard Skellig."
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:3 -> Card.deck
 msgid "Monsters"
@@ -79,8 +123,8 @@ msgstr "Certains hommes n'admettent pas la défaite. Même morts, ils continuent
 msgid "Hero"
 msgstr "Héros"
 
-#: src/GwentTracker/data/monsters.yml:8 -> Card.type
-msgid "Gwent Quest"
+#: src/GwentTracker/data/monsters.yml:8 -> Card.notes
+msgid "type"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
@@ -102,10 +146,6 @@ msgstr "Keyran"
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
 msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
 msgstr "Tuer un keyran, c'est facile : prenez votre meilleure épée, vendez-la, et engagez un sorceleur."
-
-#: src/GwentTracker/data/monsters.yml:20 -> Card.type
-msgid "Win from NPC"
-msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
@@ -154,10 +194,6 @@ msgstr "Élémentaire de terre"
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
 msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
 msgstr "Comment se débarrasser d'un élémentaire de terre ? En prenant ses jambes à son coup."
-
-#: src/GwentTracker/data/monsters.yml:68 -> Card.type
-msgid "Buy from Trader"
-msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
@@ -351,10 +387,6 @@ msgstr "Nekker"
 msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
 msgstr "Ils seraient presque mignons, si on oubliait un instant que ce sont des saletés de tueurs."
 
-#: src/GwentTracker/data/monsters.yml:320 -> Card.type
-msgid "Secondary Quest"
-msgstr ""
-
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
 msgstr ""
@@ -466,10 +498,6 @@ msgstr "Ça fait longtemps que j'attends ce moment…"
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
 msgstr "Chef"
-
-#: src/GwentTracker/data/monsters.yml:492 -> Card.type
-msgid "Base Deck"
-msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"
