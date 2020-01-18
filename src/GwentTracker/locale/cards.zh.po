@@ -1,0 +1,1572 @@
+## 'msgid's in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove 'msgid's manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+msgid ""
+msgstr ""
+"Language: zh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
+
+
+#: src/GwentTracker/data/missable.yml:3 -> Card.region
+msgid "Velen"
+msgstr "威倫"
+
+#: src/GwentTracker/data/missable.yml:4 -> Card.questName
+msgid "Boatmakers' Hut Person in Distress"
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:5 -> Card.cutoff
+msgid "None"
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:10 -> Card.region
+msgid "Novigrad"
+msgstr "諾維格瑞"
+
+#: src/GwentTracker/data/missable.yml:11 -> Card.questName
+msgid "A Matter of Life and Death"
+msgstr "生死交關"
+
+#: src/GwentTracker/data/missable.yml:12 -> Card.cutoff
+msgid "self"
+msgstr ""
+
+#: src/GwentTracker/data/missable.yml:18 -> Card.questName
+msgid "High Stakes"
+msgstr "大賭局"
+
+#: src/GwentTracker/data/missable.yml:29 -> Card.questName
+msgid "Gwent: Playing Thaler"
+msgstr "昆特：挑戰塔勒"
+
+#: src/GwentTracker/data/missable.yml:30 -> Card.cutoff
+msgid "Reason of State"
+msgstr "為祖國"
+
+#: src/GwentTracker/data/missable.yml:36 -> Card.questName
+msgid "A Dangerous Game"
+msgstr "危險遊戲"
+
+#: src/GwentTracker/data/missable.yml:37 -> Card.cutoff
+msgid "The Isle of Mists"
+msgstr "迷霧之島"
+
+#: src/GwentTracker/data/missable.yml:43 -> Card.region
+msgid "Skellige"
+msgstr "史凱利傑"
+
+#: src/GwentTracker/data/missable.yml:44 -> Card.questName
+msgid "Shock Therapy"
+msgstr "震撼治療"
+
+#: src/GwentTracker/data/monsters.yml:3 -> Card.deck
+msgid "Monsters"
+msgstr "怪物"
+
+#: src/GwentTracker/data/monsters.yml:4 -> Card.name
+msgid "Draug"
+msgstr "戰靈"
+
+#: src/GwentTracker/data/monsters.yml:5 -> Card.flavor
+msgid "Some men cannot admit defeat. Some keep fighting from beyond the grave."
+msgstr "「有些人就是不肯服輸，有些人連進了棺材都還在奮戰。」"
+
+#: src/GwentTracker/data/monsters.yml:6 -> Card.type
+msgid "Hero"
+msgstr "英雄"
+
+#: src/GwentTracker/data/monsters.yml:8 -> Card.type
+msgid "Gwent Quest"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:9 -> Card.npc
+msgid "Crach an Craite"
+msgstr "克拉奇．奎特"
+
+#: src/GwentTracker/data/monsters.yml:10 -> Card.area
+msgid "Kaer Trolde"
+msgstr "凱爾卓"
+
+#: src/GwentTracker/data/monsters.yml:11 -> Card.territory
+msgid "Ard Skellig"
+msgstr "大史凱利格"
+
+#: src/GwentTracker/data/monsters.yml:16 -> Card.name
+msgid "Kayran"
+msgstr "巨章魚怪"
+
+#: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
+msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
+msgstr "「要殺巨章魚怪？簡單。拿起你最好的劍…把它給賣了，雇用個狩魔獵人。」"
+
+#: src/GwentTracker/data/monsters.yml:20 -> Card.type
+msgid "Win from NPC"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:21 -> Card.npc
+msgid "Random"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:28 -> Card.name
+msgid "Imlerith"
+msgstr "伊勒瑞斯"
+
+#: src/GwentTracker/data/monsters.yml:29 -> Card.flavor
+msgid "Ladd nahw! Kill them! Litter the earth with their entrails!"
+msgstr "「Ladd nawh! 殺了他們！讓他們的五臟六腑灑滿地！」"
+
+#: src/GwentTracker/data/monsters.yml:40 -> Card.name
+msgid "Leshen"
+msgstr "鹿首精"
+
+#: src/GwentTracker/data/monsters.yml:41 -> Card.flavor
+msgid "We never hunt in these woods. Not even if it means the whole village starves."
+msgstr "「我們從來不在這片森林打獵，就算整座村莊都在挨餓也不行。」"
+
+#: src/GwentTracker/data/monsters.yml:45 -> Card.npc
+msgid "Ermion"
+msgstr "爾米亞"
+
+#: src/GwentTracker/data/monsters.yml:46 -> Card.area
+msgid "Gedyneith"
+msgstr "蓋迪尼斯"
+
+#: src/GwentTracker/data/monsters.yml:52 -> Card.name
+msgid "Forktail"
+msgstr "叉尾龍"
+
+#: src/GwentTracker/data/monsters.yml:53 -> Card.flavor
+msgid "Fork tails… Bah! Fuckers' tails're more like cleavers."
+msgstr "「叉尾龍…哼！說牠們的尾巴像鐮刀一樣還差不多。」"
+
+#: src/GwentTracker/data/monsters.yml:54 -> Card.type
+msgid "Unit"
+msgstr "單位牌"
+
+#: src/GwentTracker/data/monsters.yml:64 -> Card.name
+msgid "Earth Elemental"
+msgstr "地元素"
+
+#: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
+msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
+msgstr "「要怎麼跟土元素戰鬥？想都別想，逃吧，能跑多快就多快。」"
+
+#: src/GwentTracker/data/monsters.yml:68 -> Card.type
+msgid "Buy from Trader"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:69 -> Card.npc
+msgid "Innkeeper"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:70 -> Card.area
+msgid "New Port Inn"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:71 -> Card.territory
+msgid "Kaer Trolde Harbor"
+msgstr "凱爾卓港"
+
+#: src/GwentTracker/data/monsters.yml:76 -> Card.name
+msgid "Fiend"
+msgstr "惡魔"
+
+#: src/GwentTracker/data/monsters.yml:77 -> Card.flavor
+msgid "A fiend looks a bit like a deer. An enormous, evil deer."
+msgstr "「惡魔看起來有點像頭鹿。一頭巨大又邪惡的鹿。」"
+
+#: src/GwentTracker/data/monsters.yml:82 -> Card.area
+msgid "Arinbjorn"
+msgstr "阿林比翁"
+
+#: src/GwentTracker/data/monsters.yml:88 -> Card.name
+msgid "Plague Maiden"
+msgstr "瘟疫妖女"
+
+#: src/GwentTracker/data/monsters.yml:89 -> Card.flavor
+msgid "The sick rave about a boil-pocked woman surrounded by herds of rabid rats…"
+msgstr "「鬼吼鬼叫說著一個長滿水泡的女人，身旁全是發狂的老鼠…」"
+
+#: src/GwentTracker/data/monsters.yml:100 -> Card.name
+msgid "Griffin"
+msgstr "獅鷲獸"
+
+#: src/GwentTracker/data/monsters.yml:101 -> Card.flavor
+msgid "Griffins like to toy with their prey. Eat 'em alive, piece by piece."
+msgstr "「獅鷲獸喜歡玩牠們的獵物，一塊一塊把他們給生吃下肚。」"
+
+#: src/GwentTracker/data/monsters.yml:112 -> Card.name
+msgid "Werewolf"
+msgstr "狼人"
+
+#: src/GwentTracker/data/monsters.yml:113 -> Card.flavor
+msgid "Wolves aren't as bad as they say. Werewolves, though - they're worse."
+msgstr "「狼不像大家說的那麼壞。但是狼人糟糕多了。」"
+
+#: src/GwentTracker/data/monsters.yml:118 -> Card.area
+msgid "Urialla Harbor"
+msgstr "由里亞拉港"
+
+#: src/GwentTracker/data/monsters.yml:119 -> Card.territory
+msgid "An Skellig"
+msgstr "小史凱利格"
+
+#: src/GwentTracker/data/monsters.yml:124 -> Card.name
+msgid "Botchling"
+msgstr "屍嬰"
+
+#: src/GwentTracker/data/monsters.yml:125 -> Card.flavor
+msgid "Admit your mistakes and bury them proper - else they'll come back to haunt you."
+msgstr "「承認錯誤，好好地安葬他們，否則他們會回來糾纏著你不放。」"
+
+#: src/GwentTracker/data/monsters.yml:136 -> Card.name
+msgid "Frightener"
+msgstr "畏懼者"
+
+#: src/GwentTracker/data/monsters.yml:137 -> Card.flavor
+msgid "'What have I done?' the mage cried out, frightened of his own creation."
+msgstr "「『我做了什麼事？』，法師大叫，他被自己創造出來的東西嚇到了。」"
+
+#: src/GwentTracker/data/monsters.yml:148 -> Card.name
+msgid "Ice Giant"
+msgstr "寒冰巨人"
+
+#: src/GwentTracker/data/monsters.yml:149 -> Card.flavor
+msgid "Fled one time in my life. From the Ice Giant. And I'm not a bit ashamed."
+msgstr "「我這輩子只逃過一次，當時我碰到了寒冰巨人。我一點也不覺得丟臉。」"
+
+#: src/GwentTracker/data/monsters.yml:154 -> Card.area
+msgid "Svorlag"
+msgstr "斯瓦雷格"
+
+#: src/GwentTracker/data/monsters.yml:155 -> Card.territory
+msgid "Spikeroog"
+msgstr "史派克魯格"
+
+#: src/GwentTracker/data/monsters.yml:160 -> Card.name
+msgid "Endrega"
+msgstr "安德萊格"
+
+#: src/GwentTracker/data/monsters.yml:161 -> Card.flavor
+msgid "The nest! Take out the nest, or the bastards'll just keep coming!"
+msgstr "「巢穴！把巢穴給解決，否則那些混帳會一直冒出來。」"
+
+#: src/GwentTracker/data/monsters.yml:172 -> Card.name
+msgid "Harpy"
+msgstr "人面妖鳥"
+
+#: src/GwentTracker/data/monsters.yml:173 -> Card.flavor
+msgid "There are many species of harpy, and all are kleptomaniacs."
+msgstr "「人面妖鳥有很多品種，所有品種都有竊盜癖。」"
+
+#: src/GwentTracker/data/monsters.yml:178 -> Card.area
+msgid "Harviken"
+msgstr "哈爾維肯"
+
+#: src/GwentTracker/data/monsters.yml:179 -> Card.territory
+msgid "Faroe"
+msgstr "法羅"
+
+#: src/GwentTracker/data/monsters.yml:184 -> Card.name
+msgid "Cockatrice"
+msgstr "石化雞蛇"
+
+#: src/GwentTracker/data/monsters.yml:185 -> Card.flavor
+msgid "Born of an egg laid by a cockerel... if you believe such peasant drivel."
+msgstr "「從公雞生的蛋裡誕生出來的…這只是老百姓的胡謅罷了。」"
+
+#: src/GwentTracker/data/monsters.yml:196 -> Card.name
+msgid "Gargoyle"
+msgstr "石像鬼"
+
+#: src/GwentTracker/data/monsters.yml:197 -> Card.flavor
+msgid "Ancient sculptors' nightmarish fantasies, brought to life by bored mages."
+msgstr "「古代雕刻師的夢魘幻想被法師給活生生實現了。」"
+
+#: src/GwentTracker/data/monsters.yml:208 -> Card.name
+msgid "Celaeno Harpy"
+msgstr "賽爾伊諾人面妖鳥"
+
+#: src/GwentTracker/data/monsters.yml:209 -> Card.flavor
+msgid "Common harpies feed on carrion. Celaeno harpies… they feed on dreams."
+msgstr "「一般的人面妖鳥以腐肉為食，賽爾伊諾人面妖鳥…則以夢境為食。」"
+
+#: src/GwentTracker/data/monsters.yml:220 -> Card.name
+msgid "Grave Hag"
+msgstr "墓穴女巫"
+
+#: src/GwentTracker/data/monsters.yml:221 -> Card.flavor
+msgid "Their long tongues're for slurping marrow - and whipping prey."
+msgstr "「她們長長的舌頭是用來吸骨髓和鞭打獵物的。」"
+
+#: src/GwentTracker/data/monsters.yml:232 -> Card.name
+msgid "Fire Elemental"
+msgstr "火元素"
+
+#: src/GwentTracker/data/monsters.yml:233 -> Card.flavor
+msgid "Fire is so delightful."
+msgstr "「火焰真讓人開心。」"
+
+#: src/GwentTracker/data/monsters.yml:244 -> Card.name
+msgid "Foglet"
+msgstr "小霧妖"
+
+#: src/GwentTracker/data/monsters.yml:245 -> Card.flavor
+msgid "Fog creeps on little cat feet. Foglets creep over the bodies of their victims."
+msgstr "「霧會爬上小小的貓足，小霧妖則會爬上牠們受害者的屍體。」"
+
+#: src/GwentTracker/data/monsters.yml:256 -> Card.name
+msgid "Wyvern"
+msgstr "翼手龍"
+
+#: src/GwentTracker/data/monsters.yml:257 -> Card.flavor
+msgid "Imagine a cross between a winged snake and a nightmare. Wyverns are worse."
+msgstr "「想像一條有翅膀的蛇跟夢魘怪交配。翼手龍比牠們的後代更可怕。」"
+
+#: src/GwentTracker/data/monsters.yml:268 -> Card.name
+msgid "Arachas Behemoth"
+msgstr "巨型蟹蜘蛛"
+
+#: src/GwentTracker/data/monsters.yml:269 -> Card.flavor
+msgid "Like a cross between a crab, a spider… and a ploughin' mountain."
+msgstr "「稀有的高等蟹蜘蛛，跟大象一樣大，但身軀結實多了。」"
+
+#: src/GwentTracker/data/monsters.yml:280 -> Card.name
+msgid "Arachas"
+msgstr "蟹蜘蛛"
+
+#: src/GwentTracker/data/monsters.yml:281 -> Card.flavor
+msgid "Ugly - nature's way of saying 'Stay the fuck away.'"
+msgstr "「長得醜是要你快給我閃邊去。」"
+
+#: src/GwentTracker/data/monsters.yml:316 -> Card.name
+msgid "Nekker"
+msgstr "孽鬼"
+
+#: src/GwentTracker/data/monsters.yml:317 -> Card.flavor
+msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
+msgstr "「如果你忘掉牠們會殺人，那牠們其實還挺可愛的。」"
+
+#: src/GwentTracker/data/monsters.yml:320 -> Card.type
+msgid "Secondary Quest"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:322 -> Card.npc
+msgid "Hammond's corpse"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:323 -> Card.area
+msgid "Trottheim"
+msgstr "托特海姆"
+
+#: src/GwentTracker/data/monsters.yml:353 -> Card.name
+msgid "Vampire: Ekimmara"
+msgstr "吸血鬼：血魔"
+
+#: src/GwentTracker/data/monsters.yml:354 -> Card.flavor
+msgid "Who would think overgrown bats would have a taste for gaudy jewelry?"
+msgstr "「誰想到長得太大的蝙蝠會喜歡上俗豔珠寶？」"
+
+#: src/GwentTracker/data/monsters.yml:365 -> Card.name
+msgid "Vampire: Fleder"
+msgstr "吸血鬼：蝠翼魔"
+
+#: src/GwentTracker/data/monsters.yml:366 -> Card.flavor
+msgid "Higher vampires embrace their victims. Fleders rip them to shreds."
+msgstr "「高等吸血鬼會擁抱牠們的受害者，蝠翼魔則會把受害者四分五裂。」"
+
+#: src/GwentTracker/data/monsters.yml:377 -> Card.name
+msgid "Vampire: Garkain"
+msgstr "吸血鬼：蝠翼腦魔"
+
+#: src/GwentTracker/data/monsters.yml:378 -> Card.flavor
+msgid "Blood-drinkers and corpse-eaters so foul their very ugliness paralyses foes."
+msgstr "「喝血又吃屍體的可怕生物，醜陋到讓人一看就全身癱軟。」"
+
+#: src/GwentTracker/data/monsters.yml:389 -> Card.name
+msgid "Vampire: Bruxa"
+msgstr "吸血鬼：吸血鬼女"
+
+#: src/GwentTracker/data/monsters.yml:390 -> Card.flavor
+msgid "A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law."
+msgstr "「你可以用木樁殺死吸血鬼女，但木樁要跟勾爪一樣長才行。」"
+
+#: src/GwentTracker/data/monsters.yml:399 -> Card.notes
+msgid "Win a match at the masquerade ball at Vegelbud Estate"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:403 -> Card.name
+msgid "Vampire: Katakan"
+msgstr "吸血鬼：卡塔卡恩"
+
+#: src/GwentTracker/data/monsters.yml:404 -> Card.flavor
+msgid "Drinking the blood of the Continent since the Conjunction."
+msgstr "「自天球交會起就開始喝大陸的血了。」"
+
+#: src/GwentTracker/data/monsters.yml:408 -> Card.npc
+msgid "Madman Lugos"
+msgstr "瘋子盧戈"
+
+#: src/GwentTracker/data/monsters.yml:409 -> Card.area
+msgid "Kaer Muire"
+msgstr "凱爾謬雷"
+
+#: src/GwentTracker/data/monsters.yml:415 -> Card.name
+msgid "Ghoul"
+msgstr "食屍鬼"
+
+#: src/GwentTracker/data/monsters.yml:416 -> Card.flavor
+msgid "If ghouls are part of the Circle of Life... then it's a damn vicious circle."
+msgstr "「如果食屍鬼是生命循環的一節…那這循環也太不對勁了。」"
+
+#: src/GwentTracker/data/monsters.yml:451 -> Card.name
+msgid "Crone: Brewess"
+msgstr "老巫嫗：煮婆"
+
+#: src/GwentTracker/data/monsters.yml:452 -> Card.flavor
+msgid "We'll cut you up, boy. A fine broth you will make."
+msgstr "「我們會把你給切開來，孩子。你煮成肉湯一定很好喝。」"
+
+#: src/GwentTracker/data/monsters.yml:463 -> Card.name
+msgid "Crone: Weavess"
+msgstr "老巫嫗：織婆"
+
+#: src/GwentTracker/data/monsters.yml:464 -> Card.flavor
+msgid "I sense your pain. I see your fear…"
+msgstr "「我感受到你的痛苦，你的恐懼…」"
+
+#: src/GwentTracker/data/monsters.yml:469 -> Card.npc
+msgid "Old Sage"
+msgstr "老賢者"
+
+#: src/GwentTracker/data/monsters.yml:470 -> Card.area
+msgid "Benek"
+msgstr "班寇漢"
+
+#: src/GwentTracker/data/monsters.yml:476 -> Card.name
+msgid "Crone: Whispess"
+msgstr "老巫嫗：呢喃婆"
+
+#: src/GwentTracker/data/monsters.yml:477 -> Card.flavor
+msgid "I'd be your best - and last."
+msgstr "「我會是你最棒的經驗，也是最後一次。」"
+
+#: src/GwentTracker/data/monsters.yml:488 -> Card.name
+msgid "Eredin King of the Wild Hunt"
+msgstr "艾瑞汀 狂獵之王"
+
+#: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
+msgid "I've long awaited this..."
+msgstr "「把我們弄走！快點！」"
+
+#: src/GwentTracker/data/monsters.yml:490 -> Card.type
+msgid "Leader"
+msgstr "領袖"
+
+#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+msgid "Base Deck"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:495 -> Card.name
+msgid "Eredin Commander of the Red Riders"
+msgstr "艾瑞汀 紅騎士指揮官"
+
+#: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
+msgid "Have some dignity. You know how this will end."
+msgstr "「為自己留點尊嚴，你也知道結局會是怎樣。」"
+
+#: src/GwentTracker/data/monsters.yml:501 -> Card.area
+msgid "The New Port"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:507 -> Card.name
+msgid "Eredin Destroyer of Worlds"
+msgstr "艾瑞汀 世界毀滅者"
+
+#: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
+msgid "It is unavoidable."
+msgstr "「死亡無可避免。」"
+
+#: src/GwentTracker/data/monsters.yml:520 -> Card.name
+msgid "Eredin Bringer of Death"
+msgstr "艾瑞汀 死亡使者"
+
+#: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
+msgid "Go on. Show me your spins, pirouettes and feints. I want to watch."
+msgstr "「繼續啊，讓我看看你的舞步，我很有興趣。」"
+
+#: src/GwentTracker/data/monsters.yml:528 -> Card.territory
+msgid "Passiflora"
+msgstr "帕西弗羅拉"
+
+#: src/GwentTracker/data/neutral.yml:2 -> Card.deck
+msgid "Neutral"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:3 -> Card.name
+msgid "Decoy"
+msgstr "誘餌"
+
+#: src/GwentTracker/data/neutral.yml:4 -> Card.flavor
+msgid "When you run out of peasants, decoys also make decent arrow fodder."
+msgstr "「如果沒有百姓了，誘餌也可以是不錯的擋箭牌。」"
+
+#: src/GwentTracker/data/neutral.yml:5 -> Card.type
+msgid "Special"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:9 -> Card.area
+msgid "Tavern"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:11 -> Card.region
+msgid "White Orchard"
+msgstr "白果園"
+
+#: src/GwentTracker/data/neutral.yml:14 -> Card.npc
+msgid "Quartermaster"
+msgstr "軍需官"
+
+#: src/GwentTracker/data/neutral.yml:16 -> Card.territory
+msgid "Crow's Perch"
+msgstr "烏鴉窩"
+
+#: src/GwentTracker/data/neutral.yml:21 -> Card.area
+msgid "Seven Cats Inn"
+msgstr "七隻貓旅館"
+
+#: src/GwentTracker/data/neutral.yml:22 -> Card.territory
+msgid "Gustfields"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:27 -> Card.name
+msgid "Commander's Horn"
+msgstr "領導號角"
+
+#: src/GwentTracker/data/neutral.yml:28 -> Card.flavor
+msgid "Plus one to morale, minus three to hearing."
+msgstr "「士氣加一分，聽力減三分。」"
+
+#: src/GwentTracker/data/neutral.yml:33 -> Card.area
+msgid "Inn at the Crossroads"
+msgstr "十字路口的旅店"
+
+#: src/GwentTracker/data/neutral.yml:38 -> Card.npc
+msgid "Marquise Serenity"
+msgstr "尊寧夫人"
+
+#: src/GwentTracker/data/neutral.yml:45 -> Card.area
+msgid "The Alchemy"
+msgstr "鍊金旅店"
+
+#: src/GwentTracker/data/neutral.yml:46 -> Card.territory
+msgid "Oxenfurt"
+msgstr "奧森弗特"
+
+#: src/GwentTracker/data/neutral.yml:51 -> Card.name
+msgid "Scorch"
+msgstr "燒灼"
+
+#: src/GwentTracker/data/neutral.yml:52 -> Card.flavor
+msgid "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe."
+msgstr "「火柱可以讓力量再強大的人都變成灰燼。其他人只能敬畏三分地顫抖。」"
+
+#: src/GwentTracker/data/neutral.yml:57 -> Card.area
+msgid "Cunny of the Goose"
+msgstr "鵝陰酒吧"
+
+#: src/GwentTracker/data/neutral.yml:58 -> Card.territory
+msgid "Grassy Knoll"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:75 -> Card.name
+msgid "Biting Frost"
+msgstr "霜霰"
+
+#: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
+msgid "Best part about frost - bodies of the fallen don't rot so quickly."
+msgstr "「好指揮官的夢想…壞指揮官的惡夢。」"
+
+#: src/GwentTracker/data/neutral.yml:89 -> Card.name
+msgid "Impenetrable Fog"
+msgstr "濃霧"
+
+#: src/GwentTracker/data/neutral.yml:90 -> Card.flavor
+msgid "A good commander's dream... a bad one's horror."
+msgstr "「冰天雪地最棒的一點就是屍體不會腐爛得太快。」"
+
+#: src/GwentTracker/data/neutral.yml:103 -> Card.name
+msgid "Torrential Rain"
+msgstr "地形雨"
+
+#: src/GwentTracker/data/neutral.yml:104 -> Card.flavor
+msgid "Even the rain in this land smells like piss."
+msgstr "「這片土地連雨都有尿味。」"
+
+#: src/GwentTracker/data/neutral.yml:116 -> Card.name
+msgid "Clear Weather"
+msgstr "天晴"
+
+#: src/GwentTracker/data/neutral.yml:117 -> Card.flavor
+msgid "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…"
+msgstr "「陽光在閃爍，德洛米！陽光在閃爍！說不定還有希望…」"
+
+#: src/GwentTracker/data/neutral.yml:129 -> Card.name
+msgid "Geralt of Rivia"
+msgstr "利維亞的傑洛特"
+
+#: src/GwentTracker/data/neutral.yml:130 -> Card.flavor
+msgid "If that's what it takes to save the world, it's better to let that world die."
+msgstr "「如果要付出這種代價才能拯救世界，那最好還是讓世界消逝吧。」"
+
+#: src/GwentTracker/data/neutral.yml:135 -> Card.npc
+msgid "Thaler"
+msgstr "塔勒"
+
+#: src/GwentTracker/data/neutral.yml:142 -> Card.name
+msgid "Vesemir"
+msgstr "維瑟米爾"
+
+#: src/GwentTracker/data/neutral.yml:143 -> Card.flavor
+msgid "If you're to be hanged, ask for water. Anything can happen before they fetch it."
+msgstr "「如果你要被吊死了，那就先要杯水。誰知道他們拿來水之前會發生什麼事。」"
+
+#: src/GwentTracker/data/neutral.yml:148 -> Card.npc
+msgid "Vivaldi"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:149 -> Card.area
+msgid "Vivaldi Bank"
+msgstr "韋瓦第銀行"
+
+#: src/GwentTracker/data/neutral.yml:150 -> Card.territory
+msgid "Hierarch Square"
+msgstr "教主廣場"
+
+#: src/GwentTracker/data/neutral.yml:155 -> Card.name
+msgid "Yennefer of Vengerberg"
+msgstr "范格堡的葉奈法"
+
+#: src/GwentTracker/data/neutral.yml:156 -> Card.flavor
+msgid "Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression."
+msgstr "「她身穿黑白服飾，使人想到十二月中的早晨。」"
+
+#: src/GwentTracker/data/neutral.yml:161 -> Card.npc
+msgid "Stjepan"
+msgstr "史戴潘"
+
+#: src/GwentTracker/data/neutral.yml:168 -> Card.name
+msgid "Cirilla Fiona Elen Riannon"
+msgstr "希里雅"
+
+#: src/GwentTracker/data/neutral.yml:169 -> Card.flavor
+msgid "Know when fairy tales cease to be tales? When people start believing in them."
+msgstr "「你知道童話故事何時會變得不僅是故事嗎？大家開始相信他們的時候。」"
+
+#: src/GwentTracker/data/neutral.yml:174 -> Card.npc
+msgid "Scoia’Tael Trader"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:175 -> Card.area
+msgid "Novigrad Forest"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:181 -> Card.name
+msgid "Triss Merigold"
+msgstr "特莉絲‧梅莉葛德"
+
+#: src/GwentTracker/data/neutral.yml:182 -> Card.flavor
+msgid "I can take care of myself. Trust me."
+msgstr "「我可以照顧我自己，相信我。」"
+
+#: src/GwentTracker/data/neutral.yml:187 -> Card.npc
+msgid "Lambert"
+msgstr "蘭伯特"
+
+#: src/GwentTracker/data/neutral.yml:188 -> Card.area
+msgid "The Nowhere"
+msgstr "虛無旅店"
+
+#: src/GwentTracker/data/neutral.yml:191 -> Card.notes
+msgid "Before the Following the Thead quest"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:198 -> Card.region
+msgid "Kaer Morhen"
+msgstr "凱爾莫罕"
+
+#: src/GwentTracker/data/neutral.yml:199 -> Card.notes
+msgid "After the Following the Thead quest"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:203 -> Card.name
+msgid "Dandelion"
+msgstr "丹德里恩"
+
+#: src/GwentTracker/data/neutral.yml:204 -> Card.flavor
+msgid "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend."
+msgstr "「丹德里恩，你憤世嫉俗、喜好女色、愛花惹草、還愛說謊，但是我最好的朋友。」"
+
+#: src/GwentTracker/data/neutral.yml:210 -> Card.area
+msgid "Vegelbud Residence"
+msgstr "威吉布德宅邸"
+
+#: src/GwentTracker/data/neutral.yml:213 -> Card.notes
+msgid "Win a match at the masquerade ball"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:217 -> Card.name
+msgid "Zoltan Chivay"
+msgstr "卓爾坦．齊瓦"
+
+#: src/GwentTracker/data/neutral.yml:218 -> Card.flavor
+msgid "Life without old mates and booze is like a woman without a rump."
+msgstr "「大家都說矮人會為了朋友接受絞刑，卓爾坦也不例外。」"
+
+#: src/GwentTracker/data/neutral.yml:222 -> Card.npc
+msgid "Scholar"
+msgstr "學者"
+
+#: src/GwentTracker/data/neutral.yml:229 -> Card.name
+msgid "Emiel Regis Rohellec Terzieff"
+msgstr "愛米爾‧雷吉斯‧洛赫雷課‧塔吉夫"
+
+#: src/GwentTracker/data/neutral.yml:230 -> Card.flavor
+msgid "Men, the polite ones, at least, would call me a monster. A blood-drinking freak."
+msgstr "「人類，至少那些有禮貌的，會叫我怪獸，喝血的怪胎。」"
+
+#: src/GwentTracker/data/neutral.yml:241 -> Card.name
+msgid "Villentretenmerth"
+msgstr "維蘭特雷坦梅斯"
+
+#: src/GwentTracker/data/neutral.yml:242 -> Card.flavor
+msgid "Also calls himself Borkh Three Jackdaws… he's not the best at names."
+msgstr "「他還自稱三隻寒鴉布洛克…他不太會取名字。」"
+
+#: src/GwentTracker/data/neutral.yml:253 -> Card.name
+msgid "Avallac'h"
+msgstr "阿瓦拉克"
+
+#: src/GwentTracker/data/neutral.yml:254 -> Card.flavor
+msgid "You humans have… unusual tastes."
+msgstr "「預測未來沒什麼訣竅，訣竅就是要預測得準。」"
+
+#: src/GwentTracker/data/neutral.yml:259 -> Card.npc
+msgid "Gremist"
+msgstr "葛密斯塔"
+
+#: src/GwentTracker/data/nilfgaard.yml:2 -> Card.deck
+msgid "Nilfgaard"
+msgstr ""
+
+#: src/GwentTracker/data/nilfgaard.yml:3 -> Card.name
+msgid "Letho of Gulet"
+msgstr "古雷特的雷索"
+
+#: src/GwentTracker/data/nilfgaard.yml:4 -> Card.flavor
+msgid "Witchers never die in their beds."
+msgstr "「狩魔獵人絕不會死在自己的床上。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:9 -> Card.npc
+msgid "Boatwright"
+msgstr "船匠"
+
+#: src/GwentTracker/data/nilfgaard.yml:10 -> Card.area
+msgid "Oreton"
+msgstr "奧瑞登"
+
+#: src/GwentTracker/data/nilfgaard.yml:16 -> Card.name
+msgid "Menno Coehoorn"
+msgstr "梅諾‧寇赫倫"
+
+#: src/GwentTracker/data/nilfgaard.yml:17 -> Card.flavor
+msgid "I'll take an attentive reconnaissance unit over a fine cavalry brigade any day."
+msgstr "「細心的偵察單位比訓練有素的騎兵團好多了。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:29 -> Card.name
+msgid "Morvran Voorhis"
+msgstr "莫爾凡‧符里斯"
+
+#: src/GwentTracker/data/nilfgaard.yml:30 -> Card.flavor
+msgid "Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me."
+msgstr "「夏日太陽反射在阿爾巴湖的平靜水面上，這就是尼弗迦德在我心中的印象。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:42 -> Card.name
+msgid "Tibor Eggebracht"
+msgstr "提伯‧艾格布拉傑"
+
+#: src/GwentTracker/data/nilfgaard.yml:43 -> Card.flavor
+msgid "Albaaaa! Forward!! Alba! Long live the Emperor!"
+msgstr "「阿爾巴！前進！阿爾巴！大帝萬歲！」"
+
+#: src/GwentTracker/data/nilfgaard.yml:48 -> Card.npc
+msgid "Olivier"
+msgstr "奧利維爾"
+
+#: src/GwentTracker/data/nilfgaard.yml:49 -> Card.area
+msgid "Kingfisher"
+msgstr "翠鳥酒館"
+
+#: src/GwentTracker/data/nilfgaard.yml:55 -> Card.name
+msgid "Albrich"
+msgstr "亞伯力奇"
+
+#: src/GwentTracker/data/nilfgaard.yml:56 -> Card.flavor
+msgid "A fireball? Of course. Whatever Your Imperial Majesty wishes."
+msgstr "「火球？沒問題。陛下想要什麼都行。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:60 -> Card.npc
+msgid "Trader"
+msgstr "商人"
+
+#: src/GwentTracker/data/nilfgaard.yml:67 -> Card.name
+msgid "Assire var Anahid"
+msgstr "艾希蕾‧阿納興"
+
+#: src/GwentTracker/data/nilfgaard.yml:68 -> Card.flavor
+msgid "Nilfgaardian mages do have a choice: servile submission, or the gallows."
+msgstr "「尼弗迦德法師有得選啊：投降聽話或者上斷頭臺。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:79 -> Card.name
+msgid "Cynthia"
+msgstr "辛西亞"
+
+#: src/GwentTracker/data/nilfgaard.yml:80 -> Card.flavor
+msgid "Cynthia's talents can be deadly. She needs a tight leash."
+msgstr "「『辛西亞的天賦可能會害死人，』菲麗芭笑著說。『要把她看緊點才行。』」"
+
+#: src/GwentTracker/data/nilfgaard.yml:91 -> Card.name
+msgid "Fringilla Vigo"
+msgstr "芙琳吉拉‧薇歌"
+
+#: src/GwentTracker/data/nilfgaard.yml:92 -> Card.flavor
+msgid "Magic is the highest good. It transcends all borders and divisions."
+msgstr "「瞎眼是很適合女術士的懲罰，能夠打擊她們的虛榮心。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:98 -> Card.area
+msgid "Caesar Bilzen's home"
+msgstr ""
+
+#: src/GwentTracker/data/nilfgaard.yml:104 -> Card.name
+msgid "Morteisen"
+msgstr "莫坦森"
+
+#: src/GwentTracker/data/nilfgaard.yml:105 -> Card.flavor
+msgid "No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry."
+msgstr "「北方矛兵或矮人斧手全都別想贏過訓練有素的騎兵。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:109 -> Card.npc
+msgid "Shopkeeper"
+msgstr "商店老闆"
+
+#: src/GwentTracker/data/nilfgaard.yml:110 -> Card.area
+msgid "Midcopse"
+msgstr "米德考普斯"
+
+#: src/GwentTracker/data/nilfgaard.yml:116 -> Card.name
+msgid "Rainfarn"
+msgstr "雷恩法"
+
+#: src/GwentTracker/data/nilfgaard.yml:117 -> Card.flavor
+msgid "You'll die as painfully as that pathetic traitor Windhalm did."
+msgstr "「你會跟溫德罕那個可悲的叛徒一樣死得痛苦不堪。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:121 -> Card.npc
+msgid "Merchant"
+msgstr "商人"
+
+#: src/GwentTracker/data/nilfgaard.yml:122 -> Card.area
+msgid "Lindenvale"
+msgstr "林登維爾"
+
+#: src/GwentTracker/data/nilfgaard.yml:128 -> Card.name
+msgid "Renuald aep Matsen"
+msgstr "雷努阿‧馬特森"
+
+#: src/GwentTracker/data/nilfgaard.yml:129 -> Card.flavor
+msgid "They say the Impera fear nothing. Untrue. Renuald scares them shitless."
+msgstr "「大家都說帝國軍無所畏懼。這話錯了，雷努阿可以把他們嚇到拉滿褲子。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:140 -> Card.name
+msgid "Rotten Mangonel"
+msgstr "腐爛的射石機"
+
+#: src/GwentTracker/data/nilfgaard.yml:141 -> Card.flavor
+msgid "The rotten smell brings back childhood memories"
+msgstr "「腐爛的味道讓我想到童年回憶。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:152 -> Card.name
+msgid "Shilard Fitz-Oesterlen"
+msgstr "希拉德‧費茲奧耶斯泰蘭"
+
+#: src/GwentTracker/data/nilfgaard.yml:153 -> Card.flavor
+msgid "Warfare is mere sound and fury - diplomacy is what truly shapes history."
+msgstr "「戰爭只是聲響和憤怒的體現，外交才能塑造歷史。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:164 -> Card.name
+msgid "Stefan Skellen"
+msgstr "史提芬‧史凱倫"
+
+#: src/GwentTracker/data/nilfgaard.yml:165 -> Card.flavor
+msgid "My mark scars the face of our future empress. That is my proudest achievement."
+msgstr "「我的箭讓我們未來的女王留下傷疤，這是我最引以為傲的成就。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:176 -> Card.name
+msgid "Sweers"
+msgstr "雜碎"
+
+#: src/GwentTracker/data/nilfgaard.yml:177 -> Card.flavor
+msgid "And hands off the girl! Whatever we may be, we're not savages."
+msgstr "「如果你胯下癢想上床，手癢想打架，那就加入我們吧。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:182 -> Card.area
+msgid "Claywich"
+msgstr "克萊威奇"
+
+#: src/GwentTracker/data/nilfgaard.yml:185 -> Card.notes
+msgid "Must first be rescued"
+msgstr ""
+
+#: src/GwentTracker/data/nilfgaard.yml:189 -> Card.name
+msgid "Vanhemar"
+msgstr "凡赫瑪"
+
+#: src/GwentTracker/data/nilfgaard.yml:190 -> Card.flavor
+msgid "For a fire mage, he's not very… flamboyant."
+msgstr "「火法師的生活很精彩，死得也很精彩。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:201 -> Card.name
+msgid "Vattier de Rideaux"
+msgstr "瓦提爾‧迪‧李道克斯"
+
+#: src/GwentTracker/data/nilfgaard.yml:202 -> Card.flavor
+msgid "There's never been a problem a well-planned assassination couldn't solve."
+msgstr "「沒有問題是精心策劃的暗殺計畫解決不了的。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:213 -> Card.name
+msgid "Vreemde"
+msgstr "弗林姆德"
+
+#: src/GwentTracker/data/nilfgaard.yml:214 -> Card.flavor
+msgid "Discipline is the Empire's deadliest weapon."
+msgstr "「以領袖命名戰鬥單位的傳統打擊了弗林姆德的自尊。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:225 -> Card.name
+msgid "Cahir Mawr Dyffryn aep Ceallach"
+msgstr "卡西爾‧莫瓦‧迪弗林‧契拉克"
+
+#: src/GwentTracker/data/nilfgaard.yml:226 -> Card.flavor
+msgid "His eyes flashed under his winged helmet. Fire gleamed from his sword's blade."
+msgstr "「他的眼睛在翅膀頭盔底下閃爍，劍刃上閃著火焰。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:237 -> Card.name
+msgid "Puttkammer"
+msgstr "普特卡摩"
+
+#: src/GwentTracker/data/nilfgaard.yml:238 -> Card.flavor
+msgid "Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance."
+msgstr "「我在布雷班特軍事學院學到很多東西。像是怎麼用打嗝唱國歌。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:246 -> Card.notes
+msgid "Must first rescue trader"
+msgstr ""
+
+#: src/GwentTracker/data/nilfgaard.yml:250 -> Card.name
+msgid "Etolian Auxiliary Archers"
+msgstr "弓箭手支援"
+
+#: src/GwentTracker/data/nilfgaard.yml:251 -> Card.flavor
+msgid "Double or nothing, aim for his cock."
+msgstr "「加強火力不然就死定了，瞄準他的胯下。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:275 -> Card.name
+msgid "Black Infantry Archer"
+msgstr "黑步兵弓箭手"
+
+#: src/GwentTracker/data/nilfgaard.yml:276 -> Card.flavor
+msgid "I aim for the knee. Always."
+msgstr "「我一向瞄準膝蓋，絕不例外。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:300 -> Card.name
+msgid "Heavy Zerrikanian Fire Scorpion"
+msgstr "瑟瑞卡尼亞的重火蠍"
+
+#: src/GwentTracker/data/nilfgaard.yml:301 -> Card.flavor
+msgid "Not the best for taking cities, but great for razing them to the ground."
+msgstr "「不適合用來佔領城市，但很適合把城市給夷平。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:312 -> Card.name
+msgid "Zerrikanian Fire Scorpion"
+msgstr "瑟瑞卡尼亞火蠍"
+
+#: src/GwentTracker/data/nilfgaard.yml:313 -> Card.flavor
+msgid "The Zerrikanian Desert used to be a lush garden. Then these came along."
+msgstr "「瑟瑞卡尼亞沙漠以前是茂盛的花園，後來這些東西出現了。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:324 -> Card.name
+msgid "Impera Brigade Guard"
+msgstr "帝國班"
+
+#: src/GwentTracker/data/nilfgaard.yml:325 -> Card.flavor
+msgid "The Impera Brigade never surrenders. Ever."
+msgstr "「帝國班絕不會投降，門都沒有。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:354 -> Card.name
+msgid "Nausicaa Cavalry Rider"
+msgstr "那烏西卡騎兵班"
+
+#: src/GwentTracker/data/nilfgaard.yml:355 -> Card.flavor
+msgid "The Emperor will teach the North discipline."
+msgstr "「這下大帝可以教教北方人紀律了。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:378 -> Card.name
+msgid "Siege Engineer"
+msgstr "攻城工程師"
+
+#: src/GwentTracker/data/nilfgaard.yml:379 -> Card.flavor
+msgid "Wielded correctly, a protractor can be a deadly weapon."
+msgstr "「只要使用正確，連量角器也可以變成致命武器。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:390 -> Card.name
+msgid "Young Emissary"
+msgstr "年輕的特使"
+
+#: src/GwentTracker/data/nilfgaard.yml:391 -> Card.flavor
+msgid "If I acquit myself well, perhaps next they'll post me somewhere civilized."
+msgstr "「如果我表現得好，或許他們下次會送我去比較文明的地方。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:414 -> Card.name
+msgid "Siege Technician"
+msgstr "攻城支援"
+
+#: src/GwentTracker/data/nilfgaard.yml:415 -> Card.flavor
+msgid "I never miss twice."
+msgstr "「我絕對不會失手兩次。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:420 -> Card.area
+msgid "Golden Sturgeon"
+msgstr "金鱘酒館"
+
+#: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
+msgid "Emhyr var Emreis His Imperial Majesty"
+msgstr "恩希爾‧恩瑞斯 皇帝陛下"
+
+#: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
+msgid "The skies wept when my Pavetta died. They will not weep for me."
+msgstr "「我的帕維塔死去的時候天空為她哭泣，我不會讓天空為我哭泣。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
+msgid "Emhyr var Emreis Emperor of Nilfgaard"
+msgstr "恩希爾‧恩瑞斯 尼弗迦德大帝"
+
+#: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
+msgid "Your motives do not interest me. Only results."
+msgstr "「你的動機我沒興趣，我只看結果。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
+msgid "Emhyr var Emreis the White Flame"
+msgstr "恩希爾‧恩瑞斯 白色火焰"
+
+#: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
+msgid "A sword is but one of many tools at a ruler's disposal."
+msgstr "「劍只是統治者手邊的眾多工具之一。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:455 -> Card.notes
+msgid "Reward for completing quest"
+msgstr ""
+
+#: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
+msgid "Emhyr var Emreis the Relentless"
+msgstr "恩希爾‧恩瑞斯 冷血無情"
+
+#: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
+msgid "They do not call me the Patient. Take care they do not call you the Headless."
+msgstr "「沒人說我耐心有禮，小心以後大家叫你『那個沒頭的』。」"
+
+#: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
+msgid "Northern Realms"
+msgstr "北方領域"
+
+#: src/GwentTracker/data/northernrealms.yml:3 -> Card.name
+msgid "Vernon Roche"
+msgstr "弗農‧羅契"
+
+#: src/GwentTracker/data/northernrealms.yml:4 -> Card.flavor
+msgid "A patriot... and a real son of a bitch."
+msgstr "「是個愛國者…還是個貨真價實的王八蛋。」"
+
+#: src/GwentTracker/data/northernrealms.yml:9 -> Card.npc
+msgid "Haddy"
+msgstr "哈弟"
+
+#: src/GwentTracker/data/northernrealms.yml:16 -> Card.name
+msgid "John Natalis"
+msgstr "約翰‧納塔利斯"
+
+#: src/GwentTracker/data/northernrealms.yml:17 -> Card.flavor
+msgid "That square should bear the names of my soldiers, of the dead. Not mine."
+msgstr "「那座廣場應該以我手下死去的士兵命名，不該以我起名。」"
+
+#: src/GwentTracker/data/northernrealms.yml:22 -> Card.npc
+msgid "Ravvy"
+msgstr "拉比"
+
+#: src/GwentTracker/data/northernrealms.yml:29 -> Card.name
+msgid "Esterad Thyssen"
+msgstr "伊斯特拉德‧帝森"
+
+#: src/GwentTracker/data/northernrealms.yml:30 -> Card.flavor
+msgid "Like all Thyssen men, he was tall, powerfully built and criminally handsome."
+msgstr "「他跟所有蒂森的男人一樣，又高又結實，還帥得犯法。」"
+
+#: src/GwentTracker/data/northernrealms.yml:35 -> Card.npc
+msgid "Dijkstra"
+msgstr "迪科斯徹"
+
+#: src/GwentTracker/data/northernrealms.yml:36 -> Card.area
+msgid "Bathhouse"
+msgstr ""
+
+#: src/GwentTracker/data/northernrealms.yml:42 -> Card.name
+msgid "Philippa Eilhart"
+msgstr "菲麗芭‧艾哈特"
+
+#: src/GwentTracker/data/northernrealms.yml:43 -> Card.flavor
+msgid "Soon the power of kings will wither, and the Lodge shall seize its rightful place."
+msgstr "「國王的勢力很快就會凋零，集會所很快就會奪權。」"
+
+#: src/GwentTracker/data/northernrealms.yml:55 -> Card.flavor
+msgid "Fuck off! We aren't all ploughin' philanderers. Some of us have depth..."
+msgstr "「滾開！不是所有人都愛調戲女人，有些人是有深度的…」"
+
+#: src/GwentTracker/data/northernrealms.yml:66 -> Card.name
+msgid "Ves"
+msgstr "薇絲"
+
+#: src/GwentTracker/data/northernrealms.yml:67 -> Card.flavor
+msgid "Better to live one day as a king than a whole life as a beggar."
+msgstr "「過一天帝王的生活比過一輩子乞丐的生活還好。」"
+
+#: src/GwentTracker/data/northernrealms.yml:73 -> Card.name
+msgid "Siegfried of Denesle"
+msgstr "丹索的齊格菲"
+
+#: src/GwentTracker/data/northernrealms.yml:74 -> Card.flavor
+msgid "We're on the same side, witcher. You'll realize this one day."
+msgstr "「和平說起來容易，維持起來很困難。」"
+
+#: src/GwentTracker/data/northernrealms.yml:80 -> Card.name
+msgid "Yarpen Zigrin"
+msgstr "亞爾潘‧齊格林"
+
+#: src/GwentTracker/data/northernrealms.yml:81 -> Card.flavor
+msgid "The world belongs to whoever's best at crackin' skulls and impregnatin' lasses."
+msgstr "「…然後我告訴她，小姐，我還從比你淺的洞裡挖過鐵礦咧！」"
+
+#: src/GwentTracker/data/northernrealms.yml:87 -> Card.name
+msgid "Sigismund Dijkstra"
+msgstr "西吉斯蒙德‧迪科斯徹"
+
+#: src/GwentTracker/data/northernrealms.yml:88 -> Card.flavor
+msgid "Gwent's like politics, just more honest."
+msgstr "「昆特牌就像政治，只是牌桌上老實了點。」"
+
+#: src/GwentTracker/data/northernrealms.yml:93 -> Card.npc
+msgid "Bloody Baron"
+msgstr "血腥男爵"
+
+#: src/GwentTracker/data/northernrealms.yml:100 -> Card.name
+msgid "Keira Metz"
+msgstr "凱拉‧梅茲"
+
+#: src/GwentTracker/data/northernrealms.yml:101 -> Card.flavor
+msgid "If I'm to die today, I wish to look smashing for the occasion."
+msgstr "「如果今天是我死的日子，我想要光鮮亮麗地離開。」"
+
+#: src/GwentTracker/data/northernrealms.yml:107 -> Card.name
+msgid "Síle de Tansarville"
+msgstr "席兒‧坦沙維耶"
+
+#: src/GwentTracker/data/northernrealms.yml:108 -> Card.flavor
+msgid "The Lodge lacks humility. Our lust for power may yet be our undoing."
+msgstr "「集會所不懂得羞恥。菲麗芭對權力的渴望可能會使我們功虧一簣。」"
+
+#: src/GwentTracker/data/northernrealms.yml:114 -> Card.name
+msgid "Sabrina Glevissig"
+msgstr "薩賓娜‧葛麗維希格"
+
+#: src/GwentTracker/data/northernrealms.yml:115 -> Card.flavor
+msgid "The Daughter of the Kaedweni Wilderness."
+msgstr "「科德溫荒野的女兒。」"
+
+#: src/GwentTracker/data/northernrealms.yml:121 -> Card.name
+msgid "Sheldon Skaggs"
+msgstr "雪爾登‧史卡格"
+
+#: src/GwentTracker/data/northernrealms.yml:122 -> Card.flavor
+msgid "I was there, on the front lines! Right where the fightin' was the thickest!"
+msgstr "「我當時就在前線！就在交戰最猛烈的地方！」"
+
+#: src/GwentTracker/data/northernrealms.yml:128 -> Card.name
+msgid "Dethmold"
+msgstr "戴斯摩"
+
+#: src/GwentTracker/data/northernrealms.yml:129 -> Card.flavor
+msgid "I once made a prisoner vomit his own entrails… Ah, good times…"
+msgstr "「我有一次讓一個囚犯吐到腸子都出來了…啊，真是美好的回憶…」"
+
+#: src/GwentTracker/data/northernrealms.yml:135 -> Card.name
+msgid "Prince Stennis"
+msgstr "史登尼斯王子"
+
+#: src/GwentTracker/data/northernrealms.yml:136 -> Card.flavor
+msgid "He ploughin' wears golden armor. Golden. ‘Course he's an arsehole."
+msgstr "「他穿著他媽的金色護甲。金色的，因為他是個大混帳。」"
+
+#: src/GwentTracker/data/northernrealms.yml:142 -> Card.name
+msgid "Trebuchet"
+msgstr "拋石機"
+
+#: src/GwentTracker/data/northernrealms.yml:143 -> Card.flavor
+msgid "Castle won't batter itself down, now will it? Get them trebuchets rollin'!"
+msgstr "「城堡不會自己倒塌，沒錯吧？快去準備拋石機！」"
+
+#: src/GwentTracker/data/northernrealms.yml:156 -> Card.name
+msgid "Poor Fucking Infantry"
+msgstr "可憐的步兵"
+
+#: src/GwentTracker/data/northernrealms.yml:157 -> Card.flavor
+msgid "I's a war veteran! ... spare me a crown?"
+msgstr "「我是戰爭老兵！…賞我個克朗吧？」"
+
+#: src/GwentTracker/data/northernrealms.yml:182 -> Card.name
+msgid "Crinfrid Reavers Dragon Hunter"
+msgstr "欽弗里掠奪者巨龍獵人"
+
+#: src/GwentTracker/data/northernrealms.yml:183 -> Card.flavor
+msgid "Haven't had much luck with monsters of late, so we enlisted."
+msgstr "「最近獵怪物不太有收穫，所以我們入伍了。」"
+
+#: src/GwentTracker/data/northernrealms.yml:207 -> Card.name
+msgid "Redanian Foot Soldier"
+msgstr "瑞達尼亞步軍"
+
+#: src/GwentTracker/data/northernrealms.yml:208 -> Card.flavor
+msgid "I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!"
+msgstr "「我願意為瑞達尼亞而死，為瑞達尼亞殺人…甚至為瑞達尼亞吃蟲子！」"
+
+#: src/GwentTracker/data/northernrealms.yml:221 -> Card.name
+msgid "Catapult"
+msgstr "投石機"
+
+#: src/GwentTracker/data/northernrealms.yml:222 -> Card.flavor
+msgid "The gods help those who have better catapults."
+msgstr "「有好的投石機，上天才會幫助你。」"
+
+#: src/GwentTracker/data/northernrealms.yml:239 -> Card.name
+msgid "Kaedweni Siege Expert"
+msgstr "科德溫攻城專家"
+
+#: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
+msgid "You gotta recalibrate the arm by five degrees. Do what by the what now?"
+msgstr "「你要把準頭調整五度。」「你說什麼要什麼？」"
+
+#: src/GwentTracker/data/northernrealms.yml:246 -> Card.name
+msgid "Blue Stripes Commando"
+msgstr "藍衣鐵衛突擊隊"
+
+#: src/GwentTracker/data/northernrealms.yml:247 -> Card.flavor
+msgid "I'd do anything for Temeria. Mostly, though, I kill for her."
+msgstr "「我願意為泰莫利亞做任何事，不過大多時候都是在殺人。」"
+
+#: src/GwentTracker/data/northernrealms.yml:260 -> Card.name
+msgid "Siege Tower"
+msgstr "攻城塔"
+
+#: src/GwentTracker/data/northernrealms.yml:261 -> Card.flavor
+msgid "I love the clamor of siege towers in the morning. Sounds like victory."
+msgstr "「我最愛早上聽到攻城塔的吵鬧聲，聽起來勢在必得。」"
+
+#: src/GwentTracker/data/northernrealms.yml:272 -> Card.name
+msgid "Dun Banner Medic"
+msgstr "褐旗營醫生"
+
+#: src/GwentTracker/data/northernrealms.yml:273 -> Card.flavor
+msgid "Stitch red to red, white to white, and everything will be all right."
+msgstr "「紅縫紅，白縫白，一切肯定沒問題。」"
+
+#: src/GwentTracker/data/northernrealms.yml:279 -> Card.name
+msgid "Foltest King of Temeria"
+msgstr "弗爾泰斯特 泰莫利亞之王"
+
+#: src/GwentTracker/data/northernrealms.yml:280 -> Card.flavor
+msgid "It is natural and beautiful that a man should love his sister."
+msgstr "「男人愛他的姊妹是件自然又美麗的事。」"
+
+#: src/GwentTracker/data/northernrealms.yml:286 -> Card.name
+msgid "Foltest Lord Commander of the North"
+msgstr "弗爾泰斯特 北方的指揮領主"
+
+#: src/GwentTracker/data/northernrealms.yml:287 -> Card.flavor
+msgid "Sod advisors and their schemes. I place my trust in my soldiers' blades."
+msgstr "別管那些顧問和他們的計畫了。我相信我的士兵。」"
+
+#: src/GwentTracker/data/northernrealms.yml:298 -> Card.name
+msgid "Foltest the Siegemaster"
+msgstr "攻城之王弗爾泰斯特"
+
+#: src/GwentTracker/data/northernrealms.yml:299 -> Card.flavor
+msgid "A well-aimed ballista razes not just the enemy's walls, but his morale as well."
+msgstr "「瞄準得好的床弩不只可以打壞敵人的牆壁，還可以擊倒他的士氣。」"
+
+#: src/GwentTracker/data/northernrealms.yml:303 -> Card.npc
+msgid "Nilfgaardian Nobleman"
+msgstr "尼弗迦德貴族"
+
+#: src/GwentTracker/data/northernrealms.yml:306 -> Card.region
+msgid "Royal Palace in Vizima"
+msgstr "維吉瑪皇家城堡"
+
+#: src/GwentTracker/data/northernrealms.yml:310 -> Card.name
+msgid "Foltest the Steel-Forged"
+msgstr "鋼鐵之心弗爾泰斯特"
+
+#: src/GwentTracker/data/northernrealms.yml:311 -> Card.flavor
+msgid "A beautiful day for battle."
+msgstr "「真是適合開戰的美好天氣。」"
+
+#: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
+msgid "Scoia'tael"
+msgstr ""
+
+#: src/GwentTracker/data/scoiatael.yml:3 -> Card.name
+msgid "Eithné"
+msgstr "埃絲涅"
+
+#: src/GwentTracker/data/scoiatael.yml:4 -> Card.flavor
+msgid "The dryad queen has eyes of molten silver, and a heart of cold-forged steel."
+msgstr "「樹精皇后有著熔銀做成的眼睛，冰冷鑄鋼的心臟。」"
+
+#: src/GwentTracker/data/scoiatael.yml:10 -> Card.area
+msgid "Rosemary and Thyme"
+msgstr "香草旅館"
+
+#: src/GwentTracker/data/scoiatael.yml:16 -> Card.name
+msgid "Saesenthessis"
+msgstr "薩琪亞薩司"
+
+#: src/GwentTracker/data/scoiatael.yml:17 -> Card.flavor
+msgid "Beautiful, pure, fierce - the perfect icon for a rebellion."
+msgstr "「漂亮純潔又兇狠，是叛亂的絕佳象徵。"
+
+#: src/GwentTracker/data/scoiatael.yml:23 -> Card.area
+msgid "Temerian Partisan Hideout"
+msgstr "泰莫利亞游擊隊藏身處"
+
+#: src/GwentTracker/data/scoiatael.yml:29 -> Card.name
+msgid "Isengrim Faolitarna"
+msgstr "伊森格林‧法歐提亞納"
+
+#: src/GwentTracker/data/scoiatael.yml:30 -> Card.flavor
+msgid "It dawns on them once they notice my scar: a realization of imminent death."
+msgstr "「他們一看到我的疤就知道了：這下子死定了。」"
+
+#: src/GwentTracker/data/scoiatael.yml:36 -> Card.area
+msgid "Zed's Home"
+msgstr ""
+
+#: src/GwentTracker/data/scoiatael.yml:42 -> Card.name
+msgid "Iorveth"
+msgstr "伊歐菲斯"
+
+#: src/GwentTracker/data/scoiatael.yml:43 -> Card.flavor
+msgid "King or beggar, what's the difference? One dh'oine less."
+msgstr "「就只有一隻眼睛的人來說，他的準頭真有夠準。」"
+
+#: src/GwentTracker/data/scoiatael.yml:48 -> Card.npc
+msgid "Druid"
+msgstr "德魯伊"
+
+#: src/GwentTracker/data/scoiatael.yml:55 -> Card.name
+msgid "Dennis Cranmer"
+msgstr "丹尼斯‧克藍莫"
+
+#: src/GwentTracker/data/scoiatael.yml:56 -> Card.flavor
+msgid "I know how to carry out orders, so you can shove you advice up your coal chute."
+msgstr "「我知道怎麼聽命行事，不用你的指導了。」"
+
+#: src/GwentTracker/data/scoiatael.yml:67 -> Card.name
+msgid "Milva"
+msgstr "米爾瓦"
+
+#: src/GwentTracker/data/scoiatael.yml:68 -> Card.flavor
+msgid "With each arrow I loose, I think of my da. He'd be proud. I think."
+msgstr "「每射一枝箭，我都會想到我爸。他肯定會以我為傲，應該吧。」"
+
+#: src/GwentTracker/data/scoiatael.yml:81 -> Card.name
+msgid "Ida Emean aep Sivney"
+msgstr "艾達‧艾敏"
+
+#: src/GwentTracker/data/scoiatael.yml:82 -> Card.flavor
+msgid "I am a Sage. My power lies in possessing knowledge. Not sharing it."
+msgstr "「我是個賢者。我有力量是因為我擁有知識，不是因為我愛傳授知識給別人。」"
+
+#: src/GwentTracker/data/scoiatael.yml:93 -> Card.name
+msgid "Filavandrel aén Fidháil"
+msgstr "費拉萬卓列"
+
+#: src/GwentTracker/data/scoiatael.yml:94 -> Card.flavor
+msgid "Though we are now few and scattered, our hearts burn brighter than ever."
+msgstr "「雖然我們現在人數稀少、又分散各地，我們的心比以往還要閃耀。」"
+
+#: src/GwentTracker/data/scoiatael.yml:105 -> Card.name
+msgid "Yaevinn"
+msgstr "亞伊文"
+
+#: src/GwentTracker/data/scoiatael.yml:106 -> Card.flavor
+msgid "We are the drops of rain that together make a ferocious storm."
+msgstr "「我們是雨滴，同心協力就能變成暴風雨。」"
+
+#: src/GwentTracker/data/scoiatael.yml:111 -> Card.npc
+msgid "Sjusta"
+msgstr "蘇斯塔"
+
+#: src/GwentTracker/data/scoiatael.yml:118 -> Card.name
+msgid "Toruviel"
+msgstr "托魯維爾"
+
+#: src/GwentTracker/data/scoiatael.yml:119 -> Card.flavor
+msgid "I'd gladly kill you from up close, stare in your eyes… But you reek, human."
+msgstr "「我很樂意近距離把你給殺了，直視著你的雙眼…但你臭死了，人類。」"
+
+#: src/GwentTracker/data/scoiatael.yml:130 -> Card.name
+msgid "Riordain"
+msgstr "李歐丹恩"
+
+#: src/GwentTracker/data/scoiatael.yml:131 -> Card.flavor
+msgid "Stare into their eyes, feast on their terror. Then go in for the kill."
+msgstr "「直視他們的眼睛，激起他們的恐懼，然後大開殺戒。」"
+
+#: src/GwentTracker/data/scoiatael.yml:142 -> Card.name
+msgid "Ciaran aep Easnillien"
+msgstr "席朗‧依斯尼藍"
+
+#: src/GwentTracker/data/scoiatael.yml:143 -> Card.flavor
+msgid "The path to freedom is paved in blood, not ink."
+msgstr "「要走向自由，就要靠流血，不是靠外交。」"
+
+#: src/GwentTracker/data/scoiatael.yml:154 -> Card.name
+msgid "Barclay Els"
+msgstr "巴克萊‧艾爾斯"
+
+#: src/GwentTracker/data/scoiatael.yml:155 -> Card.flavor
+msgid "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!"
+msgstr "「我們的蜂蜜酒聞起來像尿是吧？這簡單，我把你他媽的鼻子扭斷就行了！"
+
+#: src/GwentTracker/data/scoiatael.yml:166 -> Card.name
+msgid "Havekar Smuggler"
+msgstr "私梟支援"
+
+#: src/GwentTracker/data/scoiatael.yml:167 -> Card.flavor
+msgid "I fight for whoever's paying the best. Or whoever's easiest to rob."
+msgstr "「我願意為了付最多錢的人戰鬥，最容易搶的傢伙也行。」"
+
+#: src/GwentTracker/data/scoiatael.yml:202 -> Card.name
+msgid "Vrihedd Brigade Veteran"
+msgstr "維里赫德旅"
+
+#: src/GwentTracker/data/scoiatael.yml:203 -> Card.flavor
+msgid "'Vrihedd? What's that mean?' 'Trouble.'"
+msgstr "「『維里赫德？那是什麼意思？』『麻煩。』」"
+
+#: src/GwentTracker/data/scoiatael.yml:226 -> Card.name
+msgid "Dol Blathanna Scout"
+msgstr "多爾布雷坦納偵察兵"
+
+#: src/GwentTracker/data/scoiatael.yml:227 -> Card.flavor
+msgid "They track like hounds, run like deer and kill like cold-hearted bastards."
+msgstr "「他們能像獵犬一樣追蹤，像鹿一樣奔跑，像個冷血混帳一樣下殺手。」"
+
+#: src/GwentTracker/data/scoiatael.yml:262 -> Card.name
+msgid "Dwarven Skirmisher"
+msgstr "矮人好鬥份子"
+
+#: src/GwentTracker/data/scoiatael.yml:263 -> Card.flavor
+msgid "Worked a pickaxe all me life. Battleaxe won't be any trouble."
+msgstr "「我揮鐵鎬揮了一輩子，要我揮戰斧沒什麼問題。」"
+
+#: src/GwentTracker/data/scoiatael.yml:298 -> Card.name
+msgid "Mahakaman Defender"
+msgstr "瑪哈坎守護者"
+
+#: src/GwentTracker/data/scoiatael.yml:299 -> Card.flavor
+msgid "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+msgstr "「我告訴你，我們是天生作戰好手，要砍就朝著膝蓋砍！」"
+
+#: src/GwentTracker/data/scoiatael.yml:358 -> Card.name
+msgid "Elven Skirmisher"
+msgstr "精靈好鬥份子"
+
+#: src/GwentTracker/data/scoiatael.yml:359 -> Card.flavor
+msgid "No matter what you may have heard, elves don't take human scalps. Too much lice."
+msgstr "「別再亂跳了，你這臭長耳朵的，這樣我射不準！」"
+
+#: src/GwentTracker/data/scoiatael.yml:394 -> Card.name
+msgid "Vrihedd Brigade Recruit"
+msgstr "維里赫德見習生"
+
+#: src/GwentTracker/data/scoiatael.yml:395 -> Card.flavor
+msgid "Hatred burns brighter than any fire, and cuts deeper than any blade."
+msgstr "「恨意比所有火焰都還明亮，比任何刀刃都還鋒利。」"
+
+#: src/GwentTracker/data/scoiatael.yml:406 -> Card.name
+msgid "Dol Blathanna Archer"
+msgstr "多爾布雷坦納弓箭手"
+
+#: src/GwentTracker/data/scoiatael.yml:407 -> Card.flavor
+msgid "Take another step, dh'oine. You'd look better with an arrow between your eyes."
+msgstr "「再往前踏一步啊，人類。你額頭上插根箭肯定好看多了。」"
+
+#: src/GwentTracker/data/scoiatael.yml:418 -> Card.name
+msgid "Havekar Healer"
+msgstr "私梟醫生"
+
+#: src/GwentTracker/data/scoiatael.yml:419 -> Card.flavor
+msgid "Sure, I'll patch you up. Gonna cost you, though."
+msgstr "「沒問題，我能幫你治療。不過要花你一大筆錢就是了。」"
+
+#: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
+msgid "Francesca Findabair Pureblood Elf"
+msgstr "法蘭茜絲卡‧芬達貝 純種精靈"
+
+#: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
+msgid "Ash shall fertilize the soil. By spring, the valley shall bloom once more."
+msgstr "「多爾布雷坦納必須繼續保持獨立，做為艾恩‧西迪精靈的避風港。」"
+
+#: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
+msgid "Francesca Findabair Daisy of the Valley"
+msgstr "法蘭茜絲卡‧芬達貝 山谷雛菊"
+
+#: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
+msgid "The Elder Races have forgotten more than humans can ever hope to know."
+msgstr "「古老種族遺忘的事情甚至比人類想知道的事情還多。」"
+
+#: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
+msgid "Francesca Findabair the Beautiful"
+msgstr "法蘭茜絲卡‧芬達貝 美貌過人"
+
+#: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
+msgid "Do not let my beauty distract your aim."
+msgstr "「別讓我的美貌使你失準了！」"
+
+#: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
+msgid "Francesca Findabair Queen of Dol Blathanna"
+msgstr "法蘭茜絲卡‧芬達貝 多爾布雷坦納女王"
+
+#: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
+msgid "To live in peace, we first must kill. This is human oppression's cruel finale."
+msgstr "「要爭取和平就必須先殺謬。人類的壓迫就到此劃下殘忍的據點。」"
