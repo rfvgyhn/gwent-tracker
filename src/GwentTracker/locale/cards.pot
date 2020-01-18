@@ -8,6 +8,10 @@ msgstr ""
 msgid "Velen"
 msgstr ""
     
+#: src/GwentTracker/data/missable.yml:4 -> Card.questName
+msgid "Boatmakers' Hut Person in Distress"
+msgstr ""
+    
 #: src/GwentTracker/data/missable.yml:5 -> Card.cutoff
 msgid "None"
 msgstr ""
@@ -60,6 +64,10 @@ msgstr ""
 msgid "Draug"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:5 -> Card.flavor
+msgid "Some men cannot admit defeat. Some keep fighting from beyond the grave."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:6 -> Card.type
 msgid "Hero"
 msgstr ""
@@ -84,6 +92,10 @@ msgstr ""
 msgid "Kayran"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
+msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:20 -> Card.type
 msgid "Win from NPC"
 msgstr ""
@@ -96,8 +108,16 @@ msgstr ""
 msgid "Imlerith"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:29 -> Card.flavor
+msgid "Ladd nahw! Kill them! Litter the earth with their entrails!"
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:40 -> Card.name
 msgid "Leshen"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:41 -> Card.flavor
+msgid "We never hunt in these woods. Not even if it means the whole village starves."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:45 -> Card.npc
@@ -112,12 +132,20 @@ msgstr ""
 msgid "Forktail"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:53 -> Card.flavor
+msgid "Fork tails… Bah! Fuckers' tails're more like cleavers."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:54 -> Card.type
 msgid "Unit"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:64 -> Card.name
 msgid "Earth Elemental"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
+msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:68 -> Card.type
@@ -128,8 +156,20 @@ msgstr ""
 msgid "Innkeeper"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:70 -> Card.area
+msgid "New Port Inn"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:71 -> Card.territory
+msgid "Kaer Trolde Harbor"
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:76 -> Card.name
 msgid "Fiend"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:77 -> Card.flavor
+msgid "A fiend looks a bit like a deer. An enormous, evil deer."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:82 -> Card.area
@@ -140,12 +180,24 @@ msgstr ""
 msgid "Plague Maiden"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:89 -> Card.flavor
+msgid "The sick rave about a boil-pocked woman surrounded by herds of rabid rats…"
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:100 -> Card.name
 msgid "Griffin"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:101 -> Card.flavor
+msgid "Griffins like to toy with their prey. Eat 'em alive, piece by piece."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:112 -> Card.name
 msgid "Werewolf"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:113 -> Card.flavor
+msgid "Wolves aren't as bad as they say. Werewolves, though - they're worse."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:118 -> Card.area
@@ -160,16 +212,24 @@ msgstr ""
 msgid "Botchling"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:131 -> Card.territory
-msgid "Ard Skellige"
+#: src/GwentTracker/data/monsters.yml:125 -> Card.flavor
+msgid "Admit your mistakes and bury them proper - else they'll come back to haunt you."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:136 -> Card.name
 msgid "Frightener"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:137 -> Card.flavor
+msgid "'What have I done?' the mage cried out, frightened of his own creation."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:148 -> Card.name
 msgid "Ice Giant"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:149 -> Card.flavor
+msgid "Fled one time in my life. From the Ice Giant. And I'm not a bit ashamed."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:154 -> Card.area
@@ -184,8 +244,16 @@ msgstr ""
 msgid "Endrega"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:161 -> Card.flavor
+msgid "The nest! Take out the nest, or the bastards'll just keep coming!"
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:172 -> Card.name
 msgid "Harpy"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:173 -> Card.flavor
+msgid "There are many species of harpy, and all are kleptomaniacs."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:178 -> Card.area
@@ -200,44 +268,88 @@ msgstr ""
 msgid "Cockatrice"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:185 -> Card.flavor
+msgid "Born of an egg laid by a cockerel... if you believe such peasant drivel."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:196 -> Card.name
 msgid "Gargoyle"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:197 -> Card.flavor
+msgid "Ancient sculptors' nightmarish fantasies, brought to life by bored mages."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:208 -> Card.name
 msgid "Celaeno Harpy"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:209 -> Card.flavor
+msgid "Common harpies feed on carrion. Celaeno harpies… they feed on dreams."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:220 -> Card.name
 msgid "Grave Hag"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:221 -> Card.flavor
+msgid "Their long tongues're for slurping marrow - and whipping prey."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:232 -> Card.name
 msgid "Fire Elemental"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:233 -> Card.flavor
+msgid "Fire is so delightful."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:244 -> Card.name
 msgid "Foglet"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:245 -> Card.flavor
+msgid "Fog creeps on little cat feet. Foglets creep over the bodies of their victims."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:256 -> Card.name
 msgid "Wyvern"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:257 -> Card.flavor
+msgid "Imagine a cross between a winged snake and a nightmare. Wyverns are worse."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:268 -> Card.name
 msgid "Arachas Behemoth"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:269 -> Card.flavor
+msgid "Like a cross between a crab, a spider… and a ploughin' mountain."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:280 -> Card.name
 msgid "Arachas"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:281 -> Card.flavor
+msgid "Ugly - nature's way of saying 'Stay the fuck away.'"
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:316 -> Card.name
 msgid "Nekker"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:317 -> Card.flavor
+msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:320 -> Card.type
 msgid "Secondary Quest"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:322 -> Card.npc
+msgid "Hammond's corpse"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:323 -> Card.area
@@ -248,16 +360,32 @@ msgstr ""
 msgid "Vampire: Ekimmara"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:354 -> Card.flavor
+msgid "Who would think overgrown bats would have a taste for gaudy jewelry?"
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:365 -> Card.name
 msgid "Vampire: Fleder"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:366 -> Card.flavor
+msgid "Higher vampires embrace their victims. Fleders rip them to shreds."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:377 -> Card.name
 msgid "Vampire: Garkain"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:378 -> Card.flavor
+msgid "Blood-drinkers and corpse-eaters so foul their very ugliness paralyses foes."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:389 -> Card.name
 msgid "Vampire: Bruxa"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:390 -> Card.flavor
+msgid "A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:399 -> Card.notes
@@ -266,6 +394,10 @@ msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:403 -> Card.name
 msgid "Vampire: Katakan"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:404 -> Card.flavor
+msgid "Drinking the blood of the Continent since the Conjunction."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:408 -> Card.npc
@@ -280,12 +412,28 @@ msgstr ""
 msgid "Ghoul"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:416 -> Card.flavor
+msgid "If ghouls are part of the Circle of Life... then it's a damn vicious circle."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:451 -> Card.name
 msgid "Crone: Brewess"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:452 -> Card.flavor
+msgid "We'll cut you up, boy. A fine broth you will make."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:463 -> Card.name
 msgid "Crone: Weavess"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:464 -> Card.flavor
+msgid "I sense your pain. I see your fear…"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:469 -> Card.npc
+msgid "Old Sage"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:470 -> Card.area
@@ -296,8 +444,16 @@ msgstr ""
 msgid "Crone: Whispess"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:477 -> Card.flavor
+msgid "I'd be your best - and last."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
 msgid "Eredin King of the Wild Hunt"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
+msgid "I've long awaited this..."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
@@ -312,20 +468,28 @@ msgstr ""
 msgid "Eredin Commander of the Red Riders"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:501 -> Card.area
-msgid "The New Port"
+#: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
+msgid "Have some dignity. You know how this will end."
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:502 -> Card.territory
-msgid "Kaer Trolde Harbor"
+#: src/GwentTracker/data/monsters.yml:501 -> Card.area
+msgid "The New Port"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
 msgid "Eredin Destroyer of Worlds"
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
+msgid "It is unavoidable."
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
 msgid "Eredin Bringer of Death"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
+msgid "Go on. Show me your spins, pirouettes and feints. I want to watch."
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:528 -> Card.territory
@@ -340,6 +504,10 @@ msgstr ""
 msgid "Decoy"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:4 -> Card.flavor
+msgid "When you run out of peasants, decoys also make decent arrow fodder."
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:5 -> Card.type
 msgid "Special"
 msgstr ""
@@ -352,12 +520,28 @@ msgstr ""
 msgid "White Orchard"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:14 -> Card.npc
+msgid "Quartermaster"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:16 -> Card.territory
+msgid "Crow's Perch"
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:21 -> Card.area
 msgid "Seven Cats Inn"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:22 -> Card.territory
 msgid "Gustfields"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:27 -> Card.name
+msgid "Commander's Horn"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:28 -> Card.flavor
+msgid "Plus one to morale, minus three to hearing."
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:33 -> Card.area
@@ -380,6 +564,10 @@ msgstr ""
 msgid "Scorch"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:52 -> Card.flavor
+msgid "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe."
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:57 -> Card.area
 msgid "Cunny of the Goose"
 msgstr ""
@@ -388,28 +576,44 @@ msgstr ""
 msgid "Grassy Knoll"
 msgstr ""
     
-#: src/GwentTracker/data/neutral.yml:63 -> Card.area
-msgid "New Port Inn"
-msgstr ""
-    
 #: src/GwentTracker/data/neutral.yml:75 -> Card.name
 msgid "Biting Frost"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
+msgid "Best part about frost - bodies of the fallen don't rot so quickly."
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:89 -> Card.name
 msgid "Impenetrable Fog"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:90 -> Card.flavor
+msgid "A good commander's dream... a bad one's horror."
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:103 -> Card.name
 msgid "Torrential Rain"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:104 -> Card.flavor
+msgid "Even the rain in this land smells like piss."
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:116 -> Card.name
 msgid "Clear Weather"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:117 -> Card.flavor
+msgid "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…"
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:129 -> Card.name
 msgid "Geralt of Rivia"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:130 -> Card.flavor
+msgid "If that's what it takes to save the world, it's better to let that world die."
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:135 -> Card.npc
@@ -418,6 +622,10 @@ msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:142 -> Card.name
 msgid "Vesemir"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:143 -> Card.flavor
+msgid "If you're to be hanged, ask for water. Anything can happen before they fetch it."
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:148 -> Card.npc
@@ -436,6 +644,10 @@ msgstr ""
 msgid "Yennefer of Vengerberg"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:156 -> Card.flavor
+msgid "Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression."
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:161 -> Card.npc
 msgid "Stjepan"
 msgstr ""
@@ -444,12 +656,24 @@ msgstr ""
 msgid "Cirilla Fiona Elen Riannon"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:169 -> Card.flavor
+msgid "Know when fairy tales cease to be tales? When people start believing in them."
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:174 -> Card.npc
+msgid "Scoia’Tael Trader"
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:175 -> Card.area
 msgid "Novigrad Forest"
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:181 -> Card.name
 msgid "Triss Merigold"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:182 -> Card.flavor
+msgid "I can take care of myself. Trust me."
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:187 -> Card.npc
@@ -476,6 +700,10 @@ msgstr ""
 msgid "Dandelion"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:204 -> Card.flavor
+msgid "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend."
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:210 -> Card.area
 msgid "Vegelbud Residence"
 msgstr ""
@@ -488,6 +716,10 @@ msgstr ""
 msgid "Zoltan Chivay"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:218 -> Card.flavor
+msgid "Life without old mates and booze is like a woman without a rump."
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:222 -> Card.npc
 msgid "Scholar"
 msgstr ""
@@ -496,8 +728,24 @@ msgstr ""
 msgid "Emiel Regis Rohellec Terzieff"
 msgstr ""
     
+#: src/GwentTracker/data/neutral.yml:230 -> Card.flavor
+msgid "Men, the polite ones, at least, would call me a monster. A blood-drinking freak."
+msgstr ""
+    
 #: src/GwentTracker/data/neutral.yml:241 -> Card.name
 msgid "Villentretenmerth"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:242 -> Card.flavor
+msgid "Also calls himself Borkh Three Jackdaws… he's not the best at names."
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:253 -> Card.name
+msgid "Avallac'h"
+msgstr ""
+    
+#: src/GwentTracker/data/neutral.yml:254 -> Card.flavor
+msgid "You humans have… unusual tastes."
 msgstr ""
     
 #: src/GwentTracker/data/neutral.yml:259 -> Card.npc
@@ -512,6 +760,10 @@ msgstr ""
 msgid "Letho of Gulet"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:4 -> Card.flavor
+msgid "Witchers never die in their beds."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:9 -> Card.npc
 msgid "Boatwright"
 msgstr ""
@@ -524,12 +776,24 @@ msgstr ""
 msgid "Menno Coehoorn"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:17 -> Card.flavor
+msgid "I'll take an attentive reconnaissance unit over a fine cavalry brigade any day."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:29 -> Card.name
 msgid "Morvran Voorhis"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:30 -> Card.flavor
+msgid "Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:42 -> Card.name
 msgid "Tibor Eggebracht"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:43 -> Card.flavor
+msgid "Albaaaa! Forward!! Alba! Long live the Emperor!"
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:48 -> Card.npc
@@ -544,6 +808,10 @@ msgstr ""
 msgid "Albrich"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:56 -> Card.flavor
+msgid "A fireball? Of course. Whatever Your Imperial Majesty wishes."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:60 -> Card.npc
 msgid "Trader"
 msgstr ""
@@ -552,20 +820,36 @@ msgstr ""
 msgid "Assire var Anahid"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:68 -> Card.flavor
+msgid "Nilfgaardian mages do have a choice: servile submission, or the gallows."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:79 -> Card.name
 msgid "Cynthia"
 msgstr ""
     
-#: src/GwentTracker/data/nilfgaard.yml:84 -> Card.npc
-msgid "Quartermaster"
+#: src/GwentTracker/data/nilfgaard.yml:80 -> Card.flavor
+msgid "Cynthia's talents can be deadly. She needs a tight leash."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:91 -> Card.name
 msgid "Fringilla Vigo"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:92 -> Card.flavor
+msgid "Magic is the highest good. It transcends all borders and divisions."
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:98 -> Card.area
+msgid "Caesar Bilzen's home"
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:104 -> Card.name
 msgid "Morteisen"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:105 -> Card.flavor
+msgid "No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:109 -> Card.npc
@@ -580,6 +864,10 @@ msgstr ""
 msgid "Rainfarn"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:117 -> Card.flavor
+msgid "You'll die as painfully as that pathetic traitor Windhalm did."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:121 -> Card.npc
 msgid "Merchant"
 msgstr ""
@@ -592,6 +880,10 @@ msgstr ""
 msgid "Renuald aep Matsen"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:129 -> Card.flavor
+msgid "They say the Impera fear nothing. Untrue. Renuald scares them shitless."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:140 -> Card.name
 msgid "Rotten Mangonel"
 msgstr ""
@@ -600,12 +892,28 @@ msgstr ""
 msgid "The rotten smell brings back childhood memories"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:152 -> Card.name
+msgid "Shilard Fitz-Oesterlen"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:153 -> Card.flavor
+msgid "Warfare is mere sound and fury - diplomacy is what truly shapes history."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:164 -> Card.name
 msgid "Stefan Skellen"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:165 -> Card.flavor
+msgid "My mark scars the face of our future empress. That is my proudest achievement."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:176 -> Card.name
 msgid "Sweers"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:177 -> Card.flavor
+msgid "And hands off the girl! Whatever we may be, we're not savages."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:182 -> Card.area
@@ -620,20 +928,40 @@ msgstr ""
 msgid "Vanhemar"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:190 -> Card.flavor
+msgid "For a fire mage, he's not very… flamboyant."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:201 -> Card.name
 msgid "Vattier de Rideaux"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:202 -> Card.flavor
+msgid "There's never been a problem a well-planned assassination couldn't solve."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:213 -> Card.name
 msgid "Vreemde"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:214 -> Card.flavor
+msgid "Discipline is the Empire's deadliest weapon."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:225 -> Card.name
 msgid "Cahir Mawr Dyffryn aep Ceallach"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:226 -> Card.flavor
+msgid "His eyes flashed under his winged helmet. Fire gleamed from his sword's blade."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:237 -> Card.name
 msgid "Puttkammer"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:238 -> Card.flavor
+msgid "Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:246 -> Card.notes
@@ -644,36 +972,72 @@ msgstr ""
 msgid "Etolian Auxiliary Archers"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:251 -> Card.flavor
+msgid "Double or nothing, aim for his cock."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:275 -> Card.name
 msgid "Black Infantry Archer"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:276 -> Card.flavor
+msgid "I aim for the knee. Always."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:300 -> Card.name
 msgid "Heavy Zerrikanian Fire Scorpion"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:301 -> Card.flavor
+msgid "Not the best for taking cities, but great for razing them to the ground."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:312 -> Card.name
 msgid "Zerrikanian Fire Scorpion"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:313 -> Card.flavor
+msgid "The Zerrikanian Desert used to be a lush garden. Then these came along."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:324 -> Card.name
 msgid "Impera Brigade Guard"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:325 -> Card.flavor
+msgid "The Impera Brigade never surrenders. Ever."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:354 -> Card.name
 msgid "Nausicaa Cavalry Rider"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:355 -> Card.flavor
+msgid "The Emperor will teach the North discipline."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:378 -> Card.name
 msgid "Siege Engineer"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:379 -> Card.flavor
+msgid "Wielded correctly, a protractor can be a deadly weapon."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:390 -> Card.name
 msgid "Young Emissary"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:391 -> Card.flavor
+msgid "If I acquit myself well, perhaps next they'll post me somewhere civilized."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:414 -> Card.name
 msgid "Siege Technician"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:415 -> Card.flavor
+msgid "I never miss twice."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:420 -> Card.area
@@ -684,12 +1048,24 @@ msgstr ""
 msgid "Emhyr var Emreis His Imperial Majesty"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
+msgid "The skies wept when my Pavetta died. They will not weep for me."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
 msgid "Emhyr var Emreis Emperor of Nilfgaard"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
+msgid "Your motives do not interest me. Only results."
+msgstr ""
+    
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
 msgid "Emhyr var Emreis the White Flame"
+msgstr ""
+    
+#: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
+msgid "A sword is but one of many tools at a ruler's disposal."
 msgstr ""
     
 #: src/GwentTracker/data/nilfgaard.yml:455 -> Card.notes
@@ -700,12 +1076,20 @@ msgstr ""
 msgid "Emhyr var Emreis the Relentless"
 msgstr ""
     
+#: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
+msgid "They do not call me the Patient. Take care they do not call you the Headless."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
 msgid "Northern Realms"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:3 -> Card.name
 msgid "Vernon Roche"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:4 -> Card.flavor
+msgid "A patriot... and a real son of a bitch."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:9 -> Card.npc
@@ -716,12 +1100,20 @@ msgstr ""
 msgid "John Natalis"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:17 -> Card.flavor
+msgid "That square should bear the names of my soldiers, of the dead. Not mine."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:22 -> Card.npc
 msgid "Ravvy"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:29 -> Card.name
 msgid "Esterad Thyssen"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:30 -> Card.flavor
+msgid "Like all Thyssen men, he was tall, powerfully built and criminally handsome."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:35 -> Card.npc
@@ -736,20 +1128,44 @@ msgstr ""
 msgid "Philippa Eilhart"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:43 -> Card.flavor
+msgid "Soon the power of kings will wither, and the Lodge shall seize its rightful place."
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:55 -> Card.flavor
+msgid "Fuck off! We aren't all ploughin' philanderers. Some of us have depth..."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:66 -> Card.name
 msgid "Ves"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:67 -> Card.flavor
+msgid "Better to live one day as a king than a whole life as a beggar."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:73 -> Card.name
 msgid "Siegfried of Denesle"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:74 -> Card.flavor
+msgid "We're on the same side, witcher. You'll realize this one day."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:80 -> Card.name
 msgid "Yarpen Zigrin"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:81 -> Card.flavor
+msgid "The world belongs to whoever's best at crackin' skulls and impregnatin' lasses."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:87 -> Card.name
 msgid "Sigismund Dijkstra"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:88 -> Card.flavor
+msgid "Gwent's like politics, just more honest."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:93 -> Card.npc
@@ -760,72 +1176,144 @@ msgstr ""
 msgid "Keira Metz"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:101 -> Card.flavor
+msgid "If I'm to die today, I wish to look smashing for the occasion."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:107 -> Card.name
 msgid "Síle de Tansarville"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:108 -> Card.flavor
+msgid "The Lodge lacks humility. Our lust for power may yet be our undoing."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:114 -> Card.name
 msgid "Sabrina Glevissig"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:115 -> Card.flavor
+msgid "The Daughter of the Kaedweni Wilderness."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:121 -> Card.name
 msgid "Sheldon Skaggs"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:122 -> Card.flavor
+msgid "I was there, on the front lines! Right where the fightin' was the thickest!"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:128 -> Card.name
 msgid "Dethmold"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:129 -> Card.flavor
+msgid "I once made a prisoner vomit his own entrails… Ah, good times…"
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:135 -> Card.name
 msgid "Prince Stennis"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:136 -> Card.flavor
+msgid "He ploughin' wears golden armor. Golden. ‘Course he's an arsehole."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:142 -> Card.name
 msgid "Trebuchet"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:143 -> Card.flavor
+msgid "Castle won't batter itself down, now will it? Get them trebuchets rollin'!"
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:156 -> Card.name
 msgid "Poor Fucking Infantry"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:157 -> Card.flavor
+msgid "I's a war veteran! ... spare me a crown?"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:182 -> Card.name
 msgid "Crinfrid Reavers Dragon Hunter"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:183 -> Card.flavor
+msgid "Haven't had much luck with monsters of late, so we enlisted."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:207 -> Card.name
 msgid "Redanian Foot Soldier"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:208 -> Card.flavor
+msgid "I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:221 -> Card.name
 msgid "Catapult"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:222 -> Card.flavor
+msgid "The gods help those who have better catapults."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:239 -> Card.name
 msgid "Kaedweni Siege Expert"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
+msgid "You gotta recalibrate the arm by five degrees. Do what by the what now?"
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:246 -> Card.name
 msgid "Blue Stripes Commando"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:247 -> Card.flavor
+msgid "I'd do anything for Temeria. Mostly, though, I kill for her."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:260 -> Card.name
 msgid "Siege Tower"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:261 -> Card.flavor
+msgid "I love the clamor of siege towers in the morning. Sounds like victory."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:272 -> Card.name
 msgid "Dun Banner Medic"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:273 -> Card.flavor
+msgid "Stitch red to red, white to white, and everything will be all right."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:279 -> Card.name
 msgid "Foltest King of Temeria"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:280 -> Card.flavor
+msgid "It is natural and beautiful that a man should love his sister."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:286 -> Card.name
 msgid "Foltest Lord Commander of the North"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:287 -> Card.flavor
+msgid "Sod advisors and their schemes. I place my trust in my soldiers' blades."
+msgstr ""
+    
 #: src/GwentTracker/data/northernrealms.yml:298 -> Card.name
 msgid "Foltest the Siegemaster"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:299 -> Card.flavor
+msgid "A well-aimed ballista razes not just the enemy's walls, but his morale as well."
 msgstr ""
     
 #: src/GwentTracker/data/northernrealms.yml:303 -> Card.npc
@@ -836,8 +1324,24 @@ msgstr ""
 msgid "Royal Palace in Vizima"
 msgstr ""
     
+#: src/GwentTracker/data/northernrealms.yml:310 -> Card.name
+msgid "Foltest the Steel-Forged"
+msgstr ""
+    
+#: src/GwentTracker/data/northernrealms.yml:311 -> Card.flavor
+msgid "A beautiful day for battle."
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
+msgid "Scoia'tael"
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:3 -> Card.name
 msgid "Eithné"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:4 -> Card.flavor
+msgid "The dryad queen has eyes of molten silver, and a heart of cold-forged steel."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:10 -> Card.area
@@ -848,6 +1352,10 @@ msgstr ""
 msgid "Saesenthessis"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:17 -> Card.flavor
+msgid "Beautiful, pure, fierce - the perfect icon for a rebellion."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:23 -> Card.area
 msgid "Temerian Partisan Hideout"
 msgstr ""
@@ -856,8 +1364,20 @@ msgstr ""
 msgid "Isengrim Faolitarna"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:30 -> Card.flavor
+msgid "It dawns on them once they notice my scar: a realization of imminent death."
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:36 -> Card.area
+msgid "Zed's Home"
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:42 -> Card.name
 msgid "Iorveth"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:43 -> Card.flavor
+msgid "King or beggar, what's the difference? One dh'oine less."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:48 -> Card.npc
@@ -868,20 +1388,40 @@ msgstr ""
 msgid "Dennis Cranmer"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:56 -> Card.flavor
+msgid "I know how to carry out orders, so you can shove you advice up your coal chute."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:67 -> Card.name
 msgid "Milva"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:68 -> Card.flavor
+msgid "With each arrow I loose, I think of my da. He'd be proud. I think."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:81 -> Card.name
 msgid "Ida Emean aep Sivney"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:82 -> Card.flavor
+msgid "I am a Sage. My power lies in possessing knowledge. Not sharing it."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:93 -> Card.name
 msgid "Filavandrel aén Fidháil"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:94 -> Card.flavor
+msgid "Though we are now few and scattered, our hearts burn brighter than ever."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:105 -> Card.name
 msgid "Yaevinn"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:106 -> Card.flavor
+msgid "We are the drops of rain that together make a ferocious storm."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:111 -> Card.npc
@@ -892,66 +1432,134 @@ msgstr ""
 msgid "Toruviel"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:119 -> Card.flavor
+msgid "I'd gladly kill you from up close, stare in your eyes… But you reek, human."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:130 -> Card.name
 msgid "Riordain"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:131 -> Card.flavor
+msgid "Stare into their eyes, feast on their terror. Then go in for the kill."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:142 -> Card.name
 msgid "Ciaran aep Easnillien"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:143 -> Card.flavor
+msgid "The path to freedom is paved in blood, not ink."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:154 -> Card.name
 msgid "Barclay Els"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:155 -> Card.flavor
+msgid "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!"
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:166 -> Card.name
 msgid "Havekar Smuggler"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:167 -> Card.flavor
+msgid "I fight for whoever's paying the best. Or whoever's easiest to rob."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:202 -> Card.name
 msgid "Vrihedd Brigade Veteran"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:203 -> Card.flavor
+msgid "'Vrihedd? What's that mean?' 'Trouble.'"
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:226 -> Card.name
 msgid "Dol Blathanna Scout"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:227 -> Card.flavor
+msgid "They track like hounds, run like deer and kill like cold-hearted bastards."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:262 -> Card.name
 msgid "Dwarven Skirmisher"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:263 -> Card.flavor
+msgid "Worked a pickaxe all me life. Battleaxe won't be any trouble."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:298 -> Card.name
 msgid "Mahakaman Defender"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:299 -> Card.flavor
+msgid "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:358 -> Card.name
 msgid "Elven Skirmisher"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:359 -> Card.flavor
+msgid "No matter what you may have heard, elves don't take human scalps. Too much lice."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:394 -> Card.name
 msgid "Vrihedd Brigade Recruit"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:395 -> Card.flavor
+msgid "Hatred burns brighter than any fire, and cuts deeper than any blade."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:406 -> Card.name
 msgid "Dol Blathanna Archer"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:407 -> Card.flavor
+msgid "Take another step, dh'oine. You'd look better with an arrow between your eyes."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:418 -> Card.name
 msgid "Havekar Healer"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:419 -> Card.flavor
+msgid "Sure, I'll patch you up. Gonna cost you, though."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
 msgid "Francesca Findabair Pureblood Elf"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
+msgid "Ash shall fertilize the soil. By spring, the valley shall bloom once more."
 msgstr ""
     
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
 msgid "Francesca Findabair Daisy of the Valley"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
+msgid "The Elder Races have forgotten more than humans can ever hope to know."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
 msgid "Francesca Findabair the Beautiful"
 msgstr ""
     
+#: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
+msgid "Do not let my beauty distract your aim."
+msgstr ""
+    
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
 msgid "Francesca Findabair Queen of Dol Blathanna"
+msgstr ""
+    
+#: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
+msgid "To live in peace, we first must kill. This is human oppression's cruel finale."
 msgstr ""

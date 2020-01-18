@@ -67,8 +67,8 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: New Port Inn, Kaer Trolde Harbor
-            territory: Ard Skellig
+            area: New Port Inn
+            territory: Kaer Trolde Harbor
             region: Skellige
             coords: []
 -   index: 410
@@ -127,8 +127,8 @@
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
-            area: New Port Inn, Kaer Trolde Harbor
-            territory: Ard Skellige
+            area: New Port Inn
+            territory: Kaer Trolde Harbor
             region: Skellige
             coords: []
 -   index: 423
@@ -466,7 +466,7 @@
     locations:
         -   type: Gwent Quest
             quest: id# (Gwent- Velen Players)
-            npc: Seer (Old Sage)
+            npc: Old Sage
             area: Benek
             territory: 
             region: Velen

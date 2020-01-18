@@ -11,8 +11,8 @@
             region: White Orchard
             coords: []
         -   type: Buy from Trader
-            npc: 
-            area: Quartermaster's Baron's Store
+            npc: Quartermaster
+            area:
             territory: Crow's Perch
             region: Velen
             coords: []

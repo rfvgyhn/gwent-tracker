@@ -82,7 +82,7 @@
     locations:
         -   type: Buy from Trader
             npc: Quartermaster
-            area: Baron's Store
+            area:
             territory: Crow's Perch
             region: Velen
             coords: []
@@ -357,7 +357,7 @@
     locations:
         -   type: Buy from Trader
             npc: Quartermaster
-            area: Baron's Store
+            area:
             territory: Crow's Perch
             region: Velen
             coords: []

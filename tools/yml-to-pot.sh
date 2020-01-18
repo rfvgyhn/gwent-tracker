@@ -11,7 +11,7 @@ msgstr ""
 "X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
 EOF
 
-egrep -no '\s+\w+:\ "?[A-Za-z_ :]+"?$' ${source}/*.yml | \
+egrep -no '\s+\w+:\ [^0-9\[#/]+$' ${source}/*.yml | \
  sed 's/:/|/1;s//|/1;s//|/1' | \
  sed -r 's/"|(\|)\s+|\s+$/\1/g' | \
  cut -d '|' -f 1-4 | \
