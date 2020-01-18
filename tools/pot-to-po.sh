@@ -16,7 +16,7 @@ declare -A stringMap
 missing=()
 
 if [[ ${#@} = 0 ]]; then
-    locales=("ar" "cs" "de" "es" "es-mx" "fr" "hu" "it" "ja" "kr" "pl" "pt-br" "ru" "tr" "zh" "zh-cn")
+    locales=("ar" "cs" "de" "es" "es-mx" "fr" "hu" "it" "ja" "ko" "pl" "pt-br" "ru" "tr" "zh" "zh-cn")
 else
     locales=($@)
 fi
@@ -89,6 +89,7 @@ function getTranslation() {
         cs) locale="cz";;
         es-mx) locale="esMX";;
         ja) locale="jp";;
+        ko) locale="kr";;
         pt-br) locale="br";;
         zh-cn) locale="cn";;
     esac
