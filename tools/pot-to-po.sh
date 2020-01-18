@@ -89,6 +89,7 @@ function getTranslation() {
         cs) locale="cz";;
         es-mx) locale="esMX";;
         ja) locale="jp";;
+        ko) locale="kr";;
         pt-br) locale="br";;
         zh-cn) locale="cn";;
     esac
