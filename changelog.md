@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-01-18
+
 ### New Features
 
 #### Localization
@@ -38,7 +40,8 @@
 
 ## [0.1.0-alpha] - 2017-01-26
 
-[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.0.1...HEAD
+[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.1.1...HEAD
+[1.1.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v0.2.0-alpha...v1.0.0
 [0.2.0-alpha]: https://github.com/rfvgyhn/gwent-tracker/compare/v0.1.0-alpha...v0.2.0-alpha
