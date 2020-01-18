@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/GwentTracker/data/missable.yml:5 -> Card.cutoff
 msgid "None"
-msgstr ""
+msgstr "Keine"
 
 #: src/GwentTracker/data/missable.yml:8 -> Card.notes
 msgid "Purchase his cards in Claywich after freeing him from the Bandits' Camp."
@@ -145,7 +145,7 @@ msgstr "Einen Kayran töten? Bestes Schwert nehmen, verkaufen, Hexer anheuern."
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
-msgstr ""
+msgstr "Zufällig"
 
 #: src/GwentTracker/data/monsters.yml:28 -> Card.name
 msgid "Imlerith"
@@ -529,7 +529,7 @@ msgstr "Passiflora"
 
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
 msgid "Neutral"
-msgstr ""
+msgstr "Neutral"
 
 #: src/GwentTracker/data/neutral.yml:3 -> Card.name
 msgid "Decoy"
@@ -545,7 +545,7 @@ msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:9 -> Card.area
 msgid "Tavern"
-msgstr ""
+msgstr "Taverne"
 
 #: src/GwentTracker/data/neutral.yml:11 -> Card.region
 msgid "White Orchard"
