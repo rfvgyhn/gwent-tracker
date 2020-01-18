@@ -20,13 +20,17 @@ publish() {
     selfContained=$(get_xml "SelfContained" ${profilePath})
     compressedName="${folderName}_${version}_${runtime}"
     
+    pushd "tools"
+        ./compile-po.sh
+    popd
+    
     dotnet publish -c ${configuration} -f ${targetFramework} ${projPath} "/p:PublishProfile=${profile}"
     ln -s "$(pwd)/${publishDir}" "$(pwd)/${publishParentDir}/${compressedName}"
     
     pushd "${publishParentDir}"    
         case "$profile" in
             linux*)
-                sed -i "2s#.*#defaultSavePath=~/.local/share/Steam/steamapps/compatdata/292030/pfx/drive_c/users/steamuser/My Documents/The Witcher 3/gamesaves/#" "${folderName}/settings.ini"
+                sed -i "s:^defaultSavePath.*$:defaultSavePath=~/.local/share/Steam/steamapps/compatdata/292030/pfx/drive_c/users/steamuser/My Documents/The Witcher 3/gamesaves/:" "${folderName}/settings.ini"
                 tar -C "${compressedName}" -cvzf "${compressedName}.tar.gz" --transform="s/^\./${compressedName}/g" .
                 ;;
             windows)
@@ -41,7 +45,7 @@ publish() {
     rm "${publishParentDir}/${compressedName}"
 }
 
-rm -r dist/
+rm -rf dist/
 publish linux
 publish linux-selfcontained
 publish windows
