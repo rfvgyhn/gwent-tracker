@@ -73,7 +73,7 @@ msgstr "Дела государственной важности"
 
 #: src/GwentTracker/data/missable.yml:33 -> Card.notes
 msgid "Find Thaler by completing A Deadly Plot."
-msgstr "Найдите Талера, заполнив Смертельный заговор."
+msgstr "Найдите Талера, выполнив Смертельный заговор."
 
 #: src/GwentTracker/data/missable.yml:36 -> Card.questName
 msgid "A Dangerous Game"
