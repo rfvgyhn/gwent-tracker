@@ -21,11 +21,11 @@ msgstr ""
 
 #: src/GwentTracker/Views/MainWindow.xaml:71 -> TextBlock.Text
 msgid "Region: {0}"
-msgstr "Регион"
+msgstr "Регион: {0}"
 
 #: src/GwentTracker/Views/MainWindow.xaml:72 -> TextBlock.Text
 msgid "Cutoff: {0}"
-msgstr "Прекращено"
+msgstr "Завершение: {0}"
 
 #: src/GwentTracker/Views/MainWindow.xaml:81 -> FilterString.Watermark
 msgid "Filter"
