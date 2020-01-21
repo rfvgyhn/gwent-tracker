@@ -25,7 +25,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Ini" Version="3.1.0" />
     <PackageReference Include="NGettext" Version="0.6.5" />
     <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
-    <PackageReference Include="W3SavegameEditor.Core" Version="0.1.1" />
+    <PackageReference Include="W3SavegameEditor.Core" Version="0.2.1" />
     <PackageReference Include="YamlDotNet" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">

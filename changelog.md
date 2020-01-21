@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Bug Fixes
+ - Fix an issue when a save file has an unknown variable type the looks like a known variable type... again
+
 ## [1.1.0] - 2020-01-18
 
 ### New Features
