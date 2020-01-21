@@ -17,15 +17,15 @@ msgstr "Велен"
 
 #: src/GwentTracker/data/missable.yml:4 -> Card.questName
 msgid "Boatmakers' Hut Person in Distress"
-msgstr ""
+msgstr "Человек из хаты лодочных мастеров в беде"
 
 #: src/GwentTracker/data/missable.yml:5 -> Card.cutoff
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: src/GwentTracker/data/missable.yml:8 -> Card.notes
 msgid "Purchase his cards in Claywich after freeing him from the Bandits' Camp."
-msgstr ""
+msgstr "Купите его карты в Клейвиче после освобождения из лагеря бандитов."
 
 #: src/GwentTracker/data/missable.yml:10 -> Card.region
 msgid "Novigrad"
@@ -37,7 +37,7 @@ msgstr "Вопрос жизни и смерти"
 
 #: src/GwentTracker/data/missable.yml:15 -> Card.notes
 msgid "There'll be a small gwent tournament going on in the main courtyard where you'll need to win all the rounds to get all the cards."
-msgstr ""
+msgstr "В главном дворе будет небольшой гвинт-турнир, где вам нужно будет выиграть все раунды, чтобы получить все карты."
 
 #: src/GwentTracker/data/missable.yml:18 -> Card.questName
 msgid "High Stakes"
@@ -45,23 +45,23 @@ msgstr "Высокие ставки"
 
 #: src/GwentTracker/data/missable.yml:22 -> Card.notes
 msgid "If you leave the vicinity of Passiflora the quest will fail. Do not start the quest if you are unsure of winning the gwent matches. You will not be able to go and get more cards If you already signed up for the tournament."
-msgstr ""
+msgstr "Если вы покинете окрестности Пассифлоры, квест провалится. Не начинайте квест, если вы не уверены в победе в партиях гвинта. Вы не сможете пойти и получить больше карт, если вы уже зарегистрировались на турнир."
 
 #: src/GwentTracker/data/missable.yml:23 -> Card.notes
 msgid "Consider finishing the Old Pals and Big City Players quests to build a stronger deck before doing this quest."
-msgstr ""
+msgstr "Подумайте о том, чтобы завершить квесты Старые товарищи и Игроки Большого Города, чтобы построить более сильную колоду, прежде чем выполнять этот квест."
 
 #: src/GwentTracker/data/missable.yml:24 -> Card.notes
 msgid "You must win the tournament to get every card. Recommend saving before each game."
-msgstr ""
+msgstr "Вы должны выиграть турнир, чтобы получить все карты. Рекомендуем сохраняться перед каждой игрой."
 
 #: src/GwentTracker/data/missable.yml:25 -> Card.notes
 msgid "Save between wins. This quest is the only way to obtain all leader cards."
-msgstr ""
+msgstr "Сохраняйтесь между победами. Этот квест - единственный способ получить все карты лидеров."
 
 #: src/GwentTracker/data/missable.yml:26 -> Card.notes
 msgid "Sasha is the toughest opponent with her Nilfgaardian deck. She plays a very strong spy-themed deck which is also filled with high-strength unit cards and an entire roster of Nilfgaard and neutral heroes. Counter her with a lot of decoys and spy cards; keep the unit cards in the deck as close to 22 as possible and with the highest possible unit strength. The White Flame leader card is useful for countering her unique leader card which draws a unit card from the player's discard pile for her own use. It is HIGHLY RECOMMENDED players make a save if they wish to win the tournament outright, otherwise Sasha beats Tybalt in the final round. She can be romanced if Geralt agrees to her proposition."
-msgstr ""
+msgstr "Саха является, пожалуй, самым сильным противником за весь турнир. Она играет колодой Нильфгаарда, причем очень сильной. Здесь есть почти все героические карты фракции, а также множество обычных карт с силой 8, 9, 10. Начинает игру она практически всегда с чучелом, шпионом и несколькими геройскими картами в руке. Часто использует Мороз, так что ближние отряды будут менее эффективными. Разбираемся со шпионами с помощью чучел и целителей, убиваем отряды с большой атакой с помощью Казни или же режем им атаку погодными картами. НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ игрокам сделать сейв, если они хотят выиграть турнир сразу, иначе Саха обыграет Тибальта в финальном раунде. Она может влюбиться, если Геральт согласится на ее предложение."
 
 #: src/GwentTracker/data/missable.yml:29 -> Card.questName
 msgid "Gwent: Playing Thaler"
@@ -73,7 +73,7 @@ msgstr "Дела государственной важности"
 
 #: src/GwentTracker/data/missable.yml:33 -> Card.notes
 msgid "Find Thaler by completing A Deadly Plot."
-msgstr ""
+msgstr "Найдите Талера, выполнив Смертельный заговор."
 
 #: src/GwentTracker/data/missable.yml:36 -> Card.questName
 msgid "A Dangerous Game"
@@ -85,11 +85,11 @@ msgstr "Остров Туманов"
 
 #: src/GwentTracker/data/missable.yml:40 -> Card.notes
 msgid "Choose to keep the cards."
-msgstr ""
+msgstr "Выберите, чтобы сохранить карты."
 
 #: src/GwentTracker/data/missable.yml:41 -> Card.notes
 msgid "You can still get the cards later if you choose the gold. During The Great Escape, all 3 can be found on the prison commander's body after he's slain."
-msgstr ""
+msgstr "Вы все еще можете получить карты позже, если выберете золото. Во время задания Великий побег, все 3 карты можно найти на теле начальника тюрьмы после его убийства."
 
 #: src/GwentTracker/data/missable.yml:43 -> Card.region
 msgid "Skellige"
@@ -101,7 +101,7 @@ msgstr "Шоковая терапия"
 
 #: src/GwentTracker/data/missable.yml:48 -> Card.notes
 msgid "Complete this quest that can be started by talking to some druids in Ard Skellig."
-msgstr ""
+msgstr "Завершите этот квест, который можно начать, поговорив с некоторыми друидами в Ард Скеллиге."
 
 #: src/GwentTracker/data/monsters.yml:3 -> Card.deck
 msgid "Monsters"
@@ -121,7 +121,7 @@ msgstr "Герой"
 
 #: src/GwentTracker/data/monsters.yml:8 -> Card.notes
 msgid "type"
-msgstr ""
+msgstr "тип"
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
 msgid "Crach an Craite"
@@ -145,7 +145,7 @@ msgstr "Как убить кейрана? Легко. Берешь лучший 
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
-msgstr ""
+msgstr "Случайно"
 
 #: src/GwentTracker/data/monsters.yml:28 -> Card.name
 msgid "Imlerith"
@@ -193,11 +193,11 @@ msgstr "Как выжить при встрече с элементалем зе
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
-msgstr ""
+msgstr "Трактирщик"
 
 #: src/GwentTracker/data/monsters.yml:70 -> Card.area
 msgid "New Port Inn"
-msgstr ""
+msgstr "Корчма Новый порт"
 
 #: src/GwentTracker/data/monsters.yml:71 -> Card.territory
 msgid "Kaer Trolde Harbor"
@@ -385,7 +385,7 @@ msgstr "Мелкий, быстрый и зловредный."
 
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
-msgstr ""
+msgstr "Труп Хаммонда"
 
 #: src/GwentTracker/data/monsters.yml:323 -> Card.area
 msgid "Trottheim"
@@ -425,7 +425,7 @@ msgstr "На него глядели огромные, горящие, широ�
 
 #: src/GwentTracker/data/monsters.yml:399 -> Card.notes
 msgid "Win a match at the masquerade ball at Vegelbud Estate"
-msgstr ""
+msgstr "Выиграйте матч на бал-маскараде в поместье Вегельбуд"
 
 #: src/GwentTracker/data/monsters.yml:403 -> Card.name
 msgid "Vampire: Katakan"
@@ -505,7 +505,7 @@ msgstr "Держи себя в руках, Геральт. Ты же знаеш�
 
 #: src/GwentTracker/data/monsters.yml:501 -> Card.area
 msgid "The New Port"
-msgstr ""
+msgstr "Новый Порт"
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
 msgid "Eredin Destroyer of Worlds"
@@ -529,7 +529,7 @@ msgstr "Пассифлора"
 
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
 msgid "Neutral"
-msgstr ""
+msgstr "Нейтральный"
 
 #: src/GwentTracker/data/neutral.yml:3 -> Card.name
 msgid "Decoy"
@@ -541,11 +541,11 @@ msgstr "Пусть стреляют по крестьянам. А нет кре�
 
 #: src/GwentTracker/data/neutral.yml:5 -> Card.type
 msgid "Special"
-msgstr ""
+msgstr "Особый"
 
 #: src/GwentTracker/data/neutral.yml:9 -> Card.area
 msgid "Tavern"
-msgstr ""
+msgstr "Таверна"
 
 #: src/GwentTracker/data/neutral.yml:11 -> Card.region
 msgid "White Orchard"
@@ -565,7 +565,7 @@ msgstr "Корчма Семь котов"
 
 #: src/GwentTracker/data/neutral.yml:22 -> Card.territory
 msgid "Gustfields"
-msgstr ""
+msgstr "Золотые поля"
 
 #: src/GwentTracker/data/neutral.yml:27 -> Card.name
 msgid "Commander's Horn"
@@ -605,7 +605,7 @@ msgstr "Корчма Гусиная гузка"
 
 #: src/GwentTracker/data/neutral.yml:58 -> Card.territory
 msgid "Grassy Knoll"
-msgstr ""
+msgstr "Травянистый Холм"
 
 #: src/GwentTracker/data/neutral.yml:75 -> Card.name
 msgid "Biting Frost"
@@ -661,7 +661,7 @@ msgstr "Перед казнью попроси воды. Кто знает, чт
 
 #: src/GwentTracker/data/neutral.yml:148 -> Card.npc
 msgid "Vivaldi"
-msgstr ""
+msgstr "Вивальди"
 
 #: src/GwentTracker/data/neutral.yml:149 -> Card.area
 msgid "Vivaldi Bank"
@@ -693,11 +693,11 @@ msgstr "Знаешь, когда сказки перестают быть ска
 
 #: src/GwentTracker/data/neutral.yml:174 -> Card.npc
 msgid "Scoia’Tael Trader"
-msgstr ""
+msgstr "Скоя'Таэль Торговец"
 
 #: src/GwentTracker/data/neutral.yml:175 -> Card.area
 msgid "Novigrad Forest"
-msgstr ""
+msgstr "Новиградская пуща"
 
 #: src/GwentTracker/data/neutral.yml:181 -> Card.name
 msgid "Triss Merigold"
@@ -717,7 +717,7 @@ msgstr "Нигде"
 
 #: src/GwentTracker/data/neutral.yml:191 -> Card.notes
 msgid "Before the Following the Thead quest"
-msgstr ""
+msgstr "Перед квестом Клубок разматывается"
 
 #: src/GwentTracker/data/neutral.yml:198 -> Card.region
 msgid "Kaer Morhen"
@@ -725,7 +725,7 @@ msgstr "Каэр Морхен"
 
 #: src/GwentTracker/data/neutral.yml:199 -> Card.notes
 msgid "After the Following the Thead quest"
-msgstr ""
+msgstr "После квеста Клубок разматывается"
 
 #: src/GwentTracker/data/neutral.yml:203 -> Card.name
 msgid "Dandelion"
@@ -741,7 +741,7 @@ msgstr "Поместье Вегельбудов"
 
 #: src/GwentTracker/data/neutral.yml:213 -> Card.notes
 msgid "Win a match at the masquerade ball"
-msgstr ""
+msgstr "Выиграть матч на бал-маскараде"
 
 #: src/GwentTracker/data/neutral.yml:217 -> Card.name
 msgid "Zoltan Chivay"
@@ -785,7 +785,7 @@ msgstr "Гремист"
 
 #: src/GwentTracker/data/nilfgaard.yml:2 -> Card.deck
 msgid "Nilfgaard"
-msgstr ""
+msgstr "Нильфгаард"
 
 #: src/GwentTracker/data/nilfgaard.yml:3 -> Card.name
 msgid "Letho of Gulet"
@@ -873,7 +873,7 @@ msgstr "Ослепление - подходящая кара для чароде
 
 #: src/GwentTracker/data/nilfgaard.yml:98 -> Card.area
 msgid "Caesar Bilzen's home"
-msgstr ""
+msgstr "Дом Цезаря Бильзена"
 
 #: src/GwentTracker/data/nilfgaard.yml:104 -> Card.name
 msgid "Morteisen"
@@ -953,7 +953,7 @@ msgstr "Деревня Глинник"
 
 #: src/GwentTracker/data/nilfgaard.yml:185 -> Card.notes
 msgid "Must first be rescued"
-msgstr ""
+msgstr "Сначала нужно спасти"
 
 #: src/GwentTracker/data/nilfgaard.yml:189 -> Card.name
 msgid "Vanhemar"
@@ -997,7 +997,7 @@ msgstr "Кадет Путткаммер! Вы не писатель-беллет
 
 #: src/GwentTracker/data/nilfgaard.yml:246 -> Card.notes
 msgid "Must first rescue trader"
-msgstr ""
+msgstr "Надо сначала спасти трейдера"
 
 #: src/GwentTracker/data/nilfgaard.yml:250 -> Card.name
 msgid "Etolian Auxiliary Archers"
@@ -1101,7 +1101,7 @@ msgstr "Меч - лишь одно из орудий в распоряжении
 
 #: src/GwentTracker/data/nilfgaard.yml:455 -> Card.notes
 msgid "Reward for completing quest"
-msgstr ""
+msgstr "Награда за прохождение квеста"
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
 msgid "Emhyr var Emreis the Relentless"
@@ -1153,7 +1153,7 @@ msgstr "Дийкстра"
 
 #: src/GwentTracker/data/northernrealms.yml:36 -> Card.area
 msgid "Bathhouse"
-msgstr ""
+msgstr "Баня"
 
 #: src/GwentTracker/data/northernrealms.yml:42 -> Card.name
 msgid "Philippa Eilhart"
@@ -1365,7 +1365,7 @@ msgstr "Замечательный день для битвы!"
 
 #: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
 msgid "Scoia'tael"
-msgstr ""
+msgstr "Скоя'таэли"
 
 #: src/GwentTracker/data/scoiatael.yml:3 -> Card.name
 msgid "Eithné"
@@ -1401,7 +1401,7 @@ msgstr "Железный Волк, славнейший, уже почти ле�
 
 #: src/GwentTracker/data/scoiatael.yml:36 -> Card.area
 msgid "Zed's Home"
-msgstr ""
+msgstr "Дом Зеда"
 
 #: src/GwentTracker/data/scoiatael.yml:42 -> Card.name
 msgid "Iorveth"
