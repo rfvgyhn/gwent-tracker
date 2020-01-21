@@ -2,8 +2,15 @@
 
 ## [Unreleased]
 
+### Enhancements
+
+- [[PR 6]] - Russian localization
+
 ### Bug Fixes
+
  - Fix an issue when a save file has an unknown variable type the looks like a known variable type... again
+ - Fix the filter textbox watermark not being translated
+ - Add back translation keys that went missing in last release
 
 ## [1.1.0] - 2020-01-18
 
@@ -43,10 +50,11 @@
 
 ## [0.1.0-alpha] - 2017-01-26
 
-[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.1.1...HEAD
+[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v0.2.0-alpha...v1.0.0
 [0.2.0-alpha]: https://github.com/rfvgyhn/gwent-tracker/compare/v0.1.0-alpha...v0.2.0-alpha
 [0.1.0-alpha]: https://github.com/rfvgyhn/gwent-tracker/compare/cd9002c...v0.1.0-alpha
 [avalonia]: https://avaloniaui.net/
+[PR 6]: https://github.com/Rfvgyhn/gwent-tracker/pull/6
