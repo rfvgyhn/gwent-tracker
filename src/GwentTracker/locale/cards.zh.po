@@ -119,8 +119,8 @@ msgstr "「有些人就是不肯服輸，有些人連進了棺材都還在奮戰
 msgid "Hero"
 msgstr "英雄"
 
-#: src/GwentTracker/data/monsters.yml:8 -> Card.notes
-msgid "type"
+#: src/GwentTracker/data/monsters.yml:8 -> Card.type
+msgid "Gwent Quest"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
@@ -142,6 +142,10 @@ msgstr "巨章魚怪"
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
 msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
 msgstr "「要殺巨章魚怪？簡單。拿起你最好的劍…把它給賣了，雇用個狩魔獵人。」"
+
+#: src/GwentTracker/data/monsters.yml:20 -> Card.type
+msgid "Win from NPC"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
@@ -190,6 +194,10 @@ msgstr "地元素"
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
 msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
 msgstr "「要怎麼跟土元素戰鬥？想都別想，逃吧，能跑多快就多快。」"
+
+#: src/GwentTracker/data/monsters.yml:68 -> Card.type
+msgid "Buy from Trader"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
@@ -383,6 +391,10 @@ msgstr "孽鬼"
 msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
 msgstr "「如果你忘掉牠們會殺人，那牠們其實還挺可愛的。」"
 
+#: src/GwentTracker/data/monsters.yml:320 -> Card.type
+msgid "Secondary Quest"
+msgstr ""
+
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
 msgstr ""
@@ -494,6 +506,10 @@ msgstr "「把我們弄走！快點！」"
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
 msgstr "領袖"
+
+#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+msgid "Base Deck"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"

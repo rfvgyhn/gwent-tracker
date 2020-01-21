@@ -119,8 +119,8 @@ msgstr "Certains hommes n'admettent pas la défaite. Même morts, ils continuent
 msgid "Hero"
 msgstr "Héros"
 
-#: src/GwentTracker/data/monsters.yml:8 -> Card.notes
-msgid "type"
+#: src/GwentTracker/data/monsters.yml:8 -> Card.type
+msgid "Gwent Quest"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
@@ -142,6 +142,10 @@ msgstr "Keyran"
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
 msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
 msgstr "Tuer un keyran, c'est facile : prenez votre meilleure épée, vendez-la, et engagez un sorceleur."
+
+#: src/GwentTracker/data/monsters.yml:20 -> Card.type
+msgid "Win from NPC"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
@@ -190,6 +194,10 @@ msgstr "Élémentaire de terre"
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
 msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
 msgstr "Comment se débarrasser d'un élémentaire de terre ? En prenant ses jambes à son coup."
+
+#: src/GwentTracker/data/monsters.yml:68 -> Card.type
+msgid "Buy from Trader"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
@@ -383,6 +391,10 @@ msgstr "Nekker"
 msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
 msgstr "Ils seraient presque mignons, si on oubliait un instant que ce sont des saletés de tueurs."
 
+#: src/GwentTracker/data/monsters.yml:320 -> Card.type
+msgid "Secondary Quest"
+msgstr ""
+
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
 msgstr ""
@@ -494,6 +506,10 @@ msgstr "Ça fait longtemps que j'attends ce moment…"
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
 msgstr "Chef"
+
+#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+msgid "Base Deck"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"

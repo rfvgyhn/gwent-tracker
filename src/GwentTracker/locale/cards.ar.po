@@ -119,8 +119,8 @@ msgstr "ﺑﻌﺾ اﻟﺮﺟﺎل ﻻ ﯾﻌﺘﺮﻓﻮن ﺑﺎﻟﮭﺰﯾ�
 msgid "Hero"
 msgstr "ﺑﻄﻞ"
 
-#: src/GwentTracker/data/monsters.yml:8 -> Card.notes
-msgid "type"
+#: src/GwentTracker/data/monsters.yml:8 -> Card.type
+msgid "Gwent Quest"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
@@ -142,6 +142,10 @@ msgstr "(ﻛﺎﯾﺮان)"
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
 msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
 msgstr "ﺗﺮﯾﺪ ﻗﺘﻞ وﺣﺶ (ﻛﺎﯾﺮان)؟ اﻷﻣﺮ ﺑﺴﯿﻂ. ﺧﺬ أﻓﻀﻞ ﺳﯿﻒ ﻟﺪﯾﻚ... ﺛﻢ ﻗﻢ ﺑﺒﯿﻌﮫ واﺳﺘﺄﺟﺮ (وﯾﺘﺸﺮ)."
+
+#: src/GwentTracker/data/monsters.yml:20 -> Card.type
+msgid "Win from NPC"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
@@ -190,6 +194,10 @@ msgstr "وﺣﺶ أرﺿﻲ"
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
 msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
 msgstr "ﻛﯿﻒ ﺗﺤﺎرب وﺣﺸًﺎ أرﺿﯿًﺎ؟ ﻻ ﺗﺤﺎرﺑﮫ، ﺑﻞ ﺗﺮﻛﺾ ھﺎرﺑًﺎ ﺑﺄﺳﺮع ﻣﺎ ﯾﻤﻜﻨﻚ."
+
+#: src/GwentTracker/data/monsters.yml:68 -> Card.type
+msgid "Buy from Trader"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
@@ -383,6 +391,10 @@ msgstr "(ﻧﯿﻜﺮ)"
 msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
 msgstr "ھﺬه اﻟﻤﺨﻠﻮﻗﺎت اﻟﻠﻌﯿﻨﺔ ﺗﻜﺎد ﺗﻜﻮن ﻟﻄﯿﻔﺔ ﻟﻮ ﺗﻐﺎﺿﯿﺖ ﻋﻦ اﻟﻮﺣﺸﯿﺔ اﻟﺘﻲ ﯾﻘﺘﻠﻮن ﺑﮭﺎ."
 
+#: src/GwentTracker/data/monsters.yml:320 -> Card.type
+msgid "Secondary Quest"
+msgstr ""
+
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
 msgstr ""
@@ -494,6 +506,10 @@ msgstr "أﺧﺮﺟﻨﺎ ﻣﻦ ھﻨﺎ! اﻵن!"
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
 msgstr "ﻗﺎﺋﺪ"
+
+#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+msgid "Base Deck"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"

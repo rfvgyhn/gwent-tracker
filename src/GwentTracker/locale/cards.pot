@@ -112,8 +112,8 @@ msgstr ""
 msgid "Hero"
 msgstr ""
     
-#: src/GwentTracker/data/monsters.yml:8 -> Card.notes
-msgid "type"
+#: src/GwentTracker/data/monsters.yml:8 -> Card.type
+msgid "Gwent Quest"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
@@ -134,6 +134,10 @@ msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
 msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:20 -> Card.type
+msgid "Win from NPC"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
@@ -182,6 +186,10 @@ msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
 msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:68 -> Card.type
+msgid "Buy from Trader"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
@@ -376,6 +384,10 @@ msgstr ""
 msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
 msgstr ""
     
+#: src/GwentTracker/data/monsters.yml:320 -> Card.type
+msgid "Secondary Quest"
+msgstr ""
+    
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
 msgstr ""
@@ -486,6 +498,10 @@ msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
+msgstr ""
+    
+#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+msgid "Base Deck"
 msgstr ""
     
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name

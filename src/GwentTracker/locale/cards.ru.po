@@ -119,9 +119,9 @@ msgstr "Генерал так и не признал поражения. Про�
 msgid "Hero"
 msgstr "Герой"
 
-#: src/GwentTracker/data/monsters.yml:8 -> Card.notes
-msgid "type"
-msgstr "тип"
+#: src/GwentTracker/data/monsters.yml:8 -> Card.type
+msgid "Gwent Quest"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
 msgid "Crach an Craite"
@@ -142,6 +142,10 @@ msgstr "Кейран"
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
 msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
 msgstr "Как убить кейрана? Легко. Берешь лучший меч... продаешь и нанимаешь ведьмака."
+
+#: src/GwentTracker/data/monsters.yml:20 -> Card.type
+msgid "Win from NPC"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
@@ -190,6 +194,10 @@ msgstr "Элементаль земли"
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
 msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
 msgstr "Как выжить при встрече с элементалем земли? Очень просто. Бежать со всех ног."
+
+#: src/GwentTracker/data/monsters.yml:68 -> Card.type
+msgid "Buy from Trader"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
@@ -383,6 +391,10 @@ msgstr "Накер"
 msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
 msgstr "Мелкий, быстрый и зловредный."
 
+#: src/GwentTracker/data/monsters.yml:320 -> Card.type
+msgid "Secondary Quest"
+msgstr ""
+
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
 msgstr "Труп Хаммонда"
@@ -494,6 +506,10 @@ msgstr "Va faill, luned."
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
 msgstr "Лидер"
+
+#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+msgid "Base Deck"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"

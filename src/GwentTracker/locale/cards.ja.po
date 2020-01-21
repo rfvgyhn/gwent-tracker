@@ -119,8 +119,8 @@ msgstr "「敗北を認めたがらない者は多い、中には死後もなお
 msgid "Hero"
 msgstr "ヒーロー"
 
-#: src/GwentTracker/data/monsters.yml:8 -> Card.notes
-msgid "type"
+#: src/GwentTracker/data/monsters.yml:8 -> Card.type
+msgid "Gwent Quest"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
@@ -142,6 +142,10 @@ msgstr "カイラン"
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
 msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
 msgstr "「カイランを倒す？ 簡単だ。一番いい剣を持ってこい… それを売ってウィッチャーを雇え」"
+
+#: src/GwentTracker/data/monsters.yml:20 -> Card.type
+msgid "Win from NPC"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
@@ -190,6 +194,10 @@ msgstr "土のエレメンタル"
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
 msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
 msgstr "「土のエレメンタルとの戦い方？ そんなものはない。できるだけ早く走れ」"
+
+#: src/GwentTracker/data/monsters.yml:68 -> Card.type
+msgid "Buy from Trader"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
@@ -383,6 +391,10 @@ msgstr "ネッカー"
 msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
 msgstr "「その凶暴性を脇に置いておけば、見た目は可愛い」"
 
+#: src/GwentTracker/data/monsters.yml:320 -> Card.type
+msgid "Secondary Quest"
+msgstr ""
+
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
 msgstr ""
@@ -494,6 +506,10 @@ msgstr "「我々を新天地へと導け！」"
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
 msgstr "指導者"
+
+#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+msgid "Base Deck"
+msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"
