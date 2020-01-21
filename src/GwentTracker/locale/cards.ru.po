@@ -485,7 +485,7 @@ msgstr "Я могу стать твоей последней - и самой л�
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
 msgid "Eredin King of the Wild Hunt"
-msgstr "Эредин Бреакк Глас Командир Дикой Охоты"
+msgstr "Эредин Бреакк Глас Король Aen Elle"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "I've long awaited this..."
@@ -497,7 +497,7 @@ msgstr "Лидер"
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"
-msgstr "Эредин Бреакк Глас Король Aen Elle"
+msgstr "Эредин Бреакк Глас Командир Дикой Охоты"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "Have some dignity. You know how this will end."
@@ -509,7 +509,7 @@ msgstr "Новый Порт"
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
 msgid "Eredin Destroyer of Worlds"
-msgstr "Эредин Бреакк Глас Убийца Оберона"
+msgstr "Эредин Бреакк Глас  Владыка Тир на Лиа"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "It is unavoidable."
@@ -517,7 +517,7 @@ msgstr "Это неизбежно."
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
 msgid "Eredin Bringer of Death"
-msgstr "Эредин Бреакк Глас Владыка Тир на Лиа"
+msgstr "Эредин Бреакк Глас Убийца Оберона"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "Go on. Show me your spins, pirouettes and feints. I want to watch."
