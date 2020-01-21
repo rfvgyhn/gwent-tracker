@@ -5,6 +5,7 @@
 ### Enhancements
 
 - [[PR 6]] - Russian localization
+- Polish localization from [Crowdin][1]
 
 ### Bug Fixes
 
@@ -58,3 +59,4 @@
 [0.1.0-alpha]: https://github.com/rfvgyhn/gwent-tracker/compare/cd9002c...v0.1.0-alpha
 [avalonia]: https://avaloniaui.net/
 [PR 6]: https://github.com/Rfvgyhn/gwent-tracker/pull/6
+[1]: https://crowdin.com/project/gwent-tracker/activity_stream#phrase_suggested-14084595-1579625838
