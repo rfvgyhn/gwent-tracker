@@ -1481,7 +1481,7 @@ msgstr "Киаран аэп Эасниллен"
 
 #: src/GwentTracker/data/scoiatael.yml:143 -> Card.flavor
 msgid "The path to freedom is paved in blood, not ink."
-msgstr "Путь к свободе вымощен кровью, а не чернилами."
+msgstr "Bloede dh'oine!"
 
 #: src/GwentTracker/data/scoiatael.yml:154 -> Card.name
 msgid "Barclay Els"
