@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using Avalonia.Media;
 using GwentTracker.Localization;
 using GwentTracker.ViewModels;
 using GwentTracker.Views;
@@ -61,7 +62,8 @@ namespace GwentTracker
             {
                 desktopLifetime.MainWindow = new MainWindow()
                 {
-                    DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges, culture, fontFamily)
+                    FontFamily = new FontFamily(fontFamily),
+                    DataContext = new MainWindowViewModel(latestSave, texturePath, saveDirChanges, culture)
                 };
             }
 

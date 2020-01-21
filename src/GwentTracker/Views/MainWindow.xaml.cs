@@ -28,7 +28,6 @@ namespace GwentTracker.Views
         {
             this.WhenActivated(d =>
             {
-                FontFamily = new FontFamily(ViewModel.FontFamily);
                 this.OneWayBind(ViewModel, vm => vm.Cards, v => v.Cards.Items).DisposeWith(d);
                 this.OneWayBind(ViewModel, vm => vm.Messages, v => v.Messages.Items).DisposeWith(d);
                 this.Bind(ViewModel, vm => vm.FilterString, v => v.FilterString.Text).DisposeWith(d);

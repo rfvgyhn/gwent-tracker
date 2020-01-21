@@ -13,7 +13,8 @@
  - Fix an issue when a save file has an unknown variable type the looks like a known variable type... again
  - Fix the filter textbox watermark not being translated
  - Add back translation keys that went missing in last release
-
+ - Fix an issue where some non-latin glyphs wouldn't be rendered properly
+ 
 ## [1.1.0] - 2020-01-18
 
 ### New Features
