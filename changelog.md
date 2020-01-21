@@ -6,6 +6,7 @@
 
 - [[PR 6]] - Russian localization
 - Polish localization from [Crowdin][1]
+- Wrap text in selected card column since translations could be cutoff
 
 ### Bug Fixes
 

@@ -47,7 +47,7 @@
                     </ItemsControl>
                 </StackPanel>
             </Grid>
-            <TextBlock Text="{i18n:Translate Missable Cards by Quest}" HorizontalAlignment="Center" FontWeight="Bold" />
+            <TextBlock Text="{i18n:Translate Missable Cards by Quest}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" />
             <ItemsControl x:Name="Messages">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
@@ -66,10 +66,10 @@
                             <StackPanel>
                                 <StackPanel Orientation="Horizontal">
                                     <Path Fill="{Binding Color}" Margin="0 0 4 0" Data="{Binding State, Converter={StaticResource MissableToPathConverter}}" />
-                                    <TextBlock TextWrapping="{Binding TextWrap}" Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" />
+                                    <TextBlock TextWrapping="{Binding TextWrap}" Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" Width="190" />
                                 </StackPanel>
-                                <TextBlock Margin="4 0 0 0" Text="{Binding Region, StringFormat={i18n:Translate Region: {0}}}" IsVisible="{Binding DetailsVisible}" />
-                                <TextBlock Margin="4 0 0 0" Text="{Binding Cutoff, StringFormat={i18n:Translate Cutoff: {0}}}" IsVisible="{Binding DetailsVisible}" />
+                                <TextBlock Margin="4 0 0 0" TextWrapping="Wrap" Text="{Binding Region, StringFormat={i18n:Translate Region: {0}}}" IsVisible="{Binding DetailsVisible}" />
+                                <TextBlock Margin="4 0 0 0" TextWrapping="Wrap" Text="{Binding Cutoff, StringFormat={i18n:Translate Cutoff: {0}}}" IsVisible="{Binding DetailsVisible}" />
                             </StackPanel>
                         </Border>
                     </DataTemplate>
