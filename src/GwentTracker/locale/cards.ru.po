@@ -393,7 +393,7 @@ msgstr "Деревня Троттхейм"
 
 #: src/GwentTracker/data/monsters.yml:353 -> Card.name
 msgid "Vampire: Ekimmara"
-msgstr "Вампиры: Экимма"
+msgstr "Вампиры: экимма"
 
 #: src/GwentTracker/data/monsters.yml:354 -> Card.flavor
 msgid "Who would think overgrown bats would have a taste for gaudy jewelry?"
@@ -401,7 +401,7 @@ msgstr "Экимма - она вроде как нетопырь... Только
 
 #: src/GwentTracker/data/monsters.yml:365 -> Card.name
 msgid "Vampire: Fleder"
-msgstr "Вампиры: Фледер"
+msgstr "Вампиры: фледер"
 
 #: src/GwentTracker/data/monsters.yml:366 -> Card.flavor
 msgid "Higher vampires embrace their victims. Fleders rip them to shreds."
@@ -409,7 +409,7 @@ msgstr "Лысая башка, шипастые уши, шкура в бород
 
 #: src/GwentTracker/data/monsters.yml:377 -> Card.name
 msgid "Vampire: Garkain"
-msgstr "Вампиры: Гаркаин"
+msgstr "Вампиры: гаркаин"
 
 #: src/GwentTracker/data/monsters.yml:378 -> Card.flavor
 msgid "Blood-drinkers and corpse-eaters so foul their very ugliness paralyses foes."
@@ -417,7 +417,7 @@ msgstr "Славно, что вы сразу же нашпиговалися, п
 
 #: src/GwentTracker/data/monsters.yml:389 -> Card.name
 msgid "Vampire: Bruxa"
-msgstr "Вампиры: Брукса"
+msgstr "Вампиры: брукса"
 
 #: src/GwentTracker/data/monsters.yml:390 -> Card.flavor
 msgid "A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law."
@@ -429,7 +429,7 @@ msgstr "Выиграйте матч на бал-маскараде в помес
 
 #: src/GwentTracker/data/monsters.yml:403 -> Card.name
 msgid "Vampire: Katakan"
-msgstr "Вампиры: Катакан"
+msgstr "Вампиры: катакан"
 
 #: src/GwentTracker/data/monsters.yml:404 -> Card.flavor
 msgid "Drinking the blood of the Continent since the Conjunction."
@@ -485,11 +485,11 @@ msgstr "Я могу стать твоей последней - и самой л�
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
 msgid "Eredin King of the Wild Hunt"
-msgstr "Эредин Бреакк Глас Король Aen Elle"
+msgstr "Эредин Бреакк Глас Командир Дикой Охоты"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "I've long awaited this..."
-msgstr "Я давно этого ждал..."
+msgstr "Va faill, luned."
 
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
@@ -497,7 +497,7 @@ msgstr "Лидер"
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"
-msgstr "Эредин Бреакк Глас Командир Дикой Охоты"
+msgstr "Эредин Бреакк Глас Король Aen Elle"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "Have some dignity. You know how this will end."
@@ -509,7 +509,7 @@ msgstr "Новый Порт"
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
 msgid "Eredin Destroyer of Worlds"
-msgstr "Эредин Бреакк Глас  Владыка Тир на Лиа"
+msgstr "Эредин Бреакк Глас Убийца Оберона"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "It is unavoidable."
@@ -517,7 +517,7 @@ msgstr "Это неизбежно."
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
 msgid "Eredin Bringer of Death"
-msgstr "Эредин Бреакк Глас Убийца Оберона"
+msgstr "Эредин Бреакк Глас Владыка Тир на Лиа"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "Go on. Show me your spins, pirouettes and feints. I want to watch."
@@ -541,7 +541,7 @@ msgstr "Пусть стреляют по крестьянам. А нет кре�
 
 #: src/GwentTracker/data/neutral.yml:5 -> Card.type
 msgid "Special"
-msgstr "Специальный"
+msgstr "Особый"
 
 #: src/GwentTracker/data/neutral.yml:9 -> Card.area
 msgid "Tavern"
@@ -561,7 +561,7 @@ msgstr "Вроницы"
 
 #: src/GwentTracker/data/neutral.yml:21 -> Card.area
 msgid "Seven Cats Inn"
-msgstr "Корчма Семь Котов"
+msgstr "Корчма Семь котов"
 
 #: src/GwentTracker/data/neutral.yml:22 -> Card.territory
 msgid "Gustfields"
@@ -569,7 +569,7 @@ msgstr "Золотые поля"
 
 #: src/GwentTracker/data/neutral.yml:27 -> Card.name
 msgid "Commander's Horn"
-msgstr "Командирский Рог"
+msgstr "Командирский рог"
 
 #: src/GwentTracker/data/neutral.yml:28 -> Card.flavor
 msgid "Plus one to morale, minus three to hearing."

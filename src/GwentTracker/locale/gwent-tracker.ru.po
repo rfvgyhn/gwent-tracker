@@ -25,7 +25,7 @@ msgstr "Регион: {0}"
 
 #: src/GwentTracker/Views/MainWindow.xaml:72 -> TextBlock.Text
 msgid "Cutoff: {0}"
-msgstr "Завершение: {0}"
+msgstr "Исключается: {0}"
 
 #: src/GwentTracker/Views/MainWindow.xaml:81 -> FilterString.Watermark
 msgid "Filter"
@@ -37,7 +37,7 @@ msgstr "Добавить"
 
 #: src/GwentTracker/Views/MainWindow.xaml:94 -> Button.Content
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: src/GwentTracker/Views/MainWindow.xaml:110 -> DataGridTextColumn.Header
 msgid "Name"
