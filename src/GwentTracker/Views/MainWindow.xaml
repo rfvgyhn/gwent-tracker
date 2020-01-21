@@ -78,7 +78,7 @@
         </StackPanel>
         <Grid Grid.Column="1" RowDefinitions="Auto, 15, *">
             <StackPanel Grid.Row="0" Orientation="Horizontal">
-                <TextBox Margin="4 0 4 0" x:Name="FilterString" Watermark="Filter" MinWidth="200"/>
+                <TextBox Margin="4 0 4 0" x:Name="FilterString" Watermark="{i18n:Translate Filter}" MinWidth="200"/>
                 <Button HorizontalAlignment="Right" x:Name="AddFilter" Content="{i18n:Translate Add}" />
                 <ItemsControl x:Name="Filters">
                     <ItemsControl.ItemsPanel>
