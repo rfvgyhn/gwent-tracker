@@ -134,7 +134,7 @@
 -   index: 423
     deck: Monsters
     name: "Frightener"
-    flavor: "'What have I done?' the mage cried out, frightened of his own creation."
+    flavor: "What have I done? the mage cried out, frightened of his own creation."
     type: Unit
     locations:
         -   type: Win from NPC
@@ -527,5 +527,17 @@
             area: 
             territory: Passiflora
             region: Novigrad
+            coords: []
+-   index: 4005
+    deck: Monsters
+    name: "Eredin Bréacc Glas The Treacherous"
+    flavor: "I'm enjoying this. You are my toy."
+    type: Leader
+    locations:
+        -   type: Win From NPC
+            npc: Dulla kh'Amanni
+            area: Upper Mill
+            territory: Gustfields
+            region: Redania
             coords: []
 

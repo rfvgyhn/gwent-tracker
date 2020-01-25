@@ -543,6 +543,34 @@ msgstr "「ほら。回ったり跳んだり跳ねたりしてみせろ。見た
 msgid "Passiflora"
 msgstr "パシフローラ"
 
+#: src/GwentTracker/data/monsters.yml:533 -> Card.name
+msgid "Eredin Bréacc Glas The Treacherous"
+msgstr "エレディン 背信者"
+
+#: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
+msgid "I'm enjoying this. You are my toy."
+msgstr "「遊んでいるのだ。オモチャでな」"
+
+#: src/GwentTracker/data/monsters.yml:537 -> Card.type
+msgid "Win From NPC"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:538 -> Card.npc
+msgid "Dulla kh'Amanni"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:539 -> Card.area
+msgid "Upper Mill"
+msgstr "アッパーミル"
+
+#: src/GwentTracker/data/monsters.yml:540 -> Card.territory
+msgid "Gustfields"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:541 -> Card.region
+msgid "Redania"
+msgstr ""
+
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
 msgid "Neutral"
 msgstr ""
@@ -578,10 +606,6 @@ msgstr "クロウパーチ"
 #: src/GwentTracker/data/neutral.yml:21 -> Card.area
 msgid "Seven Cats Inn"
 msgstr "セブン・キャッツ・イン"
-
-#: src/GwentTracker/data/neutral.yml:22 -> Card.territory
-msgid "Gustfields"
-msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:27 -> Card.name
 msgid "Commander's Horn"
@@ -1127,6 +1151,18 @@ msgstr "エムヒル・ヴァル・エムレイス 熾烈なる君主"
 msgid "They do not call me the Patient. Take care they do not call you the Headless."
 msgstr "「余に忍耐強さを問う者はいない。二度とと何も問えない姿になるからな」"
 
+#: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
+msgid "Emhyr var Emreis Invader of the North"
+msgstr "エムヒル・ヴァル・エムレイス 北方への侵略者"
+
+#: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
+msgid "Emperors command multitudes, yet cannot control two things: their time and their hearts."
+msgstr "「皇帝たちは大勢を従えているが、2つだけ制御できないものがある。彼らの時間と心だ」"
+
+#: src/GwentTracker/data/nilfgaard.yml:478 -> Card.area
+msgid "Carsten"
+msgstr "カルステン"
+
 #: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
 msgid "Northern Realms"
 msgstr "北方諸国"
@@ -1379,6 +1415,14 @@ msgstr "フォルテスト 鋼鉄の男"
 msgid "A beautiful day for battle."
 msgstr "「戦いには絶好の日和だ」"
 
+#: src/GwentTracker/data/northernrealms.yml:323 -> Card.name
+msgid "Foltest Son of Medell"
+msgstr "フォルテスト メデルの息子"
+
+#: src/GwentTracker/data/northernrealms.yml:324 -> Card.flavor
+msgid "Dammit, I rule this land and I refuse to creep around its corners."
+msgstr "「我こそこの王国の支配者――その隅で震えることなどない」"
+
 #: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
 msgid "Scoia'tael"
 msgstr ""
@@ -1610,3 +1654,319 @@ msgstr "フランチェスカ・フィンダベア ドル・ブラサンナの�
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "To live in peace, we first must kill. This is human oppression's cruel finale."
 msgstr "「平和は、流血によってのみ得られる。人間による抑圧の時代が、残酷に終わる時が来た」"
+
+#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
+msgid "Francesca Findabair Hope of the Aen Seidhe"
+msgstr "フランチェスカ・フィンダベア アイン・シーデの希望"
+
+#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
+msgid "Daede sian caente, Aen Seidhe en'allane ael coeden…"
+msgstr "「ダイデ・シアン・ケンテ、アイン・シーデ・エナラン・エル・コエデン…」"
+
+#: src/GwentTracker/data/skellige.yml:4 -> Card.name
+msgid "Hemdall"
+msgstr "ヘムダール"
+
+#: src/GwentTracker/data/skellige.yml:5 -> Card.flavor
+msgid "When the time of the White Frost comes, Hemdall will sound the call for battle."
+msgstr "「白き霜の時が来れば、ヘムダールが戦いの声を上げる」"
+
+#: src/GwentTracker/data/skellige.yml:8 -> Card.type
+msgid "Summon"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:11 -> Card.name
+msgid "Hjalmar"
+msgstr "ヤルマール"
+
+#: src/GwentTracker/data/skellige.yml:12 -> Card.flavor
+msgid "Instead of mournin' the fallen, let's drink to their memory!"
+msgstr "「倒れた者たちを悼むより、彼らの思い出に乾杯しよう！」"
+
+#: src/GwentTracker/data/skellige.yml:15 -> Card.type
+msgid "B&W Base Deck"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:19 -> Card.name
+msgid "Cerys"
+msgstr "セリス"
+
+#: src/GwentTracker/data/skellige.yml:20 -> Card.flavor
+msgid "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast."
+msgstr "「スパロウホークと呼ばれてる由来は知ってる？ あなたみたいなネズミを餌食にするからよ」"
+
+#: src/GwentTracker/data/skellige.yml:25 -> Card.area
+msgid "The Barrel and Bung Inn"
+msgstr "樽と蛇口亭"
+
+#: src/GwentTracker/data/skellige.yml:26 -> Card.territory
+msgid "Flovive"
+msgstr "フローヴィヴ"
+
+#: src/GwentTracker/data/skellige.yml:27 -> Card.region
+msgid "Toussaint"
+msgstr "トゥサン"
+
+#: src/GwentTracker/data/skellige.yml:32 -> Card.flavor
+msgid "Only the ignorant dismiss the importance of myths."
+msgstr "「伝説の価値を認めないのは愚か者だけだ」"
+
+#: src/GwentTracker/data/skellige.yml:37 -> Card.area
+msgid "Francollarts"
+msgstr "フランコラーツ"
+
+#: src/GwentTracker/data/skellige.yml:38 -> Card.territory
+msgid "Caroberta Woods"
+msgstr "カロベルタの森"
+
+#: src/GwentTracker/data/skellige.yml:43 -> Card.name
+msgid "Draig Bon-Dhu"
+msgstr "ドレイグ・ボン・ドウ"
+
+#: src/GwentTracker/data/skellige.yml:44 -> Card.flavor
+msgid "Hear ye now the tale of the heroic deeds of Clan an Craite."
+msgstr "「アン・クライト一族の英雄的な逸話を知っているそうだな」"
+
+#: src/GwentTracker/data/skellige.yml:55 -> Card.name
+msgid "Holger Blackhand"
+msgstr "オルガー・ブラックハンド"
+
+#: src/GwentTracker/data/skellige.yml:56 -> Card.flavor
+msgid "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!"
+msgstr "「ニルフガード皇帝に乾杯！ 奴の一物が永遠に役に立たなくなるように！」"
+
+#: src/GwentTracker/data/skellige.yml:64 -> Card.flavor
+msgid "WAAAAAAAAAAGH!!!!"
+msgstr "「うおおおおおおお！！」"
+
+#: src/GwentTracker/data/skellige.yml:71 -> Card.name
+msgid "Donar an Hindar"
+msgstr "ドナール・アン・ヒンダー"
+
+#: src/GwentTracker/data/skellige.yml:72 -> Card.flavor
+msgid "I've gathered all the jarls together. Now make your case."
+msgstr "「族長を全員ここに集めた。申し開きをするがいい」"
+
+#: src/GwentTracker/data/skellige.yml:79 -> Card.name
+msgid "Udalryk"
+msgstr "ウダルリック"
+
+#: src/GwentTracker/data/skellige.yml:80 -> Card.flavor
+msgid "Haaaargh! After me, if ye've the bollocks!"
+msgstr "「うおおお！ 玉のある奴は俺に続け！」"
+
+#: src/GwentTracker/data/skellige.yml:87 -> Card.name
+msgid "Birna Bran"
+msgstr "ビルナ・ブラン"
+
+#: src/GwentTracker/data/skellige.yml:88 -> Card.flavor
+msgid "Skellige must have a strong king. No matter what it takes."
+msgstr "「スケリッジには強い王が必要。手段は問わない」"
+
+#: src/GwentTracker/data/skellige.yml:95 -> Card.name
+msgid "Blueboy Lugos"
+msgstr "ブルーボーイ・ルゴス"
+
+#: src/GwentTracker/data/skellige.yml:96 -> Card.flavor
+msgid "I'm damn near ready to puke from boredom."
+msgstr "「退屈で吐きそうだぜ」"
+
+#: src/GwentTracker/data/skellige.yml:103 -> Card.name
+msgid "Svanrige"
+msgstr "スヴァンリッジ"
+
+#: src/GwentTracker/data/skellige.yml:104 -> Card.flavor
+msgid "The emperor also thought him an accidental king. At first."
+msgstr "「皇帝も最初は彼が運だけで王になったと思った。最初はな」"
+
+#: src/GwentTracker/data/skellige.yml:111 -> Card.name
+msgid "Olaf"
+msgstr "オラフ"
+
+#: src/GwentTracker/data/skellige.yml:112 -> Card.flavor
+msgid "Many've tried to defeat Olaf. But won't hear about it from them - they're dead."
+msgstr "「オラフを倒そうと挑んだ者は多いが、その結果を語る者はいない。皆死んだからな」"
+
+#: src/GwentTracker/data/skellige.yml:116 -> Card.npc
+msgid "Sommelier"
+msgstr "ソムリエ"
+
+#: src/GwentTracker/data/skellige.yml:117 -> Card.area
+msgid "The Adder and Jewels Winery"
+msgstr "アダー・アンド・ジュエルズワイン醸造所"
+
+#: src/GwentTracker/data/skellige.yml:118 -> Card.territory
+msgid "Beauclair"
+msgstr "ボークレール"
+
+#: src/GwentTracker/data/skellige.yml:123 -> Card.name
+msgid "Berserker"
+msgstr "狂戦士"
+
+#: src/GwentTracker/data/skellige.yml:124 -> Card.flavor
+msgid "Kill, crush, cleave!"
+msgstr "「殺せ、叩き潰せ、貫け！」"
+
+#: src/GwentTracker/data/skellige.yml:131 -> Card.name
+msgid "Transformed Vildkaarl"
+msgstr "ヴィルドカールの変身した姿"
+
+#: src/GwentTracker/data/skellige.yml:132 -> Card.flavor
+msgid "Saw them fight once in my life… and once was enough."
+msgstr "「奴らの戦う姿を見たのは人生で一度きりだ… 一度で充分だ」"
+
+#: src/GwentTracker/data/skellige.yml:138 -> Card.name
+msgid "Young Berserker"
+msgstr "若い狂戦士"
+
+#: src/GwentTracker/data/skellige.yml:139 -> Card.flavor
+msgid "Want some?"
+msgstr "「俺を相手にするのか？」"
+
+#: src/GwentTracker/data/skellige.yml:145 -> Card.npc
+msgid "Blacksmith"
+msgstr "鍛冶屋"
+
+#: src/GwentTracker/data/skellige.yml:146 -> Card.area
+msgid "Tourney Grounds"
+msgstr "トーナメント会場"
+
+#: src/GwentTracker/data/skellige.yml:147 -> Card.territory
+msgid "Sansretour Valley"
+msgstr "サンルトゥール渓谷"
+
+#: src/GwentTracker/data/skellige.yml:151 -> Card.npc
+msgid "Pierre"
+msgstr "ピエール"
+
+#: src/GwentTracker/data/skellige.yml:152 -> Card.area
+msgid "Tailor's Workshop"
+msgstr "仕立て屋の工房"
+
+#: src/GwentTracker/data/skellige.yml:153 -> Card.territory
+msgid "Hauteville"
+msgstr "ホートヴィル"
+
+#: src/GwentTracker/data/skellige.yml:158 -> Card.name
+msgid "Transformed Young Vildkaarl"
+msgstr "若きヴィルドカールの変身した姿"
+
+#: src/GwentTracker/data/skellige.yml:159 -> Card.flavor
+msgid "Rooaaaar!"
+msgstr "「うおおおおお！」"
+
+#: src/GwentTracker/data/skellige.yml:165 -> Card.name
+msgid "Clan an Craite Warrior"
+msgstr "アン・クライト一族の戦士"
+
+#: src/GwentTracker/data/skellige.yml:166 -> Card.flavor
+msgid "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!"
+msgstr "「アン・クライトに栄光をもたらす。俺を称える歌で吟遊詩人が喉を壊すほどに！」"
+
+#: src/GwentTracker/data/skellige.yml:173 -> Card.name
+msgid "Clan Tordarroch Armorsmith"
+msgstr "トルダーロク一族の鎧職人"
+
+#: src/GwentTracker/data/skellige.yml:174 -> Card.flavor
+msgid "Ye're in for a poundin'."
+msgstr "「ぶっ叩かれても安心してろ」"
+
+#: src/GwentTracker/data/skellige.yml:181 -> Card.name
+msgid "Clan Heymaey Skald"
+msgstr "ヘイマイー一族の吟遊詩人"
+
+#: src/GwentTracker/data/skellige.yml:182 -> Card.flavor
+msgid "The deeds of Clan Heymaey will go down in history."
+msgstr "「ヘイマイー一族の伝説が歴史に刻まれるだろう」"
+
+#: src/GwentTracker/data/skellige.yml:189 -> Card.name
+msgid "Light Longship"
+msgstr "軽量ロングシップ"
+
+#: src/GwentTracker/data/skellige.yml:190 -> Card.flavor
+msgid "Escape them? In the waters of Skellige? Good luck."
+msgstr "「スケリッジ人から逃げる？ スケリッジの水域で？ やってみな」"
+
+#: src/GwentTracker/data/skellige.yml:197 -> Card.area
+msgid "Perfumery"
+msgstr "香料屋"
+
+#: src/GwentTracker/data/skellige.yml:203 -> Card.name
+msgid "War Longship"
+msgstr "戦闘用ロングシップ"
+
+#: src/GwentTracker/data/skellige.yml:204 -> Card.flavor
+msgid "They say Hemdall's heart swells whenever the longships sail out on a raid."
+msgstr "「ロングシップで略奪に出る時はいつも、ヘムダールが心を躍らせているのだという」"
+
+#: src/GwentTracker/data/skellige.yml:217 -> Card.name
+msgid "Clan Brokvar Archer"
+msgstr "ブロクヴァル一族の射手"
+
+#: src/GwentTracker/data/skellige.yml:218 -> Card.flavor
+msgid "So ye can hit a movin' target at two hundred paces. Me, too. In a storm."
+msgstr "「200歩先の動く的を射抜ける？ 俺もだ。それも嵐の中でな」"
+
+#: src/GwentTracker/data/skellige.yml:224 -> Card.npc
+msgid "Herbalist"
+msgstr "薬草医"
+
+#: src/GwentTracker/data/skellige.yml:225 -> Card.area
+msgid "Castel Ravello Vineyard"
+msgstr "カステル・ラヴェロブドウ園"
+
+#: src/GwentTracker/data/skellige.yml:231 -> Card.name
+msgid "Clan Drummond Shield Maiden"
+msgstr "ドラムンド一族の盾の乙女"
+
+#: src/GwentTracker/data/skellige.yml:232 -> Card.flavor
+msgid "They'll shatter on our shields like waves on a rocky shore."
+msgstr "「岸壁に砕ける波のように、敵はこの盾で砕け散る！」"
+
+#: src/GwentTracker/data/skellige.yml:239 -> Card.name
+msgid "Clan Dimun Pirate"
+msgstr "ディムン一族の海賊"
+
+#: src/GwentTracker/data/skellige.yml:240 -> Card.flavor
+msgid "Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!"
+msgstr "「奴らの目に恐怖が見える。俺と… ディムン一族への恐怖が！」"
+
+#: src/GwentTracker/data/skellige.yml:245 -> Card.area
+msgid "Dupont & Sons Emporium of Diverse Merchandise"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:251 -> Card.name
+msgid "Kambi"
+msgstr "カンビ"
+
+#: src/GwentTracker/data/skellige.yml:252 -> Card.flavor
+msgid "When the time comes, the cockerel Kambi shall crow and awaken Hemdall."
+msgstr "「その時が来れば、雄鶏のカンビがときを作りヘムダールを目覚めさせる」"
+
+#: src/GwentTracker/data/skellige.yml:256 -> Card.npc
+msgid "Armorer"
+msgstr "鎧鍛冶"
+
+#: src/GwentTracker/data/skellige.yml:269 -> Card.area
+msgid "The Cockatrice Inn"
+msgstr "コカトリス亭"
+
+#: src/GwentTracker/data/skellige.yml:287 -> Card.name
+msgid "King Bran"
+msgstr "ブラン王"
+
+#: src/GwentTracker/data/skellige.yml:288 -> Card.flavor
+msgid "No one can replace Bran. Though they're sure to try."
+msgstr "「何者もブランの代わりにはなれない。挑んでくる者は後を絶たないが」"
+
+#: src/GwentTracker/data/skellige.yml:292 -> Card.npc
+msgid "Rafael de Surmann"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:293 -> Card.area
+msgid "The Pheasantry"
+msgstr "フィザントリー亭"
+
+#: src/GwentTracker/data/skellige.yml:300 -> Card.flavor
+msgid "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
+msgstr "「王は賢くあれ。王は尊敬に値する者であれ。王は男らしくあれ」"

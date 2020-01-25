@@ -543,6 +543,34 @@ msgstr "ھﯿﺎ. أرﻧﻲ دوراﻧﺎﺗﻚ وﻟﻔّﺎﺗﻚ وﺣﺮ�
 msgid "Passiflora"
 msgstr "ﺣﺎﻧﺔ (ﺑﺎﺳﯿﻔﻠﻮرا)"
 
+#: src/GwentTracker/data/monsters.yml:533 -> Card.name
+msgid "Eredin Bréacc Glas The Treacherous"
+msgstr "(إﯾﺮﯾﺪﯾﻦ ﺑﺮﯾﺎك ﺟﻼس) اﻟﺨﺎﺋﻦ"
+
+#: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
+msgid "I'm enjoying this. You are my toy."
+msgstr "أﺳﺘﻤﺘﻊ ﺑﺎﻷﻣﺮ. أﻧﺖ دﻣﯿﺘﻲ."
+
+#: src/GwentTracker/data/monsters.yml:537 -> Card.type
+msgid "Win From NPC"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:538 -> Card.npc
+msgid "Dulla kh'Amanni"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:539 -> Card.area
+msgid "Upper Mill"
+msgstr "(آﺑﺮ ﻣﯿﻞ)"
+
+#: src/GwentTracker/data/monsters.yml:540 -> Card.territory
+msgid "Gustfields"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:541 -> Card.region
+msgid "Redania"
+msgstr ""
+
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
 msgid "Neutral"
 msgstr ""
@@ -578,10 +606,6 @@ msgstr "ﻗﻠﻌﺔ (ﻛﺮو ﺑﯿﺮش)"
 #: src/GwentTracker/data/neutral.yml:21 -> Card.area
 msgid "Seven Cats Inn"
 msgstr "ﺣﺎﻧﺔ (ﺳﯿﭭﯿﻦ ﻛﺎﺗﺲ)"
-
-#: src/GwentTracker/data/neutral.yml:22 -> Card.territory
-msgid "Gustfields"
-msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:27 -> Card.name
 msgid "Commander's Horn"
@@ -1127,6 +1151,18 @@ msgstr "اﻹﻣﺒﺮاطﻮر اﻟﺤﺎﺳﻢ (إﻣﮭﯿﺮ ﭬﺎر إﻣ
 msgid "They do not call me the Patient. Take care they do not call you the Headless."
 msgstr "ﻻ ﯾﺼﻔﻨﻲ أﺣﺪ ﺑﺎﻟﺼﺒﻮر. اﺣﺬر ﺣﺘﻰ ﻻ ﯾﺼﻔﻮك ﺑﻤﻘﻄﻮع اﻟﺮأس."
 
+#: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
+msgid "Emhyr var Emreis Invader of the North"
+msgstr "(إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ) إﻣﺒﺮاطﻮر اﻟﺸﻤﺎل"
+
+#: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
+msgid "Emperors command multitudes, yet cannot control two things: their time and their hearts."
+msgstr "ﯾﺴﺘﻄﯿﻊ اﻷﺑﺎطﺮة اﻟﺴﯿﻄﺮة ﻋﻠﻰ ﻛﻞ ﺷﻲء، وﻟﻜﻨﮭﻢ ﯾﻌﺠﺰون ﻋﻦ اﻟﺘﺤﻜﻢ ﻓﻲ ﺷﯿﺌﯿﻦ: ﻗﻠﻮﺑﮭﻢ ووﻗﺘﮭﻢ."
+
+#: src/GwentTracker/data/nilfgaard.yml:478 -> Card.area
+msgid "Carsten"
+msgstr "(ﻛﺎرﺳﺘﯿﻦ)"
+
 #: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
 msgid "Northern Realms"
 msgstr "اﻟﻤﻤﺎﻟﻚ اﻟﺸﻤﺎﻟﯿﺔ"
@@ -1379,6 +1415,14 @@ msgstr "(ﭬﻮﻟﺘﯿﺴﺖ) اﻟﻔﻮﻻذي"
 msgid "A beautiful day for battle."
 msgstr "ﯾﻮم ﺟﻤﯿﻞ ﻟﺨﻮض ﻣﻌﺮﻛﺔ."
 
+#: src/GwentTracker/data/northernrealms.yml:323 -> Card.name
+msgid "Foltest Son of Medell"
+msgstr "(ﻓﻮﻟﺘﯿﺴﺖ) (اﺑﻦ ﻣﯿﺪﯾﻞ)"
+
+#: src/GwentTracker/data/northernrealms.yml:324 -> Card.flavor
+msgid "Dammit, I rule this land and I refuse to creep around its corners."
+msgstr "أﻧﺎ أﺣﻜﻢ ھﺬه اﻟﻤﻤﻠﻜﺔ - ﻟﻦ أﻗﻒ ﻛﺎﻟﻘﻂ اﻟﻤﺬﻋﻮر ﻓﻲ أرﻛﺎﻧﮭﺎ."
+
 #: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
 msgid "Scoia'tael"
 msgstr ""
@@ -1610,3 +1654,319 @@ msgstr "ﻣﻠﻜﺔ (دول ﺑﻼﺛﺎﻧﺎ) (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓ
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "To live in peace, we first must kill. This is human oppression's cruel finale."
 msgstr "ﻟﻨﺤﯿﺎ ﻓﻲ ﺳﻼم، ﻋﻠﯿﻨﺎ أن ﻧﻘﺘﻞ ﻻ ﻣﺤﺎﻟﺔ. ھﺬه ﺧﺎﺗﻤﺔ اﻟﺴﻮء ﻟﻠﻈﻠﻢ اﻹﻧﺴﺎﻧﻲ."
+
+#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
+msgid "Francesca Findabair Hope of the Aen Seidhe"
+msgstr "(ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ) أﻣﻞ ﺳﻼﻟﺔ (إﯾﻦ ﺳﯿﺪھﻲ)"
+
+#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
+msgid "Daede sian caente, Aen Seidhe en'allane ael coeden…"
+msgstr "داﯾﺪي ﺳﯿﺎن ﻛﺎﯾﻨﺘﻲ، إﯾﻦ ﺳﯿﺪھﻲ إﻧﺎﻻﯾﻦ آﯾﻞ ﻛﻮﯾﺪﯾﻦ..."
+
+#: src/GwentTracker/data/skellige.yml:4 -> Card.name
+msgid "Hemdall"
+msgstr "(ھﯿﻤﺪال)"
+
+#: src/GwentTracker/data/skellige.yml:5 -> Card.flavor
+msgid "When the time of the White Frost comes, Hemdall will sound the call for battle."
+msgstr "ﻋﻨﺪﻣﺎ ﯾﺤﯿﻦ اﻟﺼﻘﯿﻊ اﻟﺜﻠﺠﻲ ﺳﻮف ﯾﺪﻋﻮ (ھﯿﻤﺪال) ﻟﻠﻤﻌﺮﻛﺔ."
+
+#: src/GwentTracker/data/skellige.yml:8 -> Card.type
+msgid "Summon"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:11 -> Card.name
+msgid "Hjalmar"
+msgstr "(ھﯿﻠﻤﺎر)"
+
+#: src/GwentTracker/data/skellige.yml:12 -> Card.flavor
+msgid "Instead of mournin' the fallen, let's drink to their memory!"
+msgstr "ﺑﺪﻻ ﻣﻦ اﻟﺤﺪاد ﻋﻠﻰ ﻣﻦ ﺳﻘﻄﻮا، دﻋﻮﻧﺎ ﻧﺸﺮب ﻧﺨﺐ ذﻛﺮاھﻢ!."
+
+#: src/GwentTracker/data/skellige.yml:15 -> Card.type
+msgid "B&W Base Deck"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:19 -> Card.name
+msgid "Cerys"
+msgstr "(ﺳﯿﺮس)"
+
+#: src/GwentTracker/data/skellige.yml:20 -> Card.flavor
+msgid "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast."
+msgstr "ﯾﺴﻤﻮﻧﻨﻲ (اﻟﺒﺎﺷﻖ)، ھﻞ ﺗﻌﺮف ﻟﻤﺎذا؟ ﻷﻧﻨﻲ آﻛﻞ اﻟﺠﺮذان ﻣﺜﻠﻚ ﻋﻠﻰ اﻹﻓﻄﺎر."
+
+#: src/GwentTracker/data/skellige.yml:25 -> Card.area
+msgid "The Barrel and Bung Inn"
+msgstr "ﺣﺎﻧﺔ (ذي ﺑﺎرﯾﻞ آﻧﺪ ﺑﺎﻧﺞ)"
+
+#: src/GwentTracker/data/skellige.yml:26 -> Card.territory
+msgid "Flovive"
+msgstr "ﻓﻠﻮﻓﯿﻒ"
+
+#: src/GwentTracker/data/skellige.yml:27 -> Card.region
+msgid "Toussaint"
+msgstr "(ﺗﻮﺳﺎن)"
+
+#: src/GwentTracker/data/skellige.yml:32 -> Card.flavor
+msgid "Only the ignorant dismiss the importance of myths."
+msgstr "اﻟﺠﺎھﻞ ﻓﻘﻂ ھﻮ ﻣﻦ ﻻ ﯾﻌﺮف ﻗﯿﻤﺔ اﻷﺳﺎطﯿﺮ."
+
+#: src/GwentTracker/data/skellige.yml:37 -> Card.area
+msgid "Francollarts"
+msgstr "ﻓﺮاﻧﻜﻮﻟﯿﺘﺲ"
+
+#: src/GwentTracker/data/skellige.yml:38 -> Card.territory
+msgid "Caroberta Woods"
+msgstr "ﻏﺎﺑﺔ ﻛﺎروﺑﯿﺮﺗﺎ"
+
+#: src/GwentTracker/data/skellige.yml:43 -> Card.name
+msgid "Draig Bon-Dhu"
+msgstr "(درﯾﺞ ﺑﻮﻧﺪھﻮ)"
+
+#: src/GwentTracker/data/skellige.yml:44 -> Card.flavor
+msgid "Hear ye now the tale of the heroic deeds of Clan an Craite."
+msgstr "اﺳﺘﻤﻌﻮا اﻵن إﻟﻰ ﺣﻜﺎﯾﺔ اﻷﻋﻤﺎل اﻟﺒﻄﻮﻟﯿﺔ ﻟﻌﺸﯿﺮة (آن ﻛﺮاﯾﺖ)."
+
+#: src/GwentTracker/data/skellige.yml:55 -> Card.name
+msgid "Holger Blackhand"
+msgstr "(ھﻮﻟﺠﺮ ذو اﻟﯿﺪ اﻟﺴﻮداء)"
+
+#: src/GwentTracker/data/skellige.yml:56 -> Card.flavor
+msgid "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!"
+msgstr "اﻵن دﻋﻮﻧﺎ ﻧﺸﺮب ﻧﺨﺐ إﻣﺒﺮاطﻮر (ﻧﯿﻠﻔﺠﺎرد) - ﻟﺘﺒﻘﻰ ﻗﻮﺗﮫ ﺿﻌﯿﻔﺔ إﻟﻰ اﻷﺑﺪ!"
+
+#: src/GwentTracker/data/skellige.yml:64 -> Card.flavor
+msgid "WAAAAAAAAAAGH!!!!"
+msgstr "واااااااااج!!!"
+
+#: src/GwentTracker/data/skellige.yml:71 -> Card.name
+msgid "Donar an Hindar"
+msgstr "(دوﻧﺎر آن ھﯿﻨﺪار)"
+
+#: src/GwentTracker/data/skellige.yml:72 -> Card.flavor
+msgid "I've gathered all the jarls together. Now make your case."
+msgstr "ﻟﻘﺪ ﺟﻤﻌﺖ ﻛﻞ ﻣﻦ ﯾﺤﻤﻠﻮن ﻟﻘﺐ (اﻹﯾﺮل) ﺣﺘﻰ ﺗﺘﻤﻜﻦ ﻣﻦ أن ﺗﺸﺮح ﻟﮭﻢ أﺳﺒﺎﺑﻚ."
+
+#: src/GwentTracker/data/skellige.yml:79 -> Card.name
+msgid "Udalryk"
+msgstr "(أوداﻟﺮﯾﻚ)"
+
+#: src/GwentTracker/data/skellige.yml:80 -> Card.flavor
+msgid "Haaaargh! After me, if ye've the bollocks!"
+msgstr "ھﺎاااااج! اﺗﺒﻌﻨﻲ إن ﻛﻨﺖ ﺗﻤﻠﻚ اﻟﺸﺠﺎﻋﺔ اﻟﻜﺎﻓﯿﺔ!"
+
+#: src/GwentTracker/data/skellige.yml:87 -> Card.name
+msgid "Birna Bran"
+msgstr "(ﺑﯿﺮﻧﺎ ﺑﺮان)"
+
+#: src/GwentTracker/data/skellige.yml:88 -> Card.flavor
+msgid "Skellige must have a strong king. No matter what it takes."
+msgstr "ﯾﺠﺐ أن ﯾﻜﻮن ﻟـ(ﺳﻜﯿﻠﺪج) ﻣﻠﻜًﺎ ﻗﻮﯾﺎ. ﻣﮭﻤﺎ ﺗﻜﻠﻒ اﻷﻣﺮ."
+
+#: src/GwentTracker/data/skellige.yml:95 -> Card.name
+msgid "Blueboy Lugos"
+msgstr "(ﺑﻠﻮﺑﻮي ﻟﻮﺟﻮس)"
+
+#: src/GwentTracker/data/skellige.yml:96 -> Card.flavor
+msgid "I'm damn near ready to puke from boredom."
+msgstr "ﻟﻘﺪ اﻗﺘﺮﺑﺖ ﻣﻦ اﻟﺘﻘﯿﺆ ﺑﺴﺒﺐ اﻟﻤﻠﻞ."
+
+#: src/GwentTracker/data/skellige.yml:103 -> Card.name
+msgid "Svanrige"
+msgstr "(ﺳﻔﺎﻧﺮﯾﺞ)"
+
+#: src/GwentTracker/data/skellige.yml:104 -> Card.flavor
+msgid "The emperor also thought him an accidental king. At first."
+msgstr "ظﻨﮫ اﻹﻣﺒﺮاطﻮر أﯾﻀﺎ ﻣﻠﻜًﺎ ﺑﺎﻟﺼﺪﻓﺔ. ﻟﻜﻦ ذﻟﻚ ﻛﺎن ﻓﻲ اﻟﺒﺪاﯾﺔ."
+
+#: src/GwentTracker/data/skellige.yml:111 -> Card.name
+msgid "Olaf"
+msgstr "(أوﻻف)"
+
+#: src/GwentTracker/data/skellige.yml:112 -> Card.flavor
+msgid "Many've tried to defeat Olaf. But won't hear about it from them - they're dead."
+msgstr "ﺣﺎول اﻟﻜﺜﯿﺮون ھﺰﯾﻤﺔ (أوﻻف). ﻟﻜﻨﻚ ﻟﻦ ﺗﺴﻤﻊ ﻋﻦ ھﺬا ﻣﻨﮭﻢ - ﻓﮭﻢ أﻣﻮات."
+
+#: src/GwentTracker/data/skellige.yml:116 -> Card.npc
+msgid "Sommelier"
+msgstr "ﺳﻮﻣﻠﯿﯿﺮ"
+
+#: src/GwentTracker/data/skellige.yml:117 -> Card.area
+msgid "The Adder and Jewels Winery"
+msgstr "ﻣﺼﻨﻊ ﺧﻤﻮر (ذي آدر آﻧﺪ ﺟﻮﻟﺰ)"
+
+#: src/GwentTracker/data/skellige.yml:118 -> Card.territory
+msgid "Beauclair"
+msgstr "(ﺑﻮﻛﻠﯿﺮ)"
+
+#: src/GwentTracker/data/skellige.yml:123 -> Card.name
+msgid "Berserker"
+msgstr "اﻟﺪﺑﺒﺔ اﻟﻤﺘﺤﻮﻟﺔ"
+
+#: src/GwentTracker/data/skellige.yml:124 -> Card.flavor
+msgid "Kill, crush, cleave!"
+msgstr "اﻗﺘﻞ، اﺳﺤﻖ، ﻗﻄّﻊ!"
+
+#: src/GwentTracker/data/skellige.yml:131 -> Card.name
+msgid "Transformed Vildkaarl"
+msgstr "(ﻓﯿﻠﺪﻛﺎرل) ﻣﺘﺤﻮل"
+
+#: src/GwentTracker/data/skellige.yml:132 -> Card.flavor
+msgid "Saw them fight once in my life… and once was enough."
+msgstr "رأﯾﺘﮭﻢ ﯾﻘﺎﺗﻠﻮن ﻣﺮة ﻓﻲ ﺣﯿﺎﺗﻲ... وﻛﺎﻧﺖ ﻛﺎﻓﯿﺔ."
+
+#: src/GwentTracker/data/skellige.yml:138 -> Card.name
+msgid "Young Berserker"
+msgstr "اﻟﺪب اﻟﻤﺘﺤﻮل اﻟﺼﻐﯿﺮ"
+
+#: src/GwentTracker/data/skellige.yml:139 -> Card.flavor
+msgid "Want some?"
+msgstr "ھﻞ ﺗﺮﯾﺪ اﻟﻘﺘﺎل؟"
+
+#: src/GwentTracker/data/skellige.yml:145 -> Card.npc
+msgid "Blacksmith"
+msgstr "ﺣﺪاد"
+
+#: src/GwentTracker/data/skellige.yml:146 -> Card.area
+msgid "Tourney Grounds"
+msgstr "أراﺿﻲ اﻟﺴﺒﺎﻗﺎت"
+
+#: src/GwentTracker/data/skellige.yml:147 -> Card.territory
+msgid "Sansretour Valley"
+msgstr "وادي (ﺳﻮﻧﺮوﺗﻮر)"
+
+#: src/GwentTracker/data/skellige.yml:151 -> Card.npc
+msgid "Pierre"
+msgstr "ﺑﯿﯿﺮ"
+
+#: src/GwentTracker/data/skellige.yml:152 -> Card.area
+msgid "Tailor's Workshop"
+msgstr "ورﺷﺔ اﻟﺨﯿﺎط"
+
+#: src/GwentTracker/data/skellige.yml:153 -> Card.territory
+msgid "Hauteville"
+msgstr "(ھﻮﺗﻔﯿﻞ)"
+
+#: src/GwentTracker/data/skellige.yml:158 -> Card.name
+msgid "Transformed Young Vildkaarl"
+msgstr "(ﻓﯿﻠﺪﻛﺎرل) ﺻﻐﯿﺮ ﻣﺘﺤﻮل"
+
+#: src/GwentTracker/data/skellige.yml:159 -> Card.flavor
+msgid "Rooaaaar!"
+msgstr "زﺋﯿﯿﯿﯿﯿﯿﯿﺮ!"
+
+#: src/GwentTracker/data/skellige.yml:165 -> Card.name
+msgid "Clan an Craite Warrior"
+msgstr "ﻣﺤﺎرب ﻋﺸﯿﺮة (آن ﻛﺮاﯾﺖ)"
+
+#: src/GwentTracker/data/skellige.yml:166 -> Card.flavor
+msgid "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!"
+msgstr "ﺳﻮف أﺟﻠﺐ اﻟﻤﺠﺪ ﻟﻌﺸﯿﺮة (آن ﻛﺮاﯾﺖ)، وﺳﻮف ﯾﺸﯿﺪ ﺑﻲ اﻟﺸﻌﺮاء ﺑﻐﻨﺎﺋﮭﻢ اﻷﺟﺶ!"
+
+#: src/GwentTracker/data/skellige.yml:173 -> Card.name
+msgid "Clan Tordarroch Armorsmith"
+msgstr "ﺻﺎﻧﻊ دروع ﻋﺸﯿﺮة (ﺗﻮرداروﺗﺶ)"
+
+#: src/GwentTracker/data/skellige.yml:174 -> Card.flavor
+msgid "Ye're in for a poundin'."
+msgstr "ھﻞ ﺗﺮﻏﺐ ﻓﻲ اﻟﻘﺘﺎل؟"
+
+#: src/GwentTracker/data/skellige.yml:181 -> Card.name
+msgid "Clan Heymaey Skald"
+msgstr "ﺷﺎﻋﺮ ﻋﺸﯿﺮة (ھﯿﻤﻲ)"
+
+#: src/GwentTracker/data/skellige.yml:182 -> Card.flavor
+msgid "The deeds of Clan Heymaey will go down in history."
+msgstr "إن أﻋﻤﺎل ﻋﺸﯿﺮة (ھﯿﻤﻲ) ﺳﺘُﺴﺠﻞ ﻓﻲ اﻟﺘﺎرﯾﺦ."
+
+#: src/GwentTracker/data/skellige.yml:189 -> Card.name
+msgid "Light Longship"
+msgstr "ﺳﻔﯿﻨﺔ ﺧﻔﯿﻔﺔ"
+
+#: src/GwentTracker/data/skellige.yml:190 -> Card.flavor
+msgid "Escape them? In the waters of Skellige? Good luck."
+msgstr "اﻟﮭﺮوب ﻣﻨﮭﻢ؟ ﻓﻲ ﻣﯿﺎه (ﺳﻜﯿﻠﺪج)؟ ﺣﻈﺎ ﺳﻌﯿﺪا."
+
+#: src/GwentTracker/data/skellige.yml:197 -> Card.area
+msgid "Perfumery"
+msgstr "ﻋﻄﺎرة"
+
+#: src/GwentTracker/data/skellige.yml:203 -> Card.name
+msgid "War Longship"
+msgstr "ﺳﻔﯿﻨﺔ ﺣﺮﺑﯿﺔ"
+
+#: src/GwentTracker/data/skellige.yml:204 -> Card.flavor
+msgid "They say Hemdall's heart swells whenever the longships sail out on a raid."
+msgstr "ﯾﻘﺎل إن ﻗﻠﺐ (ھﯿﻤﺪال) ﯾﻨﻘﺒﺾ ﻛﻠﻤﺎ ﺧﺮﺟﺖ اﻟﺴﻔﻦ ﻟﻺﻏﺎرة."
+
+#: src/GwentTracker/data/skellige.yml:217 -> Card.name
+msgid "Clan Brokvar Archer"
+msgstr "راﻣﻲ أﺳﮭﻢ ﻋﺸﯿﺮة (ﺑﺮوﻛﭭﺎر)"
+
+#: src/GwentTracker/data/skellige.yml:218 -> Card.flavor
+msgid "So ye can hit a movin' target at two hundred paces. Me, too. In a storm."
+msgstr "إذن ﺗﺴﺘﻄﯿﻊ إﺻﺎﺑﺔ ھﺪف ﻋﻠﻰ ﺑﻌﺪ ﻣﺎﺋﺘﻲ ﺧﻄﻮة. أﻧﺎ أﯾﻀﺎ وﻟﻜﻦ ﺧﻼل ﻋﺎﺻﻔﺔ."
+
+#: src/GwentTracker/data/skellige.yml:224 -> Card.npc
+msgid "Herbalist"
+msgstr "ﻣﺸﺘﻐﻞ ﺑﺎﻷﻋﺸﺎب"
+
+#: src/GwentTracker/data/skellige.yml:225 -> Card.area
+msgid "Castel Ravello Vineyard"
+msgstr "ﻛﺮﻣﺔ ﻛﺎﺳﺘﻞ راﻓﯿﻠﻮ"
+
+#: src/GwentTracker/data/skellige.yml:231 -> Card.name
+msgid "Clan Drummond Shield Maiden"
+msgstr "ﻓﺘﺎة درع ﻋﺸﯿﺮة (دراﻣﻮﻧﺪ)"
+
+#: src/GwentTracker/data/skellige.yml:232 -> Card.flavor
+msgid "They'll shatter on our shields like waves on a rocky shore."
+msgstr "ﺳﻮف ﯾﺘﻜﺴﺮون ﻋﻠﻰ دروﻋﻨﺎ ﻛﻤﺎ ﺗﺘﻜﺴﺮ اﻷﻣﻮاج ﻋﻠﻰ ﺷﺎطﺊ ﺻﺨﺮي."
+
+#: src/GwentTracker/data/skellige.yml:239 -> Card.name
+msgid "Clan Dimun Pirate"
+msgstr "ﻗﺮﺻﺎن ﻋﺸﯿﺮة (دﯾﻤﻮن)"
+
+#: src/GwentTracker/data/skellige.yml:240 -> Card.flavor
+msgid "Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!"
+msgstr "أﺳﺘﻄﯿﻊ أن أرى اﻟﺨﻮف ﻓﻲ ﻋﯿﻮﻧﮭﻢ. اﺧﺸﻮﻧﻲ ... اﺧﺸﻮﻧﻲ ﯾﺎ ﻋﺸﯿﺮة (دﯾﻤﻮن)!"
+
+#: src/GwentTracker/data/skellige.yml:245 -> Card.area
+msgid "Dupont & Sons Emporium of Diverse Merchandise"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:251 -> Card.name
+msgid "Kambi"
+msgstr "(ﻛﺎﻣﺒﻲ)"
+
+#: src/GwentTracker/data/skellige.yml:252 -> Card.flavor
+msgid "When the time comes, the cockerel Kambi shall crow and awaken Hemdall."
+msgstr "ﺣﯿﻦ ﯾﺄﺗﻲ اﻟﻮﻗﺖ اﻟﻤﻨﺎﺳﺐ ﺳﻮف ﯾﮭﺠﻢ (ﻛﻮﻛﺮﯾﻞ ﻛﺎﻣﺒﻲ) ﻋﻠﻰ (ھﯿﻤﺪال) وﯾﻮﻗﻈﮫ ﻣﻦ ﺳﺒﺎﺗﮫ."
+
+#: src/GwentTracker/data/skellige.yml:256 -> Card.npc
+msgid "Armorer"
+msgstr "ﺻﺎﻧﻊ اﻟﺪروع"
+
+#: src/GwentTracker/data/skellige.yml:269 -> Card.area
+msgid "The Cockatrice Inn"
+msgstr "ﺣﺎﻧﺔ وﺣﺶ (اﻷﺻﻠﺔ)"
+
+#: src/GwentTracker/data/skellige.yml:287 -> Card.name
+msgid "King Bran"
+msgstr "اﻟﻤﻠﻚ (ﺑﺮان)"
+
+#: src/GwentTracker/data/skellige.yml:288 -> Card.flavor
+msgid "No one can replace Bran. Though they're sure to try."
+msgstr "ﻟﯿﺲ ھﻨﺎك ﻣﻦ ﯾﻤﻜﻨﮫ أن ﯾﺤﻞ ﻣﺤﻞ اﻟﻤﻠﻚ (ﺑﺮان). ﻟﻜﻨﮭﻢ ﺳﯿﺤﺎوﻟﻮن اﺳﺘﺒﺪاﻟﮫ ﺑﺎﻟﻄﺒﻊ."
+
+#: src/GwentTracker/data/skellige.yml:292 -> Card.npc
+msgid "Rafael de Surmann"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:293 -> Card.area
+msgid "The Pheasantry"
+msgstr "ﺣﺎﻧﺔ (ذي ﺑﺎزﻧﺘﺮي)"
+
+#: src/GwentTracker/data/skellige.yml:300 -> Card.flavor
+msgid "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
+msgstr "ﯾﺠﺐ أن ﯾﻜﻮن اﻟﻤﻠﻚ ﺣﻜﯿﻤًﺎ. ﯾﺠﺐ أن ﯾﺤﻈﻰ اﻟﻤﻠﻚ ﺑﺎﻻﺣﺘﺮام. ﯾﺠﺐ أن ﯾﻜﻮن ﻟﺪى اﻟﻤﻠﻚ أﺣﺠﺎر ﻛﺮﯾﻤﺔ."

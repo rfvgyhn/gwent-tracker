@@ -82,3 +82,25 @@
 1055966|Crow's Perch
 1048434|Caesar Bilzen
 1065034|'What have I done?' the mage cried out, frightened of his own creation.
+1136327|Upper Mill
+1056063|Carsten
+1209906|The Barrel and Bung Inn
+1204126|Flovive
+1214112|Toussaint
+1205783|Francollarts
+1203226|Caroberta Woods
+1211163|Sommelier
+1209914|The Adder and Jewels Winery
+1205505|Beauclair
+572035|Blacksmith
+1203577|Tourney Grounds
+1203223|Sansretour Valley
+1154987|Pierre
+1171516|Tailor's Workshop
+1205511|Hauteville
+1209913|Perfumery
+543165|Herbalist
+1205915|Castel Ravello Vineyard
+1084926|Armorer
+1204125|The Cockatrice Inn
+1209909|The Pheasantry

@@ -494,3 +494,15 @@
             territory: Passiflora
             region: Novigrad
             coords: []
+-   index: 3005
+    deck: Scoia'tael
+    name: "Francesca Findabair Hope of the Aen Seidhe"
+    flavor: "Daede sian caente, Aen Seidhe en'allane ael coeden…"
+    type: Leader
+    locations:
+        -   type: Win From NPC
+            npc: Dulla kh'Amanni
+            area: Upper Mill
+            territory: Gustfields
+            region: Redania
+            coords: []

@@ -543,6 +543,34 @@ msgstr "「繼續啊，讓我看看你的舞步，我很有興趣。」"
 msgid "Passiflora"
 msgstr "帕西弗羅拉"
 
+#: src/GwentTracker/data/monsters.yml:533 -> Card.name
+msgid "Eredin Bréacc Glas The Treacherous"
+msgstr "艾瑞汀・畢雷克・葛拉斯 詭計多端"
+
+#: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
+msgid "I'm enjoying this. You are my toy."
+msgstr "「我還蠻享受得。你是個不錯的玩具。」"
+
+#: src/GwentTracker/data/monsters.yml:537 -> Card.type
+msgid "Win From NPC"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:538 -> Card.npc
+msgid "Dulla kh'Amanni"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:539 -> Card.area
+msgid "Upper Mill"
+msgstr "北磨坊"
+
+#: src/GwentTracker/data/monsters.yml:540 -> Card.territory
+msgid "Gustfields"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:541 -> Card.region
+msgid "Redania"
+msgstr ""
+
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
 msgid "Neutral"
 msgstr ""
@@ -578,10 +606,6 @@ msgstr "烏鴉窩"
 #: src/GwentTracker/data/neutral.yml:21 -> Card.area
 msgid "Seven Cats Inn"
 msgstr "七隻貓旅館"
-
-#: src/GwentTracker/data/neutral.yml:22 -> Card.territory
-msgid "Gustfields"
-msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:27 -> Card.name
 msgid "Commander's Horn"
@@ -1127,6 +1151,18 @@ msgstr "恩希爾‧恩瑞斯 冷血無情"
 msgid "They do not call me the Patient. Take care they do not call you the Headless."
 msgstr "「沒人說我耐心有禮，小心以後大家叫你『那個沒頭的』。」"
 
+#: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
+msgid "Emhyr var Emreis Invader of the North"
+msgstr "恩希爾‧恩瑞斯 北方入侵者"
+
+#: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
+msgid "Emperors command multitudes, yet cannot control two things: their time and their hearts."
+msgstr "「帝王控制眾人，但是確有兩樣東西依然控制不了：時間和人心。」"
+
+#: src/GwentTracker/data/nilfgaard.yml:478 -> Card.area
+msgid "Carsten"
+msgstr "卡司敦"
+
 #: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
 msgid "Northern Realms"
 msgstr "北方領域"
@@ -1379,6 +1415,14 @@ msgstr "鋼鐵之心弗爾泰斯特"
 msgid "A beautiful day for battle."
 msgstr "「真是適合開戰的美好天氣。」"
 
+#: src/GwentTracker/data/northernrealms.yml:323 -> Card.name
+msgid "Foltest Son of Medell"
+msgstr "弗爾泰斯特 馬德王之子"
+
+#: src/GwentTracker/data/northernrealms.yml:324 -> Card.flavor
+msgid "Dammit, I rule this land and I refuse to creep around its corners."
+msgstr "「這座王國歸我管，我不會瑟縮在角落。」"
+
 #: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
 msgid "Scoia'tael"
 msgstr ""
@@ -1610,3 +1654,319 @@ msgstr "法蘭茜絲卡‧芬達貝 多爾布雷坦納女王"
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "To live in peace, we first must kill. This is human oppression's cruel finale."
 msgstr "「要爭取和平就必須先殺謬。人類的壓迫就到此劃下殘忍的據點。」"
+
+#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
+msgid "Francesca Findabair Hope of the Aen Seidhe"
+msgstr "法蘭茜絲卡‧芬達貝 艾恩西迪的希望"
+
+#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
+msgid "Daede sian caente, Aen Seidhe en'allane ael coeden…"
+msgstr "「戴德席安坎特，艾恩西迪恩愛拉妮愛爾科登…」"
+
+#: src/GwentTracker/data/skellige.yml:4 -> Card.name
+msgid "Hemdall"
+msgstr "漢姆多爾"
+
+#: src/GwentTracker/data/skellige.yml:5 -> Card.flavor
+msgid "When the time of the White Frost comes, Hemdall will sound the call for battle."
+msgstr "「白霜之時來臨時，漢姆多爾將會吹響戰鬥的號角。」"
+
+#: src/GwentTracker/data/skellige.yml:8 -> Card.type
+msgid "Summon"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:11 -> Card.name
+msgid "Hjalmar"
+msgstr "哈爾瑪"
+
+#: src/GwentTracker/data/skellige.yml:12 -> Card.flavor
+msgid "Instead of mournin' the fallen, let's drink to their memory!"
+msgstr "「別為死者哭泣，向他們敬一杯吧！」"
+
+#: src/GwentTracker/data/skellige.yml:15 -> Card.type
+msgid "B&W Base Deck"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:19 -> Card.name
+msgid "Cerys"
+msgstr "凱瑞絲"
+
+#: src/GwentTracker/data/skellige.yml:20 -> Card.flavor
+msgid "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast."
+msgstr "「大家都叫我小雀鷹，你知道為什麼嗎？因為我專吃你這種鼠輩。」"
+
+#: src/GwentTracker/data/skellige.yml:25 -> Card.area
+msgid "The Barrel and Bung Inn"
+msgstr "酒桶旅店"
+
+#: src/GwentTracker/data/skellige.yml:26 -> Card.territory
+msgid "Flovive"
+msgstr "弗羅維夫"
+
+#: src/GwentTracker/data/skellige.yml:27 -> Card.region
+msgid "Toussaint"
+msgstr "陶森特"
+
+#: src/GwentTracker/data/skellige.yml:32 -> Card.flavor
+msgid "Only the ignorant dismiss the importance of myths."
+msgstr "「只有無知之人會輕忽傳奇的重要性。」"
+
+#: src/GwentTracker/data/skellige.yml:37 -> Card.area
+msgid "Francollarts"
+msgstr "弗蘭卡拉茲"
+
+#: src/GwentTracker/data/skellige.yml:38 -> Card.territory
+msgid "Caroberta Woods"
+msgstr "卡羅伯塔森林"
+
+#: src/GwentTracker/data/skellige.yml:43 -> Card.name
+msgid "Draig Bon-Dhu"
+msgstr "杜雷格邦迪"
+
+#: src/GwentTracker/data/skellige.yml:44 -> Card.flavor
+msgid "Hear ye now the tale of the heroic deeds of Clan an Craite."
+msgstr "「張大耳朵聽聽奎特家的英雄事蹟吧。」"
+
+#: src/GwentTracker/data/skellige.yml:55 -> Card.name
+msgid "Holger Blackhand"
+msgstr "霍格・黑手"
+
+#: src/GwentTracker/data/skellige.yml:56 -> Card.flavor
+msgid "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!"
+msgstr "「一同為尼弗迦德的大帝敬一杯，祝他的老二永遠都翹不起來！」"
+
+#: src/GwentTracker/data/skellige.yml:64 -> Card.flavor
+msgid "WAAAAAAAAAAGH!!!!"
+msgstr "「哇啊啊啊啊啊！」"
+
+#: src/GwentTracker/data/skellige.yml:71 -> Card.name
+msgid "Donar an Hindar"
+msgstr "多納・辛達"
+
+#: src/GwentTracker/data/skellige.yml:72 -> Card.flavor
+msgid "I've gathered all the jarls together. Now make your case."
+msgstr "「我已經召集了所有的領主。有話快說。」"
+
+#: src/GwentTracker/data/skellige.yml:79 -> Card.name
+msgid "Udalryk"
+msgstr "烏達瑞克"
+
+#: src/GwentTracker/data/skellige.yml:80 -> Card.flavor
+msgid "Haaaargh! After me, if ye've the bollocks!"
+msgstr "「哈啊啊啊！有膽子的人全都跟上！」"
+
+#: src/GwentTracker/data/skellige.yml:87 -> Card.name
+msgid "Birna Bran"
+msgstr "碧兒娜・布蘭"
+
+#: src/GwentTracker/data/skellige.yml:88 -> Card.flavor
+msgid "Skellige must have a strong king. No matter what it takes."
+msgstr "「無論付出什麼代價，史凱利傑一定要有個堅強的國王。」"
+
+#: src/GwentTracker/data/skellige.yml:95 -> Card.name
+msgid "Blueboy Lugos"
+msgstr "阿藍盧戈"
+
+#: src/GwentTracker/data/skellige.yml:96 -> Card.flavor
+msgid "I'm damn near ready to puke from boredom."
+msgstr "「我真是無聊到快吐了。」"
+
+#: src/GwentTracker/data/skellige.yml:103 -> Card.name
+msgid "Svanrige"
+msgstr "斯凡瑞吉"
+
+#: src/GwentTracker/data/skellige.yml:104 -> Card.flavor
+msgid "The emperor also thought him an accidental king. At first."
+msgstr "「大帝也認為他是靠機運登上王位的，但第一印象會騙人。」"
+
+#: src/GwentTracker/data/skellige.yml:111 -> Card.name
+msgid "Olaf"
+msgstr "歐拉夫"
+
+#: src/GwentTracker/data/skellige.yml:112 -> Card.flavor
+msgid "Many've tried to defeat Olaf. But won't hear about it from them - they're dead."
+msgstr "「許多人試著打敗歐拉夫過。但他們從此無消無息，因為他們全死了。」"
+
+#: src/GwentTracker/data/skellige.yml:116 -> Card.npc
+msgid "Sommelier"
+msgstr "品酒師"
+
+#: src/GwentTracker/data/skellige.yml:117 -> Card.area
+msgid "The Adder and Jewels Winery"
+msgstr "毒蛇與寶石釀酒廠"
+
+#: src/GwentTracker/data/skellige.yml:118 -> Card.territory
+msgid "Beauclair"
+msgstr "鮑克蘭"
+
+#: src/GwentTracker/data/skellige.yml:123 -> Card.name
+msgid "Berserker"
+msgstr "狂戰士"
+
+#: src/GwentTracker/data/skellige.yml:124 -> Card.flavor
+msgid "Kill, crush, cleave!"
+msgstr "「殺！碾！斬！」"
+
+#: src/GwentTracker/data/skellige.yml:131 -> Card.name
+msgid "Transformed Vildkaarl"
+msgstr "轉化的維爾卡人"
+
+#: src/GwentTracker/data/skellige.yml:132 -> Card.flavor
+msgid "Saw them fight once in my life… and once was enough."
+msgstr "我這輩子見過牠們作戰的樣子一次⋯一次就夠多了。"
+
+#: src/GwentTracker/data/skellige.yml:138 -> Card.name
+msgid "Young Berserker"
+msgstr "年輕狂戰士"
+
+#: src/GwentTracker/data/skellige.yml:139 -> Card.flavor
+msgid "Want some?"
+msgstr "「想嚐點苦頭嗎？」"
+
+#: src/GwentTracker/data/skellige.yml:145 -> Card.npc
+msgid "Blacksmith"
+msgstr "鐵匠"
+
+#: src/GwentTracker/data/skellige.yml:146 -> Card.area
+msgid "Tourney Grounds"
+msgstr "比武場"
+
+#: src/GwentTracker/data/skellige.yml:147 -> Card.territory
+msgid "Sansretour Valley"
+msgstr "桑司雷多谷"
+
+#: src/GwentTracker/data/skellige.yml:151 -> Card.npc
+msgid "Pierre"
+msgstr "皮耶"
+
+#: src/GwentTracker/data/skellige.yml:152 -> Card.area
+msgid "Tailor's Workshop"
+msgstr "裁縫工坊"
+
+#: src/GwentTracker/data/skellige.yml:153 -> Card.territory
+msgid "Hauteville"
+msgstr "豪特村"
+
+#: src/GwentTracker/data/skellige.yml:158 -> Card.name
+msgid "Transformed Young Vildkaarl"
+msgstr "轉化的年輕維爾卡人"
+
+#: src/GwentTracker/data/skellige.yml:159 -> Card.flavor
+msgid "Rooaaaar!"
+msgstr "吼吼吼吼！"
+
+#: src/GwentTracker/data/skellige.yml:165 -> Card.name
+msgid "Clan an Craite Warrior"
+msgstr "奎特家族戰士"
+
+#: src/GwentTracker/data/skellige.yml:166 -> Card.flavor
+msgid "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!"
+msgstr "「我會為奎特家族帶來榮耀，讓大家讚頌我的名字！」"
+
+#: src/GwentTracker/data/skellige.yml:173 -> Card.name
+msgid "Clan Tordarroch Armorsmith"
+msgstr "托達洛曲家族盔甲匠"
+
+#: src/GwentTracker/data/skellige.yml:174 -> Card.flavor
+msgid "Ye're in for a poundin'."
+msgstr "「看來你是討打。」"
+
+#: src/GwentTracker/data/skellige.yml:181 -> Card.name
+msgid "Clan Heymaey Skald"
+msgstr "海玫家族詩人"
+
+#: src/GwentTracker/data/skellige.yml:182 -> Card.flavor
+msgid "The deeds of Clan Heymaey will go down in history."
+msgstr "「海玫家族的事蹟將會流傳千古。」"
+
+#: src/GwentTracker/data/skellige.yml:189 -> Card.name
+msgid "Light Longship"
+msgstr "輕型長船"
+
+#: src/GwentTracker/data/skellige.yml:190 -> Card.flavor
+msgid "Escape them? In the waters of Skellige? Good luck."
+msgstr "「逃過他們？在史凱利傑的航域上？祝你好運。」"
+
+#: src/GwentTracker/data/skellige.yml:197 -> Card.area
+msgid "Perfumery"
+msgstr "香水商人"
+
+#: src/GwentTracker/data/skellige.yml:203 -> Card.name
+msgid "War Longship"
+msgstr "戰型長船"
+
+#: src/GwentTracker/data/skellige.yml:204 -> Card.flavor
+msgid "They say Hemdall's heart swells whenever the longships sail out on a raid."
+msgstr "「聽說只要有長船出航洗劫，漢姆多爾的心臟就會慷慨激昂。」"
+
+#: src/GwentTracker/data/skellige.yml:217 -> Card.name
+msgid "Clan Brokvar Archer"
+msgstr "布洛克伐家族弓箭手"
+
+#: src/GwentTracker/data/skellige.yml:218 -> Card.flavor
+msgid "So ye can hit a movin' target at two hundred paces. Me, too. In a storm."
+msgstr "「你可以打中兩百步外的移動目標呀。我也能呢，還是在暴風雨中。」"
+
+#: src/GwentTracker/data/skellige.yml:224 -> Card.npc
+msgid "Herbalist"
+msgstr "草藥醫生"
+
+#: src/GwentTracker/data/skellige.yml:225 -> Card.area
+msgid "Castel Ravello Vineyard"
+msgstr "拉維羅堡葡萄園"
+
+#: src/GwentTracker/data/skellige.yml:231 -> Card.name
+msgid "Clan Drummond Shield Maiden"
+msgstr "德拉蒙家族盾女兵"
+
+#: src/GwentTracker/data/skellige.yml:232 -> Card.flavor
+msgid "They'll shatter on our shields like waves on a rocky shore."
+msgstr "「他們會像打上石岸的海浪一樣倒在我們的盾前。」"
+
+#: src/GwentTracker/data/skellige.yml:239 -> Card.name
+msgid "Clan Dimun Pirate"
+msgstr "迪門家族海盜"
+
+#: src/GwentTracker/data/skellige.yml:240 -> Card.flavor
+msgid "Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!"
+msgstr "「我看得到他們眼中的恐懼。他們懼怕我⋯懼怕迪門家族！」"
+
+#: src/GwentTracker/data/skellige.yml:245 -> Card.area
+msgid "Dupont & Sons Emporium of Diverse Merchandise"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:251 -> Card.name
+msgid "Kambi"
+msgstr "坎畢"
+
+#: src/GwentTracker/data/skellige.yml:252 -> Card.flavor
+msgid "When the time comes, the cockerel Kambi shall crow and awaken Hemdall."
+msgstr "「時機一到，公雞坎畢就會啼叫、叫醒漢姆多爾。」"
+
+#: src/GwentTracker/data/skellige.yml:256 -> Card.npc
+msgid "Armorer"
+msgstr "護甲師傅"
+
+#: src/GwentTracker/data/skellige.yml:269 -> Card.area
+msgid "The Cockatrice Inn"
+msgstr "石化雞蛇酒店"
+
+#: src/GwentTracker/data/skellige.yml:287 -> Card.name
+msgid "King Bran"
+msgstr "布蘭王"
+
+#: src/GwentTracker/data/skellige.yml:288 -> Card.flavor
+msgid "No one can replace Bran. Though they're sure to try."
+msgstr "「沒人能取代布蘭。不過後世肯定會努力嘗試。」"
+
+#: src/GwentTracker/data/skellige.yml:292 -> Card.npc
+msgid "Rafael de Surmann"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:293 -> Card.area
+msgid "The Pheasantry"
+msgstr "雉園"
+
+#: src/GwentTracker/data/skellige.yml:300 -> Card.flavor
+msgid "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
+msgstr "國王要聰明。國王要受人尊敬。國王要有種。"

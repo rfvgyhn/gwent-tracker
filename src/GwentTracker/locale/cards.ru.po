@@ -121,7 +121,7 @@ msgstr "Герой"
 
 #: src/GwentTracker/data/monsters.yml:8 -> Card.type
 msgid "Gwent Quest"
-msgstr ""
+msgstr "Квест Гвинта"
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
 msgid "Crach an Craite"
@@ -145,7 +145,7 @@ msgstr "Как убить кейрана? Легко. Берешь лучший 
 
 #: src/GwentTracker/data/monsters.yml:20 -> Card.type
 msgid "Win from NPC"
-msgstr ""
+msgstr "Выиграть у NPC"
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
@@ -197,7 +197,7 @@ msgstr "Как выжить при встрече с элементалем зе
 
 #: src/GwentTracker/data/monsters.yml:68 -> Card.type
 msgid "Buy from Trader"
-msgstr ""
+msgstr "Купить у торговца"
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
@@ -393,7 +393,7 @@ msgstr "Мелкий, быстрый и зловредный."
 
 #: src/GwentTracker/data/monsters.yml:320 -> Card.type
 msgid "Secondary Quest"
-msgstr ""
+msgstr "Вспомогательный квест"
 
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
@@ -509,7 +509,7 @@ msgstr "Лидер"
 
 #: src/GwentTracker/data/monsters.yml:492 -> Card.type
 msgid "Base Deck"
-msgstr ""
+msgstr "Базовая колода"
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"
@@ -542,6 +542,34 @@ msgstr "Ну давай. Покажи мне эти свои финты и пи�
 #: src/GwentTracker/data/monsters.yml:528 -> Card.territory
 msgid "Passiflora"
 msgstr "Пассифлора"
+
+#: src/GwentTracker/data/monsters.yml:533 -> Card.name
+msgid "Eredin Bréacc Glas The Treacherous"
+msgstr "Эредин Бреакк Глас Вероломный"
+
+#: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
+msgid "I'm enjoying this. You are my toy."
+msgstr "Удваивает силу всех карт шпионов (у обоих игроков)."
+
+#: src/GwentTracker/data/monsters.yml:537 -> Card.type
+msgid "Win From NPC"
+msgstr "Выиграть у NPC"
+
+#: src/GwentTracker/data/monsters.yml:538 -> Card.npc
+msgid "Dulla kh'Amanni"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:539 -> Card.area
+msgid "Upper Mill"
+msgstr "Верхняя мельница"
+
+#: src/GwentTracker/data/monsters.yml:540 -> Card.territory
+msgid "Gustfields"
+msgstr "Золотые поля"
+
+#: src/GwentTracker/data/monsters.yml:541 -> Card.region
+msgid "Redania"
+msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
 msgid "Neutral"
@@ -578,10 +606,6 @@ msgstr "Вроницы"
 #: src/GwentTracker/data/neutral.yml:21 -> Card.area
 msgid "Seven Cats Inn"
 msgstr "Корчма Семь котов"
-
-#: src/GwentTracker/data/neutral.yml:22 -> Card.territory
-msgid "Gustfields"
-msgstr "Золотые поля"
 
 #: src/GwentTracker/data/neutral.yml:27 -> Card.name
 msgid "Commander's Horn"
@@ -1127,6 +1151,18 @@ msgstr "Эмгыр вар Эмрейс Властелин Юга"
 msgid "They do not call me the Patient. Take care they do not call you the Headless."
 msgstr "Император не славится терпением. Он хочет видеть свою дочь. Как можно скорее."
 
+#: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
+msgid "Emhyr var Emreis Invader of the North"
+msgstr "Эмгыр вар Эмрейс Завоеватель Севера"
+
+#: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
+msgid "Emperors command multitudes, yet cannot control two things: their time and their hearts."
+msgstr "Императоры владеют империями, но двумя вещами владеть не могут: своим сердцем и своим временем."
+
+#: src/GwentTracker/data/nilfgaard.yml:478 -> Card.area
+msgid "Carsten"
+msgstr "Карстен"
+
 #: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
 msgid "Northern Realms"
 msgstr "Королевства Севера"
@@ -1379,6 +1415,14 @@ msgstr "Фольтест Железный Владыка"
 msgid "A beautiful day for battle."
 msgstr "Замечательный день для битвы!"
 
+#: src/GwentTracker/data/northernrealms.yml:323 -> Card.name
+msgid "Foltest Son of Medell"
+msgstr "Фольтест Сын Меделла"
+
+#: src/GwentTracker/data/northernrealms.yml:324 -> Card.flavor
+msgid "Dammit, I rule this land and I refuse to creep around its corners."
+msgstr "Я здесь правитель, и не стану сидеть в кустах!"
+
 #: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
 msgid "Scoia'tael"
 msgstr "Скоя'таэли"
@@ -1610,3 +1654,319 @@ msgstr "Францеска Финдабаир Королева Дол Блата
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "To live in peace, we first must kill. This is human oppression's cruel finale."
 msgstr "Всему своя цена. Война требует жертв. Мир, оказывается, тоже."
+
+#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
+msgid "Francesca Findabair Hope of the Aen Seidhe"
+msgstr "Францеска Финдабаир Надежда Aen Seidhe"
+
+#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
+msgid "Daede sian caente, Aen Seidhe en'allane ael coeden…"
+msgstr "Daede sian caente. Aen Seidhe en'allane ael coeden..."
+
+#: src/GwentTracker/data/skellige.yml:4 -> Card.name
+msgid "Hemdall"
+msgstr "Хеймдалль"
+
+#: src/GwentTracker/data/skellige.yml:5 -> Card.flavor
+msgid "When the time of the White Frost comes, Hemdall will sound the call for battle."
+msgstr "Когда придет Час Белого Хлада, Хеймдалль призовет нас на бой."
+
+#: src/GwentTracker/data/skellige.yml:8 -> Card.type
+msgid "Summon"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:11 -> Card.name
+msgid "Hjalmar"
+msgstr "Хьялмар"
+
+#: src/GwentTracker/data/skellige.yml:12 -> Card.flavor
+msgid "Instead of mournin' the fallen, let's drink to their memory!"
+msgstr "Чем скорбеть о погибших, лучше выпьем за них!"
+
+#: src/GwentTracker/data/skellige.yml:15 -> Card.type
+msgid "B&W Base Deck"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:19 -> Card.name
+msgid "Cerys"
+msgstr "Керис"
+
+#: src/GwentTracker/data/skellige.yml:20 -> Card.flavor
+msgid "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast."
+msgstr "Сейчас я тебе покажу Перепелочку…"
+
+#: src/GwentTracker/data/skellige.yml:25 -> Card.area
+msgid "The Barrel and Bung Inn"
+msgstr "Корчма Под бочкой и шпунтом"
+
+#: src/GwentTracker/data/skellige.yml:26 -> Card.territory
+msgid "Flovive"
+msgstr "Деревня Фловив"
+
+#: src/GwentTracker/data/skellige.yml:27 -> Card.region
+msgid "Toussaint"
+msgstr "Туссент"
+
+#: src/GwentTracker/data/skellige.yml:32 -> Card.flavor
+msgid "Only the ignorant dismiss the importance of myths."
+msgstr "Только невежды преуменьшают значение мифов."
+
+#: src/GwentTracker/data/skellige.yml:37 -> Card.area
+msgid "Francollarts"
+msgstr "Деревушка Франколар"
+
+#: src/GwentTracker/data/skellige.yml:38 -> Card.territory
+msgid "Caroberta Woods"
+msgstr "Леса Кароберты"
+
+#: src/GwentTracker/data/skellige.yml:43 -> Card.name
+msgid "Draig Bon-Dhu"
+msgstr "Драйг Бон-Дху"
+
+#: src/GwentTracker/data/skellige.yml:44 -> Card.flavor
+msgid "Hear ye now the tale of the heroic deeds of Clan an Craite."
+msgstr "Послушай сагу о деяниях клана ан Крайтов."
+
+#: src/GwentTracker/data/skellige.yml:55 -> Card.name
+msgid "Holger Blackhand"
+msgstr "Хольгер Чернорукий"
+
+#: src/GwentTracker/data/skellige.yml:56 -> Card.flavor
+msgid "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!"
+msgstr "Теперь выпьем за то, чтоб у императора Нильфгаарда хер больше не стоял!"
+
+#: src/GwentTracker/data/skellige.yml:64 -> Card.flavor
+msgid "WAAAAAAAAAAGH!!!!"
+msgstr "ВА-А-А-А-А!!!"
+
+#: src/GwentTracker/data/skellige.yml:71 -> Card.name
+msgid "Donar an Hindar"
+msgstr "Донар ан Хиндар"
+
+#: src/GwentTracker/data/skellige.yml:72 -> Card.flavor
+msgid "I've gathered all the jarls together. Now make your case."
+msgstr "Я собрал совет ярлов по твоему требованию. Выкладывай."
+
+#: src/GwentTracker/data/skellige.yml:79 -> Card.name
+msgid "Udalryk"
+msgstr "Удальрик"
+
+#: src/GwentTracker/data/skellige.yml:80 -> Card.flavor
+msgid "Haaaargh! After me, if ye've the bollocks!"
+msgstr "Ха-а-а! Кто храбр, за мной!"
+
+#: src/GwentTracker/data/skellige.yml:87 -> Card.name
+msgid "Birna Bran"
+msgstr "Бирна Бран"
+
+#: src/GwentTracker/data/skellige.yml:88 -> Card.flavor
+msgid "Skellige must have a strong king. No matter what it takes."
+msgstr "Скеллиге нужен сильный король. Любой ценой."
+
+#: src/GwentTracker/data/skellige.yml:95 -> Card.name
+msgid "Blueboy Lugos"
+msgstr "Лугос Синий"
+
+#: src/GwentTracker/data/skellige.yml:96 -> Card.flavor
+msgid "I'm damn near ready to puke from boredom."
+msgstr "Меня от скуки уже блевать тянет."
+
+#: src/GwentTracker/data/skellige.yml:103 -> Card.name
+msgid "Svanrige"
+msgstr "Сванриге"
+
+#: src/GwentTracker/data/skellige.yml:104 -> Card.flavor
+msgid "The emperor also thought him an accidental king. At first."
+msgstr "Император тоже считал его случайным королем. До поры."
+
+#: src/GwentTracker/data/skellige.yml:111 -> Card.name
+msgid "Olaf"
+msgstr "Олаф"
+
+#: src/GwentTracker/data/skellige.yml:112 -> Card.flavor
+msgid "Many've tried to defeat Olaf. But won't hear about it from them - they're dead."
+msgstr "Многие пытались победить Олафа. Но не расскажут об этом: их больше нет."
+
+#: src/GwentTracker/data/skellige.yml:116 -> Card.npc
+msgid "Sommelier"
+msgstr "Сомелье"
+
+#: src/GwentTracker/data/skellige.yml:117 -> Card.area
+msgid "The Adder and Jewels Winery"
+msgstr "Винодельня Змея и рубин"
+
+#: src/GwentTracker/data/skellige.yml:118 -> Card.territory
+msgid "Beauclair"
+msgstr "Боклер"
+
+#: src/GwentTracker/data/skellige.yml:123 -> Card.name
+msgid "Berserker"
+msgstr "Берсерк"
+
+#: src/GwentTracker/data/skellige.yml:124 -> Card.flavor
+msgid "Kill, crush, cleave!"
+msgstr "Бей, круши, топчи!"
+
+#: src/GwentTracker/data/skellige.yml:131 -> Card.name
+msgid "Transformed Vildkaarl"
+msgstr "Обратившийся вильдкаарл"
+
+#: src/GwentTracker/data/skellige.yml:132 -> Card.flavor
+msgid "Saw them fight once in my life… and once was enough."
+msgstr "Раз в жизни я видал, как они дерутся… больше не хочу."
+
+#: src/GwentTracker/data/skellige.yml:138 -> Card.name
+msgid "Young Berserker"
+msgstr "Молодой берсерк"
+
+#: src/GwentTracker/data/skellige.yml:139 -> Card.flavor
+msgid "Want some?"
+msgstr "Вломить?"
+
+#: src/GwentTracker/data/skellige.yml:145 -> Card.npc
+msgid "Blacksmith"
+msgstr "Кузнец"
+
+#: src/GwentTracker/data/skellige.yml:146 -> Card.area
+msgid "Tourney Grounds"
+msgstr "Турнирные поля"
+
+#: src/GwentTracker/data/skellige.yml:147 -> Card.territory
+msgid "Sansretour Valley"
+msgstr "Долина Сансретур"
+
+#: src/GwentTracker/data/skellige.yml:151 -> Card.npc
+msgid "Pierre"
+msgstr "Пьер"
+
+#: src/GwentTracker/data/skellige.yml:152 -> Card.area
+msgid "Tailor's Workshop"
+msgstr "Портняжная мастерская"
+
+#: src/GwentTracker/data/skellige.yml:153 -> Card.territory
+msgid "Hauteville"
+msgstr "Верхний город"
+
+#: src/GwentTracker/data/skellige.yml:158 -> Card.name
+msgid "Transformed Young Vildkaarl"
+msgstr "Обратившийся молодой вильдкаарл"
+
+#: src/GwentTracker/data/skellige.yml:159 -> Card.flavor
+msgid "Rooaaaar!"
+msgstr "А-а-а!"
+
+#: src/GwentTracker/data/skellige.yml:165 -> Card.name
+msgid "Clan an Craite Warrior"
+msgstr "Воин клана ан Крайт"
+
+#: src/GwentTracker/data/skellige.yml:166 -> Card.flavor
+msgid "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!"
+msgstr "Я принесу славу клану Ан Крайтов, а мое имя останется в песнях!"
+
+#: src/GwentTracker/data/skellige.yml:173 -> Card.name
+msgid "Clan Tordarroch Armorsmith"
+msgstr "Кузнец клана Тордаррох"
+
+#: src/GwentTracker/data/skellige.yml:174 -> Card.flavor
+msgid "Ye're in for a poundin'."
+msgstr "Я тебя подкую."
+
+#: src/GwentTracker/data/skellige.yml:181 -> Card.name
+msgid "Clan Heymaey Skald"
+msgstr "Скальд клана Хэймэй"
+
+#: src/GwentTracker/data/skellige.yml:182 -> Card.flavor
+msgid "The deeds of Clan Heymaey will go down in history."
+msgstr "Деяния клана Хэймэй останутся в вечности."
+
+#: src/GwentTracker/data/skellige.yml:189 -> Card.name
+msgid "Light Longship"
+msgstr "Легкий драккар"
+
+#: src/GwentTracker/data/skellige.yml:190 -> Card.flavor
+msgid "Escape them? In the waters of Skellige? Good luck."
+msgstr "Бежать от них? В водах Скеллиге? Ну удачи."
+
+#: src/GwentTracker/data/skellige.yml:197 -> Card.area
+msgid "Perfumery"
+msgstr "Парфюмерия"
+
+#: src/GwentTracker/data/skellige.yml:203 -> Card.name
+msgid "War Longship"
+msgstr "Военный драккар"
+
+#: src/GwentTracker/data/skellige.yml:204 -> Card.flavor
+msgid "They say Hemdall's heart swells whenever the longships sail out on a raid."
+msgstr "Говорят, когда драккары идут в набег, сердце Хеймдалля радуется."
+
+#: src/GwentTracker/data/skellige.yml:217 -> Card.name
+msgid "Clan Brokvar Archer"
+msgstr "Лучник клана Броквар"
+
+#: src/GwentTracker/data/skellige.yml:218 -> Card.flavor
+msgid "So ye can hit a movin' target at two hundred paces. Me, too. In a storm."
+msgstr "Ты попадешь в бегущего с двух сотен шагов? Я тоже. В бурю."
+
+#: src/GwentTracker/data/skellige.yml:224 -> Card.npc
+msgid "Herbalist"
+msgstr "Травник"
+
+#: src/GwentTracker/data/skellige.yml:225 -> Card.area
+msgid "Castel Ravello Vineyard"
+msgstr "Винодельня Кастель Равелло"
+
+#: src/GwentTracker/data/skellige.yml:231 -> Card.name
+msgid "Clan Drummond Shield Maiden"
+msgstr "Воительница клана Друммонд"
+
+#: src/GwentTracker/data/skellige.yml:232 -> Card.flavor
+msgid "They'll shatter on our shields like waves on a rocky shore."
+msgstr "Они разобьются о наши щиты, как море о скалы."
+
+#: src/GwentTracker/data/skellige.yml:239 -> Card.name
+msgid "Clan Dimun Pirate"
+msgstr "Пират из клана Димун"
+
+#: src/GwentTracker/data/skellige.yml:240 -> Card.flavor
+msgid "Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!"
+msgstr "Я вижу страх в их глазах. Они боятся… За мной! За клан Димун!"
+
+#: src/GwentTracker/data/skellige.yml:245 -> Card.area
+msgid "Dupont & Sons Emporium of Diverse Merchandise"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:251 -> Card.name
+msgid "Kambi"
+msgstr "Камби"
+
+#: src/GwentTracker/data/skellige.yml:252 -> Card.flavor
+msgid "When the time comes, the cockerel Kambi shall crow and awaken Hemdall."
+msgstr "Когда Камби запоет и разбудит Хеймдалля..."
+
+#: src/GwentTracker/data/skellige.yml:256 -> Card.npc
+msgid "Armorer"
+msgstr "Бронник"
+
+#: src/GwentTracker/data/skellige.yml:269 -> Card.area
+msgid "The Cockatrice Inn"
+msgstr "Корчма Куролиск"
+
+#: src/GwentTracker/data/skellige.yml:287 -> Card.name
+msgid "King Bran"
+msgstr "Король Бран"
+
+#: src/GwentTracker/data/skellige.yml:288 -> Card.flavor
+msgid "No one can replace Bran. Though they're sure to try."
+msgstr "Никто не заменит Брана. Хотя многие попытаются."
+
+#: src/GwentTracker/data/skellige.yml:292 -> Card.npc
+msgid "Rafael de Surmann"
+msgstr ""
+
+#: src/GwentTracker/data/skellige.yml:293 -> Card.area
+msgid "The Pheasantry"
+msgstr "Фазанерия"
+
+#: src/GwentTracker/data/skellige.yml:300 -> Card.flavor
+msgid "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
+msgstr "Король должен быть мудрым. Уважаемым. У короля должны быть яйца."

@@ -1,0 +1,304 @@
+---
+-   index: 500
+    deck: Skellige
+    name: "Hemdall"
+    flavor: "When the time of the White Frost comes, Hemdall will sound the call for battle."
+    type: Hero
+    locations:
+        -   type: Summon
+-   index: 501
+    deck: Skellige
+    name: "Hjalmar"
+    flavor: "Instead of mournin' the fallen, let's drink to their memory!"
+    type: Hero
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 502
+    deck: Skellige
+    name: "Cerys"
+    flavor: "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast."
+    type: Hero
+    locations:
+        -   type: Win from NPC
+            npc: Innkeeper
+            area: The Barrel and Bung Inn
+            territory: Flovive
+            region: Toussaint
+            coords: []
+-   index: 503
+    deck: Skellige
+    name: "Ermion"
+    flavor: "Only the ignorant dismiss the importance of myths."
+    type: Hero
+    locations:
+        -   type: Win from NPC
+            npc: Innkeeper
+            area: Francollarts
+            territory: Caroberta Woods
+            region: Toussaint
+            coords: []
+-   index: 504
+    deck: Skellige
+    name: "Draig Bon-Dhu"
+    flavor: "Hear ye now the tale of the heroic deeds of Clan an Craite."
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Innkeeper
+            area: Francollarts
+            territory: Caroberta Woods
+            region: Toussaint
+            coords: []
+-   index: 505
+    deck: Skellige
+    name: "Holger Blackhand"
+    flavor: "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!"
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 506
+    deck: Skellige
+    name: "Madman Lugos"
+    flavor: "WAAAAAAAAAAGH!!!!"
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 507
+    deck: Skellige
+    name: "Donar an Hindar"
+    flavor: "I've gathered all the jarls together. Now make your case."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 508
+    deck: Skellige
+    name: "Udalryk"
+    flavor: "Haaaargh! After me, if ye've the bollocks!"
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 509
+    deck: Skellige
+    name: "Birna Bran"
+    flavor: "Skellige must have a strong king. No matter what it takes."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 510
+    deck: Skellige
+    name: "Blueboy Lugos"
+    flavor: "I'm damn near ready to puke from boredom."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 511
+    deck: Skellige
+    name: "Svanrige"
+    flavor: "The emperor also thought him an accidental king. At first."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 512
+    deck: Skellige
+    name: "Olaf"
+    flavor: "Many've tried to defeat Olaf. But won't hear about it from them - they're dead."
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Sommelier
+            area: The Adder and Jewels Winery
+            territory: Beauclair
+            region: Toussaint
+            coords: []
+-   index: 513
+    deck: Skellige
+    name: "Berserker"
+    flavor: "Kill, crush, cleave!"
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 514
+    deck: Skellige
+    name: "Transformed Vildkaarl"
+    flavor: "Saw them fight once in my life… and once was enough."
+    type: Unit
+    locations:
+        -   type: Summon
+-   index: 515
+    deck: Skellige
+    name: "Young Berserker"
+    flavor: "Want some?"
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+        -   type: Win from NPC
+            npc: Blacksmith
+            area: Tourney Grounds
+            territory: Sansretour Valley
+            region: Toussaint
+            coords: []
+        -   type: Win from NPC
+            npc: Pierre
+            area: Tailor's Workshop
+            territory: Hauteville
+            region: Toussaint
+            coords: []
+-   index: 516
+    deck: Skellige
+    name: "Transformed Young Vildkaarl"
+    flavor: "Rooaaaar!"
+    type: Unit
+    locations:
+        -   type: Summon
+-   index: 517
+    deck: Skellige
+    name: "Clan an Craite Warrior"
+    flavor: "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!"
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 518
+    deck: Skellige
+    name: "Clan Tordarroch Armorsmith"
+    flavor: "Ye're in for a poundin'."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 519
+    deck: Skellige
+    name: "Clan Heymaey Skald"
+    flavor: "The deeds of Clan Heymaey will go down in history."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 520
+    deck: Skellige
+    name: "Light Longship"
+    flavor: "Escape them? In the waters of Skellige? Good luck."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+        -   type: Win from NPC
+            npc: Merchant
+            area: Perfumery
+            territory: Hauteville
+            region: Toussaint
+            coords: []
+-   index: 521
+    deck: Skellige
+    name: "War Longship"
+    flavor: "They say Hemdall's heart swells whenever the longships sail out on a raid."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+        -   type: Win from NPC
+            npc: Innkeeper
+            area: Tourney Grounds
+            territory: Sansretour Valley
+            region: Toussaint
+            coords: []
+-   index: 522
+    deck: Skellige
+    name: "Clan Brokvar Archer"
+    flavor: "So ye can hit a movin' target at two hundred paces. Me, too. In a storm."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+        -   type: Win from NPC
+            npc: Herbalist
+            area: Castel Ravello Vineyard
+            territory: Sansretour Valley
+            region: Toussaint
+            coords: []
+-   index: 523
+    deck: Skellige
+    name: "Clan Drummond Shield Maiden"
+    flavor: "They'll shatter on our shields like waves on a rocky shore."
+    type: Unit
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
+-   index: 524
+    deck: Skellige
+    name: "Clan Dimun Pirate"
+    flavor: "Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!"
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Merchant
+            area: Dupont & Sons Emporium of Diverse Merchandise
+            territory: Hauteville
+            region: Toussaint
+            coords: []
+-   index: 525
+    deck: Skellige
+    name: "Kambi"
+    flavor: "When the time comes, the cockerel Kambi shall crow and awaken Hemdall."
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Armorer
+            area: Hauteville
+            territory: Beauclair
+            region: Toussaint
+            coords: []
+-   index: 526
+    deck: Skellige
+    name: "Clan Drummond Shield Maiden"
+    flavor: "They'll shatter on our shields like waves on a rocky shore."
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Innkeeper
+            area: The Cockatrice Inn
+            territory:
+            region: Toussaint
+            coords: []
+-   index: 527
+    deck: Skellige
+    name: "Clan Drummond Shield Maiden"
+    flavor: "They'll shatter on our shields like waves on a rocky shore."
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Armorer
+            area: Francollarts
+            territory: Caroberta Woods
+            region: Toussaint
+            coords: []
+-   index: 5001
+    deck: Skellige
+    name: "King Bran"
+    flavor: "No one can replace Bran. Though they're sure to try."
+    type: Leader
+    locations:
+        -   type: Win from NPC
+            npc: Rafael de Surmann
+            area: The Pheasantry
+            territory: Hauteville
+            region: Toussaint
+            coords: []
+-   index: 5002
+    deck: Skellige
+    name: "Crach an Craite"
+    flavor: "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
+    type: Leader
+    locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck

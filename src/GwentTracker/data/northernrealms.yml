@@ -318,3 +318,15 @@
             territory: Passiflora
             region: Novigrad
             coords: []
+-   index: 1005
+    deck: Northern Realms
+    name: "Foltest Son of Medell"
+    flavor: "Dammit, I rule this land and I refuse to creep around its corners."
+    type: Leader
+    locations:
+        -   type: Buy from Trader
+            npc: Merchant
+            area: Carsten
+            territory: Gustfields
+            region: Redania
+            coords: []

@@ -169,7 +169,7 @@ namespace GwentTracker.ViewModels
         {
             var cards = new List<Card>();
             var missables = new List<MissableInfo>();
-            var files = new[] { "monsters", "neutral", "nilfgaard", "northernrealms", "scoiatael" };
+            var files = new[] { "monsters", "neutral", "nilfgaard", "northernrealms", "scoiatael", "skellige" };
             var deserializer = new DeserializerBuilder()
                                     .IgnoreUnmatchedProperties()
                                     .WithNamingConvention(CamelCaseNamingConvention.Instance)

@@ -467,3 +467,15 @@
             territory: Passiflora
             region: Novigrad
             coords: []
+-   index: 2005
+    deck: Nilfgaard
+    name: "Emhyr var Emreis Invader of the North"
+    flavor: "Emperors command multitudes, yet cannot control two things: their time and their hearts."
+    type: Leader
+    locations:
+        -   type: Buy from Trader
+            npc: Trader
+            area: Carsten
+            territory: Gustfields
+            region: Redania
+            coords: []
