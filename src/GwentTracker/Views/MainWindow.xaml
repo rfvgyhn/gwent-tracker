@@ -9,7 +9,7 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="GwentTracker"
         Width="1100"
-        Height="700">
+        Height="925">
 
     <Window.Styles>
     <Style Selector="Button.round">
@@ -47,6 +47,56 @@
                     </ItemsControl>
                 </StackPanel>
             </Grid>
+            <StackPanel Orientation="Vertical" Margin="0 0 0 12">
+                <TextBlock Text="{i18n:Translate Achievement Progress}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" />
+                <Border CornerRadius="3" Background="{DynamicResource ThemeAccentBrush4}" Padding="4" Margin="0 4 4 0">
+                    <StackPanel>
+                        <TextBlock Text="{i18n:Translate 'Collect \'em All'}" HorizontalAlignment="Center" FontStyle="Italic" />
+                        <TextBlock HorizontalAlignment="Center">
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
+                                    <Binding Path="BaseGameProgress.Collected" />
+                                    <Binding Path="BaseGameProgress.Needed" />
+                                    <Binding Path="BaseGameProgress.Total" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                        <TextBlock Text="{i18n:Translate I Have a Gwent Problem}" HorizontalAlignment="Center" FontStyle="Italic" Margin="0 6 0 0" />
+                        <TextBlock HorizontalAlignment="Center">
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
+                                    <Binding Path="DlcProgress.Collected" />
+                                    <Binding Path="DlcProgress.Needed" />
+                                    <Binding Path="DlcProgress.Total" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+                <TextBlock Text="{i18n:Translate Card Progress}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" Margin="0 12 0 0" />
+                <Border CornerRadius="3" Background="{DynamicResource ThemeAccentBrush4}" Padding="4" Margin="0 4 4 0">
+                    <StackPanel>
+                        <TextBlock Text="{i18n:Translate Base Game}" HorizontalAlignment="Center" FontStyle="Italic" />
+                        <TextBlock HorizontalAlignment="Center">
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
+                                    <Binding Path="BaseGameProgress.Copies" />
+                                    <Binding Path="BaseGameProgress.Total" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                        <TextBlock Text="{i18n:Translate DLC}" HorizontalAlignment="Center" FontStyle="Italic" Margin="0 6 0 0" />
+                        <TextBlock HorizontalAlignment="Center">
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
+                                    <Binding Path="DlcProgress.Copies" />
+                                    <Binding Path="DlcProgress.Total" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
             <TextBlock Text="{i18n:Translate Missable Cards by Quest}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" />
             <ItemsControl x:Name="Messages">
                 <ItemsControl.ItemTemplate>

@@ -2,6 +2,12 @@
 
 namespace GwentTracker.Model
 {
+    public enum CardSource
+    {
+        BaseGame,
+        Dlc
+    }
+    
     public class Card : ReactiveObject
     {
         public int Index { get; set; }
@@ -23,5 +29,19 @@ namespace GwentTracker.Model
         public CombatDetails Combat { get; set; }
         public string Type { get; set; }
         public Location[] Locations { get; set; }
+
+        public CardSource Source
+        {
+            get
+            {
+                if (Index == 4005 || Index == 2005 || Index == 1005 || Index == 3005 ||
+                    (Index >= 500 && Index < 600) || Index > 5000)
+                {
+                    return CardSource.Dlc;
+                }
+
+                return CardSource.BaseGame;                
+            }
+        }
     }
 }

@@ -1,4 +1,8 @@
-
+## 'msgid's in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove 'msgid's manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
 msgid ""
 msgstr ""
 "Language: es\n"
@@ -11,55 +15,79 @@ msgstr ""
 msgid "GwentTracker"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:50 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:51 -> TextBlock.Text
+msgid "Achievement Progress"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:54 -> TextBlock.Text
+msgid "'Collect \'em All"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:64 -> TextBlock.Text
+msgid "I Have a Gwent Problem"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:76 -> TextBlock.Text
+msgid "Card Progress"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:79 -> TextBlock.Text
+msgid "Base Game"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:88 -> TextBlock.Text
+msgid "DLC"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:100 -> TextBlock.Text
 msgid "Missable Cards by Quest"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:60 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:110 -> TextBlock.Text
 msgid "* {0}"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:71 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:121 -> TextBlock.Text
 msgid "Region: {0}"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:72 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:122 -> TextBlock.Text
 msgid "Cutoff: {0}"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:81 -> FilterString.Watermark
+#: src/GwentTracker/Views/MainWindow.xaml:131 -> FilterString.Watermark
 msgid "Filter"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:82 -> AddFilter.Content
+#: src/GwentTracker/Views/MainWindow.xaml:132 -> AddFilter.Content
 msgid "Add"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:94 -> Button.Content
+#: src/GwentTracker/Views/MainWindow.xaml:144 -> Button.Content
 msgid "X"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:110 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:160 -> DataGridTextColumn.Header
 msgid "Name"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:111 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:161 -> DataGridTextColumn.Header
 msgid "Copies"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:112 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:162 -> DataGridTextColumn.Header
 msgid "Deck"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:113 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:163 -> DataGridTextColumn.Header
 msgid "Type"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:114 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:164 -> DataGridTextColumn.Header
 msgid "Location"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:115 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:165 -> DataGridTextColumn.Header
 msgid "Region"
 msgstr ""
 

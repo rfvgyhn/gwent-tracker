@@ -75,6 +75,20 @@ namespace GwentTracker.ViewModels
             set => this.RaiseAndSetIfChanged(ref _saveGamePath, value);
         }
 
+        private CollectionProgress _baseGameProgress;
+        public CollectionProgress BaseGameProgress
+        {
+            get => _baseGameProgress;
+            set => this.RaiseAndSetIfChanged(ref _baseGameProgress, value);
+        }
+        
+        private CollectionProgress _dlcProgress;
+        public CollectionProgress DlcProgress
+        {
+            get => _dlcProgress;
+            set => this.RaiseAndSetIfChanged(ref _dlcProgress, value);
+        }
+
         public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges, CultureInfo cultureInfo)
         {
             _cultureInfo = cultureInfo;
@@ -83,6 +97,8 @@ namespace GwentTracker.ViewModels
             _cards = new SourceList<CardViewModel>();
             Messages = new ObservableCollection<MissableInfo>();
             Notifications = new Subject<string>();
+            BaseGameProgress = new CollectionProgress();
+            DlcProgress = new CollectionProgress();
 
             var filterChanged = Filters.ObserveCollectionChanges();
             filterChanged.Subscribe(_ =>
@@ -105,7 +121,8 @@ namespace GwentTracker.ViewModels
             });
             LoadCards.Subscribe(items =>
             {
-                var (cards, missables) = items;
+                var (cardInfo, missables) = items;
+                var cards = cardInfo as List<Card> ?? cardInfo.ToList();
                 var mapped = cards.Select(c => new CardViewModel(textureStringFormat)
                 {
                     Index = c.Index,
@@ -115,7 +132,8 @@ namespace GwentTracker.ViewModels
                     Obtained = c.Obtained,
                     Deck = c.Deck,
                     Type = c.Type,
-                    Locations = c.Locations
+                    Locations = c.Locations,
+                    Source = c.Source
                 });
 
                 _cards.Clear();
@@ -125,6 +143,14 @@ namespace GwentTracker.ViewModels
                 Messages.Clear();
                 Messages.AddRange(missables);
                 SaveGamePath = saveGamePath;
+                
+                var requiredBase = cards.Where(c => c.Source == CardSource.BaseGame).Select(c => c.Name).Distinct().Count();
+                var requiredDlc = cards.Where(c => c.Source == CardSource.Dlc).Select(c => c.Name).Distinct().Count();
+
+                BaseGameProgress.Needed = requiredBase;
+                BaseGameProgress.Total = 200;
+                DlcProgress.Needed = requiredDlc;
+                DlcProgress.Total = 35;
             });
 
             Load = ReactiveCommand.CreateFromTask<string, SaveGameInfo>(LoadSaveGame);
@@ -272,9 +298,33 @@ namespace GwentTracker.ViewModels
                 Notifications.OnNext($"Obtained {cardNames}");
             }
 
+            var copiesBase = GetCopies(CardSource.BaseGame);
+            var copiesDlc = GetCopies(CardSource.Dlc);
+            var collectedBase = GetCollected(CardSource.BaseGame);
+            var collectedDlc = GetCollected(CardSource.Dlc);
+            BaseGameProgress.Copies = copiesBase;
+            BaseGameProgress.Collected = collectedBase;
+            DlcProgress.Copies = copiesDlc;
+            DlcProgress.Collected = collectedDlc;
             _initialLoadComplete = true;
         }
 
+        private int GetCopies(CardSource source)
+        {
+            return _cards.Items
+                         .Where(c => c.Obtained && c.Source == source)
+                         .Sum(c => c.Copies);
+        }
+
+        private int GetCollected(CardSource source)
+        {
+            return _cards.Items
+                         .Where(c => c.Obtained && c.Source == source)
+                         .Select(c => c.Name)
+                         .Distinct()
+                         .Count();
+        }
+        
         private bool ShouldFilterCard(CardViewModel card)
         {
             var compareInfo = _cultureInfo.CompareInfo;

@@ -56,7 +56,7 @@ private static void AddMessage(string messageId, Dictionary<string, List<string>
     if (string.IsNullOrEmpty(messageId))
         return;
     
-    var pattern = @"[{'](?!Binding)(?:i18n:Translate\s)?(.+?[^\d])[}']";
+    var pattern = @"[{'](?!Binding)(?:i18n:Translate\s)?(.+?[^\d\\])[}']";
     var match = Regex.Match(messageId, pattern);
     if (match.Success)
         messageId = match.Groups[1].Value;

@@ -90,5 +90,6 @@ namespace GwentTracker.ViewModels
         public IEnumerable<string> DetailedLocations => Locations.Select(l => l.Type == "Base Deck" || l.Region == "Random" ? "" : $"{l.Npc}, {l.Area}, {l.Territory ?? l.Region}").Where(l => l != "");
         public CombatDetails Combat { get; set; }
         public Location[] Locations { get; set; }
+        public CardSource Source { get; set; }
     }
 }
