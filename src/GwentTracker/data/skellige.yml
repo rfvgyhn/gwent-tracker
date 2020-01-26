@@ -2,14 +2,14 @@
 -   index: 500
     deck: Skellige
     name: "Hemdall"
-    flavor: "When the time of the White Frost comes, Hemdall will sound the call for battle."
+    flavor: "\"When the time of the White Frost comes, Hemdall will sound the call for battle.\""
     type: Hero
     locations:
         -   type: Summon
 -   index: 501
     deck: Skellige
     name: "Hjalmar"
-    flavor: "Instead of mournin' the fallen, let's drink to their memory!"
+    flavor: "\"Instead of mournin' the fallen, let's drink to their memory!\""
     type: Hero
     locations:
         -   type: B&W Base Deck
@@ -17,7 +17,7 @@
 -   index: 502
     deck: Skellige
     name: "Cerys"
-    flavor: "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast."
+    flavor: "\"They call me Sparrowhawk, know why? Because I eat rats like you for breakfast.\""
     type: Hero
     locations:
         -   type: Win from NPC
@@ -29,7 +29,7 @@
 -   index: 503
     deck: Skellige
     name: "Ermion"
-    flavor: "Only the ignorant dismiss the importance of myths."
+    flavor: "\"Only the ignorant dismiss the importance of myths.\""
     type: Hero
     locations:
         -   type: Win from NPC
@@ -41,7 +41,7 @@
 -   index: 504
     deck: Skellige
     name: "Draig Bon-Dhu"
-    flavor: "Hear ye now the tale of the heroic deeds of Clan an Craite."
+    flavor: "\"Hear ye now the tale of the heroic deeds of Clan an Craite.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -53,7 +53,7 @@
 -   index: 505
     deck: Skellige
     name: "Holger Blackhand"
-    flavor: "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!"
+    flavor: "\"Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -61,7 +61,7 @@
 -   index: 506
     deck: Skellige
     name: "Madman Lugos"
-    flavor: "WAAAAAAAAAAGH!!!!"
+    flavor: "\"WAAAAAAAAAAGH!!!!\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -69,7 +69,7 @@
 -   index: 507
     deck: Skellige
     name: "Donar an Hindar"
-    flavor: "I've gathered all the jarls together. Now make your case."
+    flavor: "\"I've gathered all the jarls together. Now make your case.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -77,7 +77,7 @@
 -   index: 508
     deck: Skellige
     name: "Udalryk"
-    flavor: "Haaaargh! After me, if ye've the bollocks!"
+    flavor: "\"Haaaargh! After me, if ye've the bollocks!\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -85,7 +85,7 @@
 -   index: 509
     deck: Skellige
     name: "Birna Bran"
-    flavor: "Skellige must have a strong king. No matter what it takes."
+    flavor: "\"Skellige must have a strong king. No matter what it takes.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -93,7 +93,7 @@
 -   index: 510
     deck: Skellige
     name: "Blueboy Lugos"
-    flavor: "I'm damn near ready to puke from boredom."
+    flavor: "\"I'm damn near ready to puke from boredom.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -101,7 +101,7 @@
 -   index: 511
     deck: Skellige
     name: "Svanrige"
-    flavor: "The emperor also thought him an accidental king. At first."
+    flavor: "\"The emperor also thought him an accidental king. At first.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -109,7 +109,7 @@
 -   index: 512
     deck: Skellige
     name: "Olaf"
-    flavor: "Many've tried to defeat Olaf. But won't hear about it from them - they're dead."
+    flavor: "\"Many've tried to defeat Olaf. But won't hear about it from them - they're dead.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -121,7 +121,7 @@
 -   index: 513
     deck: Skellige
     name: "Berserker"
-    flavor: "Kill, crush, cleave!"
+    flavor: "\"Kill, crush, cleave!\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -136,7 +136,7 @@
 -   index: 515
     deck: Skellige
     name: "Young Berserker"
-    flavor: "Want some?"
+    flavor: "\"Want some?\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -163,7 +163,7 @@
 -   index: 517
     deck: Skellige
     name: "Clan an Craite Warrior"
-    flavor: "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!"
+    flavor: "\"I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -171,7 +171,7 @@
 -   index: 518
     deck: Skellige
     name: "Clan Tordarroch Armorsmith"
-    flavor: "Ye're in for a poundin'."
+    flavor: "\"Ye're in for a poundin'.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -179,7 +179,7 @@
 -   index: 519
     deck: Skellige
     name: "Clan Heymaey Skald"
-    flavor: "The deeds of Clan Heymaey will go down in history."
+    flavor: "\"The deeds of Clan Heymaey will go down in history.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -187,7 +187,7 @@
 -   index: 520
     deck: Skellige
     name: "Light Longship"
-    flavor: "Escape them? In the waters of Skellige? Good luck."
+    flavor: "\"Escape them? In the waters of Skellige? Good luck.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -201,7 +201,7 @@
 -   index: 521
     deck: Skellige
     name: "War Longship"
-    flavor: "They say Hemdall's heart swells whenever the longships sail out on a raid."
+    flavor: "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -215,7 +215,7 @@
 -   index: 522
     deck: Skellige
     name: "Clan Brokvar Archer"
-    flavor: "So ye can hit a movin' target at two hundred paces. Me, too. In a storm."
+    flavor: "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -229,7 +229,7 @@
 -   index: 523
     deck: Skellige
     name: "Clan Drummond Shield Maiden"
-    flavor: "They'll shatter on our shields like waves on a rocky shore."
+    flavor: "\"They'll shatter on our shields like waves on a rocky shore.\""
     type: Unit
     locations:
         -   type: B&W Base Deck
@@ -237,7 +237,7 @@
 -   index: 524
     deck: Skellige
     name: "Clan Dimun Pirate"
-    flavor: "Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!"
+    flavor: "\"Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -249,7 +249,7 @@
 -   index: 525
     deck: Skellige
     name: "Kambi"
-    flavor: "When the time comes, the cockerel Kambi shall crow and awaken Hemdall."
+    flavor: "\"When the time comes, the cockerel Kambi shall crow and awaken Hemdall.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -261,7 +261,7 @@
 -   index: 526
     deck: Skellige
     name: "Clan Drummond Shield Maiden"
-    flavor: "They'll shatter on our shields like waves on a rocky shore."
+    flavor: "\"They'll shatter on our shields like waves on a rocky shore.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -273,7 +273,7 @@
 -   index: 527
     deck: Skellige
     name: "Clan Drummond Shield Maiden"
-    flavor: "They'll shatter on our shields like waves on a rocky shore."
+    flavor: "\"They'll shatter on our shields like waves on a rocky shore.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -285,7 +285,7 @@
 -   index: 5001
     deck: Skellige
     name: "King Bran"
-    flavor: "No one can replace Bran. Though they're sure to try."
+    flavor: "\"No one can replace Bran. Though they're sure to try.\""
     type: Leader
     locations:
         -   type: Win from NPC

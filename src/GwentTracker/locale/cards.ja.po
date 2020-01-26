@@ -112,7 +112,7 @@ msgid "Draug"
 msgstr "ドラウグ"
 
 #: src/GwentTracker/data/monsters.yml:5 -> Card.flavor
-msgid "Some men cannot admit defeat. Some keep fighting from beyond the grave."
+msgid "\"Some men cannot admit defeat. Some keep fighting from beyond the grave.\""
 msgstr "「敗北を認めたがらない者は多い、中には死後もなお戦い続ける者もいる」"
 
 #: src/GwentTracker/data/monsters.yml:6 -> Card.type
@@ -140,7 +140,7 @@ msgid "Kayran"
 msgstr "カイラン"
 
 #: src/GwentTracker/data/monsters.yml:17 -> Card.flavor
-msgid "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher."
+msgid "\"Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher.\""
 msgstr "「カイランを倒す？ 簡単だ。一番いい剣を持ってこい… それを売ってウィッチャーを雇え」"
 
 #: src/GwentTracker/data/monsters.yml:20 -> Card.type
@@ -156,7 +156,7 @@ msgid "Imlerith"
 msgstr "イムレリス"
 
 #: src/GwentTracker/data/monsters.yml:29 -> Card.flavor
-msgid "Ladd nahw! Kill them! Litter the earth with their entrails!"
+msgid "\"Ladd nahw! Kill them! Litter the earth with their entrails!\""
 msgstr "「ラッド・ナァウ！ 殺せ！ 土に返してやれ！」"
 
 #: src/GwentTracker/data/monsters.yml:40 -> Card.name
@@ -164,7 +164,7 @@ msgid "Leshen"
 msgstr "レーシェン"
 
 #: src/GwentTracker/data/monsters.yml:41 -> Card.flavor
-msgid "We never hunt in these woods. Not even if it means the whole village starves."
+msgid "\"We never hunt in these woods. Not even if it means the whole village starves.\""
 msgstr "「俺たちゃ森で狩りはしない。たとえ、それで村全体が飢えに苦しむとしてもな」"
 
 #: src/GwentTracker/data/monsters.yml:45 -> Card.npc
@@ -180,7 +180,7 @@ msgid "Forktail"
 msgstr "フォークテイル"
 
 #: src/GwentTracker/data/monsters.yml:53 -> Card.flavor
-msgid "Fork tails… Bah! Fuckers' tails're more like cleavers."
+msgid "\"Fork tails… Bah! Fuckers' tails're more like cleavers.\""
 msgstr "「フォークテイルだと…！ あの尻尾は包丁のほうが近い」"
 
 #: src/GwentTracker/data/monsters.yml:54 -> Card.type
@@ -192,7 +192,7 @@ msgid "Earth Elemental"
 msgstr "土のエレメンタル"
 
 #: src/GwentTracker/data/monsters.yml:65 -> Card.flavor
-msgid "How to fight an earth elemental? You don't. You run. Fast as you can."
+msgid "\"How to fight an earth elemental? You don't. You run. Fast as you can.\""
 msgstr "「土のエレメンタルとの戦い方？ そんなものはない。できるだけ早く走れ」"
 
 #: src/GwentTracker/data/monsters.yml:68 -> Card.type
@@ -216,7 +216,7 @@ msgid "Fiend"
 msgstr "フィーンド"
 
 #: src/GwentTracker/data/monsters.yml:77 -> Card.flavor
-msgid "A fiend looks a bit like a deer. An enormous, evil deer."
+msgid "\"A fiend looks a bit like a deer. An enormous, evil deer.\""
 msgstr "「フィーンドは鹿に似ている。巨大で邪悪な鹿だ」"
 
 #: src/GwentTracker/data/monsters.yml:82 -> Card.area
@@ -228,7 +228,7 @@ msgid "Plague Maiden"
 msgstr "ペスタ"
 
 #: src/GwentTracker/data/monsters.yml:89 -> Card.flavor
-msgid "The sick rave about a boil-pocked woman surrounded by herds of rabid rats…"
+msgid "\"The sick rave about a boil-pocked woman surrounded by herds of rabid rats…\""
 msgstr "「病人は、皮膚がただれ、狂ったネズミに囲まれた女性の話をしていた…」"
 
 #: src/GwentTracker/data/monsters.yml:100 -> Card.name
@@ -236,7 +236,7 @@ msgid "Griffin"
 msgstr "グリフィン"
 
 #: src/GwentTracker/data/monsters.yml:101 -> Card.flavor
-msgid "Griffins like to toy with their prey. Eat 'em alive, piece by piece."
+msgid "\"Griffins like to toy with their prey. Eat 'em alive, piece by piece.\""
 msgstr "「グリフィンは獲物を弄ぶことが多い。生きたまま、少しずつ食べようとする」"
 
 #: src/GwentTracker/data/monsters.yml:112 -> Card.name
@@ -244,7 +244,7 @@ msgid "Werewolf"
 msgstr "人狼"
 
 #: src/GwentTracker/data/monsters.yml:113 -> Card.flavor
-msgid "Wolves aren't as bad as they say. Werewolves, though - they're worse."
+msgid "\"Wolves aren't as bad as they say. Werewolves, though - they're worse.\""
 msgstr "「狼は噂程怖くない。人狼は噂より怖い」"
 
 #: src/GwentTracker/data/monsters.yml:118 -> Card.area
@@ -260,7 +260,7 @@ msgid "Botchling"
 msgstr "ボッチリング"
 
 #: src/GwentTracker/data/monsters.yml:125 -> Card.flavor
-msgid "Admit your mistakes and bury them proper - else they'll come back to haunt you."
+msgid "\"Admit your mistakes and bury them proper - else they'll come back to haunt you.\""
 msgstr "「過ちを認めて適切に埋葬しないと、甦ってお前に憑りつくぞ」"
 
 #: src/GwentTracker/data/monsters.yml:136 -> Card.name
@@ -268,7 +268,7 @@ msgid "Frightener"
 msgstr "フライテナー"
 
 #: src/GwentTracker/data/monsters.yml:137 -> Card.flavor
-msgid "'What have I done?' the mage cried out, frightened of his own creation."
+msgid "\"What have I done?\" the mage cried out, frightened of his own creation."
 msgstr "「『私は何を作った？』と魔術師は叫び、自身が作り出したものに怖れ慄いた。」"
 
 #: src/GwentTracker/data/monsters.yml:148 -> Card.name
@@ -276,7 +276,7 @@ msgid "Ice Giant"
 msgstr "氷の巨人"
 
 #: src/GwentTracker/data/monsters.yml:149 -> Card.flavor
-msgid "Fled one time in my life. From the Ice Giant. And I'm not a bit ashamed."
+msgid "\"Fled one time in my life. From the Ice Giant. And I'm not a bit ashamed.\""
 msgstr "「人生で一度だけ逃げたことがある。氷の巨人を相手にした時だ。全く恥ずかしいとは思わない」"
 
 #: src/GwentTracker/data/monsters.yml:154 -> Card.area
@@ -292,7 +292,7 @@ msgid "Endrega"
 msgstr "エンドレガ"
 
 #: src/GwentTracker/data/monsters.yml:161 -> Card.flavor
-msgid "The nest! Take out the nest, or the bastards'll just keep coming!"
+msgid "\"The nest! Take out the nest, or the bastards'll just keep coming!\""
 msgstr "「巣だ！ 巣を潰さないと、無限に湧いてくるぞ！」"
 
 #: src/GwentTracker/data/monsters.yml:172 -> Card.name
@@ -300,7 +300,7 @@ msgid "Harpy"
 msgstr "ハーピー"
 
 #: src/GwentTracker/data/monsters.yml:173 -> Card.flavor
-msgid "There are many species of harpy, and all are kleptomaniacs."
+msgid "\"There are many species of harpy, and all are kleptomaniacs.\""
 msgstr "「ハーピーには様々な亜種があるが、どの種族も手癖が悪い」"
 
 #: src/GwentTracker/data/monsters.yml:178 -> Card.area
@@ -316,7 +316,7 @@ msgid "Cockatrice"
 msgstr "コカトリス"
 
 #: src/GwentTracker/data/monsters.yml:185 -> Card.flavor
-msgid "Born of an egg laid by a cockerel... if you believe such peasant drivel."
+msgid "\"Born of an egg laid by a cockerel... if you believe such peasant drivel.\""
 msgstr "「コカトリスは雄鶏が暖めた卵から生まれるらしい… 信じられないな」"
 
 #: src/GwentTracker/data/monsters.yml:196 -> Card.name
@@ -324,7 +324,7 @@ msgid "Gargoyle"
 msgstr "ガーゴイル"
 
 #: src/GwentTracker/data/monsters.yml:197 -> Card.flavor
-msgid "Ancient sculptors' nightmarish fantasies, brought to life by bored mages."
+msgid "\"Ancient sculptors' nightmarish fantasies, brought to life by bored mages.\""
 msgstr "「いにしえの彫刻家が作った恐ろしい石像が、魔術師に生命を吹き込まれた」"
 
 #: src/GwentTracker/data/monsters.yml:208 -> Card.name
@@ -332,7 +332,7 @@ msgid "Celaeno Harpy"
 msgstr "セライノ・ハーピー"
 
 #: src/GwentTracker/data/monsters.yml:209 -> Card.flavor
-msgid "Common harpies feed on carrion. Celaeno harpies… they feed on dreams."
+msgid "\"Common harpies feed on carrion. Celaeno harpies… they feed on dreams.\""
 msgstr "「一般的なハーピーは腐肉を食らう。セライノ・ハーピーは… 夢を食らう」"
 
 #: src/GwentTracker/data/monsters.yml:220 -> Card.name
@@ -340,7 +340,7 @@ msgid "Grave Hag"
 msgstr "グレイブ・ハグ"
 
 #: src/GwentTracker/data/monsters.yml:221 -> Card.flavor
-msgid "Their long tongues're for slurping marrow - and whipping prey."
+msgid "\"Their long tongues're for slurping marrow - and whipping prey.\""
 msgstr "「その長い舌は鞭のようにしなり、獲物の骨髄を啜るのに用いられる」"
 
 #: src/GwentTracker/data/monsters.yml:232 -> Card.name
@@ -348,7 +348,7 @@ msgid "Fire Elemental"
 msgstr "火のエレメンタル"
 
 #: src/GwentTracker/data/monsters.yml:233 -> Card.flavor
-msgid "Fire is so delightful."
+msgid "\"Fire is so delightful.\""
 msgstr "「火はとても美しい」"
 
 #: src/GwentTracker/data/monsters.yml:244 -> Card.name
@@ -356,7 +356,7 @@ msgid "Foglet"
 msgstr "フォグレット"
 
 #: src/GwentTracker/data/monsters.yml:245 -> Card.flavor
-msgid "Fog creeps on little cat feet. Foglets creep over the bodies of their victims."
+msgid "\"Fog creeps on little cat feet. Foglets creep over the bodies of their victims.\""
 msgstr "「霧は子猫のようにそっと近づく。フォグレットは殺した獲物の屍をまたいで近づく」"
 
 #: src/GwentTracker/data/monsters.yml:256 -> Card.name
@@ -364,7 +364,7 @@ msgid "Wyvern"
 msgstr "ワイバーン"
 
 #: src/GwentTracker/data/monsters.yml:257 -> Card.flavor
-msgid "Imagine a cross between a winged snake and a nightmare. Wyverns are worse."
+msgid "\"Imagine a cross between a winged snake and a nightmare. Wyverns are worse.\""
 msgstr "「悪夢の中で翼の生えた蛇を見たと考えてみろ。ワイバーンはそれよりも恐ろしい」"
 
 #: src/GwentTracker/data/monsters.yml:268 -> Card.name
@@ -372,7 +372,7 @@ msgid "Arachas Behemoth"
 msgstr "アラキス・ベヒモス"
 
 #: src/GwentTracker/data/monsters.yml:269 -> Card.flavor
-msgid "Like a cross between a crab, a spider… and a ploughin' mountain."
+msgid "\"Like a cross between a crab, a spider… and a ploughin' mountain.\""
 msgstr "「珍しい種類のアラキス。象のようだが、より頑丈だ」"
 
 #: src/GwentTracker/data/monsters.yml:280 -> Card.name
@@ -380,7 +380,7 @@ msgid "Arachas"
 msgstr "アラキス"
 
 #: src/GwentTracker/data/monsters.yml:281 -> Card.flavor
-msgid "Ugly - nature's way of saying 'Stay the fuck away.'"
+msgid "\"Ugly - nature's way of saying 'Stay the fuck away.'\""
 msgstr "「自然による『近づいたら殺す』とう意志表示」"
 
 #: src/GwentTracker/data/monsters.yml:316 -> Card.name
@@ -388,7 +388,7 @@ msgid "Nekker"
 msgstr "ネッカー"
 
 #: src/GwentTracker/data/monsters.yml:317 -> Card.flavor
-msgid "Damn things are almost cute, if you ignore the whole vicious killer aspect."
+msgid "\"Damn things are almost cute, if you ignore the whole vicious killer aspect.\""
 msgstr "「その凶暴性を脇に置いておけば、見た目は可愛い」"
 
 #: src/GwentTracker/data/monsters.yml:320 -> Card.type
@@ -408,7 +408,7 @@ msgid "Vampire: Ekimmara"
 msgstr "吸血鬼エキムマーラ"
 
 #: src/GwentTracker/data/monsters.yml:354 -> Card.flavor
-msgid "Who would think overgrown bats would have a taste for gaudy jewelry?"
+msgid "\"Who would think overgrown bats would have a taste for gaudy jewelry?\""
 msgstr "「育ちすぎたコウモリが派手な宝石を好むようになるなど、誰が思うだろう？」"
 
 #: src/GwentTracker/data/monsters.yml:365 -> Card.name
@@ -416,7 +416,7 @@ msgid "Vampire: Fleder"
 msgstr "吸血鬼フレダー"
 
 #: src/GwentTracker/data/monsters.yml:366 -> Card.flavor
-msgid "Higher vampires embrace their victims. Fleders rip them to shreds."
+msgid "\"Higher vampires embrace their victims. Fleders rip them to shreds.\""
 msgstr "「上級吸血鬼は獲物を抱きしめる。フレダーは引き裂いてしまう」"
 
 #: src/GwentTracker/data/monsters.yml:377 -> Card.name
@@ -424,7 +424,7 @@ msgid "Vampire: Garkain"
 msgstr "吸血鬼ガルカイン"
 
 #: src/GwentTracker/data/monsters.yml:378 -> Card.flavor
-msgid "Blood-drinkers and corpse-eaters so foul their very ugliness paralyses foes."
+msgid "\"Blood-drinkers and corpse-eaters so foul their very ugliness paralyses foes.\""
 msgstr "「血を啜り死体を食らう。醜すぎて敵が凍りついてしまう」"
 
 #: src/GwentTracker/data/monsters.yml:389 -> Card.name
@@ -432,7 +432,7 @@ msgid "Vampire: Bruxa"
 msgstr "吸血鬼ブルクサ"
 
 #: src/GwentTracker/data/monsters.yml:390 -> Card.flavor
-msgid "A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law."
+msgid "\"A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law.\""
 msgstr "「杭を打ち込めばブルクサは倒せる。杭が十分長ければ、だが」"
 
 #: src/GwentTracker/data/monsters.yml:399 -> Card.notes
@@ -444,7 +444,7 @@ msgid "Vampire: Katakan"
 msgstr "吸血鬼カタカン"
 
 #: src/GwentTracker/data/monsters.yml:404 -> Card.flavor
-msgid "Drinking the blood of the Continent since the Conjunction."
+msgid "\"Drinking the blood of the Continent since the Conjunction.\""
 msgstr "「〈天体の合〉の後、大陸で多くの血を啜ってきた」"
 
 #: src/GwentTracker/data/monsters.yml:408 -> Card.npc
@@ -460,7 +460,7 @@ msgid "Ghoul"
 msgstr "グール"
 
 #: src/GwentTracker/data/monsters.yml:416 -> Card.flavor
-msgid "If ghouls are part of the Circle of Life... then it's a damn vicious circle."
+msgid "\"If ghouls are part of the Circle of Life... then it's a damn vicious circle.\""
 msgstr "「もしグールが〈生命の環〉の一部ならば… 神は残酷だ」"
 
 #: src/GwentTracker/data/monsters.yml:451 -> Card.name
@@ -468,7 +468,7 @@ msgid "Crone: Brewess"
 msgstr "妖婆ブリュエス"
 
 #: src/GwentTracker/data/monsters.yml:452 -> Card.flavor
-msgid "We'll cut you up, boy. A fine broth you will make."
+msgid "\"We'll cut you up, boy. A fine broth you will make.\""
 msgstr "「切り刻んでやるわ。美味しいスープができそうね」"
 
 #: src/GwentTracker/data/monsters.yml:463 -> Card.name
@@ -476,7 +476,7 @@ msgid "Crone: Weavess"
 msgstr "妖婆ウィーヴィス"
 
 #: src/GwentTracker/data/monsters.yml:464 -> Card.flavor
-msgid "I sense your pain. I see your fear…"
+msgid "\"I sense your pain. I see your fear…\""
 msgstr "「苦痛が伝わる。怖れが見える…」"
 
 #: src/GwentTracker/data/monsters.yml:469 -> Card.npc
@@ -492,7 +492,7 @@ msgid "Crone: Whispess"
 msgstr "妖婆ウィスペス"
 
 #: src/GwentTracker/data/monsters.yml:477 -> Card.flavor
-msgid "I'd be your best - and last."
+msgid "\"I'd be your best - and last.\""
 msgstr "「あなたの最高の相手も、最後の相手も私よ」"
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
@@ -500,7 +500,7 @@ msgid "Eredin King of the Wild Hunt"
 msgstr "エレディン ワイルドハントの王"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
-msgid "I've long awaited this..."
+msgid "\"I've long awaited this...\""
 msgstr "「我々を新天地へと導け！」"
 
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
@@ -516,7 +516,7 @@ msgid "Eredin Commander of the Red Riders"
 msgstr "エレディン 赤の騎兵団長"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
-msgid "Have some dignity. You know how this will end."
+msgid "\"Have some dignity. You know how this will end.\""
 msgstr "「無様な姿を晒すな。結末は分かっているはずだ」"
 
 #: src/GwentTracker/data/monsters.yml:501 -> Card.area
@@ -528,7 +528,7 @@ msgid "Eredin Destroyer of Worlds"
 msgstr "エレディン 世界の破壊者"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
-msgid "It is unavoidable."
+msgid "\"It is unavoidable.\""
 msgstr "「もう逃げ場はない」"
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
@@ -536,7 +536,7 @@ msgid "Eredin Bringer of Death"
 msgstr "エレディン 死の運び手"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
-msgid "Go on. Show me your spins, pirouettes and feints. I want to watch."
+msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
 msgstr "「ほら。回ったり跳んだり跳ねたりしてみせろ。見たいのだ」"
 
 #: src/GwentTracker/data/monsters.yml:528 -> Card.territory
@@ -548,7 +548,7 @@ msgid "Eredin Bréacc Glas The Treacherous"
 msgstr "エレディン 背信者"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
-msgid "I'm enjoying this. You are my toy."
+msgid "\"I'm enjoying this. You are my toy.\""
 msgstr "「遊んでいるのだ。オモチャでな」"
 
 #: src/GwentTracker/data/monsters.yml:537 -> Card.type
@@ -580,7 +580,7 @@ msgid "Decoy"
 msgstr "おとり"
 
 #: src/GwentTracker/data/neutral.yml:4 -> Card.flavor
-msgid "When you run out of peasants, decoys also make decent arrow fodder."
+msgid "\"When you run out of peasants, decoys also make decent arrow fodder.\""
 msgstr "「村人が全員死んだら、かかしを矢避けに使えばいい」"
 
 #: src/GwentTracker/data/neutral.yml:5 -> Card.type
@@ -612,7 +612,7 @@ msgid "Commander's Horn"
 msgstr "指揮官の角笛"
 
 #: src/GwentTracker/data/neutral.yml:28 -> Card.flavor
-msgid "Plus one to morale, minus three to hearing."
+msgid "\"Plus one to morale, minus three to hearing.\""
 msgstr "「士気が上がると、その3倍聞きわけがなくなる」"
 
 #: src/GwentTracker/data/neutral.yml:33 -> Card.area
@@ -636,7 +636,7 @@ msgid "Scorch"
 msgstr "焦土作戦"
 
 #: src/GwentTracker/data/neutral.yml:52 -> Card.flavor
-msgid "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe."
+msgid "\"Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.\""
 msgstr "「炎が強者を灰と化す。他の者は恐怖に慄く」"
 
 #: src/GwentTracker/data/neutral.yml:57 -> Card.area
@@ -652,7 +652,7 @@ msgid "Biting Frost"
 msgstr "冬将軍"
 
 #: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
-msgid "Best part about frost - bodies of the fallen don't rot so quickly."
+msgid "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
 msgstr "「冬の何がいいかって？ 死体が腐臭を放たずにすむだろう」"
 
 #: src/GwentTracker/data/neutral.yml:89 -> Card.name
@@ -660,7 +660,7 @@ msgid "Impenetrable Fog"
 msgstr "濃霧"
 
 #: src/GwentTracker/data/neutral.yml:90 -> Card.flavor
-msgid "A good commander's dream... a bad one's horror."
+msgid "\"A good commander's dream... a bad one's horror.\""
 msgstr "「有能な指揮官は霧を喜び、無能な指揮官は霧を怖れる」"
 
 #: src/GwentTracker/data/neutral.yml:103 -> Card.name
@@ -668,7 +668,7 @@ msgid "Torrential Rain"
 msgstr "豪雨"
 
 #: src/GwentTracker/data/neutral.yml:104 -> Card.flavor
-msgid "Even the rain in this land smells like piss."
+msgid "\"Even the rain in this land smells like piss.\""
 msgstr "「この地では、雨すら小便の臭いがする」"
 
 #: src/GwentTracker/data/neutral.yml:116 -> Card.name
@@ -676,7 +676,7 @@ msgid "Clear Weather"
 msgstr "晴天"
 
 #: src/GwentTracker/data/neutral.yml:117 -> Card.flavor
-msgid "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…"
+msgid "\"The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…\""
 msgstr "「いい天気だよ、ドロムル！ まだ希望があるのかもしれないね…」"
 
 #: src/GwentTracker/data/neutral.yml:129 -> Card.name
@@ -684,7 +684,7 @@ msgid "Geralt of Rivia"
 msgstr "リヴィアのゲラルト"
 
 #: src/GwentTracker/data/neutral.yml:130 -> Card.flavor
-msgid "If that's what it takes to save the world, it's better to let that world die."
+msgid "\"If that's what it takes to save the world, it's better to let that world die.\""
 msgstr "「他に世界を救う方法がないなら、救わない方がまだマシだ」"
 
 #: src/GwentTracker/data/neutral.yml:135 -> Card.npc
@@ -696,7 +696,7 @@ msgid "Vesemir"
 msgstr "ヴェセミル"
 
 #: src/GwentTracker/data/neutral.yml:143 -> Card.flavor
-msgid "If you're to be hanged, ask for water. Anything can happen before they fetch it."
+msgid "\"If you're to be hanged, ask for water. Anything can happen before they fetch it.\""
 msgstr "「首を吊られそうになったら、最後の一杯を要求しろ。その間に策を講じればいい」"
 
 #: src/GwentTracker/data/neutral.yml:148 -> Card.npc
@@ -716,7 +716,7 @@ msgid "Yennefer of Vengerberg"
 msgstr "ヴェンガーバーグのイェネファー"
 
 #: src/GwentTracker/data/neutral.yml:156 -> Card.flavor
-msgid "Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression."
+msgid "\"Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression.\""
 msgstr "「黒と白の服を着た彼女は、12月中旬の朝を思い起こさせた」"
 
 #: src/GwentTracker/data/neutral.yml:161 -> Card.npc
@@ -728,7 +728,7 @@ msgid "Cirilla Fiona Elen Riannon"
 msgstr "シリラ"
 
 #: src/GwentTracker/data/neutral.yml:169 -> Card.flavor
-msgid "Know when fairy tales cease to be tales? When people start believing in them."
+msgid "\"Know when fairy tales cease to be tales? When people start believing in them.\""
 msgstr "「おとぎ話ってのは、人々がその話を信じ始めると、現実になるのよ」"
 
 #: src/GwentTracker/data/neutral.yml:174 -> Card.npc
@@ -744,7 +744,7 @@ msgid "Triss Merigold"
 msgstr "トリス・メリゴールド"
 
 #: src/GwentTracker/data/neutral.yml:182 -> Card.flavor
-msgid "I can take care of myself. Trust me."
+msgid "\"I can take care of myself. Trust me.\""
 msgstr "「自分のことは自分でできるわ」"
 
 #: src/GwentTracker/data/neutral.yml:187 -> Card.npc
@@ -772,7 +772,7 @@ msgid "Dandelion"
 msgstr "ダンディリオン"
 
 #: src/GwentTracker/data/neutral.yml:204 -> Card.flavor
-msgid "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend."
+msgid "\"Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend.\""
 msgstr "「ダンディリオン、お前は皮肉屋で、好色で、嘘つきで、俺の最高の友人だ」"
 
 #: src/GwentTracker/data/neutral.yml:210 -> Card.area
@@ -788,7 +788,7 @@ msgid "Zoltan Chivay"
 msgstr "ゾルタン・シヴェイ"
 
 #: src/GwentTracker/data/neutral.yml:218 -> Card.flavor
-msgid "Life without old mates and booze is like a woman without a rump."
+msgid "\"Life without old mates and booze is like a woman without a rump.\""
 msgstr "「ドワーフは友人のためなら命をかけると言う。ゾルタンも例外ではない」"
 
 #: src/GwentTracker/data/neutral.yml:222 -> Card.npc
@@ -800,7 +800,7 @@ msgid "Emiel Regis Rohellec Terzieff"
 msgstr "エミエル・レジス・ロヘレック・テルジエフ"
 
 #: src/GwentTracker/data/neutral.yml:230 -> Card.flavor
-msgid "Men, the polite ones, at least, would call me a monster. A blood-drinking freak."
+msgid "\"Men, the polite ones, at least, would call me a monster. A blood-drinking freak.\""
 msgstr "「少なくとも礼儀正しい人間は、私を怪物と呼ぶよ。血を飲む化け物とね」"
 
 #: src/GwentTracker/data/neutral.yml:241 -> Card.name
@@ -808,7 +808,7 @@ msgid "Villentretenmerth"
 msgstr "ヴィレントレテンメル"
 
 #: src/GwentTracker/data/neutral.yml:242 -> Card.flavor
-msgid "Also calls himself Borkh Three Jackdaws… he's not the best at names."
+msgid "\"Also calls himself Borkh Three Jackdaws… he's not the best at names.\""
 msgstr "「ボルク・スリー・ジャックドーズとも自称している… 名前を付けるセンスはないようだ」"
 
 #: src/GwentTracker/data/neutral.yml:253 -> Card.name
@@ -816,7 +816,7 @@ msgid "Avallac'h"
 msgstr "アヴァラック"
 
 #: src/GwentTracker/data/neutral.yml:254 -> Card.flavor
-msgid "You humans have… unusual tastes."
+msgid "\"You humans have… unusual tastes.\""
 msgstr "「予言自体はさして難しくはない。難しいのは正確に予言することだ」"
 
 #: src/GwentTracker/data/neutral.yml:259 -> Card.npc
@@ -832,7 +832,7 @@ msgid "Letho of Gulet"
 msgstr "ガレットのレソ"
 
 #: src/GwentTracker/data/nilfgaard.yml:4 -> Card.flavor
-msgid "Witchers never die in their beds."
+msgid "\"Witchers never die in their beds.\""
 msgstr "「ウィッチャーがベッドで死ぬことはない」"
 
 #: src/GwentTracker/data/nilfgaard.yml:9 -> Card.npc
@@ -848,7 +848,7 @@ msgid "Menno Coehoorn"
 msgstr "メノ・クーホルン"
 
 #: src/GwentTracker/data/nilfgaard.yml:17 -> Card.flavor
-msgid "I'll take an attentive reconnaissance unit over a fine cavalry brigade any day."
+msgid "\"I'll take an attentive reconnaissance unit over a fine cavalry brigade any day.\""
 msgstr "「私はいつだって、優秀な騎兵部隊よりも用心深い偵察部隊を重視している」"
 
 #: src/GwentTracker/data/nilfgaard.yml:29 -> Card.name
@@ -856,7 +856,7 @@ msgid "Morvran Voorhis"
 msgstr "モルヴラン・ヴーヒス"
 
 #: src/GwentTracker/data/nilfgaard.yml:30 -> Card.flavor
-msgid "Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me."
+msgid "\"Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me.\""
 msgstr "「私にとってのニルフガードは、アルバの穏やかな流れに映る夏の太陽のようなものだ」"
 
 #: src/GwentTracker/data/nilfgaard.yml:42 -> Card.name
@@ -864,7 +864,7 @@ msgid "Tibor Eggebracht"
 msgstr "ティボル・エッゲブラフト"
 
 #: src/GwentTracker/data/nilfgaard.yml:43 -> Card.flavor
-msgid "Albaaaa! Forward!! Alba! Long live the Emperor!"
+msgid "\"Albaaaa! Forward!! Alba! Long live the Emperor!\""
 msgstr "「アルバ師団！ 進め！ 皇帝陛下のために！」"
 
 #: src/GwentTracker/data/nilfgaard.yml:48 -> Card.npc
@@ -880,7 +880,7 @@ msgid "Albrich"
 msgstr "アルブリヒ"
 
 #: src/GwentTracker/data/nilfgaard.yml:56 -> Card.flavor
-msgid "A fireball? Of course. Whatever Your Imperial Majesty wishes."
+msgid "\"A fireball? Of course. Whatever Your Imperial Majesty wishes.\""
 msgstr "「火球？ もちろんです、陛下のご指示どおりに」"
 
 #: src/GwentTracker/data/nilfgaard.yml:60 -> Card.npc
@@ -892,7 +892,7 @@ msgid "Assire var Anahid"
 msgstr "アシーレ・ヴァル・アナヒッド"
 
 #: src/GwentTracker/data/nilfgaard.yml:68 -> Card.flavor
-msgid "Nilfgaardian mages do have a choice: servile submission, or the gallows."
+msgid "\"Nilfgaardian mages do have a choice: servile submission, or the gallows.\""
 msgstr "「ニルフガードの魔術師には選択肢がある。服従と絞首台のどちらかよ」"
 
 #: src/GwentTracker/data/nilfgaard.yml:79 -> Card.name
@@ -900,7 +900,7 @@ msgid "Cynthia"
 msgstr "シンシア"
 
 #: src/GwentTracker/data/nilfgaard.yml:80 -> Card.flavor
-msgid "Cynthia's talents can be deadly. She needs a tight leash."
+msgid "\"Cynthia's talents can be deadly. She needs a tight leash.\""
 msgstr "「『シンシアの技は危険よ。きつく縛られないと力が出せないけどね』とフィリパは笑った」"
 
 #: src/GwentTracker/data/nilfgaard.yml:91 -> Card.name
@@ -908,7 +908,7 @@ msgid "Fringilla Vigo"
 msgstr "フリンギラ・ヴィゴ"
 
 #: src/GwentTracker/data/nilfgaard.yml:92 -> Card.flavor
-msgid "Magic is the highest good. It transcends all borders and divisions."
+msgid "\"Magic is the highest good. It transcends all borders and divisions.\""
 msgstr "「視力を奪うことは女魔術師に適した罰よ。虚栄心が砕かれるからね」"
 
 #: src/GwentTracker/data/nilfgaard.yml:98 -> Card.area
@@ -920,7 +920,7 @@ msgid "Morteisen"
 msgstr "モーテイセン"
 
 #: src/GwentTracker/data/nilfgaard.yml:105 -> Card.flavor
-msgid "No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry."
+msgid "\"No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry.\""
 msgstr "「北方の槍兵もドワーフの槍使いも、最高の訓練を受けた騎馬隊には敵わない」"
 
 #: src/GwentTracker/data/nilfgaard.yml:109 -> Card.npc
@@ -936,7 +936,7 @@ msgid "Rainfarn"
 msgstr "レインファーン"
 
 #: src/GwentTracker/data/nilfgaard.yml:117 -> Card.flavor
-msgid "You'll die as painfully as that pathetic traitor Windhalm did."
+msgid "\"You'll die as painfully as that pathetic traitor Windhalm did.\""
 msgstr "「哀れな裏切り者、ウィンダルムのように苦しんで死ね」"
 
 #: src/GwentTracker/data/nilfgaard.yml:121 -> Card.npc
@@ -952,7 +952,7 @@ msgid "Renuald aep Matsen"
 msgstr "レヌアルド・マットセン"
 
 #: src/GwentTracker/data/nilfgaard.yml:129 -> Card.flavor
-msgid "They say the Impera fear nothing. Untrue. Renuald scares them shitless."
+msgid "\"They say the Impera fear nothing. Untrue. Renuald scares them shitless.\""
 msgstr "「帝国旅団は何も恐れないという。それは嘘だ。レヌアルドは彼らを何度も震え上がらせた」"
 
 #: src/GwentTracker/data/nilfgaard.yml:140 -> Card.name
@@ -960,7 +960,7 @@ msgid "Rotten Mangonel"
 msgstr "死体投射機"
 
 #: src/GwentTracker/data/nilfgaard.yml:141 -> Card.flavor
-msgid "The rotten smell brings back childhood memories"
+msgid "\"The rotten smell brings back childhood memories\""
 msgstr "「腐った臭いが子供の頃の記憶を蘇らせる」"
 
 #: src/GwentTracker/data/nilfgaard.yml:152 -> Card.name
@@ -968,7 +968,7 @@ msgid "Shilard Fitz-Oesterlen"
 msgstr "シラード・フィッツ・エスターレン"
 
 #: src/GwentTracker/data/nilfgaard.yml:153 -> Card.flavor
-msgid "Warfare is mere sound and fury - diplomacy is what truly shapes history."
+msgid "\"Warfare is mere sound and fury - diplomacy is what truly shapes history.\""
 msgstr "「戦争はただの馬鹿騒ぎに過ぎない。外交こそが本当に歴史を作る」"
 
 #: src/GwentTracker/data/nilfgaard.yml:164 -> Card.name
@@ -976,7 +976,7 @@ msgid "Stefan Skellen"
 msgstr "ステファン・スケルン"
 
 #: src/GwentTracker/data/nilfgaard.yml:165 -> Card.flavor
-msgid "My mark scars the face of our future empress. That is my proudest achievement."
+msgid "\"My mark scars the face of our future empress. That is my proudest achievement.\""
 msgstr "「この顔の傷は未来の女帝のために負った。最も誇らしい傷だ」"
 
 #: src/GwentTracker/data/nilfgaard.yml:176 -> Card.name
@@ -984,7 +984,7 @@ msgid "Sweers"
 msgstr "スワース"
 
 #: src/GwentTracker/data/nilfgaard.yml:177 -> Card.flavor
-msgid "And hands off the girl! Whatever we may be, we're not savages."
+msgid "\"And hands off the girl! Whatever we may be, we're not savages.\""
 msgstr "「女を抱きたくて、人を殺したくてたまらないなら、仲間になれ」"
 
 #: src/GwentTracker/data/nilfgaard.yml:182 -> Card.area
@@ -1000,7 +1000,7 @@ msgid "Vanhemar"
 msgstr "ヴァンへマー"
 
 #: src/GwentTracker/data/nilfgaard.yml:190 -> Card.flavor
-msgid "For a fire mage, he's not very… flamboyant."
+msgid "\"For a fire mage, he's not very… flamboyant.\""
 msgstr "「炎の魔術師は派手に生き、派手に死ぬ」"
 
 #: src/GwentTracker/data/nilfgaard.yml:201 -> Card.name
@@ -1008,7 +1008,7 @@ msgid "Vattier de Rideaux"
 msgstr "ヴァティエール・ド・リドー"
 
 #: src/GwentTracker/data/nilfgaard.yml:202 -> Card.flavor
-msgid "There's never been a problem a well-planned assassination couldn't solve."
+msgid "\"There's never been a problem a well-planned assassination couldn't solve.\""
 msgstr "「熟慮された暗殺が解決できない問題などない」"
 
 #: src/GwentTracker/data/nilfgaard.yml:213 -> Card.name
@@ -1016,7 +1016,7 @@ msgid "Vreemde"
 msgstr "ヴリームド"
 
 #: src/GwentTracker/data/nilfgaard.yml:214 -> Card.flavor
-msgid "Discipline is the Empire's deadliest weapon."
+msgid "\"Discipline is the Empire's deadliest weapon.\""
 msgstr "「指揮官にちなんだ名前を部隊名とする慣習は、ヴリームドを喜ばせた」"
 
 #: src/GwentTracker/data/nilfgaard.yml:225 -> Card.name
@@ -1024,7 +1024,7 @@ msgid "Cahir Mawr Dyffryn aep Ceallach"
 msgstr "カヒル・マー・ディフリン・エプ・シラク"
 
 #: src/GwentTracker/data/nilfgaard.yml:226 -> Card.flavor
-msgid "His eyes flashed under his winged helmet. Fire gleamed from his sword's blade."
+msgid "\"His eyes flashed under his winged helmet. Fire gleamed from his sword's blade.\""
 msgstr "「彼の目は翼飾りの兜の下で光ったと思うと、刃から火花が散った」"
 
 #: src/GwentTracker/data/nilfgaard.yml:237 -> Card.name
@@ -1032,7 +1032,7 @@ msgid "Puttkammer"
 msgstr "プットカマー"
 
 #: src/GwentTracker/data/nilfgaard.yml:238 -> Card.flavor
-msgid "Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance."
+msgid "\"Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance.\""
 msgstr "「ブラビアント士官学校ではたくさんのことを学んだものだ。げっぷで賛美歌を歌う方法とかな」"
 
 #: src/GwentTracker/data/nilfgaard.yml:246 -> Card.notes
@@ -1044,7 +1044,7 @@ msgid "Etolian Auxiliary Archers"
 msgstr "弓兵支援"
 
 #: src/GwentTracker/data/nilfgaard.yml:251 -> Card.flavor
-msgid "Double or nothing, aim for his cock."
+msgid "\"Double or nothing, aim for his cock.\""
 msgstr "「いちかばちかだ。急所を狙え」"
 
 #: src/GwentTracker/data/nilfgaard.yml:275 -> Card.name
@@ -1052,7 +1052,7 @@ msgid "Black Infantry Archer"
 msgstr "黒色歩兵隊の射手"
 
 #: src/GwentTracker/data/nilfgaard.yml:276 -> Card.flavor
-msgid "I aim for the knee. Always."
+msgid "\"I aim for the knee. Always.\""
 msgstr "「膝を狙ってる。いつもな」"
 
 #: src/GwentTracker/data/nilfgaard.yml:300 -> Card.name
@@ -1060,7 +1060,7 @@ msgid "Heavy Zerrikanian Fire Scorpion"
 msgstr "ゼリカニアンの重火弩弓"
 
 #: src/GwentTracker/data/nilfgaard.yml:301 -> Card.flavor
-msgid "Not the best for taking cities, but great for razing them to the ground."
+msgid "\"Not the best for taking cities, but great for razing them to the ground.\""
 msgstr "「都市を奪うには向かないが、灰にするには向いている」"
 
 #: src/GwentTracker/data/nilfgaard.yml:312 -> Card.name
@@ -1068,7 +1068,7 @@ msgid "Zerrikanian Fire Scorpion"
 msgstr "ゼリカニアン・ファイアスコーピオン"
 
 #: src/GwentTracker/data/nilfgaard.yml:313 -> Card.flavor
-msgid "The Zerrikanian Desert used to be a lush garden. Then these came along."
+msgid "\"The Zerrikanian Desert used to be a lush garden. Then these came along.\""
 msgstr "「ゼリカニア砂漠は以前緑が茂っていた。その時、こいつらが来た」"
 
 #: src/GwentTracker/data/nilfgaard.yml:324 -> Card.name
@@ -1076,7 +1076,7 @@ msgid "Impera Brigade Guard"
 msgstr "帝国旅団"
 
 #: src/GwentTracker/data/nilfgaard.yml:325 -> Card.flavor
-msgid "The Impera Brigade never surrenders. Ever."
+msgid "\"The Impera Brigade never surrenders. Ever.\""
 msgstr "「帝国旅団は降伏したことがない。一度たりとも」"
 
 #: src/GwentTracker/data/nilfgaard.yml:354 -> Card.name
@@ -1084,7 +1084,7 @@ msgid "Nausicaa Cavalry Rider"
 msgstr "ナウシカ騎兵旅団"
 
 #: src/GwentTracker/data/nilfgaard.yml:355 -> Card.flavor
-msgid "The Emperor will teach the North discipline."
+msgid "\"The Emperor will teach the North discipline.\""
 msgstr "「皇帝陛下は北方に規律を教え込まれるだろう」"
 
 #: src/GwentTracker/data/nilfgaard.yml:378 -> Card.name
@@ -1092,7 +1092,7 @@ msgid "Siege Engineer"
 msgstr "攻城技師"
 
 #: src/GwentTracker/data/nilfgaard.yml:379 -> Card.flavor
-msgid "Wielded correctly, a protractor can be a deadly weapon."
+msgid "\"Wielded correctly, a protractor can be a deadly weapon.\""
 msgstr "「適切に用いれば、分度器は危険な武器になる」"
 
 #: src/GwentTracker/data/nilfgaard.yml:390 -> Card.name
@@ -1100,7 +1100,7 @@ msgid "Young Emissary"
 msgstr "若い特使"
 
 #: src/GwentTracker/data/nilfgaard.yml:391 -> Card.flavor
-msgid "If I acquit myself well, perhaps next they'll post me somewhere civilized."
+msgid "\"If I acquit myself well, perhaps next they'll post me somewhere civilized.\""
 msgstr "「もし今回うまく立ち回れたら、次はもっと良い勤務先が与えられるに違いない」"
 
 #: src/GwentTracker/data/nilfgaard.yml:414 -> Card.name
@@ -1108,7 +1108,7 @@ msgid "Siege Technician"
 msgstr "攻城支援"
 
 #: src/GwentTracker/data/nilfgaard.yml:415 -> Card.flavor
-msgid "I never miss twice."
+msgid "\"I never miss twice.\""
 msgstr "「二度は失敗しない」"
 
 #: src/GwentTracker/data/nilfgaard.yml:420 -> Card.area
@@ -1120,7 +1120,7 @@ msgid "Emhyr var Emreis His Imperial Majesty"
 msgstr "エムヒル・ヴァル・エムレイス 南方の大帝"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
-msgid "The skies wept when my Pavetta died. They will not weep for me."
+msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "「余のパヴェッタが死んだ時、空は泣いた。余のためには泣くまい」"
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
@@ -1128,7 +1128,7 @@ msgid "Emhyr var Emreis Emperor of Nilfgaard"
 msgstr "エムヒル・ヴァル・エムレイス ニルフガード皇帝"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
-msgid "Your motives do not interest me. Only results."
+msgid "\"Your motives do not interest me. Only results.\""
 msgstr "「貴様の動機に興味はない。意味があるのは結果だけだ」"
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
@@ -1136,7 +1136,7 @@ msgid "Emhyr var Emreis the White Flame"
 msgstr "エムヒル・ヴァル・エムレイス 舞い踊る白炎"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
-msgid "A sword is but one of many tools at a ruler's disposal."
+msgid "\"A sword is but one of many tools at a ruler's disposal.\""
 msgstr "「剣は君主が使える多くの武器の1つでしかない」"
 
 #: src/GwentTracker/data/nilfgaard.yml:455 -> Card.notes
@@ -1148,7 +1148,7 @@ msgid "Emhyr var Emreis the Relentless"
 msgstr "エムヒル・ヴァル・エムレイス 熾烈なる君主"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
-msgid "They do not call me the Patient. Take care they do not call you the Headless."
+msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "「余に忍耐強さを問う者はいない。二度とと何も問えない姿になるからな」"
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
@@ -1156,7 +1156,7 @@ msgid "Emhyr var Emreis Invader of the North"
 msgstr "エムヒル・ヴァル・エムレイス 北方への侵略者"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
-msgid "Emperors command multitudes, yet cannot control two things: their time and their hearts."
+msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
 msgstr "「皇帝たちは大勢を従えているが、2つだけ制御できないものがある。彼らの時間と心だ」"
 
 #: src/GwentTracker/data/nilfgaard.yml:478 -> Card.area
@@ -1172,7 +1172,7 @@ msgid "Vernon Roche"
 msgstr "ヴァーノン・ロッシュ"
 
 #: src/GwentTracker/data/northernrealms.yml:4 -> Card.flavor
-msgid "A patriot... and a real son of a bitch."
+msgid "\"A patriot... and a real son of a bitch.\""
 msgstr "「ロッシュは愛国者で… 食えない野郎だ」"
 
 #: src/GwentTracker/data/northernrealms.yml:9 -> Card.npc
@@ -1184,7 +1184,7 @@ msgid "John Natalis"
 msgstr "ジョン・ナタリス"
 
 #: src/GwentTracker/data/northernrealms.yml:17 -> Card.flavor
-msgid "That square should bear the names of my soldiers, of the dead. Not mine."
+msgid "\"That square should bear the names of my soldiers, of the dead. Not mine.\""
 msgstr "「その広場には、私ではなく、死んでいった兵士たちの名前を付けるべきだ」"
 
 #: src/GwentTracker/data/northernrealms.yml:22 -> Card.npc
@@ -1196,7 +1196,7 @@ msgid "Esterad Thyssen"
 msgstr "エステラッド・ティッセン"
 
 #: src/GwentTracker/data/northernrealms.yml:30 -> Card.flavor
-msgid "Like all Thyssen men, he was tall, powerfully built and criminally handsome."
+msgid "\"Like all Thyssen men, he was tall, powerfully built and criminally handsome.\""
 msgstr "「他のティッセン家の者と同様、彼は背が高く、力強い体つきで恐ろしいほどハンサムだった」"
 
 #: src/GwentTracker/data/northernrealms.yml:35 -> Card.npc
@@ -1212,11 +1212,11 @@ msgid "Philippa Eilhart"
 msgstr "フィリパ・エイルハート"
 
 #: src/GwentTracker/data/northernrealms.yml:43 -> Card.flavor
-msgid "Soon the power of kings will wither, and the Lodge shall seize its rightful place."
+msgid "\"Soon the power of kings will wither, and the Lodge shall seize its rightful place.\""
 msgstr "「すぐに王たちの力は失われ、女魔術師会が正当な地位を獲得するでしょう」"
 
 #: src/GwentTracker/data/northernrealms.yml:55 -> Card.flavor
-msgid "Fuck off! We aren't all ploughin' philanderers. Some of us have depth..."
+msgid "\"Fuck off! We aren't all ploughin' philanderers. Some of us have depth...\""
 msgstr "「クソ！ 俺たちがみんな女たらしだと思うなよ。中には…」"
 
 #: src/GwentTracker/data/northernrealms.yml:66 -> Card.name
@@ -1224,7 +1224,7 @@ msgid "Ves"
 msgstr "ヴェス"
 
 #: src/GwentTracker/data/northernrealms.yml:67 -> Card.flavor
-msgid "Better to live one day as a king than a whole life as a beggar."
+msgid "\"Better to live one day as a king than a whole life as a beggar.\""
 msgstr "「一生物乞いをして暮らすより、たった1日でも女王になれる方がマシよ」"
 
 #: src/GwentTracker/data/northernrealms.yml:73 -> Card.name
@@ -1232,7 +1232,7 @@ msgid "Siegfried of Denesle"
 msgstr "デネスルのジーグフリード"
 
 #: src/GwentTracker/data/northernrealms.yml:74 -> Card.flavor
-msgid "We're on the same side, witcher. You'll realize this one day."
+msgid "\"We're on the same side, witcher. You'll realize this one day.\""
 msgstr "「平和を論ずることはたやすいが、維持することは難しい」"
 
 #: src/GwentTracker/data/northernrealms.yml:80 -> Card.name
@@ -1240,7 +1240,7 @@ msgid "Yarpen Zigrin"
 msgstr "ヤーペン・ジグリン"
 
 #: src/GwentTracker/data/northernrealms.yml:81 -> Card.flavor
-msgid "The world belongs to whoever's best at crackin' skulls and impregnatin' lasses."
+msgid "\"The world belongs to whoever's best at crackin' skulls and impregnatin' lasses.\""
 msgstr "「…その娘に言ってやったのさ。お前の洞窟より狭い鉱山から、鉄を掘ったことがあるってな！」"
 
 #: src/GwentTracker/data/northernrealms.yml:87 -> Card.name
@@ -1248,7 +1248,7 @@ msgid "Sigismund Dijkstra"
 msgstr "シギスムンド・ディクストラ"
 
 #: src/GwentTracker/data/northernrealms.yml:88 -> Card.flavor
-msgid "Gwent's like politics, just more honest."
+msgid "\"Gwent's like politics, just more honest.\""
 msgstr "「グウェントは政治に似てるが、不正は少ない」"
 
 #: src/GwentTracker/data/northernrealms.yml:93 -> Card.npc
@@ -1260,7 +1260,7 @@ msgid "Keira Metz"
 msgstr "キーラ・メッツ"
 
 #: src/GwentTracker/data/northernrealms.yml:101 -> Card.flavor
-msgid "If I'm to die today, I wish to look smashing for the occasion."
+msgid "\"If I'm to die today, I wish to look smashing for the occasion.\""
 msgstr "「今日死ぬかもしれないんだから、綺麗にしておきたいの」"
 
 #: src/GwentTracker/data/northernrealms.yml:107 -> Card.name
@@ -1268,7 +1268,7 @@ msgid "Síle de Tansarville"
 msgstr "シレ・ド・タンサーヴィル"
 
 #: src/GwentTracker/data/northernrealms.yml:108 -> Card.flavor
-msgid "The Lodge lacks humility. Our lust for power may yet be our undoing."
+msgid "\"The Lodge lacks humility. Our lust for power may yet be our undoing.\""
 msgstr "「女魔術師会は慎重さを欠いた。フィリパの権力欲が私たちを破滅させた」"
 
 #: src/GwentTracker/data/northernrealms.yml:114 -> Card.name
@@ -1276,7 +1276,7 @@ msgid "Sabrina Glevissig"
 msgstr "サブリナ・グレヴィッシグ"
 
 #: src/GwentTracker/data/northernrealms.yml:115 -> Card.flavor
-msgid "The Daughter of the Kaedweni Wilderness."
+msgid "\"The Daughter of the Kaedweni Wilderness.\""
 msgstr "「ケイドウェンの荒野に生きる若き女性」"
 
 #: src/GwentTracker/data/northernrealms.yml:121 -> Card.name
@@ -1284,7 +1284,7 @@ msgid "Sheldon Skaggs"
 msgstr "シェルドン・スカッグス"
 
 #: src/GwentTracker/data/northernrealms.yml:122 -> Card.flavor
-msgid "I was there, on the front lines! Right where the fightin' was the thickest!"
+msgid "\"I was there, on the front lines! Right where the fightin' was the thickest!\""
 msgstr "「俺は前線にいた！ 一番戦いが激しいところにな！」"
 
 #: src/GwentTracker/data/northernrealms.yml:128 -> Card.name
@@ -1292,7 +1292,7 @@ msgid "Dethmold"
 msgstr "デスモルド"
 
 #: src/GwentTracker/data/northernrealms.yml:129 -> Card.flavor
-msgid "I once made a prisoner vomit his own entrails… Ah, good times…"
+msgid "\"I once made a prisoner vomit his own entrails… Ah, good times…\""
 msgstr "「以前は囚人に自分の内臓を吐かせたことがある… いい時代だった…」"
 
 #: src/GwentTracker/data/northernrealms.yml:135 -> Card.name
@@ -1300,7 +1300,7 @@ msgid "Prince Stennis"
 msgstr "ステニス王子"
 
 #: src/GwentTracker/data/northernrealms.yml:136 -> Card.flavor
-msgid "He ploughin' wears golden armor. Golden. ‘Course he's an arsehole."
+msgid "\"He ploughin' wears golden armor. Golden. ‘Course he's an arsehole.\""
 msgstr "「彼は黄金の鎧を身につけていた。黄金だ。どうしようもない奴だ」"
 
 #: src/GwentTracker/data/northernrealms.yml:142 -> Card.name
@@ -1308,7 +1308,7 @@ msgid "Trebuchet"
 msgstr "投石器"
 
 #: src/GwentTracker/data/northernrealms.yml:143 -> Card.flavor
-msgid "Castle won't batter itself down, now will it? Get them trebuchets rollin'!"
+msgid "\"Castle won't batter itself down, now will it? Get them trebuchets rollin'!\""
 msgstr "「城が勝手に壊れると思うのか？ 投石器を撃て！」"
 
 #: src/GwentTracker/data/northernrealms.yml:156 -> Card.name
@@ -1316,7 +1316,7 @@ msgid "Poor Fucking Infantry"
 msgstr "気の毒な歩兵"
 
 #: src/GwentTracker/data/northernrealms.yml:157 -> Card.flavor
-msgid "I's a war veteran! ... spare me a crown?"
+msgid "\"I's a war veteran! ... spare me a crown?\""
 msgstr "「俺は古参兵だったんだ！ …小銭を恵んでくれないか？」"
 
 #: src/GwentTracker/data/northernrealms.yml:182 -> Card.name
@@ -1324,7 +1324,7 @@ msgid "Crinfrid Reavers Dragon Hunter"
 msgstr "ドラゴンハンターのクリンフリッド団"
 
 #: src/GwentTracker/data/northernrealms.yml:183 -> Card.flavor
-msgid "Haven't had much luck with monsters of late, so we enlisted."
+msgid "\"Haven't had much luck with monsters of late, so we enlisted.\""
 msgstr "「最近は怪物退治もイマイチでな。それでこっちに志願したわけさ」"
 
 #: src/GwentTracker/data/northernrealms.yml:207 -> Card.name
@@ -1332,7 +1332,7 @@ msgid "Redanian Foot Soldier"
 msgstr "レダニア歩兵"
 
 #: src/GwentTracker/data/northernrealms.yml:208 -> Card.flavor
-msgid "I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!"
+msgid "\"I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!\""
 msgstr "「レダニアのために死に、レダニアのために殺す。レダニアのためなら、虫だって食ってやる！」"
 
 #: src/GwentTracker/data/northernrealms.yml:221 -> Card.name
@@ -1340,87 +1340,95 @@ msgid "Catapult"
 msgstr "カタパルト"
 
 #: src/GwentTracker/data/northernrealms.yml:222 -> Card.flavor
-msgid "The gods help those who have better catapults."
+msgid "\"The gods help those who have better catapults.\""
 msgstr "「神はより良きカタパルトを持つ側に微笑みかける」"
 
 #: src/GwentTracker/data/northernrealms.yml:239 -> Card.name
+msgid "Ballista"
+msgstr "バリスタ"
+
+#: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
+msgid "\"Usually we give 'em female names.\" \"Like Jenny?\" \"More like Bertha.\""
+msgstr "「こいつらには女性の名前を付ける」「ジェニーとか？」「ベルサって感じだな」"
+
+#: src/GwentTracker/data/northernrealms.yml:253 -> Card.name
 msgid "Kaedweni Siege Expert"
 msgstr "ケイドウェンの攻城専門家"
 
-#: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
-msgid "You gotta recalibrate the arm by five degrees. Do what by the what now?"
+#: src/GwentTracker/data/northernrealms.yml:254 -> Card.flavor
+msgid "\"You gotta recalibrate the arm by five degrees.\" \"Do what by the what now?\""
 msgstr "「狙いを5目盛調整しろ」「どういう意味だ？」"
 
-#: src/GwentTracker/data/northernrealms.yml:246 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:260 -> Card.name
 msgid "Blue Stripes Commando"
 msgstr "刺青隊の指揮官"
 
-#: src/GwentTracker/data/northernrealms.yml:247 -> Card.flavor
-msgid "I'd do anything for Temeria. Mostly, though, I kill for her."
+#: src/GwentTracker/data/northernrealms.yml:261 -> Card.flavor
+msgid "\"I'd do anything for Temeria. Mostly, though, I kill for her.\""
 msgstr "「テメリアのためなら何でもする。大体は殺しだが」"
 
-#: src/GwentTracker/data/northernrealms.yml:260 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:274 -> Card.name
 msgid "Siege Tower"
 msgstr "攻城塔"
 
-#: src/GwentTracker/data/northernrealms.yml:261 -> Card.flavor
-msgid "I love the clamor of siege towers in the morning. Sounds like victory."
+#: src/GwentTracker/data/northernrealms.yml:275 -> Card.flavor
+msgid "\"I love the clamor of siege towers in the morning. Sounds like victory.\""
 msgstr "「朝に聞く攻城塔の音が大好きだ。まるで勝利を支示すラッパのようだからな」"
 
-#: src/GwentTracker/data/northernrealms.yml:272 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:286 -> Card.name
 msgid "Dun Banner Medic"
 msgstr "ダン・バナーの医師"
 
-#: src/GwentTracker/data/northernrealms.yml:273 -> Card.flavor
-msgid "Stitch red to red, white to white, and everything will be all right."
+#: src/GwentTracker/data/northernrealms.yml:287 -> Card.flavor
+msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "「赤を赤く、白を白く縫え。それで大丈夫だ」"
 
-#: src/GwentTracker/data/northernrealms.yml:279 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
 msgid "Foltest King of Temeria"
 msgstr "フォルテスト テメリア王"
 
-#: src/GwentTracker/data/northernrealms.yml:280 -> Card.flavor
-msgid "It is natural and beautiful that a man should love his sister."
+#: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
+msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "「妹を愛するのは自然で美しいことだ」"
 
-#: src/GwentTracker/data/northernrealms.yml:286 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
 msgid "Foltest Lord Commander of the North"
 msgstr "フォルテスト 北方の司令官"
 
-#: src/GwentTracker/data/northernrealms.yml:287 -> Card.flavor
-msgid "Sod advisors and their schemes. I place my trust in my soldiers' blades."
+#: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
+msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "「嫌らしい相談役どもの計画作戦ではなく、余は歩兵の剣を信じる」"
 
-#: src/GwentTracker/data/northernrealms.yml:298 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
 msgid "Foltest the Siegemaster"
 msgstr "フォルテスト 攻城の名手"
 
-#: src/GwentTracker/data/northernrealms.yml:299 -> Card.flavor
-msgid "A well-aimed ballista razes not just the enemy's walls, but his morale as well."
+#: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
+msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
 msgstr "「良く狙ったバリスタは敵の城壁だけでなく、士気も挫く」"
 
-#: src/GwentTracker/data/northernrealms.yml:303 -> Card.npc
+#: src/GwentTracker/data/northernrealms.yml:317 -> Card.npc
 msgid "Nilfgaardian Nobleman"
 msgstr "ニルフガードの貴族"
 
-#: src/GwentTracker/data/northernrealms.yml:306 -> Card.region
+#: src/GwentTracker/data/northernrealms.yml:320 -> Card.region
 msgid "Royal Palace in Vizima"
 msgstr "ヴィジマ王城"
 
-#: src/GwentTracker/data/northernrealms.yml:310 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
 msgid "Foltest the Steel-Forged"
 msgstr "フォルテスト 鋼鉄の男"
 
-#: src/GwentTracker/data/northernrealms.yml:311 -> Card.flavor
-msgid "A beautiful day for battle."
+#: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
+msgid "\"A beautiful day for battle.\""
 msgstr "「戦いには絶好の日和だ」"
 
-#: src/GwentTracker/data/northernrealms.yml:323 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
 msgid "Foltest Son of Medell"
 msgstr "フォルテスト メデルの息子"
 
-#: src/GwentTracker/data/northernrealms.yml:324 -> Card.flavor
-msgid "Dammit, I rule this land and I refuse to creep around its corners."
+#: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
+msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
 msgstr "「我こそこの王国の支配者――その隅で震えることなどない」"
 
 #: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
@@ -1432,7 +1440,7 @@ msgid "Eithné"
 msgstr "エイスネ"
 
 #: src/GwentTracker/data/scoiatael.yml:4 -> Card.flavor
-msgid "The dryad queen has eyes of molten silver, and a heart of cold-forged steel."
+msgid "\"The dryad queen has eyes of molten silver, and a heart of cold-forged steel.\""
 msgstr "「ドリアードの女王は、白銀の瞳と冷たい鋼でできた心臓を有していた」"
 
 #: src/GwentTracker/data/scoiatael.yml:10 -> Card.area
@@ -1444,7 +1452,7 @@ msgid "Saesenthessis"
 msgstr "サエセンテ"
 
 #: src/GwentTracker/data/scoiatael.yml:17 -> Card.flavor
-msgid "Beautiful, pure, fierce - the perfect icon for a rebellion."
+msgid "\"Beautiful, pure, fierce - the perfect icon for a rebellion.\""
 msgstr "「美しく、純粋で、情熱的だ。革命の旗印としては完璧である」"
 
 #: src/GwentTracker/data/scoiatael.yml:23 -> Card.area
@@ -1456,7 +1464,7 @@ msgid "Isengrim Faolitarna"
 msgstr "アイセングリム・フルチアーナ"
 
 #: src/GwentTracker/data/scoiatael.yml:30 -> Card.flavor
-msgid "It dawns on them once they notice my scar: a realization of imminent death."
+msgid "\"It dawns on them once they notice my scar: a realization of imminent death.\""
 msgstr "「俺の傷に気付いた時、彼らは理解する。自身の死が迫っていると」"
 
 #: src/GwentTracker/data/scoiatael.yml:36 -> Card.area
@@ -1468,7 +1476,7 @@ msgid "Iorveth"
 msgstr "イオルヴェス"
 
 #: src/GwentTracker/data/scoiatael.yml:43 -> Card.flavor
-msgid "King or beggar, what's the difference? One dh'oine less."
+msgid "\"King or beggar, what's the difference? One dh'oine less.\""
 msgstr "「隻眼の男とは思えない正確さだ」"
 
 #: src/GwentTracker/data/scoiatael.yml:48 -> Card.npc
@@ -1480,7 +1488,7 @@ msgid "Dennis Cranmer"
 msgstr "デニス・クランメル"
 
 #: src/GwentTracker/data/scoiatael.yml:56 -> Card.flavor
-msgid "I know how to carry out orders, so you can shove you advice up your coal chute."
+msgid "\"I know how to carry out orders, so you can shove you advice up your coal chute.\""
 msgstr "「命令を実行する方法は知ってる。だから助言はいらん」"
 
 #: src/GwentTracker/data/scoiatael.yml:67 -> Card.name
@@ -1488,7 +1496,7 @@ msgid "Milva"
 msgstr "ミルヴァ"
 
 #: src/GwentTracker/data/scoiatael.yml:68 -> Card.flavor
-msgid "With each arrow I loose, I think of my da. He'd be proud. I think."
+msgid "\"With each arrow I loose, I think of my da. He'd be proud. I think.\""
 msgstr "「矢を放つ度に父のことを考える。喜んでくれたでしょうね」"
 
 #: src/GwentTracker/data/scoiatael.yml:81 -> Card.name
@@ -1496,7 +1504,7 @@ msgid "Ida Emean aep Sivney"
 msgstr "アイダ・エミアン"
 
 #: src/GwentTracker/data/scoiatael.yml:82 -> Card.flavor
-msgid "I am a Sage. My power lies in possessing knowledge. Not sharing it."
+msgid "\"I am a Sage. My power lies in possessing knowledge. Not sharing it.\""
 msgstr "「私は賢者よ。私の力は知識を専有することで保たれているの」"
 
 #: src/GwentTracker/data/scoiatael.yml:93 -> Card.name
@@ -1504,7 +1512,7 @@ msgid "Filavandrel aén Fidháil"
 msgstr "フィラヴァンドレル"
 
 #: src/GwentTracker/data/scoiatael.yml:94 -> Card.flavor
-msgid "Though we are now few and scattered, our hearts burn brighter than ever."
+msgid "\"Though we are now few and scattered, our hearts burn brighter than ever.\""
 msgstr "「我々は数を減らしたが、その心はいまも熱く燃え続けている」"
 
 #: src/GwentTracker/data/scoiatael.yml:105 -> Card.name
@@ -1512,7 +1520,7 @@ msgid "Yaevinn"
 msgstr "ヤエヴィン"
 
 #: src/GwentTracker/data/scoiatael.yml:106 -> Card.flavor
-msgid "We are the drops of rain that together make a ferocious storm."
+msgid "\"We are the drops of rain that together make a ferocious storm.\""
 msgstr "「我々はやがて嵐となる雨の一滴だ」"
 
 #: src/GwentTracker/data/scoiatael.yml:111 -> Card.npc
@@ -1524,7 +1532,7 @@ msgid "Toruviel"
 msgstr "トルヴィエル"
 
 #: src/GwentTracker/data/scoiatael.yml:119 -> Card.flavor
-msgid "I'd gladly kill you from up close, stare in your eyes… But you reek, human."
+msgid "\"I'd gladly kill you from up close, stare in your eyes… But you reek, human.\""
 msgstr "「私はお前の目を見ながらお前を殺せるが、そう怯えて目をそらされてはな、人間よ」"
 
 #: src/GwentTracker/data/scoiatael.yml:130 -> Card.name
@@ -1532,7 +1540,7 @@ msgid "Riordain"
 msgstr "リオーダン"
 
 #: src/GwentTracker/data/scoiatael.yml:131 -> Card.flavor
-msgid "Stare into their eyes, feast on their terror. Then go in for the kill."
+msgid "\"Stare into their eyes, feast on their terror. Then go in for the kill.\""
 msgstr "「相手の目を見て、恐怖を糧にしろ。それから殺せ」"
 
 #: src/GwentTracker/data/scoiatael.yml:142 -> Card.name
@@ -1540,7 +1548,7 @@ msgid "Ciaran aep Easnillien"
 msgstr "シアラン・エプ・アースニリエン"
 
 #: src/GwentTracker/data/scoiatael.yml:143 -> Card.flavor
-msgid "The path to freedom is paved in blood, not ink."
+msgid "\"The path to freedom is paved in blood, not ink.\""
 msgstr "「外交ではなく、流血が自由への道だ」"
 
 #: src/GwentTracker/data/scoiatael.yml:154 -> Card.name
@@ -1548,7 +1556,7 @@ msgid "Barclay Els"
 msgstr "バークレー・エルス"
 
 #: src/GwentTracker/data/scoiatael.yml:155 -> Card.flavor
-msgid "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!"
+msgid "\"Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!\""
 msgstr "「うちの酒が小便みたいな臭いだって？ 大丈夫だ。鼻をへし折ってやるから！」"
 
 #: src/GwentTracker/data/scoiatael.yml:166 -> Card.name
@@ -1556,7 +1564,7 @@ msgid "Havekar Smuggler"
 msgstr "ハヴカーの支援"
 
 #: src/GwentTracker/data/scoiatael.yml:167 -> Card.flavor
-msgid "I fight for whoever's paying the best. Or whoever's easiest to rob."
+msgid "\"I fight for whoever's paying the best. Or whoever's easiest to rob.\""
 msgstr "「一番金払いのいい奴に味方するだけだ。もしくは、一番弱い奴の敵になる」"
 
 #: src/GwentTracker/data/scoiatael.yml:202 -> Card.name
@@ -1564,7 +1572,7 @@ msgid "Vrihedd Brigade Veteran"
 msgstr "ヴリヘッド旅団"
 
 #: src/GwentTracker/data/scoiatael.yml:203 -> Card.flavor
-msgid "'Vrihedd? What's that mean?' 'Trouble.'"
+msgid "\"'Vrihedd? What's that mean?' 'Trouble.'\""
 msgstr "「ヴリヘッド？ どういう意味だ？」 「さあな」"
 
 #: src/GwentTracker/data/scoiatael.yml:226 -> Card.name
@@ -1572,7 +1580,7 @@ msgid "Dol Blathanna Scout"
 msgstr "ドル・ブラサンナの斥候"
 
 #: src/GwentTracker/data/scoiatael.yml:227 -> Card.flavor
-msgid "They track like hounds, run like deer and kill like cold-hearted bastards."
+msgid "\"They track like hounds, run like deer and kill like cold-hearted bastards.\""
 msgstr "「彼らは猟犬のように追跡し、鹿のように走り、冷血に対象を殺す」"
 
 #: src/GwentTracker/data/scoiatael.yml:262 -> Card.name
@@ -1580,7 +1588,7 @@ msgid "Dwarven Skirmisher"
 msgstr "ドワーフの散兵"
 
 #: src/GwentTracker/data/scoiatael.yml:263 -> Card.flavor
-msgid "Worked a pickaxe all me life. Battleaxe won't be any trouble."
+msgid "\"Worked a pickaxe all me life. Battleaxe won't be any trouble.\""
 msgstr "「ずっとつるはしを使ってるんだ。戦斧だって問題ないさ」"
 
 #: src/GwentTracker/data/scoiatael.yml:298 -> Card.name
@@ -1588,7 +1596,7 @@ msgid "Mahakaman Defender"
 msgstr "マハカムの守備兵"
 
 #: src/GwentTracker/data/scoiatael.yml:299 -> Card.flavor
-msgid "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+msgid "\"I'm telling ye, we're born fer battle - we slash straight at their knees!\""
 msgstr "「いいかい、俺たちは戦うために生まれて来た。敵の足を叩き切ってやるよ！」"
 
 #: src/GwentTracker/data/scoiatael.yml:358 -> Card.name
@@ -1596,7 +1604,7 @@ msgid "Elven Skirmisher"
 msgstr "エルフの散兵"
 
 #: src/GwentTracker/data/scoiatael.yml:359 -> Card.flavor
-msgid "No matter what you may have heard, elves don't take human scalps. Too much lice."
+msgid "\"No matter what you may have heard, elves don't take human scalps. Too much lice.\""
 msgstr "「ちょろちょろするな、とんがり耳。狙えないだろうが！」"
 
 #: src/GwentTracker/data/scoiatael.yml:394 -> Card.name
@@ -1604,7 +1612,7 @@ msgid "Vrihedd Brigade Recruit"
 msgstr "ヴリヘッド訓練兵"
 
 #: src/GwentTracker/data/scoiatael.yml:395 -> Card.flavor
-msgid "Hatred burns brighter than any fire, and cuts deeper than any blade."
+msgid "\"Hatred burns brighter than any fire, and cuts deeper than any blade.\""
 msgstr "「憎悪はどんな火よりも熱く、どんな剣よりも深い傷を残す」"
 
 #: src/GwentTracker/data/scoiatael.yml:406 -> Card.name
@@ -1612,7 +1620,7 @@ msgid "Dol Blathanna Archer"
 msgstr "ドル・ブラサンナの射手"
 
 #: src/GwentTracker/data/scoiatael.yml:407 -> Card.flavor
-msgid "Take another step, dh'oine. You'd look better with an arrow between your eyes."
+msgid "\"Take another step, dh'oine. You'd look better with an arrow between your eyes.\""
 msgstr "「ドゥオインよ、後一歩動いて見ろ。眉間を矢が飾ることになるぞ」"
 
 #: src/GwentTracker/data/scoiatael.yml:418 -> Card.name
@@ -1620,7 +1628,7 @@ msgid "Havekar Healer"
 msgstr "ハヴカーの医師"
 
 #: src/GwentTracker/data/scoiatael.yml:419 -> Card.flavor
-msgid "Sure, I'll patch you up. Gonna cost you, though."
+msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "「ああ、治してやろう。値は張るけどね」"
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
@@ -1628,7 +1636,7 @@ msgid "Francesca Findabair Pureblood Elf"
 msgstr "フランチェスカ・フィンダベア 純血のエルフ"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
-msgid "Ash shall fertilize the soil. By spring, the valley shall bloom once more."
+msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "「ドル・ブラサンナはアイン・シーデの避難所として独立を保てるし、保たねばならない」"
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
@@ -1636,7 +1644,7 @@ msgid "Francesca Findabair Daisy of the Valley"
 msgstr "フランチェスカ・フィンダベア 谷の雛菊"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
-msgid "The Elder Races have forgotten more than humans can ever hope to know."
+msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "「古き民族は、人間が知ることのできる知識よりも遥かに多くのことを忘れ去ってしまった」"
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
@@ -1644,7 +1652,7 @@ msgid "Francesca Findabair the Beautiful"
 msgstr "フランチェスカ・フィンダベア 絶世の美女"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
-msgid "Do not let my beauty distract your aim."
+msgid "\"Do not let my beauty distract your aim.\""
 msgstr "「私に見とれて狙いを外さないようにね！」"
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
@@ -1652,7 +1660,7 @@ msgid "Francesca Findabair Queen of Dol Blathanna"
 msgstr "フランチェスカ・フィンダベア ドル・ブラサンナの女王"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
-msgid "To live in peace, we first must kill. This is human oppression's cruel finale."
+msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "「平和は、流血によってのみ得られる。人間による抑圧の時代が、残酷に終わる時が来た」"
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
@@ -1660,7 +1668,7 @@ msgid "Francesca Findabair Hope of the Aen Seidhe"
 msgstr "フランチェスカ・フィンダベア アイン・シーデの希望"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
-msgid "Daede sian caente, Aen Seidhe en'allane ael coeden…"
+msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
 msgstr "「ダイデ・シアン・ケンテ、アイン・シーデ・エナラン・エル・コエデン…」"
 
 #: src/GwentTracker/data/skellige.yml:4 -> Card.name
@@ -1668,7 +1676,7 @@ msgid "Hemdall"
 msgstr "ヘムダール"
 
 #: src/GwentTracker/data/skellige.yml:5 -> Card.flavor
-msgid "When the time of the White Frost comes, Hemdall will sound the call for battle."
+msgid "\"When the time of the White Frost comes, Hemdall will sound the call for battle.\""
 msgstr "「白き霜の時が来れば、ヘムダールが戦いの声を上げる」"
 
 #: src/GwentTracker/data/skellige.yml:8 -> Card.type
@@ -1680,7 +1688,7 @@ msgid "Hjalmar"
 msgstr "ヤルマール"
 
 #: src/GwentTracker/data/skellige.yml:12 -> Card.flavor
-msgid "Instead of mournin' the fallen, let's drink to their memory!"
+msgid "\"Instead of mournin' the fallen, let's drink to their memory!\""
 msgstr "「倒れた者たちを悼むより、彼らの思い出に乾杯しよう！」"
 
 #: src/GwentTracker/data/skellige.yml:15 -> Card.type
@@ -1692,7 +1700,7 @@ msgid "Cerys"
 msgstr "セリス"
 
 #: src/GwentTracker/data/skellige.yml:20 -> Card.flavor
-msgid "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast."
+msgid "\"They call me Sparrowhawk, know why? Because I eat rats like you for breakfast.\""
 msgstr "「スパロウホークと呼ばれてる由来は知ってる？ あなたみたいなネズミを餌食にするからよ」"
 
 #: src/GwentTracker/data/skellige.yml:25 -> Card.area
@@ -1708,7 +1716,7 @@ msgid "Toussaint"
 msgstr "トゥサン"
 
 #: src/GwentTracker/data/skellige.yml:32 -> Card.flavor
-msgid "Only the ignorant dismiss the importance of myths."
+msgid "\"Only the ignorant dismiss the importance of myths.\""
 msgstr "「伝説の価値を認めないのは愚か者だけだ」"
 
 #: src/GwentTracker/data/skellige.yml:37 -> Card.area
@@ -1724,7 +1732,7 @@ msgid "Draig Bon-Dhu"
 msgstr "ドレイグ・ボン・ドウ"
 
 #: src/GwentTracker/data/skellige.yml:44 -> Card.flavor
-msgid "Hear ye now the tale of the heroic deeds of Clan an Craite."
+msgid "\"Hear ye now the tale of the heroic deeds of Clan an Craite.\""
 msgstr "「アン・クライト一族の英雄的な逸話を知っているそうだな」"
 
 #: src/GwentTracker/data/skellige.yml:55 -> Card.name
@@ -1732,11 +1740,11 @@ msgid "Holger Blackhand"
 msgstr "オルガー・ブラックハンド"
 
 #: src/GwentTracker/data/skellige.yml:56 -> Card.flavor
-msgid "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!"
+msgid "\"Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!\""
 msgstr "「ニルフガード皇帝に乾杯！ 奴の一物が永遠に役に立たなくなるように！」"
 
 #: src/GwentTracker/data/skellige.yml:64 -> Card.flavor
-msgid "WAAAAAAAAAAGH!!!!"
+msgid "\"WAAAAAAAAAAGH!!!!\""
 msgstr "「うおおおおおおお！！」"
 
 #: src/GwentTracker/data/skellige.yml:71 -> Card.name
@@ -1744,7 +1752,7 @@ msgid "Donar an Hindar"
 msgstr "ドナール・アン・ヒンダー"
 
 #: src/GwentTracker/data/skellige.yml:72 -> Card.flavor
-msgid "I've gathered all the jarls together. Now make your case."
+msgid "\"I've gathered all the jarls together. Now make your case.\""
 msgstr "「族長を全員ここに集めた。申し開きをするがいい」"
 
 #: src/GwentTracker/data/skellige.yml:79 -> Card.name
@@ -1752,7 +1760,7 @@ msgid "Udalryk"
 msgstr "ウダルリック"
 
 #: src/GwentTracker/data/skellige.yml:80 -> Card.flavor
-msgid "Haaaargh! After me, if ye've the bollocks!"
+msgid "\"Haaaargh! After me, if ye've the bollocks!\""
 msgstr "「うおおお！ 玉のある奴は俺に続け！」"
 
 #: src/GwentTracker/data/skellige.yml:87 -> Card.name
@@ -1760,7 +1768,7 @@ msgid "Birna Bran"
 msgstr "ビルナ・ブラン"
 
 #: src/GwentTracker/data/skellige.yml:88 -> Card.flavor
-msgid "Skellige must have a strong king. No matter what it takes."
+msgid "\"Skellige must have a strong king. No matter what it takes.\""
 msgstr "「スケリッジには強い王が必要。手段は問わない」"
 
 #: src/GwentTracker/data/skellige.yml:95 -> Card.name
@@ -1768,7 +1776,7 @@ msgid "Blueboy Lugos"
 msgstr "ブルーボーイ・ルゴス"
 
 #: src/GwentTracker/data/skellige.yml:96 -> Card.flavor
-msgid "I'm damn near ready to puke from boredom."
+msgid "\"I'm damn near ready to puke from boredom.\""
 msgstr "「退屈で吐きそうだぜ」"
 
 #: src/GwentTracker/data/skellige.yml:103 -> Card.name
@@ -1776,7 +1784,7 @@ msgid "Svanrige"
 msgstr "スヴァンリッジ"
 
 #: src/GwentTracker/data/skellige.yml:104 -> Card.flavor
-msgid "The emperor also thought him an accidental king. At first."
+msgid "\"The emperor also thought him an accidental king. At first.\""
 msgstr "「皇帝も最初は彼が運だけで王になったと思った。最初はな」"
 
 #: src/GwentTracker/data/skellige.yml:111 -> Card.name
@@ -1784,7 +1792,7 @@ msgid "Olaf"
 msgstr "オラフ"
 
 #: src/GwentTracker/data/skellige.yml:112 -> Card.flavor
-msgid "Many've tried to defeat Olaf. But won't hear about it from them - they're dead."
+msgid "\"Many've tried to defeat Olaf. But won't hear about it from them - they're dead.\""
 msgstr "「オラフを倒そうと挑んだ者は多いが、その結果を語る者はいない。皆死んだからな」"
 
 #: src/GwentTracker/data/skellige.yml:116 -> Card.npc
@@ -1804,7 +1812,7 @@ msgid "Berserker"
 msgstr "狂戦士"
 
 #: src/GwentTracker/data/skellige.yml:124 -> Card.flavor
-msgid "Kill, crush, cleave!"
+msgid "\"Kill, crush, cleave!\""
 msgstr "「殺せ、叩き潰せ、貫け！」"
 
 #: src/GwentTracker/data/skellige.yml:131 -> Card.name
@@ -1820,7 +1828,7 @@ msgid "Young Berserker"
 msgstr "若い狂戦士"
 
 #: src/GwentTracker/data/skellige.yml:139 -> Card.flavor
-msgid "Want some?"
+msgid "\"Want some?\""
 msgstr "「俺を相手にするのか？」"
 
 #: src/GwentTracker/data/skellige.yml:145 -> Card.npc
@@ -1860,7 +1868,7 @@ msgid "Clan an Craite Warrior"
 msgstr "アン・クライト一族の戦士"
 
 #: src/GwentTracker/data/skellige.yml:166 -> Card.flavor
-msgid "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!"
+msgid "\"I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!\""
 msgstr "「アン・クライトに栄光をもたらす。俺を称える歌で吟遊詩人が喉を壊すほどに！」"
 
 #: src/GwentTracker/data/skellige.yml:173 -> Card.name
@@ -1868,7 +1876,7 @@ msgid "Clan Tordarroch Armorsmith"
 msgstr "トルダーロク一族の鎧職人"
 
 #: src/GwentTracker/data/skellige.yml:174 -> Card.flavor
-msgid "Ye're in for a poundin'."
+msgid "\"Ye're in for a poundin'.\""
 msgstr "「ぶっ叩かれても安心してろ」"
 
 #: src/GwentTracker/data/skellige.yml:181 -> Card.name
@@ -1876,7 +1884,7 @@ msgid "Clan Heymaey Skald"
 msgstr "ヘイマイー一族の吟遊詩人"
 
 #: src/GwentTracker/data/skellige.yml:182 -> Card.flavor
-msgid "The deeds of Clan Heymaey will go down in history."
+msgid "\"The deeds of Clan Heymaey will go down in history.\""
 msgstr "「ヘイマイー一族の伝説が歴史に刻まれるだろう」"
 
 #: src/GwentTracker/data/skellige.yml:189 -> Card.name
@@ -1884,7 +1892,7 @@ msgid "Light Longship"
 msgstr "軽量ロングシップ"
 
 #: src/GwentTracker/data/skellige.yml:190 -> Card.flavor
-msgid "Escape them? In the waters of Skellige? Good luck."
+msgid "\"Escape them? In the waters of Skellige? Good luck.\""
 msgstr "「スケリッジ人から逃げる？ スケリッジの水域で？ やってみな」"
 
 #: src/GwentTracker/data/skellige.yml:197 -> Card.area
@@ -1896,7 +1904,7 @@ msgid "War Longship"
 msgstr "戦闘用ロングシップ"
 
 #: src/GwentTracker/data/skellige.yml:204 -> Card.flavor
-msgid "They say Hemdall's heart swells whenever the longships sail out on a raid."
+msgid "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
 msgstr "「ロングシップで略奪に出る時はいつも、ヘムダールが心を躍らせているのだという」"
 
 #: src/GwentTracker/data/skellige.yml:217 -> Card.name
@@ -1904,7 +1912,7 @@ msgid "Clan Brokvar Archer"
 msgstr "ブロクヴァル一族の射手"
 
 #: src/GwentTracker/data/skellige.yml:218 -> Card.flavor
-msgid "So ye can hit a movin' target at two hundred paces. Me, too. In a storm."
+msgid "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
 msgstr "「200歩先の動く的を射抜ける？ 俺もだ。それも嵐の中でな」"
 
 #: src/GwentTracker/data/skellige.yml:224 -> Card.npc
@@ -1920,7 +1928,7 @@ msgid "Clan Drummond Shield Maiden"
 msgstr "ドラムンド一族の盾の乙女"
 
 #: src/GwentTracker/data/skellige.yml:232 -> Card.flavor
-msgid "They'll shatter on our shields like waves on a rocky shore."
+msgid "\"They'll shatter on our shields like waves on a rocky shore.\""
 msgstr "「岸壁に砕ける波のように、敵はこの盾で砕け散る！」"
 
 #: src/GwentTracker/data/skellige.yml:239 -> Card.name
@@ -1928,7 +1936,7 @@ msgid "Clan Dimun Pirate"
 msgstr "ディムン一族の海賊"
 
 #: src/GwentTracker/data/skellige.yml:240 -> Card.flavor
-msgid "Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!"
+msgid "\"Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!\""
 msgstr "「奴らの目に恐怖が見える。俺と… ディムン一族への恐怖が！」"
 
 #: src/GwentTracker/data/skellige.yml:245 -> Card.area
@@ -1940,7 +1948,7 @@ msgid "Kambi"
 msgstr "カンビ"
 
 #: src/GwentTracker/data/skellige.yml:252 -> Card.flavor
-msgid "When the time comes, the cockerel Kambi shall crow and awaken Hemdall."
+msgid "\"When the time comes, the cockerel Kambi shall crow and awaken Hemdall.\""
 msgstr "「その時が来れば、雄鶏のカンビがときを作りヘムダールを目覚めさせる」"
 
 #: src/GwentTracker/data/skellige.yml:256 -> Card.npc
@@ -1956,7 +1964,7 @@ msgid "King Bran"
 msgstr "ブラン王"
 
 #: src/GwentTracker/data/skellige.yml:288 -> Card.flavor
-msgid "No one can replace Bran. Though they're sure to try."
+msgid "\"No one can replace Bran. Though they're sure to try.\""
 msgstr "「何者もブランの代わりにはなれない。挑んでくる者は後を絶たないが」"
 
 #: src/GwentTracker/data/skellige.yml:292 -> Card.npc

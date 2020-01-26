@@ -1,7 +1,7 @@
 ﻿-   index: 0
     deck: Neutral
     name: "Decoy"
-    flavor: "When you run out of peasants, decoys also make decent arrow fodder."
+    flavor: "\"When you run out of peasants, decoys also make decent arrow fodder.\""
     type: Special
     locations:
         -   type: Buy from Trader
@@ -25,7 +25,7 @@
 -   index: 1
     deck: Neutral
     name: "Commander's Horn"
-    flavor: "Plus one to morale, minus three to hearing."
+    flavor: "\"Plus one to morale, minus three to hearing.\""
     type: Special
     locations:
         -   type: Buy from Trader
@@ -49,7 +49,7 @@
 -   index: 2
     deck: Neutral
     name: "Scorch"
-    flavor: "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe."
+    flavor: "\"Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.\""
     type: Special
     locations:
         -   type: Buy from Trader
@@ -73,7 +73,7 @@
 -   index: 3
     deck: Neutral
     name: "Biting Frost"
-    flavor: "Best part about frost - bodies of the fallen don't rot so quickly."
+    flavor: "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
     type: Special
     locations:
         -   type: Base Deck
@@ -87,7 +87,7 @@
 -   index: 4
     deck: Neutral
     name: "Impenetrable Fog"
-    flavor: "A good commander's dream... a bad one's horror."
+    flavor: "\"A good commander's dream... a bad one's horror.\""
     type: Special
     locations:
         -   type: Base Deck
@@ -101,7 +101,7 @@
 -   index: 5
     deck: Neutral
     name: "Torrential Rain"
-    flavor: "Even the rain in this land smells like piss."
+    flavor: "\"Even the rain in this land smells like piss.\""
     type: Special
     locations:
         -   type: Base Deck
@@ -114,7 +114,7 @@
 -   index: 6
     deck: Neutral
     name: "Clear Weather"
-    flavor: "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…"
+    flavor: "\"The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…\""
     type: Special
     locations:
         -   type: Base Deck
@@ -127,7 +127,7 @@
 -   index: 7
     deck: Neutral
     name: "Geralt of Rivia"
-    flavor: "If that's what it takes to save the world, it's better to let that world die."
+    flavor: "\"If that's what it takes to save the world, it's better to let that world die.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -140,7 +140,7 @@
 -   index: 8
     deck: Neutral
     name: "Vesemir"
-    flavor: "If you're to be hanged, ask for water. Anything can happen before they fetch it."
+    flavor: "\"If you're to be hanged, ask for water. Anything can happen before they fetch it.\""
     type: Unit
     locations:
         -   type: Gwent Quest
@@ -153,7 +153,7 @@
 -   index: 9
     deck: Neutral
     name: "Yennefer of Vengerberg"
-    flavor: "Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression."
+    flavor: "\"Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -166,7 +166,7 @@
 -   index: 10
     deck: Neutral
     name: "Cirilla Fiona Elen Riannon"
-    flavor: "Know when fairy tales cease to be tales? When people start believing in them."
+    flavor: "\"Know when fairy tales cease to be tales? When people start believing in them.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -179,7 +179,7 @@
 -   index: 11
     deck: Neutral
     name: "Triss Merigold"
-    flavor: "I can take care of myself. Trust me."
+    flavor: "\"I can take care of myself. Trust me.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -201,7 +201,7 @@
 -   index: 12
     deck: Neutral
     name: "Dandelion"
-    flavor: "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend."
+    flavor: "\"Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend.\""
     type: Unit
     locations:
         -   type: Secondary Quest
@@ -215,7 +215,7 @@
 -   index: 13
     deck: Neutral
     name: "Zoltan Chivay"
-    flavor: "Life without old mates and booze is like a woman without a rump."
+    flavor: "\"Life without old mates and booze is like a woman without a rump.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -227,7 +227,7 @@
 -   index: 14
     deck: Neutral
     name: "Emiel Regis Rohellec Terzieff"
-    flavor: "Men, the polite ones, at least, would call me a monster. A blood-drinking freak."
+    flavor: "\"Men, the polite ones, at least, would call me a monster. A blood-drinking freak.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -239,7 +239,7 @@
 -   index: 15
     deck: Neutral
     name: "Villentretenmerth"
-    flavor: "Also calls himself Borkh Three Jackdaws… he's not the best at names."
+    flavor: "\"Also calls himself Borkh Three Jackdaws… he's not the best at names.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -251,7 +251,7 @@
 -   index: 16
     deck: Neutral
     name: "Avallac'h"
-    flavor: "You humans have… unusual tastes."
+    flavor: "\"You humans have… unusual tastes.\""
     type: Hero
     locations:
         -   type: Gwent Quest

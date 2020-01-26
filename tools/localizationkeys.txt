@@ -81,7 +81,6 @@
 452889|Old Sage
 1055966|Crow's Perch
 1048434|Caesar Bilzen
-1065034|'What have I done?' the mage cried out, frightened of his own creation.
 1136327|Upper Mill
 1056063|Carsten
 1209906|The Barrel and Bung Inn

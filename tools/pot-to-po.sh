@@ -33,7 +33,9 @@ function cleanStr() {
     # Input is piped to this function which bash automatically passes to first command
     sed "s/<br>/ /g" |\
     sed "s/’/'/g" |\
-    sed 's:</\?[a-z]*>\|["“”]\|^ *::g'
+    sed 's/[“”]/"/g' |\
+    sed 's/"/\\"/g' |\
+    sed 's:</\?[a-z]*>\|^ *::g'
 }
 
 function getEnglishString() {
@@ -71,7 +73,10 @@ function addCardsToMap() {
         addToMap "$(getEnglishString ${descHash})"
     done <<< $({ xml-to-json "${data}/def_gwint_battle_king_cards.xml" | jq -r "$(jqstr battle_king_card_definitions)"; \
                  xml-to-json "${data}/def_gwint_cards_final.xml" | jq "$(jqstr card_definitions_final)"; \
+                 echo "{ \"index\": \"145\", \"title\": \"gwint_name_ballista\", \"description\": \"gwint_desc_ballista\" }"; \
+                 echo "{ \"index\": \"146\", \"title\": \"gwint_name_ballista\", \"description\": \"gwint_desc_ballista\" }"; \
                } | jq -r '"\(.index) \(.title) \(.description)"')
+               # The ballista cards aren't in the xml data files. Not sure where their source is
 }
 
 function addMiscToMap() {    
@@ -96,7 +101,8 @@ function getTranslation() {
     
     grep -r --include "${locale}.w3strings.csv" "${id}" "${strings}" | \
     head -n1 | \
-    cut -d '|' -f 4
+    cut -d '|' -f 4 | \
+    sed 's/^\s+//'
 }
 
 function writePoFiles() {
@@ -122,7 +128,7 @@ msgstr ""
 
 EOF
         local re='^msgid "(.*)"$'
-        while read line; do
+        while read -r line; do
             [[ "$line" =~ ^msgstr ]] && continue
             echo "$line" >> ${tempDest}        
             

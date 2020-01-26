@@ -1,7 +1,7 @@
 ﻿-   index: 300
     deck: Scoia'tael
     name: "Eithné"
-    flavor: "The dryad queen has eyes of molten silver, and a heart of cold-forged steel."
+    flavor: "\"The dryad queen has eyes of molten silver, and a heart of cold-forged steel.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -14,7 +14,7 @@
 -   index: 301
     deck: Scoia'tael
     name: "Saesenthessis"
-    flavor: "Beautiful, pure, fierce - the perfect icon for a rebellion."
+    flavor: "\"Beautiful, pure, fierce - the perfect icon for a rebellion.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -27,7 +27,7 @@
 -   index: 302
     deck: Scoia'tael
     name: "Isengrim Faolitarna"
-    flavor: "It dawns on them once they notice my scar: a realization of imminent death."
+    flavor: "\"It dawns on them once they notice my scar: a realization of imminent death.\""
     type: Hero
     locations:
         -   type: Secondary Quest
@@ -40,7 +40,7 @@
 -   index: 303
     deck: Scoia'tael
     name: "Iorveth"
-    flavor: "King or beggar, what's the difference? One dh'oine less."
+    flavor: "\"King or beggar, what's the difference? One dh'oine less.\""
     type: Hero
     locations:
         -   type: Secondary Quest
@@ -53,7 +53,7 @@
 -   index: 305
     deck: Scoia'tael
     name: "Dennis Cranmer"
-    flavor: "I know how to carry out orders, so you can shove you advice up your coal chute."
+    flavor: "\"I know how to carry out orders, so you can shove you advice up your coal chute.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -65,7 +65,7 @@
 -   index: 306
     deck: Scoia'tael
     name: "Milva"
-    flavor: "With each arrow I loose, I think of my da. He'd be proud. I think."
+    flavor: "\"With each arrow I loose, I think of my da. He'd be proud. I think.\""
     type: Unit
     locations:
         -   type: Secondary Quest
@@ -79,7 +79,7 @@
 -   index: 307
     deck: Scoia'tael
     name: "Ida Emean aep Sivney"
-    flavor: "I am a Sage. My power lies in possessing knowledge. Not sharing it."
+    flavor: "\"I am a Sage. My power lies in possessing knowledge. Not sharing it.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -91,7 +91,7 @@
 -   index: 308
     deck: Scoia'tael
     name: "Filavandrel aén Fidháil"
-    flavor: "Though we are now few and scattered, our hearts burn brighter than ever."
+    flavor: "\"Though we are now few and scattered, our hearts burn brighter than ever.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -103,7 +103,7 @@
 -   index: 309
     deck: Scoia'tael
     name: "Yaevinn"
-    flavor: "We are the drops of rain that together make a ferocious storm."
+    flavor: "\"We are the drops of rain that together make a ferocious storm.\""
     type: Unit
     locations:
         -   type: Gwent Quest
@@ -116,7 +116,7 @@
 -   index: 310
     deck: Scoia'tael
     name: "Toruviel"
-    flavor: "I'd gladly kill you from up close, stare in your eyes… But you reek, human."
+    flavor: "\"I'd gladly kill you from up close, stare in your eyes… But you reek, human.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -128,7 +128,7 @@
 -   index: 311
     deck: Scoia'tael
     name: "Riordain"
-    flavor: "Stare into their eyes, feast on their terror. Then go in for the kill."
+    flavor: "\"Stare into their eyes, feast on their terror. Then go in for the kill.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -140,7 +140,7 @@
 -   index: 312
     deck: Scoia'tael
     name: "Ciaran aep Easnillien"
-    flavor: "The path to freedom is paved in blood, not ink."
+    flavor: "\"The path to freedom is paved in blood, not ink.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -152,7 +152,7 @@
 -   index: 313
     deck: Scoia'tael
     name: "Barclay Els"
-    flavor: "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!"
+    flavor: "\"Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -164,7 +164,7 @@
 -   index: 320
     deck: Scoia'tael
     name: "Havekar Smuggler"
-    flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
+    flavor: "\"I fight for whoever's paying the best. Or whoever's easiest to rob.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -176,7 +176,7 @@
 -   index: 321
     deck: Scoia'tael
     name: "Havekar Smuggler"
-    flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
+    flavor: "\"I fight for whoever's paying the best. Or whoever's easiest to rob.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -188,7 +188,7 @@
 -   index: 322
     deck: Scoia'tael
     name: "Havekar Smuggler"
-    flavor: "I fight for whoever's paying the best. Or whoever's easiest to rob."
+    flavor: "\"I fight for whoever's paying the best. Or whoever's easiest to rob.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -200,7 +200,7 @@
 -   index: 325
     deck: Scoia'tael
     name: "Vrihedd Brigade Veteran"
-    flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
+    flavor: "\"'Vrihedd? What's that mean?' 'Trouble.'\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -212,7 +212,7 @@
 -   index: 326
     deck: Scoia'tael
     name: "Vrihedd Brigade Veteran"
-    flavor: "'Vrihedd? What's that mean?' 'Trouble.'"
+    flavor: "\"'Vrihedd? What's that mean?' 'Trouble.'\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -224,7 +224,7 @@
 -   index: 330
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
-    flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
+    flavor: "\"They track like hounds, run like deer and kill like cold-hearted bastards.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -236,7 +236,7 @@
 -   index: 331
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
-    flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
+    flavor: "\"They track like hounds, run like deer and kill like cold-hearted bastards.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -248,7 +248,7 @@
 -   index: 332
     deck: Scoia'tael
     name: "Dol Blathanna Scout"
-    flavor: "They track like hounds, run like deer and kill like cold-hearted bastards."
+    flavor: "\"They track like hounds, run like deer and kill like cold-hearted bastards.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -260,7 +260,7 @@
 -   index: 335
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
-    flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
+    flavor: "\"Worked a pickaxe all me life. Battleaxe won't be any trouble.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -272,7 +272,7 @@
 -   index: 336
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
-    flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
+    flavor: "\"Worked a pickaxe all me life. Battleaxe won't be any trouble.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -284,7 +284,7 @@
 -   index: 337
     deck: Scoia'tael
     name: "Dwarven Skirmisher"
-    flavor: "Worked a pickaxe all me life. Battleaxe won't be any trouble."
+    flavor: "\"Worked a pickaxe all me life. Battleaxe won't be any trouble.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -296,7 +296,7 @@
 -   index: 340
     deck: Scoia'tael
     name: "Mahakaman Defender"
-    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+    flavor: "\"I'm telling ye, we're born fer battle - we slash straight at their knees!\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -308,7 +308,7 @@
 -   index: 341
     deck: Scoia'tael
     name: "Mahakaman Defender"
-    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+    flavor: "\"I'm telling ye, we're born fer battle - we slash straight at their knees!\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -320,7 +320,7 @@
 -   index: 342
     deck: Scoia'tael
     name: "Mahakaman Defender"
-    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+    flavor: "\"I'm telling ye, we're born fer battle - we slash straight at their knees!\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -332,7 +332,7 @@
 -   index: 343
     deck: Scoia'tael
     name: "Mahakaman Defender"
-    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+    flavor: "\"I'm telling ye, we're born fer battle - we slash straight at their knees!\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -344,7 +344,7 @@
 -   index: 344
     deck: Scoia'tael
     name: "Mahakaman Defender"
-    flavor: "I'm telling ye, we're born fer battle - we slash straight at their knees!"
+    flavor: "\"I'm telling ye, we're born fer battle - we slash straight at their knees!\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -356,7 +356,7 @@
 -   index: 350
     deck: Scoia'tael
     name: "Elven Skirmisher"
-    flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
+    flavor: "\"No matter what you may have heard, elves don't take human scalps. Too much lice.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -368,7 +368,7 @@
 -   index: 351
     deck: Scoia'tael
     name: "Elven Skirmisher"
-    flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
+    flavor: "\"No matter what you may have heard, elves don't take human scalps. Too much lice.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -380,7 +380,7 @@
 -   index: 352
     deck: Scoia'tael
     name: "Elven Skirmisher"
-    flavor: "No matter what you may have heard, elves don't take human scalps. Too much lice."
+    flavor: "\"No matter what you may have heard, elves don't take human scalps. Too much lice.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -392,7 +392,7 @@
 -   index: 355
     deck: Scoia'tael
     name: "Vrihedd Brigade Recruit"
-    flavor: "Hatred burns brighter than any fire, and cuts deeper than any blade."
+    flavor: "\"Hatred burns brighter than any fire, and cuts deeper than any blade.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -404,7 +404,7 @@
 -   index: 360
     deck: Scoia'tael
     name: "Dol Blathanna Archer"
-    flavor: "Take another step, dh'oine. You'd look better with an arrow between your eyes."
+    flavor: "\"Take another step, dh'oine. You'd look better with an arrow between your eyes.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -416,7 +416,7 @@
 -   index: 365
     deck: Scoia'tael
     name: "Havekar Healer"
-    flavor: "Sure, I'll patch you up. Gonna cost you, though."
+    flavor: "\"Sure, I'll patch you up. Gonna cost you, though.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -428,7 +428,7 @@
 -   index: 366
     deck: Scoia'tael
     name: "Havekar Healer"
-    flavor: "Sure, I'll patch you up. Gonna cost you, though."
+    flavor: "\"Sure, I'll patch you up. Gonna cost you, though.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -440,7 +440,7 @@
 -   index: 367
     deck: Scoia'tael
     name: "Havekar Healer"
-    flavor: "Sure, I'll patch you up. Gonna cost you, though."
+    flavor: "\"Sure, I'll patch you up. Gonna cost you, though.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -452,14 +452,14 @@
 -   index: 3001
     deck: Scoia'tael
     name: "Francesca Findabair Pureblood Elf"
-    flavor: "Ash shall fertilize the soil. By spring, the valley shall bloom once more."
+    flavor: "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
     type: Leader
     locations:
         -   type: Base Deck
 -   index: 3002
     deck: Scoia'tael
     name: "Francesca Findabair Daisy of the Valley"
-    flavor: "The Elder Races have forgotten more than humans can ever hope to know."
+    flavor: "\"The Elder Races have forgotten more than humans can ever hope to know.\""
     type: Leader
     locations:
         -   type: Buy from Trader
@@ -471,7 +471,7 @@
 -   index: 3003
     deck: Scoia'tael
     name: "Francesca Findabair the Beautiful"
-    flavor: "Do not let my beauty distract your aim."
+    flavor: "\"Do not let my beauty distract your aim.\""
     type: Leader
     locations:
         -   type: Gwent Quest
@@ -484,7 +484,7 @@
 -   index: 3004
     deck: Scoia'tael
     name: "Francesca Findabair Queen of Dol Blathanna"
-    flavor: "To live in peace, we first must kill. This is human oppression's cruel finale."
+    flavor: "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
     type: Leader
     locations:
         -   type: Secondary Quest
@@ -497,7 +497,7 @@
 -   index: 3005
     deck: Scoia'tael
     name: "Francesca Findabair Hope of the Aen Seidhe"
-    flavor: "Daede sian caente, Aen Seidhe en'allane ael coeden…"
+    flavor: "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
     type: Leader
     locations:
         -   type: Win From NPC

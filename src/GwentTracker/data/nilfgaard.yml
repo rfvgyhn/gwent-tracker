@@ -1,7 +1,7 @@
 ﻿-   index: 200
     deck: Nilfgaard
     name: "Letho of Gulet"
-    flavor: "Witchers never die in their beds."
+    flavor: "\"Witchers never die in their beds.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -14,7 +14,7 @@
 -   index: 201
     deck: Nilfgaard
     name: "Menno Coehoorn"
-    flavor: "I'll take an attentive reconnaissance unit over a fine cavalry brigade any day."
+    flavor: "\"I'll take an attentive reconnaissance unit over a fine cavalry brigade any day.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -27,7 +27,7 @@
 -   index: 202
     deck: Nilfgaard
     name: "Morvran Voorhis"
-    flavor: "Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me."
+    flavor: "\"Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me.\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -40,7 +40,7 @@
 -   index: 203
     deck: Nilfgaard
     name: "Tibor Eggebracht"
-    flavor: "Albaaaa! Forward!! Alba! Long live the Emperor!"
+    flavor: "\"Albaaaa! Forward!! Alba! Long live the Emperor!\""
     type: Hero
     locations:
         -   type: Gwent Quest
@@ -53,7 +53,7 @@
 -   index: 205
     deck: Nilfgaard
     name: "Albrich"
-    flavor: "A fireball? Of course. Whatever Your Imperial Majesty wishes."
+    flavor: "\"A fireball? Of course. Whatever Your Imperial Majesty wishes.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -65,7 +65,7 @@
 -   index: 206
     deck: Nilfgaard
     name: "Assire var Anahid"
-    flavor: "Nilfgaardian mages do have a choice: servile submission, or the gallows."
+    flavor: "\"Nilfgaardian mages do have a choice: servile submission, or the gallows.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -77,7 +77,7 @@
 -   index: 207
     deck: Nilfgaard
     name: "Cynthia"
-    flavor: "Cynthia's talents can be deadly. She needs a tight leash."
+    flavor: "\"Cynthia's talents can be deadly. She needs a tight leash.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -89,7 +89,7 @@
 -   index: 208
     deck: Nilfgaard
     name: "Fringilla Vigo"
-    flavor: "Magic is the highest good. It transcends all borders and divisions."
+    flavor: "\"Magic is the highest good. It transcends all borders and divisions.\""
     type: Unit
     locations:
         -   type: Secondary Quest
@@ -102,7 +102,7 @@
 -   index: 209
     deck: Nilfgaard
     name: "Morteisen"
-    flavor: "No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry."
+    flavor: "\"No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -114,7 +114,7 @@
 -   index: 210
     deck: Nilfgaard
     name: "Rainfarn"
-    flavor: "You'll die as painfully as that pathetic traitor Windhalm did."
+    flavor: "\"You'll die as painfully as that pathetic traitor Windhalm did.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -126,7 +126,7 @@
 -   index: 211
     deck: Nilfgaard
     name: "Renuald aep Matsen"
-    flavor: "They say the Impera fear nothing. Untrue. Renuald scares them shitless."
+    flavor: "\"They say the Impera fear nothing. Untrue. Renuald scares them shitless.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -138,7 +138,7 @@
 -   index: 212
     deck: Nilfgaard
     name: "Rotten Mangonel"
-    flavor: "The rotten smell brings back childhood memories"
+    flavor: "\"The rotten smell brings back childhood memories\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -150,7 +150,7 @@
 -   index: 213
     deck: Nilfgaard
     name: "Shilard Fitz-Oesterlen"
-    flavor: "Warfare is mere sound and fury - diplomacy is what truly shapes history."
+    flavor: "\"Warfare is mere sound and fury - diplomacy is what truly shapes history.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -162,7 +162,7 @@
 -   index: 214
     deck: Nilfgaard
     name: "Stefan Skellen"
-    flavor: "My mark scars the face of our future empress. That is my proudest achievement."
+    flavor: "\"My mark scars the face of our future empress. That is my proudest achievement.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -174,7 +174,7 @@
 -   index: 215
     deck: Nilfgaard
     name: "Sweers"
-    flavor: "And hands off the girl! Whatever we may be, we're not savages."
+    flavor: "\"And hands off the girl! Whatever we may be, we're not savages.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -187,7 +187,7 @@
 -   index: 217
     deck: Nilfgaard
     name: "Vanhemar"
-    flavor: "For a fire mage, he's not very… flamboyant."
+    flavor: "\"For a fire mage, he's not very… flamboyant.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -199,7 +199,7 @@
 -   index: 218
     deck: Nilfgaard
     name: "Vattier de Rideaux"
-    flavor: "There's never been a problem a well-planned assassination couldn't solve."
+    flavor: "\"There's never been a problem a well-planned assassination couldn't solve.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -211,7 +211,7 @@
 -   index: 219
     deck: Nilfgaard
     name: "Vreemde"
-    flavor: "Discipline is the Empire's deadliest weapon."
+    flavor: "\"Discipline is the Empire's deadliest weapon.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -223,7 +223,7 @@
 -   index: 220
     deck: Nilfgaard
     name: "Cahir Mawr Dyffryn aep Ceallach"
-    flavor: "His eyes flashed under his winged helmet. Fire gleamed from his sword's blade."
+    flavor: "\"His eyes flashed under his winged helmet. Fire gleamed from his sword's blade.\""
     type: Unit
     locations:
         -   type: Win from NPC
@@ -235,7 +235,7 @@
 -   index: 221
     deck: Nilfgaard
     name: "Puttkammer"
-    flavor: "Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance."
+    flavor: "\"Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -248,7 +248,7 @@
 -   index: 230
     deck: Nilfgaard
     name: "Etolian Auxiliary Archers"
-    flavor: "Double or nothing, aim for his cock."
+    flavor: "\"Double or nothing, aim for his cock.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -260,7 +260,7 @@
 -   index: 231
     deck: Nilfgaard
     name: "Etolian Auxiliary Archers"
-    flavor: "Double or nothing, aim for his cock."
+    flavor: "\"Double or nothing, aim for his cock.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -273,7 +273,7 @@
 -   index: 235
     deck: Nilfgaard
     name: "Black Infantry Archer"
-    flavor: "I aim for the knee. Always."
+    flavor: "\"I aim for the knee. Always.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -286,7 +286,7 @@
 -   index: 236
     deck: Nilfgaard
     name: "Black Infantry Archer"
-    flavor: "I aim for the knee. Always."
+    flavor: "\"I aim for the knee. Always.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -298,7 +298,7 @@
 -   index: 240
     deck: Nilfgaard
     name: "Heavy Zerrikanian Fire Scorpion"
-    flavor: "Not the best for taking cities, but great for razing them to the ground."
+    flavor: "\"Not the best for taking cities, but great for razing them to the ground.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -310,7 +310,7 @@
 -   index: 241
     deck: Nilfgaard
     name: "Zerrikanian Fire Scorpion"
-    flavor: "The Zerrikanian Desert used to be a lush garden. Then these came along."
+    flavor: "\"The Zerrikanian Desert used to be a lush garden. Then these came along.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -322,7 +322,7 @@
 -   index: 245
     deck: Nilfgaard
     name: "Impera Brigade Guard"
-    flavor: "The Impera Brigade never surrenders. Ever."
+    flavor: "\"The Impera Brigade never surrenders. Ever.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -352,7 +352,7 @@
 -   index: 250
     deck: Nilfgaard
     name: "Nausicaa Cavalry Rider"
-    flavor: "The Emperor will teach the North discipline."
+    flavor: "\"The Emperor will teach the North discipline.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -376,7 +376,7 @@
 -   index: 255
     deck: Nilfgaard
     name: "Siege Engineer"
-    flavor: "Wielded correctly, a protractor can be a deadly weapon."
+    flavor: "\"Wielded correctly, a protractor can be a deadly weapon.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -388,7 +388,7 @@
 -   index: 260
     deck: Nilfgaard
     name: "Young Emissary"
-    flavor: "If I acquit myself well, perhaps next they'll post me somewhere civilized."
+    flavor: "\"If I acquit myself well, perhaps next they'll post me somewhere civilized.\""
     type: 
     locations:
         -   type: Buy from Trader
@@ -400,7 +400,7 @@
 -   index: 261
     deck: Nilfgaard
     name: "Young Emissary"
-    flavor: "If I acquit myself well, perhaps next they'll post me somewhere civilized."
+    flavor: "\"If I acquit myself well, perhaps next they'll post me somewhere civilized.\""
     type: 
     locations:
         -   type: Buy from Trader
@@ -412,7 +412,7 @@
 -   index: 265
     deck: Nilfgaard
     name: "Siege Technician"
-    flavor: "I never miss twice."
+    flavor: "\"I never miss twice.\""
     type: Unit
     locations:
         -   type: Buy from Trader
@@ -424,14 +424,14 @@
 -   index: 2001
     deck: Nilfgaard
     name: "Emhyr var Emreis His Imperial Majesty"
-    flavor: "The skies wept when my Pavetta died. They will not weep for me."
+    flavor: "\"The skies wept when my Pavetta died. They will not weep for me.\""
     type: Leader
     locations:
         -   type: Base Deck
 -   index: 2002
     deck: Nilfgaard
     name: "Emhyr var Emreis Emperor of Nilfgaard"
-    flavor: "Your motives do not interest me. Only results."
+    flavor: "\"Your motives do not interest me. Only results.\""
     type: Leader
     locations:
         -   type: Buy from Trader
@@ -443,7 +443,7 @@
 -   index: 2003
     deck: Nilfgaard
     name: "Emhyr var Emreis the White Flame"
-    flavor: "A sword is but one of many tools at a ruler's disposal."
+    flavor: "\"A sword is but one of many tools at a ruler's disposal.\""
     type: Leader
     locations:
         -   type: Gwent Quest
@@ -457,7 +457,7 @@
 -   index: 2004
     deck: Nilfgaard
     name: "Emhyr var Emreis the Relentless"
-    flavor: "They do not call me the Patient. Take care they do not call you the Headless."
+    flavor: "\"They do not call me the Patient. Take care they do not call you the Headless.\""
     type: Leader
     locations:
         -   type: Secondary Quest
@@ -470,7 +470,7 @@
 -   index: 2005
     deck: Nilfgaard
     name: "Emhyr var Emreis Invader of the North"
-    flavor: "Emperors command multitudes, yet cannot control two things: their time and their hearts."
+    flavor: "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
     type: Leader
     locations:
         -   type: Buy from Trader
