@@ -90,9 +90,18 @@ namespace GwentTracker.ViewModels
         public string Type { get; set; }
         public string Location => string.Join(", ", Locations.Select(l => l.Type).Distinct());
         public string Region => string.Join(", ", Locations.Select(l => l.Type == _t["Base Deck"] ? l.Type : l.Region).Distinct());
-        public IEnumerable<string> DetailedLocations => Locations.Select(l => l.Type == _t["Base Deck"] || l.Region == _t["Random"] ? "" : $"{l.Npc}, {l.Area}, {l.Territory ?? l.Region}").Where(l => l != "");
+        public IEnumerable<string> DetailedLocations => Locations.Select(DetailedLocation).Where(l => l != "");
         public CombatDetails Combat { get; set; }
         public Location[] Locations { get; set; }
         public CardSource Source { get; set; }
+        
+        private string DetailedLocation(Location l)
+        {
+            if (l.Type == _t["Base Deck"] || l.Region == _t["Random"])
+                return "";
+            
+            var details = new[] {l.Npc, l.Area, l.Territory ?? l.Region}.Where(s => !string.IsNullOrWhiteSpace(s));
+            return string.Join(", ", details);
+        }
     }
 }
