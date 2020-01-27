@@ -2,6 +2,22 @@
 
 ## [Unreleased]
 
+### New Features
+
+- Skellige deck
+- Show achievement and total card progress
+
+### Enhancements
+
+- Add bullets to location(s) of selected card for better readability
+- Include original quote characters for card flavors
+
+### Bug Fixes
+
+- Don't show commas in selected card location if card has no location info
+- Include string translations for strings found in .cs files
+- Add missing _Balista_ cards to northern realms deck
+
 ## [1.2.0] - 2020-01-21
 
 ### Enhancements
