@@ -19,6 +19,8 @@ publish() {
     version=$(get_xml "Version" ${projPath})
     selfContained=$(get_xml "SelfContained" ${profilePath})
     compressedName="${folderName}_${version}_${runtime}"
+    icon=$(readlink -f src/GwentTracker/Assets/collector-blue.ico)
+    rcedit=$(readlink -f tools/rcedit-x64.exe)
     
     pushd "tools"
         ./compile-po.sh
@@ -36,10 +38,13 @@ publish() {
             windows)
                 mkdir -p "${folderName}/lib"
                 mv "${folderName}"/*.dll "${folderName}/lib"
+                
+                # Workaround for https://github.com/dotnet/sdk/issues/3943
+                WINEDEBUG=fixme-all wine "${rcedit}" "${folderName}/GwentTracker.exe" --set-icon "${icon}"
                 ;;
         esac
         
-        zip -r -b "${XDG_RUNTIME_DIR:-/tmp}" "${compressedName}.zip" "${compressedName}"
+        zip -qr -b "${XDG_RUNTIME_DIR:-/tmp}" "${compressedName}.zip" "${compressedName}"
     popd
     
     rm "${publishParentDir}/${compressedName}"
