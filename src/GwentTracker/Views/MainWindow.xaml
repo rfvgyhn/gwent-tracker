@@ -6,7 +6,7 @@
         xmlns:i18n="clr-namespace:GwentTracker.Localization" 
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="GwentTracker.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="/Assets/collector.ico"
         Title="GwentTracker"
         Width="1100"
         Height="925">
