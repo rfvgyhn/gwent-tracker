@@ -28,6 +28,7 @@ namespace GwentTracker.ViewModels
         private readonly CultureInfo _cultureInfo;
         private readonly SourceList<CardViewModel> _cards;
         private readonly ReadOnlyObservableCollection<CardViewModel> _filteredCards;
+        private readonly Translate _t;
         private bool _initialLoadComplete = false;
 
         public ReadOnlyObservableCollection<CardViewModel> Cards => _filteredCards;
@@ -91,6 +92,7 @@ namespace GwentTracker.ViewModels
 
         public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges, CultureInfo cultureInfo)
         {
+            _t = new Translate();
             _cultureInfo = cultureInfo;
             Activator = new ViewModelActivator();
             Filters = new ObservableCollection<string>();
@@ -117,7 +119,7 @@ namespace GwentTracker.ViewModels
             LoadCards.ThrownExceptions.Subscribe(e =>
             {
                 Log.Error(e, "Unable to load card data");
-                Notifications.OnNext("Unable to load card info");
+                Notifications.OnNext(_t["Unable to load card info"]);
             });
             LoadCards.Subscribe(items =>
             {
@@ -158,7 +160,7 @@ namespace GwentTracker.ViewModels
             Load.ThrownExceptions.Subscribe(e =>
             {
                 Log.Error(e, "Unable to load save game at {path}", SaveGamePath);
-                Notifications.OnNext("Unable to load save game");
+                Notifications.OnNext(_t["Unable to load save game"]);
             });
             _loaderVisibility = Load.IsExecuting
                 .Select(x => x)
@@ -295,7 +297,7 @@ namespace GwentTracker.ViewModels
             if (newCards.Any())
             {
                 var cardNames = string.Join(", ", newCards);
-                Notifications.OnNext($"Obtained {cardNames}");
+                Notifications.OnNext(_t[$"Obtained {cardNames}"]);
             }
 
             var copiesBase = GetCopies(CardSource.BaseGame);

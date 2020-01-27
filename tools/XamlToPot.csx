@@ -56,10 +56,10 @@ private static void AddMessage(string messageId, Dictionary<string, List<string>
     if (string.IsNullOrEmpty(messageId))
         return;
     
-    var pattern = @"[{'](?!Binding)(?:i18n:Translate\s)?(.+?[^\d\\])[}']";
+    var pattern = @"[{'](?!Binding)(?:i18n:Translate\s'?)?(.+?[^\d\\])[}']";
     var match = Regex.Match(messageId, pattern);
     if (match.Success)
-        messageId = match.Groups[1].Value;
+        messageId = match.Groups[1].Value.Replace(@"\'", "'");
     var comment = $"#: {fileName.TrimStart(new[] { '.', '/' })}:{lineNumber} -> {nodeName}{suffix}";
     
     if (msgIds.ContainsKey(messageId))
@@ -80,16 +80,7 @@ private static void AddMessage(string messageId, Dictionary<string, List<string>
 
 private static string WritePot(Dictionary<string, List<string>> messages)
 {
-    var header = @$"
-msgid """"
-msgstr """"
-""Content-Type: text/plain; charset=UTF-8\n""
-""Plural-Forms: nplurals=2; plural=n != 1;\n""
-""X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n""
-";
     var output = new StringBuilder();
-    output.AppendLine(header);
-    output.AppendLine();
     messages.Aggregate(output, (builder, pair) =>
     {
         foreach (var line in pair.Value)

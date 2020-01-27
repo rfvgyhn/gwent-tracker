@@ -6,6 +6,7 @@ using System.Reactive;
 using System.Threading;
 using System.Threading.Tasks;
 using Avalonia.Media.Imaging;
+using GwentTracker.Localization;
 using GwentTracker.Model;
 using ReactiveUI;
 using Serilog;
@@ -16,9 +17,11 @@ namespace GwentTracker.ViewModels
     {
         private static readonly HttpClient HttpClient = new HttpClient(); 
         private readonly string _textureStringFormat;
+        private readonly Translate _t;
 
         public CardViewModel(string textureStringFormat)
         {
+            _t = new Translate();
             _textureStringFormat = textureStringFormat;
             LoadTexture = ReactiveCommand.CreateFromTask(LoadImage);
             LoadTexture.Subscribe(image =>
@@ -86,8 +89,8 @@ namespace GwentTracker.ViewModels
         public string Deck { get; set; }
         public string Type { get; set; }
         public string Location => string.Join(", ", Locations.Select(l => l.Type).Distinct());
-        public string Region => string.Join(", ", Locations.Select(l => l.Type == "Base Deck" ? l.Type : l.Region).Distinct());
-        public IEnumerable<string> DetailedLocations => Locations.Select(l => l.Type == "Base Deck" || l.Region == "Random" ? "" : $"{l.Npc}, {l.Area}, {l.Territory ?? l.Region}").Where(l => l != "");
+        public string Region => string.Join(", ", Locations.Select(l => l.Type == _t["Base Deck"] ? l.Type : l.Region).Distinct());
+        public IEnumerable<string> DetailedLocations => Locations.Select(l => l.Type == _t["Base Deck"] || l.Region == _t["Random"] ? "" : $"{l.Npc}, {l.Area}, {l.Territory ?? l.Region}").Where(l => l != "");
         public CombatDetails Combat { get; set; }
         public Location[] Locations { get; set; }
         public CardSource Source { get; set; }

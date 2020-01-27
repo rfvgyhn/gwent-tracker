@@ -4,6 +4,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
 
+#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:122
+msgid "Unable to load card info"
+msgstr ""
+
+#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:163
+msgid "Unable to load save game"
+msgstr ""
+
+#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:300
+msgid "Obtained {cardNames}"
+msgstr ""
+
 #: src/GwentTracker/Views/MainWindow.xaml:1 -> Window.Title
 msgid "GwentTracker"
 msgstr ""
@@ -13,7 +25,7 @@ msgid "Achievement Progress"
 msgstr ""
 
 #: src/GwentTracker/Views/MainWindow.xaml:54 -> TextBlock.Text
-msgid "'Collect \'em All"
+msgid "Collect 'em All"
 msgstr ""
 
 #: src/GwentTracker/Views/MainWindow.xaml:64 -> TextBlock.Text
