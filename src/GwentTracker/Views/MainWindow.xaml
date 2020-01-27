@@ -54,7 +54,7 @@
                 <TextBlock Text="{i18n:Translate Achievement Progress}" HorizontalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap" />
                 <Border CornerRadius="3" Background="{DynamicResource ThemeAccentBrush4}" Padding="4" Margin="0 4 4 0">
                     <StackPanel>
-                        <TextBlock Text="{i18n:Translate 'Collect \'em All'}" HorizontalAlignment="Center" FontStyle="Italic" />
+                        <TextBlock Text="{i18n:Translate 'Card Collector'}" HorizontalAlignment="Center" FontStyle="Italic" />
                         <TextBlock HorizontalAlignment="Center">
                             <TextBlock.Text>
                                 <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
