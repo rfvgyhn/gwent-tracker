@@ -41,7 +41,10 @@
                     <ItemsControl Items="{Binding SelectedCard.DetailedLocations}" Margin="0 4 0 0">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <TextBlock TextWrapping="Wrap" Text="{Binding .}" FontSize="10"/>
+                                <WrapPanel Orientation="Horizontal">
+                                    <Ellipse Height="5" Width="5" Fill="#666666" VerticalAlignment="Top" Margin="0 3 3 0" />
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding .}" FontSize="10"/>
+                                </WrapPanel>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
