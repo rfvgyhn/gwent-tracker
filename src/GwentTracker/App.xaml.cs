@@ -48,7 +48,7 @@ namespace GwentTracker
             Log.Logger = logConfig.CreateLogger();
             
             var culture = ConfigureLocalization(config["culture"]);
-            var defaultSavePath = ParseDefaultSavePath(config["defaultSavePath"]);
+            var defaultSavePath = ExpandEnvVars(config["defaultSavePath"]);
             var (latestSave, savePath) = GetLatestSave(defaultSavePath);
 
             if (latestSave == null)
@@ -70,7 +70,7 @@ namespace GwentTracker
             base.OnFrameworkInitializationCompleted();
         }
 
-        private static string ParseDefaultSavePath(string configPath)
+        private static string ExpandEnvVars(string configPath)
         {
             // Platform checks needed until corefx supports platform specific vars
             // https://github.com/dotnet/corefx/issues/28890
@@ -119,7 +119,7 @@ namespace GwentTracker
             if (!Directory.Exists(path))
             {
                 Log.Warning("Directory {directory} doesn't exist", path);
-                var fallback = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "The Witcher 3", "gamesaves");
+                var fallback = GetFallbackSaveDir();
 
                 if (!Directory.Exists(fallback))
                 {
@@ -136,6 +136,14 @@ namespace GwentTracker
                                                     .FirstOrDefault();
 
             return (latestSave, finalPath);
+        }
+
+        private static string GetFallbackSaveDir()
+        {
+            if (Environment.OSVersion.Platform == PlatformID.Unix)
+                return ExpandEnvVars("~/.local/share/Steam/steamapps/compatdata/292030/pfx/drive_c/users/steamuser/My Documents/The Witcher 3/gamesaves/"); 
+            
+            return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "The Witcher 3", "gamesaves");
         }
 
         private static CultureInfo ConfigureLocalization(string cultureName)
