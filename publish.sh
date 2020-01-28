@@ -19,7 +19,7 @@ publish() {
     version=$(get_xml "Version" ${projPath})
     selfContained=$(get_xml "SelfContained" ${profilePath})
     compressedName="${folderName}_${version}_${runtime}"
-    icon=$(readlink -f src/GwentTracker/Assets/collector-blue.ico)
+    icon=$(readlink -f src/GwentTracker/Assets/collector.ico)
     rcedit=$(readlink -f tools/rcedit-x64.exe)
     
     pushd "tools"
