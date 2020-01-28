@@ -107,10 +107,11 @@
                         <Border CornerRadius="3" Background="{DynamicResource ThemeAccentBrush4}" Padding="4" Margin="0 4 4 0">
                             <ToolTip.Tip>
                                 <StackPanel MaxWidth="300">
+                                    <TextBlock Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" />
                                     <ItemsControl Items="{Binding Notes}">
                                         <ItemsControl.ItemTemplate>
                                             <DataTemplate>
-                                                <TextBlock TextWrapping="Wrap" Text="{Binding ., StringFormat='* {0}'}" />
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding ., StringFormat='* {0}'}" Margin="0 10 0 0" />
                                             </DataTemplate>
                                         </ItemsControl.ItemTemplate>
                                     </ItemsControl>
@@ -119,7 +120,7 @@
                             <StackPanel>
                                 <StackPanel Orientation="Horizontal">
                                     <Path Fill="{Binding Color}" Margin="0 0 4 0" Data="{Binding State, Converter={StaticResource MissableToPathConverter}}" />
-                                    <TextBlock TextWrapping="{Binding TextWrap}" Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" Width="190" />
+                                    <TextBlock TextWrapping="{Binding TextWrap}" Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" Width="165" />
                                 </StackPanel>
                                 <TextBlock Margin="4 0 0 0" TextWrapping="Wrap" Text="{Binding Region, StringFormat={i18n:Translate Region: {0}}}" IsVisible="{Binding DetailsVisible}" />
                                 <TextBlock Margin="4 0 0 0" TextWrapping="Wrap" Text="{Binding Cutoff, StringFormat={i18n:Translate Cutoff: {0}}}" IsVisible="{Binding DetailsVisible}" />
