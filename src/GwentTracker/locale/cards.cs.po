@@ -37,7 +37,7 @@ msgstr "Otázka života a smrti"
 
 #: src/GwentTracker/data/missable.yml:15 -> Card.notes
 msgid "There'll be a small gwent tournament going on in the main courtyard where you'll need to win all the rounds to get all the cards."
-msgstr ""
+msgstr "Na hlavním dvoře bude probíhat gwintový turnaj, v němž musíte vyhrát všechny zápasy k získání všech karet."
 
 #: src/GwentTracker/data/missable.yml:18 -> Card.questName
 msgid "High Stakes"
@@ -45,7 +45,7 @@ msgstr "Vysoké sázky"
 
 #: src/GwentTracker/data/missable.yml:22 -> Card.notes
 msgid "If you leave the vicinity of Passiflora the quest will fail. Do not start the quest if you are unsure of winning the gwent matches. You will not be able to go and get more cards If you already signed up for the tournament."
-msgstr ""
+msgstr "Pokud opustíte oblast Passiflory, dojde k selhání úkolu. Tento úkol nezačínejte, pokud si nejste jisti vaší výhrou. Po zaregistrování do turnaje už nebudete mít možnost si sehnat více karet."
 
 #: src/GwentTracker/data/missable.yml:23 -> Card.notes
 msgid "Consider finishing the Old Pals and Big City Players quests to build a stronger deck before doing this quest."
@@ -53,11 +53,11 @@ msgstr ""
 
 #: src/GwentTracker/data/missable.yml:24 -> Card.notes
 msgid "You must win the tournament to get every card. Recommend saving before each game."
-msgstr ""
+msgstr "Musíte vyhrát celý turnaj k získání každé karty. Doporučujeme uložení hry před každým zápasem."
 
 #: src/GwentTracker/data/missable.yml:25 -> Card.notes
 msgid "Save between wins. This quest is the only way to obtain all leader cards."
-msgstr ""
+msgstr "Nezapomeňte si mezi každou výhrou uložit hru. Tento úkol je jediný způsob, jak získat všechny karty vůdců."
 
 #: src/GwentTracker/data/missable.yml:26 -> Card.notes
 msgid "Sasha is the toughest opponent with her Nilfgaardian deck. She plays a very strong spy-themed deck which is also filled with high-strength unit cards and an entire roster of Nilfgaard and neutral heroes. Counter her with a lot of decoys and spy cards; keep the unit cards in the deck as close to 22 as possible and with the highest possible unit strength. The White Flame leader card is useful for countering her unique leader card which draws a unit card from the player's discard pile for her own use. It is HIGHLY RECOMMENDED players make a save if they wish to win the tournament outright, otherwise Sasha beats Tybalt in the final round. She can be romanced if Geralt agrees to her proposition."
@@ -101,7 +101,7 @@ msgstr "Léčba šokem"
 
 #: src/GwentTracker/data/missable.yml:48 -> Card.notes
 msgid "Complete this quest that can be started by talking to some druids in Ard Skellig."
-msgstr ""
+msgstr "Dokončete tento úkol, který můžete začít tím, že si promluvíte s některými druidy v Ard Skellig."
 
 #: src/GwentTracker/data/monsters.yml:3 -> Card.deck
 msgid "Monsters"
@@ -121,7 +121,7 @@ msgstr "Hrdina"
 
 #: src/GwentTracker/data/monsters.yml:8 -> Card.type
 msgid "Gwent Quest"
-msgstr ""
+msgstr "Gwintový úkol"
 
 #: src/GwentTracker/data/monsters.yml:9 -> Card.npc
 msgid "Crach an Craite"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:21 -> Card.npc
 msgid "Random"
-msgstr ""
+msgstr "Náhodně"
 
 #: src/GwentTracker/data/monsters.yml:28 -> Card.name
 msgid "Imlerith"
@@ -197,11 +197,11 @@ msgstr "\"Jak bojovat se zemním elementálem? Nijak. Uteč. Co nejrychleji.\""
 
 #: src/GwentTracker/data/monsters.yml:68 -> Card.type
 msgid "Buy from Trader"
-msgstr ""
+msgstr "Lze koupit u obchodníka"
 
 #: src/GwentTracker/data/monsters.yml:69 -> Card.npc
 msgid "Innkeeper"
-msgstr ""
+msgstr "Hostinský"
 
 #: src/GwentTracker/data/monsters.yml:70 -> Card.area
 msgid "New Port Inn"
@@ -393,7 +393,7 @@ msgstr "\"Ti parchanti jsou skoro až roztomilí, když pominete to zabíjení a
 
 #: src/GwentTracker/data/monsters.yml:320 -> Card.type
 msgid "Secondary Quest"
-msgstr ""
+msgstr "Vedlejší úkol"
 
 #: src/GwentTracker/data/monsters.yml:322 -> Card.npc
 msgid "Hammond's corpse"
@@ -509,7 +509,7 @@ msgstr "Velitel"
 
 #: src/GwentTracker/data/monsters.yml:492 -> Card.type
 msgid "Base Deck"
-msgstr ""
+msgstr "Součást základního balíčku"
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
 msgid "Eredin Commander of the Red Riders"
@@ -553,7 +553,7 @@ msgstr "\"Tohle si užívám. Jsi moje hračka.\""
 
 #: src/GwentTracker/data/monsters.yml:537 -> Card.type
 msgid "Win From NPC"
-msgstr ""
+msgstr "Vyhráno od NPC postavy"
 
 #: src/GwentTracker/data/monsters.yml:538 -> Card.npc
 msgid "Dulla kh'Amanni"
@@ -573,7 +573,7 @@ msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
 msgid "Neutral"
-msgstr ""
+msgstr "Neutrální karta"
 
 #: src/GwentTracker/data/neutral.yml:3 -> Card.name
 msgid "Decoy"
@@ -585,11 +585,11 @@ msgstr "\"Když ti dojdou sedláci, dají se šípy docela dobře střílet i do
 
 #: src/GwentTracker/data/neutral.yml:5 -> Card.type
 msgid "Special"
-msgstr ""
+msgstr "Zvláštní karta"
 
 #: src/GwentTracker/data/neutral.yml:9 -> Card.area
 msgid "Tavern"
-msgstr ""
+msgstr "Hospoda"
 
 #: src/GwentTracker/data/neutral.yml:11 -> Card.region
 msgid "White Orchard"
@@ -701,7 +701,7 @@ msgstr "\"Jestli tě mají pověsit, požádej o vodu. Než ji donesou, může s
 
 #: src/GwentTracker/data/neutral.yml:148 -> Card.npc
 msgid "Vivaldi"
-msgstr ""
+msgstr "Vivaldi"
 
 #: src/GwentTracker/data/neutral.yml:149 -> Card.area
 msgid "Vivaldi Bank"
@@ -733,11 +733,11 @@ msgstr "\"Víš, kdy pohádky přestávají být pohádkami? Když jim lidé za�
 
 #: src/GwentTracker/data/neutral.yml:174 -> Card.npc
 msgid "Scoia’Tael Trader"
-msgstr ""
+msgstr "Obchodník Scoia’tael"
 
 #: src/GwentTracker/data/neutral.yml:175 -> Card.area
 msgid "Novigrad Forest"
-msgstr ""
+msgstr "Novigradský les"
 
 #: src/GwentTracker/data/neutral.yml:181 -> Card.name
 msgid "Triss Merigold"
@@ -825,7 +825,7 @@ msgstr "Gremist"
 
 #: src/GwentTracker/data/nilfgaard.yml:2 -> Card.deck
 msgid "Nilfgaard"
-msgstr ""
+msgstr "Nilfgaard"
 
 #: src/GwentTracker/data/nilfgaard.yml:3 -> Card.name
 msgid "Letho of Gulet"
@@ -1141,7 +1141,7 @@ msgstr "\"Meč je jen jedním z mnoha nástrojů, které jsou vládcům dostupn�
 
 #: src/GwentTracker/data/nilfgaard.yml:455 -> Card.notes
 msgid "Reward for completing quest"
-msgstr ""
+msgstr "Odměna za dokončení úkolu"
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
 msgid "Emhyr var Emreis the Relentless"
@@ -1433,7 +1433,7 @@ msgstr "\"Tomuto království vládnu já - a já se nebudu schovávat někde v 
 
 #: src/GwentTracker/data/scoiatael.yml:2 -> Card.deck
 msgid "Scoia'tael"
-msgstr ""
+msgstr "Scoia'tael"
 
 #: src/GwentTracker/data/scoiatael.yml:3 -> Card.name
 msgid "Eithné"

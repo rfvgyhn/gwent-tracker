@@ -14,6 +14,8 @@
 - Use gwent icon instead of default avalonia icon
 - Polish missable quests UI
 - Provide a likely fallback save location for linux
+- Russian localization ([Crowdin] by [W1ns-Smile])
+- Czech localization ([Crowdin] by [Jan Kalný])
 
 ### Bug Fixes
 
@@ -26,8 +28,8 @@
 
 ### Enhancements
 
-- [[PR 6]] - Russian localization
-- Polish localization from [Crowdin][1]
+- Russian localization ([#6] by [W1ns-Smile])
+- Polish localization ([Crowdin] by [Binori])
 - Wrap text in selected card column since translations could be cutoff
 
 ### Bug Fixes
@@ -83,5 +85,8 @@
 [0.2.0-alpha]: https://github.com/rfvgyhn/gwent-tracker/compare/v0.1.0-alpha...v0.2.0-alpha
 [0.1.0-alpha]: https://github.com/rfvgyhn/gwent-tracker/compare/cd9002c...v0.1.0-alpha
 [avalonia]: https://avaloniaui.net/
-[PR 6]: https://github.com/Rfvgyhn/gwent-tracker/pull/6
-[1]: https://crowdin.com/project/gwent-tracker/activity_stream#phrase_suggested-14084595-1579625838
+[#6]: https://github.com/Rfvgyhn/gwent-tracker/pull/6
+[Crowdin]: https://crowdin.com/project/gwent-tracker
+[W1ns-Smile]: https://github.com/W1ns-Smile
+[Binori]: https://crowdin.com/profile/Binori
+[Jan Kalný]: https://crowdin.com/profile/honzas4400w
