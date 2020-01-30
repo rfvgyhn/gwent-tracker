@@ -290,14 +290,14 @@
         -   type: Base Deck
 -   index: 1001
     deck: Northern Realms
-    name: "Foltest King of Temeria"
+    name: "Foltest: King of Temeria"
     flavor: "\"It is natural and beautiful that a man should love his sister.\""
     type: Leader
     locations:
         -   type: Base Deck
 -   index: 1002
     deck: Northern Realms
-    name: "Foltest Lord Commander of the North"
+    name: "Foltest: Lord Commander of the North"
     flavor: "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
     type: Leader
     locations:
@@ -309,7 +309,7 @@
             coords: []
 -   index: 1003
     deck: Northern Realms
-    name: "Foltest the Siegemaster"
+    name: "Foltest: the Siegemaster"
     flavor: "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
     type: Leader
     locations:
@@ -321,7 +321,7 @@
             coords: []
 -   index: 1004
     deck: Northern Realms
-    name: "Foltest the Steel-Forged"
+    name: "Foltest: the Steel-Forged"
     flavor: "\"A beautiful day for battle.\""
     type: Leader
     locations:
@@ -334,7 +334,7 @@
             coords: []
 -   index: 1005
     deck: Northern Realms
-    name: "Foltest Son of Medell"
+    name: "Foltest: Son of Medell"
     flavor: "\"Dammit, I rule this land and I refuse to creep around its corners.\""
     type: Leader
     locations:

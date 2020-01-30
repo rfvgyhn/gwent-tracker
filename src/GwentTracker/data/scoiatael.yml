@@ -451,14 +451,14 @@
             coords: []
 -   index: 3001
     deck: Scoia'tael
-    name: "Francesca Findabair Pureblood Elf"
+    name: "Francesca Findabair: Pureblood Elf"
     flavor: "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
     type: Leader
     locations:
         -   type: Base Deck
 -   index: 3002
     deck: Scoia'tael
-    name: "Francesca Findabair Daisy of the Valley"
+    name: "Francesca Findabair: Daisy of the Valley"
     flavor: "\"The Elder Races have forgotten more than humans can ever hope to know.\""
     type: Leader
     locations:
@@ -470,7 +470,7 @@
             coords: []
 -   index: 3003
     deck: Scoia'tael
-    name: "Francesca Findabair the Beautiful"
+    name: "Francesca Findabair: the Beautiful"
     flavor: "\"Do not let my beauty distract your aim.\""
     type: Leader
     locations:
@@ -483,7 +483,7 @@
             coords: []
 -   index: 3004
     deck: Scoia'tael
-    name: "Francesca Findabair Queen of Dol Blathanna"
+    name: "Francesca Findabair: Queen of Dol Blathanna"
     flavor: "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
     type: Leader
     locations:
@@ -496,7 +496,7 @@
             coords: []
 -   index: 3005
     deck: Scoia'tael
-    name: "Francesca Findabair Hope of the Aen Seidhe"
+    name: "Francesca Findabair: Hope of the Aen Seidhe"
     flavor: "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
     type: Leader
     locations:

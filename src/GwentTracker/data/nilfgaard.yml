@@ -423,14 +423,14 @@
             coords: []
 -   index: 2001
     deck: Nilfgaard
-    name: "Emhyr var Emreis His Imperial Majesty"
+    name: "Emhyr var Emreis: His Imperial Majesty"
     flavor: "\"The skies wept when my Pavetta died. They will not weep for me.\""
     type: Leader
     locations:
         -   type: Base Deck
 -   index: 2002
     deck: Nilfgaard
-    name: "Emhyr var Emreis Emperor of Nilfgaard"
+    name: "Emhyr var Emreis: Emperor of Nilfgaard"
     flavor: "\"Your motives do not interest me. Only results.\""
     type: Leader
     locations:
@@ -442,7 +442,7 @@
             coords: []
 -   index: 2003
     deck: Nilfgaard
-    name: "Emhyr var Emreis the White Flame"
+    name: "Emhyr var Emreis: the White Flame"
     flavor: "\"A sword is but one of many tools at a ruler's disposal.\""
     type: Leader
     locations:
@@ -456,7 +456,7 @@
             coords: []
 -   index: 2004
     deck: Nilfgaard
-    name: "Emhyr var Emreis the Relentless"
+    name: "Emhyr var Emreis: the Relentless"
     flavor: "\"They do not call me the Patient. Take care they do not call you the Headless.\""
     type: Leader
     locations:
@@ -469,7 +469,7 @@
             coords: []
 -   index: 2005
     deck: Nilfgaard
-    name: "Emhyr var Emreis Invader of the North"
+    name: "Emhyr var Emreis: Invader of the North"
     flavor: "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
     type: Leader
     locations:

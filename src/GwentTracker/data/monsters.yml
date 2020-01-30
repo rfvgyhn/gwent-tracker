@@ -485,14 +485,14 @@
             coords: []
 -   index: 4001
     deck: Monsters
-    name: "Eredin King of the Wild Hunt"
+    name: "Eredin: King of the Wild Hunt"
     flavor: "\"I've long awaited this...\""
     type: Leader
     locations:
         -   type: Base Deck
 -   index: 4002
     deck: Monsters
-    name: "Eredin Commander of the Red Riders"
+    name: "Eredin: Commander of the Red Riders"
     flavor: "\"Have some dignity. You know how this will end.\""
     type: Leader
     locations:
@@ -504,7 +504,7 @@
             coords: []
 -   index: 4003
     deck: Monsters
-    name: "Eredin Destroyer of Worlds"
+    name: "Eredin: Destroyer of Worlds"
     flavor: "\"It is unavoidable.\""
     type: Leader
     locations:
@@ -517,7 +517,7 @@
             coords: []
 -   index: 4004
     deck: Monsters
-    name: "Eredin Bringer of Death"
+    name: "Eredin: Bringer of Death"
     flavor: "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
     type: Leader
     locations:
@@ -530,7 +530,7 @@
             coords: []
 -   index: 4005
     deck: Monsters
-    name: "Eredin Bréacc Glas The Treacherous"
+    name: "Eredin Bréacc Glas: The Treacherous"
     flavor: "\"I'm enjoying this. You are my toy.\""
     type: Leader
     locations:
