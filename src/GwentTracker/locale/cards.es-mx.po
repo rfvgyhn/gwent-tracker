@@ -496,8 +496,8 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"Sería tu media naranja... y la última.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "Eredin Rey de la Cacería salvaje"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "Eredin: Rey de la Cacería salvaje"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "Eredin Comandante de los jinetes rojos"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "Eredin: Comandante de los jinetes rojos"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "Eredin Destructor de mundos"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "Eredin: Destructor de mundos"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"Es inevitable.\""
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "Eredin Portador de la muerte"
+msgid "Eredin: Bringer of Death"
+msgstr "Eredin: Portador de la muerte"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,7 +544,7 @@ msgid "Passiflora"
 msgstr "Passiflora"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
+msgid "Eredin Bréacc Glas: The Treacherous"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "Esturión de Oro"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "Emhyr var Emreis Su Majestad Imperial"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "Emhyr var Emreis: Su Majestad Imperial"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"Los cielos lloraron cuando murió mi Pavetta. Por mí no llorarán.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "Emhyr var Emreis Emperador de Nilfgaard"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "Emhyr var Emreis: Emperador de Nilfgaard"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"Tus motivos no me interesan. Solo los resultados.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "Emhyr var Emreis La Llama Blanca"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "Emhyr var Emreis: La Llama Blanca"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,15 +1144,15 @@ msgid "Reward for completing quest"
 msgstr ""
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "Emhyr var Emreis El Implacable"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "Emhyr var Emreis: El Implacable"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"Mi sobrenombre no es el Paciente. Procura que a ti no te llamen el Decapitado.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
+msgid "Emhyr var Emreis: Invader of the North"
 msgstr ""
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
@@ -1384,24 +1384,24 @@ msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"Une el rojo con el rojo, el blanco con el blanco y todo estará bien.\""
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "Foltest Rey de Temeria"
+msgid "Foltest: King of Temeria"
+msgstr "Foltest: Rey de Temeria"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"Es natural y hermoso que un hombre ame a su hermana.\""
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "Foltest Lord comandante del Norte"
+msgid "Foltest: Lord Commander of the North"
+msgstr "Foltest: Lord comandante del Norte"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "\"Dichosos consejeros y sus planes. Yo solo confío en la espada de mi criado.\""
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "Foltest Maestro de los Asedios"
+msgid "Foltest: the Siegemaster"
+msgstr "Foltest: Maestro de los Asedios"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1416,15 +1416,15 @@ msgid "Royal Palace in Vizima"
 msgstr "Castillo real de Wyzima"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
-msgstr "Foltest Forjado en Acero"
+msgid "Foltest: the Steel-Forged"
+msgstr "Foltest: Forjado en Acero"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"Un día precioso para combatir.\""
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
+msgid "Foltest: Son of Medell"
 msgstr ""
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
@@ -1632,39 +1632,39 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"Claro que te curaré. Pero te costará dinero.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "Francesca Findabair Elfa de pura sangre"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "Francesca Findabair: Elfa de pura sangre"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "\"Dol Blathanna puede y debe seguir siendo un refugio para los Aen Seidhe.\""
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "Francesca Findabair Margarita del Valle"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "Francesca Findabair: Margarita del Valle"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"Las razas antiguas han olvidado más de lo que los humanos sabrán jamás.\""
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "Francesca Findabair La Hermosa"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "Francesca Findabair: La Hermosa"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"¡No dejes que mi belleza te distraiga mientras apuntas!\""
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "Francesca Findabair Reina de Dol Blathanna"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "Francesca Findabair: Reina de Dol Blathanna"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "\"Para vivir en paz, hemos de matar. Ese es el cruel fin de la opresión humana.\""
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
 msgstr ""
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor

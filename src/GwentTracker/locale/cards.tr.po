@@ -496,8 +496,8 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"En iyin olacağım, ve de sonuncun.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "Eredin Vahşi Av Kralı"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "Eredin: Vahşi Av Kralı"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "Eredin Kızıl Süvarilerin Komutanı"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "Eredin: Kızıl Süvarilerin Komutanı"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "Eredin Dünyaların Yok Edicisi"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "Eredin: Dünyaların Yok Edicisi"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"Bu kaçınılmaz.\""
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "Eredin Ölüm Getiren"
+msgid "Eredin: Bringer of Death"
+msgstr "Eredin: Ölüm Getiren"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,8 +544,8 @@ msgid "Passiflora"
 msgstr "Passiflora"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
-msgstr "Eredin Bréacc Glas Güvenilmez"
+msgid "Eredin Bréacc Glas: The Treacherous"
+msgstr "Eredin Bréacc Glas: Güvenilmez"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "Altın Mersinbalığı"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "Emhyr var Emreis İmparatorluk Majesteleri"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "Emhyr var Emreis: İmparatorluk Majesteleri"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"Pavetta'm öldüğünde gökler ağladı. Aynı gökler benim için ağlamayacak.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "Emhyr var Emreis Nilfgaard İmparatoru"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "Emhyr var Emreis: Nilfgaard İmparatoru"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"Beni gerekçelerin ilgilendirmiyor. Tek ilgilendiğim sonuçlar.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "Emhyr var Emreis Kor Alev"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "Emhyr var Emreis: Kor Alev"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,16 +1144,16 @@ msgid "Reward for completing quest"
 msgstr ""
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "Emhyr var Emreis Amansız"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "Emhyr var Emreis: Amansız"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"Bana Sabırlı demezler. Dikkat et de sana Başsız demesinler.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
-msgstr "Emhyr var Emreis Kuzeyin İstilacısı"
+msgid "Emhyr var Emreis: Invader of the North"
+msgstr "Emhyr var Emreis: Kuzeyin İstilacısı"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
@@ -1384,24 +1384,24 @@ msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"Kırmızıyı kırmızıya dik, beyazı da beyaza, sonra her şey yoluna girecek.\""
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "Foltest Temerya Kralı"
+msgid "Foltest: King of Temeria"
+msgstr "Foltest: Temerya Kralı"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"Bir adam kız kardeşini sevmelidir, bu doğal ve güzel bir şeydir.\""
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "Foltest Kuzeyin Lord Komutanı"
+msgid "Foltest: Lord Commander of the North"
+msgstr "Foltest: Kuzeyin Lord Komutanı"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "\"Yemişim danışmanını da entrikalarını da. Ben askerlerimin kılıçlarına güvenirim.\""
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "Foltest Kuşatma Ustası"
+msgid "Foltest: the Siegemaster"
+msgstr "Foltest: Kuşatma Ustası"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1416,16 +1416,16 @@ msgid "Royal Palace in Vizima"
 msgstr "Vizima'daki Kraliyet Sarayı"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
-msgstr "Foltest Çelikten Dövülmüş"
+msgid "Foltest: the Steel-Forged"
+msgstr "Foltest: Çelikten Dövülmüş"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"Savaşmak için güzel bir gün.\""
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
-msgstr "Foltest Medell'in Oğlu"
+msgid "Foltest: Son of Medell"
+msgstr "Foltest: Medell'in Oğlu"
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
@@ -1632,40 +1632,40 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"Elbette yaralarını sararım. Ama sana bir maliyeti olur.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "Francesca Findabair Safkan Elf"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "Francesca Findabair: Safkan Elf"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "\"Kül, toprağın bereketini artıracak. Bahar geldiğinde vadide bir kez daha çiçekler açacak.\""
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "Francesca Findabair Vadinin Papatyası"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "Francesca Findabair: Vadinin Papatyası"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"Kadim Irklar, insanların öğrenmeyi umut edebileceğinden çok fazlasını unutmuştur.\""
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "Francesca Findabair Güzeller Güzeli"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "Francesca Findabair: Güzeller Güzeli"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"Güzelliğimin seni hedefinden saptırtmasına izin verme.\""
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "Francesca Findabair Dol Blathanna Kraliçesi"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "Francesca Findabair: Dol Blathanna Kraliçesi"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "\"Barış içinde yaşamak için önce öldürmeliyiz. Bu, insan zulmünün acımasız kaderidir.\""
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
-msgstr "Francesca Findabair Aen Seidhe'in Umudu"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
+msgstr "Francesca Findabair: Aen Seidhe'in Umudu"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""

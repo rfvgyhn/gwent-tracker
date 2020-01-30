@@ -496,8 +496,8 @@ msgid "\"I'd be your best - and last.\""
 msgstr "Я могу стать твоей последней - и самой лучшей."
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "Эредин Бреакк Глас Король Aen Elle"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "Эредин Бреакк Глас: Король Aen Elle"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr "Базовая колода"
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "Эредин Бреакк Глас Командир Дикой Охоты"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "Эредин Бреакк Глас: Командир Дикой Охоты"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr "Новый Порт"
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "Эредин Бреакк Глас  Владыка Тир на Лиа"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "Эредин Бреакк Глас : Владыка Тир на Лиа"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "Это неизбежно."
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "Эредин Бреакк Глас Убийца Оберона"
+msgid "Eredin: Bringer of Death"
+msgstr "Эредин Бреакк Глас: Убийца Оберона"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,8 +544,8 @@ msgid "Passiflora"
 msgstr "Пассифлора"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
-msgstr "Эредин Бреакк Глас Вероломный"
+msgid "Eredin Bréacc Glas: The Treacherous"
+msgstr "Эредин Бреакк Глас: Вероломный"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
@@ -653,7 +653,7 @@ msgstr "Мороз"
 
 #: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
 msgid "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
-msgstr "Мечта хорошего командира... кошмар плохого."
+msgstr "Одно хорошо - на морозе мертвые не гниют."
 
 #: src/GwentTracker/data/neutral.yml:89 -> Card.name
 msgid "Impenetrable Fog"
@@ -845,7 +845,7 @@ msgstr "Деревня Рудник"
 
 #: src/GwentTracker/data/nilfgaard.yml:16 -> Card.name
 msgid "Menno Coehoorn"
-msgstr "Менно Коегоорн"
+msgstr "Мэнно Коегоорн"
 
 #: src/GwentTracker/data/nilfgaard.yml:17 -> Card.flavor
 msgid "\"I'll take an attentive reconnaissance unit over a fine cavalry brigade any day.\""
@@ -889,7 +889,7 @@ msgstr "Купец"
 
 #: src/GwentTracker/data/nilfgaard.yml:67 -> Card.name
 msgid "Assire var Anahid"
-msgstr "Ассире вар Анагыд"
+msgstr "Ассирэ вар Анагыд"
 
 #: src/GwentTracker/data/nilfgaard.yml:68 -> Card.flavor
 msgid "\"Nilfgaardian mages do have a choice: servile submission, or the gallows.\""
@@ -917,7 +917,7 @@ msgstr "Дом Цезаря Бильзена"
 
 #: src/GwentTracker/data/nilfgaard.yml:104 -> Card.name
 msgid "Morteisen"
-msgstr "Мортейзен"
+msgstr "Мортейсен"
 
 #: src/GwentTracker/data/nilfgaard.yml:105 -> Card.flavor
 msgid "\"No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry.\""
@@ -937,7 +937,7 @@ msgstr "Раинфарн"
 
 #: src/GwentTracker/data/nilfgaard.yml:117 -> Card.flavor
 msgid "\"You'll die as painfully as that pathetic traitor Windhalm did.\""
-msgstr "- Этот Раинфарн , он когда-нибудь улыбается? - Угу, когда кого-нибудь убьет."
+msgstr "- Этот Раинфарн, он когда-нибудь улыбается? - Угу, когда кого-нибудь убьет."
 
 #: src/GwentTracker/data/nilfgaard.yml:121 -> Card.npc
 msgid "Merchant"
@@ -965,7 +965,7 @@ msgstr "Запах гнилья навевает на меня воспомин�
 
 #: src/GwentTracker/data/nilfgaard.yml:152 -> Card.name
 msgid "Shilard Fitz-Oesterlen"
-msgstr "Шилярд Фиц-Остерлен"
+msgstr "Шилярд Фиц-Эстерлен"
 
 #: src/GwentTracker/data/nilfgaard.yml:153 -> Card.flavor
 msgid "\"Warfare is mere sound and fury - diplomacy is what truly shapes history.\""
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "Золотой осетр"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "Эмгыр вар Эмрейс Йож из Эрленвальда"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "Эмгыр вар Эмрейс: Йож из Эрленвальда"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "Интересно, как чувствует себя человек, прикончивший собственную жену?"
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "Эмгыр вар Эмрейс Император Нильфгаарда"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "Эмгыр вар Эмрейс: Император Нильфгаарда"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "Мотивы меня не интересуют. Только результаты."
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "Эмгыр вар Эмрейс Белое Пламя"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "Эмгыр вар Эмрейс: Белое Пламя"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,16 +1144,16 @@ msgid "Reward for completing quest"
 msgstr "Награда за прохождение квеста"
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "Эмгыр вар Эмрейс Властелин Юга"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "Эмгыр вар Эмрейс: Властелин Юга"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "Император не славится терпением. Он хочет видеть свою дочь. Как можно скорее."
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
-msgstr "Эмгыр вар Эмрейс Завоеватель Севера"
+msgid "Emhyr var Emreis: Invader of the North"
+msgstr "Эмгыр вар Эмрейс: Завоеватель Севера"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
@@ -1349,7 +1349,7 @@ msgstr "Баллиста"
 
 #: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
 msgid "\"Usually we give 'em female names.\" \"Like Jenny?\" \"More like Bertha.\""
-msgstr "- Мы даем им женские имена. - И это какая-нибудь Марыська? - Нет  , это Хельга."
+msgstr "- Мы даем им женские имена. - И это какая-нибудь Марыська? - Нет, это Хельга."
 
 #: src/GwentTracker/data/northernrealms.yml:253 -> Card.name
 msgid "Kaedweni Siege Expert"
@@ -1384,24 +1384,24 @@ msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "Шейте красное с красным, желтое с желтым, белое с белым..."
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "Фольтест Король Темерии"
+msgid "Foltest: King of Temeria"
+msgstr "Фольтест: Король Темерии"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "Родственная любовь? Что может быть прекраснее, чем сестра на коленях брата?"
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "Фольтест Предводитель Севера"
+msgid "Foltest: Lord Commander of the North"
+msgstr "Фольтест: Предводитель Севера"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "Проклятая политика... Я доверяю только своему оружию."
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "Фольтест Завоеватель"
+msgid "Foltest: the Siegemaster"
+msgstr "Фольтест: Завоеватель"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1416,16 +1416,16 @@ msgid "Royal Palace in Vizima"
 msgstr "Королевский замок в Вызиме"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
-msgstr "Фольтест Железный Владыка"
+msgid "Foltest: the Steel-Forged"
+msgstr "Фольтест: Железный Владыка"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "Замечательный день для битвы!"
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
-msgstr "Фольтест Сын Меделла"
+msgid "Foltest: Son of Medell"
+msgstr "Фольтест: Сын Меделла"
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
@@ -1632,40 +1632,40 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "Подлатаю я вас, а как же. Но не бесплатно."
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "Францеска Финдабаир Истинная эльфка"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "Францеска Финдабаир: Истинная эльфка"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "Пепел удобряет. Весной Долина Цветов расцветет вновь."
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "Францеска Финдабаир Маргаритка из Долин"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "Францеска Финдабаир: Маргаритка из Долин"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "Старшая Раса забыла больше, чем люди когда-либо знали."
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "Францеска Финдабаир Прекраснейшая"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "Францеска Финдабаир: Прекраснейшая"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "Ты сюда пришел не на меня глазеть!"
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "Францеска Финдабаир Королева Дол Блатанны"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "Францеска Финдабаир: Королева Дол Блатанны"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "Всему своя цена. Война требует жертв. Мир, оказывается, тоже."
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
-msgstr "Францеска Финдабаир Надежда Aen Seidhe"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
+msgstr "Францеска Финдабаир: Надежда Aen Seidhe"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""

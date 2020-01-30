@@ -237,7 +237,7 @@ msgstr "Gryf"
 
 #: src/GwentTracker/data/monsters.yml:101 -> Card.flavor
 msgid "\"Griffins like to toy with their prey. Eat 'em alive, piece by piece.\""
-msgstr "\"Gryfové si s obětmi rádi hrají. Požírají je zaživa, kus po kusu.\""
+msgstr "\"Gryfové si s oběťmi rádi hrají. Požírají je zaživa, kus po kusu.\""
 
 #: src/GwentTracker/data/monsters.yml:112 -> Card.name
 msgid "Werewolf"
@@ -261,11 +261,11 @@ msgstr "Potracenka"
 
 #: src/GwentTracker/data/monsters.yml:125 -> Card.flavor
 msgid "\"Admit your mistakes and bury them proper - else they'll come back to haunt you.\""
-msgstr "\"Přiznej své chyby a řádně je pohřbi - nebo tě budou strašit.\""
+msgstr "\"Přiznej své chyby a řádně je pohřbi - nebo se vrátí a budou tě strašit.\""
 
 #: src/GwentTracker/data/monsters.yml:136 -> Card.name
 msgid "Frightener"
-msgstr "Děsitel"
+msgstr "Chiméra"
 
 #: src/GwentTracker/data/monsters.yml:137 -> Card.flavor
 msgid "\"What have I done?\" the mage cried out, frightened of his own creation."
@@ -325,7 +325,7 @@ msgstr "Chrlič"
 
 #: src/GwentTracker/data/monsters.yml:197 -> Card.flavor
 msgid "\"Ancient sculptors' nightmarish fantasies, brought to life by bored mages.\""
-msgstr "\"Noční můra prastarých sochařů oživlá díky mágům.\""
+msgstr "\"Noční můra prastarých sochařů oživlá kvůli znuděným mágům.\""
 
 #: src/GwentTracker/data/monsters.yml:208 -> Card.name
 msgid "Celaeno Harpy"
@@ -373,7 +373,7 @@ msgstr "Krabopavoučí kolos"
 
 #: src/GwentTracker/data/monsters.yml:269 -> Card.flavor
 msgid "\"Like a cross between a crab, a spider… and a ploughin' mountain.\""
-msgstr "\"Vzácný poddruh krabopavouka, velký jako slon, ale mnohem tužší.\""
+msgstr "\"Je jako kříženec mezi krabem, pavoukem... a podělanou horou.\""
 
 #: src/GwentTracker/data/monsters.yml:280 -> Card.name
 msgid "Arachas"
@@ -433,7 +433,7 @@ msgstr "Upír: Bruxa"
 
 #: src/GwentTracker/data/monsters.yml:390 -> Card.flavor
 msgid "\"A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law.\""
-msgstr "\"Bruxu můžeš zabít i kolíkem - tedy pokud je dlouhý jako bidlo.\""
+msgstr "\"Odporná, krvežníznivá, lidožravá baba. Skoro jako moje tchyně.\""
 
 #: src/GwentTracker/data/monsters.yml:399 -> Card.notes
 msgid "Win a match at the masquerade ball at Vegelbud Estate"
@@ -496,12 +496,12 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"Budu tvou nejlepší - i tvou poslední.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "Eredin Král Divokého honu"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "Eredin: Král Divokého honu"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
-msgstr "\"Dostaň nás odsud! Hned!\""
+msgstr "\"Na tohle jsem dlouho čekal...\""
 
 #: src/GwentTracker/data/monsters.yml:490 -> Card.type
 msgid "Leader"
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr "Součást základního balíčku"
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "Eredin Velitel Rudých jezdců"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "Eredin: Velitel Rudých jezdců"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "Eredin Bořitel světů"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "Eredin: Bořitel světů"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"Je to nevyhnutelné.\""
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "Eredin Smrtonoš"
+msgid "Eredin: Bringer of Death"
+msgstr "Eredin: Smrtonoš"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,8 +544,8 @@ msgid "Passiflora"
 msgstr "Passiflora"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
-msgstr "Eredin Bréacc Glas Proradný"
+msgid "Eredin Bréacc Glas: The Treacherous"
+msgstr "Eredin Bréacc Glas: Proradný"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
@@ -617,7 +617,7 @@ msgstr "\"Plus jedna k morálce, mínus tři ke sluchu.\""
 
 #: src/GwentTracker/data/neutral.yml:33 -> Card.area
 msgid "Inn at the Crossroads"
-msgstr "Hodpoda Na Rozcestí"
+msgstr "Hospoda Na Rozcestí"
 
 #: src/GwentTracker/data/neutral.yml:38 -> Card.npc
 msgid "Marquise Serenity"
@@ -653,7 +653,7 @@ msgstr "Štiplavý mráz"
 
 #: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
 msgid "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
-msgstr "\"Sen každého dobrého velitele... a noční můra každého špatného.\""
+msgstr "\"Nejlepší na mrazu je, že mrtvoly nehnijí tak rychle.\""
 
 #: src/GwentTracker/data/neutral.yml:89 -> Card.name
 msgid "Impenetrable Fog"
@@ -661,7 +661,7 @@ msgstr "Neproniknutelná mlha"
 
 #: src/GwentTracker/data/neutral.yml:90 -> Card.flavor
 msgid "\"A good commander's dream... a bad one's horror.\""
-msgstr "\"Nejlepší na mrazu je, že mrtvoly nehnijí tak rychle.\""
+msgstr "\"Sen každého dobrého velitele... a noční můra každého špatného.\""
 
 #: src/GwentTracker/data/neutral.yml:103 -> Card.name
 msgid "Torrential Rain"
@@ -717,7 +717,7 @@ msgstr "Yennefer z Vengerbergu"
 
 #: src/GwentTracker/data/neutral.yml:156 -> Card.flavor
 msgid "\"Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression.\""
-msgstr "\"Oděná v černé a bílé, připomínala časné ráno v půli prosince.\""
+msgstr "\"Magie je chaos, umění a věda. Je to prokletí, požehnání a pokrok.\""
 
 #: src/GwentTracker/data/neutral.yml:161 -> Card.npc
 msgid "Stjepan"
@@ -817,7 +817,7 @@ msgstr "Avallac'h"
 
 #: src/GwentTracker/data/neutral.yml:254 -> Card.flavor
 msgid "\"You humans have… unusual tastes.\""
-msgstr "\"Věštit budoucnost není žádná věda. Věda je věštit přesně.\""
+msgstr "\"Vy lidé máte... nezvyklé chutě.\""
 
 #: src/GwentTracker/data/neutral.yml:259 -> Card.npc
 msgid "Gremist"
@@ -893,15 +893,15 @@ msgstr "Assire var Anahid"
 
 #: src/GwentTracker/data/nilfgaard.yml:68 -> Card.flavor
 msgid "\"Nilfgaardian mages do have a choice: servile submission, or the gallows.\""
-msgstr "\"Nilfgaardští mágové se buď mohou podvolit a podlézat, či skončit na šibenici.\""
+msgstr "\"Nilfgaardští mágové mají na výběr: buď se podvolit a podlézat, nebo skončit na šibenici.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:79 -> Card.name
 msgid "Cynthia"
-msgstr "Cynthie"
+msgstr "Cynthia"
 
 #: src/GwentTracker/data/nilfgaard.yml:80 -> Card.flavor
 msgid "\"Cynthia's talents can be deadly. She needs a tight leash.\""
-msgstr "\"'Cynthiin dar dokáže zabíjet,' zakřenila se Filippa. 'Musím ji držet zkrátka.'\""
+msgstr "\"Cynthiin dar dokáže zabíjet. Musím ji držet zkrátka.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:91 -> Card.name
 msgid "Fringilla Vigo"
@@ -909,7 +909,7 @@ msgstr "Fringilla Vigo"
 
 #: src/GwentTracker/data/nilfgaard.yml:92 -> Card.flavor
 msgid "\"Magic is the highest good. It transcends all borders and divisions.\""
-msgstr "\"Oslepení je příhodným trestem pro čarodějky. Zraní jejich marnivost.\""
+msgstr "\"Magie je to nejvyšší dobro. Překonává všechny hranice i rozdíly.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:98 -> Card.area
 msgid "Caesar Bilzen's home"
@@ -985,7 +985,7 @@ msgstr "Sweers"
 
 #: src/GwentTracker/data/nilfgaard.yml:177 -> Card.flavor
 msgid "\"And hands off the girl! Whatever we may be, we're not savages.\""
-msgstr "\"Jestli tvůj pták baží po šuku a tvá ruka po boji - přidej se k nám.\""
+msgstr "\"A ruce pryč od tý holky! Ať už jsme, co jsme, nejsme divoši.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:182 -> Card.area
 msgid "Claywich"
@@ -1017,7 +1017,7 @@ msgstr "Vreemde"
 
 #: src/GwentTracker/data/nilfgaard.yml:214 -> Card.flavor
 msgid "\"Discipline is the Empire's deadliest weapon.\""
-msgstr "\"Ten zvyk pojmenovávat bojové skupiny po vůdcích zahrál na Vreemdovu strunu.\""
+msgstr "\"Nejsilnější zbraní císařství je kázeň.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:225 -> Card.name
 msgid "Cahir Mawr Dyffryn aep Ceallach"
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "U Zlatého jesetera"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "Emhyr var Emreis Jeho císařská výsost"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "Emhyr var Emreis: Jeho císařská výsost"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"Nebe plakalo, když má Pavetta zemřela. Pro mě plakat nebude.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "Emhyr var Emreis Císař Nilfgaardu"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "Emhyr var Emreis: Císař Nilfgaardu"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"Nezajímají mě tvé pohnutky. Jen výsledky.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "Emhyr var Emreis Bílý plamen"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "Emhyr var Emreis: Bílý plamen"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,16 +1144,16 @@ msgid "Reward for completing quest"
 msgstr "Odměna za dokončení úkolu"
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "Emhyr var Emreis Neústupný"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "Emhyr var Emreis: Neústupný"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"Neříkají mi Trpělivý. Tak dávej pozor, aby tobě neříkali Bezhlavý.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
-msgstr "Emhyr var Emreis Dobyvatel Severu"
+msgid "Emhyr var Emreis: Invader of the North"
+msgstr "Emhyr var Emreis: Dobyvatel Severu"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
@@ -1233,7 +1233,7 @@ msgstr "Siegfried z Denesle"
 
 #: src/GwentTracker/data/northernrealms.yml:74 -> Card.flavor
 msgid "\"We're on the same side, witcher. You'll realize this one day.\""
-msgstr "\"O míru se velmi snadno jedná, ale mnohem těžší je ho udržet.\""
+msgstr "\"Jsme na stejné straně, zaklínači. Jednou to pochopíš.\""
 
 #: src/GwentTracker/data/northernrealms.yml:80 -> Card.name
 msgid "Yarpen Zigrin"
@@ -1241,7 +1241,7 @@ msgstr "Yarpen Zigrin"
 
 #: src/GwentTracker/data/northernrealms.yml:81 -> Card.flavor
 msgid "\"The world belongs to whoever's best at crackin' skulls and impregnatin' lasses.\""
-msgstr "\"…já tej děvčici pravím, doloval som rudu z dolů mělčích než tvoja jaskyňka!\""
+msgstr "\"Svět patří těm, co umějú najlíp drtit lebezně a zbúchávat děvčice.\""
 
 #: src/GwentTracker/data/northernrealms.yml:87 -> Card.name
 msgid "Sigismund Dijkstra"
@@ -1321,7 +1321,7 @@ msgstr "\"Já sem válečnej veterán! … Nemáš pár drobnejch?\""
 
 #: src/GwentTracker/data/northernrealms.yml:182 -> Card.name
 msgid "Crinfrid Reavers Dragon Hunter"
-msgstr "Lovec draků Crinfrid Reavers"
+msgstr "Drakobijec crinfridských sekáčů"
 
 #: src/GwentTracker/data/northernrealms.yml:183 -> Card.flavor
 msgid "\"Haven't had much luck with monsters of late, so we enlisted.\""
@@ -1333,7 +1333,7 @@ msgstr "Redanský pěší voják"
 
 #: src/GwentTracker/data/northernrealms.yml:208 -> Card.flavor
 msgid "\"I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!\""
-msgstr "\"Za Redanii zemřu, za Redanii zabiju… za Redanii budu žrát i červy!\""
+msgstr "\"Za Redanii jsem krvácel, za Redanii jsem zabíjel… k čertu, za Redanii jsem i znásilňoval!\""
 
 #: src/GwentTracker/data/northernrealms.yml:221 -> Card.name
 msgid "Catapult"
@@ -1349,7 +1349,7 @@ msgstr "Balista"
 
 #: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
 msgid "\"Usually we give 'em female names.\" \"Like Jenny?\" \"More like Bertha.\""
-msgstr "\"Většinou jim dáváme ženské jméno.\" \"Jako Jana?\" \"Spíš třeba Berta.\""
+msgstr "\"Většinou jim dáváme ženské jméno.\" \"Třeba Jana?\" \"Spíš třeba Berta.\""
 
 #: src/GwentTracker/data/northernrealms.yml:253 -> Card.name
 msgid "Kaedweni Siege Expert"
@@ -1361,7 +1361,7 @@ msgstr "\"Musíš překalibrovat rameno o pět stupňů.\" \"Cože musím kohož
 
 #: src/GwentTracker/data/northernrealms.yml:260 -> Card.name
 msgid "Blue Stripes Commando"
-msgstr "Velitel Modrých pruhů"
+msgstr "Komando Modrých pruhů"
 
 #: src/GwentTracker/data/northernrealms.yml:261 -> Card.flavor
 msgid "\"I'd do anything for Temeria. Mostly, though, I kill for her.\""
@@ -1377,31 +1377,31 @@ msgstr "\"Mám rád hluk obléhacích věží po ránu. Zní jako vítězství.\
 
 #: src/GwentTracker/data/northernrealms.yml:286 -> Card.name
 msgid "Dun Banner Medic"
-msgstr "Léčitelka z Dun Banner"
+msgstr "Léčitelka Šedé korouhve"
 
 #: src/GwentTracker/data/northernrealms.yml:287 -> Card.flavor
 msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"Přišij červené k červenému, bílé k bílému a všechno bude v pořádku.\""
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "Foltest Král Temerie"
+msgid "Foltest: King of Temeria"
+msgstr "Foltest: Král Temerie"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"Je přirozené a krásné, když muž miluje svou sestru.\""
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "Foltest Lord velitel Severu"
+msgid "Foltest: Lord Commander of the North"
+msgstr "Foltest: Lord velitel Severu"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
-msgstr "\"K čertu s rádci a jejich pletichy. Já věřím zbraním svých pěšáků.\""
+msgstr "\"K čertu s rádci a jejich pletichami. Já věřím zbraním svých pěšáků.\""
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "Foltest Mistr obléhání"
+msgid "Foltest: the Siegemaster"
+msgstr "Foltest: Mistr obléhání"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1416,16 +1416,16 @@ msgid "Royal Palace in Vizima"
 msgstr "Královský hrad ve Wyzimě"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
-msgstr "Foltest Ocelová pěst"
+msgid "Foltest: the Steel-Forged"
+msgstr "Foltest: Ocelová pěst"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"Krásný den na bitvu.\""
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
-msgstr "Foltest Syn Medellův"
+msgid "Foltest: Son of Medell"
+msgstr "Foltest: Syn Medellův"
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
@@ -1461,7 +1461,7 @@ msgstr "Skrýš temerských partyzánů"
 
 #: src/GwentTracker/data/scoiatael.yml:29 -> Card.name
 msgid "Isengrim Faolitarna"
-msgstr "Isengrim Faolitarna"
+msgstr "Isengrim Faoiltiarna"
 
 #: src/GwentTracker/data/scoiatael.yml:30 -> Card.flavor
 msgid "\"It dawns on them once they notice my scar: a realization of imminent death.\""
@@ -1477,7 +1477,7 @@ msgstr "Iorweth"
 
 #: src/GwentTracker/data/scoiatael.yml:43 -> Card.flavor
 msgid "\"King or beggar, what's the difference? One dh'oine less.\""
-msgstr "\"Má zatraceně dobrou mušku. Na někoho, kdo má jen jedno oko.\""
+msgstr "\"Král, nebo žebrák, jaký je v tom rozdíl? O jednoho dh'oine míň.\""
 
 #: src/GwentTracker/data/scoiatael.yml:48 -> Card.npc
 msgid "Druid"
@@ -1489,7 +1489,7 @@ msgstr "Dennis Cranmer"
 
 #: src/GwentTracker/data/scoiatael.yml:56 -> Card.flavor
 msgid "\"I know how to carry out orders, so you can shove you advice up your coal chute.\""
-msgstr "\"Vím, jak plnit rozkazy, takže si ty rady nech pro sebe.\""
+msgstr "\"Vím, jak plnit rozkazy, takže si ty rady strč do zadele.\""
 
 #: src/GwentTracker/data/scoiatael.yml:67 -> Card.name
 msgid "Milva"
@@ -1549,7 +1549,7 @@ msgstr "Ciaran aep Easnillien"
 
 #: src/GwentTracker/data/scoiatael.yml:143 -> Card.flavor
 msgid "\"The path to freedom is paved in blood, not ink.\""
-msgstr "\"Naší cestou ke svobodě nebude diplomacie, ale krveprolití.\""
+msgstr "\"Cesta ke svobodě je dlážděná krví, nikoliv inkoustem.\""
 
 #: src/GwentTracker/data/scoiatael.yml:154 -> Card.name
 msgid "Barclay Els"
@@ -1605,7 +1605,7 @@ msgstr "Elfský harcovník"
 
 #: src/GwentTracker/data/scoiatael.yml:359 -> Card.flavor
 msgid "\"No matter what you may have heard, elves don't take human scalps. Too much lice.\""
-msgstr "\"Přestaň sebou mlít, ty posranej ušáku - nemůžu na tebe pořádně zamířit!\""
+msgstr "\"Nevěřte tomu, co se říká: Elfové si lidské skalpy neberou. Jsou moc zavšivené.\""
 
 #: src/GwentTracker/data/scoiatael.yml:394 -> Card.name
 msgid "Vrihedd Brigade Recruit"
@@ -1632,40 +1632,40 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"Jasně, že ti to zašiju. Ale zadarmo to nebude.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "Francesca Findabair Čistokrevná elfka"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "Francesca Findabair: Čistokrevná elfka"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
-msgstr "\"Dol Blathanna může a musí zůstat nezávislým útočištěm pro Aen Seidhe.\""
+msgstr "\"Ten popel pohnojí půdu. Do jara dolina opět rozkvete.\""
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "Francesca Findabair Sedmikráska z Dolin"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "Francesca Findabair: Sedmikráska z Dolin"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"Starší rasy už zapomněly víc, než by kdy lidé mohli vědět.\""
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "Francesca Findabair Nádherná"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "Francesca Findabair: Nádherná"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"Nenech svou mušku rozptýlit mou krásou.\""
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "Francesca Findabair Královna Dol Blathanna"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "Francesca Findabair: Královna Dol Blathanna"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
-msgstr "\"Abychom mohli žít v míru, musíme zabíjet. To je kruté finále lidského útlaku.\""
+msgstr "\"Abychom mohli žít v míru, musíme zabíjet. To je krutý následek lidského útlaku.\""
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
-msgstr "Francesca Findabair Naděje Aen Seidhe"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
+msgstr "Francesca Findabair: Naděje Aen Seidhe"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
@@ -1977,4 +1977,4 @@ msgstr "Bažantnice"
 
 #: src/GwentTracker/data/skellige.yml:300 -> Card.flavor
 msgid "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
-msgstr "Král musí být moudrý. Král musí vzbuzovat úctu. Král musí mít koule. "
+msgstr "Král musí být moudrý. Král musí vzbuzovat úctu. Král musí mít koule.: "

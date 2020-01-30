@@ -33,7 +33,7 @@ msgstr ""
 
 #: src/GwentTracker/Views/MainWindow.xaml:57 -> TextBlock.Text
 msgid "Card Collector"
-msgstr ""
+msgstr "Coleccionista de cartas"
 
 #: src/GwentTracker/Views/MainWindow.xaml:67 -> TextBlock.Text
 msgid "I Have a Gwent Problem"

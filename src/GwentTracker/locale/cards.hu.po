@@ -496,8 +496,8 @@ msgid "\"I'd be your best - and last.\""
 msgstr "„Én leszek neked a legjobb – és az utolsó.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "Eredin a Vad Falka ura"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "Eredin: a Vad Falka ura"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "Eredin a Vörös Lovasok parancsnoka"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "Eredin: a Vörös Lovasok parancsnoka"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "Eredin Világok Pusztítója"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "Eredin: Világok Pusztítója"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "„Elkerülhetetlen.\""
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "Eredin a Halálhozó"
+msgid "Eredin: Bringer of Death"
+msgstr "Eredin: a Halálhozó"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,8 +544,8 @@ msgid "Passiflora"
 msgstr "Passiflora"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
-msgstr "Eredin Bréacc Glas Az áruló"
+msgid "Eredin Bréacc Glas: The Treacherous"
+msgstr "Eredin Bréacc Glas: Az áruló"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "Aranykecsege"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "Emhyr var Emreis Őcsászári Fensége"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "Emhyr var Emreis: Őcsászári Fensége"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "„Az ég zokogott, mikor Pavettám meghalt. Értem nem fog könnyet ontani.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "Emhyr var Emreis Nilfgaard császára"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "Emhyr var Emreis: Nilfgaard császára"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "„Nem érdekel, mi mozgat téged. Csak az eredmény.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "Emhyr var Emreis a Fehér Láng"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "Emhyr var Emreis: a Fehér Láng"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,16 +1144,16 @@ msgid "Reward for completing quest"
 msgstr ""
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "Emhyr var Emreis  a Könyörtelen"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "Emhyr var Emreis:  a Könyörtelen"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "„Engem nem hívnak Türelmesnek. Vigyázz, nehogy téged Fej nélkülinek hívjanak!\""
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
-msgstr "Emhyr var Emreis Észak meghódítja"
+msgid "Emhyr var Emreis: Invader of the North"
+msgstr "Emhyr var Emreis: Észak meghódítja"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
@@ -1281,7 +1281,7 @@ msgstr "„A Kaedweni Vadon Leánya.\""
 
 #: src/GwentTracker/data/northernrealms.yml:121 -> Card.name
 msgid "Sheldon Skaggs"
-msgstr "Tansarville-i Síle"
+msgstr "Sheldon Skaggs"
 
 #: src/GwentTracker/data/northernrealms.yml:122 -> Card.flavor
 msgid "\"I was there, on the front lines! Right where the fightin' was the thickest!\""
@@ -1384,24 +1384,24 @@ msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "„Varrd a vöröst a vöröshöz, a fehéret a fehérhez, és minden rendben lesz.\""
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "Foltest Temeria királya"
+msgid "Foltest: King of Temeria"
+msgstr "Foltest: Temeria királya"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "„Természetes és gyönyörű, ha az ember szereti a lánytestvérét.\""
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "Foltest Észak vezére"
+msgid "Foltest: Lord Commander of the North"
+msgstr "Foltest: Észak vezére"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "„A fenébe a tanácsosokkal és cselszövéseikkel! Én a gyalogsági kardomban bízom.\""
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "Foltest Az Ostrom Ura"
+msgid "Foltest: the Siegemaster"
+msgstr "Foltest: Az Ostrom Ura"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1416,7 +1416,7 @@ msgid "Royal Palace in Vizima"
 msgstr "Vizima királyi vár"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
+msgid "Foltest: the Steel-Forged"
 msgstr "Kovácsolt acél Foltest"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
@@ -1424,8 +1424,8 @@ msgid "\"A beautiful day for battle.\""
 msgstr "„Gyönyörű nap a csatára.\""
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
-msgstr "Foltest Medell fia"
+msgid "Foltest: Son of Medell"
+msgstr "Foltest: Medell fia"
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
@@ -1461,7 +1461,7 @@ msgstr "Temeri partizánok rejteke"
 
 #: src/GwentTracker/data/scoiatael.yml:29 -> Card.name
 msgid "Isengrim Faolitarna"
-msgstr "Isengrim Faolitarna"
+msgstr "Isengrim Faoiltiarna"
 
 #: src/GwentTracker/data/scoiatael.yml:30 -> Card.flavor
 msgid "\"It dawns on them once they notice my scar: a realization of imminent death.\""
@@ -1632,40 +1632,40 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "„Persze, hogy összefoltozlak. De nem lesz olcsó.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "Francesca Findabair Tisztavérű tünde"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "Francesca Findabair: Tisztavérű tünde"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "„Dol Blathanna az Aen Sidhe független menedéke lehet, s annak is kell maradnia.\""
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "Francesca Findabair Völgyek Százszorszépe"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "Francesca Findabair: Völgyek Százszorszépe"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "„Az Ősi Fajok többet felejtettek, mint amit az emberek megtanulni remélhetnek.\""
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "Francesca Findabair A Szépséges"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "Francesca Findabair: A Szépséges"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "„Ne hagyd, hogy a szépségem miatt rosszul célozz!\""
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "Francesca Findabair Dol Blathanna királynője"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "Francesca Findabair: Dol Blathanna királynője"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "„Hogy békében éljünk, ahhoz ölni kell. Ez az emberi elnyomás szörnyű fináléja.\""
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
-msgstr "Francesca Findabair Az Aen Seidhe reménye"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
+msgstr "Francesca Findabair: Az Aen Seidhe reménye"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""

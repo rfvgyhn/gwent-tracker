@@ -33,11 +33,11 @@ msgstr ""
 
 #: src/GwentTracker/Views/MainWindow.xaml:57 -> TextBlock.Text
 msgid "Card Collector"
-msgstr ""
+msgstr "카드 수집가"
 
 #: src/GwentTracker/Views/MainWindow.xaml:67 -> TextBlock.Text
 msgid "I Have a Gwent Problem"
-msgstr ""
+msgstr "궨트 중독 상담센터"
 
 #: src/GwentTracker/Views/MainWindow.xaml:79 -> TextBlock.Text
 msgid "Card Progress"

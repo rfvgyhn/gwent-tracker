@@ -496,8 +496,8 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"ﺳﺄﻛﻮن اﻷﻓﻀﻞ - واﻷﺧﯿﺮ.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "(إﯾﺮﯾﺪﯾﻦ) ﻣﻠﻚ (اﻟﻮاﯾﻠﺪ ھﺎﻧﺖ)"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "(إﯾﺮﯾﺪﯾﻦ): ﻣﻠﻚ (اﻟﻮاﯾﻠﺪ ھﺎﻧﺖ)"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "(إﯾﺮﯾﺪﯾﻦ) ﻗﺎﺋﺪ ﻓﺮﺳﺎن (رﯾﺪ راﯾﺪرز)"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "(إﯾﺮﯾﺪﯾﻦ): ﻗﺎﺋﺪ ﻓﺮﺳﺎن (رﯾﺪ راﯾﺪرز)"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "(إﯾﺮﯾﺪﯾﻦ) ﻣﺪﻣﺮ اﻟﻌﻮاﻟﻢ"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "(إﯾﺮﯾﺪﯾﻦ): ﻣﺪﻣﺮ اﻟﻌﻮاﻟﻢ"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"ھﺬا ﻻ ﯾﻤﻜﻦ ﺗﺠﻨﺒﮫ.\""
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "(إﯾﺮﯾﺪﯾﻦ) رﻓﯿﻖ اﻟﻤﻮت"
+msgid "Eredin: Bringer of Death"
+msgstr "(إﯾﺮﯾﺪﯾﻦ): رﻓﯿﻖ اﻟﻤﻮت"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,8 +544,8 @@ msgid "Passiflora"
 msgstr "ﺣﺎﻧﺔ (ﺑﺎﺳﯿﻔﻠﻮرا)"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
-msgstr "(إﯾﺮﯾﺪﯾﻦ ﺑﺮﯾﺎك ﺟﻼس) اﻟﺨﺎﺋﻦ"
+msgid "Eredin Bréacc Glas: The Treacherous"
+msgstr "(إﯾﺮﯾﺪﯾﻦ ﺑﺮﯾﺎك ﺟﻼس): اﻟﺨﺎﺋﻦ"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
@@ -885,7 +885,7 @@ msgstr "\"ﻛﺮة ﻧﺎر؟ ﻻ ﻣﺎﻧﻊ. أﯾًﺎ ﻛﺎﻧﺖ رﻏﺒ
 
 #: src/GwentTracker/data/nilfgaard.yml:60 -> Card.npc
 msgid "Trader"
-msgstr "ﺗﺎﺟﺮ"
+msgstr "‮تاجر"
 
 #: src/GwentTracker/data/nilfgaard.yml:67 -> Card.name
 msgid "Assire var Anahid"
@@ -941,7 +941,7 @@ msgstr "\"ﺳﺘﻤﻮت ﻣﯿﺘﺔ ﻣﺆﻟﻤﺔ ﻣﺜﻞ (وﯾﻨﺪھ�
 
 #: src/GwentTracker/data/nilfgaard.yml:121 -> Card.npc
 msgid "Merchant"
-msgstr "ﺗﺎﺟﺮ"
+msgstr "‮تاجر"
 
 #: src/GwentTracker/data/nilfgaard.yml:122 -> Card.area
 msgid "Lindenvale"
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "ﺣﺎﻧﺔ (ﺟﻮﻟﺪن ﺳﺘﺮﺟﻮن)"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "ﺟﻼﻟﺔ اﻹﻣﺒﺮاطﻮر (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "ﺟﻼﻟﺔ اﻹﻣﺒﺮاطﻮر: (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"ﺑﻜﺖ اﻟﺴﻤﺎء ﻣﻮت ﺣﺒﯿﺒﺘﻲ (ﺑﺎﭬﯿﺘﺎ). ﻟﻜﻨﮭﺎ ﻟﻦ ﺗﺒﻜﯿﻨﻲ.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "إﻣﺒﺮاطﻮر (ﻧﯿﻠﻔﺠﺎرد) (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "إﻣﺒﺮاطﻮر (ﻧﯿﻠﻔﺠﺎرد): (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"دواﻓﻌﻚ ﻻ ﺗﮭﻤﻨﻲ. ﺗﮭﻤﻨﻲ اﻟﻨﺘﺎﺋﺞ ﻓﻘﻂ.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "اﻟﻠﮭﺐ اﻷﺑﯿﺾ (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "اﻟﻠﮭﺐ اﻷﺑﯿﺾ: (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,16 +1144,16 @@ msgid "Reward for completing quest"
 msgstr ""
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "اﻹﻣﺒﺮاطﻮر اﻟﺤﺎﺳﻢ (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "اﻹﻣﺒﺮاطﻮر اﻟﺤﺎﺳﻢ: (إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ)"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"ﻻ ﯾﺼﻔﻨﻲ أﺣﺪ ﺑﺎﻟﺼﺒﻮر. اﺣﺬر ﺣﺘﻰ ﻻ ﯾﺼﻔﻮك ﺑﻤﻘﻄﻮع اﻟﺮأس.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
-msgstr "(إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ) إﻣﺒﺮاطﻮر اﻟﺸﻤﺎل"
+msgid "Emhyr var Emreis: Invader of the North"
+msgstr "(إﻣﮭﯿﺮ ﭬﺎر إﻣﺮﯾﺲ): إﻣﺒﺮاطﻮر اﻟﺸﻤﺎل"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
@@ -1384,24 +1384,24 @@ msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"ﻗﻢ ﺑﺘﺨﯿﯿﻂ اﻷﺣﻤﺮ ﻓﻲ اﻷﺣﻤﺮ واﻷﺑﯿﺾ ﻓﻲ اﻷﺑﯿﺾ وﺳﯿﻜﻮن ﻛﻞ ﺷﻲء ﻋﻠﻰ ﻣﺎ ﯾﺮام.\""
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "(ﭬﻮﻟﺘﯿﺴﺖ)  ﻣﻠﻚ (ﺗﯿﻤﯿﺮﯾﺎ)"
+msgid "Foltest: King of Temeria"
+msgstr "(ﭬﻮﻟﺘﯿﺴﺖ):  ﻣﻠﻚ (ﺗﯿﻤﯿﺮﯾﺎ)"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"أﻣﺮ طﺒﯿﻌﻲ وﺟﻤﯿﻞ أن ﯾﺤﺐ اﻟﻤﺮء ﻣﺎ ﻻ ﯾﻤﻜﻨﮫ ﻧﯿﻠﮫ.\""
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "(ﭬﻮﻟﺘﯿﺴﺖ)  اﻟﻘﺎﺋﺪ ﺣﺎﻛﻢ اﻟﺸﻤﺎل"
+msgid "Foltest: Lord Commander of the North"
+msgstr "(ﭬﻮﻟﺘﯿﺴﺖ):  اﻟﻘﺎﺋﺪ ﺣﺎﻛﻢ اﻟﺸﻤﺎل"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "\"ﺗﺒًﺎ ﻟﻠﻤﺴﺘﺸﺎرﯾﻦ وﻣﻜﺎﺋﺪھﻢ. أﺿﻊ ﺛﻘﺘﻲ ﻓﻲ ﺳﯿﻮف ﺟﻨﻮدي.\""
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "(ﭬﻮﻟﺘﯿﺴﺖ)  ﺳﯿﺪ اﻟﺤﺼﺎر"
+msgid "Foltest: the Siegemaster"
+msgstr "(ﭬﻮﻟﺘﯿﺴﺖ):  ﺳﯿﺪ اﻟﺤﺼﺎر"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1409,23 +1409,23 @@ msgstr "\"اﻟﻤِﻘﻼع اﻟﻤﺼﻮب ﺑﺪﻗﺔ ﻻ ﯾﺪك أﺳﻮ
 
 #: src/GwentTracker/data/northernrealms.yml:317 -> Card.npc
 msgid "Nilfgaardian Nobleman"
-msgstr "ﺳﯿﺪ ﻧﺒﯿﻞ ﻣﻦ (ﻧﯿﻠﻔﺠﺎرد)"
+msgstr "‮سيد نبيل من (نيلفجارد)"
 
 #: src/GwentTracker/data/northernrealms.yml:320 -> Card.region
 msgid "Royal Palace in Vizima"
 msgstr "ﻗﺼﺮ (ﭬﯿﺰﯾﻤﺎ) اﻟﻤﻠﻜﻲ"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
-msgstr "(ﭬﻮﻟﺘﯿﺴﺖ) اﻟﻔﻮﻻذي"
+msgid "Foltest: the Steel-Forged"
+msgstr "(ﭬﻮﻟﺘﯿﺴﺖ): اﻟﻔﻮﻻذي"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"ﯾﻮم ﺟﻤﯿﻞ ﻟﺨﻮض ﻣﻌﺮﻛﺔ.\""
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
-msgstr "(ﻓﻮﻟﺘﯿﺴﺖ) (اﺑﻦ ﻣﯿﺪﯾﻞ)"
+msgid "Foltest: Son of Medell"
+msgstr "(ﻓﻮﻟﺘﯿﺴﺖ): (اﺑﻦ ﻣﯿﺪﯾﻞ)"
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
@@ -1632,40 +1632,40 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"ﺑﺎﻟﺘﺄﻛﯿﺪ ﺳﺄﺿﻤﺪ ﺟﺮاﺣﻚ. ﻟﻜﻦ ھﺬا ﺳﯿﻜﻠﻔﻚ ﺑﺎﻟﺘﺄﻛﯿﺪ.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "زھﺮة (اﻹﻟﻒ) اﻟﻨﻘﯿﺔ (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "زھﺮة (اﻹﻟﻒ) اﻟﻨﻘﯿﺔ: (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "\"ﯾﻤﻜﻦ ﺑﻞ وﯾﺠﺐ أن ﺗﺒﻘﻰ (دول ﺑﻼﺛﺎﻧﺎ) ﻣﻼذًا ﻣﺴﺘﻘﻼً ﻟﺴﻼﻟﺔ (إﯾﻦ ﺳﯿﺪھﻲ).\""
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "زھﺮة اﻟﻮادي (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "زھﺮة اﻟﻮادي: (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"ﻣﺎ ﻧﺴﯿﺘﮫ (ﺳﻼﻻت اﻟﻘﺪﻣﺎء) ﯾﻔﻮق ﻛﻞ ﻣﺎ ﻗﺪ ﯾﺄﻣﻞ اﻟﺒﺸﺮ ﻓﻲ ﻣﻌﺮﻓﺘﮫ.\""
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "اﻟﺠﻤﯿﻠﺔ (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "اﻟﺠﻤﯿﻠﺔ: (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"ﻻ ﺗﺪع ﺟﻤﺎﻟﻲ ﯾﻠﮭﯿﻚ ﻋﻦ ھﺪﻓﻚ!\""
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "ﻣﻠﻜﺔ (دول ﺑﻼﺛﺎﻧﺎ) (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "ﻣﻠﻜﺔ (دول ﺑﻼﺛﺎﻧﺎ): (ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ)"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "\"ﻟﻨﺤﯿﺎ ﻓﻲ ﺳﻼم، ﻋﻠﯿﻨﺎ أن ﻧﻘﺘﻞ ﻻ ﻣﺤﺎﻟﺔ. ھﺬه ﺧﺎﺗﻤﺔ اﻟﺴﻮء ﻟﻠﻈﻠﻢ اﻹﻧﺴﺎﻧﻲ.\""
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
-msgstr "(ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ) أﻣﻞ ﺳﻼﻟﺔ (إﯾﻦ ﺳﯿﺪھﻲ)"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
+msgstr "(ﻓﺮاﻧﺸﯿﺴﻜﺎ ﻓﯿﻨﺪاﺑﯿﺮ): أﻣﻞ ﺳﻼﻟﺔ (إﯾﻦ ﺳﯿﺪھﻲ)"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
@@ -1797,7 +1797,7 @@ msgstr "\"ﺣﺎول اﻟﻜﺜﯿﺮون ھﺰﯾﻤﺔ (أوﻻف). ﻟﻜﻨ
 
 #: src/GwentTracker/data/skellige.yml:116 -> Card.npc
 msgid "Sommelier"
-msgstr "ﺳﻮﻣﻠﯿﯿﺮ"
+msgstr "‮سومليير"
 
 #: src/GwentTracker/data/skellige.yml:117 -> Card.area
 msgid "The Adder and Jewels Winery"
@@ -1845,7 +1845,7 @@ msgstr "وادي (ﺳﻮﻧﺮوﺗﻮر)"
 
 #: src/GwentTracker/data/skellige.yml:151 -> Card.npc
 msgid "Pierre"
-msgstr "ﺑﯿﯿﺮ"
+msgstr "‮بيير"
 
 #: src/GwentTracker/data/skellige.yml:152 -> Card.area
 msgid "Tailor's Workshop"
@@ -1917,7 +1917,7 @@ msgstr "\"إذن ﺗﺴﺘﻄﯿﻊ إﺻﺎﺑﺔ ھﺪف ﻋﻠﻰ ﺑﻌﺪ �
 
 #: src/GwentTracker/data/skellige.yml:224 -> Card.npc
 msgid "Herbalist"
-msgstr "ﻣﺸﺘﻐﻞ ﺑﺎﻷﻋﺸﺎب"
+msgstr "‮مشتغل بالأعشاب"
 
 #: src/GwentTracker/data/skellige.yml:225 -> Card.area
 msgid "Castel Ravello Vineyard"
@@ -1953,7 +1953,7 @@ msgstr "\"ﺣﯿﻦ ﯾﺄﺗﻲ اﻟﻮﻗﺖ اﻟﻤﻨﺎﺳﺐ ﺳﻮف �
 
 #: src/GwentTracker/data/skellige.yml:256 -> Card.npc
 msgid "Armorer"
-msgstr "ﺻﺎﻧﻊ اﻟﺪروع"
+msgstr "‮صانع الدروع"
 
 #: src/GwentTracker/data/skellige.yml:269 -> Card.area
 msgid "The Cockatrice Inn"

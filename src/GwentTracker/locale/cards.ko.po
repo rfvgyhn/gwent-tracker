@@ -429,11 +429,11 @@ msgstr "\"피를 마시고 시체를 먹는 놈들은 외모 때문에 적이 �
 
 #: src/GwentTracker/data/monsters.yml:389 -> Card.name
 msgid "Vampire: Bruxa"
-msgstr "뱀파이어: 브루샤"
+msgstr "뱀파이어: 브룩사"
 
 #: src/GwentTracker/data/monsters.yml:390 -> Card.flavor
 msgid "\"A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law.\""
-msgstr "\"브루샤는 말뚝을 박아야 죽는다네 - 마차축 정도 긴 놈으로 말야.\""
+msgstr "\"브룩사는 말뚝을 박아야 죽는다네 - 마차축 정도 긴 놈으로 말야.\""
 
 #: src/GwentTracker/data/monsters.yml:399 -> Card.notes
 msgid "Win a match at the masquerade ball at Vegelbud Estate"
@@ -496,8 +496,8 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"네가 최고구나 - 그리고 마지막이기도 하지.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "에레딘 와일드 헌트 왕"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "에레딘: 와일드 헌트 왕"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "에레딘 붉은 기수 수장"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "에레딘: 붉은 기수 수장"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "에레딘 세계 파괴자"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "에레딘: 세계 파괴자"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"피할 수 없으리라.\""
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "에레딘 죽음을 부르는 자"
+msgid "Eredin: Bringer of Death"
+msgstr "에레딘: 죽음을 부르는 자"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,8 +544,8 @@ msgid "Passiflora"
 msgstr "파시플로라"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
-msgstr "에레딘 브레악 글라스 배반자"
+msgid "Eredin Bréacc Glas: The Treacherous"
+msgstr "에레딘 브레악 글라스: 배반자"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
@@ -653,7 +653,7 @@ msgstr "살을 에는 냉기"
 
 #: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
 msgid "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
-msgstr "\"좋은 사령관의 꿈이라…안 좋은 쪽의 끔찍한 면이지.\""
+msgstr "\"혹한기의 이점이라면, 죽은 놈들 시체가 빨리 썩지 않는다는 거지.\""
 
 #: src/GwentTracker/data/neutral.yml:89 -> Card.name
 msgid "Impenetrable Fog"
@@ -661,7 +661,7 @@ msgstr "빽빽한 안개"
 
 #: src/GwentTracker/data/neutral.yml:90 -> Card.flavor
 msgid "\"A good commander's dream... a bad one's horror.\""
-msgstr "\"혹한기의 이점이라면, 죽은 놈들 시체가 빨리 썩지 않는다는 거지.\""
+msgstr "\"좋은 사령관의 꿈이라…안 좋은 쪽의 끔찍한 면이지.\""
 
 #: src/GwentTracker/data/neutral.yml:103 -> Card.name
 msgid "Torrential Rain"
@@ -677,7 +677,7 @@ msgstr "맑은 날씨"
 
 #: src/GwentTracker/data/neutral.yml:117 -> Card.flavor
 msgid "\"The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…\""
-msgstr "모든 날씨 카드 효과를 제거한다."
+msgstr "\"태양이다! 드로믈! 태양이라고! 의외로 희망이 있을 수도 있겠어...\""
 
 #: src/GwentTracker/data/neutral.yml:129 -> Card.name
 msgid "Geralt of Rivia"
@@ -837,7 +837,7 @@ msgstr "\"위쳐는 잠자리서 죽음을 맞는 법이 없지.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:9 -> Card.npc
 msgid "Boatwright"
-msgstr "배 목수"
+msgstr "선박공"
 
 #: src/GwentTracker/data/nilfgaard.yml:10 -> Card.area
 msgid "Oreton"
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "황금 철갑상어"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "에미르 바 엠레이스 제국 군주"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "에미르 바 엠레이스: 제국 군주"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"나의 파베타가 죽었을 때 하늘도 울었지. 날 위해선 그러지 않더군.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "에미르 바 엠레이스 닐프가드 황제"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "에미르 바 엠레이스: 닐프가드 황제"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"네 동기에는 흥미가 없다. 결과만이 중요한 법이지.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "에미르 바 엠레이스 백색 불꽃"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "에미르 바 엠레이스: 백색 불꽃"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,16 +1144,16 @@ msgid "Reward for completing quest"
 msgstr ""
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "에미르 바 엠레이스 가차없는 자"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "에미르 바 엠레이스: 가차없는 자"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"난 끈기있다 불리진 않았지. 자넨 목없는 놈 소리 안듣게 조심하게.\""
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
-msgstr "에미르 바 엠레이스 북부의 침략자"
+msgid "Emhyr var Emreis: Invader of the North"
+msgstr "에미르 바 엠레이스: 북부의 침략자"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
@@ -1384,24 +1384,24 @@ msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"빨강은 빨강끼리, 하양은 하양끼리 이으면 다 잘 된답니다.\""
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "폴테스트 테메리아의 왕"
+msgid "Foltest: King of Temeria"
+msgstr "폴테스트: 테메리아의 왕"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"남자가 자기 여동생을 사랑하는 것은 당연하고 아름다운 일이라네.\""
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "폴테스트 북부 영주들의 사령관"
+msgid "Foltest: Lord Commander of the North"
+msgstr "폴테스트: 북부 영주들의 사령관"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "\"고문관이랑 걔네 계획은 싹 밥맛이야. 차라리 우리 애들 칼을 믿지.\""
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "폴테스트 공성의 달인"
+msgid "Foltest: the Siegemaster"
+msgstr "폴테스트: 공성의 달인"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1416,16 +1416,16 @@ msgid "Royal Palace in Vizima"
 msgstr "비지마 왕성"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
-msgstr "폴테스트 강철과도 같은 자"
+msgid "Foltest: the Steel-Forged"
+msgstr "폴테스트: 강철과도 같은 자"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"싸우기 좋은 날이군.\""
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
-msgstr "폴테스트 메델의 아들"
+msgid "Foltest: Son of Medell"
+msgstr "폴테스트: 메델의 아들"
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
@@ -1632,40 +1632,40 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"좋아요, 치료해드립죠. 하지만 치료비는 주셔야 돼요.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "프란체스카 핀다베어 순혈 엘프"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "프란체스카 핀다베어: 순혈 엘프"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "\"돌 블라타나는 아엔 쉐이드를 위한 독립 피난처로 남을 수 있어요.\""
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "프란체스카 핀다베어 계곡에 핀 국화"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "프란체스카 핀다베어: 계곡에 핀 국화"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"고대 종족은 인간들이 알길 희망하는 것 이상으로 잊혀졌죠.\""
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "프란체스카 핀다베어 아름다운 여인"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "프란체스카 핀다베어: 아름다운 여인"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"내 미모에 반해 조준이 흐트러지면 안 돼요!\""
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "프란체스카 핀다베어 돌 블라타나의 여왕"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "프란체스카 핀다베어: 돌 블라타나의 여왕"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "\"편히 살려면 먼저 죽여야죠. 인간들의 탄압의 끔찍한 말로랍니다.\""
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
-msgstr "프렌체스카 핀다베어 아엔 쉐이드의 희망"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
+msgstr "프렌체스카 핀다베어: 아엔 쉐이드의 희망"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""

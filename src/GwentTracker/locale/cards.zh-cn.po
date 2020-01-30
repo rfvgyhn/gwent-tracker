@@ -496,8 +496,8 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"我将是你最美…与最后的体验。\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
-msgid "Eredin King of the Wild Hunt"
-msgstr "艾瑞汀 狂猎之王"
+msgid "Eredin: King of the Wild Hunt"
+msgstr "艾瑞汀: 狂猎之王"
 
 #: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
 msgid "\"I've long awaited this...\""
@@ -512,8 +512,8 @@ msgid "Base Deck"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:495 -> Card.name
-msgid "Eredin Commander of the Red Riders"
-msgstr "艾瑞汀 红骑士指挥官"
+msgid "Eredin: Commander of the Red Riders"
+msgstr "艾瑞汀: 红骑士指挥官"
 
 #: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
@@ -524,16 +524,16 @@ msgid "The New Port"
 msgstr ""
 
 #: src/GwentTracker/data/monsters.yml:507 -> Card.name
-msgid "Eredin Destroyer of Worlds"
-msgstr "艾瑞汀 世界毁灭者"
+msgid "Eredin: Destroyer of Worlds"
+msgstr "艾瑞汀: 世界毁灭者"
 
 #: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"死亡无可避免。\""
 
 #: src/GwentTracker/data/monsters.yml:520 -> Card.name
-msgid "Eredin Bringer of Death"
-msgstr "艾瑞汀 死亡使者"
+msgid "Eredin: Bringer of Death"
+msgstr "艾瑞汀: 死亡使者"
 
 #: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
@@ -544,8 +544,8 @@ msgid "Passiflora"
 msgstr "帕西佛罗拉"
 
 #: src/GwentTracker/data/monsters.yml:533 -> Card.name
-msgid "Eredin Bréacc Glas The Treacherous"
-msgstr "艾瑞汀·毕雷克·葛拉斯 诡计多端"
+msgid "Eredin Bréacc Glas: The Treacherous"
+msgstr "艾瑞汀·毕雷克·葛拉斯: 诡计多端"
 
 #: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
@@ -1116,24 +1116,24 @@ msgid "Golden Sturgeon"
 msgstr "金鲟酒馆"
 
 #: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
-msgid "Emhyr var Emreis His Imperial Majesty"
-msgstr "恩希尔·恩瑞斯 皇帝陛下"
+msgid "Emhyr var Emreis: His Imperial Majesty"
+msgstr "恩希尔·恩瑞斯: 皇帝陛下"
 
 #: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"我的帕薇塔死去的时候天空为她哭泣，我不会让天空为我哭泣。\""
 
 #: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
-msgid "Emhyr var Emreis Emperor of Nilfgaard"
-msgstr "恩希尔·恩瑞斯 尼弗迦德皇帝"
+msgid "Emhyr var Emreis: Emperor of Nilfgaard"
+msgstr "恩希尔·恩瑞斯: 尼弗迦德皇帝"
 
 #: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"你的动机我没兴趣，我只看结果。\""
 
 #: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
-msgid "Emhyr var Emreis the White Flame"
-msgstr "恩希尔·恩瑞斯 白色火焰"
+msgid "Emhyr var Emreis: the White Flame"
+msgstr "恩希尔·恩瑞斯: 白色火焰"
 
 #: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
@@ -1144,16 +1144,16 @@ msgid "Reward for completing quest"
 msgstr ""
 
 #: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
-msgid "Emhyr var Emreis the Relentless"
-msgstr "恩希尔·恩瑞斯 冷血无情"
+msgid "Emhyr var Emreis: the Relentless"
+msgstr "恩希尔·恩瑞斯: 冷血无情"
 
 #: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"我没什么耐心。把我惹毛了，小心小命不保。\""
 
 #: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
-msgid "Emhyr var Emreis Invader of the North"
-msgstr "恩希尔·恩瑞斯 北方入侵者"
+msgid "Emhyr var Emreis: Invader of the North"
+msgstr "恩希尔·恩瑞斯: 北方入侵者"
 
 #: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
@@ -1384,24 +1384,24 @@ msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"红缝红，白缝白，活儿真不赖。\""
 
 #: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
-msgid "Foltest King of Temeria"
-msgstr "弗尔泰斯特 泰莫利亚之王"
+msgid "Foltest: King of Temeria"
+msgstr "弗尔泰斯特: 泰莫利亚之王"
 
 #: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"男人爱他的姊妹是件自然又美丽的事。\""
 
 #: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
-msgid "Foltest Lord Commander of the North"
-msgstr "弗尔泰斯特 北方指挥官"
+msgid "Foltest: Lord Commander of the North"
+msgstr "弗尔泰斯特: 北方指挥官"
 
 #: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "别管那些顾问和他们的计划了。我相信我的士兵。\""
 
 #: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
-msgid "Foltest the Siegemaster"
-msgstr "弗尔泰斯特 攻城之王"
+msgid "Foltest: the Siegemaster"
+msgstr "弗尔泰斯特: 攻城之王"
 
 #: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
@@ -1416,16 +1416,16 @@ msgid "Royal Palace in Vizima"
 msgstr "维吉玛皇家城堡"
 
 #: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
-msgid "Foltest the Steel-Forged"
-msgstr "弗尔泰斯特 钢铁之心"
+msgid "Foltest: the Steel-Forged"
+msgstr "弗尔泰斯特: 钢铁之心"
 
 #: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"真是适合开战的美好天气。\""
 
 #: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
-msgid "Foltest Son of Medell"
-msgstr "弗尔泰斯特 曼德尔王之子"
+msgid "Foltest: Son of Medell"
+msgstr "弗尔泰斯特: 曼德尔王之子"
 
 #: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
@@ -1632,40 +1632,40 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"帮你包扎，没问题——只要你有钱。\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
-msgid "Francesca Findabair Pureblood Elf"
-msgstr "法兰茜丝卡·芬达贝 纯血精灵"
+msgid "Francesca Findabair: Pureblood Elf"
+msgstr "法兰茜丝卡·芬达贝: 纯血精灵"
 
 #: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "\"多尔·布雷坦纳必须继续保持独立，做为艾恩·希德精灵的避风港。\""
 
 #: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
-msgid "Francesca Findabair Daisy of the Valley"
-msgstr "法兰茜丝卡·芬达贝 山谷雏菊"
+msgid "Francesca Findabair: Daisy of the Valley"
+msgstr "法兰茜丝卡·芬达贝: 山谷雏菊"
 
 #: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"古老种族遗忘的事情甚至比人类想知道的事情还多。\""
 
 #: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
-msgid "Francesca Findabair the Beautiful"
-msgstr "法兰茜丝卡·芬达贝 绝世容颜"
+msgid "Francesca Findabair: the Beautiful"
+msgstr "法兰茜丝卡·芬达贝: 绝世容颜"
 
 #: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"别让我的美貌使你失准了！\""
 
 #: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
-msgid "Francesca Findabair Queen of Dol Blathanna"
-msgstr "法兰茜丝卡·芬达贝 多尔·布雷坦纳女王"
+msgid "Francesca Findabair: Queen of Dol Blathanna"
+msgstr "法兰茜丝卡·芬达贝: 多尔·布雷坦纳女王"
 
 #: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "\"世上没有轻而易举的和平，人类的压迫终将画下残酷的句点。\""
 
 #: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
-msgid "Francesca Findabair Hope of the Aen Seidhe"
-msgstr "法兰茜丝卡·芬达贝 艾恩·希德的希望"
+msgid "Francesca Findabair: Hope of the Aen Seidhe"
+msgstr "法兰茜丝卡·芬达贝: 艾恩·希德的希望"
 
 #: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""

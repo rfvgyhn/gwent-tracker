@@ -103,3 +103,5 @@
 1084926|Armorer
 1204125|The Cockatrice Inn
 1209909|The Pheasantry
+1081957|Card Collector
+1193290|I Have a Gwent Problem
