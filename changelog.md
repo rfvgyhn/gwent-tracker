@@ -15,6 +15,7 @@
 - Polish missable quests UI
 - Provide a likely fallback save location for linux
 - Use an icon instead of the character 'X' for filter remove button
+- Add tooltip to convey what _Cutoff_ means in missable quest
 - Russian localization ([Crowdin] by [W1ns-Smile])
 - Czech localization ([Crowdin] by [Jan Kalný])
 

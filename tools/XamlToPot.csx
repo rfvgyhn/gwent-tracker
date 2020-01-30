@@ -41,7 +41,7 @@ foreach (var file in xamlFiles)
         foreach (var attr in element.Attributes())
         {
             var elementMatches = AttributesToTranslate.Any(translate => string.Equals(translate, attr.Name.LocalName, StringComparison.InvariantCultureIgnoreCase));
-            if (elementMatches && (!attr.Value.StartsWith("{") || attr.Value.Contains("StringFormat") || attr.Value.Contains("Translate")))
+            if (elementMatches && attr.Value != ": " && (!attr.Value.StartsWith("{") || attr.Value.Contains("StringFormat") || attr.Value.Contains("Translate")))
             {
                 AddMessage(attr.Value, messages, file, lineNumber, nodeName, $".{attr.Name}");
             }

@@ -59,43 +59,44 @@ msgstr ""
 msgid "* {0}"
 msgstr "* {0}"
 
-#: src/GwentTracker/Views/MainWindow.xaml:125 -> TextBlock.Text
-msgid "Region: {0}"
-msgstr "Region: {0}"
-
 #: src/GwentTracker/Views/MainWindow.xaml:126 -> TextBlock.Text
-msgid "Cutoff: {0}"
-msgstr "Abschaltung: {0}"
+#: src/GwentTracker/Views/MainWindow.xaml:184 -> DataGridTextColumn.Header
+msgid "Region"
+msgstr "Region"
 
-#: src/GwentTracker/Views/MainWindow.xaml:135 -> FilterString.Watermark
+#: src/GwentTracker/Views/MainWindow.xaml:132 -> TextBlock.Text
+msgid "Cutoff"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:134 -> TextBlock.Text
+msgid "The point at which you can no longer obtain the card(s)"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:150 -> FilterString.Watermark
 msgid "Filter"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:136 -> AddFilter.Content
+#: src/GwentTracker/Views/MainWindow.xaml:151 -> AddFilter.Content
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: src/GwentTracker/Views/MainWindow.xaml:164 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:179 -> DataGridTextColumn.Header
 msgid "Name"
 msgstr "Name"
 
-#: src/GwentTracker/Views/MainWindow.xaml:165 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:180 -> DataGridTextColumn.Header
 msgid "Copies"
 msgstr "Kopien"
 
-#: src/GwentTracker/Views/MainWindow.xaml:166 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:181 -> DataGridTextColumn.Header
 msgid "Deck"
 msgstr "Kartenstapel"
 
-#: src/GwentTracker/Views/MainWindow.xaml:167 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:182 -> DataGridTextColumn.Header
 msgid "Type"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:168 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:183 -> DataGridTextColumn.Header
 msgid "Location"
 msgstr "Standort"
-
-#: src/GwentTracker/Views/MainWindow.xaml:169 -> DataGridTextColumn.Header
-msgid "Region"
-msgstr "Region"
 

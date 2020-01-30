@@ -122,8 +122,23 @@
                                     <Path Fill="{Binding Color}" Margin="0 0 4 0" Data="{Binding State, Converter={StaticResource MissableToPathConverter}}" />
                                     <TextBlock TextWrapping="{Binding TextWrap}" Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" Width="165" />
                                 </StackPanel>
-                                <TextBlock Margin="4 0 0 0" TextWrapping="Wrap" Text="{Binding Region, StringFormat={i18n:Translate Region: {0}}}" IsVisible="{Binding DetailsVisible}" />
-                                <TextBlock Margin="4 0 0 0" TextWrapping="Wrap" Text="{Binding Cutoff, StringFormat={i18n:Translate Cutoff: {0}}}" IsVisible="{Binding DetailsVisible}" />
+                                <StackPanel Margin="4 0 0 0" Orientation="Horizontal" IsVisible="{Binding DetailsVisible}" >
+                                    <TextBlock Text="{i18n:Translate Region}" />
+                                    <TextBlock Text=": "/>
+                                    <TextBlock Text="{Binding Region}" />
+                                </StackPanel>
+                                <Grid Margin="4 0 0 0" IsVisible="{Binding DetailsVisible}" RowDefinitions="Auto, 1" ColumnDefinitions="Auto, *">
+                                    <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Horizontal">
+                                        <TextBlock Text="{i18n:Translate Cutoff}">
+                                            <ToolTip.Tip>
+                                                <TextBlock Text="{i18n:Translate The point at which you can no longer obtain the card(s)}"/>
+                                            </ToolTip.Tip>
+                                        </TextBlock>
+                                        <TextBlock Text=": "/>
+                                    </StackPanel>
+                                    <TextBlock Text="{Binding Cutoff}" Grid.Column="1" Grid.Row="0" />
+                                    <Rectangle Grid.Column="0" Grid.Row="1" Stroke="Gray" Height="1" StrokeThickness="1" StrokeDashOffset="1" StrokeDashArray="2,4" Margin="0 -4 6 0" />
+                                </Grid>
                             </StackPanel>
                         </Border>
                     </DataTemplate>
