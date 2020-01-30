@@ -45,8 +45,8 @@ function getTranslation() {
         zh-cn) locale="cn";;
     esac
     
-    grep -r --include "${locale}.w3strings.csv" "${id}" "${strings}" | \
-    head -n1 | \
+    grep -r --include "${locale}.w3strings.csv" " ${id}" "${strings}" | \
+    tail -n1 | \
     cut -d '|' -f 4 | \
     sed 's/^\s+//'
 }
