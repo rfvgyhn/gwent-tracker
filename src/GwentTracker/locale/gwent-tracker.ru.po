@@ -55,51 +55,47 @@ msgstr ""
 msgid "Missable Cards by Quest"
 msgstr "Пропущенные карты по квестам"
 
-#: src/GwentTracker/Views/MainWindow.xaml:113 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:114 -> TextBlock.Text
 msgid "* {0}"
 msgstr "* {0}"
 
-#: src/GwentTracker/Views/MainWindow.xaml:124 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:125 -> TextBlock.Text
 msgid "Region: {0}"
 msgstr "Регион: {0}"
 
-#: src/GwentTracker/Views/MainWindow.xaml:125 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:126 -> TextBlock.Text
 msgid "Cutoff: {0}"
 msgstr "Исключается: {0}"
 
-#: src/GwentTracker/Views/MainWindow.xaml:134 -> FilterString.Watermark
+#: src/GwentTracker/Views/MainWindow.xaml:135 -> FilterString.Watermark
 msgid "Filter"
 msgstr "Фильтр"
 
-#: src/GwentTracker/Views/MainWindow.xaml:135 -> AddFilter.Content
+#: src/GwentTracker/Views/MainWindow.xaml:136 -> AddFilter.Content
 msgid "Add"
 msgstr "Добавить"
 
-#: src/GwentTracker/Views/MainWindow.xaml:147 -> Button.Content
-msgid "X"
-msgstr "X"
-
-#: src/GwentTracker/Views/MainWindow.xaml:163 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:164 -> DataGridTextColumn.Header
 msgid "Name"
 msgstr "Имя"
 
-#: src/GwentTracker/Views/MainWindow.xaml:164 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:165 -> DataGridTextColumn.Header
 msgid "Copies"
 msgstr "Копии"
 
-#: src/GwentTracker/Views/MainWindow.xaml:165 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:166 -> DataGridTextColumn.Header
 msgid "Deck"
 msgstr "Колода"
 
-#: src/GwentTracker/Views/MainWindow.xaml:166 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:167 -> DataGridTextColumn.Header
 msgid "Type"
 msgstr "Тип"
 
-#: src/GwentTracker/Views/MainWindow.xaml:167 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:168 -> DataGridTextColumn.Header
 msgid "Location"
 msgstr "Локация"
 
-#: src/GwentTracker/Views/MainWindow.xaml:168 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:169 -> DataGridTextColumn.Header
 msgid "Region"
 msgstr "Регион"
 

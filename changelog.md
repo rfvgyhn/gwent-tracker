@@ -14,6 +14,7 @@
 - Use gwent icon instead of default avalonia icon
 - Polish missable quests UI
 - Provide a likely fallback save location for linux
+- Use an icon instead of the character 'X' for filter remove button
 - Russian localization ([Crowdin] by [W1ns-Smile])
 - Czech localization ([Crowdin] by [Jan Kalný])
 
