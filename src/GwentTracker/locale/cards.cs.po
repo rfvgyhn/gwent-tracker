@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/GwentTracker/data/missable.yml:5 -> Card.cutoff
 msgid "None"
-msgstr ""
+msgstr "Žádný"
 
 #: src/GwentTracker/data/missable.yml:8 -> Card.notes
 msgid "Purchase his cards in Claywich after freeing him from the Bandits' Camp."
@@ -781,7 +781,7 @@ msgstr "Sídlo Vegelbudů"
 
 #: src/GwentTracker/data/neutral.yml:213 -> Card.notes
 msgid "Win a match at the masquerade ball"
-msgstr ""
+msgstr "Vyhrajte zápas na maškarním bále"
 
 #: src/GwentTracker/data/neutral.yml:217 -> Card.name
 msgid "Zoltan Chivay"
@@ -993,7 +993,7 @@ msgstr "Hliněná Lhota"
 
 #: src/GwentTracker/data/nilfgaard.yml:185 -> Card.notes
 msgid "Must first be rescued"
-msgstr ""
+msgstr "Nejprve musí být zachráněn"
 
 #: src/GwentTracker/data/nilfgaard.yml:189 -> Card.name
 msgid "Vanhemar"
@@ -1037,7 +1037,7 @@ msgstr "\"Na braibantské vojenské akademii jsem se naučil mnohé. Třeba vykr
 
 #: src/GwentTracker/data/nilfgaard.yml:246 -> Card.notes
 msgid "Must first rescue trader"
-msgstr ""
+msgstr "Nejprve je nutné osvobodit obchodníka"
 
 #: src/GwentTracker/data/nilfgaard.yml:250 -> Card.name
 msgid "Etolian Auxiliary Archers"
@@ -1693,7 +1693,7 @@ msgstr "\"Místo truchlení nad padlými si raději připijme na jejich památku
 
 #: src/GwentTracker/data/skellige.yml:15 -> Card.type
 msgid "B&W Base Deck"
-msgstr ""
+msgstr "O víně a krvi"
 
 #: src/GwentTracker/data/skellige.yml:19 -> Card.name
 msgid "Cerys"
