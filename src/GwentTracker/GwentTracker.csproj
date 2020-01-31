@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1;net472</TargetFrameworks>
     <OutputType>WinExe</OutputType>
-    <Version>1.2.0</Version>
+    <Version>1.3.0</Version>
     <LangVersion>Latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>

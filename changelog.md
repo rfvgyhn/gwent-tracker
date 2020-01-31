@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-01-31
+
 ### New Features
 
 - Skellige deck
@@ -79,7 +81,8 @@
 
 ## [0.1.0-alpha] - 2017-01-26
 
-[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.2.0...HEAD
+[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.0.0...v1.0.1
