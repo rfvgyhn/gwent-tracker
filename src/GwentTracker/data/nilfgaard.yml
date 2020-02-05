@@ -324,6 +324,7 @@
     name: "Impera Brigade Guard"
     flavor: "\"The Impera Brigade never surrenders. Ever.\""
     type: Unit
+    maxCopies: 4
     locations:
         -   type: Buy from Trader
             npc: Trader
@@ -354,6 +355,7 @@
     name: "Nausicaa Cavalry Rider"
     flavor: "\"The Emperor will teach the North discipline.\""
     type: Unit
+    maxCopies: 3
     locations:
         -   type: Buy from Trader
             npc: Quartermaster

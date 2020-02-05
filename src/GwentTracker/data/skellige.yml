@@ -138,6 +138,7 @@
     name: "Young Berserker"
     flavor: "\"Want some?\""
     type: Unit
+    maxCopies: 3
     locations:
         -   type: B&W Base Deck
             region: B&W Base Deck
@@ -189,6 +190,7 @@
     name: "Light Longship"
     flavor: "\"Escape them? In the waters of Skellige? Good luck.\""
     type: Unit
+    maxCopies: 2
     locations:
         -   type: B&W Base Deck
             region: B&W Base Deck
@@ -203,6 +205,7 @@
     name: "War Longship"
     flavor: "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
     type: Unit
+    maxCopies: 2
     locations:
         -   type: B&W Base Deck
             region: B&W Base Deck
@@ -217,6 +220,7 @@
     name: "Clan Brokvar Archer"
     flavor: "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
     type: Unit
+    maxCopies: 2
     locations:
         -   type: B&W Base Deck
             region: B&W Base Deck

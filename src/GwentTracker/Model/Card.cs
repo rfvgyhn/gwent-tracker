@@ -13,6 +13,8 @@ namespace GwentTracker.Model
         public int Index { get; set; }
         public string Name { get; set; }
         public string Flavor { get; set; }
+        public int MaxCopies { get; set; } = 1;
+
         private int _copies;
         public int Copies
         {

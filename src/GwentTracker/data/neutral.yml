@@ -3,6 +3,7 @@
     name: "Decoy"
     flavor: "\"When you run out of peasants, decoys also make decent arrow fodder.\""
     type: Special
+    maxCopies: 3
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -27,6 +28,7 @@
     name: "Commander's Horn"
     flavor: "\"Plus one to morale, minus three to hearing.\""
     type: Special
+    maxCopies: 3
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -51,6 +53,7 @@
     name: "Scorch"
     flavor: "\"Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.\""
     type: Special
+    maxCopies: 3
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -75,6 +78,7 @@
     name: "Biting Frost"
     flavor: "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
     type: Special
+    maxCopies: 3
     locations:
         -   type: Base Deck
         -   type: Base Deck
@@ -89,6 +93,7 @@
     name: "Impenetrable Fog"
     flavor: "\"A good commander's dream... a bad one's horror.\""
     type: Special
+    maxCopies: 3
     locations:
         -   type: Base Deck
         -   type: Base Deck
@@ -103,6 +108,7 @@
     name: "Torrential Rain"
     flavor: "\"Even the rain in this land smells like piss.\""
     type: Special
+    maxCopies: 3
     locations:
         -   type: Base Deck
         -   type: Win from NPC 
@@ -116,6 +122,7 @@
     name: "Clear Weather"
     flavor: "\"The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…\""
     type: Special
+    maxCopies: 3
     locations:
         -   type: Base Deck
         -   type: Win from NPC

@@ -129,6 +129,7 @@ namespace GwentTracker.ViewModels
                 {
                     Index = c.Index,
                     Copies = c.Copies,
+                    MaxCopies = c.MaxCopies,
                     Name = c.Name,
                     Flavor = c.Flavor,
                     Obtained = c.Obtained,

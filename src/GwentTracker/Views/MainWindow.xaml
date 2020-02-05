@@ -177,7 +177,20 @@
                     <DataGrid.Columns>
                         <DataGridCheckBoxColumn Binding="{Binding Obtained}"/>
                         <DataGridTextColumn Header="{i18n:Translate Name}" Binding="{Binding Name}"/>
-                        <DataGridTextColumn Header="{i18n:Translate Copies}" Binding="{Binding Copies}"/>
+                        <DataGridTemplateColumn Header="{i18n:Translate Copies}" SortMemberPath="MaxCopies">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock VerticalAlignment="Center">
+                                        <TextBlock.Text>
+                                            <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
+                                                <Binding Path="Copies" />
+                                                <Binding Path="MaxCopies" />
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="{i18n:Translate Deck}" Binding="{Binding Deck}"/>
                         <DataGridTextColumn Header="{i18n:Translate Type}" Binding="{Binding Type}"/>
                         <DataGridTextColumn Header="{i18n:Translate Location}" Binding="{Binding Location}"/>

@@ -156,6 +156,7 @@
     name: "Poor Fucking Infantry"
     flavor: "\"I's a war veteran! ... spare me a crown?\""
     type: Unit
+    maxCopies: 2
     locations:
         -   type: Base Deck
 -   index: 126
@@ -182,6 +183,7 @@
     name: "Crinfrid Reavers Dragon Hunter"
     flavor: "\"Haven't had much luck with monsters of late, so we enlisted.\""
     type: Unit
+    maxCopies: 3
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -221,6 +223,7 @@
     name: "Catapult"
     flavor: "\"The gods help those who have better catapults.\""
     type: Unit
+    maxCopies: 2
     locations:
         -   type: Buy from Trader
             npc: Innkeeper
@@ -253,6 +256,7 @@
     name: "Kaedweni Siege Expert"
     flavor: "\"You gotta recalibrate the arm by five degrees.\" \"Do what by the what now?\""
     type: Unit
+    maxCopies: 3
     locations:
         -   type: Base Deck
 -   index: 160
@@ -260,6 +264,7 @@
     name: "Blue Stripes Commando"
     flavor: "\"I'd do anything for Temeria. Mostly, though, I kill for her.\""
     type: Unit
+    maxCopies: 3
     locations:
         -   type: Base Deck
         -   type: Base Deck
