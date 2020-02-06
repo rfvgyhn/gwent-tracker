@@ -25,7 +25,7 @@ msgstr "Žádný"
 
 #: src/GwentTracker/data/missable.yml:8 -> Card.notes
 msgid "Purchase his cards in Claywich after freeing him from the Bandits' Camp."
-msgstr ""
+msgstr "Kupte si jeho karty v Hliněné Lhotě poté, co ho osvobodíte z tábora banditů."
 
 #: src/GwentTracker/data/missable.yml:10 -> Card.region
 msgid "Novigrad"
