@@ -1807,10 +1807,6 @@ msgstr "Mardroeme"
 msgid "\"Eat enough of them, and the world will never be the same…\""
 msgstr "\"Zjedz ich odpowiednio dużo, a świat już nigdy nie będzie taki sam...\""
 
-#: src/GwentTracker/data/skellige.yml:9 -> Card.type
-msgid "B&W Base Deck"
-msgstr ""
-
 #: src/GwentTracker/data/skellige.yml:12 -> Card.npc
 msgid "Madame"
 msgstr "Burdelmama"

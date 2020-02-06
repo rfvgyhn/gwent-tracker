@@ -1807,10 +1807,6 @@ msgstr "瑪德羅彌"
 msgid "\"Eat enough of them, and the world will never be the same…\""
 msgstr "「吃下足夠的量，世界就會變了樣⋯」"
 
-#: src/GwentTracker/data/skellige.yml:9 -> Card.type
-msgid "B&W Base Deck"
-msgstr ""
-
 #: src/GwentTracker/data/skellige.yml:12 -> Card.npc
 msgid "Madame"
 msgstr "妓院夫人"

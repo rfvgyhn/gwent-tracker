@@ -1807,10 +1807,6 @@ msgstr "Mardrome"
 msgid "\"Eat enough of them, and the world will never be the same…\""
 msgstr "\"Si vous en mangez assez, le monde ne sera jamais plus le même…\""
 
-#: src/GwentTracker/data/skellige.yml:9 -> Card.type
-msgid "B&W Base Deck"
-msgstr ""
-
 #: src/GwentTracker/data/skellige.yml:12 -> Card.npc
 msgid "Madame"
 msgstr "Maquerelle"

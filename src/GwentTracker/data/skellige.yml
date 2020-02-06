@@ -6,8 +6,8 @@
     type: Special
     maxCopies: 3
     locations:
-        -   type: B&W Base Deck 
-            region: B&W Base Deck
+        -   type: Base Deck 
+            region: Base Deck
         -   type: Win from NPC
             npc: Madame
             area: The Belles of Beauclair
@@ -34,8 +34,8 @@
     flavor: "\"Instead of mournin' the fallen, let's drink to their memory!\""
     type: Hero
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 502
     deck: Skellige
     name: "Cerys"
@@ -78,56 +78,56 @@
     flavor: "\"Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 506
     deck: Skellige
     name: "Madman Lugos"
     flavor: "\"WAAAAAAAAAAGH!!!!\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 507
     deck: Skellige
     name: "Donar an Hindar"
     flavor: "\"I've gathered all the jarls together. Now make your case.\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 508
     deck: Skellige
     name: "Udalryk"
     flavor: "\"Haaaargh! After me, if ye've the bollocks!\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 509
     deck: Skellige
     name: "Birna Bran"
     flavor: "\"Skellige must have a strong king. No matter what it takes.\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 510
     deck: Skellige
     name: "Blueboy Lugos"
     flavor: "\"I'm damn near ready to puke from boredom.\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 511
     deck: Skellige
     name: "Svanrige"
     flavor: "\"The emperor also thought him an accidental king. At first.\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 512
     deck: Skellige
     name: "Olaf"
@@ -146,8 +146,8 @@
     flavor: "\"Kill, crush, cleave!\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 514
     deck: Skellige
     name: "Transformed Vildkaarl"
@@ -163,8 +163,8 @@
     type: Unit
     maxCopies: 3
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
         -   type: Win from NPC
             npc: Blacksmith
             area: Tourney Grounds
@@ -192,24 +192,24 @@
     type: Unit
     maxCopies: 3
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 518
     deck: Skellige
     name: "Clan Tordarroch Armorsmith"
     flavor: "\"Ye're in for a poundin'.\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 519
     deck: Skellige
     name: "Clan Heymaey Skald"
     flavor: "\"The deeds of Clan Heymaey will go down in history.\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 520
     deck: Skellige
     name: "Light Longship"
@@ -217,10 +217,10 @@
     type: Unit
     maxCopies: 3
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
+        -   type: Base Deck
+            region: Base Deck
         -   type: Win from NPC
             npc: Merchant
             area: Perfumery
@@ -234,10 +234,10 @@
     type: Unit
     maxCopies: 3
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
-        -   type: B&W Base Deck
-            region: B&W Base Deck        
+        -   type: Base Deck
+            region: Base Deck
+        -   type: Base Deck
+            region: Base Deck        
         -   type: Win from NPC
             npc: Innkeeper
             area: Tourney Grounds
@@ -251,10 +251,10 @@
     type: Unit
     maxCopies: 3
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
+        -   type: Base Deck
+            region: Base Deck
         -   type: Win from NPC
             npc: Herbalist
             area: Castel Ravello Vineyard
@@ -267,8 +267,8 @@
     flavor: "\"They'll shatter on our shields like waves on a rocky shore.\""
     type: Unit
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck
 -   index: 524
     deck: Skellige
     name: "Clan Dimun Pirate"
@@ -335,5 +335,5 @@
     flavor: "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
     type: Leader
     locations:
-        -   type: B&W Base Deck
-            region: B&W Base Deck
+        -   type: Base Deck
+            region: Base Deck

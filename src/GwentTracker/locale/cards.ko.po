@@ -1807,10 +1807,6 @@ msgstr "마드로엠므"
 msgid "\"Eat enough of them, and the world will never be the same…\""
 msgstr "\"이걸 충분히 먹으면, 이 세상을 보는 눈이 영원히 달라질 거야…\""
 
-#: src/GwentTracker/data/skellige.yml:9 -> Card.type
-msgid "B&W Base Deck"
-msgstr ""
-
 #: src/GwentTracker/data/skellige.yml:12 -> Card.npc
 msgid "Madame"
 msgstr "마담"

@@ -1807,10 +1807,6 @@ msgstr "マードローメ"
 msgid "\"Eat enough of them, and the world will never be the same…\""
 msgstr "「十分な量を食べれば、世界が変わる…」"
 
-#: src/GwentTracker/data/skellige.yml:9 -> Card.type
-msgid "B&W Base Deck"
-msgstr ""
-
 #: src/GwentTracker/data/skellige.yml:12 -> Card.npc
 msgid "Madame"
 msgstr "女主人"
