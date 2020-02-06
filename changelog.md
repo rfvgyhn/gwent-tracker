@@ -2,6 +2,20 @@
 
 ## [Unreleased]
 
+### New Features
+
+- Show max amount of copies for each card
+- Source column which shows if the card is a part the base game or DLC
+
+### Enhancements 
+
+- Czech localization ([Crowdin] by [Jan Kalný])
+
+### Bug Fixes
+
+- Add missing DLC cards
+- Fix improper count of DLC cards in progress section
+
 ## [1.3.0] - 2020-01-31
 
 ### New Features
