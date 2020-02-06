@@ -1,4 +1,4 @@
-using GwentTracker.Model;
+﻿using GwentTracker.Model;
 using ReactiveUI;
 using Serilog;
 using System;
@@ -30,6 +30,7 @@ namespace GwentTracker.ViewModels
         private readonly ReadOnlyObservableCollection<CardViewModel> _filteredCards;
         private readonly Translate _t;
         private bool _initialLoadComplete = false;
+        private Dictionary<int, int> _summons;
 
         public ReadOnlyObservableCollection<CardViewModel> Cards => _filteredCards;
         public ObservableCollection<MissableInfo> Messages { get; set; }
@@ -224,7 +225,16 @@ namespace GwentTracker.ViewModels
                     using (var reader = File.OpenText(filePath))
                     {
                         var contents = await reader.ReadToEndAsync();
-                        cards.AddRange(deserializer.Deserialize<List<Card>>(contents));
+                        var deserializedCards = deserializer.Deserialize<List<Card>>(contents);
+
+                        _summons = new Dictionary<int, int>();
+                        foreach (var card in deserializedCards.Where(c => c.AttachedTo != null))
+                        {
+                            card.MaxCopies = deserializedCards.Where(c => c.Index == card.AttachedTo.Value).Single().MaxCopies;
+                            _summons.Add(card.AttachedTo.Value, card.Index);
+                        }
+                        
+                        cards.AddRange(deserializedCards);
                     }
                 }
                 catch (Exception e)
@@ -281,17 +291,33 @@ namespace GwentTracker.ViewModels
         {
             Model = info;
             var newCards = new List<string>();
-            foreach (var (key, value) in info.CardCopies)
+            foreach (var (index, copies) in info.CardCopies)
             {
-                var card = _cards.Items.Where(c => c.Index == key).SingleOrDefault();
+                var card = _cards.Items.Where(c => c.Index == index).SingleOrDefault();
 
                 if (card != null)
                 {
-                    if (_initialLoadComplete && (card.Obtained == false || card.Copies < value))
+                    CardViewModel summon = null;
+                    
+                    if (_summons.ContainsKey(index))
+                        summon = _cards.Items.Where(c => c.Index == _summons[index]).SingleOrDefault();
+
+                    if (_initialLoadComplete && (card.Obtained == false || card.Copies < copies))
+                    {
                         newCards.Add(card.Name);
+                        
+                        if (summon != null)
+                            newCards.Add(summon.Name);
+                    }
 
                     card.Obtained = true;
-                    card.Copies = value;
+                    card.Copies = copies;
+
+                    if (summon != null)
+                    {
+                        summon.Obtained = true;
+                        summon.Copies = copies;
+                    }
                 }
             }
             
@@ -348,7 +374,8 @@ namespace GwentTracker.ViewModels
                                      compareInfo.IndexOf(card.Deck, f, CompareOptions.IgnoreCase) >= 0 ||
                                      compareInfo.IndexOf(card.Type ?? "", f, CompareOptions.IgnoreCase) >= 0 ||
                                      compareInfo.IndexOf(card.Location, f, CompareOptions.IgnoreCase) >= 0 ||
-                                     compareInfo.IndexOf(card.Region, f, CompareOptions.IgnoreCase) >= 0);
+                                     compareInfo.IndexOf(card.Region, f, CompareOptions.IgnoreCase) >= 0 ||
+                                     compareInfo.IndexOf(_t[card.Source.GetDescription()], f, CompareOptions.IgnoreCase) >= 0);
         }
 
         private void OnAddFilter()

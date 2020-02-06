@@ -30,6 +30,7 @@
     </Window.Styles>
     <Window.Resources>
         <gwentTracker:MissableStateToPathConverter x:Key="MissableToPathConverter" />
+        <gwentTracker:EnumDescriptionConverter x:Key="EnumDescriptionConverter" />
     </Window.Resources>
     <Grid ColumnDefinitions="204, *" Margin="4 4 0 0">
         <StackPanel Grid.Column="0" Width="204" VerticalAlignment="Top">
@@ -193,6 +194,7 @@
                         <DataGridTextColumn Header="{i18n:Translate Type}" Binding="{Binding Type}"/>
                         <DataGridTextColumn Header="{i18n:Translate Location}" Binding="{Binding Location}"/>
                         <DataGridTextColumn Header="{i18n:Translate Region}" Binding="{Binding Region}"/>
+                        <DataGridTextColumn Header="{i18n:Translate Source}" Binding="{Binding Source, Converter={StaticResource EnumDescriptionConverter}}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>

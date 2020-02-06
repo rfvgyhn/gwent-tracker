@@ -11,15 +11,15 @@ msgstr ""
 "X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
 
 
-#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:122
+#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:131
 msgid "Unable to load card info"
 msgstr ""
 
-#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:164
+#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:176
 msgid "Unable to load save game"
 msgstr ""
 
-#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:301
+#: src/GwentTracker/ViewModels/MainWindowViewModel.cs:338
 msgid "Obtained {cardNames}"
 msgstr ""
 
@@ -27,11 +27,11 @@ msgstr ""
 msgid "GwentTracker"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:54 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:55 -> TextBlock.Text
 msgid "Achievement Progress"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:57 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:58 -> TextBlock.Text
 msgid "Card Collector"
 msgstr "Colecionador de cartas"
 
@@ -39,64 +39,68 @@ msgstr "Colecionador de cartas"
 msgid "I Have a Gwent Problem"
 msgstr "Quanto mais gwent melhor"
 
-#: src/GwentTracker/Views/MainWindow.xaml:79 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:78 -> TextBlock.Text
 msgid "Card Progress"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:82 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:81 -> TextBlock.Text
 msgid "Base Game"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:91 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:90 -> TextBlock.Text
 msgid "DLC"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:103 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:102 -> TextBlock.Text
 msgid "Missable Cards by Quest"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:114 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:113 -> TextBlock.Text
 msgid "* {0}"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:126 -> TextBlock.Text
-#: src/GwentTracker/Views/MainWindow.xaml:197 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:125 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:196 -> DataGridTextColumn.Header
 msgid "Region"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:132 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:131 -> TextBlock.Text
 msgid "Cutoff"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:134 -> TextBlock.Text
+#: src/GwentTracker/Views/MainWindow.xaml:133 -> TextBlock.Text
 msgid "The point at which you can no longer obtain the card(s)"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:150 -> FilterString.Watermark
+#: src/GwentTracker/Views/MainWindow.xaml:149 -> FilterString.Watermark
 msgid "Filter"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:151 -> AddFilter.Content
+#: src/GwentTracker/Views/MainWindow.xaml:150 -> AddFilter.Content
 msgid "Add"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:179 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:178 -> DataGridTextColumn.Header
 msgid "Name"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:180 -> DataGridTemplateColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:179 -> DataGridTemplateColumn.Header
 msgid "Copies"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:194 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:193 -> DataGridTextColumn.Header
 msgid "Deck"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:195 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:194 -> DataGridTextColumn.Header
 msgid "Type"
 msgstr ""
 
-#: src/GwentTracker/Views/MainWindow.xaml:196 -> DataGridTextColumn.Header
+#: src/GwentTracker/Views/MainWindow.xaml:195 -> DataGridTextColumn.Header
 msgid "Location"
+msgstr ""
+
+#: src/GwentTracker/Views/MainWindow.xaml:197 -> DataGridTextColumn.Header
+msgid "Source"
 msgstr ""
 
