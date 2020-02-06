@@ -3,7 +3,7 @@
 domain=gwent-tracker
 dest=../src/GwentTracker/locale/${domain}.pot
 cardsPot=../src/GwentTracker/locale/cards.pot
-sourceFiles=../src/GwentTracker/ViewModels/*.cs
+sourceFiles=../src/GwentTracker/*Model*/*.cs
 
 cat > ${dest} <<EOF
 msgid ""
@@ -14,8 +14,8 @@ msgstr ""
 
 EOF
 
-egrep -no '_t\[\$?"([a-zA-Z {}]+)"\]' ${sourceFiles} | \
- sed -r 's/_t\[\$?"(.+)"\]/\1/' | \
+egrep -no '_t\[\$?"[a-zA-Z {}]+"\]|Description\(".+")' ${sourceFiles} | \
+ sed -r 's/([[:digit:]]:).*\$?"(.*)".+$/\1\2/' | \
  sed 's/:/`/1;s//`/1' | \
  cut -d '`' -f 1-3 | \
  sort -t '`' -u -k 3,3 | \

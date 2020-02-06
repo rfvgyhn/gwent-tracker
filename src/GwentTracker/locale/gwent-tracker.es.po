@@ -11,6 +11,22 @@ msgstr ""
 "X-Poedit-KeywordsList: GetString;GetPluralString:1,2;GetParticularString:1c,2;GetParticularPluralString:1c,2,3;_;_n:1,2;_p:1c,2;_pn:1c,2,3\n"
 
 
+#: src/GwentTracker/Model/Card.cs:11
+msgid "Base Game"
+msgstr ""
+
+#: src/GwentTracker/Model/Card.cs:14
+msgid "Hearts of Stone"
+msgstr "Hearts of Stone"
+
+#: src/GwentTracker/Model/Card.cs:17
+msgid "Blood and Wine"
+msgstr "Blood and Wine"
+
+#: src/GwentTracker/Model/Card.cs:20
+msgid "DLC"
+msgstr ""
+
 #: src/GwentTracker/ViewModels/MainWindowViewModel.cs:131
 msgid "Unable to load card info"
 msgstr ""
