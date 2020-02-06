@@ -17,7 +17,7 @@ msgstr ""
 
 #: src/GwentTracker/Model/Card.cs:14
 msgid "Hearts of Stone"
-msgstr "Hearts of Stone"
+msgstr "‮Hearts of Stone"
 
 #: src/GwentTracker/Model/Card.cs:17
 msgid "Blood and Wine"
@@ -57,14 +57,6 @@ msgstr "ﻟﺪي ﻣﺸﻜﻠﺔ ﻓﻲ ﻟﻌﺒﺔ (ﺟﻮﯾﻨﺖ)"
 
 #: src/GwentTracker/Views/MainWindow.xaml:78 -> TextBlock.Text
 msgid "Card Progress"
-msgstr ""
-
-#: src/GwentTracker/Views/MainWindow.xaml:81 -> TextBlock.Text
-msgid "Base Game"
-msgstr ""
-
-#: src/GwentTracker/Views/MainWindow.xaml:90 -> TextBlock.Text
-msgid "DLC"
 msgstr ""
 
 #: src/GwentTracker/Views/MainWindow.xaml:102 -> TextBlock.Text
