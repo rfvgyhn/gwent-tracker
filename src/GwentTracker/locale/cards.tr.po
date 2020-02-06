@@ -496,79 +496,103 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"En iyin olacağım, ve de sonuncun.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
+msgid "Toad"
+msgstr "Kurbağa"
+
+#: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
+msgid "\"Big. Bad. Ugly. Squats in the sewers.\""
+msgstr "\"Büyük. Kötü. Çirkin. Lağımda yaşıyor.\""
+
+#: src/GwentTracker/data/monsters.yml:493 -> Card.npc
+msgid "Olgierd von Everec"
+msgstr "Olgierd von Everec"
+
+#: src/GwentTracker/data/monsters.yml:496 -> Card.region
+msgid "Redania"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:498 -> Card.type
+msgid "Loot"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:499 -> Card.area
+msgid "The Alchemy"
+msgstr "Simya"
+
+#: src/GwentTracker/data/monsters.yml:500 -> Card.territory
+msgid "Oxenfurt"
+msgstr "Oxenfurt"
+
+#: src/GwentTracker/data/monsters.yml:505 -> Card.name
 msgid "Eredin: King of the Wild Hunt"
 msgstr "Eredin: Vahşi Av Kralı"
 
-#: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:506 -> Card.flavor
 msgid "\"I've long awaited this...\""
 msgstr "\"Bunu uzun zamandır bekliyordum...\""
 
-#: src/GwentTracker/data/monsters.yml:490 -> Card.type
+#: src/GwentTracker/data/monsters.yml:507 -> Card.type
 msgid "Leader"
 msgstr "Lider"
 
-#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+#: src/GwentTracker/data/monsters.yml:509 -> Card.type
 msgid "Base Deck"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:495 -> Card.name
+#: src/GwentTracker/data/monsters.yml:512 -> Card.name
 msgid "Eredin: Commander of the Red Riders"
 msgstr "Eredin: Kızıl Süvarilerin Komutanı"
 
-#: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:513 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
 msgstr "\"Biraz haysiyetin olsun. Bunun nasıl sonlanacağını biliyorsun.\""
 
-#: src/GwentTracker/data/monsters.yml:501 -> Card.area
+#: src/GwentTracker/data/monsters.yml:518 -> Card.area
 msgid "The New Port"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:507 -> Card.name
+#: src/GwentTracker/data/monsters.yml:524 -> Card.name
 msgid "Eredin: Destroyer of Worlds"
 msgstr "Eredin: Dünyaların Yok Edicisi"
 
-#: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:525 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"Bu kaçınılmaz.\""
 
-#: src/GwentTracker/data/monsters.yml:520 -> Card.name
+#: src/GwentTracker/data/monsters.yml:537 -> Card.name
 msgid "Eredin: Bringer of Death"
 msgstr "Eredin: Ölüm Getiren"
 
-#: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:538 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
 msgstr "\"Hadi. Bana dönüşlerini, savuşturmalarını ve hilelerini göster. İzlemek istiyorum.\""
 
-#: src/GwentTracker/data/monsters.yml:528 -> Card.territory
+#: src/GwentTracker/data/monsters.yml:545 -> Card.territory
 msgid "Passiflora"
 msgstr "Passiflora"
 
-#: src/GwentTracker/data/monsters.yml:533 -> Card.name
+#: src/GwentTracker/data/monsters.yml:550 -> Card.name
 msgid "Eredin Bréacc Glas: The Treacherous"
 msgstr "Eredin Bréacc Glas: Güvenilmez"
 
-#: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:551 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
 msgstr "\"Tadını çıkarıyorum. Benim oyuncağımsın.\""
 
-#: src/GwentTracker/data/monsters.yml:537 -> Card.type
+#: src/GwentTracker/data/monsters.yml:554 -> Card.type
 msgid "Win From NPC"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:538 -> Card.npc
+#: src/GwentTracker/data/monsters.yml:555 -> Card.npc
 msgid "Dulla kh'Amanni"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:539 -> Card.area
+#: src/GwentTracker/data/monsters.yml:556 -> Card.area
 msgid "Upper Mill"
 msgstr "Yukarı Değirmen"
 
-#: src/GwentTracker/data/monsters.yml:540 -> Card.territory
+#: src/GwentTracker/data/monsters.yml:557 -> Card.territory
 msgid "Gustfields"
-msgstr ""
-
-#: src/GwentTracker/data/monsters.yml:541 -> Card.region
-msgid "Redania"
 msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
@@ -587,241 +611,345 @@ msgstr "\"Elinde köylü kalmadığında tuzak kuklaları okları çekmek için 
 msgid "Special"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:9 -> Card.area
+#: src/GwentTracker/data/neutral.yml:10 -> Card.area
 msgid "Tavern"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:11 -> Card.region
+#: src/GwentTracker/data/neutral.yml:12 -> Card.region
 msgid "White Orchard"
 msgstr "Ak Bostan"
 
-#: src/GwentTracker/data/neutral.yml:14 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:15 -> Card.npc
 msgid "Quartermaster"
 msgstr "Levazım Subayı"
 
-#: src/GwentTracker/data/neutral.yml:16 -> Card.territory
+#: src/GwentTracker/data/neutral.yml:17 -> Card.territory
 msgid "Crow's Perch"
 msgstr "Karga Tüneği"
 
-#: src/GwentTracker/data/neutral.yml:21 -> Card.area
+#: src/GwentTracker/data/neutral.yml:22 -> Card.area
 msgid "Seven Cats Inn"
 msgstr "Yedi Kedi Hanı"
 
-#: src/GwentTracker/data/neutral.yml:27 -> Card.name
+#: src/GwentTracker/data/neutral.yml:28 -> Card.name
 msgid "Commander's Horn"
 msgstr "Komutan Borusu"
 
-#: src/GwentTracker/data/neutral.yml:28 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:29 -> Card.flavor
 msgid "\"Plus one to morale, minus three to hearing.\""
 msgstr "\"Morale bir ekle, işitebilmekten üç düş.\""
 
-#: src/GwentTracker/data/neutral.yml:33 -> Card.area
+#: src/GwentTracker/data/neutral.yml:35 -> Card.area
 msgid "Inn at the Crossroads"
 msgstr "Kavşaktaki Han"
 
-#: src/GwentTracker/data/neutral.yml:38 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:40 -> Card.npc
 msgid "Marquise Serenity"
 msgstr "Markiz Sükûnet"
 
-#: src/GwentTracker/data/neutral.yml:45 -> Card.area
-msgid "The Alchemy"
-msgstr "Simya"
-
-#: src/GwentTracker/data/neutral.yml:46 -> Card.territory
-msgid "Oxenfurt"
-msgstr "Oxenfurt"
-
-#: src/GwentTracker/data/neutral.yml:51 -> Card.name
+#: src/GwentTracker/data/neutral.yml:53 -> Card.name
 msgid "Scorch"
 msgstr "Kavuran"
 
-#: src/GwentTracker/data/neutral.yml:52 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:54 -> Card.flavor
 msgid "\"Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.\""
 msgstr "\"Alev sütunları en kudretlileri bile küle çevirir. Diğer herkes ise şok ve dehşet içinde titrer.\""
 
-#: src/GwentTracker/data/neutral.yml:57 -> Card.area
+#: src/GwentTracker/data/neutral.yml:60 -> Card.area
 msgid "Cunny of the Goose"
 msgstr "Kazın Kukusu"
 
-#: src/GwentTracker/data/neutral.yml:58 -> Card.territory
+#: src/GwentTracker/data/neutral.yml:61 -> Card.territory
 msgid "Grassy Knoll"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:75 -> Card.name
+#: src/GwentTracker/data/neutral.yml:78 -> Card.name
 msgid "Biting Frost"
 msgstr "Isıran Ayaz"
 
-#: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:79 -> Card.flavor
 msgid "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
 msgstr "\"Ayazın en iyi tarafı... ölenlerin cesetlerinin o kadar çabuk çürümemesidir.\""
 
-#: src/GwentTracker/data/neutral.yml:89 -> Card.name
+#: src/GwentTracker/data/neutral.yml:93 -> Card.name
 msgid "Impenetrable Fog"
 msgstr "Aşılamaz Sis"
 
-#: src/GwentTracker/data/neutral.yml:90 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:94 -> Card.flavor
 msgid "\"A good commander's dream... a bad one's horror.\""
 msgstr "\"İyi bir komutanın rüyası... kötü olanın korkusudur.\""
 
-#: src/GwentTracker/data/neutral.yml:103 -> Card.name
+#: src/GwentTracker/data/neutral.yml:108 -> Card.name
 msgid "Torrential Rain"
 msgstr "Şiddetli Yağmur"
 
-#: src/GwentTracker/data/neutral.yml:104 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:109 -> Card.flavor
 msgid "\"Even the rain in this land smells like piss.\""
 msgstr "\"Bu diyarda yağmur bile sidik gibi kokuyor.\""
 
-#: src/GwentTracker/data/neutral.yml:116 -> Card.name
+#: src/GwentTracker/data/neutral.yml:122 -> Card.name
 msgid "Clear Weather"
 msgstr "Açık Hava"
 
-#: src/GwentTracker/data/neutral.yml:117 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:123 -> Card.flavor
 msgid "\"The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…\""
 msgstr "\"Güneş parıldıyor Drumle! Güney parıldıyor! Belki hâlâ umut kalmıştır…\""
 
-#: src/GwentTracker/data/neutral.yml:129 -> Card.name
+#: src/GwentTracker/data/neutral.yml:136 -> Card.name
 msgid "Geralt of Rivia"
 msgstr "Rivialı Geralt"
 
-#: src/GwentTracker/data/neutral.yml:130 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:137 -> Card.flavor
 msgid "\"If that's what it takes to save the world, it's better to let that world die.\""
 msgstr "\"Dünyayı kurtarmak için gereken buysa, o dünyayı ölüme terk etmek daha iyi.\""
 
-#: src/GwentTracker/data/neutral.yml:135 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:142 -> Card.npc
 msgid "Thaler"
 msgstr "Thaler"
 
-#: src/GwentTracker/data/neutral.yml:142 -> Card.name
+#: src/GwentTracker/data/neutral.yml:149 -> Card.name
 msgid "Vesemir"
 msgstr "Vesemir"
 
-#: src/GwentTracker/data/neutral.yml:143 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:150 -> Card.flavor
 msgid "\"If you're to be hanged, ask for water. Anything can happen before they fetch it.\""
 msgstr "\"Asılmak üzereysen su iste. Onlar gidip getirene dek her şey olabilir.\""
 
-#: src/GwentTracker/data/neutral.yml:148 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:155 -> Card.npc
 msgid "Vivaldi"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:149 -> Card.area
+#: src/GwentTracker/data/neutral.yml:156 -> Card.area
 msgid "Vivaldi Bank"
 msgstr "Vivaldi Bankası"
 
-#: src/GwentTracker/data/neutral.yml:150 -> Card.territory
+#: src/GwentTracker/data/neutral.yml:157 -> Card.territory
 msgid "Hierarch Square"
 msgstr "Baş Piskopos Meydanı"
 
-#: src/GwentTracker/data/neutral.yml:155 -> Card.name
+#: src/GwentTracker/data/neutral.yml:162 -> Card.name
 msgid "Yennefer of Vengerberg"
 msgstr "Vengerbergli Yennefer"
 
-#: src/GwentTracker/data/neutral.yml:156 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:163 -> Card.flavor
 msgid "\"Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression.\""
 msgstr "\"Büyü kaos, sanat ve bilimdir. O bir lanet, bir nimet ve ilerlemedir.\""
 
-#: src/GwentTracker/data/neutral.yml:161 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:168 -> Card.npc
 msgid "Stjepan"
 msgstr "Stjepan"
 
-#: src/GwentTracker/data/neutral.yml:168 -> Card.name
+#: src/GwentTracker/data/neutral.yml:175 -> Card.name
 msgid "Cirilla Fiona Elen Riannon"
 msgstr "Cirilla Fiona Elen Riannon"
 
-#: src/GwentTracker/data/neutral.yml:169 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:176 -> Card.flavor
 msgid "\"Know when fairy tales cease to be tales? When people start believing in them.\""
 msgstr "\"Peri masalları ne zaman masal olmayı bırakır, biliyor musun? Halk ona inanmaya başladığında.\""
 
-#: src/GwentTracker/data/neutral.yml:174 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:181 -> Card.npc
 msgid "Scoia’Tael Trader"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:175 -> Card.area
+#: src/GwentTracker/data/neutral.yml:182 -> Card.area
 msgid "Novigrad Forest"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:181 -> Card.name
+#: src/GwentTracker/data/neutral.yml:188 -> Card.name
 msgid "Triss Merigold"
 msgstr "Triss Merigold"
 
-#: src/GwentTracker/data/neutral.yml:182 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:189 -> Card.flavor
 msgid "\"I can take care of myself. Trust me.\""
 msgstr "\"Başımın çaresine bakabilirim. Güven bana.\""
 
-#: src/GwentTracker/data/neutral.yml:187 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:194 -> Card.npc
 msgid "Lambert"
 msgstr "Lambert"
 
-#: src/GwentTracker/data/neutral.yml:188 -> Card.area
+#: src/GwentTracker/data/neutral.yml:195 -> Card.area
 msgid "The Nowhere"
 msgstr "Hiçbiryer"
 
-#: src/GwentTracker/data/neutral.yml:191 -> Card.notes
+#: src/GwentTracker/data/neutral.yml:198 -> Card.notes
 msgid "Before the Following the Thead quest"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:198 -> Card.region
+#: src/GwentTracker/data/neutral.yml:205 -> Card.region
 msgid "Kaer Morhen"
 msgstr "Kaer Morhen"
 
-#: src/GwentTracker/data/neutral.yml:199 -> Card.notes
+#: src/GwentTracker/data/neutral.yml:206 -> Card.notes
 msgid "After the Following the Thead quest"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:203 -> Card.name
+#: src/GwentTracker/data/neutral.yml:210 -> Card.name
 msgid "Dandelion"
 msgstr "Dandelion"
 
-#: src/GwentTracker/data/neutral.yml:204 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:211 -> Card.flavor
 msgid "\"Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend.\""
 msgstr "\"Dandelion, sen alaycı, şehvet düşkünü, zampara, yalancısın... ve en iyi dostumsun.\""
 
-#: src/GwentTracker/data/neutral.yml:210 -> Card.area
+#: src/GwentTracker/data/neutral.yml:217 -> Card.area
 msgid "Vegelbud Residence"
 msgstr "Vegelbud Konağı"
 
-#: src/GwentTracker/data/neutral.yml:213 -> Card.notes
+#: src/GwentTracker/data/neutral.yml:220 -> Card.notes
 msgid "Win a match at the masquerade ball"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:217 -> Card.name
+#: src/GwentTracker/data/neutral.yml:224 -> Card.name
 msgid "Zoltan Chivay"
 msgstr "Zoltan Chivay"
 
-#: src/GwentTracker/data/neutral.yml:218 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:225 -> Card.flavor
 msgid "\"Life without old mates and booze is like a woman without a rump.\""
 msgstr "\"Eski dostlar ve içki olmadan hayat, kalçası olmayan bir kadına benzer.\""
 
-#: src/GwentTracker/data/neutral.yml:222 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:229 -> Card.npc
 msgid "Scholar"
 msgstr "Âlim"
 
-#: src/GwentTracker/data/neutral.yml:229 -> Card.name
+#: src/GwentTracker/data/neutral.yml:236 -> Card.name
 msgid "Emiel Regis Rohellec Terzieff"
 msgstr "Emiel Regis Rohellec Terzieff"
 
-#: src/GwentTracker/data/neutral.yml:230 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:237 -> Card.flavor
 msgid "\"Men, the polite ones, at least, would call me a monster. A blood-drinking freak.\""
 msgstr "\"İnsanlar, en azından kibar olanlar, bana canavar, kan içen bir ucube der.\""
 
-#: src/GwentTracker/data/neutral.yml:241 -> Card.name
+#: src/GwentTracker/data/neutral.yml:248 -> Card.name
 msgid "Villentretenmerth"
 msgstr "Villentretenmerth"
 
-#: src/GwentTracker/data/neutral.yml:242 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:249 -> Card.flavor
 msgid "\"Also calls himself Borkh Three Jackdaws… he's not the best at names.\""
 msgstr "\"Ayrıca kendisine Borkh Üç Cücekarga diyor... isimler konusunda pek iyi değil.\""
 
-#: src/GwentTracker/data/neutral.yml:253 -> Card.name
+#: src/GwentTracker/data/neutral.yml:260 -> Card.name
 msgid "Avallac'h"
 msgstr "Avallac'h"
 
-#: src/GwentTracker/data/neutral.yml:254 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:261 -> Card.flavor
 msgid "\"You humans have… unusual tastes.\""
 msgstr "\"Siz insanların… alışılmadık zevkleri var.\""
 
-#: src/GwentTracker/data/neutral.yml:259 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:266 -> Card.npc
 msgid "Gremist"
 msgstr "Gremist"
+
+#: src/GwentTracker/data/neutral.yml:274 -> Card.flavor
+msgid "\"At least you now know I don't easily lose my head.\""
+msgstr "\"En azından artık kolay kolay kellemi kaybetmediğimi biliyorsun.\""
+
+#: src/GwentTracker/data/neutral.yml:278 -> Card.npc
+msgid "Shani"
+msgstr "Shani"
+
+#: src/GwentTracker/data/neutral.yml:279 -> Card.area
+msgid "Shani's Clinic"
+msgstr "Shani'nin Kliniği"
+
+#: src/GwentTracker/data/neutral.yml:290 -> Card.name
+msgid "Gaunter O'Dimm"
+msgstr "Gaunter O'Dimm"
+
+#: src/GwentTracker/data/neutral.yml:291 -> Card.flavor
+msgid "\"He always grants exactly what you wish for. That's the problem.\""
+msgstr "\"Her zaman, tam olarak dilediğin şeyi bahşeder sana. Sorun da bu zaten.\""
+
+#: src/GwentTracker/data/neutral.yml:296 -> Card.npc
+msgid "Hilbert"
+msgstr "Hilbert"
+
+#: src/GwentTracker/data/neutral.yml:297 -> Card.area
+msgid "Borsody Auction House"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:303 -> Card.name
+msgid "Gaunter O'Dimm: Darkness"
+msgstr "Gaunter O'Dimm: Karanlık"
+
+#: src/GwentTracker/data/neutral.yml:304 -> Card.flavor
+msgid "\"Fear not the shadows, but the light.\""
+msgstr "\"Gölgelerden korkma, ışıktan kork.\""
+
+#: src/GwentTracker/data/neutral.yml:315 -> Card.npc
+msgid "Trader"
+msgstr "Tacir"
+
+#: src/GwentTracker/data/neutral.yml:316 -> Card.area
+msgid "Circus"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:317 -> Card.territory
+msgid "Carsten"
+msgstr "Carsten"
+
+#: src/GwentTracker/data/neutral.yml:328 -> Card.name
+msgid "Cow"
+msgstr "İnek"
+
+#: src/GwentTracker/data/neutral.yml:329 -> Card.flavor
+msgid "\"Mooo!\""
+msgstr "\"Mööö!\""
+
+#: src/GwentTracker/data/neutral.yml:333 -> Card.area
+msgid "Barn"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:334 -> Card.territory
+msgid "Brunwich"
+msgstr "Brunwich"
+
+#: src/GwentTracker/data/neutral.yml:339 -> Card.name
+msgid "Bovine Defense Force"
+msgstr "Büyükbaş Savunma Gücü"
+
+#: src/GwentTracker/data/neutral.yml:340 -> Card.flavor
+msgid "\"Grrrrr!\""
+msgstr "\"Gııırrrrr!\""
+
+#: src/GwentTracker/data/neutral.yml:344 -> Card.type
+msgid "Summon"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:347 -> Card.name
+msgid "Skellige Storm"
+msgstr "Skellige Fırtınası"
+
+#: src/GwentTracker/data/neutral.yml:348 -> Card.flavor
+msgid "\"This ain't no normal storm. This here's the wrath of the gods.\""
+msgstr "\"Bu, normal bir fırtına değil. Bu şey, tanrıların gazabı.\""
+
+#: src/GwentTracker/data/neutral.yml:353 -> Card.npc
+msgid "Armorer"
+msgstr "Zırhçı"
+
+#: src/GwentTracker/data/neutral.yml:354 -> Card.area
+msgid "Tourney Grounds"
+msgstr "Turnuva Alanı"
+
+#: src/GwentTracker/data/neutral.yml:355 -> Card.territory
+msgid "Beauclair"
+msgstr "Beauclair"
+
+#: src/GwentTracker/data/neutral.yml:356 -> Card.region
+msgid "Toussaint"
+msgstr "Toussaint"
+
+#: src/GwentTracker/data/neutral.yml:359 -> Card.npc
+msgid "Barber"
+msgstr "Berber"
+
+#: src/GwentTracker/data/neutral.yml:365 -> Card.npc
+msgid "Butcher"
+msgstr "Kasap"
+
+#: src/GwentTracker/data/neutral.yml:366 -> Card.area
+msgid "Beauclair Port"
+msgstr "Beauclair Limanı"
 
 #: src/GwentTracker/data/nilfgaard.yml:2 -> Card.deck
 msgid "Nilfgaard"
@@ -882,10 +1010,6 @@ msgstr "Albrich"
 #: src/GwentTracker/data/nilfgaard.yml:56 -> Card.flavor
 msgid "\"A fireball? Of course. Whatever Your Imperial Majesty wishes.\""
 msgstr "\"Ateştopu mu? Elbette. İmparatorluk Majesteleri nasıl isterse.\""
-
-#: src/GwentTracker/data/nilfgaard.yml:60 -> Card.npc
-msgid "Trader"
-msgstr "Tacir"
 
 #: src/GwentTracker/data/nilfgaard.yml:67 -> Card.name
 msgid "Assire var Anahid"
@@ -1079,89 +1203,85 @@ msgstr "İmpera Tugayı Muhafızı"
 msgid "\"The Impera Brigade never surrenders. Ever.\""
 msgstr "\"İmpera Tugayı asla teslim olmaz. Asla.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:354 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:355 -> Card.name
 msgid "Nausicaa Cavalry Rider"
 msgstr "Nausicaa Atlı Süvarisi"
 
-#: src/GwentTracker/data/nilfgaard.yml:355 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:356 -> Card.flavor
 msgid "\"The Emperor will teach the North discipline.\""
 msgstr "\"İmparator, Kuzey'e disiplini öğretecek.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:378 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:380 -> Card.name
 msgid "Siege Engineer"
 msgstr "Kuşatma Düzenekçisi"
 
-#: src/GwentTracker/data/nilfgaard.yml:379 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:381 -> Card.flavor
 msgid "\"Wielded correctly, a protractor can be a deadly weapon.\""
 msgstr "\"Doğru kullanıldığında bir açıölçer ölümcül bir silah olabilir.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:390 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:392 -> Card.name
 msgid "Young Emissary"
 msgstr "Genç Temsilci"
 
-#: src/GwentTracker/data/nilfgaard.yml:391 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:393 -> Card.flavor
 msgid "\"If I acquit myself well, perhaps next they'll post me somewhere civilized.\""
 msgstr "\"Bu görevden yüzümün akıyla çıkarsam belki bir dahakine beni daha medeni bir yere verirler.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:414 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:416 -> Card.name
 msgid "Siege Technician"
 msgstr "Kuşatma Teknisyeni"
 
-#: src/GwentTracker/data/nilfgaard.yml:415 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:417 -> Card.flavor
 msgid "\"I never miss twice.\""
 msgstr "\"Asla iki kez ıskalamam.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:420 -> Card.area
+#: src/GwentTracker/data/nilfgaard.yml:422 -> Card.area
 msgid "Golden Sturgeon"
 msgstr "Altın Mersinbalığı"
 
-#: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:428 -> Card.name
 msgid "Emhyr var Emreis: His Imperial Majesty"
 msgstr "Emhyr var Emreis: İmparatorluk Majesteleri"
 
-#: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:429 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"Pavetta'm öldüğünde gökler ağladı. Aynı gökler benim için ağlamayacak.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:435 -> Card.name
 msgid "Emhyr var Emreis: Emperor of Nilfgaard"
 msgstr "Emhyr var Emreis: Nilfgaard İmparatoru"
 
-#: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:436 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"Beni gerekçelerin ilgilendirmiyor. Tek ilgilendiğim sonuçlar.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:447 -> Card.name
 msgid "Emhyr var Emreis: the White Flame"
 msgstr "Emhyr var Emreis: Kor Alev"
 
-#: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:448 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
 msgstr "\"Kılıç, bir hükümdarın elinin altındaki pek çok aletten sadece biridir.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:455 -> Card.notes
+#: src/GwentTracker/data/nilfgaard.yml:457 -> Card.notes
 msgid "Reward for completing quest"
 msgstr ""
 
-#: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:461 -> Card.name
 msgid "Emhyr var Emreis: the Relentless"
 msgstr "Emhyr var Emreis: Amansız"
 
-#: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:462 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"Bana Sabırlı demezler. Dikkat et de sana Başsız demesinler.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:474 -> Card.name
 msgid "Emhyr var Emreis: Invader of the North"
 msgstr "Emhyr var Emreis: Kuzeyin İstilacısı"
 
-#: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:475 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
 msgstr "\"İmparatorlar, halk yığınlarına hükmeder. Ancak iki şeye söz geçiremezler: zamanları ve kalpleri.\""
-
-#: src/GwentTracker/data/nilfgaard.yml:478 -> Card.area
-msgid "Carsten"
-msgstr "Carsten"
 
 #: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
 msgid "Northern Realms"
@@ -1319,115 +1439,115 @@ msgstr "Zavallı Boktan Piyade"
 msgid "\"I's a war veteran! ... spare me a crown?\""
 msgstr "\"Ben savaş gazisiyim! ... bir sadaka?\""
 
-#: src/GwentTracker/data/northernrealms.yml:182 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:183 -> Card.name
 msgid "Crinfrid Reavers Dragon Hunter"
 msgstr "Crinfrid Yağmacıları Ejderha Avcısı"
 
-#: src/GwentTracker/data/northernrealms.yml:183 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:184 -> Card.flavor
 msgid "\"Haven't had much luck with monsters of late, so we enlisted.\""
 msgstr "\"Son zamanlarda canavarlardan yana şansımız yaver gitmedi, biz de yazıldık.\""
 
-#: src/GwentTracker/data/northernrealms.yml:207 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:209 -> Card.name
 msgid "Redanian Foot Soldier"
 msgstr "Redanyalı Piyade Eri"
 
-#: src/GwentTracker/data/northernrealms.yml:208 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:210 -> Card.flavor
 msgid "\"I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!\""
 msgstr "\"Redanya için kanımı döktüm! Redanya için öldürdüm... Redanya için ırza bile geçtim!\""
 
-#: src/GwentTracker/data/northernrealms.yml:221 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:223 -> Card.name
 msgid "Catapult"
 msgstr "Mancınık"
 
-#: src/GwentTracker/data/northernrealms.yml:222 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:224 -> Card.flavor
 msgid "\"The gods help those who have better catapults.\""
 msgstr "\"Tanrılar, daha iyi mancınığı olanlara yardımcı olur.\""
 
-#: src/GwentTracker/data/northernrealms.yml:239 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:242 -> Card.name
 msgid "Ballista"
 msgstr "Mancınık"
 
-#: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:243 -> Card.flavor
 msgid "\"Usually we give 'em female names.\" \"Like Jenny?\" \"More like Bertha.\""
 msgstr "\"Genellikle onlara kadın isimleri veririz.\" \"Jenny gibi mi?\" \"Daha çok Bertha gibi.\""
 
-#: src/GwentTracker/data/northernrealms.yml:253 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:256 -> Card.name
 msgid "Kaedweni Siege Expert"
 msgstr "Kaedwenlı Kuşatma Uzmanı"
 
-#: src/GwentTracker/data/northernrealms.yml:254 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:257 -> Card.flavor
 msgid "\"You gotta recalibrate the arm by five degrees.\" \"Do what by the what now?\""
 msgstr "\"Kolu beş derece kadar yeniden kalibre etmen gerek.\" \"Neyi ne etmem gerek?\""
 
-#: src/GwentTracker/data/northernrealms.yml:260 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:264 -> Card.name
 msgid "Blue Stripes Commando"
 msgstr "Mavi Şeritliler Komandosu"
 
-#: src/GwentTracker/data/northernrealms.yml:261 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:265 -> Card.flavor
 msgid "\"I'd do anything for Temeria. Mostly, though, I kill for her.\""
 msgstr "\"Temerya için her şeyi yaparım. Gerçi çoğunlukla onun için öldürürüm.\""
 
-#: src/GwentTracker/data/northernrealms.yml:274 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:279 -> Card.name
 msgid "Siege Tower"
 msgstr "Kuşatma Kulesi"
 
-#: src/GwentTracker/data/northernrealms.yml:275 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:280 -> Card.flavor
 msgid "\"I love the clamor of siege towers in the morning. Sounds like victory.\""
 msgstr "\"Sabah kuşatma kulelerinin çıkardığı gürültüyü severim. Kulağa zaferin sesi gibi gelir.\""
 
-#: src/GwentTracker/data/northernrealms.yml:286 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:291 -> Card.name
 msgid "Dun Banner Medic"
 msgstr "Dun Sancağı Sıhhiyecisi"
 
-#: src/GwentTracker/data/northernrealms.yml:287 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:292 -> Card.flavor
 msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"Kırmızıyı kırmızıya dik, beyazı da beyaza, sonra her şey yoluna girecek.\""
 
-#: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:298 -> Card.name
 msgid "Foltest: King of Temeria"
 msgstr "Foltest: Temerya Kralı"
 
-#: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:299 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"Bir adam kız kardeşini sevmelidir, bu doğal ve güzel bir şeydir.\""
 
-#: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:305 -> Card.name
 msgid "Foltest: Lord Commander of the North"
 msgstr "Foltest: Kuzeyin Lord Komutanı"
 
-#: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:306 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "\"Yemişim danışmanını da entrikalarını da. Ben askerlerimin kılıçlarına güvenirim.\""
 
-#: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:317 -> Card.name
 msgid "Foltest: the Siegemaster"
 msgstr "Foltest: Kuşatma Ustası"
 
-#: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:318 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
 msgstr "\"İyi nişanlanmış bir mancınık sadece düşmanın surlarını değil, moralini de yerle bir eder.\""
 
-#: src/GwentTracker/data/northernrealms.yml:317 -> Card.npc
+#: src/GwentTracker/data/northernrealms.yml:322 -> Card.npc
 msgid "Nilfgaardian Nobleman"
 msgstr "Nilfgaardlı Soylu"
 
-#: src/GwentTracker/data/northernrealms.yml:320 -> Card.region
+#: src/GwentTracker/data/northernrealms.yml:325 -> Card.region
 msgid "Royal Palace in Vizima"
 msgstr "Vizima'daki Kraliyet Sarayı"
 
-#: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:329 -> Card.name
 msgid "Foltest: the Steel-Forged"
 msgstr "Foltest: Çelikten Dövülmüş"
 
-#: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:330 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"Savaşmak için güzel bir gün.\""
 
-#: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:342 -> Card.name
 msgid "Foltest: Son of Medell"
 msgstr "Foltest: Medell'in Oğlu"
 
-#: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:343 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
 msgstr "\"Kahretsin, bu diyara ben hükmediyorum ve köşelerine sinerek ilerlemeyi reddediyorum.\""
 
@@ -1632,349 +1752,357 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"Elbette yaralarını sararım. Ama sana bir maliyeti olur.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
+msgid "Schirrú"
+msgstr "Schirrú"
+
+#: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
+msgid "\"Time to look death in the face.\""
+msgstr "\"Ölümün yüzüne bakma zamanı geldi.\""
+
+#: src/GwentTracker/data/scoiatael.yml:466 -> Card.name
 msgid "Francesca Findabair: Pureblood Elf"
 msgstr "Francesca Findabair: Safkan Elf"
 
-#: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:467 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "\"Kül, toprağın bereketini artıracak. Bahar geldiğinde vadide bir kez daha çiçekler açacak.\""
 
-#: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
 msgid "Francesca Findabair: Daisy of the Valley"
 msgstr "Francesca Findabair: Vadinin Papatyası"
 
-#: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"Kadim Irklar, insanların öğrenmeyi umut edebileceğinden çok fazlasını unutmuştur.\""
 
-#: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:485 -> Card.name
 msgid "Francesca Findabair: the Beautiful"
 msgstr "Francesca Findabair: Güzeller Güzeli"
 
-#: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:486 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"Güzelliğimin seni hedefinden saptırtmasına izin verme.\""
 
-#: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
 msgid "Francesca Findabair: Queen of Dol Blathanna"
 msgstr "Francesca Findabair: Dol Blathanna Kraliçesi"
 
-#: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "\"Barış içinde yaşamak için önce öldürmeliyiz. Bu, insan zulmünün acımasız kaderidir.\""
 
-#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:512 -> Card.name
 msgid "Francesca Findabair: Hope of the Aen Seidhe"
 msgstr "Francesca Findabair: Aen Seidhe'in Umudu"
 
-#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:513 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
 msgstr "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
 
 #: src/GwentTracker/data/skellige.yml:4 -> Card.name
-msgid "Hemdall"
-msgstr "Hemdall"
+msgid "Mardroeme"
+msgstr "Mardrom"
 
 #: src/GwentTracker/data/skellige.yml:5 -> Card.flavor
-msgid "\"When the time of the White Frost comes, Hemdall will sound the call for battle.\""
-msgstr "\"Ak Ayaz zamanı gelip çattığında Hemdall, muharebe çağrısını yapacak.\""
+msgid "\"Eat enough of them, and the world will never be the same…\""
+msgstr "\"Onlardan yeterince ye ve gör, dünya asla eskisi gibi olmayacak…\""
 
-#: src/GwentTracker/data/skellige.yml:8 -> Card.type
-msgid "Summon"
-msgstr ""
-
-#: src/GwentTracker/data/skellige.yml:11 -> Card.name
-msgid "Hjalmar"
-msgstr "Hjalmar"
-
-#: src/GwentTracker/data/skellige.yml:12 -> Card.flavor
-msgid "\"Instead of mournin' the fallen, let's drink to their memory!\""
-msgstr "\"Şehit düşenlere yas tutmak yerine onların anısına içelim!\""
-
-#: src/GwentTracker/data/skellige.yml:15 -> Card.type
+#: src/GwentTracker/data/skellige.yml:9 -> Card.type
 msgid "B&W Base Deck"
 msgstr ""
 
-#: src/GwentTracker/data/skellige.yml:19 -> Card.name
-msgid "Cerys"
-msgstr "Cerys"
+#: src/GwentTracker/data/skellige.yml:12 -> Card.npc
+msgid "Madame"
+msgstr "Madam"
 
-#: src/GwentTracker/data/skellige.yml:20 -> Card.flavor
-msgid "\"They call me Sparrowhawk, know why? Because I eat rats like you for breakfast.\""
-msgstr "\"Bana niye Atmaca dediklerini biliyor musun? Çünkü senin gibi fareleri kahvaltı niyetine yiyorum.\""
+#: src/GwentTracker/data/skellige.yml:13 -> Card.area
+msgid "The Belles of Beauclair"
+msgstr "Beauclair Dilberleri"
 
-#: src/GwentTracker/data/skellige.yml:25 -> Card.area
-msgid "The Barrel and Bung Inn"
-msgstr "Fıçı ve Tapası Hanı"
-
-#: src/GwentTracker/data/skellige.yml:26 -> Card.territory
-msgid "Flovive"
-msgstr "Flovive"
-
-#: src/GwentTracker/data/skellige.yml:27 -> Card.region
-msgid "Toussaint"
-msgstr "Toussaint"
-
-#: src/GwentTracker/data/skellige.yml:32 -> Card.flavor
-msgid "\"Only the ignorant dismiss the importance of myths.\""
-msgstr "\"Yalnızca cahiller, efsanelerin önemini görmezden gelir.\""
-
-#: src/GwentTracker/data/skellige.yml:37 -> Card.area
-msgid "Francollarts"
-msgstr "Francollarts"
-
-#: src/GwentTracker/data/skellige.yml:38 -> Card.territory
-msgid "Caroberta Woods"
-msgstr "Caroberta Ormanı"
-
-#: src/GwentTracker/data/skellige.yml:43 -> Card.name
-msgid "Draig Bon-Dhu"
-msgstr "Draig Bon-Dhu"
-
-#: src/GwentTracker/data/skellige.yml:44 -> Card.flavor
-msgid "\"Hear ye now the tale of the heroic deeds of Clan an Craite.\""
-msgstr "\"Şimdi an Craite Klanı'nın kahramanlık öykülerine kulak verin.\""
-
-#: src/GwentTracker/data/skellige.yml:55 -> Card.name
-msgid "Holger Blackhand"
-msgstr "Holger Karael"
-
-#: src/GwentTracker/data/skellige.yml:56 -> Card.flavor
-msgid "\"Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!\""
-msgstr "\"Şimdi de Nilfgaard İmparator'una içelim. Çükü sonsuza dek sarkık kalsın!\""
-
-#: src/GwentTracker/data/skellige.yml:64 -> Card.flavor
-msgid "\"WAAAAAAAAAAGH!!!!\""
-msgstr "\"YAAAAAAAAAAHH!!!\""
-
-#: src/GwentTracker/data/skellige.yml:71 -> Card.name
-msgid "Donar an Hindar"
-msgstr "Donar an Hindar"
-
-#: src/GwentTracker/data/skellige.yml:72 -> Card.flavor
-msgid "\"I've gathered all the jarls together. Now make your case.\""
-msgstr "\"Yarlların hepsini bir araya topladım. Şimdi meramını dile getir.\""
-
-#: src/GwentTracker/data/skellige.yml:79 -> Card.name
-msgid "Udalryk"
-msgstr "Udalryk"
-
-#: src/GwentTracker/data/skellige.yml:80 -> Card.flavor
-msgid "\"Haaaargh! After me, if ye've the bollocks!\""
-msgstr "\"Aaaaargh! Peşimden gelin, bir taraflarınız yiyorsa!\""
-
-#: src/GwentTracker/data/skellige.yml:87 -> Card.name
-msgid "Birna Bran"
-msgstr "Birna Bran"
-
-#: src/GwentTracker/data/skellige.yml:88 -> Card.flavor
-msgid "\"Skellige must have a strong king. No matter what it takes.\""
-msgstr "\"Skellige'nin güçlü bir kralı olmalı. Bunun için ne gerekirse gereksin.\""
-
-#: src/GwentTracker/data/skellige.yml:95 -> Card.name
-msgid "Blueboy Lugos"
-msgstr "Mavioğlan Lugos"
-
-#: src/GwentTracker/data/skellige.yml:96 -> Card.flavor
-msgid "\"I'm damn near ready to puke from boredom.\""
-msgstr "\"Can sıkıntısından neredeyse kusacağım lan burada.\""
-
-#: src/GwentTracker/data/skellige.yml:103 -> Card.name
-msgid "Svanrige"
-msgstr "Svanrige"
-
-#: src/GwentTracker/data/skellige.yml:104 -> Card.flavor
-msgid "\"The emperor also thought him an accidental king. At first.\""
-msgstr "\"İmparator ayrıca onu geçici bir kral olarak düşündü. Başlarda.\""
-
-#: src/GwentTracker/data/skellige.yml:111 -> Card.name
-msgid "Olaf"
-msgstr "Olaf"
-
-#: src/GwentTracker/data/skellige.yml:112 -> Card.flavor
-msgid "\"Many've tried to defeat Olaf. But won't hear about it from them - they're dead.\""
-msgstr "\"Pek çok kişi Olaf'ı yenmeye kalkışmıştır. Ama bunu onlardan duyamazsın, çünkü hepsi öldü.\""
-
-#: src/GwentTracker/data/skellige.yml:116 -> Card.npc
-msgid "Sommelier"
-msgstr "Saki"
-
-#: src/GwentTracker/data/skellige.yml:117 -> Card.area
-msgid "The Adder and Jewels Winery"
-msgstr "Engerek ve Elmaslar Şaraphanesi"
-
-#: src/GwentTracker/data/skellige.yml:118 -> Card.territory
-msgid "Beauclair"
-msgstr "Beauclair"
-
-#: src/GwentTracker/data/skellige.yml:123 -> Card.name
-msgid "Berserker"
-msgstr "Cinnetkâr"
-
-#: src/GwentTracker/data/skellige.yml:124 -> Card.flavor
-msgid "\"Kill, crush, cleave!\""
-msgstr "\"Öldür, ez, parçala!\""
-
-#: src/GwentTracker/data/skellige.yml:131 -> Card.name
-msgid "Transformed Vildkaarl"
-msgstr "Dönüşmüş Vildkaarl"
-
-#: src/GwentTracker/data/skellige.yml:132 -> Card.flavor
-msgid "Saw them fight once in my life… and once was enough."
-msgstr "<I>Onları bir keresinde savaşırken görmüştüm… O da bana yetti.</I>"
-
-#: src/GwentTracker/data/skellige.yml:138 -> Card.name
-msgid "Young Berserker"
-msgstr "Genç Cinnetkâr"
-
-#: src/GwentTracker/data/skellige.yml:139 -> Card.flavor
-msgid "\"Want some?\""
-msgstr "\"Tadına bakar mısın?\""
-
-#: src/GwentTracker/data/skellige.yml:145 -> Card.npc
-msgid "Blacksmith"
-msgstr "Demirci"
-
-#: src/GwentTracker/data/skellige.yml:146 -> Card.area
-msgid "Tourney Grounds"
-msgstr "Turnuva Alanı"
-
-#: src/GwentTracker/data/skellige.yml:147 -> Card.territory
-msgid "Sansretour Valley"
-msgstr "Sansretour Vadisi"
-
-#: src/GwentTracker/data/skellige.yml:151 -> Card.npc
-msgid "Pierre"
-msgstr "Pierre"
-
-#: src/GwentTracker/data/skellige.yml:152 -> Card.area
-msgid "Tailor's Workshop"
-msgstr "Terzi Atölyesi"
-
-#: src/GwentTracker/data/skellige.yml:153 -> Card.territory
-msgid "Hauteville"
-msgstr "Hauteville"
-
-#: src/GwentTracker/data/skellige.yml:158 -> Card.name
-msgid "Transformed Young Vildkaarl"
-msgstr "Dönüşmüş Genç Vildkaarl"
-
-#: src/GwentTracker/data/skellige.yml:159 -> Card.flavor
-msgid "Rooaaaar!"
-msgstr "<I>Hııırrrrrrrrr!</I>"
-
-#: src/GwentTracker/data/skellige.yml:165 -> Card.name
-msgid "Clan an Craite Warrior"
-msgstr "An Craite Klanı Savaşçısı"
-
-#: src/GwentTracker/data/skellige.yml:166 -> Card.flavor
-msgid "\"I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!\""
-msgstr "\"An Craiteler'e öyle bir zafer getireceğim ki ozanların bana övgü düzmekten sesleri kısılacak!\""
-
-#: src/GwentTracker/data/skellige.yml:173 -> Card.name
-msgid "Clan Tordarroch Armorsmith"
-msgstr "Tordarroch Klanı Zırh Demircisi"
-
-#: src/GwentTracker/data/skellige.yml:174 -> Card.flavor
-msgid "\"Ye're in for a poundin'.\""
-msgstr "\"Zırh dövdürmeye geldin demek.\""
-
-#: src/GwentTracker/data/skellige.yml:181 -> Card.name
-msgid "Clan Heymaey Skald"
-msgstr "Heymaey Klanı Skaldı"
-
-#: src/GwentTracker/data/skellige.yml:182 -> Card.flavor
-msgid "\"The deeds of Clan Heymaey will go down in history.\""
-msgstr "\"Heymaey Klanı'nın başarıları tarihe kazınacak.\""
-
-#: src/GwentTracker/data/skellige.yml:189 -> Card.name
-msgid "Light Longship"
-msgstr "Hafif Uzungemi"
-
-#: src/GwentTracker/data/skellige.yml:190 -> Card.flavor
-msgid "\"Escape them? In the waters of Skellige? Good luck.\""
-msgstr "\"Onlardan kaçmak mı? Skellige sularında mı? Bol şans.\""
-
-#: src/GwentTracker/data/skellige.yml:197 -> Card.area
-msgid "Perfumery"
-msgstr "Parfümeri"
-
-#: src/GwentTracker/data/skellige.yml:203 -> Card.name
-msgid "War Longship"
-msgstr "Savaş Uzungemisi"
-
-#: src/GwentTracker/data/skellige.yml:204 -> Card.flavor
-msgid "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
-msgstr "\"Ne zaman uzungemiler bir baskına çıksa Hemdall'ın yüreğinin kabardığını söylerler.\""
-
-#: src/GwentTracker/data/skellige.yml:217 -> Card.name
-msgid "Clan Brokvar Archer"
-msgstr "Brokvar Klanı Okçusu"
-
-#: src/GwentTracker/data/skellige.yml:218 -> Card.flavor
-msgid "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
-msgstr "\"Demek hareket eden bir hedefi iki yüz adımdan vurabiliyorsun. Ben de. Fırtınada.\""
-
-#: src/GwentTracker/data/skellige.yml:224 -> Card.npc
+#: src/GwentTracker/data/skellige.yml:18 -> Card.npc
 msgid "Herbalist"
 msgstr "Otacı"
 
-#: src/GwentTracker/data/skellige.yml:225 -> Card.area
+#: src/GwentTracker/data/skellige.yml:19 -> Card.area
+msgid "Herb Store"
+msgstr "Otacı Dükkânı"
+
+#: src/GwentTracker/data/skellige.yml:20 -> Card.territory
+msgid "Hauteville"
+msgstr "Hauteville"
+
+#: src/GwentTracker/data/skellige.yml:25 -> Card.name
+msgid "Hemdall"
+msgstr "Hemdall"
+
+#: src/GwentTracker/data/skellige.yml:26 -> Card.flavor
+msgid "\"When the time of the White Frost comes, Hemdall will sound the call for battle.\""
+msgstr "\"Ak Ayaz zamanı gelip çattığında Hemdall, muharebe çağrısını yapacak.\""
+
+#: src/GwentTracker/data/skellige.yml:33 -> Card.name
+msgid "Hjalmar"
+msgstr "Hjalmar"
+
+#: src/GwentTracker/data/skellige.yml:34 -> Card.flavor
+msgid "\"Instead of mournin' the fallen, let's drink to their memory!\""
+msgstr "\"Şehit düşenlere yas tutmak yerine onların anısına içelim!\""
+
+#: src/GwentTracker/data/skellige.yml:41 -> Card.name
+msgid "Cerys"
+msgstr "Cerys"
+
+#: src/GwentTracker/data/skellige.yml:42 -> Card.flavor
+msgid "\"They call me Sparrowhawk, know why? Because I eat rats like you for breakfast.\""
+msgstr "\"Bana niye Atmaca dediklerini biliyor musun? Çünkü senin gibi fareleri kahvaltı niyetine yiyorum.\""
+
+#: src/GwentTracker/data/skellige.yml:47 -> Card.area
+msgid "The Barrel and Bung Inn"
+msgstr "Fıçı ve Tapası Hanı"
+
+#: src/GwentTracker/data/skellige.yml:48 -> Card.territory
+msgid "Flovive"
+msgstr "Flovive"
+
+#: src/GwentTracker/data/skellige.yml:54 -> Card.flavor
+msgid "\"Only the ignorant dismiss the importance of myths.\""
+msgstr "\"Yalnızca cahiller, efsanelerin önemini görmezden gelir.\""
+
+#: src/GwentTracker/data/skellige.yml:59 -> Card.area
+msgid "Francollarts"
+msgstr "Francollarts"
+
+#: src/GwentTracker/data/skellige.yml:60 -> Card.territory
+msgid "Caroberta Woods"
+msgstr "Caroberta Ormanı"
+
+#: src/GwentTracker/data/skellige.yml:65 -> Card.name
+msgid "Draig Bon-Dhu"
+msgstr "Draig Bon-Dhu"
+
+#: src/GwentTracker/data/skellige.yml:66 -> Card.flavor
+msgid "\"Hear ye now the tale of the heroic deeds of Clan an Craite.\""
+msgstr "\"Şimdi an Craite Klanı'nın kahramanlık öykülerine kulak verin.\""
+
+#: src/GwentTracker/data/skellige.yml:77 -> Card.name
+msgid "Holger Blackhand"
+msgstr "Holger Karael"
+
+#: src/GwentTracker/data/skellige.yml:78 -> Card.flavor
+msgid "\"Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!\""
+msgstr "\"Şimdi de Nilfgaard İmparator'una içelim. Çükü sonsuza dek sarkık kalsın!\""
+
+#: src/GwentTracker/data/skellige.yml:86 -> Card.flavor
+msgid "\"WAAAAAAAAAAGH!!!!\""
+msgstr "\"YAAAAAAAAAAHH!!!\""
+
+#: src/GwentTracker/data/skellige.yml:93 -> Card.name
+msgid "Donar an Hindar"
+msgstr "Donar an Hindar"
+
+#: src/GwentTracker/data/skellige.yml:94 -> Card.flavor
+msgid "\"I've gathered all the jarls together. Now make your case.\""
+msgstr "\"Yarlların hepsini bir araya topladım. Şimdi meramını dile getir.\""
+
+#: src/GwentTracker/data/skellige.yml:101 -> Card.name
+msgid "Udalryk"
+msgstr "Udalryk"
+
+#: src/GwentTracker/data/skellige.yml:102 -> Card.flavor
+msgid "\"Haaaargh! After me, if ye've the bollocks!\""
+msgstr "\"Aaaaargh! Peşimden gelin, bir taraflarınız yiyorsa!\""
+
+#: src/GwentTracker/data/skellige.yml:109 -> Card.name
+msgid "Birna Bran"
+msgstr "Birna Bran"
+
+#: src/GwentTracker/data/skellige.yml:110 -> Card.flavor
+msgid "\"Skellige must have a strong king. No matter what it takes.\""
+msgstr "\"Skellige'nin güçlü bir kralı olmalı. Bunun için ne gerekirse gereksin.\""
+
+#: src/GwentTracker/data/skellige.yml:117 -> Card.name
+msgid "Blueboy Lugos"
+msgstr "Mavioğlan Lugos"
+
+#: src/GwentTracker/data/skellige.yml:118 -> Card.flavor
+msgid "\"I'm damn near ready to puke from boredom.\""
+msgstr "\"Can sıkıntısından neredeyse kusacağım lan burada.\""
+
+#: src/GwentTracker/data/skellige.yml:125 -> Card.name
+msgid "Svanrige"
+msgstr "Svanrige"
+
+#: src/GwentTracker/data/skellige.yml:126 -> Card.flavor
+msgid "\"The emperor also thought him an accidental king. At first.\""
+msgstr "\"İmparator ayrıca onu geçici bir kral olarak düşündü. Başlarda.\""
+
+#: src/GwentTracker/data/skellige.yml:133 -> Card.name
+msgid "Olaf"
+msgstr "Olaf"
+
+#: src/GwentTracker/data/skellige.yml:134 -> Card.flavor
+msgid "\"Many've tried to defeat Olaf. But won't hear about it from them - they're dead.\""
+msgstr "\"Pek çok kişi Olaf'ı yenmeye kalkışmıştır. Ama bunu onlardan duyamazsın, çünkü hepsi öldü.\""
+
+#: src/GwentTracker/data/skellige.yml:138 -> Card.npc
+msgid "Sommelier"
+msgstr "Saki"
+
+#: src/GwentTracker/data/skellige.yml:139 -> Card.area
+msgid "The Adder and Jewels Winery"
+msgstr "Engerek ve Elmaslar Şaraphanesi"
+
+#: src/GwentTracker/data/skellige.yml:145 -> Card.name
+msgid "Berserker"
+msgstr "Cinnetkâr"
+
+#: src/GwentTracker/data/skellige.yml:146 -> Card.flavor
+msgid "\"Kill, crush, cleave!\""
+msgstr "\"Öldür, ez, parçala!\""
+
+#: src/GwentTracker/data/skellige.yml:153 -> Card.name
+msgid "Transformed Vildkaarl"
+msgstr "Dönüşmüş Vildkaarl"
+
+#: src/GwentTracker/data/skellige.yml:154 -> Card.flavor
+msgid "Saw them fight once in my life… and once was enough."
+msgstr "<I>Onları bir keresinde savaşırken görmüştüm… O da bana yetti.</I>"
+
+#: src/GwentTracker/data/skellige.yml:161 -> Card.name
+msgid "Young Berserker"
+msgstr "Genç Cinnetkâr"
+
+#: src/GwentTracker/data/skellige.yml:162 -> Card.flavor
+msgid "\"Want some?\""
+msgstr "\"Tadına bakar mısın?\""
+
+#: src/GwentTracker/data/skellige.yml:169 -> Card.npc
+msgid "Blacksmith"
+msgstr "Demirci"
+
+#: src/GwentTracker/data/skellige.yml:171 -> Card.territory
+msgid "Sansretour Valley"
+msgstr "Sansretour Vadisi"
+
+#: src/GwentTracker/data/skellige.yml:175 -> Card.npc
+msgid "Pierre"
+msgstr "Pierre"
+
+#: src/GwentTracker/data/skellige.yml:176 -> Card.area
+msgid "Tailor's Workshop"
+msgstr "Terzi Atölyesi"
+
+#: src/GwentTracker/data/skellige.yml:182 -> Card.name
+msgid "Transformed Young Vildkaarl"
+msgstr "Dönüşmüş Genç Vildkaarl"
+
+#: src/GwentTracker/data/skellige.yml:183 -> Card.flavor
+msgid "Rooaaaar!"
+msgstr "<I>Hııırrrrrrrrr!</I>"
+
+#: src/GwentTracker/data/skellige.yml:190 -> Card.name
+msgid "Clan an Craite Warrior"
+msgstr "An Craite Klanı Savaşçısı"
+
+#: src/GwentTracker/data/skellige.yml:191 -> Card.flavor
+msgid "\"I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!\""
+msgstr "\"An Craiteler'e öyle bir zafer getireceğim ki ozanların bana övgü düzmekten sesleri kısılacak!\""
+
+#: src/GwentTracker/data/skellige.yml:199 -> Card.name
+msgid "Clan Tordarroch Armorsmith"
+msgstr "Tordarroch Klanı Zırh Demircisi"
+
+#: src/GwentTracker/data/skellige.yml:200 -> Card.flavor
+msgid "\"Ye're in for a poundin'.\""
+msgstr "\"Zırh dövdürmeye geldin demek.\""
+
+#: src/GwentTracker/data/skellige.yml:207 -> Card.name
+msgid "Clan Heymaey Skald"
+msgstr "Heymaey Klanı Skaldı"
+
+#: src/GwentTracker/data/skellige.yml:208 -> Card.flavor
+msgid "\"The deeds of Clan Heymaey will go down in history.\""
+msgstr "\"Heymaey Klanı'nın başarıları tarihe kazınacak.\""
+
+#: src/GwentTracker/data/skellige.yml:215 -> Card.name
+msgid "Light Longship"
+msgstr "Hafif Uzungemi"
+
+#: src/GwentTracker/data/skellige.yml:216 -> Card.flavor
+msgid "\"Escape them? In the waters of Skellige? Good luck.\""
+msgstr "\"Onlardan kaçmak mı? Skellige sularında mı? Bol şans.\""
+
+#: src/GwentTracker/data/skellige.yml:226 -> Card.area
+msgid "Perfumery"
+msgstr "Parfümeri"
+
+#: src/GwentTracker/data/skellige.yml:232 -> Card.name
+msgid "War Longship"
+msgstr "Savaş Uzungemisi"
+
+#: src/GwentTracker/data/skellige.yml:233 -> Card.flavor
+msgid "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
+msgstr "\"Ne zaman uzungemiler bir baskına çıksa Hemdall'ın yüreğinin kabardığını söylerler.\""
+
+#: src/GwentTracker/data/skellige.yml:249 -> Card.name
+msgid "Clan Brokvar Archer"
+msgstr "Brokvar Klanı Okçusu"
+
+#: src/GwentTracker/data/skellige.yml:250 -> Card.flavor
+msgid "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
+msgstr "\"Demek hareket eden bir hedefi iki yüz adımdan vurabiliyorsun. Ben de. Fırtınada.\""
+
+#: src/GwentTracker/data/skellige.yml:260 -> Card.area
 msgid "Castel Ravello Vineyard"
 msgstr "Castel Ravello Bağları"
 
-#: src/GwentTracker/data/skellige.yml:231 -> Card.name
+#: src/GwentTracker/data/skellige.yml:266 -> Card.name
 msgid "Clan Drummond Shield Maiden"
 msgstr "Drummond Klanı Kalkanlı Kızı"
 
-#: src/GwentTracker/data/skellige.yml:232 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:267 -> Card.flavor
 msgid "\"They'll shatter on our shields like waves on a rocky shore.\""
 msgstr "\"Dalgaların kayalıklı kıyıya çarpışı gibi kalkanlarımıza çarpıp dağılacaklar.\""
 
-#: src/GwentTracker/data/skellige.yml:239 -> Card.name
+#: src/GwentTracker/data/skellige.yml:274 -> Card.name
 msgid "Clan Dimun Pirate"
 msgstr "Dimun Klanı Korsanı"
 
-#: src/GwentTracker/data/skellige.yml:240 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:275 -> Card.flavor
 msgid "\"Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!\""
 msgstr "\"Gözlerinde korkuyu görebiliyorum. Benden korkun… Dimun Klanı'ndan korkun!\""
 
-#: src/GwentTracker/data/skellige.yml:245 -> Card.area
+#: src/GwentTracker/data/skellige.yml:280 -> Card.area
 msgid "Dupont & Sons Emporium of Diverse Merchandise"
 msgstr ""
 
-#: src/GwentTracker/data/skellige.yml:251 -> Card.name
+#: src/GwentTracker/data/skellige.yml:286 -> Card.name
 msgid "Kambi"
 msgstr "Kambi"
 
-#: src/GwentTracker/data/skellige.yml:252 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:287 -> Card.flavor
 msgid "\"When the time comes, the cockerel Kambi shall crow and awaken Hemdall.\""
 msgstr "\"Vakti geldiğinde horoz Kambi ötecek ve Hemdall'ı uyandıracak.\""
 
-#: src/GwentTracker/data/skellige.yml:256 -> Card.npc
-msgid "Armorer"
-msgstr "Zırhçı"
-
-#: src/GwentTracker/data/skellige.yml:269 -> Card.area
+#: src/GwentTracker/data/skellige.yml:304 -> Card.area
 msgid "The Cockatrice Inn"
 msgstr "Horozbaş Hanı"
 
-#: src/GwentTracker/data/skellige.yml:287 -> Card.name
+#: src/GwentTracker/data/skellige.yml:322 -> Card.name
 msgid "King Bran"
 msgstr "Kral Bran"
 
-#: src/GwentTracker/data/skellige.yml:288 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:323 -> Card.flavor
 msgid "\"No one can replace Bran. Though they're sure to try.\""
 msgstr "\"Kimse Bran'ın yerine geçemez. Ama bunu deneyecekleri kesin.\""
 
-#: src/GwentTracker/data/skellige.yml:292 -> Card.npc
+#: src/GwentTracker/data/skellige.yml:327 -> Card.npc
 msgid "Rafael de Surmann"
 msgstr ""
 
-#: src/GwentTracker/data/skellige.yml:293 -> Card.area
+#: src/GwentTracker/data/skellige.yml:328 -> Card.area
 msgid "The Pheasantry"
 msgstr "Sülün Yuvası"
 
-#: src/GwentTracker/data/skellige.yml:300 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:335 -> Card.flavor
 msgid "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
 msgstr "<I>Kral dediğin zeki olmalıdır. Kral dediğin saygın olmalıdır. Kral dediğin cesur olmalıdır.</I>"

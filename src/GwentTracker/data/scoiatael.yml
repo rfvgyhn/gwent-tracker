@@ -449,6 +449,18 @@
             territory: 
             region: Novigrad
             coords: []
+-   index: 368
+    deck: Scoia'tael
+    name: "Schirrú"
+    flavor: "\"Time to look death in the face.\""
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Trader
+            area: Circus
+            territory: Carsten
+            region: Redania
+            coords: []
 -   index: 3001
     deck: Scoia'tael
     name: "Francesca Findabair: Pureblood Elf"

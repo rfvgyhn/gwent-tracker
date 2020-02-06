@@ -496,79 +496,103 @@ msgid "\"I'd be your best - and last.\""
 msgstr "\"네가 최고구나 - 그리고 마지막이기도 하지.\""
 
 #: src/GwentTracker/data/monsters.yml:488 -> Card.name
+msgid "Toad"
+msgstr "두꺼비"
+
+#: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
+msgid "\"Big. Bad. Ugly. Squats in the sewers.\""
+msgstr "\"크고, 나쁘고, 못생겼지. 하수도에 서식하고.\""
+
+#: src/GwentTracker/data/monsters.yml:493 -> Card.npc
+msgid "Olgierd von Everec"
+msgstr "올지어드 폰 에버렉"
+
+#: src/GwentTracker/data/monsters.yml:496 -> Card.region
+msgid "Redania"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:498 -> Card.type
+msgid "Loot"
+msgstr ""
+
+#: src/GwentTracker/data/monsters.yml:499 -> Card.area
+msgid "The Alchemy"
+msgstr "연금술사"
+
+#: src/GwentTracker/data/monsters.yml:500 -> Card.territory
+msgid "Oxenfurt"
+msgstr "옥센푸르트"
+
+#: src/GwentTracker/data/monsters.yml:505 -> Card.name
 msgid "Eredin: King of the Wild Hunt"
 msgstr "에레딘: 와일드 헌트 왕"
 
-#: src/GwentTracker/data/monsters.yml:489 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:506 -> Card.flavor
 msgid "\"I've long awaited this...\""
 msgstr "\"여기서 나간다! 당장!\""
 
-#: src/GwentTracker/data/monsters.yml:490 -> Card.type
+#: src/GwentTracker/data/monsters.yml:507 -> Card.type
 msgid "Leader"
 msgstr "지휘관"
 
-#: src/GwentTracker/data/monsters.yml:492 -> Card.type
+#: src/GwentTracker/data/monsters.yml:509 -> Card.type
 msgid "Base Deck"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:495 -> Card.name
+#: src/GwentTracker/data/monsters.yml:512 -> Card.name
 msgid "Eredin: Commander of the Red Riders"
 msgstr "에레딘: 붉은 기수 수장"
 
-#: src/GwentTracker/data/monsters.yml:496 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:513 -> Card.flavor
 msgid "\"Have some dignity. You know how this will end.\""
 msgstr "\"신념을 가져 보라고. 어찌 될지는 알 거잖나.\""
 
-#: src/GwentTracker/data/monsters.yml:501 -> Card.area
+#: src/GwentTracker/data/monsters.yml:518 -> Card.area
 msgid "The New Port"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:507 -> Card.name
+#: src/GwentTracker/data/monsters.yml:524 -> Card.name
 msgid "Eredin: Destroyer of Worlds"
 msgstr "에레딘: 세계 파괴자"
 
-#: src/GwentTracker/data/monsters.yml:508 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:525 -> Card.flavor
 msgid "\"It is unavoidable.\""
 msgstr "\"피할 수 없으리라.\""
 
-#: src/GwentTracker/data/monsters.yml:520 -> Card.name
+#: src/GwentTracker/data/monsters.yml:537 -> Card.name
 msgid "Eredin: Bringer of Death"
 msgstr "에레딘: 죽음을 부르는 자"
 
-#: src/GwentTracker/data/monsters.yml:521 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:538 -> Card.flavor
 msgid "\"Go on. Show me your spins, pirouettes and feints. I want to watch.\""
 msgstr "\"어디 네 피루엣, 속임수, 회전을 한 번 써 보라고. 보고 싶군.\""
 
-#: src/GwentTracker/data/monsters.yml:528 -> Card.territory
+#: src/GwentTracker/data/monsters.yml:545 -> Card.territory
 msgid "Passiflora"
 msgstr "파시플로라"
 
-#: src/GwentTracker/data/monsters.yml:533 -> Card.name
+#: src/GwentTracker/data/monsters.yml:550 -> Card.name
 msgid "Eredin Bréacc Glas: The Treacherous"
 msgstr "에레딘 브레악 글라스: 배반자"
 
-#: src/GwentTracker/data/monsters.yml:534 -> Card.flavor
+#: src/GwentTracker/data/monsters.yml:551 -> Card.flavor
 msgid "\"I'm enjoying this. You are my toy.\""
 msgstr "\"난 즐기고 있거든. 넌 내 장난감이야.\""
 
-#: src/GwentTracker/data/monsters.yml:537 -> Card.type
+#: src/GwentTracker/data/monsters.yml:554 -> Card.type
 msgid "Win From NPC"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:538 -> Card.npc
+#: src/GwentTracker/data/monsters.yml:555 -> Card.npc
 msgid "Dulla kh'Amanni"
 msgstr ""
 
-#: src/GwentTracker/data/monsters.yml:539 -> Card.area
+#: src/GwentTracker/data/monsters.yml:556 -> Card.area
 msgid "Upper Mill"
 msgstr "윗 방앗간"
 
-#: src/GwentTracker/data/monsters.yml:540 -> Card.territory
+#: src/GwentTracker/data/monsters.yml:557 -> Card.territory
 msgid "Gustfields"
-msgstr ""
-
-#: src/GwentTracker/data/monsters.yml:541 -> Card.region
-msgid "Redania"
 msgstr ""
 
 #: src/GwentTracker/data/neutral.yml:2 -> Card.deck
@@ -587,241 +611,345 @@ msgstr "\"농부가 더 없으면 미끼도 괜찮은 화살 받이가 되는 �
 msgid "Special"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:9 -> Card.area
+#: src/GwentTracker/data/neutral.yml:10 -> Card.area
 msgid "Tavern"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:11 -> Card.region
+#: src/GwentTracker/data/neutral.yml:12 -> Card.region
 msgid "White Orchard"
 msgstr "백색 과수원"
 
-#: src/GwentTracker/data/neutral.yml:14 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:15 -> Card.npc
 msgid "Quartermaster"
 msgstr "병참장교"
 
-#: src/GwentTracker/data/neutral.yml:16 -> Card.territory
+#: src/GwentTracker/data/neutral.yml:17 -> Card.territory
 msgid "Crow's Perch"
 msgstr "까마귀 횃대"
 
-#: src/GwentTracker/data/neutral.yml:21 -> Card.area
+#: src/GwentTracker/data/neutral.yml:22 -> Card.area
 msgid "Seven Cats Inn"
 msgstr "일곱 고양이 여관"
 
-#: src/GwentTracker/data/neutral.yml:27 -> Card.name
+#: src/GwentTracker/data/neutral.yml:28 -> Card.name
 msgid "Commander's Horn"
 msgstr "사령관의 뿔나팔"
 
-#: src/GwentTracker/data/neutral.yml:28 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:29 -> Card.flavor
 msgid "\"Plus one to morale, minus three to hearing.\""
 msgstr "\"사기에 1점 추가, 청력에 3점 감점.\""
 
-#: src/GwentTracker/data/neutral.yml:33 -> Card.area
+#: src/GwentTracker/data/neutral.yml:35 -> Card.area
 msgid "Inn at the Crossroads"
 msgstr "교차로의 여관"
 
-#: src/GwentTracker/data/neutral.yml:38 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:40 -> Card.npc
 msgid "Marquise Serenity"
 msgstr "세레니티 후작 부인"
 
-#: src/GwentTracker/data/neutral.yml:45 -> Card.area
-msgid "The Alchemy"
-msgstr "연금술사"
-
-#: src/GwentTracker/data/neutral.yml:46 -> Card.territory
-msgid "Oxenfurt"
-msgstr "옥센푸르트"
-
-#: src/GwentTracker/data/neutral.yml:51 -> Card.name
+#: src/GwentTracker/data/neutral.yml:53 -> Card.name
 msgid "Scorch"
 msgstr "연소"
 
-#: src/GwentTracker/data/neutral.yml:52 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:54 -> Card.flavor
 msgid "\"Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.\""
 msgstr "\"불기둥은 가장 센 놈도 재로 만들지. 딴 놈들은 공황에 빠지고.\""
 
-#: src/GwentTracker/data/neutral.yml:57 -> Card.area
+#: src/GwentTracker/data/neutral.yml:60 -> Card.area
 msgid "Cunny of the Goose"
 msgstr "거위의 음부"
 
-#: src/GwentTracker/data/neutral.yml:58 -> Card.territory
+#: src/GwentTracker/data/neutral.yml:61 -> Card.territory
 msgid "Grassy Knoll"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:75 -> Card.name
+#: src/GwentTracker/data/neutral.yml:78 -> Card.name
 msgid "Biting Frost"
 msgstr "살을 에는 냉기"
 
-#: src/GwentTracker/data/neutral.yml:76 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:79 -> Card.flavor
 msgid "\"Best part about frost - bodies of the fallen don't rot so quickly.\""
 msgstr "\"혹한기의 이점이라면, 죽은 놈들 시체가 빨리 썩지 않는다는 거지.\""
 
-#: src/GwentTracker/data/neutral.yml:89 -> Card.name
+#: src/GwentTracker/data/neutral.yml:93 -> Card.name
 msgid "Impenetrable Fog"
 msgstr "빽빽한 안개"
 
-#: src/GwentTracker/data/neutral.yml:90 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:94 -> Card.flavor
 msgid "\"A good commander's dream... a bad one's horror.\""
 msgstr "\"좋은 사령관의 꿈이라…안 좋은 쪽의 끔찍한 면이지.\""
 
-#: src/GwentTracker/data/neutral.yml:103 -> Card.name
+#: src/GwentTracker/data/neutral.yml:108 -> Card.name
 msgid "Torrential Rain"
 msgstr "폭우"
 
-#: src/GwentTracker/data/neutral.yml:104 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:109 -> Card.flavor
 msgid "\"Even the rain in this land smells like piss.\""
 msgstr "\"이 땅은 어째 비까지 오줌 냄새가 나냐.\""
 
-#: src/GwentTracker/data/neutral.yml:116 -> Card.name
+#: src/GwentTracker/data/neutral.yml:122 -> Card.name
 msgid "Clear Weather"
 msgstr "맑은 날씨"
 
-#: src/GwentTracker/data/neutral.yml:117 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:123 -> Card.flavor
 msgid "\"The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all…\""
 msgstr "\"태양이다! 드로믈! 태양이라고! 의외로 희망이 있을 수도 있겠어...\""
 
-#: src/GwentTracker/data/neutral.yml:129 -> Card.name
+#: src/GwentTracker/data/neutral.yml:136 -> Card.name
 msgid "Geralt of Rivia"
 msgstr "리비아의 게롤트"
 
-#: src/GwentTracker/data/neutral.yml:130 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:137 -> Card.flavor
 msgid "\"If that's what it takes to save the world, it's better to let that world die.\""
 msgstr "\"세상을 구하는데 그런 대가가 필요하면, 그냥 망하게 두는게 낫겠군.\""
 
-#: src/GwentTracker/data/neutral.yml:135 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:142 -> Card.npc
 msgid "Thaler"
 msgstr "탈러"
 
-#: src/GwentTracker/data/neutral.yml:142 -> Card.name
+#: src/GwentTracker/data/neutral.yml:149 -> Card.name
 msgid "Vesemir"
 msgstr "베스미어"
 
-#: src/GwentTracker/data/neutral.yml:143 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:150 -> Card.flavor
 msgid "\"If you're to be hanged, ask for water. Anything can happen before they fetch it.\""
 msgstr "\"목매달릴 판이면 물을 달라 하게. 그 사이 뭔 일이 터질진 모르지.\""
 
-#: src/GwentTracker/data/neutral.yml:148 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:155 -> Card.npc
 msgid "Vivaldi"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:149 -> Card.area
+#: src/GwentTracker/data/neutral.yml:156 -> Card.area
 msgid "Vivaldi Bank"
 msgstr "비발디 은행"
 
-#: src/GwentTracker/data/neutral.yml:150 -> Card.territory
+#: src/GwentTracker/data/neutral.yml:157 -> Card.territory
 msgid "Hierarch Square"
 msgstr "주교 광장"
 
-#: src/GwentTracker/data/neutral.yml:155 -> Card.name
+#: src/GwentTracker/data/neutral.yml:162 -> Card.name
 msgid "Yennefer of Vengerberg"
 msgstr "벤거버그의 예니퍼"
 
-#: src/GwentTracker/data/neutral.yml:156 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:163 -> Card.flavor
 msgid "\"Magic is Chaos, Art and Science.  It is a curse, a blessing and a progression.\""
 msgstr "\"흑백으로 차려입고 그녀는 십이월 중순의 아침을 기억했다.\""
 
-#: src/GwentTracker/data/neutral.yml:161 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:168 -> Card.npc
 msgid "Stjepan"
 msgstr "스톄판"
 
-#: src/GwentTracker/data/neutral.yml:168 -> Card.name
+#: src/GwentTracker/data/neutral.yml:175 -> Card.name
 msgid "Cirilla Fiona Elen Riannon"
 msgstr "시릴라"
 
-#: src/GwentTracker/data/neutral.yml:169 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:176 -> Card.flavor
 msgid "\"Know when fairy tales cease to be tales? When people start believing in them.\""
 msgstr "\"언제 동화가 현실이 되는지 알아요? 사람들이 믿을 때에요.\""
 
-#: src/GwentTracker/data/neutral.yml:174 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:181 -> Card.npc
 msgid "Scoia’Tael Trader"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:175 -> Card.area
+#: src/GwentTracker/data/neutral.yml:182 -> Card.area
 msgid "Novigrad Forest"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:181 -> Card.name
+#: src/GwentTracker/data/neutral.yml:188 -> Card.name
 msgid "Triss Merigold"
 msgstr "트리스 메리골드"
 
-#: src/GwentTracker/data/neutral.yml:182 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:189 -> Card.flavor
 msgid "\"I can take care of myself. Trust me.\""
 msgstr "\"알아서 잘 한다고. 날 믿어.\""
 
-#: src/GwentTracker/data/neutral.yml:187 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:194 -> Card.npc
 msgid "Lambert"
 msgstr "램버트"
 
-#: src/GwentTracker/data/neutral.yml:188 -> Card.area
+#: src/GwentTracker/data/neutral.yml:195 -> Card.area
 msgid "The Nowhere"
 msgstr "어디에도 없는 여관"
 
-#: src/GwentTracker/data/neutral.yml:191 -> Card.notes
+#: src/GwentTracker/data/neutral.yml:198 -> Card.notes
 msgid "Before the Following the Thead quest"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:198 -> Card.region
+#: src/GwentTracker/data/neutral.yml:205 -> Card.region
 msgid "Kaer Morhen"
 msgstr "케어 모헨"
 
-#: src/GwentTracker/data/neutral.yml:199 -> Card.notes
+#: src/GwentTracker/data/neutral.yml:206 -> Card.notes
 msgid "After the Following the Thead quest"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:203 -> Card.name
+#: src/GwentTracker/data/neutral.yml:210 -> Card.name
 msgid "Dandelion"
 msgstr "단델라이온"
 
-#: src/GwentTracker/data/neutral.yml:204 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:211 -> Card.flavor
 msgid "\"Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend.\""
 msgstr "\"단델라이온. 이 냉소적인 호색한이자 사기꾼에, 내 최고의 친구여.\""
 
-#: src/GwentTracker/data/neutral.yml:210 -> Card.area
+#: src/GwentTracker/data/neutral.yml:217 -> Card.area
 msgid "Vegelbud Residence"
 msgstr "베겔버드 저택"
 
-#: src/GwentTracker/data/neutral.yml:213 -> Card.notes
+#: src/GwentTracker/data/neutral.yml:220 -> Card.notes
 msgid "Win a match at the masquerade ball"
 msgstr ""
 
-#: src/GwentTracker/data/neutral.yml:217 -> Card.name
+#: src/GwentTracker/data/neutral.yml:224 -> Card.name
 msgid "Zoltan Chivay"
 msgstr "졸탄 치베이"
 
-#: src/GwentTracker/data/neutral.yml:218 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:225 -> Card.flavor
 msgid "\"Life without old mates and booze is like a woman without a rump.\""
 msgstr "\"드워프는 친구를 위해 목도 맨다 하지 - 졸탄도 다를 게 없다고.\""
 
-#: src/GwentTracker/data/neutral.yml:222 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:229 -> Card.npc
 msgid "Scholar"
 msgstr "학자"
 
-#: src/GwentTracker/data/neutral.yml:229 -> Card.name
+#: src/GwentTracker/data/neutral.yml:236 -> Card.name
 msgid "Emiel Regis Rohellec Terzieff"
 msgstr "에밀 레지스"
 
-#: src/GwentTracker/data/neutral.yml:230 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:237 -> Card.flavor
 msgid "\"Men, the polite ones, at least, would call me a monster. A blood-drinking freak.\""
 msgstr "\"최소한, 공손한 이는 나를 괴물이라 불렀지. 피나 마시는 흉물이라고.\""
 
-#: src/GwentTracker/data/neutral.yml:241 -> Card.name
+#: src/GwentTracker/data/neutral.yml:248 -> Card.name
 msgid "Villentretenmerth"
 msgstr "빌렌트레텐메르스"
 
-#: src/GwentTracker/data/neutral.yml:242 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:249 -> Card.flavor
 msgid "\"Also calls himself Borkh Three Jackdaws… he's not the best at names.\""
 msgstr "\"자길 갈가마귀 세 마리 보르크라 칭하더군…이름 짓는 재주는 없군.\""
 
-#: src/GwentTracker/data/neutral.yml:253 -> Card.name
+#: src/GwentTracker/data/neutral.yml:260 -> Card.name
 msgid "Avallac'h"
 msgstr "아발라크"
 
-#: src/GwentTracker/data/neutral.yml:254 -> Card.flavor
+#: src/GwentTracker/data/neutral.yml:261 -> Card.flavor
 msgid "\"You humans have… unusual tastes.\""
 msgstr "\"예언을 잘 하는 법은 없네. 정확하게 하는 법만 있지.\""
 
-#: src/GwentTracker/data/neutral.yml:259 -> Card.npc
+#: src/GwentTracker/data/neutral.yml:266 -> Card.npc
 msgid "Gremist"
 msgstr "그레미스트"
+
+#: src/GwentTracker/data/neutral.yml:274 -> Card.flavor
+msgid "\"At least you now know I don't easily lose my head.\""
+msgstr "\"이제 넌 내가 쉽게 머리를 잃지 않는다는 걸 알게 됐지.\""
+
+#: src/GwentTracker/data/neutral.yml:278 -> Card.npc
+msgid "Shani"
+msgstr "샤니"
+
+#: src/GwentTracker/data/neutral.yml:279 -> Card.area
+msgid "Shani's Clinic"
+msgstr "샤니의 의원"
+
+#: src/GwentTracker/data/neutral.yml:290 -> Card.name
+msgid "Gaunter O'Dimm"
+msgstr "군터 오'딤"
+
+#: src/GwentTracker/data/neutral.yml:291 -> Card.flavor
+msgid "\"He always grants exactly what you wish for. That's the problem.\""
+msgstr "\"그는 항상 네가 바라는 걸 정확하게 이루어줘. 그게 문제야.\""
+
+#: src/GwentTracker/data/neutral.yml:296 -> Card.npc
+msgid "Hilbert"
+msgstr "힐버트"
+
+#: src/GwentTracker/data/neutral.yml:297 -> Card.area
+msgid "Borsody Auction House"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:303 -> Card.name
+msgid "Gaunter O'Dimm: Darkness"
+msgstr "군터 오'딤: 어둠"
+
+#: src/GwentTracker/data/neutral.yml:304 -> Card.flavor
+msgid "\"Fear not the shadows, but the light.\""
+msgstr "\"그림자를 두려워 말되, 빛을 두려워하라.\""
+
+#: src/GwentTracker/data/neutral.yml:315 -> Card.npc
+msgid "Trader"
+msgstr "상인"
+
+#: src/GwentTracker/data/neutral.yml:316 -> Card.area
+msgid "Circus"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:317 -> Card.territory
+msgid "Carsten"
+msgstr "카르스텐"
+
+#: src/GwentTracker/data/neutral.yml:328 -> Card.name
+msgid "Cow"
+msgstr "소"
+
+#: src/GwentTracker/data/neutral.yml:329 -> Card.flavor
+msgid "\"Mooo!\""
+msgstr "\"음매!\""
+
+#: src/GwentTracker/data/neutral.yml:333 -> Card.area
+msgid "Barn"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:334 -> Card.territory
+msgid "Brunwich"
+msgstr "브룬위치"
+
+#: src/GwentTracker/data/neutral.yml:339 -> Card.name
+msgid "Bovine Defense Force"
+msgstr "소 방위대"
+
+#: src/GwentTracker/data/neutral.yml:340 -> Card.flavor
+msgid "\"Grrrrr!\""
+msgstr "\"음머어어!\""
+
+#: src/GwentTracker/data/neutral.yml:344 -> Card.type
+msgid "Summon"
+msgstr ""
+
+#: src/GwentTracker/data/neutral.yml:347 -> Card.name
+msgid "Skellige Storm"
+msgstr "스켈리게의 폭풍우"
+
+#: src/GwentTracker/data/neutral.yml:348 -> Card.flavor
+msgid "\"This ain't no normal storm. This here's the wrath of the gods.\""
+msgstr "\"이건 평범한 폭풍우가 아니야. 이곳의 폭풍우는 신들의 분노지.\""
+
+#: src/GwentTracker/data/neutral.yml:353 -> Card.npc
+msgid "Armorer"
+msgstr "갑옷장인"
+
+#: src/GwentTracker/data/neutral.yml:354 -> Card.area
+msgid "Tourney Grounds"
+msgstr "토너먼트 경기장"
+
+#: src/GwentTracker/data/neutral.yml:355 -> Card.territory
+msgid "Beauclair"
+msgstr "보끌레흐"
+
+#: src/GwentTracker/data/neutral.yml:356 -> Card.region
+msgid "Toussaint"
+msgstr "투생"
+
+#: src/GwentTracker/data/neutral.yml:359 -> Card.npc
+msgid "Barber"
+msgstr "이발사"
+
+#: src/GwentTracker/data/neutral.yml:365 -> Card.npc
+msgid "Butcher"
+msgstr "백정"
+
+#: src/GwentTracker/data/neutral.yml:366 -> Card.area
+msgid "Beauclair Port"
+msgstr "보끌레흐 부두"
 
 #: src/GwentTracker/data/nilfgaard.yml:2 -> Card.deck
 msgid "Nilfgaard"
@@ -882,10 +1010,6 @@ msgstr "알브리히"
 #: src/GwentTracker/data/nilfgaard.yml:56 -> Card.flavor
 msgid "\"A fireball? Of course. Whatever Your Imperial Majesty wishes.\""
 msgstr "\"화염구 말입니까? 물론이죠. 폐하께서 원하신다면야.\""
-
-#: src/GwentTracker/data/nilfgaard.yml:60 -> Card.npc
-msgid "Trader"
-msgstr "상인"
 
 #: src/GwentTracker/data/nilfgaard.yml:67 -> Card.name
 msgid "Assire var Anahid"
@@ -1079,89 +1203,85 @@ msgstr "제국 연대"
 msgid "\"The Impera Brigade never surrenders. Ever.\""
 msgstr "\"제국 연대는 절대 항복하지 않네. 절대.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:354 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:355 -> Card.name
 msgid "Nausicaa Cavalry Rider"
 msgstr "나우시카 기병 연대"
 
-#: src/GwentTracker/data/nilfgaard.yml:355 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:356 -> Card.flavor
 msgid "\"The Emperor will teach the North discipline.\""
 msgstr "\"황제 폐하께서 북쪽의 규율을 알려드릴 거다.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:378 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:380 -> Card.name
 msgid "Siege Engineer"
 msgstr "공병"
 
-#: src/GwentTracker/data/nilfgaard.yml:379 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:381 -> Card.flavor
 msgid "\"Wielded correctly, a protractor can be a deadly weapon.\""
 msgstr "\"제대로 다룬다면 분도기도 위력적인 무기가 되지.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:390 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:392 -> Card.name
 msgid "Young Emissary"
 msgstr "젊은 사절"
 
-#: src/GwentTracker/data/nilfgaard.yml:391 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:393 -> Card.flavor
 msgid "\"If I acquit myself well, perhaps next they'll post me somewhere civilized.\""
 msgstr "\"내가 처신을 잘 한다면,다음엔 좀 더 사람다운 곳에 배치해 주겠지.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:414 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:416 -> Card.name
 msgid "Siege Technician"
 msgstr "공성 지원대"
 
-#: src/GwentTracker/data/nilfgaard.yml:415 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:417 -> Card.flavor
 msgid "\"I never miss twice.\""
 msgstr "\"두 번은 안 놓친다.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:420 -> Card.area
+#: src/GwentTracker/data/nilfgaard.yml:422 -> Card.area
 msgid "Golden Sturgeon"
 msgstr "황금 철갑상어"
 
-#: src/GwentTracker/data/nilfgaard.yml:426 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:428 -> Card.name
 msgid "Emhyr var Emreis: His Imperial Majesty"
 msgstr "에미르 바 엠레이스: 제국 군주"
 
-#: src/GwentTracker/data/nilfgaard.yml:427 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:429 -> Card.flavor
 msgid "\"The skies wept when my Pavetta died. They will not weep for me.\""
 msgstr "\"나의 파베타가 죽었을 때 하늘도 울었지. 날 위해선 그러지 않더군.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:433 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:435 -> Card.name
 msgid "Emhyr var Emreis: Emperor of Nilfgaard"
 msgstr "에미르 바 엠레이스: 닐프가드 황제"
 
-#: src/GwentTracker/data/nilfgaard.yml:434 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:436 -> Card.flavor
 msgid "\"Your motives do not interest me. Only results.\""
 msgstr "\"네 동기에는 흥미가 없다. 결과만이 중요한 법이지.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:445 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:447 -> Card.name
 msgid "Emhyr var Emreis: the White Flame"
 msgstr "에미르 바 엠레이스: 백색 불꽃"
 
-#: src/GwentTracker/data/nilfgaard.yml:446 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:448 -> Card.flavor
 msgid "\"A sword is but one of many tools at a ruler's disposal.\""
 msgstr "\"칼이란 군주의 수많은 상황 타개법 중 하나일 뿐이라네.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:455 -> Card.notes
+#: src/GwentTracker/data/nilfgaard.yml:457 -> Card.notes
 msgid "Reward for completing quest"
 msgstr ""
 
-#: src/GwentTracker/data/nilfgaard.yml:459 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:461 -> Card.name
 msgid "Emhyr var Emreis: the Relentless"
 msgstr "에미르 바 엠레이스: 가차없는 자"
 
-#: src/GwentTracker/data/nilfgaard.yml:460 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:462 -> Card.flavor
 msgid "\"They do not call me the Patient. Take care they do not call you the Headless.\""
 msgstr "\"난 끈기있다 불리진 않았지. 자넨 목없는 놈 소리 안듣게 조심하게.\""
 
-#: src/GwentTracker/data/nilfgaard.yml:472 -> Card.name
+#: src/GwentTracker/data/nilfgaard.yml:474 -> Card.name
 msgid "Emhyr var Emreis: Invader of the North"
 msgstr "에미르 바 엠레이스: 북부의 침략자"
 
-#: src/GwentTracker/data/nilfgaard.yml:473 -> Card.flavor
+#: src/GwentTracker/data/nilfgaard.yml:475 -> Card.flavor
 msgid "\"Emperors command multitudes, yet cannot control two things: their time and their hearts.\""
 msgstr "\"황제는 많은 것들을 통치하지만 두 가지는 통제할 수 없다: 시간과 마음.\""
-
-#: src/GwentTracker/data/nilfgaard.yml:478 -> Card.area
-msgid "Carsten"
-msgstr "카르스텐"
 
 #: src/GwentTracker/data/northernrealms.yml:2 -> Card.deck
 msgid "Northern Realms"
@@ -1319,115 +1439,115 @@ msgstr "지독히 가난한 보병"
 msgid "\"I's a war veteran! ... spare me a crown?\""
 msgstr "\"저는 참전 용사입니다! 크라운 한 닢만 주실 수 있을까요?\""
 
-#: src/GwentTracker/data/northernrealms.yml:182 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:183 -> Card.name
 msgid "Crinfrid Reavers Dragon Hunter"
 msgstr "크린프리드 광전사용잡이"
 
-#: src/GwentTracker/data/northernrealms.yml:183 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:184 -> Card.flavor
 msgid "\"Haven't had much luck with monsters of late, so we enlisted.\""
 msgstr "\"최근 괴물 때문에 행운을 바라기 어려워져 지원했습니다.\""
 
-#: src/GwentTracker/data/northernrealms.yml:207 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:209 -> Card.name
 msgid "Redanian Foot Soldier"
 msgstr "르다니아 보병"
 
-#: src/GwentTracker/data/northernrealms.yml:208 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:210 -> Card.flavor
 msgid "\"I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!\""
 msgstr "\"저는 르다니아를 위해 죽고, 죽입니다. 필요하면 벌레라도 먹겠습니다!\""
 
-#: src/GwentTracker/data/northernrealms.yml:221 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:223 -> Card.name
 msgid "Catapult"
 msgstr "투석기"
 
-#: src/GwentTracker/data/northernrealms.yml:222 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:224 -> Card.flavor
 msgid "\"The gods help those who have better catapults.\""
 msgstr "\"신들은 투석기가 좋은 쪽의 편이다.\""
 
-#: src/GwentTracker/data/northernrealms.yml:239 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:242 -> Card.name
 msgid "Ballista"
 msgstr "발리스타"
 
-#: src/GwentTracker/data/northernrealms.yml:240 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:243 -> Card.flavor
 msgid "\"Usually we give 'em female names.\" \"Like Jenny?\" \"More like Bertha.\""
 msgstr "\"보통 여자 이름을 붙이지.\" \"제니 같은?\" \"베르타에 가깝지.\""
 
-#: src/GwentTracker/data/northernrealms.yml:253 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:256 -> Card.name
 msgid "Kaedweni Siege Expert"
 msgstr "케드웬 공성 특수부대"
 
-#: src/GwentTracker/data/northernrealms.yml:254 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:257 -> Card.flavor
 msgid "\"You gotta recalibrate the arm by five degrees.\" \"Do what by the what now?\""
 msgstr "\"팔 각도를 5도쯤 조정해야겠어.\" \"지금 어떻게 뭘 하라는 겨?\""
 
-#: src/GwentTracker/data/northernrealms.yml:260 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:264 -> Card.name
 msgid "Blue Stripes Commando"
 msgstr "블루 스트라이프 특공대"
 
-#: src/GwentTracker/data/northernrealms.yml:261 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:265 -> Card.flavor
 msgid "\"I'd do anything for Temeria. Mostly, though, I kill for her.\""
 msgstr "\"테메리아를 위해 뭐든지 하겠습니다. 대부분은 그녀를 위해서지만요.\""
 
-#: src/GwentTracker/data/northernrealms.yml:274 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:279 -> Card.name
 msgid "Siege Tower"
 msgstr "공성탑"
 
-#: src/GwentTracker/data/northernrealms.yml:275 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:280 -> Card.flavor
 msgid "\"I love the clamor of siege towers in the morning. Sounds like victory.\""
 msgstr "\"아침 공성탑에서 들려오는 소리가 좋구만. 승리의 소리 같지.\""
 
-#: src/GwentTracker/data/northernrealms.yml:286 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:291 -> Card.name
 msgid "Dun Banner Medic"
 msgstr "던 배너 의무병"
 
-#: src/GwentTracker/data/northernrealms.yml:287 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:292 -> Card.flavor
 msgid "\"Stitch red to red, white to white, and everything will be all right.\""
 msgstr "\"빨강은 빨강끼리, 하양은 하양끼리 이으면 다 잘 된답니다.\""
 
-#: src/GwentTracker/data/northernrealms.yml:293 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:298 -> Card.name
 msgid "Foltest: King of Temeria"
 msgstr "폴테스트: 테메리아의 왕"
 
-#: src/GwentTracker/data/northernrealms.yml:294 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:299 -> Card.flavor
 msgid "\"It is natural and beautiful that a man should love his sister.\""
 msgstr "\"남자가 자기 여동생을 사랑하는 것은 당연하고 아름다운 일이라네.\""
 
-#: src/GwentTracker/data/northernrealms.yml:300 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:305 -> Card.name
 msgid "Foltest: Lord Commander of the North"
 msgstr "폴테스트: 북부 영주들의 사령관"
 
-#: src/GwentTracker/data/northernrealms.yml:301 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:306 -> Card.flavor
 msgid "\"Sod advisors and their schemes. I place my trust in my soldiers' blades.\""
 msgstr "\"고문관이랑 걔네 계획은 싹 밥맛이야. 차라리 우리 애들 칼을 믿지.\""
 
-#: src/GwentTracker/data/northernrealms.yml:312 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:317 -> Card.name
 msgid "Foltest: the Siegemaster"
 msgstr "폴테스트: 공성의 달인"
 
-#: src/GwentTracker/data/northernrealms.yml:313 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:318 -> Card.flavor
 msgid "\"A well-aimed ballista razes not just the enemy's walls, but his morale as well.\""
 msgstr "\"발리스타가 명중하면 적의 성벽 뿐만 아니라, 사기까지 무너지지.\""
 
-#: src/GwentTracker/data/northernrealms.yml:317 -> Card.npc
+#: src/GwentTracker/data/northernrealms.yml:322 -> Card.npc
 msgid "Nilfgaardian Nobleman"
 msgstr "닐프가드 상류층"
 
-#: src/GwentTracker/data/northernrealms.yml:320 -> Card.region
+#: src/GwentTracker/data/northernrealms.yml:325 -> Card.region
 msgid "Royal Palace in Vizima"
 msgstr "비지마 왕성"
 
-#: src/GwentTracker/data/northernrealms.yml:324 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:329 -> Card.name
 msgid "Foltest: the Steel-Forged"
 msgstr "폴테스트: 강철과도 같은 자"
 
-#: src/GwentTracker/data/northernrealms.yml:325 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:330 -> Card.flavor
 msgid "\"A beautiful day for battle.\""
 msgstr "\"싸우기 좋은 날이군.\""
 
-#: src/GwentTracker/data/northernrealms.yml:337 -> Card.name
+#: src/GwentTracker/data/northernrealms.yml:342 -> Card.name
 msgid "Foltest: Son of Medell"
 msgstr "폴테스트: 메델의 아들"
 
-#: src/GwentTracker/data/northernrealms.yml:338 -> Card.flavor
+#: src/GwentTracker/data/northernrealms.yml:343 -> Card.flavor
 msgid "\"Dammit, I rule this land and I refuse to creep around its corners.\""
 msgstr "\"나는 이 왕국의 지배자다 - 구석에서 떨고 있지 않을 것이다.\""
 
@@ -1632,349 +1752,357 @@ msgid "\"Sure, I'll patch you up. Gonna cost you, though.\""
 msgstr "\"좋아요, 치료해드립죠. 하지만 치료비는 주셔야 돼요.\""
 
 #: src/GwentTracker/data/scoiatael.yml:454 -> Card.name
+msgid "Schirrú"
+msgstr "시류"
+
+#: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
+msgid "\"Time to look death in the face.\""
+msgstr "\"죽음을 직시할 때다.\""
+
+#: src/GwentTracker/data/scoiatael.yml:466 -> Card.name
 msgid "Francesca Findabair: Pureblood Elf"
 msgstr "프란체스카 핀다베어: 순혈 엘프"
 
-#: src/GwentTracker/data/scoiatael.yml:455 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:467 -> Card.flavor
 msgid "\"Ash shall fertilize the soil. By spring, the valley shall bloom once more.\""
 msgstr "\"돌 블라타나는 아엔 쉐이드를 위한 독립 피난처로 남을 수 있어요.\""
 
-#: src/GwentTracker/data/scoiatael.yml:461 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
 msgid "Francesca Findabair: Daisy of the Valley"
 msgstr "프란체스카 핀다베어: 계곡에 핀 국화"
 
-#: src/GwentTracker/data/scoiatael.yml:462 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
 msgid "\"The Elder Races have forgotten more than humans can ever hope to know.\""
 msgstr "\"고대 종족은 인간들이 알길 희망하는 것 이상으로 잊혀졌죠.\""
 
-#: src/GwentTracker/data/scoiatael.yml:473 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:485 -> Card.name
 msgid "Francesca Findabair: the Beautiful"
 msgstr "프란체스카 핀다베어: 아름다운 여인"
 
-#: src/GwentTracker/data/scoiatael.yml:474 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:486 -> Card.flavor
 msgid "\"Do not let my beauty distract your aim.\""
 msgstr "\"내 미모에 반해 조준이 흐트러지면 안 돼요!\""
 
-#: src/GwentTracker/data/scoiatael.yml:486 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
 msgid "Francesca Findabair: Queen of Dol Blathanna"
 msgstr "프란체스카 핀다베어: 돌 블라타나의 여왕"
 
-#: src/GwentTracker/data/scoiatael.yml:487 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
 msgid "\"To live in peace, we first must kill. This is human oppression's cruel finale.\""
 msgstr "\"편히 살려면 먼저 죽여야죠. 인간들의 탄압의 끔찍한 말로랍니다.\""
 
-#: src/GwentTracker/data/scoiatael.yml:499 -> Card.name
+#: src/GwentTracker/data/scoiatael.yml:512 -> Card.name
 msgid "Francesca Findabair: Hope of the Aen Seidhe"
 msgstr "프렌체스카 핀다베어: 아엔 쉐이드의 희망"
 
-#: src/GwentTracker/data/scoiatael.yml:500 -> Card.flavor
+#: src/GwentTracker/data/scoiatael.yml:513 -> Card.flavor
 msgid "\"Daede sian caente, Aen Seidhe en'allane ael coeden…\""
 msgstr "\"다에드 시안 카엔테, 아엔 쉐이드 엔'알레인 아엘 코이덴…\""
 
 #: src/GwentTracker/data/skellige.yml:4 -> Card.name
-msgid "Hemdall"
-msgstr "헴달"
+msgid "Mardroeme"
+msgstr "마드로엠므"
 
 #: src/GwentTracker/data/skellige.yml:5 -> Card.flavor
-msgid "\"When the time of the White Frost comes, Hemdall will sound the call for battle.\""
-msgstr "\"백색 서리의 때가 도래하면, 헴달이 전쟁 소집 나팔을 불 것이다.\""
+msgid "\"Eat enough of them, and the world will never be the same…\""
+msgstr "\"이걸 충분히 먹으면, 이 세상을 보는 눈이 영원히 달라질 거야…\""
 
-#: src/GwentTracker/data/skellige.yml:8 -> Card.type
-msgid "Summon"
-msgstr ""
-
-#: src/GwentTracker/data/skellige.yml:11 -> Card.name
-msgid "Hjalmar"
-msgstr "얄마르"
-
-#: src/GwentTracker/data/skellige.yml:12 -> Card.flavor
-msgid "\"Instead of mournin' the fallen, let's drink to their memory!\""
-msgstr "\"떠난 자들을 애도하기보다는 그들을 기억하며 건배하자!\""
-
-#: src/GwentTracker/data/skellige.yml:15 -> Card.type
+#: src/GwentTracker/data/skellige.yml:9 -> Card.type
 msgid "B&W Base Deck"
 msgstr ""
 
-#: src/GwentTracker/data/skellige.yml:19 -> Card.name
-msgid "Cerys"
-msgstr "세리스"
+#: src/GwentTracker/data/skellige.yml:12 -> Card.npc
+msgid "Madame"
+msgstr "마담"
 
-#: src/GwentTracker/data/skellige.yml:20 -> Card.flavor
-msgid "\"They call me Sparrowhawk, know why? Because I eat rats like you for breakfast.\""
-msgstr "\"사람들은 날 새매라고 불러. 왜인지 알아? 아침으로 너같은 쥐새끼들을 먹거든.\""
+#: src/GwentTracker/data/skellige.yml:13 -> Card.area
+msgid "The Belles of Beauclair"
+msgstr "보끌레흐의 미녀와 종소리"
 
-#: src/GwentTracker/data/skellige.yml:25 -> Card.area
-msgid "The Barrel and Bung Inn"
-msgstr "통과 마개 여관"
-
-#: src/GwentTracker/data/skellige.yml:26 -> Card.territory
-msgid "Flovive"
-msgstr "플로바이브"
-
-#: src/GwentTracker/data/skellige.yml:27 -> Card.region
-msgid "Toussaint"
-msgstr "투생"
-
-#: src/GwentTracker/data/skellige.yml:32 -> Card.flavor
-msgid "\"Only the ignorant dismiss the importance of myths.\""
-msgstr "\"신화의 중요성을 무시하는 건 멍청이들 뿐이야\""
-
-#: src/GwentTracker/data/skellige.yml:37 -> Card.area
-msgid "Francollarts"
-msgstr "프랑콜라트"
-
-#: src/GwentTracker/data/skellige.yml:38 -> Card.territory
-msgid "Caroberta Woods"
-msgstr "카로베르타 숲"
-
-#: src/GwentTracker/data/skellige.yml:43 -> Card.name
-msgid "Draig Bon-Dhu"
-msgstr "드레이그 본두"
-
-#: src/GwentTracker/data/skellige.yml:44 -> Card.flavor
-msgid "\"Hear ye now the tale of the heroic deeds of Clan an Craite.\""
-msgstr "\"안 크라이트 부족의 영웅적인 업적에 대한 이야기를 들어 보시오.\""
-
-#: src/GwentTracker/data/skellige.yml:55 -> Card.name
-msgid "Holger Blackhand"
-msgstr "검은 손 홀거"
-
-#: src/GwentTracker/data/skellige.yml:56 -> Card.flavor
-msgid "\"Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!\""
-msgstr "\"닐프가드 황제를 위해 건배하자고! 놈의 거시기가 영원히 흐물거리길!\""
-
-#: src/GwentTracker/data/skellige.yml:64 -> Card.flavor
-msgid "\"WAAAAAAAAAAGH!!!!\""
-msgstr "\"우와아아앗!!!!\""
-
-#: src/GwentTracker/data/skellige.yml:71 -> Card.name
-msgid "Donar an Hindar"
-msgstr "도나 안 힌다르"
-
-#: src/GwentTracker/data/skellige.yml:72 -> Card.flavor
-msgid "\"I've gathered all the jarls together. Now make your case.\""
-msgstr "\"모든 족장들을 모았다. 이제 말해 봐.\""
-
-#: src/GwentTracker/data/skellige.yml:79 -> Card.name
-msgid "Udalryk"
-msgstr "우달리크"
-
-#: src/GwentTracker/data/skellige.yml:80 -> Card.flavor
-msgid "\"Haaaargh! After me, if ye've the bollocks!\""
-msgstr "\"흐랴! 날 쫓아와라. 그럴 배짱이 있으면!\""
-
-#: src/GwentTracker/data/skellige.yml:87 -> Card.name
-msgid "Birna Bran"
-msgstr "비르나 브랜"
-
-#: src/GwentTracker/data/skellige.yml:88 -> Card.flavor
-msgid "\"Skellige must have a strong king. No matter what it takes.\""
-msgstr "\"스켈리게에는 강력한 왕이 필요해. 무슨 수를 써서라도.\""
-
-#: src/GwentTracker/data/skellige.yml:95 -> Card.name
-msgid "Blueboy Lugos"
-msgstr "블루보이 루고스"
-
-#: src/GwentTracker/data/skellige.yml:96 -> Card.flavor
-msgid "\"I'm damn near ready to puke from boredom.\""
-msgstr "\"지겨워서 토할 것 같군.\""
-
-#: src/GwentTracker/data/skellige.yml:103 -> Card.name
-msgid "Svanrige"
-msgstr "스반리게"
-
-#: src/GwentTracker/data/skellige.yml:104 -> Card.flavor
-msgid "\"The emperor also thought him an accidental king. At first.\""
-msgstr "\"황제도 자신이 우연히 왕이 된 거라 생각했어. 처음에는 말이야.\""
-
-#: src/GwentTracker/data/skellige.yml:111 -> Card.name
-msgid "Olaf"
-msgstr "올라프"
-
-#: src/GwentTracker/data/skellige.yml:112 -> Card.flavor
-msgid "\"Many've tried to defeat Olaf. But won't hear about it from them - they're dead.\""
-msgstr "\"많은 이들이 올라프를 물리치려 했지. 하지만 그런 소식은 듣지 못했어. 다들 죽었거든.\""
-
-#: src/GwentTracker/data/skellige.yml:116 -> Card.npc
-msgid "Sommelier"
-msgstr "소믈리에"
-
-#: src/GwentTracker/data/skellige.yml:117 -> Card.area
-msgid "The Adder and Jewels Winery"
-msgstr "살무사와 보석 포도주 상점"
-
-#: src/GwentTracker/data/skellige.yml:118 -> Card.territory
-msgid "Beauclair"
-msgstr "보끌레흐"
-
-#: src/GwentTracker/data/skellige.yml:123 -> Card.name
-msgid "Berserker"
-msgstr "광전사"
-
-#: src/GwentTracker/data/skellige.yml:124 -> Card.flavor
-msgid "\"Kill, crush, cleave!\""
-msgstr "\"죽이고, 으깨고, 쪼개라!\""
-
-#: src/GwentTracker/data/skellige.yml:131 -> Card.name
-msgid "Transformed Vildkaarl"
-msgstr "변신한 빌드카알"
-
-#: src/GwentTracker/data/skellige.yml:132 -> Card.flavor
-msgid "Saw them fight once in my life… and once was enough."
-msgstr "그들이 싸우는 장면을 살면서 딱 한 번 봤지… 한 번이면 충분했어."
-
-#: src/GwentTracker/data/skellige.yml:138 -> Card.name
-msgid "Young Berserker"
-msgstr "젊은 광전사"
-
-#: src/GwentTracker/data/skellige.yml:139 -> Card.flavor
-msgid "\"Want some?\""
-msgstr "\"맞을래?\""
-
-#: src/GwentTracker/data/skellige.yml:145 -> Card.npc
-msgid "Blacksmith"
-msgstr "대장장이"
-
-#: src/GwentTracker/data/skellige.yml:146 -> Card.area
-msgid "Tourney Grounds"
-msgstr "토너먼트 경기장"
-
-#: src/GwentTracker/data/skellige.yml:147 -> Card.territory
-msgid "Sansretour Valley"
-msgstr "생르투 계곡"
-
-#: src/GwentTracker/data/skellige.yml:151 -> Card.npc
-msgid "Pierre"
-msgstr "피에르"
-
-#: src/GwentTracker/data/skellige.yml:152 -> Card.area
-msgid "Tailor's Workshop"
-msgstr "재단사의 작업실"
-
-#: src/GwentTracker/data/skellige.yml:153 -> Card.territory
-msgid "Hauteville"
-msgstr "호트빌"
-
-#: src/GwentTracker/data/skellige.yml:158 -> Card.name
-msgid "Transformed Young Vildkaarl"
-msgstr "변신한 젊은 빌드카알"
-
-#: src/GwentTracker/data/skellige.yml:159 -> Card.flavor
-msgid "Rooaaaar!"
-msgstr "크르릉!"
-
-#: src/GwentTracker/data/skellige.yml:165 -> Card.name
-msgid "Clan an Craite Warrior"
-msgstr "안 크라이트 부족 전사"
-
-#: src/GwentTracker/data/skellige.yml:166 -> Card.flavor
-msgid "\"I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!\""
-msgstr "\"난 안 크라이트의 이름을 드높일 거다. 시인들은 내 이름을 칭송하느라 목이 쉬겠지!\""
-
-#: src/GwentTracker/data/skellige.yml:173 -> Card.name
-msgid "Clan Tordarroch Armorsmith"
-msgstr "토다로흐 부족 갑옷 장인"
-
-#: src/GwentTracker/data/skellige.yml:174 -> Card.flavor
-msgid "\"Ye're in for a poundin'.\""
-msgstr "\"두들겨 맞으러 왔나.\""
-
-#: src/GwentTracker/data/skellige.yml:181 -> Card.name
-msgid "Clan Heymaey Skald"
-msgstr "헤이마이 부족 음유 시인"
-
-#: src/GwentTracker/data/skellige.yml:182 -> Card.flavor
-msgid "\"The deeds of Clan Heymaey will go down in history.\""
-msgstr "\"헤이마이 부족의 업적은 역사에 길이 남을 것이다.\""
-
-#: src/GwentTracker/data/skellige.yml:189 -> Card.name
-msgid "Light Longship"
-msgstr "가벼운 롱쉽"
-
-#: src/GwentTracker/data/skellige.yml:190 -> Card.flavor
-msgid "\"Escape them? In the waters of Skellige? Good luck.\""
-msgstr "\"스켈리게의 바다에서 그들에게서 도망치겠다고? 행운을 빌어.\""
-
-#: src/GwentTracker/data/skellige.yml:197 -> Card.area
-msgid "Perfumery"
-msgstr "향료 상점"
-
-#: src/GwentTracker/data/skellige.yml:203 -> Card.name
-msgid "War Longship"
-msgstr "전투용 롱쉽"
-
-#: src/GwentTracker/data/skellige.yml:204 -> Card.flavor
-msgid "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
-msgstr "\"롱쉽이 전투를 떠날 때마다 헴달의 심장이 부푼다는 말이 있어.\""
-
-#: src/GwentTracker/data/skellige.yml:217 -> Card.name
-msgid "Clan Brokvar Archer"
-msgstr "브록바 부족 궁수"
-
-#: src/GwentTracker/data/skellige.yml:218 -> Card.flavor
-msgid "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
-msgstr "\"200보 떨어진 곳의 움직이는 과녁을 맞출 수 있다고? 나도야. 심지어 폭풍우 속이라도 말이야.\""
-
-#: src/GwentTracker/data/skellige.yml:224 -> Card.npc
+#: src/GwentTracker/data/skellige.yml:18 -> Card.npc
 msgid "Herbalist"
 msgstr "약초사"
 
-#: src/GwentTracker/data/skellige.yml:225 -> Card.area
+#: src/GwentTracker/data/skellige.yml:19 -> Card.area
+msgid "Herb Store"
+msgstr "약초 상점"
+
+#: src/GwentTracker/data/skellige.yml:20 -> Card.territory
+msgid "Hauteville"
+msgstr "호트빌"
+
+#: src/GwentTracker/data/skellige.yml:25 -> Card.name
+msgid "Hemdall"
+msgstr "헴달"
+
+#: src/GwentTracker/data/skellige.yml:26 -> Card.flavor
+msgid "\"When the time of the White Frost comes, Hemdall will sound the call for battle.\""
+msgstr "\"백색 서리의 때가 도래하면, 헴달이 전쟁 소집 나팔을 불 것이다.\""
+
+#: src/GwentTracker/data/skellige.yml:33 -> Card.name
+msgid "Hjalmar"
+msgstr "얄마르"
+
+#: src/GwentTracker/data/skellige.yml:34 -> Card.flavor
+msgid "\"Instead of mournin' the fallen, let's drink to their memory!\""
+msgstr "\"떠난 자들을 애도하기보다는 그들을 기억하며 건배하자!\""
+
+#: src/GwentTracker/data/skellige.yml:41 -> Card.name
+msgid "Cerys"
+msgstr "세리스"
+
+#: src/GwentTracker/data/skellige.yml:42 -> Card.flavor
+msgid "\"They call me Sparrowhawk, know why? Because I eat rats like you for breakfast.\""
+msgstr "\"사람들은 날 새매라고 불러. 왜인지 알아? 아침으로 너같은 쥐새끼들을 먹거든.\""
+
+#: src/GwentTracker/data/skellige.yml:47 -> Card.area
+msgid "The Barrel and Bung Inn"
+msgstr "통과 마개 여관"
+
+#: src/GwentTracker/data/skellige.yml:48 -> Card.territory
+msgid "Flovive"
+msgstr "플로바이브"
+
+#: src/GwentTracker/data/skellige.yml:54 -> Card.flavor
+msgid "\"Only the ignorant dismiss the importance of myths.\""
+msgstr "\"신화의 중요성을 무시하는 건 멍청이들 뿐이야\""
+
+#: src/GwentTracker/data/skellige.yml:59 -> Card.area
+msgid "Francollarts"
+msgstr "프랑콜라트"
+
+#: src/GwentTracker/data/skellige.yml:60 -> Card.territory
+msgid "Caroberta Woods"
+msgstr "카로베르타 숲"
+
+#: src/GwentTracker/data/skellige.yml:65 -> Card.name
+msgid "Draig Bon-Dhu"
+msgstr "드레이그 본두"
+
+#: src/GwentTracker/data/skellige.yml:66 -> Card.flavor
+msgid "\"Hear ye now the tale of the heroic deeds of Clan an Craite.\""
+msgstr "\"안 크라이트 부족의 영웅적인 업적에 대한 이야기를 들어 보시오.\""
+
+#: src/GwentTracker/data/skellige.yml:77 -> Card.name
+msgid "Holger Blackhand"
+msgstr "검은 손 홀거"
+
+#: src/GwentTracker/data/skellige.yml:78 -> Card.flavor
+msgid "\"Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!\""
+msgstr "\"닐프가드 황제를 위해 건배하자고! 놈의 거시기가 영원히 흐물거리길!\""
+
+#: src/GwentTracker/data/skellige.yml:86 -> Card.flavor
+msgid "\"WAAAAAAAAAAGH!!!!\""
+msgstr "\"우와아아앗!!!!\""
+
+#: src/GwentTracker/data/skellige.yml:93 -> Card.name
+msgid "Donar an Hindar"
+msgstr "도나 안 힌다르"
+
+#: src/GwentTracker/data/skellige.yml:94 -> Card.flavor
+msgid "\"I've gathered all the jarls together. Now make your case.\""
+msgstr "\"모든 족장들을 모았다. 이제 말해 봐.\""
+
+#: src/GwentTracker/data/skellige.yml:101 -> Card.name
+msgid "Udalryk"
+msgstr "우달리크"
+
+#: src/GwentTracker/data/skellige.yml:102 -> Card.flavor
+msgid "\"Haaaargh! After me, if ye've the bollocks!\""
+msgstr "\"흐랴! 날 쫓아와라. 그럴 배짱이 있으면!\""
+
+#: src/GwentTracker/data/skellige.yml:109 -> Card.name
+msgid "Birna Bran"
+msgstr "비르나 브랜"
+
+#: src/GwentTracker/data/skellige.yml:110 -> Card.flavor
+msgid "\"Skellige must have a strong king. No matter what it takes.\""
+msgstr "\"스켈리게에는 강력한 왕이 필요해. 무슨 수를 써서라도.\""
+
+#: src/GwentTracker/data/skellige.yml:117 -> Card.name
+msgid "Blueboy Lugos"
+msgstr "블루보이 루고스"
+
+#: src/GwentTracker/data/skellige.yml:118 -> Card.flavor
+msgid "\"I'm damn near ready to puke from boredom.\""
+msgstr "\"지겨워서 토할 것 같군.\""
+
+#: src/GwentTracker/data/skellige.yml:125 -> Card.name
+msgid "Svanrige"
+msgstr "스반리게"
+
+#: src/GwentTracker/data/skellige.yml:126 -> Card.flavor
+msgid "\"The emperor also thought him an accidental king. At first.\""
+msgstr "\"황제도 자신이 우연히 왕이 된 거라 생각했어. 처음에는 말이야.\""
+
+#: src/GwentTracker/data/skellige.yml:133 -> Card.name
+msgid "Olaf"
+msgstr "올라프"
+
+#: src/GwentTracker/data/skellige.yml:134 -> Card.flavor
+msgid "\"Many've tried to defeat Olaf. But won't hear about it from them - they're dead.\""
+msgstr "\"많은 이들이 올라프를 물리치려 했지. 하지만 그런 소식은 듣지 못했어. 다들 죽었거든.\""
+
+#: src/GwentTracker/data/skellige.yml:138 -> Card.npc
+msgid "Sommelier"
+msgstr "소믈리에"
+
+#: src/GwentTracker/data/skellige.yml:139 -> Card.area
+msgid "The Adder and Jewels Winery"
+msgstr "살무사와 보석 포도주 상점"
+
+#: src/GwentTracker/data/skellige.yml:145 -> Card.name
+msgid "Berserker"
+msgstr "광전사"
+
+#: src/GwentTracker/data/skellige.yml:146 -> Card.flavor
+msgid "\"Kill, crush, cleave!\""
+msgstr "\"죽이고, 으깨고, 쪼개라!\""
+
+#: src/GwentTracker/data/skellige.yml:153 -> Card.name
+msgid "Transformed Vildkaarl"
+msgstr "변신한 빌드카알"
+
+#: src/GwentTracker/data/skellige.yml:154 -> Card.flavor
+msgid "Saw them fight once in my life… and once was enough."
+msgstr "그들이 싸우는 장면을 살면서 딱 한 번 봤지… 한 번이면 충분했어."
+
+#: src/GwentTracker/data/skellige.yml:161 -> Card.name
+msgid "Young Berserker"
+msgstr "젊은 광전사"
+
+#: src/GwentTracker/data/skellige.yml:162 -> Card.flavor
+msgid "\"Want some?\""
+msgstr "\"맞을래?\""
+
+#: src/GwentTracker/data/skellige.yml:169 -> Card.npc
+msgid "Blacksmith"
+msgstr "대장장이"
+
+#: src/GwentTracker/data/skellige.yml:171 -> Card.territory
+msgid "Sansretour Valley"
+msgstr "생르투 계곡"
+
+#: src/GwentTracker/data/skellige.yml:175 -> Card.npc
+msgid "Pierre"
+msgstr "피에르"
+
+#: src/GwentTracker/data/skellige.yml:176 -> Card.area
+msgid "Tailor's Workshop"
+msgstr "재단사의 작업실"
+
+#: src/GwentTracker/data/skellige.yml:182 -> Card.name
+msgid "Transformed Young Vildkaarl"
+msgstr "변신한 젊은 빌드카알"
+
+#: src/GwentTracker/data/skellige.yml:183 -> Card.flavor
+msgid "Rooaaaar!"
+msgstr "크르릉!"
+
+#: src/GwentTracker/data/skellige.yml:190 -> Card.name
+msgid "Clan an Craite Warrior"
+msgstr "안 크라이트 부족 전사"
+
+#: src/GwentTracker/data/skellige.yml:191 -> Card.flavor
+msgid "\"I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!\""
+msgstr "\"난 안 크라이트의 이름을 드높일 거다. 시인들은 내 이름을 칭송하느라 목이 쉬겠지!\""
+
+#: src/GwentTracker/data/skellige.yml:199 -> Card.name
+msgid "Clan Tordarroch Armorsmith"
+msgstr "토다로흐 부족 갑옷 장인"
+
+#: src/GwentTracker/data/skellige.yml:200 -> Card.flavor
+msgid "\"Ye're in for a poundin'.\""
+msgstr "\"두들겨 맞으러 왔나.\""
+
+#: src/GwentTracker/data/skellige.yml:207 -> Card.name
+msgid "Clan Heymaey Skald"
+msgstr "헤이마이 부족 음유 시인"
+
+#: src/GwentTracker/data/skellige.yml:208 -> Card.flavor
+msgid "\"The deeds of Clan Heymaey will go down in history.\""
+msgstr "\"헤이마이 부족의 업적은 역사에 길이 남을 것이다.\""
+
+#: src/GwentTracker/data/skellige.yml:215 -> Card.name
+msgid "Light Longship"
+msgstr "가벼운 롱쉽"
+
+#: src/GwentTracker/data/skellige.yml:216 -> Card.flavor
+msgid "\"Escape them? In the waters of Skellige? Good luck.\""
+msgstr "\"스켈리게의 바다에서 그들에게서 도망치겠다고? 행운을 빌어.\""
+
+#: src/GwentTracker/data/skellige.yml:226 -> Card.area
+msgid "Perfumery"
+msgstr "향료 상점"
+
+#: src/GwentTracker/data/skellige.yml:232 -> Card.name
+msgid "War Longship"
+msgstr "전투용 롱쉽"
+
+#: src/GwentTracker/data/skellige.yml:233 -> Card.flavor
+msgid "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
+msgstr "\"롱쉽이 전투를 떠날 때마다 헴달의 심장이 부푼다는 말이 있어.\""
+
+#: src/GwentTracker/data/skellige.yml:249 -> Card.name
+msgid "Clan Brokvar Archer"
+msgstr "브록바 부족 궁수"
+
+#: src/GwentTracker/data/skellige.yml:250 -> Card.flavor
+msgid "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
+msgstr "\"200보 떨어진 곳의 움직이는 과녁을 맞출 수 있다고? 나도야. 심지어 폭풍우 속이라도 말이야.\""
+
+#: src/GwentTracker/data/skellige.yml:260 -> Card.area
 msgid "Castel Ravello Vineyard"
 msgstr "카스텔 라벨로 포도 농장"
 
-#: src/GwentTracker/data/skellige.yml:231 -> Card.name
+#: src/GwentTracker/data/skellige.yml:266 -> Card.name
 msgid "Clan Drummond Shield Maiden"
 msgstr "드루먼드 부족 방패 여전사"
 
-#: src/GwentTracker/data/skellige.yml:232 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:267 -> Card.flavor
 msgid "\"They'll shatter on our shields like waves on a rocky shore.\""
 msgstr "\"놈들은 바위 해변에 부서지는 파도처럼, 우리 방패에 박살날 것이다.\""
 
-#: src/GwentTracker/data/skellige.yml:239 -> Card.name
+#: src/GwentTracker/data/skellige.yml:274 -> Card.name
 msgid "Clan Dimun Pirate"
 msgstr "디문 부족 해적"
 
-#: src/GwentTracker/data/skellige.yml:240 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:275 -> Card.flavor
 msgid "\"Can see the fear in their eyes. Fear o' me… fear o' Clan Dimun!\""
 msgstr "\"놈들의 눈에 두려움이 비치는군. 나에 대한 두려움… 디문 부족에 대한 두려움!\""
 
-#: src/GwentTracker/data/skellige.yml:245 -> Card.area
+#: src/GwentTracker/data/skellige.yml:280 -> Card.area
 msgid "Dupont & Sons Emporium of Diverse Merchandise"
 msgstr ""
 
-#: src/GwentTracker/data/skellige.yml:251 -> Card.name
+#: src/GwentTracker/data/skellige.yml:286 -> Card.name
 msgid "Kambi"
 msgstr "캄비"
 
-#: src/GwentTracker/data/skellige.yml:252 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:287 -> Card.flavor
 msgid "\"When the time comes, the cockerel Kambi shall crow and awaken Hemdall.\""
 msgstr "\"때가 되면 캄비 수탉이 울어 헴달을 깨울 것이다.\""
 
-#: src/GwentTracker/data/skellige.yml:256 -> Card.npc
-msgid "Armorer"
-msgstr "갑옷장인"
-
-#: src/GwentTracker/data/skellige.yml:269 -> Card.area
+#: src/GwentTracker/data/skellige.yml:304 -> Card.area
 msgid "The Cockatrice Inn"
 msgstr "코카트리스 여관"
 
-#: src/GwentTracker/data/skellige.yml:287 -> Card.name
+#: src/GwentTracker/data/skellige.yml:322 -> Card.name
 msgid "King Bran"
 msgstr "브랜 왕"
 
-#: src/GwentTracker/data/skellige.yml:288 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:323 -> Card.flavor
 msgid "\"No one can replace Bran. Though they're sure to try.\""
 msgstr "\"아무도 브랜을 대체할 수는 없다. 시도는 하겠지만.\""
 
-#: src/GwentTracker/data/skellige.yml:292 -> Card.npc
+#: src/GwentTracker/data/skellige.yml:327 -> Card.npc
 msgid "Rafael de Surmann"
 msgstr ""
 
-#: src/GwentTracker/data/skellige.yml:293 -> Card.area
+#: src/GwentTracker/data/skellige.yml:328 -> Card.area
 msgid "The Pheasantry"
 msgstr "꿩 조롱"
 
-#: src/GwentTracker/data/skellige.yml:300 -> Card.flavor
+#: src/GwentTracker/data/skellige.yml:335 -> Card.flavor
 msgid "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones."
 msgstr "왕은 현명해야 해. 왕은 존경을 받아야 해. 왕은 배짱이 있어야 해."

@@ -58,11 +58,8 @@ function addCardsToMap() {
         addToMap "$(getEnglishString ${titleHash} true)"
         addToMap "$(getEnglishString ${descHash} false)"
     done <<< $({ xml-to-json "${data}/def_gwint_battle_king_cards.xml" | jq -r "$(jqstr battle_king_card_definitions)"; \
-                 xml-to-json "${data}/def_gwint_cards_final.xml" | jq "$(jqstr card_definitions_final)"; \
-                 echo "{ \"index\": \"145\", \"title\": \"gwint_name_ballista\", \"description\": \"gwint_desc_ballista\" }"; \
-                 echo "{ \"index\": \"146\", \"title\": \"gwint_name_ballista\", \"description\": \"gwint_desc_ballista\" }"; \
+                 xml-to-json "${data}/def_gwint_cards_final.xml" | jq "$(jqstr card_definitions_final)";
                } | jq -r '"\(.index) \(.title) \(.description)"')
-               # The ballista cards aren't in the xml data files. Not sure where their source is
 }
 
 addCardsToMap

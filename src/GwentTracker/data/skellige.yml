@@ -1,10 +1,32 @@
 ---
+-   index: 22
+    deck: Skellige
+    name: "Mardroeme"
+    flavor: "\"Eat enough of them, and the world will never be the same…\""
+    type: Special
+    maxCopies: 3
+    locations:
+        -   type: B&W Base Deck 
+            region: B&W Base Deck
+        -   type: Win from NPC
+            npc: Madame
+            area: The Belles of Beauclair
+            territory: Beauclair Port
+            region: Toussaint
+            coords: []
+        -   type: Win from NPC
+            npc: Herbalist
+            area: Herb Store
+            territory: Hauteville
+            region: Toussaint
+            coords: []
 -   index: 500
     deck: Skellige
     name: "Hemdall"
     flavor: "\"When the time of the White Frost comes, Hemdall will sound the call for battle.\""
     type: Hero
-    locations:
+    attachedTo: 525
+    locations: 
         -   type: Summon
 -   index: 501
     deck: Skellige
@@ -131,6 +153,7 @@
     name: "Transformed Vildkaarl"
     flavor: "Saw them fight once in my life… and once was enough."
     type: Unit
+    attachedTo: 513
     locations:
         -   type: Summon
 -   index: 515
@@ -159,6 +182,7 @@
     name: "Transformed Young Vildkaarl"
     flavor: "Rooaaaar!"
     type: Unit
+    attachedTo: 515
     locations:
         -   type: Summon
 -   index: 517
@@ -166,6 +190,7 @@
     name: "Clan an Craite Warrior"
     flavor: "\"I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!\""
     type: Unit
+    maxCopies: 3
     locations:
         -   type: B&W Base Deck
             region: B&W Base Deck
@@ -190,8 +215,10 @@
     name: "Light Longship"
     flavor: "\"Escape them? In the waters of Skellige? Good luck.\""
     type: Unit
-    maxCopies: 2
+    maxCopies: 3
     locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
         -   type: B&W Base Deck
             region: B&W Base Deck
         -   type: Win from NPC
@@ -205,10 +232,12 @@
     name: "War Longship"
     flavor: "\"They say Hemdall's heart swells whenever the longships sail out on a raid.\""
     type: Unit
-    maxCopies: 2
+    maxCopies: 3
     locations:
         -   type: B&W Base Deck
             region: B&W Base Deck
+        -   type: B&W Base Deck
+            region: B&W Base Deck        
         -   type: Win from NPC
             npc: Innkeeper
             area: Tourney Grounds
@@ -220,8 +249,10 @@
     name: "Clan Brokvar Archer"
     flavor: "\"So ye can hit a movin' target at two hundred paces. Me, too. In a storm.\""
     type: Unit
-    maxCopies: 2
+    maxCopies: 3
     locations:
+        -   type: B&W Base Deck
+            region: B&W Base Deck
         -   type: B&W Base Deck
             region: B&W Base Deck
         -   type: Win from NPC

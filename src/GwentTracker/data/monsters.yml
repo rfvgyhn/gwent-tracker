@@ -483,6 +483,23 @@
             territory: Ard Skellig
             region: Skellige
             coords: []
+-   index: 478
+    deck: Monsters
+    name: "Toad"
+    flavor: "\"Big. Bad. Ugly. Squats in the sewers.\""
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Olgierd von Everec
+            area: 
+            territory: 
+            region: Redania
+            coords: []
+        -   type: Loot
+            area: The Alchemy
+            territory: Oxenfurt
+            region: Redania
+            coords: []
 -   index: 4001
     deck: Monsters
     name: "Eredin: King of the Wild Hunt"

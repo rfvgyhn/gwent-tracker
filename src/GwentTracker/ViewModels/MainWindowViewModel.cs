@@ -1,4 +1,4 @@
-﻿using GwentTracker.Model;
+using GwentTracker.Model;
 using ReactiveUI;
 using Serilog;
 using System;
@@ -83,6 +83,13 @@ namespace GwentTracker.ViewModels
             set => this.RaiseAndSetIfChanged(ref _baseGameProgress, value);
         }
         
+        private CollectionProgress _bAndWProgress;
+        public CollectionProgress BandWProgress
+        {
+            get => _bAndWProgress;
+            set => this.RaiseAndSetIfChanged(ref _bAndWProgress, value);
+        }
+        
         private CollectionProgress _dlcProgress;
         public CollectionProgress DlcProgress
         {
@@ -100,6 +107,7 @@ namespace GwentTracker.ViewModels
             Messages = new ObservableCollection<MissableInfo>();
             Notifications = new Subject<string>();
             BaseGameProgress = new CollectionProgress();
+            BandWProgress = new CollectionProgress();
             DlcProgress = new CollectionProgress();
 
             var filterChanged = Filters.ObserveCollectionChanges();
@@ -148,12 +156,15 @@ namespace GwentTracker.ViewModels
                 SaveGamePath = saveGamePath;
                 
                 var requiredBase = cards.Where(c => c.Source == CardSource.BaseGame).Select(c => c.Name).Distinct().Count();
-                var requiredDlc = cards.Where(c => c.Source == CardSource.Dlc).Select(c => c.Name).Distinct().Count();
+                var totalBase = cards.Where(c => c.Source == CardSource.BaseGame).Sum(c => c.MaxCopies);
+                var requiredBandW = cards.Where(c => c.Source == CardSource.BloodAndWine).Sum(c => c.MaxCopies);
+                var totalHoS = cards.Where(c => c.Source == CardSource.HeartsOfStone).Sum(c => c.MaxCopies);
 
                 BaseGameProgress.Needed = requiredBase;
-                BaseGameProgress.Total = 200;
-                DlcProgress.Needed = requiredDlc;
-                DlcProgress.Total = 35;
+                BaseGameProgress.Total = totalBase;
+                BandWProgress.Needed = requiredBandW;
+                BandWProgress.Total = requiredBandW;
+                DlcProgress.Total = BandWProgress.Total + totalHoS;
             });
 
             Load = ReactiveCommand.CreateFromTask<string, SaveGameInfo>(LoadSaveGame);
@@ -301,31 +312,31 @@ namespace GwentTracker.ViewModels
                 Notifications.OnNext(_t[$"Obtained {cardNames}"]);
             }
 
-            var copiesBase = GetCopies(CardSource.BaseGame);
-            var copiesDlc = GetCopies(CardSource.Dlc);
-            var collectedBase = GetCollected(CardSource.BaseGame);
-            var collectedDlc = GetCollected(CardSource.Dlc);
-            BaseGameProgress.Copies = copiesBase;
-            BaseGameProgress.Collected = collectedBase;
-            DlcProgress.Copies = copiesDlc;
-            DlcProgress.Collected = collectedDlc;
+            BaseGameProgress.Copies = GetCopies(CardSource.BaseGame);
+            BaseGameProgress.Collected = GetCollected(CardSource.BaseGame);
+            BandWProgress.Collected = GetCopies(CardSource.BloodAndWine);
+            DlcProgress.Copies = GetCopies(CardSource.Dlc);
+            DlcProgress.Collected =  GetCollected(CardSource.Dlc, false);
             _initialLoadComplete = true;
         }
 
         private int GetCopies(CardSource source)
         {
             return _cards.Items
-                         .Where(c => c.Obtained && c.Source == source)
+                         .Where(c => c.Obtained && (c.Source & source) > 0)
                          .Sum(c => c.Copies);
         }
 
-        private int GetCollected(CardSource source)
+        private int GetCollected(CardSource source, bool distinctOnly = true)
         {
-            return _cards.Items
-                         .Where(c => c.Obtained && c.Source == source)
-                         .Select(c => c.Name)
-                         .Distinct()
-                         .Count();
+            var cards = _cards.Items
+                              .Where(c => c.Obtained && (c.Source & source) > 0)
+                              .Select(c => c.Name);
+            
+            if (distinctOnly)
+                cards = cards.Distinct();
+                    
+            return cards.Count();
         }
         
         private bool ShouldFilterCard(CardViewModel card)

@@ -60,7 +60,6 @@
                                 <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
                                     <Binding Path="BaseGameProgress.Collected" />
                                     <Binding Path="BaseGameProgress.Needed" />
-                                    <Binding Path="BaseGameProgress.Total" />
                                 </MultiBinding>
                             </TextBlock.Text>
                         </TextBlock>
@@ -68,9 +67,8 @@
                         <TextBlock HorizontalAlignment="Center">
                             <TextBlock.Text>
                                 <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
-                                    <Binding Path="DlcProgress.Collected" />
-                                    <Binding Path="DlcProgress.Needed" />
-                                    <Binding Path="DlcProgress.Total" />
+                                    <Binding Path="BandWProgress.Collected" />
+                                    <Binding Path="BandWProgress.Needed" />
                                 </MultiBinding>
                             </TextBlock.Text>
                         </TextBlock>

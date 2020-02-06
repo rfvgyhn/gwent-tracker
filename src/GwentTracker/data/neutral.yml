@@ -268,3 +268,102 @@
             territory: Ard Skellig
             region: Skellige
             coords: []
+-   index: 17
+    deck: Neutral
+    name: "Olgierd von Everec"
+    flavor: "\"At least you now know I don't easily lose my head.\""
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            npc: Shani
+            area: Shani's Clinic
+            territory: Oxenfurt
+            region: Novigrad
+            coords: []
+        -   type: Loot
+            area: Shani's Clinic
+            territory: Oxenfurt
+            region: Redania
+            coords: []
+-   index: 18
+    deck: Neutral
+    name: "Gaunter O'Dimm"
+    flavor: "\"He always grants exactly what you wish for. That's the problem.\""
+    type: Unit
+    locations:
+        -   type: Win from NPC
+            quest: id# (Open Sesame!)
+            npc: Hilbert
+            area: Borsody Auction House
+            territory: Oxenfurt
+            region: Redania
+            coords: []
+-   index: 19
+    deck: Neutral
+    name: "Gaunter O'Dimm: Darkness"
+    flavor: "\"Fear not the shadows, but the light.\""
+    type: Unit
+    maxCopies: 3
+    locations:
+        -   type: Buy from Trader
+            npc: Dulla kh'Amanni
+            area: Upper Mill
+            territory: Gustfields
+            region: Redania
+            coords: []
+        -   type: Buy from Trader
+            npc: Trader
+            area: Circus
+            territory: Carsten
+            region: Redania
+            coords: []
+        -   type: Buy from Trader
+            npc: Trader
+            area: Circus
+            territory: Carsten
+            region: Redania
+            coords: []
+-   index: 20
+    deck: Neutral
+    name: "Cow"
+    flavor: "\"Mooo!\""
+    type: Unit
+    locations:
+        -   type: Loot
+            area: Barn
+            territory: Brunwich
+            region: Redania
+            coords: []
+-   index: 21
+    deck: Neutral
+    name: "Bovine Defense Force"
+    flavor: "\"Grrrrr!\""
+    type: Unit
+    attachedTo: 20
+    locations:
+        -   type: Summon
+-   index: 23
+    deck: Neutral
+    name: "Skellige Storm"
+    flavor: "\"This ain't no normal storm. This here's the wrath of the gods.\""
+    type: Unit
+    maxCopies: 3
+    locations:
+        -   type: Win from NPC
+            npc: Armorer
+            area: Tourney Grounds
+            territory: Beauclair
+            region: Toussaint
+            coords: []
+        -   type: Win from NPC
+            npc: Barber
+            area: Tourney Grounds
+            territory: Beauclair
+            region: Toussaint
+            coords: []
+        -   type: Win from NPC
+            npc: Butcher
+            area: Beauclair Port
+            territory: Beauclair
+            region: Toussaint
+            coords: []
