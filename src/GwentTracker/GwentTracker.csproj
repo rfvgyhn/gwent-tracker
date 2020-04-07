@@ -31,6 +31,7 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
     <Reference Include="netstandard" />
     <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Net.Primitives" />
     <None Update="App.config">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>

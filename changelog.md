@@ -5,6 +5,7 @@
 ### Bug Fixes
 
 - Fix multi-column sort by upgrade Avalonia to 0.9.3
+- Fix crash when unable to reach remote texture path by providing a fallback texture
 
 ## [1.4.0] - 2020-02-06
 

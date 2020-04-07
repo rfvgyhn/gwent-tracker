@@ -5,7 +5,9 @@ using System.Net.Http;
 using System.Reactive;
 using System.Threading;
 using System.Threading.Tasks;
+using Avalonia;
 using Avalonia.Media.Imaging;
+using Avalonia.Platform;
 using GwentTracker.Localization;
 using GwentTracker.Model;
 using ReactiveUI;
@@ -15,6 +17,11 @@ namespace GwentTracker.ViewModels
 {
     public class CardViewModel : ReactiveObject
     {
+        private static readonly Lazy<IBitmap> FallbackTexture = new Lazy<IBitmap>(() =>
+        {
+            var assets = AvaloniaLocator.Current.GetService<IAssetLoader>();
+            return new Bitmap(assets.Open(new Uri("avares://GwentTracker/Assets/fallback.png")));
+        });
         private static readonly HttpClient HttpClient = new HttpClient(); 
         private readonly string _textureStringFormat;
         private readonly Translate _t;
@@ -46,14 +53,14 @@ namespace GwentTracker.ViewModels
                     var stream = await response.Content.ReadAsStreamAsync();
                     return new Bitmap(stream);
                 }
-                
-                // TODO: load local error bitmap
-                return null;
+
+                Log.Error("Error loading bitmap from {url}: {status}", TextureUrl, $"{(int)response.StatusCode} - {response.ReasonPhrase}");
+                return FallbackTexture.Value;
             }
             catch (Exception e)
             {
-                Log.Error(e, "Error loading bitmap for {url}", TextureUrl);
-                throw;
+                Log.Error(e, "Error loading bitmap from {url}", TextureUrl);
+                return FallbackTexture.Value;
             }
         }
 
