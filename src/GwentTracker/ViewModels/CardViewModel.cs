@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Reactive;
@@ -17,19 +18,15 @@ namespace GwentTracker.ViewModels
 {
     public class CardViewModel : ReactiveObject
     {
-        private static readonly Lazy<IBitmap> FallbackTexture = new Lazy<IBitmap>(() =>
-        {
-            var assets = AvaloniaLocator.Current.GetService<IAssetLoader>();
-            return new Bitmap(assets.Open(new Uri("avares://GwentTracker/Assets/fallback.png")));
-        });
-        private static readonly HttpClient HttpClient = new HttpClient(); 
-        private readonly string _textureStringFormat;
+        private readonly TextureInfo _textureInfo;
+        private static readonly Lazy<IBitmap> FallbackTexture = new Lazy<IBitmap>(() => LoadLocalBitmap("avares://GwentTracker/Assets/fallback.png"));
+        private static readonly HttpClient HttpClient = new HttpClient();
         private readonly Translate _t;
 
-        public CardViewModel(string textureStringFormat)
+        public CardViewModel(TextureInfo textureInfo)
         {
+            _textureInfo = textureInfo;
             _t = new Translate();
-            _textureStringFormat = textureStringFormat;
             LoadTexture = ReactiveCommand.CreateFromTask(LoadImage);
             LoadTexture.Subscribe(image =>
             {
@@ -37,33 +34,83 @@ namespace GwentTracker.ViewModels
             });
             LoadTexture.ThrownExceptions.Subscribe(e =>
             {
-                Log.Error(e, "Error loading bitmap for {url}", TextureUrl);
+                Log.Error(e, "Error loading bitmap for {url}", RemoteTextureUrl);
             });
         }
 
-        private string TextureUrl => string.Format(_textureStringFormat, Index);
+        private string RemoteTextureUrl => string.Format(_textureInfo.RemotePathFormat, Index);
+        private string LocalTextureUrl => string.Format(_textureInfo.LocalPathFormat, Index);
         private async Task<IBitmap> LoadImage(CancellationToken cancellationToken)
+        {
+            return LoadLocalBitmap(LocalTextureUrl) 
+                   ?? await LoadRemoteBitmap(RemoteTextureUrl, (_textureInfo.CacheRemote, LocalTextureUrl), cancellationToken)
+                   ?? FallbackTexture.Value;
+        }
+
+        private static IBitmap LoadLocalBitmap(string url)
         {
             try
             {
-                var response = await HttpClient.GetAsync(TextureUrl, cancellationToken);
+                if (Uri.TryCreate(url, UriKind.Absolute, out var uri) && uri.Scheme == "avares")
+                {
+                    var assets = AvaloniaLocator.Current.GetService<IAssetLoader>();
+                    var bitmap = new Bitmap(assets.Open(uri));
+
+                    Log.Debug("Using embedded texture at {uri}", uri);
+                    return bitmap;
+                }
+
+                if (!File.Exists(url))
+                {
+                    Log.Warning("Local texture doesn't exist at {url}", url);
+                    return null;
+                }
+
+                Log.Debug("Using local texture at {url}", url);
+                return new Bitmap(url);
+            }
+            catch (Exception e)
+            {
+                Log.Error(e, "Error loading bitmap from {url}", url);
+                return null;
+            }
+        }
+
+        private static async Task<IBitmap> LoadRemoteBitmap(string url, (bool enabled, string path) cache, CancellationToken cancellationToken)
+        {
+            try
+            {
+                var response = await HttpClient.GetAsync(url, cancellationToken);
 
                 if (response.IsSuccessStatusCode)
                 {
                     var stream = await response.Content.ReadAsStreamAsync();
-                    return new Bitmap(stream);
+                    var bitmap = new Bitmap(stream);
+
+                    if (cache.enabled)
+                    {
+                        var directoryInfo = new FileInfo(cache.path).Directory;
+                        if (directoryInfo != null)
+                            Directory.CreateDirectory(directoryInfo.FullName);
+                        
+                        bitmap.Save(cache.path);
+                        Log.Debug("Cached texture at {path}", cache.path);
+                    }
+
+                    Log.Debug("Using remote texture at {url}", url);
+                    return bitmap;
                 }
 
-                Log.Error("Error loading bitmap from {url}: {status}", TextureUrl, $"{(int)response.StatusCode} - {response.ReasonPhrase}");
-                return FallbackTexture.Value;
+                Log.Error("Error loading bitmap from {url}: {status}", url, $"{(int)response.StatusCode} - {response.ReasonPhrase}");
+                return null;
             }
             catch (Exception e)
             {
-                Log.Error(e, "Error loading bitmap from {url}", TextureUrl);
-                return FallbackTexture.Value;
+                Log.Error(e, "Error loading bitmap from {url}", url);
+                return null;
             }
         }
-
+        
         public ReactiveCommand<Unit, IBitmap> LoadTexture { get; }
         public int Index { get; set; }
         public string Name { get; set; }

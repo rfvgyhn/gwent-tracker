@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### New Features
+
+- Allow textures to be loaded from a local directory
+- Allow remote textures to be cached locally for future use via config option `cacheRemoteTextures`
+
 ### Bug Fixes
 
 - Fix multi-column sort by upgrade Avalonia to 0.9.3

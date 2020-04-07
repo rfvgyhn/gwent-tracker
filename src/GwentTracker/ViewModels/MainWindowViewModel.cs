@@ -98,7 +98,7 @@ namespace GwentTracker.ViewModels
             set => this.RaiseAndSetIfChanged(ref _dlcProgress, value);
         }
 
-        public MainWindowViewModel(string saveGamePath, string textureStringFormat, IObservable<string> saveDirChanges, CultureInfo cultureInfo)
+        public MainWindowViewModel(string saveGamePath, TextureInfo textureInfo, IObservable<string> saveDirChanges, CultureInfo cultureInfo)
         {
             _t = new Translate();
             _cultureInfo = cultureInfo;
@@ -134,7 +134,7 @@ namespace GwentTracker.ViewModels
             {
                 var (cardInfo, missables) = items;
                 var cards = cardInfo as List<Card> ?? cardInfo.ToList();
-                var mapped = cards.Select(c => new CardViewModel(textureStringFormat)
+                var mapped = cards.Select(c => new CardViewModel(textureInfo)
                 {
                     Index = c.Index,
                     Copies = c.Copies,
