@@ -105,6 +105,7 @@ namespace GwentTracker.ViewModels
             Activator = new ViewModelActivator();
             Filters = new ObservableCollection<string>();
             _cards = new SourceList<CardViewModel>();
+            _summons = new Dictionary<int, int>();
             Messages = new ObservableCollection<MissableInfo>();
             Notifications = new Subject<string>();
             BaseGameProgress = new CollectionProgress();
@@ -226,8 +227,7 @@ namespace GwentTracker.ViewModels
                     {
                         var contents = await reader.ReadToEndAsync();
                         var deserializedCards = deserializer.Deserialize<List<Card>>(contents);
-
-                        _summons = new Dictionary<int, int>();
+                        
                         foreach (var card in deserializedCards.Where(c => c.AttachedTo != null))
                         {
                             card.MaxCopies = deserializedCards.Where(c => c.Index == card.AttachedTo.Value).Single().MaxCopies;
