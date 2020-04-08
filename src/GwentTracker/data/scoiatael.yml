@@ -485,7 +485,7 @@
     name: "Francesca Findabair: the Beautiful"
     flavor: "\"Do not let my beauty distract your aim.\""
     type: Leader
-    maxCopies: 2
+    maxCopies: 1
     locations:
         -   type: Gwent Quest
             quest: id# (Big City Players)

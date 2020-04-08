@@ -318,6 +318,12 @@ namespace GwentTracker.ViewModels
                         summon.Obtained = true;
                         summon.Copies = copies;
                     }
+                    
+                    // Some save files report Francesca Findabair: the Beautiful as having multiple copies.
+                    // Since this is a leader card and you can only effectively have one copy, manually
+                    // fix it here.
+                    if (card.Index == 3003 && card.Copies > 1)
+                        card.Copies = 1;
                 }
             }
             

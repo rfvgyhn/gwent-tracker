@@ -10,6 +10,7 @@
 ### Enhancements
 
 - Add scrollbar to missable quests for users with high DPI settings
+- Override Francesca Findabair: the Beautiful card count for save files that report multiple copies
 
 ### Bug Fixes
 
