@@ -1,11 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="netfx.props" />
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;net472</TargetFrameworks>
+    <TargetFramework>net7.0</TargetFramework>
     <OutputType>WinExe</OutputType>
-    <Version>1.5.0</Version>
+    <VersionPrefix>1.5.1</VersionPrefix>
     <LangVersion>Latest</LangVersion>
+      <ApplicationIcon>Assets/collector.ico</ApplicationIcon>
   </PropertyGroup>
+    <PropertyGroup>
+      <PublishTrimmed>true</PublishTrimmed>
+      <TrimMode>partial</TrimMode>
+      <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+      <EnableUnsafeBinaryFormatterSerialization>false</EnableUnsafeBinaryFormatterSerialization>
+      <EnableUnsafeUTF7Encoding>false</EnableUnsafeUTF7Encoding>
+      <EventSourceSupport>false</EventSourceSupport>
+      <UseSystemResourceKeys>true</UseSystemResourceKeys>
+    </PropertyGroup>
   <ItemGroup>
     <Folder Include="Model\" />
     <Compile Update="**\*.xaml.cs">
@@ -15,26 +24,25 @@
       <SubType>Designer</SubType>
     </AvaloniaResource>
     <AvaloniaResource Include="Assets\**" />
+    <Folder Include="Properties" />
   </ItemGroup>
+    <ItemGroup>
+      <TrimmableAssembly Include="Avalonia.Themes.Fluent" />
+      <TrimmableAssembly Include="Avalonia.Themes.Default" />
+    </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.3" />
-    <PackageReference Include="Avalonia.Controls.DataGrid" Version="0.9.3" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.3" />
-    <PackageReference Include="Avalonia.ReactiveUI" Version="0.9.3" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Ini" Version="3.1.0" />
-    <PackageReference Include="NGettext" Version="0.6.5" />
-    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+    <PackageReference Include="Avalonia" Version="11.0.0-preview5" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.0.0-preview5" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.0-preview5" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.0-preview5" />
+    <PackageReference Include="Avalonia.Themes.Simple" Version="11.0.0-preview5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Ini" Version="7.0.0" />
+    <PackageReference Include="NGettext" Version="0.6.7" />
+    <PackageReference Include="Serilog.Sinks.Debug" Version="2.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     <PackageReference Include="W3SavegameEditor.Core" Version="0.2.1" />
-    <PackageReference Include="YamlDotNet" Version="8.0.0" />
-  </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
-    <Reference Include="netstandard" />
-    <Reference Include="System.Threading.Tasks" />
-    <Reference Include="System.Net.Primitives" />
-    <None Update="App.config">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
+    <PackageReference Include="YamlDotNet" Version="12.2.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Data\*.yml">

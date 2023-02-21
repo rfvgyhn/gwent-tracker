@@ -2,23 +2,10 @@
 
 set -e
 
-get_xml() {
-    grep "<$1" $2 | cut -f2 -d">" | cut -f1 -d"<"
-}
-
 publish() {
-    profile=$1
-    projPath=src/GwentTracker/GwentTracker.csproj
-    profilePath="src/GwentTracker/Properties/PublishProfiles/${profile}.pubxml"
-    configuration=$(get_xml "Configuration" ${profilePath})
-    targetFramework=$(get_xml "TargetFramework" ${profilePath})
-    runtime=$(get_xml "RuntimeIdentifier" ${profilePath})
-    publishDir=$(get_xml "PublishDir" ${profilePath} | awk -F'\\.\\./' '{print $NF}')
-    folderName=$(get_xml "PublishDir" ${profilePath} | xargs basename)
-    publishParentDir=$(echo "${publishDir}" | sed "s:/${folderName}$::")
-    version=$(get_xml "Version" ${projPath})
-    selfContained=$(get_xml "SelfContained" ${profilePath})
-    compressedName="${folderName}_${version}_${runtime}"
+    target=$1
+    version=$(grep -oPm1 "(?<=<VersionPrefix>)[^<]+" src/GwentTracker/GwentTracker.csproj) # use something like xml_grep if this regex becomes a problem
+    release_name="gwent-tracker_v${version}_$target"
     icon=$(readlink -f src/GwentTracker/Assets/collector.ico)
     rcedit=$(readlink -f tools/rcedit-x64.exe)
     
@@ -26,31 +13,25 @@ publish() {
         ./compile-po.sh
     popd
     
-    dotnet publish -c ${configuration} -f ${targetFramework} ${projPath} "/p:PublishProfile=${profile}"
-    ln -s "$(pwd)/${publishDir}" "$(pwd)/${publishParentDir}/${compressedName}"
+    dotnet restore -r $target
+    dotnet publish src/GwentTracker/GwentTracker.csproj -r "$target" --self-contained true --no-restore -o "artifacts/$release_name" -c Release -p:PublishSingleFile=true
+    cp readme.md changelog.md "artifacts/$release_name"
+    rm artifacts/"$release_name"/*.pdb
     
-    pushd "${publishParentDir}"    
-        case "$profile" in
-            linux*)
-                sed -i "s:^defaultSavePath.*$:defaultSavePath=~/.local/share/Steam/steamapps/compatdata/292030/pfx/drive_c/users/steamuser/My Documents/The Witcher 3/gamesaves/:" "${folderName}/settings.ini"
-                tar -C "${compressedName}" -cvzf "${compressedName}.tar.gz" --transform="s/^\./${compressedName}/g" .
-                ;;
-            windows)
-                mkdir -p "${folderName}/lib"
-                mv "${folderName}"/*.dll "${folderName}/lib"
-                
-                # Workaround for https://github.com/dotnet/sdk/issues/3943
-                WINEDEBUG=fixme-all wine "${rcedit}" "${folderName}/GwentTracker.exe" --set-icon "${icon}"
-                ;;
-        esac
-        
-        zip -qr -b "${XDG_RUNTIME_DIR:-/tmp}" "${compressedName}.zip" "${compressedName}"
-    popd
+    case "$target" in
+        lin*)
+            sed -i "s:^defaultSavePath.*$:defaultSavePath=~/.local/share/Steam/steamapps/compatdata/292030/pfx/drive_c/users/steamuser/My Documents/The Witcher 3/gamesaves/:" "artifacts/"$release_name"/settings.ini"
+            tar czvf "artifacts/$release_name.tar.gz" -C "artifacts" "$release_name"
+            ;;
+        win*)            
+            # Workaround for https://github.com/dotnet/sdk/issues/3943
+            WINEDEBUG=fixme-all wine "${rcedit}" "artifacts/$release_name/GwentTracker.exe" --set-icon "${icon}"
+            (cd "artifacts/$release_name" && zip -qr -b "${XDG_RUNTIME_DIR:-/tmp}" - .) > "artifacts/$release_name.zip"
+            ;;
+    esac
     
-    rm "${publishParentDir}/${compressedName}"
+    rm -r "artifacts/$release_name"
 }
 
-rm -rf dist/
-publish linux
-publish linux-selfcontained
-publish windows
+publish "linux-x64"
+publish "win-x64"

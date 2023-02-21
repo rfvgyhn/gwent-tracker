@@ -1,5 +1,5 @@
 using System;
-using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -26,22 +26,16 @@ namespace GwentTracker
             AvaloniaXamlLoader.Load(this);
         }
 
+        [UnconditionalSuppressMessage("Trimming", "IL2026:Members annotated with 'RequiresUnreferencedCodeAttribute' require dynamic access otherwise can break functionality when trimming application code", Justification = "Uses a primitive type")]
         public override void OnFrameworkInitializationCompleted()
         {
-#if SINGLE_FILE            
-            var basePath = GetBasePath();
-            Directory.SetCurrentDirectory(GetBasePath());
-#endif
             var config = new ConfigurationBuilder()
                 .AddIniFile("settings.ini", false)
-#if SINGLE_FILE
-                .SetBasePath(basePath) // Workaround for https://github.com/dotnet/core-setup/issues/7491
-#endif
                 .Build();
             var logConfig = new LoggerConfiguration()
                 .MinimumLevel.Debug()
                 .WriteTo.Debug();
-            
+
             if (config.GetValue("logToFile", false))
                 logConfig.WriteTo.File("log.txt");
                 
@@ -54,7 +48,7 @@ namespace GwentTracker
             if (latestSave == null)
                 Log.Warning("No save files (*.sav) found in default save path {path}", savePath);
 
-            var fontFamily = config["fontFamily"] ?? "";
+            var fontFamily = config["fontFamily"];
             var textureInfo = new TextureInfo(config["texturePath"], 
                                               "textures/{0}.png",
                                               config.GetValue("cacheRemoteTextures", true));
@@ -64,9 +58,10 @@ namespace GwentTracker
             {
                 desktopLifetime.MainWindow = new MainWindow()
                 {
-                    FontFamily = new FontFamily(fontFamily),
                     DataContext = new MainWindowViewModel(latestSave, textureInfo, saveDirChanges, culture)
                 };
+                if (!string.IsNullOrEmpty(fontFamily))
+                    desktopLifetime.MainWindow.FontFamily = new FontFamily(fontFamily);
             }
 
             base.OnFrameworkInitializationCompleted();
@@ -85,12 +80,6 @@ namespace GwentTracker
             }
             
             return Environment.ExpandEnvironmentVariables(configPath);
-        }
-
-        private static string GetBasePath()
-        {
-            using (var processModule = Process.GetCurrentProcess().MainModule)
-                return Path.GetDirectoryName(processModule?.FileName);
         }
 
         private static IObservable<string> ObserveSaveDirChanges(string savePath, bool autoload)
@@ -159,7 +148,7 @@ namespace GwentTracker
                     culture = CultureInfo.GetCultureInfo(cultureName);
                     CultureInfo.CurrentUICulture = culture;
                 }
-                catch (CultureNotFoundException e)
+                catch (CultureNotFoundException)
                 {
                     Log.Warning($"Invalid culture '{cultureName}' specified in settings. Falling back to system default.");
                 }

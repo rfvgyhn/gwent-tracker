@@ -11,7 +11,7 @@ using System.Reactive;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Threading.Tasks;
-using Avalonia.Threading;
+using Avalonia.ReactiveUI;
 using DynamicData;
 using DynamicData.Binding;
 using GwentTracker.Localization;

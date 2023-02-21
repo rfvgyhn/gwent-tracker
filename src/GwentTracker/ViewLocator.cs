@@ -12,9 +12,13 @@ namespace GwentTracker
     {
         public bool SupportsRecycling => false;
 
-        public IControl Build(object data)
+        public Control Build(object data)
         {
-            var name = data.GetType().FullName.Replace("ViewModel", "View");
+            var name = data.GetType().FullName?.Replace("ViewModel", "View");
+            
+            if (name is null)
+                return new TextBlock { Text = "Not Found. Unknown viewmodel" };
+            
             var type = Type.GetType(name);
 
             if (type != null)

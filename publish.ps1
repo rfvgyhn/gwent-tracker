@@ -1,30 +1,16 @@
-$projPath = "src\GwentTracker\GwentTracker.csproj"
-$proj = [xml](Get-Content $projPath)
-$profile = [xml](Get-Content src\GwentTracker\Properties\PublishProfiles\windows.pubxml)
-$configuration = $profile.Project.PropertyGroup.Configuration
-$targetFramework = $profile.Project.PropertyGroup.TargetFramework
-$runtime = $profile.Project.PropertyGroup.RuntimeIdentifier
-$version = $proj.Project.PropertyGroup.Version
+$ErrorActionPreference = "Stop"
 
-Remove-Item "dist\windows\" -Recurse
+$target="win-x64"
+[xml]$proj = Get-Content src/GwentTracker/GwentTracker.csproj
+[string]$version=$proj.Project.PropertyGroup.VersionPrefix
+$version=$version.Trim()
+$release_name="gwent-tracker_v${version}_${target}"
+$target_dir="artifacts\$release_name"
 
-dotnet publish -c $configuration -f $targetFramework $projPath /p:PublishProfile=windows
+dotnet publish -r "$target" --self-contained -o "$target_dir" -c Release -p:PublishSingleFile=true src/GwentTracker/GwentTracker.csproj
+cp readme.md,changelog.md -Destination "$target_dir" -Force
+rm "$target_dir\*" -include *.json, *.pdb
 
-pushd "dist\windows\"
+Compress-Archive -Path "$target_dir" -DestinationPath "$target_dir.zip" -Force
 
-try {
-    $source = "gwent-tracker_${version}_$runtime"
-    Rename-Item -Path "gwent-tracker" -NewName $source
-    
-    $dest = $source + "\lib"
-    $filter = $source + "\*.dll"
-        
-    if (!(Test-Path $dest)) {
-        New-Item -Path $dest -ItemType Directory -Force
-    }
-    get-childitem -Path $filter | move-item -destination $dest
-    compress-archive -force -path "$source" -destinationpath "$source.zip"
-}
-finally {
-    popd
-}
+rm -r "$target_dir"

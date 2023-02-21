@@ -3,9 +3,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:gwentTracker="clr-namespace:GwentTracker"
-        xmlns:i18n="clr-namespace:GwentTracker.Localization" 
+        xmlns:i18n="clr-namespace:GwentTracker.Localization"
+        xmlns:vm="using:GwentTracker.ViewModels"
+        xmlns:m="using:GwentTracker.Model"
+        xmlns:s="using:System"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="GwentTracker.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        x:CompileBindings="True"
         Icon="/Assets/collector.ico"
         Title="GwentTracker"
         Width="1100"
@@ -26,6 +31,9 @@
         </Style>
         <Style Selector="Button.pillRemove:pointerover Path">
             <Setter Property="Fill" Value="#555555" />
+        </Style>
+        <Style Selector="DataGridRow:nth-child(odd)">
+            <Setter Property="Background" Value="Transparent" />
         </Style>
     </Window.Styles>
     <Window.Resources>
@@ -109,14 +117,14 @@
                     </ControlTemplate>
                 </ItemsControl.Template>
                 <ItemsControl.ItemTemplate>
-                    <DataTemplate>
+                    <DataTemplate DataType="m:MissableInfo">
                         <Border CornerRadius="3" Background="{DynamicResource ThemeAccentBrush4}" Padding="4" Margin="0 4 4 0">
                             <ToolTip.Tip>
                                 <StackPanel MaxWidth="300">
                                     <TextBlock Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" />
                                     <ItemsControl Items="{Binding Notes}">
                                         <ItemsControl.ItemTemplate>
-                                            <DataTemplate>
+                                            <DataTemplate DataType="s:Array">
                                                 <TextBlock TextWrapping="Wrap" Text="{Binding ., StringFormat='* {0}'}" Margin="0 10 0 0" />
                                             </DataTemplate>
                                         </ItemsControl.ItemTemplate>
@@ -162,11 +170,11 @@
                         </ItemsPanelTemplate>
                     </ItemsControl.ItemsPanel>
                     <ItemsControl.ItemTemplate>
-                        <DataTemplate>
+                        <DataTemplate DataType="s:String">
                             <Border CornerRadius="5" BorderBrush="Black" BorderThickness="1" Padding="5 2 5 2" Margin="4 0 0 0">
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
-                                    <Button Classes="pillRemove" Command="{Binding $parent[Window].DataContext.RemoveFilter}" CommandParameter="{Binding}" />
+                                    <Button Classes="pillRemove" Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).RemoveFilter}" CommandParameter="{Binding}" />
                                 </StackPanel>
                             </Border>
                         </DataTemplate>
@@ -179,13 +187,13 @@
                 
             </DockPanel>
             <Grid Grid.Row="2">
-                <DataGrid IsReadOnly="True" Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch">
+                <DataGrid IsReadOnly="True" Name="Cards" AutoGenerateColumns="False" HorizontalAlignment="Stretch" x:DataType="vm:CardViewModel">
                     <DataGrid.Columns>
                         <DataGridCheckBoxColumn Binding="{Binding Obtained}"/>
                         <DataGridTextColumn Header="{i18n:Translate Name}" Binding="{Binding Name}"/>
                         <DataGridTemplateColumn Header="{i18n:Translate Copies}" SortMemberPath="MaxCopies">
                             <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
+                                <DataTemplate DataType="vm:CardViewModel">
                                     <TextBlock VerticalAlignment="Center">
                                         <TextBlock.Text>
                                             <MultiBinding StringFormat="{i18n:Translate {}{0}/{1}}">
