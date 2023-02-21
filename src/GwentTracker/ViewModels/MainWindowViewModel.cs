@@ -266,11 +266,13 @@ namespace GwentTracker.ViewModels
         private async Task<SaveGameInfo> LoadSaveGame(string path)
         {
             var saveGame = await SavegameFile.ReadAsync(path);
-            var cardCollection = ((BsVariable)saveGame.Variables[11]).Variables
-                                                                     .Skip(2)
-                                                                     .TakeWhile(v => v.Name != "SBSelectedDeckIndex")
-                                                                     .Where(v => v.Name == "cardIndex" || v.Name == "numCopies")
-                                                                     .ToArray();
+            var cardCollection = 
+                ((BsVariable)saveGame.Variables.Single(v => v.Name == "CR4GwintManager"))
+                .Variables
+                .Skip(2)
+                .TakeWhile(v => v.Name != "SBSelectedDeckIndex")
+                .Where(v => v.Name == "cardIndex" || v.Name == "numCopies")
+                .ToArray();
             var cards = new List<KeyValuePair<int, int>>(cardCollection.Length);
             for (var i = 0; i < cardCollection.Length; i += 2)
             {
