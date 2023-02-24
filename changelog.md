@@ -1,6 +1,6 @@
 # Changelog
 
-## [unreleased]
+## [1.5.1] - 2023-02-24
 
 ### Enhancements
 
@@ -120,7 +120,8 @@
 
 ## [0.1.0-alpha] - 2017-01-26
 
-[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.5.0...HEAD
+[unreleased]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.5.1...HEAD
+[1.5.1]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/rfvgyhn/gwent-tracker/compare/v1.2.0...v1.3.0
