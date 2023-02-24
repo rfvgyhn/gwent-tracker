@@ -124,7 +124,7 @@
                                     <TextBlock Text="{Binding QuestName}" VerticalAlignment="Center" FontWeight="Bold" />
                                     <ItemsControl Items="{Binding Notes}">
                                         <ItemsControl.ItemTemplate>
-                                            <DataTemplate DataType="s:Array">
+                                            <DataTemplate DataType="s:String">
                                                 <TextBlock TextWrapping="Wrap" Text="{Binding ., StringFormat='* {0}'}" Margin="0 10 0 0" />
                                             </DataTemplate>
                                         </ItemsControl.ItemTemplate>
