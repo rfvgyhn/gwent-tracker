@@ -1,0 +1,4 @@
+[submodule "W3SavegameEditor"]
+	path = W3SavegameEditor
+	url = https://github.com/rfvgyhn/W3SavegameEditor
+	branch = gwent-tracker

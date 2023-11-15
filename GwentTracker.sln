@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F05256B-DA9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GwentTracker", "src\GwentTracker\GwentTracker.csproj", "{52AF4092-2357-4C02-91F0-06C15FC6562A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3SavegameEditor.Core", "W3SavegameEditor\W3SavegameEditor.Core\W3SavegameEditor.Core.csproj", "{4E265117-5721-4A1E-9AB2-B4B75C434A9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{52AF4092-2357-4C02-91F0-06C15FC6562A}.Release|x64.Build.0 = Release|Any CPU
 		{52AF4092-2357-4C02-91F0-06C15FC6562A}.Release|x86.ActiveCfg = Release|Any CPU
 		{52AF4092-2357-4C02-91F0-06C15FC6562A}.Release|x86.Build.0 = Release|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Debug|x64.Build.0 = Debug|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Release|x64.Build.0 = Release|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{52AF4092-2357-4C02-91F0-06C15FC6562A} = {0F05256B-DA9E-4E0A-A9AA-F2246CE91BFF}
+		{4E265117-5721-4A1E-9AB2-B4B75C434A9F} = {0F05256B-DA9E-4E0A-A9AA-F2246CE91BFF}
 	EndGlobalSection
 EndGlobal
